@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+body {
+  font: 13px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: steelblue;
+}
+.bartext{
+text-anchor: middle;
+	font-family: sans-serif;
+	font-size: 12px;
+	fill:black;	}
+
+.x.axis path {
+  display: none;
+}
+
+.legend line {
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.tooltip{
+	text-anchor: middle;
+	font-family: sans-serif;
+	font-size: 12px;
+	fill:black;	
+}
+optgroup { font-size:14px; }
+}
+</style>
+<body>
+
+<p id="menu"><b>The decreasing Muslim population share in India</b><br><br>
+The following chart which is based on the Census 2011 data shows that Muslim (%) share in the Indian population decreases with Age. <br>
+In simple words, the Muslim people in India seem to be dying earlier than the rest of India. From a 17.29% share of the total Indian <br>
+population (Ages 0-4), they drop to a 10.68% (Ages 80+). It would be interesting to speculate the causes for the decreasing trend. <br>
+Is it due to financial reasons? Or due to a bad lifestyle?<br> <br>
+                                                         
+<b>Select a State to see the population trend of Muslims and other religious communities:<b><br><br>
+<select> <optgroup>
+<option>INDIA</option>
+<option>State - UTTAR PRADESH</option>
+<option>State - WEST BENGAL</option>
+<option>State - BIHAR</option>
+<option>State - MAHARASHTRA</option>
+<option>State - ASSAM</option>
+<option>State - KERALA</option>
+<option>State - JAMMU & KASHMIR</option>
+<option>State - ANDHRA PRADESH</option>
+<option>State - KARNATAKA</option>
+<option>State - RAJASTHAN</option>
+<option>State - GUJARAT</option>
+<option>State - JHARKHAND</option>
+<option>State - MADHYA PRADESH</option>
+<option>State - TAMIL NADU</option>
+<option>State - NCT OF DELHI</option>
+<option>State - HARYANA</option>
+<option>State - UTTARAKHAND</option>
+<option>State - ODISHA</option>
+<option>State - PUNJAB</option>
+<option>State - CHHATTISGARH</option>
+<option>State - TRIPURA</option>
+<option>State - MANIPUR</option>
+<option>State - HIMACHAL PRADESH</option>
+<option>State - MEGHALAYA</option>
+<option>State - GOA</option>
+<option>State - PUDUCHERRY</option>
+<option>State - LAKSHADWEEP</option>
+<option>State - CHANDIGARH</option>
+<option>State - NAGALAND</option>
+<option>State - ANDAMAN & NICOBAR ISLANDS</option>
+<option>State - ARUNACHAL PRADESH</option>
+<option>State - DAMAN & DIU</option>
+<option>State - MIZORAM</option>
+<option>State - DADRA & NAGAR HAVELI</option>
+<option>State - SIKKIM</option></optgroup>
+</select>
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script>
+
+var legend_width = 120;
+var margin = {top: 20, right: 100, bottom: 30, left: 45},
+    width =860-margin.left - margin.right+legend_width,
+    height = 250 - margin.top - margin.bottom;
+
+var x = d3.scale.ordinal()
+    .rangeRoundBands([0, width], .1);
+
+var y = d3.scale.linear()
+    .rangeRound([height, 0]);
+
+var color = d3.scale.ordinal()
+    .range(["#98abc5", "#99e699", "#ff8566", "#00CCCC", "#a05d56", "#d0743c", "#ff8c00"]);
+
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom");
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left")
+    .tickFormat(d3.format(".0%"));
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right+legend_width)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+	
+var menu = d3.select("#menu select").on("change", function() {
+UpdatedArea = menu.property("value");
+  d3.csv("data-PopbyReligionbyAge.csv", function(error, data) {
+  color.domain(d3.keys(data[0]).filter(function(key) { return key !== "Ages" && key!=="Area"; }));
+  data = data.filter(function(d){return d.Area == UpdatedArea});
+
+  redraw (data);
+   })});
+
+d3.csv("data-PopbyReligionbyAge.csv", function(error, data) {
+  if (error) throw error;
+
+  
+  color.domain(d3.keys(data[0]).filter(function(key) { return key !== "Ages" && key!=="Area"; }));
+  data = data.filter(function(d){return d.Area == "INDIA"})
+  draw(data)});
+ 
+
+function draw(data){
+  
+  
+  data.forEach(function(d) {
+    var y0 = 0;
+    d.religions = color.domain().map(function(name) { return {name: name, y0: y0, y1: y0 += +d[name]}; });
+    d.religions.forEach(function(d) { d.y0 /= y0; d.y1 /= y0; });// d.y0 /=y0 is same as d.y0=d.y0/y0
+	  });
+
+  //data.sort(function(a, b) { return b.ages[0].y1 - a.ages[0].y1; });
+
+  x.domain(data.map(function(d) { return d.Ages; }));
+
+  svg.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis);
+
+  svg.append("g")
+      .attr("class", "y axis")
+      .call(yAxis);
+
+var state = svg.selectAll(".state")
+      .data(data)
+	  .enter().append("g")
+      .attr("class", "state")
+      .attr("transform", function(d) { return "translate(" + x(d.Ages) + ",0)"; });
+
+
+ state.selectAll("rect")
+      .data(function(d) { return d.religions; })  
+       .enter().append("rect")
+      .attr("width", x.rangeBand())
+	  .attr("y", function(d) { return y(d.y1); })
+      .attr("height", function(d) { return y(d.y0) - y(d.y1); })
+      .style("fill", function(d) { return color(d.name); });
+	
+	state.selectAll("rect")
+      .data(function(d) { return d.religions; })  
+	  .on("mouseover",function(d,i){
+	     if (d.name != "Muslims")
+	        {var xPos = x(d3.select(this.parentNode).datum( ).Ages);
+				var yPos = parseFloat(d3.select(this).attr("y"));
+				var barheight = parseFloat(d3.select(this).attr("height"))
+				if (barheight < 10){yPos =0}				
+				d3.select(this).attr("stroke","blue").attr("stroke-width",0.8);							
+				
+			var t =	svg.append("text")
+					.attr("x",xPos+20)
+					.attr("y",yPos+barheight/2)
+					.attr("class","tooltip")
+					.text(((d.y1-d.y0)*100).toFixed(2)); 
+					console.log(t)
+            }})
+		.on("mouseout",function(){
+			svg.select(".tooltip").remove();
+			d3.select(this).attr("stroke","pink").attr("stroke-width",0.2);
+														
+		});
+	  
+
+
+  
+
+ state.selectAll(".bartext")
+      .data(function(d){return d.religions;})
+	  .enter()
+	  .append("text")
+	  .attr("class", "bartext")
+.attr("text-anchor", "middle")
+.attr("fill", "black")
+.attr("x", function(d,i) { return i*(width/data.length) -25})
+.attr("y", function(d,i) {
+    return y(d.y1)+ 15;
+})
+.text(function(d){
+     if (d.name == "Muslims"){ a= (d.y1-d.y0)*100 ; return a.toFixed(2);}}
+);
+	  
+//adding labels for data = Muslims only
+
+
+ 
+// adding legend
+  	    var legend = svg.selectAll(".legend")
+      	 	 			.data(color.domain().slice().reverse())
+    	 			    .enter().append("g")
+    				    	.attr("class", "legend")
+    	 			    	.attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+ 		 legend.append("rect")
+   	   			.attr("x", width )
+    			.attr("width", 18)
+     	    	.attr("height", 15)
+     	    	.attr("fill", color);
+
+ 		 legend.append("text")
+      		.attr("x", width+ 20)
+     	    .attr("y", 9)
+      	    .attr("dy", ".35em")
+      	    .style("text-anchor", "start")
+     	    .text(function(d) { return d; });
+
+};
+function redraw(data){
+  data.forEach(function(d) {
+    var y0 = 0;
+    d.religions = color.domain().map(function(name) { return {name: name, y0: y0, y1: y0 += +d[name]}; });
+    d.religions.forEach(function(d) { d.y0 /= y0; d.y1 /= y0; });
+  });
+
+  //data.sort(function(a, b) { return b.ages[0].y1 - a.ages[0].y1; });
+
+  x.domain(data.map(function(d) { return d.Ages; }));
+
+  
+
+  
+
+  var state = svg.selectAll(".state")
+      .data(data)
+      .attr("class", "state")
+      .attr("transform", function(d) { return "translate(" + x(d.Ages) + ",0)"; });
+
+ state.selectAll("rect")
+      .data(function(d) { return d.religions; })  
+      .attr("y", function(d) { return y(d.y1); })
+      .attr("height", function(d) { return y(d.y0) - y(d.y1); })
+      .style("fill", function(d) { return color(d.name); });
+	  
+state.selectAll("rect")
+      .data(function(d) { return d.religions; })  
+	  .on("mouseover",function(d,i){
+	     if (d.name != "Muslims")
+	        {var xPos = x(d3.select(this.parentNode).datum( ).Ages);
+				var yPos = parseFloat(d3.select(this).attr("y"));
+				var barheight = parseFloat(d3.select(this).attr("height"));
+				if (barheight < 10){yPos =0}
+								
+				d3.select(this).attr("stroke","blue").attr("stroke-width",0.8);							
+				
+			var t =	svg.append("text")
+					.attr("x",xPos+20)
+					.attr("y",yPos+barheight/2)
+					.attr("class","tooltip")
+					.text(((d.y1-d.y0)*100).toFixed(2)); 
+					console.log(t)
+            }})
+		.on("mouseout",function(){
+			svg.select(".tooltip").remove();
+			d3.select(this).attr("stroke","pink").attr("stroke-width",0.2);
+														
+		});
+ 
+ 
+ state.selectAll(".bartext")
+      .data(function(d){return d.religions;})
+	  .attr("class", "bartext")
+.attr("text-anchor", "middle")
+.attr("fill", "black")
+.attr("x", function(d,i) { return i*(width/data.length) -30})
+.attr("y", function(d,i) {
+    return y(d.y1)+10;
+})
+.text(function(d){
+     if (d.name == "Muslims"){ a= (d.y1-d.y0)*100 ; return a.toFixed(2);}}
+);
+ 
+// adding legend
+  	    var legend = svg.selectAll(".legend")
+      	 	 			.data(color.domain().slice().reverse())
+    	 			    .enter().append("g")
+    				    	.attr("class", "legend")
+    	 			    	.attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+ 		 legend.append("rect")
+   	   			.attr("x", width - 18+legend_width)
+    			.attr("width", 18)
+     	    	.attr("height", 18)
+     	    	.attr("fill", color);
+
+ 		 legend.append("text")
+      		.attr("x", width - 24+legend_width)
+     	    .attr("y", 9)
+      	    .attr("dy", ".35em")
+      	    .style("text-anchor", "end")
+     	    .text(function(d) { return d; });
+
+};
+
+</script>
