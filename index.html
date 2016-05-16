@@ -3,7 +3,7 @@
 <style>
 
 body {
-  font: 13px sans-serif;
+  font: 11px sans-serif;
 }
 
 .axis path,
@@ -41,7 +41,7 @@ optgroup { font-size:14px; }
 </style>
 <body>
 
-<p id="menu"><b>The decreasing Muslim population share in India</b><br><br>
+<p style ="font-size:13px" id="menu"><b>The decreasing Muslim population share in India</b><br><br>
 The following chart which is based on the Census 2011 data shows that Muslim (%) share in the Indian population decreases with Age. <br>
 In simple words, Muslims in India seem to be dying earlier than the rest of India. From a 17.29% share of the total Indian <br>
 population (Ages 0-4), they drop to a 10.68% (Ages 80+). It would be interesting to speculate the causes for the decreasing trend. <br>
@@ -89,13 +89,16 @@ Is it due to financial reasons? Or due to poor lifestyle choices?<br> <br>
 <option>State - DADRA & NAGAR HAVELI</option>
 <option>State - SIKKIM</option></optgroup>
 </select>
+
 <script src="//d3js.org/d3.v3.min.js"></script>
 <script>
 
 var legend_width = 120;
-var margin = {top: 20, right: 100, bottom: 30, left: 45},
-    width =860-margin.left - margin.right+legend_width,
+var margin = {top: 20, right: 30, bottom: 30, left: 55},
+    width =900-margin.left - margin.right+legend_width,
     height = 450 - margin.top - margin.bottom;
+	
+	
 
 var x = d3.scale.ordinal()
     .rangeRoundBands([0, width], .1);
@@ -159,7 +162,13 @@ function draw(data){
 
   svg.append("g")
       .attr("class", "y axis")
-      .call(yAxis);
+      .call(yAxis)
+	  .append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", ".35em")
+      .style("text-anchor", "end")
+      .text("Population %");
 
 var state = svg.selectAll(".state")
       .data(data)
@@ -323,10 +332,13 @@ state.selectAll("rect")
  		 legend.append("text")
       		.attr("x", width - 24+legend_width)
      	    .attr("y", 9)
-      	    .attr("dy", ".35em")
+      	    .attr("dy", ".35em") 
       	    .style("text-anchor", "end")
      	    .text(function(d) { return d; });
 
 };
 
 </script>
+
+<aside >Source: <a href="http://www.censusindia.gov.in/2011census/C-15.html" >Census 2011</a></aside>
+</html>
