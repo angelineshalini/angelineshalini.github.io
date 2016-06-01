@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+h1{font-size : 42 px}
+.barmale {
+  fill: #42A5F5;
+}
+.barfemale{
+ fill : #F48FB1;
+ }
+ 
+ .barmale2 {
+  fill: #1565C0;
+}
+.barfemale2{ 
+
+ fill : #EC407A;
+ }
+svg {
+background-color : lavender}
+
+.barmale:hover {
+  fill: brown;
+}
+.barfemale:hover {
+  fill: brown;
+}
+
+.bartext{
+font:11px sans-serif;
+}
+.bartext2{
+font:9px arial;
+font-weight: bold;
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  
+}
+
+.x.axis path {
+  display: none;
+}
+
+.y.axis path {
+  display: none;
+}
+
+</style>
+<body>
+
+<h1> India By Sex and Age </h1><br>
+
+<p style ="font-size:13px" id="menu"> Select Area:
+<select>
+<option>INDIA</option>
+<option>State - UTTAR PRADESH</option>
+<option>State - WEST BENGAL</option>
+<option>State - BIHAR</option>
+<option>State - MAHARASHTRA</option>
+<option>State - ASSAM</option>
+<option>State - KERALA</option>
+<option>State - JAMMU & KASHMIR</option>
+<option>State - ANDHRA PRADESH</option>
+<option>State - KARNATAKA</option>
+<option>State - RAJASTHAN</option>
+<option>State - GUJARAT</option>
+<option>State - JHARKHAND</option>
+<option>State - MADHYA PRADESH</option>
+<option>State - TAMIL NADU</option>
+<option>State - NCT OF DELHI</option>
+<option>State - HARYANA</option>
+<option>State - UTTARAKHAND</option>
+<option>State - ODISHA</option>
+<option>State - PUNJAB</option>
+<option>State - CHHATTISGARH</option>
+<option>State - TRIPURA</option>
+<option>State - MANIPUR</option>
+<option>State - HIMACHAL PRADESH</option>
+<option>State - MEGHALAYA</option>
+<option>State - GOA</option>
+<option>State - PUDUCHERRY</option>
+<option>State - LAKSHADWEEP</option>
+<option>State - CHANDIGARH</option>
+<option>State - NAGALAND</option>
+<option>State - ANDAMAN & NICOBAR ISLANDS</option>
+<option>State - ARUNACHAL PRADESH</option>
+<option>State - MIZORAM</option>
+<option>State - SIKKIM</option>
+</select></p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p style ="font-size:13px" id="rmenu">Select Religious community:
+<select> <optgroup>
+<option >All</option>
+<option>Hindus</option>
+<option >Muslims</option>
+<option >Christians</option>
+<option >Sikhs</option>
+<option >Other Minorities</option>
+</select>
+  
+<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script>
+
+
+var margin = {top: 20, right: 20, bottom: 30, left: 40},
+    width = 980 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+var xoffset = 50
+	
+var x = d3.scale.linear()
+    .range([0,0.425*width - xoffset]);
+	
+var x2 = d3.scale.linear()
+    .range([0,0.425*width - xoffset]);
+    
+
+var y = d3.scale.ordinal()
+   .rangeBands([height,0], .1);
+
+
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left");
+
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+	.attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+	  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+	
+
+var menu = d3.select("#menu select").on("change", function() {
+UpdatedArea = menu.property("value");
+  d3.csv("data-SR.csv", function(error, data) {
+  
+  data = data.filter(function(d){return d.Area == UpdatedArea});
+
+  redrawArea (data);
+   })});	
+
+d3.csv("data-SR.csv", function(error, data) {
+  if (error) throw error;
+  data = data.filter(function(d){return d.Area == "INDIA"});
+
+  draw (data);})
+
+
+
+
+var Rmenu = d3.select("#rmenu select").on("change", function() {
+UpdatedArea=menu.property("value");
+UpdatedInput = Rmenu.property("value");
+ d3.csv("data-SR.csv", function(error, data) {
+  if (error) throw error;
+  data = data.filter(function(d){return d.Area == UpdatedArea});
+  redraw(data,UpdatedInput);})});
+    
+ 
+
+
+  
+  function draw(data){
+ 
+ x.domain([0,d3.max(data.map(function(d){return parseInt(d.Females);}))]);
+x2.domain([0,d3.max(data.map(function(d){return parseInt(d.Males);}))]);
+ y.domain(data.map(function(d) { return d.Ages; })); 
+
+	  
+	 
+  svg.append("g")
+      .attr("class", "y axis")
+	  .attr ("transform","translate("+(0.5*width+15)+",0)")
+      .call(yAxis)
+    .append("text")
+     	  .attr("y", 0)
+		  .attr("x",-8)     
+      .style("text-anchor", "end")
+	  .style("font-weight","bold")
+      .text("AGE");
+
+	  // ALL INDIA
+  svg.selectAll(".barfemale")
+      .data(data)
+      .enter().append("rect")
+	  .attr("class", "barfemale")
+	  .attr("transform","translate("+(0.5*width+20)+",0)")
+      .attr("width", function(d) { return x(d.Females); })
+      .attr("height", y.rangeBand())
+      .attr("y", function(d) { return y(d.Ages); });
+	  
+ svg.selectAll(".bartext")
+    .data(data)
+	.enter().append("text")
+	.attr("class","bartext")
+	.attr("x",function(d){return  x(d.Females)+20})
+	.attr("transform","translate("+0.5*width+",0)")
+	.attr("y", function(d) { var ypos = y(d.Ages); return ypos + 0.5* y.rangeBand();})
+	.text(function(d) {return d3.format(".2s")(d.Females);})
+      //.attr("width", function(d) { return height - x(d.Females); });
+
+	  var bar2offset = 0.5*width + 35
+  svg.selectAll(".barmale")
+      .data(data)
+    .enter().append("rect")
+     .attr("x",function (d) {return width -x(d.Males)})     
+	 .attr("class", "barmale")
+	  .attr("width", function(d) { return x(d.Males); })
+      .attr("height", y.rangeBand())
+	  .attr("transform","translate(-"+bar2offset+",0)")
+	  .attr("y", function(d) { return y(d.Ages); });
+	  
+ svg.selectAll(".bartext2")
+    .data(data)
+	.enter().append("text")
+	.attr("class","bartext")
+	.attr("x",function(d){return  width- x(d.Males)-23})
+	.attr("y", function(d) { var ypos = y(d.Ages); return ypos + 0.5* y.rangeBand();})
+	 .attr("transform","translate(-"+bar2offset+",0)")
+	.text(function(d) {return d3.format(".2s")(d.Males);})
+      //.attr("width", function(d) { return height - x(d.Females); });
+ 
+
+ ////////////////////////////////
+ svg.selectAll(".barfemale2")
+      .data(data)
+      .enter().append("rect")
+	  .attr("class", "barfemale2")
+	  .attr("transform","translate("+(0.5*width+20)+",0)")
+      .attr("width", 0)
+      .attr("height", y.rangeBand())
+      .attr("y", function(d) { return y(d.Ages); });
+	  
+  svg.selectAll(".bartext3")
+    .data(data)
+	.enter().append("text")
+	.attr("class","bartext2")
+	.attr("x",function(d){return  x(d.HFemales)+25})								
+	.attr("y", function(d) { return y(d.Ages); })
+	.text("")
+	.attr("fill","lavender")
+      .attr("width", 0)
+								  
+
+	  var bar2offset = 0.5*width + 35
+	  
+  svg.selectAll(".barmale2")
+      .data(data)
+    .enter().append("rect")
+     .attr("x",function (d){ return width - x(d.HMales); })				  
+	 .attr("class", "barmale2")
+	  .attr("width", 0)								       
+      .attr("height", y.rangeBand())
+	  .attr("y", function(d) { return y(d.Ages); });
+	  
+ svg.selectAll(".bartext4")
+     .attr("id","TEXT4")
+    .data(data)
+	.enter().append("text")
+	.attr("class","bartext2")
+	.attr("x",0)								   
+	.attr("y", 0)
+	// .attr("transform","translate(-"+bar2offset+",0)")
+	 .attr("fill","lavender")
+	.text("")
+  
+/////////////////////////////// 
+svg.append("text")
+    //.attr("x", 1)
+	//.attr("y",1)
+	.attr("font-size","12px")
+	.style("font-weight","bold")
+	.text("MALES")
+	
+ svg.append("text")
+    .attr("x", width-xoffset)
+	//.attr("y",1)
+	.style("font-size","12px")
+	.style("font-weight","bold")
+	.text("FEMALES")
+
+	 };
+
+function redrawArea(data){
+ 
+     d3.selectAll("text.bartext2").remove();
+       d3.selectAll("rect.barfemale2").remove();
+	   d3.selectAll("rect.barmale2").remove();
+	   d3.selectAll("text.bartext").remove();
+       d3.selectAll("rect.barfemale").remove();
+	   d3.selectAll("rect.barmale").remove();
+	   
+	   draw(data);
+	   UpdatedInput = Rmenu.property("value");
+       redraw(data,UpdatedInput);
+	   }
+	   
+	  
+	 
+  
+ function redraw(data, UpdatedInput)	 {
+ 
+ if (UpdatedInput == "Hindus")
+  {
+svg.selectAll(".barfemale2")
+      .data(data)
+     // .enter().append("rect")
+	  .attr("class", "barfemale2")
+	  .attr("transform","translate("+(0.5*width+20)+",0)")
+      .attr("width", function(d){return x(d.HFemales)})
+      .attr("height", y.rangeBand())
+      .attr("y", function(d) { return y(d.Ages); });
+	  
+  d3.selectAll("text.bartext2").remove();
+ 
+  svg.selectAll(".bartext3")
+    .data(data)
+	.enter().append("text")
+	.attr("class","bartext2")
+	.attr("x",function(d)	{ return x(d.HFemales); })								
+	 .attr("transform","translate("+(0.5*width)+",0)")
+	.attr("y", function(d) { var ypos = y(d.Ages); return ypos + 0.5* y.rangeBand();})
+	.text(function(d)  { var Val=  d3.format(".2r")((d.HFemales/d.Females)*100); return (Val)+"%";})
+	//.attr("fill","white")
+      .attr("width", function(d){	 return height- x(d.HFemales); })
+	  .attr("font-weight", "normal")
+ 
+
+	  var bar2offset = 0.5*width + 35
+	  
+  svg.selectAll(".barmale2")
+      .data(data)
+  //  .enter().append("rect")
+     .attr("x",function (d){ return width - x(d.HMales); })				  
+	 .attr("class", "barmale2")
+	  .attr("width", function(d){	 return x(d.HMales); })								       
+      .attr("height", y.rangeBand())
+	  .attr("transform","translate(-"+bar2offset+",0)")
+	  .attr("y", function(d) { return y(d.Ages); });
+
+	  
+ svg.selectAll(".bartext4")
+    .data(data)
+	.enter().append("text")
+	.attr("class","bartext2")
+	.attr("x",function(d){return width - x(d.HMales); })								   
+	.attr("y", function(d) { var ypos = y(d.Ages); return ypos + 0.5* y.rangeBand();})
+	 .attr("transform","translate(-"+bar2offset+",0)")
+	 //.attr("fill","white")
+	.text(function(d)  {var Val1 = d3.format(".2r")((d.HMales/d.Males)*100); return (Val1)+"%";})
+}
+		
+else if (UpdatedInput == "Muslims")	{
+	svg.selectAll(".barfemale2")
+      .data(data)
+      //.enter().append("rect")
+	  .attr("class", "barfemale2")
+	  .attr("transform","translate("+(0.5*width+20)+",0)")
+      .attr("width", function(d){return x(d.MFemales)})
+      .attr("height", y.rangeBand())
+      .attr("y", function(d) { return y(d.Ages); });
+	
+   d3.selectAll("text.bartext2").remove();
+	
+  svg.selectAll(".bartext3")
+    .data(data)
+  .enter().append("text")
+	.attr("class","bartext2")
+	.attr("x",function(d)	{ return x(d.MFemales); })								
+	 .attr("transform","translate("+(0.5*width+20)+",0)")
+	.attr("y", function(d) { var ypos = y(d.Ages); return ypos + 0.5* y.rangeBand();})
+	.text(function(d)  { var Val=  d3.format(".2r")((d.MFemales/d.Females)*100); return (Val)+"%";})
+	.attr("fill","black")
+      .attr("width", function(d){	 return height- x(d.MFemales); })
+								  
+
+	  var bar2offset = 0.5*width + 35
+	  
+  svg.selectAll(".barmale2")
+      .data(data)
+   // .enter().append("rect")
+     .attr("x",function (d){ return width - x(d.MMales); })				  
+	 .attr("class", "barmale2")
+	  .attr("width", function(d){	 return x(d.MMales); })								       
+      .attr("height", y.rangeBand())
+	  .attr("transform","translate(-"+bar2offset+",0)")
+	  .attr("y", function(d) { return y(d.Ages); });
+
+   
+	  
+ svg.selectAll(".bartext4")
+    .data(data)
+	.enter().append("text")
+	.attr("class","bartext2")
+	.attr("x",function(d){return width - x(d.MMales)-23; })								   
+	.attr("y", function(d) { var ypos = y(d.Ages); return ypos + 0.5* y.rangeBand();})
+	 .attr("transform","translate(-"+bar2offset+",0)")
+	 .attr("fill","black")
+	.text(function(d)  {var Val1 = d3.format(".2r")((d.MMales/d.Males)*100); return (Val1)+"%";})
+		
+		}
+
+ else if (UpdatedInput == "Christians")	{
+	svg.selectAll(".barfemale2")
+      .data(data)
+      //.enter().append("rect")
+	  .attr("class", "barfemale2")
+	  .attr("transform","translate("+(0.5*width+20)+",0)")
+      .attr("width", function(d){return x(d.CFemales)})
+      .attr("height", y.rangeBand())
+      .attr("y", function(d) { return y(d.Ages); });
+	
+   d3.selectAll("text.bartext2").remove();
+	
+  svg.selectAll(".bartext3")
+    .data(data)
+  .enter().append("text")
+	.attr("class","bartext2")
+	.attr("x",function(d)	{ return x(d.CFemales); })								
+	 .attr("transform","translate("+(0.5*width+20)+",0)")
+	.attr("y", function(d) { var ypos = y(d.Ages); return ypos + 0.5* y.rangeBand();})
+	.text(function(d)  { var Val=  d3.format(".2r")((d.CFemales/d.Females)*100); return (Val)+"%";})
+	.attr("fill","black")
+      .attr("width", function(d){	 return height- x(d.CFemales); })
+								  
+
+	  var bar2offset = 0.5*width + 35
+	  
+  svg.selectAll(".barmale2")
+      .data(data)
+   // .enter().append("rect")
+     .attr("x",function (d){ return width - x(d.CMales); })				  
+	 .attr("class", "barmale2")
+	  .attr("width", function(d){	 return x(d.CMales); })								       
+      .attr("height", y.rangeBand())
+	  .attr("transform","translate(-"+bar2offset+",0)")
+	  .attr("y", function(d) { return y(d.Ages); });
+
+   
+	  
+ svg.selectAll(".bartext4")
+    .data(data)
+	.enter().append("text")
+	.attr("class","bartext2")
+	.attr("x",function(d){return width - x(d.CMales)-23; })								   
+	.attr("y", function(d) { var ypos = y(d.Ages); return ypos + 0.5* y.rangeBand();})
+	 .attr("transform","translate(-"+bar2offset+",0)")
+	 .attr("fill","black")
+	.text(function(d)  {var Val1 = d3.format(".2r")((d.CMales/d.Males)*100); return (Val1)+"%";})
+		
+		}
+else if (UpdatedInput == "Sikhs")	{
+	svg.selectAll(".barfemale2")
+      .data(data)
+      //.enter().append("rect")
+	  .attr("class", "barfemale2")
+	  .attr("transform","translate("+(0.5*width+20)+",0)")
+      .attr("width", function(d){return x(d.SFemales)})
+      .attr("height", y.rangeBand())
+      .attr("y", function(d) { return y(d.Ages); });
+	
+   d3.selectAll("text.bartext2").remove();
+	
+  svg.selectAll(".bartext3")
+    .data(data)
+  .enter().append("text")
+	.attr("class","bartext2")
+	.attr("x",function(d)	{ return x(d.SFemales); })								
+	 .attr("transform","translate("+(0.5*width+20)+",0)")
+	.attr("y", function(d) { var ypos = y(d.Ages); return ypos + 0.5* y.rangeBand();})
+	.text(function(d)  { var Val=  d3.format(".2r")((d.SFemales/d.Females)*100); return (Val)+"%";})
+	.attr("fill","black")
+      .attr("width", function(d){	 return height- x(d.SFemales); })
+								  
+
+	  var bar2offset = 0.5*width + 35
+	  
+  svg.selectAll(".barmale2")
+      .data(data)
+   // .enter().append("rect")
+     .attr("x",function (d){ return width - x(d.SMales); })				  
+	 .attr("class", "barmale2")
+	  .attr("width", function(d){	 return x(d.SMales); })								       
+      .attr("height", y.rangeBand())
+	  .attr("transform","translate(-"+bar2offset+",0)")
+	  .attr("y", function(d) { return y(d.Ages); });
+
+   
+	  
+ svg.selectAll(".bartext4")
+    .data(data)
+	.enter().append("text")
+	.attr("class","bartext2")
+	.attr("x",function(d){return width - x(d.SMales)-23; })								   
+	.attr("y", function(d) { var ypos = y(d.Ages); return ypos + 0.5* y.rangeBand();})
+	 .attr("transform","translate(-"+bar2offset+",0)")
+	 .attr("fill","black")
+	.text(function(d)  {var Val1 = d3.format(".2r")((d.SMales/d.Males)*100); return (Val1)+"%";})
+		
+		}
+else if (UpdatedInput == "Other Minorities")	{
+	svg.selectAll(".barfemale2")
+      .data(data)
+      //.enter().append("rect")
+	  .attr("class", "barfemale2")
+	  .attr("transform","translate("+(0.5*width+20)+",0)")
+      .attr("width", function(d){return x(d.OthFemales)})
+      .attr("height", y.rangeBand())
+      .attr("y", function(d) { return y(d.Ages); });
+	
+   d3.selectAll("text.bartext2").remove();
+	
+  svg.selectAll(".bartext3")
+    .data(data)
+  .enter().append("text")
+	.attr("class","bartext2")
+	.attr("x",function(d)	{ return x(d.OthFemales); })								
+	 .attr("transform","translate("+(0.5*width+20)+",0)")
+	.attr("y", function(d) { var ypos = y(d.Ages); return ypos + 0.5* y.rangeBand();})
+	.text(function(d)  { var Val=  d3.format(".2r")((d.OthFemales/d.Females)*100); return (Val)+"%";})
+	.attr("fill","black")
+      .attr("width", function(d){	 return height- x(d.OthFemales); })
+								  
+
+	  var bar2offset = 0.5*width + 35
+	  
+  svg.selectAll(".barmale2")
+      .data(data)
+   // .enter().append("rect")
+     .attr("x",function (d){ return width - x(d.OthMales); })				  
+	 .attr("class", "barmale2")
+	  .attr("width", function(d){	 return x(d.OthMales); })								       
+      .attr("height", y.rangeBand())
+	  .attr("transform","translate(-"+bar2offset+",0)")
+	  .attr("y", function(d) { return y(d.Ages); });
+
+   
+	  
+ svg.selectAll(".bartext4")
+    .data(data)
+	.enter().append("text")
+	.attr("class","bartext2")
+	.attr("x",function(d){return width - x(d.OthMales)-23; })								   
+	.attr("y", function(d) { var ypos = y(d.Ages); return ypos + 0.5* y.rangeBand();})
+	 .attr("transform","translate(-"+bar2offset+",0)")
+	 .attr("fill","black")
+	.text(function(d)  {var Val1 = d3.format(".2r")((d.OthMales/d.Males)*100); return (Val1)+"%";})
+		
+		}
+else { d3.selectAll("text.bartext2").remove();
+       d3.selectAll("rect.barfemale2").remove();
+	   d3.selectAll("rect.barmale2").remove();
+	   d3.selectAll("text.bartext").remove();
+       d3.selectAll("rect.barfemale").remove();
+	   d3.selectAll("rect.barmale").remove();
+	   draw(data);
+	   
+	};
+     
+	  }
+	  
+
+
+
+</script>
