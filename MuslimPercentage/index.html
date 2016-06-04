@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
+<div>
+<h1>The decreasing Muslim population share in India</h1>
+</div>
+<div id="header" style="width:950px;text-align: left;" class =summary> <p >
+According to Census 2011 data, approximately 17 out of 100 children in the age group of 0-4 years are Muslims. However there are only 10 Muslims(approx) out of 100 people who are over 80 years of age.
+Clearly, the Muslim (%) share in the Indian population is decreasing with Age .Or in simple words, Muslims in India seem to be dying earlier.
+Data shows that this trend is not only for India as a whole, but also across individual states without any exceptions.</p>
+</div>
 <style>
 
 body {
-  font: 11px sans-serif;
+  font: 14px sans-serif;
 }
+
+.summary {
+font-size:14px ;
+word-wrap: break-word; }
 
 .axis path,
 .axis line {
@@ -41,13 +53,8 @@ optgroup { font-size:14px; }
 </style>
 <body>
 
-<p style ="font-size:13px" id="menu"><b>The decreasing Muslim population share in India</b><br><br>
-The following chart which is based on the Census 2011 data shows that Muslim (%) share in the Indian population decreases with Age. <br>
-In simple words, Muslims in India seem to be dying earlier than the rest of India. From a 17.29% share of the total Indian <br>
-population (Ages 0-4), they drop to a 10.68% (Ages 80+). It would be interesting to speculate the causes for the decreasing trend. <br>
-Is it due to financial reasons? Or due to poor lifestyle choices?<br> <br>
-                                                         
-<b>Select a State to see the population trend of Muslims and other religious communities:<b><br><br>
+<p style ="font-size:13px" id="menu">                                                       
+<b>Choose an Area to see the population trend of Muslims and other religious communities:<b><br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -93,9 +100,9 @@ Is it due to financial reasons? Or due to poor lifestyle choices?<br> <br>
 <script src="//d3js.org/d3.v3.min.js"></script>
 <script>
 
-var legend_width = 120;
+var legend_width = 100;
 var margin = {top: 20, right: 30, bottom: 30, left: 55},
-    width =900-margin.left - margin.right+legend_width,
+    width =800-margin.left - margin.right+legend_width,
     height = 450 - margin.top - margin.bottom;
 	
 	
@@ -123,6 +130,28 @@ var svg = d3.select("body").append("svg")
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+	
+
+var span = document.createElement('span');
+span.style.fontWeight = "700";
+
+
+//var h = document.createElement("h3");// Create a <h1> element
+var t = document.createTextNode("The decreasing trend can be viewed more clearly in the below graph. Here data only for the minorities are considered.");     // Create a text node
+document.body.appendChild(document.createElement("br"));
+document.body.appendChild(document.createElement("br"));
+
+span.appendChild(t); 
+document.body.appendChild(span); 
+document.body.appendChild(document.createElement("br"));
+    
+	
+var svg2 = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right+legend_width)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 	
 var menu = d3.select("#menu select").on("change", function() {
 UpdatedArea = menu.property("value");
@@ -131,6 +160,7 @@ UpdatedArea = menu.property("value");
   data = data.filter(function(d){return d.Area == UpdatedArea});
 
   redraw (data);
+  redraw2(data);
    })});
 
 d3.csv("data-PopbyReligionbyAge.csv", function(error, data) {
@@ -139,7 +169,9 @@ d3.csv("data-PopbyReligionbyAge.csv", function(error, data) {
   
   color.domain(d3.keys(data[0]).filter(function(key) { return key !== "Ages" && key!=="Area"; }));
   data = data.filter(function(d){return d.Area == "INDIA"})
-  draw(data)});
+  draw(data)
+  
+  draw2(data)});
  
 
 function draw(data){
@@ -265,12 +297,11 @@ function redraw(data){
 
   
 
-  
-
   var state = svg.selectAll(".state")
       .data(data)
       .attr("class", "state")
-      .attr("transform", function(d) { return "translate(" + x(d.Ages) + ",0)"; });
+      .attr("transform", function(d
+	  ) { return "translate(" + x(d.Ages) + ",0)"; });
 
  state.selectAll("rect")
       .data(function(d) { return d.religions; })  
@@ -316,29 +347,202 @@ state.selectAll("rect")
      if (d.name == "Muslims"){ a= (d.y1-d.y0)*100 ; return a.toFixed(2);}}
 );
  
+};
+
+function draw2(data){
+  
+  
+  data.forEach(function(d) {
+    var y0 = 0;
+	var index = color.domain().indexOf("Hindus");
+	if (index > -1)
+	{color.domain().splice(index,1);}
+	
+    d.religions2 = color.domain().map(function(name) {return {name: name, y0: y0, y1: y0 += +d[name]}} );
+    d.religions2.forEach(function(d) { d.y0 /= y0; d.y1 /= y0; });// d.y0 /=y0 is same as d.y0=d.y0/y0
+	  });
+
+  //data.sort(function(a, b) { return b.ages[0].y1 - a.ages[0].y1; });
+
+  x.domain(data.map(function(d) { return d.Ages; }));
+
+  svg2.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + 2*height + ")")
+      .call(xAxis);
+
+  svg2.append("g")
+      .attr("class", "y axis")
+      .call(yAxis)
+	  .append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", ".35em")
+      .style("text-anchor", "end")
+      .text("Population %");
+
+var state2 = svg2.selectAll(".state")
+      .data(data)
+	  .enter().append("g")
+      .attr("class", "state")
+      .attr("transform", function(d) { return "translate(" + x(d.Ages) + ",0)"; });
+
+
+ state2.selectAll("rect")
+      .data(function(d) { return d.religions2; })  
+       .enter().append("rect")
+      .attr("width", x.rangeBand())
+	  .attr("y", function(d) { return y(d.y1); })
+      .attr("height", function(d) { return y(d.y0) - y(d.y1); })
+      .style("fill", function(d) { return color(d.name); });
+	
+	state2.selectAll("rect")
+      .data(function(d) { return d.religions2; })  
+	  .on("mouseover",function(d,i){
+	     if (d.name != "Muslims")
+	        {var xPos = x(d3.select(this.parentNode).datum( ).Ages);
+				var yPos = parseFloat(d3.select(this).attr("y"));
+				var barheight = parseFloat(d3.select(this).attr("height"))
+				if (barheight < 10){yPos =0}				
+				d3.select(this).attr("stroke","blue").attr("stroke-width",0.8);							
+				
+			var t =	svg2.append("text")
+					.attr("x",xPos+20)
+					.attr("y",yPos+barheight/2)
+					.attr("class","tooltip")
+					.text(((d.y1-d.y0)*100).toFixed(2)); 
+					console.log(t)
+            }})
+		.on("mouseout",function(){
+			svg2.select(".tooltip").remove();
+			d3.select(this).attr("stroke","pink").attr("stroke-width",0.2);
+														
+		});
+	  
+
+
+  
+
+ state2.selectAll(".bartext")
+      .data(function(d){return d.religions2;})
+	  .enter()
+	  .append("text")
+	  .attr("class", "bartext")
+.attr("text-anchor", "middle")
+.attr("fill", "black")
+.attr("x", function(d,i) { return i*(width/data.length) +25})
+.attr("y", function(d,i) {
+    return y(d.y1)+ 15;
+})
+.text(function(d){
+     if (d.name == "Muslims"){ a= (d.y1-d.y0)*100 ; return a.toFixed(2);}}
+);
+	  
+//adding labels for data = Muslims only
+
+
+ 
 // adding legend
-  	    var legend = svg.selectAll(".legend")
+  	    var legend = svg2.selectAll(".legend")
       	 	 			.data(color.domain().slice().reverse())
     	 			    .enter().append("g")
     				    	.attr("class", "legend")
-    	 			    	.attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+    	 			    	.attr("transform", function(d, i) { return "translate(0," + (i * 20)*2 + ")"; });
 
  		 legend.append("rect")
-   	   			.attr("x", width - 18+legend_width)
+   	   			.attr("x", width )
     			.attr("width", 18)
-     	    	.attr("height", 18)
+     	    	.attr("height", 15)
      	    	.attr("fill", color);
 
  		 legend.append("text")
-      		.attr("x", width - 24+legend_width)
+      		.attr("x", width+ 20)
      	    .attr("y", 9)
-      	    .attr("dy", ".35em") 
-      	    .style("text-anchor", "end")
+      	    .attr("dy", ".35em")
+      	    .style("text-anchor", "start")
      	    .text(function(d) { return d; });
 
 };
+function redraw2(data){
+  data.forEach(function(d) {
+     var y0 = 0;
+	var index = color.domain().indexOf("Hindus");
+	if (index > -1)
+	{color.domain().splice(index,1);}
+	
+    d.religions2 = color.domain().map(function(name) {return {name: name, y0: y0, y1: y0 += +d[name]}} );
+    d.religions2.forEach(function(d) { d.y0 /= y0; d.y1 /= y0; });// d.y0 /=y0 is same as d.y0=d.y0/y0
+  });
 
+  //data.sort(function(a, b) { return b.ages[0].y1 - a.ages[0].y1; });
+
+  x.domain(data.map(function(d) { return d.Ages; }));
+
+  
+
+  
+
+  var state2 = svg2.selectAll(".state")
+      .data(data)
+      .attr("class", "state")
+      .attr("transform", function(d) { return "translate(" + x(d.Ages) + ",0)"; });
+
+ state2.selectAll("rect")
+      .data(function(d) { return d.religions2; })  
+      .attr("y", function(d) { return y(d.y1); })
+      .attr("height", function(d) { return y(d.y0) - y(d.y1); })
+      .style("fill", function(d) { return color(d.name); });
+	  
+state2.selectAll("rect")
+      .data(function(d) { return d.religions2; })  
+	  .on("mouseover",function(d,i){
+	     if (d.name != "Muslims")
+	        {var xPos = x(d3.select(this.parentNode).datum( ).Ages);
+				var yPos = parseFloat(d3.select(this).attr("y"));
+				var barheight = parseFloat(d3.select(this).attr("height"));
+				if (barheight < 10){yPos =0}
+								
+				d3.select(this).attr("stroke","blue").attr("stroke-width",0.8);							
+				
+			var t =	svg2.append("text")
+					.attr("x",xPos+20)
+					.attr("y",yPos+barheight/2)
+					.attr("class","tooltip")
+					.text(((d.y1-d.y0)*100).toFixed(2)); 
+					console.log(t)
+            }})
+		.on("mouseout",function(){
+			svg2.select(".tooltip").remove();
+			d3.select(this).attr("stroke","pink").attr("stroke-width",0.2);
+														
+		});
+ 
+ 
+ state2.selectAll(".bartext")
+      .data(function(d){return d.religions2;})
+	  .attr("class", "bartext")
+.attr("text-anchor", "middle")
+.attr("fill", "black")
+.attr("x", function(d,i) { return i*(width/data.length)+25})
+.attr("y", function(d,i) {
+    return y(d.y1)+10;
+})
+.text(function(d){
+     if (d.name == "Muslims"){ a= (d.y1-d.y0)*100 ; return a.toFixed(2);}}
+);
+ 
+};
 </script>
-
 <aside >Source: <a href="http://www.censusindia.gov.in/2011census/C-15.html" >Census 2011</a></aside>
+<br><br>
+
+<div id="header" style="width:950px;text-align: left; font-weight : normal;" class =summary> <p>
+One possible explanation can be found in the Monthly per capita expenditure data (MPCE) collected by the  NSSO. 
+In 2011, 58 out of every 100 Urban Muslims lived on less then Rs.1075 per month. 
+The numbers were better among the other religions.For example among Urban Hindus 37 out of every 100 lived on less then Rs.1075 per month.
+However data from Rural areas did not show any significant difference between Muslims and Hindus.
+
+</div>
+<img src="Muslim-InfoG.png" style="width:950px;height:500px;">
+
 </html>
