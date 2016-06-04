@@ -4,7 +4,7 @@
 <h1>The decreasing Muslim population share in India</h1>
 </div>
 <div id="header" style="width:950px;text-align: left;" class =summary> <p >
-According to Census 2011 data, approximately 17 out of 100 children in the age group of 0-4 years are Muslims. However there are only 10 Muslims(approx) out of 100 people who are over 80 years of age.
+Approximately 17 out of 100 children in the age group of 0-4 years are Muslims. However there are only 10 Muslims(approx) out of 100 people who are over 80 years of age.
 Clearly, the Muslim (%) share in the Indian population is decreasing with Age .Or in simple words, Muslims in India seem to be dying earlier.
 Data shows that this trend is not only for India as a whole, but also across individual states without any exceptions.</p>
 </div>
@@ -30,6 +30,12 @@ word-wrap: break-word; }
 }
 .bartext{
 text-anchor: middle;
+	font-family: sans-serif;
+	font-size: 12px;
+	fill:black;	}
+	
+.svgtext{
+
 	font-family: sans-serif;
 	font-size: 12px;
 	fill:black;	}
@@ -128,6 +134,7 @@ var yAxis = d3.svg.axis()
 var svg = d3.select("body").append("svg")
     .attr("width", width + margin.left + margin.right+legend_width)
     .attr("height", height + margin.top + margin.bottom)
+	.attr("class","svgtext")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
@@ -138,7 +145,7 @@ span.style.fontWeight = "700";
 
 
 //var h = document.createElement("h3");// Create a <h1> element
-var t = document.createTextNode("The decreasing trend can be viewed more clearly in the below graph. Here data only for the minorities are considered.");     // Create a text node
+var t = document.createTextNode("The decreasing trend can be viewed more clearly in the below graph where data only for the minorities are considered.");     // Create a text node
 document.body.appendChild(document.createElement("br"));
 document.body.appendChild(document.createElement("br"));
 
@@ -150,6 +157,7 @@ document.body.appendChild(document.createElement("br"));
 var svg2 = d3.select("body").append("svg")
     .attr("width", width + margin.left + margin.right+legend_width)
     .attr("height", height + margin.top + margin.bottom)
+	.attr("class","svgtext")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 	
