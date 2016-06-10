@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+.node {
+  
+}
+
+
+
+.link {
+  stroke: #ddd;
+}
+
+.node text {
+  pointer-events: none;
+  font: 10px sans-serif;
+}
+
+</style>
+<body>
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script>
+
+var width = 2000,
+    height = 1250;
+
+var color = d3.scale.category20();
+
+var force = d3.layout.force()
+    .charge(-400)
+    .linkDistance(200)
+	.gravity(.04)
+   // .distance(150)
+   // .charge(-100)
+    .size([width, height]);
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+d3.json("Amazondata.json", function(error, graph) {
+  if (error) throw error;
+
+  force
+      .nodes(graph.nodes)
+      .links(graph.links)
+      .start();
+
+  var link = svg.selectAll(".link")
+      .data(graph.links)
+    .enter().append("line")
+      .attr("class", "link")
+      .style("stroke-width", function(d) { return Math.sqrt(d.value); });
+
+  var node = svg.selectAll(".node")
+      .data(graph.nodes)
+    .enter().append("g")
+      .attr("class", "node")
+     // .attr("r", 5)
+   //   .style("fill", function(d) { return color(d.group); })
+     .call(force.drag);
+
+RankedAuthors = graph.nodes.filter(function(d){return d.name});
+	
+	node.append("circle")
+      .attr("class","node")
+	  .attr("r",3)
+	  .style ("fill", function(d) 
+	                 {if (d.name !="Chetan Bhagat"  && d.name!= "Harper Lee" && d.name != "Preeti Shenoy" && d.name != "Rana Ayyub" &&
+					      d.name !="Agatha Christie" && d.name != "Robin Sharma" && d.name != "Napoleon Hill" && d.name != "Sudeep Nagarkar" &&
+						  d.name != "Dr.A.P.J.Abdul Kalam" && d.name != "Dale Carnegie" && d.name != "Paul Cohelo" && d.name != "Robert T. Kiyosaki")
+	  { return  color (d.group)}});
+	  
+	    node.append("text")
+      .attr("dx", 12)
+      .attr("dy", "-1em")
+      .text(function(d) { return d.name });
+	  
+	  node.append("image").data(RankedAuthors)
+      .attr("xlink:href", function(d)
+	  { if (d.name == "Chetan Bhagat") {return "http://localhost:8888/Chetan Bhagat.jpg"}
+	     else if (d.name == "Harper Lee") {return "http://localhost:8888/Harper Lee.jpg"}
+		 else if (d.name == "Agatha Christie") {return "http://localhost:8888/Agatha Christie.jpg"}
+		 else if (d.name == "Robin Sharma") {return "http://localhost:8888/Robin Sharma.jpg"}
+		 else if (d.name == "Paul Cohelo") {return "http://localhost:8888/Paul Cohelo.jpg"}
+		 else if (d.name == "Napoleon Hill") {return "http://localhost:8888/Napoleon Hill.jpg"}
+		 else if (d.name == "Preeti Shenoy") {return "http://localhost:8888/Preeti Shenoy.jpg"}
+		 else if (d.name == "Rana Ayyub") {return "http://localhost:8888/Rana Ayyub.jpg"}
+		 else if (d.name == "Robert T. Kiyosaki") {return "http://localhost:8888/Robert Kiyosaki.jpg"}
+		 else if (d.name == "Dr.A.P.J.Abdul Kalam") {return "http://localhost:8888/Abdul Kalam.jpg"}
+		 else if (d.name == "Sudeep Nagarkar") {return "http://localhost:8888/Sudeep Nagarkar.jpg"}
+		 else if (d.name == "Dale Carnegie") {return "http://localhost:8888/Dale Carnegie.jpg"}
+		 })
+      .attr("x", -10)
+      .attr("y", -10)
+      .attr("width", 35)
+      .attr("height", 38);
+	   
+	 
+
+
+  force.on("tick", function() {
+    link.attr("x1", function(d) { return d.source.x; })
+        .attr("y1", function(d) { return d.source.y; })
+        .attr("x2", function(d) { return d.target.x; })
+        .attr("y2", function(d) { return d.target.y; });
+
+   // node.attr("cx", function(d) { return d.x; })
+    //    .attr("cy", function(d) { return d.y; });
+	node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+  });
+});
+
+</script>
