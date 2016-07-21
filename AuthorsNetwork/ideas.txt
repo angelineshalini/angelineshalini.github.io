@@ -1,0 +1,2 @@
+1. One idea is to have the circle size based on no of reviews (popularity) or avg. rating
+

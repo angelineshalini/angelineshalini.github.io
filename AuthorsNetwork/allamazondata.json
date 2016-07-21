@@ -1,0 +1,2163 @@
+{
+	"nodes": [{
+		"author": "Ashwin Sanghi",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Thriller, mystery fiction, conspiracy fiction"
+	}, {
+		"author": "Novoneel Chakraborty",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Romantic Thrller"
+	}, {
+		"author": "Emraan Hashmi",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Biography"
+	}, {
+		"author": "Rujuta Diwekar",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Diet, Health"
+	}, {
+		"author": "Robert T. Kiyosaki",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Business, Investing"
+	}, {
+		"author": "Benjamin Graham",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Business, Finance, Non fiction, Economics"
+	}, {
+		"author": "Rhonda Byrne",
+		"group": 2,
+		"Nationality": "Australian",
+		"Genre": "Self Help, Spiritual"
+	}, {
+		"author": "Durjoy Datta",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Young-adult fiction, Romance, Thriller"
+	}, {
+		"author": "Norman Vincent Peale",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Motivational"
+	}, {
+		"author": "Twinkle Khanna",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Non-fiction, Humour"
+	}, {
+		"author": "Devdutt Pattanaik",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Fantasy, Mythology"
+	}, {
+		"author": "Joseph Murphy",
+		"group": 2,
+		"Nationality": "Ireland,American",
+		"Genre": "Self Help, Health, Mind & Body, Religion & Spirituality"
+	}, {
+		"author": "Agatha Christie",
+		"group": 2,
+		"Nationality": "British",
+		"Genre": "Crime Novels"
+	}, {
+		"author": "Ernest Hemingway",
+		"group": 2,
+		"Nationality": "British",
+		"Genre": "Literature & Fiction"
+	}, {
+		"author": "Amish Tripathi",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Fiction"
+	}, {
+		"author": "Dale Carnegie",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Self-Help"
+	}, {
+		"author": "Ravinder Singh",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Romance, Fiction"
+	}, {
+		"author": "Harper Lee",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Literature & Fiction"
+	}, {
+		"author": "Preeti Shenoy",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Fiction, Romance"
+	}, {
+		"author": "Napoleon Hill",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Non-fiction, Self-help"
+	}, {
+		"author": "Dr. A.P.J. Abdul Kalam",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Biography, non-fiction, cultural(india),"
+	}, {
+		"author": "Chetan Bhagat",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Fiction, Romance, Realistic Fiction, Non-fiction"
+	}, {
+		"author": "Robin Sharma",
+		"group": 2,
+		"Nationality": "Canadian",
+		"Genre": "Development"
+	}, {
+		"author": "Paulo Coelho",
+		"group": 2,
+		"Nationality": "Brazilian",
+		"Genre": "Self-improvement, Drama, Psychology"
+	}, {
+		"author": "David Baldacci",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Thriller, children's literature"
+	}, {
+		"author": "Lee Child",
+		"group": 2,
+		"Nationality": "British",
+		"Genre": "Crime fiction, mystery, thriller"
+	}, {
+		"author": "Jonathan Kellerman",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Mystery, Crime thriller"
+	}, {
+		"author": "John Grisham",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Legal thriller,Crime fiction,Baseball,Football"
+	}, {
+		"author": "Stuart Woods",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Thriller,Suspense"
+	}, {
+		"author": "Reed Farrel Coleman",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Crime fiction"
+	}, {
+		"author": "John Sandford",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Crime Mystery, Suspense Thriller"
+	}, {
+		"author": "Jeffrey Archer",
+		"group": 2,
+		"Nationality": "British",
+		"Genre": "Thriller, drama"
+	}, {
+		"author": "Jeffery Deaver",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Mystery fiction, crime writer, thriller"
+	}, {
+		"author": "Clive Cussler",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Adventure"
+	}, {
+		"author": "Michael Connelly",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Crime fiction, thriller"
+	}, {
+		"author": "Mary Higgins Clark",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Suspense, mystery, psychological thriller"
+	}, {
+		"author": "Ruskin Bond",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Fiction,short stories, novella, romance, children fiction, non fiction"
+	}, {
+		"author": "Patricia Cornwell",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Crime fiction"
+	}, {
+		"author": "Harlan Coben",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Mystery, thriller"
+	}, {
+		"author": "Sundari Venkatraman",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Romance, Fiction"
+	}, {
+		"author": "Vish Dhamija",
+		"group": 2,
+		"Nationality": "British",
+		"Genre": "Crime Fiction"
+	}, {
+		"author": "Akansh Malik",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Fiction,Romance"
+	}, {
+		"author": "Sudeep Nagarkar",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Romance, Young-Adult Fiction"
+	}, {
+		"author": "Suvika",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Not available"
+	}, {
+		"author": "Jazz Singh",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Romance"
+	}, {
+		"author": "Yashodhara Lal",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Humour, Romance"
+	}, {
+		"author": "Mr. Anuj Tiwari",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Romance"
+	}, {
+		"author": "Neil D'Silva",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Horror"
+	}, {
+		"author": "Zeenat Mahal",
+		"group": 2,
+		"Nationality": "Pakistani",
+		"Genre": "Romance"
+	}, {
+		"author": "Adite Banerjie",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Romance"
+	}, {
+		"author": "Ruchita Misra",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Not available"
+	}, {
+		"author": "Reet Singh",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Romance, Children"
+	}, {
+		"author": "Mahesh Bhatt",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Not available"
+	}, {
+		"author": "Jasim Khan",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Biography"
+	}, {
+		"author": "Yuvraj Singh",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Not available"
+	}, {
+		"author": "Anupam Kher",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Not available"
+	}, {
+		"author": "Veena Venugopal",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Not available"
+	}, {
+		"author": "Rohit Gore",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Fiction, literature"
+	}, {
+		"author": "Judy Balan",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Comedy"
+	}, {
+		"author": "S. Hussain Zaidi",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "History, Biography, Crime, Mafia, Investigation"
+	}, {
+		"author": "Rabindranath Tagore",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Songs, Poetry & Arts, Literature & Fiction, Spirituality & Philosophy"
+	}, {
+		"author": "Raj R. Patel M.D.",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Food"
+	}, {
+		"author": "Pooja Makhija",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Weight loss"
+	}, {
+		"author": "Swami Vivekananda",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Not available"
+	}, {
+		"author": "Khaled Hosseini",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Fiction"
+	}, {
+		"author": "Sudha Murthy",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Literature & Fiction"
+	}, {
+		"author": "Anand Neelakantan",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Fiction"
+	}, {
+		"author": "Ravi Subramanian",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Not available"
+	}, {
+		"author": "Ken McElroy",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Business, Finance, Education"
+	}, {
+		"author": "Stephen R. Covey",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Self-Help"
+	}, {
+		"author": "Garrett Sutton",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Business, Finance, Entrepreneurship"
+	}, {
+		"author": "Kim Kiyosaki",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Business, Finance, Self -help"
+	}, {
+		"author": "Ben Holden-Crowther",
+		"group": 2,
+		"Nationality": "British",
+		"Genre": "Fiction,Philosphy, religion"
+	}, {
+		"author": "Blair Singer",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Business , Finance, Self-help"
+	}, {
+		"author": "Brandon Turner",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Business, Finance"
+	}, {
+		"author": "Michael A. Lechter",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Business, Finance, Entrepreneurship"
+	}, {
+		"author": "Thomas J. Stanley",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Business, Finance,Self help, Economics"
+	}, {
+		"author": "Tony Robbins",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Self help, non fiction"
+	}, {
+		"author": "George S. Clason",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Business, Finance,Self help"
+	}, {
+		"author": "Jay Papasan",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Business, Investing, Self help"
+	}, {
+		"author": "William D. Danko",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Business, Finance,Self help, Economics"
+	}, {
+		"author": "T. Harv Eker",
+		"group": 2,
+		"Nationality": "Canadian",
+		"Genre": "Not available"
+	}, {
+		"author": "Philip A. Fisher",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Business, Finance, Economics"
+	}, {
+		"author": "Peter Lynch",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Business, Finance"
+	}, {
+		"author": "Lawrence A. Cunningham",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Business, Finance"
+	}, {
+		"author": "Stig Brodersen",
+		"group": 2,
+		"Nationality": "Denmark",
+		"Genre": "Business, Finance"
+	}, {
+		"author": "Bruce C. N. Greenwald",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Business, Finance"
+	}, {
+		"author": "William Thorndike",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Business, Management, Biography"
+	}, {
+		"author": "Preston George Pysh",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Business, Money"
+	}, {
+		"author": "Paul Johnson",
+		"group": 2,
+		"Nationality": "British",
+		"Genre": "History, Art, Politics"
+	}, {
+		"author": "John C. Bogle",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Not available"
+	}, {
+		"author": "Thomas R. Ittelson",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Not available"
+	}, {
+		"author": "Paul D. Sonkin",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Business - Finance,  Non fiction"
+	}, {
+		"author": "Robert G. Hagstrom",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Not available"
+	}, {
+		"author": "Joel Greenblatt",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Not available"
+	}, {
+		"author": "Guy Spier",
+		"group": 2,
+		"Nationality": "South African, Israeli, German",
+		"Genre": "Not available"
+	}, {
+		"author": "Howard Marks",
+		"group": 2,
+		"Nationality": "British",
+		"Genre": "Biographies & Memoirs, Travel, Nonfiction "
+	}, {
+		"author": "John Brooks",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Business , Finance"
+	}, {
+		"author": "Deepak Chopra",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Not available"
+	}, {
+		"author": "Alexander Janzer",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Spirtuality, Psychology"
+	}, {
+		"author": "Don Miguel Ruiz",
+		"group": 2,
+		"Nationality": "Mexican",
+		"Genre": "Personal growth"
+	}, {
+		"author": "Charles F. Haanel",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Self Help, Spirtuality, Psychology, Philosophy, Self Help - Personal Development,  Non fiction, Business,Philosophy - Metaphysics, Occult, Business - Finance"
+	}, {
+		"author": "Paul Harrington",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Non fiction, self help, psychology"
+	}, {
+		"author": "Wayne W. Dyer",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Health, Mind & Body "
+	}, {
+		"author": "Esther Hicks",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Philosophy, Religion & Spirituality, Health, Mind & Body "
+	}, {
+		"author": "I. C. Robledo",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Psychology, Self Help, Nonfiction "
+	}, {
+		"author": "Skye Byrne",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Chidrens, Adventure"
+	}, {
+		"author": "Louise L. Hay",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Self-help, Motivational"
+	}, {
+		"author": "Eckhart Tolle",
+		"group": 2,
+		"Nationality": "German born , Canadian resident",
+		"Genre": "Spirituality, psychology, metaphysics"
+	}, {
+		"author": "Richard Dotts",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Spirituality, philosophy- Metaphysics"
+	}, {
+		"author": "Jerry Hicks",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Religion "
+	}, {
+		"author": "Yamini Vijendran",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Fiction, Romance, Memoir "
+	}, {
+		"author": "Rochak Bhatnagar",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Fiction, Romance "
+	}, {
+		"author": "Simi K. Rao",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Contemporary, Romance, Fiction "
+	}, {
+		"author": "Smita Kaushik",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Romance, Young Adult, Chick Lit "
+	}, {
+		"author": "India Daram",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Not available"
+	}, {
+		"author": "Zig Ziglar",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Self Help, Nonfiction "
+	}, {
+		"author": "David J. Schwartz",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Business, Nonfiction, Self help - Personal development, Psychology, Leadership"
+	}, {
+		"author": "Claude M. Bristol",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Self Help, Non fiction, Psychology, Business, Spirtuality, Inspirational, Philosophy, Leadership, Philosophy - Metaphysics"
+	}, {
+		"author": "James Allen",
+		"group": 2,
+		"Nationality": "British",
+		"Genre": "Non-fiction, Self-help, Philisophy"
+	}, {
+		"author": "Brian Tracy",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Business Success, Nonfiction, Self Help "
+	}, {
+		"author": "Daniel Defoe",
+		"group": 2,
+		"Nationality": "British",
+		"Genre": "Adventure"
+	}, {
+		"author": "John C. Maxwell",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Not available"
+	}, {
+		"author": "Corinne Griffith",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Not available"
+	}, {
+		"author": "Og Mandino",
+		"group": 2,
+		"Nationality": "Italian",
+		"Genre": "Business & Investing "
+	}, {
+		"author": "Jim Rohn",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Not available"
+	}, {
+		"author": "Anuja Chauhan",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Romance, Fiction"
+	}, {
+		"author": "Rasana Atreya",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Literature & Fiction, Entertainment, Women & Gender Studies "
+	}, {
+		"author": "Sonali Dev",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Fiction, Contemporary, Romance "
+	}, {
+		"author": "Baba Shuddhaanandaa Brahmachari",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Not available"
+	}, {
+		"author": "Vamsee Juluri",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Fiction, Nonfiction, Spirituality"
+	}, {
+		"author": "Chitra Banerjee Divakaruni",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Not available"
+	}, {
+		"author": "Eknath Easwaran",
+		"group": 2,
+		"Nationality": "Indian-American",
+		"Genre": "Not available"
+	}, {
+		"author": "Sadhguru",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Not available"
+	}, {
+		"author": "Swami Sukhabodhananda",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Not available"
+	}, {
+		"author": "Vanamali",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Not available"
+	}, {
+		"author": "Tim Grimes",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Self Help, Spirituality, Non Fiction"
+	}, {
+		"author": "Eddie Coronado",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Non Fiction"
+	}, {
+		"author": "Florence Scovel Shinn",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Not available"
+	}, {
+		"author": "T. Troward",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Not available"
+	}, {
+		"author": "Earl Nightingale",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Self Help, Psychology, Non-fiction"
+	}, {
+		"author": "Ernest Holmes",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Not available"
+	}, {
+		"author": "Forbes Robbins Blair",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Self Help, Non Fiction, Health"
+	}, {
+		"author": "Michael Samuels",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Self Help, Spirituality, Non Fiction, Philosophy - Metaphysics"
+	}, {
+		"author": "Sophie Hannah",
+		"group": 2,
+		"Nationality": "British",
+		"Genre": "Mystery, crime, thriller"
+	}, {
+		"author": "Dorothy L. Sayers",
+		"group": 2,
+		"Nationality": "British",
+		"Genre": "Crime fiction"
+	}, {
+		"author": "P. G. Wodehouse",
+		"group": 2,
+		"Nationality": "British",
+		"Genre": "Comedy, Romantic Comedy"
+	}, {
+		"author": "Charles Dickens",
+		"group": 2,
+		"Nationality": "British",
+		"Genre": "Short Fictions, Novels, Dramas"
+	}, {
+		"author": "Margery Allingham",
+		"group": 2,
+		"Nationality": "British",
+		"Genre": "mystery, crime fiction"
+	}, {
+		"author": "Mary Westmacott",
+		"group": 2,
+		"Nationality": "British",
+		"Genre": "Murder mystery, thriller, crime fiction, detective, romance"
+	}, {
+		"author": "William Boyd",
+		"group": 2,
+		"Nationality": "British",
+		"Genre": "Literature & Fiction"
+	}, {
+		"author": "Charles Osborne",
+		"group": 2,
+		"Nationality": "Australian",
+		"Genre": "Biography,Music,Non fiction"
+	}, {
+		"author": "Lorraine Holloway-White",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Fiction, Non Fiction"
+	}, {
+		"author": "Eric Jensen",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Education, Teaching, Nonfiction, psychology"
+	}, {
+		"author": "Arthur Conan Doyle",
+		"group": 2,
+		"Nationality": "Scottish",
+		"Genre": "Detective fiction,fantasy,science fiction,historical novels,non-fiction"
+	}, {
+		"author": "Geoffrey Wansell",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "True Crime, Crime, Biography, Non Fiction"
+	}, {
+		"author": "Daniel Steel",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "mainstream, romance"
+	}, {
+		"author": "David Suchet",
+		"group": 2,
+		"Nationality": "British",
+		"Genre": "Non Fiction, Biography, Memoir, Autobiography"
+	}, {
+		"author": "Dashiell Hammett",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Crime and detective fiction"
+	}, {
+		"author": "F. Scott Fitzgerald",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Literature & Fiction, Short Stories"
+	}, {
+		"author": "Robert M. Drake",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Poetry "
+	}, {
+		"author": "Fyodor Dostoyevsky",
+		"group": 2,
+		"Nationality": "Russian",
+		"Genre": "Novel, short story, journalism"
+	}, {
+		"author": "William Faulkner",
+		"group": 2,
+		"nationality": "American",
+		"Genre": "Literature & Fiction,Poetry,Southern Gothic"
+	}, {
+		"author": "Gabriel Garcia Marquez",
+		"group": 2,
+		"nationality": "Colombian",
+		"Genre": "Novels, short stories"
+	}, {
+		"author": "James L. W. West",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Biographies & Memoirs, Non-fiction "
+	}, {
+		"author": "John Steinbeck",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Literature & Fiction"
+	}, {
+		"author": "Tom Dardis",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Biography, Film, Non Fiction, Humor"
+	}, {
+		"author": "Patrick O'Donnell",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Military, History, Non Fiction"
+	}, {
+		"author": "Herman Melville",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Travelogue, Captivity narrative, Sea story, Gothic Romanticism, Allegory, Tall tale"
+	}, {
+		"author": "Red Skull Publishing",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Not Applicable"
+	}, {
+		"author": "Lola Bom",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Not Available"
+	}, {
+		"author": "Kurt Vonnegut",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Satire,Gallows humor,Science fiction"
+	}, {
+		"author": "Gregory Rabassa",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Non Fiction, Literature, Biography, Language - Writing"
+	}, {
+		"author": "Dan Brown",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Thriller, adventure, mystery, conspiracy"
+	}, {
+		"author": "John Green",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Young Adult fiction"
+	}, {
+		"author": "Nicola Winstanley",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Childrens, Food, Family, Fiction, Anthologies,Science Fiction"
+	}, {
+		"author": "Peter F. Drucker",
+		"group": 2,
+		"Nationality": "Austrian",
+		"Genre": "Business , Investing, Management , Leadership"
+	}, {
+		"author": "Leil Lowndes",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Self Help, Non fiction, Psychology, Business, Communication"
+	}, {
+		"author": "Robert B. Cialdini",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Psychology"
+	}, {
+		"author": "Spencer Johnson",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Nonfiction, Professional & Technical, Fiction"
+	}, {
+		"author": "Anthony Robbins",
+		"group": 2,
+		"Nationality": "American",
+		"Genre": "Self help, non fiction"
+	}, {
+		"author": "Bhagya Chandra",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Romance"
+	}, {
+		"author": "Khushwant Singh",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Not available"
+	}, {
+		"author": "Paula Hawkins",
+		"group": 2,
+		"Nationality": "British",
+		"Genre": "Mystery, Fiction, Thriller"
+	}, {
+		"author": "Markus Zusak",
+		"group": 2,
+		"Nationality": "Australian",
+		"Genre": "Young-adult fiction"
+	}, {
+		"author": "George Orwell",
+		"group": 2,
+		"Nationality": "British",
+		"Genre": "Fiction, Politics, Journalism"
+	}, {
+		"author": "Anthony Doerr",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Not available"
+	}, {
+		"author": "Gregory Peck",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Not available"
+	}, {
+		"author": "David Lagercrantz",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Not available"
+	}, {
+		"author": "Sankalp Kohli",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Not available"
+	}, {
+		"author": "Wallace D. Wattles",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Not available"
+	}, {
+		"author": "Mohandas K. Gandhi",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Not available"
+	}, {
+		"author": "Muni Nathamal",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Not available"
+	}, {
+		"author": "Rashmi Bansal",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Not available"
+	}, {
+		"author": "Acharya Mahapragya",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Not available"
+	}, {
+		"author": "Shiv Khera",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Not available"
+	}, {
+		"author": "Stephen Hawking",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Not available"
+	}, {
+		"author": "R. K. Narayan",
+		"group": 1,
+		"Nationality": "Indian",
+		"Genre": "Not available"
+	}, {
+		"author": "Mitch Albom",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Not available"
+	}, {
+		"author": "Isabel Allende",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Not available"
+	}, {
+		"author": "Miguel De Cervantes Saavedra",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Not available"
+	}, {
+		"author": "Jacques Joset",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Not available"
+	}, {
+		"author": "Janet Mills",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Not available"
+	}, {
+		"author": "Antoine de Saint Expuery",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Not available"
+	}, {
+		"author": "Carlos Ruiz Zafón",
+		"group": 2,
+		"Nationality": "Not Available",
+		"Genre": "Not available"
+	}],
+	"links": [{
+		"source": "Ashwin Sanghi",
+		"target": "David Baldacci"
+	}, {
+		"source": "Ashwin Sanghi",
+		"target": "Lee Child"
+	}, {
+		"source": "Ashwin Sanghi",
+		"target": "Jonathan Kellerman"
+	}, {
+		"source": "Ashwin Sanghi",
+		"target": "John Grisham"
+	}, {
+		"source": "Ashwin Sanghi",
+		"target": "Stuart Woods"
+	}, {
+		"source": "Ashwin Sanghi",
+		"target": "Reed Farrel Coleman"
+	}, {
+		"source": "Ashwin Sanghi",
+		"target": "John Sandford"
+	}, {
+		"source": "Ashwin Sanghi",
+		"target": "Jeffrey Archer"
+	}, {
+		"source": "Ashwin Sanghi",
+		"target": "Jeffery Deaver"
+	}, {
+		"source": "Ashwin Sanghi",
+		"target": "Clive Cussler"
+	}, {
+		"source": "Ashwin Sanghi",
+		"target": "Michael Connelly"
+	}, {
+		"source": "Ashwin Sanghi",
+		"target": "Paulo Coelho"
+	}, {
+		"source": "Ashwin Sanghi",
+		"target": "Mary Higgins Clark"
+	}, {
+		"source": "Ashwin Sanghi",
+		"target": "Ruskin Bond"
+	}, {
+		"source": "Ashwin Sanghi",
+		"target": "Patricia Cornwell"
+	}, {
+		"source": "Ashwin Sanghi",
+		"target": "Harlan Coben"
+	}, {
+		"source": "Novoneel Chakraborty",
+		"target": "Durjoy Datta"
+	}, {
+		"source": "Novoneel Chakraborty",
+		"target": "Sundari Venkatraman"
+	}, {
+		"source": "Novoneel Chakraborty",
+		"target": "Vish Dhamija"
+	}, {
+		"source": "Novoneel Chakraborty",
+		"target": "Akansh Malik"
+	}, {
+		"source": "Novoneel Chakraborty",
+		"target": "Sudeep Nagarkar"
+	}, {
+		"source": "Novoneel Chakraborty",
+		"target": "Suvika"
+	}, {
+		"source": "Novoneel Chakraborty",
+		"target": "Preeti Shenoy"
+	}, {
+		"source": "Novoneel Chakraborty",
+		"target": "Jazz Singh"
+	}, {
+		"source": "Novoneel Chakraborty",
+		"target": "Yashodhara Lal"
+	}, {
+		"source": "Novoneel Chakraborty",
+		"target": "Ravinder Singh"
+	}, {
+		"source": "Novoneel Chakraborty",
+		"target": "Mr. Anuj Tiwari"
+	}, {
+		"source": "Novoneel Chakraborty",
+		"target": "Neil D'Silva"
+	}, {
+		"source": "Novoneel Chakraborty",
+		"target": "Zeenat Mahal"
+	}, {
+		"source": "Novoneel Chakraborty",
+		"target": "Adite Banerjie"
+	}, {
+		"source": "Novoneel Chakraborty",
+		"target": "Ruchita Misra"
+	}, {
+		"source": "Novoneel Chakraborty",
+		"target": "Reet Singh"
+	}, {
+		"source": "Emraan Hashmi",
+		"target": "Mahesh Bhatt"
+	}, {
+		"source": "Emraan Hashmi",
+		"target": "Jasim Khan"
+	}, {
+		"source": "Emraan Hashmi",
+		"target": "Twinkle Khanna"
+	}, {
+		"source": "Emraan Hashmi",
+		"target": "Yuvraj Singh"
+	}, {
+		"source": "Emraan Hashmi",
+		"target": "Anupam Kher"
+	}, {
+		"source": "Emraan Hashmi",
+		"target": "Veena Venugopal"
+	}, {
+		"source": "Emraan Hashmi",
+		"target": "Durjoy Datta"
+	}, {
+		"source": "Emraan Hashmi",
+		"target": "Rohit Gore"
+	}, {
+		"source": "Emraan Hashmi",
+		"target": "Judy Balan"
+	}, {
+		"source": "Emraan Hashmi",
+		"target": "Sudeep Nagarkar"
+	}, {
+		"source": "Rujuta Diwekar",
+		"target": "Ashwin Sanghi"
+	}, {
+		"source": "Rujuta Diwekar",
+		"target": "S. Hussain Zaidi"
+	}, {
+		"source": "Rujuta Diwekar",
+		"target": "Twinkle Khanna"
+	}, {
+		"source": "Rujuta Diwekar",
+		"target": "Rabindranath Tagore"
+	}, {
+		"source": "Rujuta Diwekar",
+		"target": "Raj R. Patel M.D."
+	}, {
+		"source": "Rujuta Diwekar",
+		"target": "Dr. A.P.J. Abdul Kalam"
+	}, {
+		"source": "Rujuta Diwekar",
+		"target": "Pooja Makhija"
+	}, {
+		"source": "Rujuta Diwekar",
+		"target": "Swami Vivekananda"
+	}, {
+		"source": "Rujuta Diwekar",
+		"target": "Chetan Bhagat"
+	}, {
+		"source": "Rujuta Diwekar",
+		"target": "Khaled Hosseini"
+	}, {
+		"source": "Rujuta Diwekar",
+		"target": "Devdutt Pattanaik"
+	}, {
+		"source": "Rujuta Diwekar",
+		"target": "Sudha Murthy"
+	}, {
+		"source": "Rujuta Diwekar",
+		"target": "Preeti Shenoy"
+	}, {
+		"source": "Rujuta Diwekar",
+		"target": "Anand Neelakantan"
+	}, {
+		"source": "Rujuta Diwekar",
+		"target": "Robin Sharma"
+	}, {
+		"source": "Rujuta Diwekar",
+		"target": "Ravi Subramanian"
+	}, {
+		"source": "Rujuta Diwekar",
+		"target": "Ken McElroy"
+	}, {
+		"source": "Rujuta Diwekar",
+		"target": "Stephen R. Covey"
+	}, {
+		"source": "Rujuta Diwekar",
+		"target": "Garrett Sutton"
+	}, {
+		"source": "Rujuta Diwekar",
+		"target": "Kim Kiyosaki"
+	}, {
+		"source": "Rujuta Diwekar",
+		"target": "Ben Holden-Crowther"
+	}, {
+		"source": "Rujuta Diwekar",
+		"target": "Blair Singer"
+	}, {
+		"source": "Rujuta Diwekar",
+		"target": "Napoleon Hill"
+	}, {
+		"source": "Rujuta Diwekar",
+		"target": "Brandon Turner"
+	}, {
+		"source": "Rujuta Diwekar",
+		"target": "Garrett Sutton"
+	}, {
+		"source": "Rujuta Diwekar",
+		"target": "Michael A. Lechter"
+	}, {
+		"source": "Rujuta Diwekar",
+		"target": "Thomas J. Stanley"
+	}, {
+		"source": "Rujuta Diwekar",
+		"target": "Tony Robbins"
+	}, {
+		"source": "Rujuta Diwekar",
+		"target": "George S. Clason"
+	}, {
+		"source": "Rujuta Diwekar",
+		"target": "Jay Papasan"
+	}, {
+		"source": "Rujuta Diwekar",
+		"target": "William D. Danko"
+	}, {
+		"source": "Rujuta Diwekar",
+		"target": "T. Harv Eker"
+	}, {
+		"source": "Benjamin Graham",
+		"target": "Philip A. Fisher"
+	}, {
+		"source": "Benjamin Graham",
+		"target": "Peter Lynch"
+	}, {
+		"source": "Benjamin Graham",
+		"target": "Lawrence A. Cunningham"
+	}, {
+		"source": "Benjamin Graham",
+		"target": "Stig Brodersen"
+	}, {
+		"source": "Benjamin Graham",
+		"target": "Bruce C. N. Greenwald"
+	}, {
+		"source": "Benjamin Graham",
+		"target": "William Thorndike"
+	}, {
+		"source": "Benjamin Graham",
+		"target": "Preston George Pysh"
+	}, {
+		"source": "Benjamin Graham",
+		"target": "Paul Johnson"
+	}, {
+		"source": "Benjamin Graham",
+		"target": "John C. Bogle"
+	}, {
+		"source": "Benjamin Graham",
+		"target": "Thomas R. Ittelson"
+	}, {
+		"source": "Benjamin Graham",
+		"target": "Paul D. Sonkin"
+	}, {
+		"source": "Benjamin Graham",
+		"target": "Robert G. Hagstrom"
+	}, {
+		"source": "Benjamin Graham",
+		"target": "Joel Greenblatt"
+	}, {
+		"source": "Benjamin Graham",
+		"target": "Guy Spier"
+	}, {
+		"source": "Benjamin Graham",
+		"target": "Howard Marks"
+	}, {
+		"source": "Benjamin Graham",
+		"target": "John Brooks"
+	}, {
+		"source": "Rhonda Byrne",
+		"target": "Paulo Coelho"
+	}, {
+		"source": "Rhonda Byrne",
+		"target": "Joseph Murphy"
+	}, {
+		"source": "Rhonda Byrne",
+		"target": "Deepak Chopra"
+	}, {
+		"source": "Rhonda Byrne",
+		"target": "Alexander Janzer"
+	}, {
+		"source": "Rhonda Byrne",
+		"target": "Don Miguel Ruiz"
+	}, {
+		"source": "Rhonda Byrne",
+		"target": "Charles F. Haanel"
+	}, {
+		"source": "Rhonda Byrne",
+		"target": "Paul Harrington"
+	}, {
+		"source": "Rhonda Byrne",
+		"target": "Wayne W. Dyer"
+	}, {
+		"source": "Rhonda Byrne",
+		"target": "Esther Hicks"
+	}, {
+		"source": "Rhonda Byrne",
+		"target": "I. C. Robledo"
+	}, {
+		"source": "Rhonda Byrne",
+		"target": "Skye Byrne"
+	}, {
+		"source": "Rhonda Byrne",
+		"target": "Louise L. Hay"
+	}, {
+		"source": "Rhonda Byrne",
+		"target": "Eckhart Tolle"
+	}, {
+		"source": "Rhonda Byrne",
+		"target": "Richard Dotts"
+	}, {
+		"source": "Rhonda Byrne",
+		"target": "Jerry Hicks"
+	}, {
+		"source": "Rhonda Byrne",
+		"target": "Napoleon Hill"
+	}, {
+		"source": "Durjoy Datta",
+		"target": "Ravinder Singh"
+	}, {
+		"source": "Durjoy Datta",
+		"target": "Yamini Vijendran"
+	}, {
+		"source": "Durjoy Datta",
+		"target": "Sudeep Nagarkar"
+	}, {
+		"source": "Durjoy Datta",
+		"target": "Rochak Bhatnagar"
+	}, {
+		"source": "Durjoy Datta",
+		"target": "Preeti Shenoy"
+	}, {
+		"source": "Durjoy Datta",
+		"target": "Zeenat Mahal"
+	}, {
+		"source": "Durjoy Datta",
+		"target": "Chetan Bhagat"
+	}, {
+		"source": "Durjoy Datta",
+		"target": "Twinkle Khanna"
+	}, {
+		"source": "Durjoy Datta",
+		"target": "Novoneel Chakraborty"
+	}, {
+		"source": "Durjoy Datta",
+		"target": "Simi K. Rao"
+	}, {
+		"source": "Durjoy Datta",
+		"target": "Smita Kaushik"
+	}, {
+		"source": "Durjoy Datta",
+		"target": "Ashwin Sanghi"
+	}, {
+		"source": "Durjoy Datta",
+		"target": "Yashodhara Lal"
+	}, {
+		"source": "Durjoy Datta",
+		"target": "India Daram"
+	}, {
+		"source": "Durjoy Datta",
+		"target": "Mr. Anuj Tiwari"
+	}, {
+		"source": "Durjoy Datta",
+		"target": "Adite Banerjie"
+	}, {
+		"source": "Norman Vincent Peale",
+		"target": "Dale Carnegie"
+	}, {
+		"source": "Norman Vincent Peale",
+		"target": "Zig Ziglar"
+	}, {
+		"source": "Norman Vincent Peale",
+		"target": "Joseph Murphy"
+	}, {
+		"source": "Norman Vincent Peale",
+		"target": "David J. Schwartz"
+	}, {
+		"source": "Norman Vincent Peale",
+		"target": "Napoleon Hill"
+	}, {
+		"source": "Norman Vincent Peale",
+		"target": "Claude M. Bristol"
+	}, {
+		"source": "Norman Vincent Peale",
+		"target": "Ben Holden-Crowther"
+	}, {
+		"source": "Norman Vincent Peale",
+		"target": "James Allen"
+	}, {
+		"source": "Norman Vincent Peale",
+		"target": "Brian Tracy"
+	}, {
+		"source": "Norman Vincent Peale",
+		"target": "Daniel Defoe"
+	}, {
+		"source": "Norman Vincent Peale",
+		"target": "John C. Maxwell"
+	}, {
+		"source": "Norman Vincent Peale",
+		"target": "Corinne Griffith"
+	}, {
+		"source": "Norman Vincent Peale",
+		"target": "Stephen R. Covey"
+	}, {
+		"source": "Norman Vincent Peale",
+		"target": "Robin Sharma"
+	}, {
+		"source": "Norman Vincent Peale",
+		"target": "Og Mandino"
+	}, {
+		"source": "Norman Vincent Peale",
+		"target": "Jim Rohn"
+	}, {
+		"source": "Twinkle Khanna",
+		"target": "Anuja Chauhan"
+	}, {
+		"source": "Twinkle Khanna",
+		"target": "Simi K. Rao"
+	}, {
+		"source": "Twinkle Khanna",
+		"target": "Chetan Bhagat"
+	}, {
+		"source": "Twinkle Khanna",
+		"target": "Devdutt Pattanaik"
+	}, {
+		"source": "Twinkle Khanna",
+		"target": "Anand Neelakantan"
+	}, {
+		"source": "Twinkle Khanna",
+		"target": "Amish Tripathi"
+	}, {
+		"source": "Twinkle Khanna",
+		"target": "Ashwin Sanghi"
+	}, {
+		"source": "Twinkle Khanna",
+		"target": "Sundari Venkatraman"
+	}, {
+		"source": "Twinkle Khanna",
+		"target": "Rujuta Diwekar"
+	}, {
+		"source": "Twinkle Khanna",
+		"target": "Rasana Atreya"
+	}, {
+		"source": "Twinkle Khanna",
+		"target": "Yashodhara Lal"
+	}, {
+		"source": "Twinkle Khanna",
+		"target": "Durjoy Datta"
+	}, {
+		"source": "Twinkle Khanna",
+		"target": "Preeti Shenoy"
+	}, {
+		"source": "Twinkle Khanna",
+		"target": "Sonali Dev"
+	}, {
+		"source": "Twinkle Khanna",
+		"target": "Zeenat Mahal"
+	}, {
+		"source": "Twinkle Khanna",
+		"target": "Rabindranath Tagore"
+	}, {
+		"source": "Devdutt Pattanaik",
+		"target": "Anand Neelakantan"
+	}, {
+		"source": "Devdutt Pattanaik",
+		"target": "Twinkle Khanna"
+	}, {
+		"source": "Devdutt Pattanaik",
+		"target": "Ashwin Sanghi"
+	}, {
+		"source": "Devdutt Pattanaik",
+		"target": "Baba Shuddhaanandaa Brahmachari"
+	}, {
+		"source": "Devdutt Pattanaik",
+		"target": "Amish Tripathi"
+	}, {
+		"source": "Devdutt Pattanaik",
+		"target": "Vamsee Juluri"
+	}, {
+		"source": "Devdutt Pattanaik",
+		"target": "Swami Vivekananda"
+	}, {
+		"source": "Devdutt Pattanaik",
+		"target": "Chitra Banerjee Divakaruni"
+	}, {
+		"source": "Devdutt Pattanaik",
+		"target": "Eknath Easwaran"
+	}, {
+		"source": "Devdutt Pattanaik",
+		"target": "Sadhguru"
+	}, {
+		"source": "Devdutt Pattanaik",
+		"target": "Robin Sharma"
+	}, {
+		"source": "Devdutt Pattanaik",
+		"target": "Rujuta Diwekar"
+	}, {
+		"source": "Devdutt Pattanaik",
+		"target": "Ruskin Bond"
+	}, {
+		"source": "Devdutt Pattanaik",
+		"target": "Swami Sukhabodhananda"
+	}, {
+		"source": "Devdutt Pattanaik",
+		"target": "Rabindranath Tagore"
+	}, {
+		"source": "Devdutt Pattanaik",
+		"target": "Vanamali"
+	}, {
+		"source": "Joseph Murphy",
+		"target": "Dale Carnegie"
+	}, {
+		"source": "Joseph Murphy",
+		"target": "Tim Grimes"
+	}, {
+		"source": "Joseph Murphy",
+		"target": "Claude M. Bristol"
+	}, {
+		"source": "Joseph Murphy",
+		"target": "Robin Sharma"
+	}, {
+		"source": "Joseph Murphy",
+		"target": "Richard Dotts"
+	}, {
+		"source": "Joseph Murphy",
+		"target": "Norman Vincent Peale"
+	}, {
+		"source": "Joseph Murphy",
+		"target": "Napoleon Hill"
+	}, {
+		"source": "Joseph Murphy",
+		"target": "Eddie Coronado"
+	}, {
+		"source": "Joseph Murphy",
+		"target": "Ben Holden-Crowther"
+	}, {
+		"source": "Joseph Murphy",
+		"target": "Florence Scovel Shinn"
+	}, {
+		"source": "Joseph Murphy",
+		"target": "T. Troward"
+	}, {
+		"source": "Joseph Murphy",
+		"target": "Earl Nightingale"
+	}, {
+		"source": "Joseph Murphy",
+		"target": "Ernest Holmes"
+	}, {
+		"source": "Joseph Murphy",
+		"target": "Forbes Robbins Blair"
+	}, {
+		"source": "Joseph Murphy",
+		"target": "Michael Samuels"
+	}, {
+		"source": "Joseph Murphy",
+		"target": "Louise L. Hay"
+	}, {
+		"source": "Agatha Christie",
+		"target": "Sophie Hannah"
+	}, {
+		"source": "Agatha Christie",
+		"target": "Ruskin Bond"
+	}, {
+		"source": "Agatha Christie",
+		"target": "Dorothy L. Sayers"
+	}, {
+		"source": "Agatha Christie",
+		"target": "P. G. Wodehouse"
+	}, {
+		"source": "Agatha Christie",
+		"target": "Charles Dickens"
+	}, {
+		"source": "Agatha Christie",
+		"target": "Margery Allingham"
+	}, {
+		"source": "Agatha Christie",
+		"target": "Mary Westmacott"
+	}, {
+		"source": "Agatha Christie",
+		"target": "William Boyd"
+	}, {
+		"source": "Agatha Christie",
+		"target": "Charles Osborne"
+	}, {
+		"source": "Agatha Christie",
+		"target": "Lorraine Holloway-White"
+	}, {
+		"source": "Agatha Christie",
+		"target": "Eric Jensen"
+	}, {
+		"source": "Agatha Christie",
+		"target": "Arthur Conan Doyle"
+	}, {
+		"source": "Agatha Christie",
+		"target": "Geoffrey Wansell"
+	}, {
+		"source": "Agatha Christie",
+		"target": "Daniel Steel"
+	}, {
+		"source": "Agatha Christie",
+		"target": "David Suchet"
+	}, {
+		"source": "Agatha Christie",
+		"target": "Dashiell Hammett"
+	}, {
+		"source": "Ernest Hemingway",
+		"target": "F. Scott Fitzgerald"
+	}, {
+		"source": "Ernest Hemingway",
+		"target": "Robert M. Drake"
+	}, {
+		"source": "Ernest Hemingway",
+		"target": "Ben Holden-Crowther"
+	}, {
+		"source": "Ernest Hemingway",
+		"target": "Fyodor Dostoyevsky"
+	}, {
+		"source": "Ernest Hemingway",
+		"target": "William Faulkner"
+	}, {
+		"source": "Ernest Hemingway",
+		"target": "Gabriel Garcia Marquez"
+	}, {
+		"source": "Ernest Hemingway",
+		"target": "James L. W. West"
+	}, {
+		"source": "Ernest Hemingway",
+		"target": "John Steinbeck"
+	}, {
+		"source": "Ernest Hemingway",
+		"target": "Tom Dardis"
+	}, {
+		"source": "Ernest Hemingway",
+		"target": "Daniel Defoe"
+	}, {
+		"source": "Ernest Hemingway",
+		"target": "Patrick O'Donnell"
+	}, {
+		"source": "Ernest Hemingway",
+		"target": "Herman Melville"
+	}, {
+		"source": "Ernest Hemingway",
+		"target": "Red Skull Publishing"
+	}, {
+		"source": "Ernest Hemingway",
+		"target": "Lola Bom"
+	}, {
+		"source": "Ernest Hemingway",
+		"target": "Kurt Vonnegut"
+	}, {
+		"source": "Ernest Hemingway",
+		"target": "Gregory Rabassa"
+	}, {
+		"source": "Amish Tripathi",
+		"target": "Ashwin Sanghi"
+	}, {
+		"source": "Amish Tripathi",
+		"target": "Paulo Coelho"
+	}, {
+		"source": "Amish Tripathi",
+		"target": "Chetan Bhagat"
+	}, {
+		"source": "Amish Tripathi",
+		"target": "Ravinder Singh"
+	}, {
+		"source": "Amish Tripathi",
+		"target": "Anand Neelakantan"
+	}, {
+		"source": "Amish Tripathi",
+		"target": "Jeffrey Archer"
+	}, {
+		"source": "Amish Tripathi",
+		"target": "Dan Brown"
+	}, {
+		"source": "Amish Tripathi",
+		"target": "Twinkle Khanna"
+	}, {
+		"source": "Amish Tripathi",
+		"target": "Dr. A.P.J. Abdul Kalam"
+	}, {
+		"source": "Amish Tripathi",
+		"target": "Preeti Shenoy"
+	}, {
+		"source": "Amish Tripathi",
+		"target": "Robin Sharma"
+	}, {
+		"source": "Amish Tripathi",
+		"target": "John Green"
+	}, {
+		"source": "Amish Tripathi",
+		"target": "Devdutt Pattanaik"
+	}, {
+		"source": "Amish Tripathi",
+		"target": "Nicola Winstanley"
+	}, {
+		"source": "Amish Tripathi",
+		"target": "Khaled Hosseini"
+	}, {
+		"source": "Amish Tripathi",
+		"target": "Sudeep Nagarkar"
+	}, {
+		"source": "Dale Carnegie",
+		"target": "Napoleon Hill"
+	}, {
+		"source": "Dale Carnegie",
+		"target": "Brian Tracy"
+	}, {
+		"source": "Dale Carnegie",
+		"target": "Ben Holden-Crowther"
+	}, {
+		"source": "Dale Carnegie",
+		"target": "Peter F. Drucker"
+	}, {
+		"source": "Dale Carnegie",
+		"target": "Stephen R. Covey"
+	}, {
+		"source": "Dale Carnegie",
+		"target": "Robin Sharma"
+	}, {
+		"source": "Dale Carnegie",
+		"target": "Joseph Murphy"
+	}, {
+		"source": "Dale Carnegie",
+		"target": "Leil Lowndes"
+	}, {
+		"source": "Dale Carnegie",
+		"target": "Norman Vincent Peale"
+	}, {
+		"source": "Dale Carnegie",
+		"target": "Robert B. Cialdini"
+	}, {
+		"source": "Dale Carnegie",
+		"target": "David J. Schwartz"
+	}, {
+		"source": "Dale Carnegie",
+		"target": "Spencer Johnson"
+	}, {
+		"source": "Dale Carnegie",
+		"target": "Robert T. Kiyosaki"
+	}, {
+		"source": "Dale Carnegie",
+		"target": "Anthony Robbins"
+	}, {
+		"source": "Dale Carnegie",
+		"target": "John C. Maxwell"
+	}, {
+		"source": "Dale Carnegie",
+		"target": "Zig Ziglar"
+	}, {
+		"source": "Ravinder Singh",
+		"target": "Durjoy Datta"
+	}, {
+		"source": "Ravinder Singh",
+		"target": "Smita Kaushik"
+	}, {
+		"source": "Ravinder Singh",
+		"target": "Chetan Bhagat"
+	}, {
+		"source": "Ravinder Singh",
+		"target": "Zeenat Mahal"
+	}, {
+		"source": "Ravinder Singh",
+		"target": "Sudeep Nagarkar"
+	}, {
+		"source": "Ravinder Singh",
+		"target": "Twinkle Khanna"
+	}, {
+		"source": "Ravinder Singh",
+		"target": "Preeti Shenoy"
+	}, {
+		"source": "Ravinder Singh",
+		"target": "Khaled Hosseini"
+	}, {
+		"source": "Ravinder Singh",
+		"target": "Amish Tripathi"
+	}, {
+		"source": "Ravinder Singh",
+		"target": "Mr. Anuj Tiwari"
+	}, {
+		"source": "Ravinder Singh",
+		"target": "Dr. A.P.J. Abdul Kalam"
+	}, {
+		"source": "Ravinder Singh",
+		"target": "Sundari Venkatraman"
+	}, {
+		"source": "Ravinder Singh",
+		"target": "Robin Sharma"
+	}, {
+		"source": "Ravinder Singh",
+		"target": "Bhagya Chandra"
+	}, {
+		"source": "Ravinder Singh",
+		"target": "Ashwin Sanghi"
+	}, {
+		"source": "Ravinder Singh",
+		"target": "Khushwant Singh"
+	}, {
+		"source": "Harper Lee",
+		"target": "Paula Hawkins"
+	}, {
+		"source": "Harper Lee",
+		"target": "Markus Zusak"
+	}, {
+		"source": "Harper Lee",
+		"target": "George Orwell"
+	}, {
+		"source": "Harper Lee",
+		"target": "Paulo Coelho"
+	}, {
+		"source": "Harper Lee",
+		"target": "Ernest Hemingway"
+	}, {
+		"source": "Harper Lee",
+		"target": "Anthony Doerr"
+	}, {
+		"source": "Harper Lee",
+		"target": "John Grisham"
+	}, {
+		"source": "Harper Lee",
+		"target": "Agatha Christie"
+	}, {
+		"source": "Harper Lee",
+		"target": "John Steinbeck"
+	}, {
+		"source": "Harper Lee",
+		"target": "Charles Dickens"
+	}, {
+		"source": "Harper Lee",
+		"target": "Gregory Peck"
+	}, {
+		"source": "Harper Lee",
+		"target": "Ben Holden-Crowther"
+	}, {
+		"source": "Harper Lee",
+		"target": "John Green"
+	}, {
+		"source": "Harper Lee",
+		"target": "David Lagercrantz"
+	}, {
+		"source": "Harper Lee",
+		"target": "Markus Zusak"
+	}, {
+		"source": "Harper Lee",
+		"target": "Khaled Hosseini"
+	}, {
+		"source": "Preeti Shenoy",
+		"target": "Ravinder Singh"
+	}, {
+		"source": "Preeti Shenoy",
+		"target": "Sankalp Kohli"
+	}, {
+		"source": "Preeti Shenoy",
+		"target": "Sudeep Nagarkar"
+	}, {
+		"source": "Preeti Shenoy",
+		"target": "Suvika"
+	}, {
+		"source": "Preeti Shenoy",
+		"target": "Durjoy Datta"
+	}, {
+		"source": "Preeti Shenoy",
+		"target": "Mr. Anuj Tiwari"
+	}, {
+		"source": "Preeti Shenoy",
+		"target": "Yashodhara Lal"
+	}, {
+		"source": "Preeti Shenoy",
+		"target": "Zeenat Mahal"
+	}, {
+		"source": "Preeti Shenoy",
+		"target": "Novoneel Chakraborty"
+	}, {
+		"source": "Preeti Shenoy",
+		"target": "Robin Sharma"
+	}, {
+		"source": "Preeti Shenoy",
+		"target": "Chetan Bhagat"
+	}, {
+		"source": "Preeti Shenoy",
+		"target": "Twinkle Khanna"
+	}, {
+		"source": "Preeti Shenoy",
+		"target": "Sundari Venkatraman"
+	}, {
+		"source": "Preeti Shenoy",
+		"target": "Simi K. Rao"
+	}, {
+		"source": "Preeti Shenoy",
+		"target": "Smita Kaushik"
+	}, {
+		"source": "Preeti Shenoy",
+		"target": "Jazz Singh"
+	}, {
+		"source": "Napoleon Hill",
+		"target": "Dale Carnegie"
+	}, {
+		"source": "Napoleon Hill",
+		"target": "Robin Sharma"
+	}, {
+		"source": "Napoleon Hill",
+		"target": "Joseph Murphy"
+	}, {
+		"source": "Napoleon Hill",
+		"target": "Brian Tracy"
+	}, {
+		"source": "Napoleon Hill",
+		"target": "Stephen R. Covey"
+	}, {
+		"source": "Napoleon Hill",
+		"target": "Wallace D. Wattles"
+	}, {
+		"source": "Napoleon Hill",
+		"target": "Norman Vincent Peale"
+	}, {
+		"source": "Napoleon Hill",
+		"target": "Anthony Robbins"
+	}, {
+		"source": "Napoleon Hill",
+		"target": "Robert T. Kiyosaki"
+	}, {
+		"source": "Napoleon Hill",
+		"target": "John C. Maxwell"
+	}, {
+		"source": "Napoleon Hill",
+		"target": "George S. Clason"
+	}, {
+		"source": "Napoleon Hill",
+		"target": "Og Mandino"
+	}, {
+		"source": "Napoleon Hill",
+		"target": "Zig Ziglar"
+	}, {
+		"source": "Napoleon Hill",
+		"target": "Claude M. Bristol"
+	}, {
+		"source": "Napoleon Hill",
+		"target": "James Allen"
+	}, {
+		"source": "Napoleon Hill",
+		"target": "Earl Nightingale"
+	}, {
+		"source": "Dr. A.P.J. Abdul Kalam",
+		"target": "Chetan Bhagat"
+	}, {
+		"source": "Dr. A.P.J. Abdul Kalam",
+		"target": "Mohandas K. Gandhi"
+	}, {
+		"source": "Dr. A.P.J. Abdul Kalam",
+		"target": "Robin Sharma"
+	}, {
+		"source": "Dr. A.P.J. Abdul Kalam",
+		"target": "Dale Carnegie"
+	}, {
+		"source": "Dr. A.P.J. Abdul Kalam",
+		"target": "Paulo Coelho"
+	}, {
+		"source": "Dr. A.P.J. Abdul Kalam",
+		"target": "Swami Vivekananda"
+	}, {
+		"source": "Dr. A.P.J. Abdul Kalam",
+		"target": "Amish Tripathi"
+	}, {
+		"source": "Dr. A.P.J. Abdul Kalam",
+		"target": "Joseph Murphy"
+	}, {
+		"source": "Dr. A.P.J. Abdul Kalam",
+		"target": "Muni Nathamal"
+	}, {
+		"source": "Dr. A.P.J. Abdul Kalam",
+		"target": "Rashmi Bansal"
+	}, {
+		"source": "Dr. A.P.J. Abdul Kalam",
+		"target": "Acharya Mahapragya"
+	}, {
+		"source": "Dr. A.P.J. Abdul Kalam",
+		"target": "Ravinder Singh"
+	}, {
+		"source": "Dr. A.P.J. Abdul Kalam",
+		"target": "Shiv Khera"
+	}, {
+		"source": "Dr. A.P.J. Abdul Kalam",
+		"target": "Napoleon Hill"
+	}, {
+		"source": "Dr. A.P.J. Abdul Kalam",
+		"target": "Stephen Hawking"
+	}, {
+		"source": "Dr. A.P.J. Abdul Kalam",
+		"target": "Sudha Murthy"
+	}, {
+		"source": "Chetan Bhagat",
+		"target": "Ravinder Singh"
+	}, {
+		"source": "Chetan Bhagat",
+		"target": "Mohandas K. Gandhi"
+	}, {
+		"source": "Chetan Bhagat",
+		"target": "Dr. A.P.J. Abdul Kalam"
+	}, {
+		"source": "Chetan Bhagat",
+		"target": "Paulo Coelho"
+	}, {
+		"source": "Chetan Bhagat",
+		"target": "Robin Sharma"
+	}, {
+		"source": "Chetan Bhagat",
+		"target": "Khushwant Singh"
+	}, {
+		"source": "Chetan Bhagat",
+		"target": "Amish Tripathi"
+	}, {
+		"source": "Chetan Bhagat",
+		"target": "Khaled Hosseini"
+	}, {
+		"source": "Chetan Bhagat",
+		"target": "Preeti Shenoy"
+	}, {
+		"source": "Chetan Bhagat",
+		"target": "Dan Brown"
+	}, {
+		"source": "Chetan Bhagat",
+		"target": "Durjoy Datta"
+	}, {
+		"source": "Chetan Bhagat",
+		"target": "R. K. Narayan"
+	}, {
+		"source": "Chetan Bhagat",
+		"target": "Sudeep Nagarkar"
+	}, {
+		"source": "Chetan Bhagat",
+		"target": "Sudha Murthy"
+	}, {
+		"source": "Chetan Bhagat",
+		"target": "Ashwin Sanghi"
+	}, {
+		"source": "Chetan Bhagat",
+		"target": "John Green"
+	}, {
+		"source": "Robin Sharma",
+		"target": "Dale Carnegie"
+	}, {
+		"source": "Robin Sharma",
+		"target": "Shiv Khera"
+	}, {
+		"source": "Robin Sharma",
+		"target": "Dr. A.P.J. Abdul Kalam"
+	}, {
+		"source": "Robin Sharma",
+		"target": "Norman Vincent Peale"
+	}, {
+		"source": "Robin Sharma",
+		"target": "Paulo Coelho"
+	}, {
+		"source": "Robin Sharma",
+		"target": "Chetan Bhagat"
+	}, {
+		"source": "Robin Sharma",
+		"target": "Joseph Murphy"
+	}, {
+		"source": "Robin Sharma",
+		"target": "Brian Tracy"
+	}, {
+		"source": "Robin Sharma",
+		"target": "Ben Holden-Crowther"
+	}, {
+		"source": "Robin Sharma",
+		"target": "Ravinder Singh"
+	}, {
+		"source": "Robin Sharma",
+		"target": "Napoleon Hill"
+	}, {
+		"source": "Robin Sharma",
+		"target": "Mitch Albom"
+	}, {
+		"source": "Robin Sharma",
+		"target": "Stephen R. Covey"
+	}, {
+		"source": "Robin Sharma",
+		"target": "Og Mandino"
+	}, {
+		"source": "Robin Sharma",
+		"target": "Preeti Shenoy"
+	}, {
+		"source": "Robin Sharma",
+		"target": "James Allen"
+	}, {
+		"source": "Paulo Coelho",
+		"target": "Isabel Allende"
+	}, {
+		"source": "Paulo Coelho",
+		"target": "Eckhart Tolle"
+	}, {
+		"source": "Paulo Coelho",
+		"target": "Don Miguel Ruiz"
+	}, {
+		"source": "Paulo Coelho",
+		"target": "Miguel De Cervantes Saavedra"
+	}, {
+		"source": "Paulo Coelho",
+		"target": "Gabriel Garcia Marquez"
+	}, {
+		"source": "Paulo Coelho",
+		"target": "Deepak Chopra"
+	}, {
+		"source": "Paulo Coelho",
+		"target": "Jacques Joset"
+	}, {
+		"source": "Paulo Coelho",
+		"target": "Janet Mills"
+	}, {
+		"source": "Paulo Coelho",
+		"target": "Rhonda Byrne"
+	}, {
+		"source": "Paulo Coelho",
+		"target": "Agatha Christie"
+	}, {
+		"source": "Paulo Coelho",
+		"target": "Markus Zusak"
+	}, {
+		"source": "Paulo Coelho",
+		"target": "Ruskin Bond"
+	}, {
+		"source": "Paulo Coelho",
+		"target": "Antoine de Saint Expuery"
+	}, {
+		"source": "Paulo Coelho",
+		"target": "Dan Brown"
+	}, {
+		"source": "Paulo Coelho",
+		"target": "Carlos Ruiz Zafón"
+	}, {
+		"source": "Paulo Coelho",
+		"target": "Jeffrey Archer"
+	}]
+}
