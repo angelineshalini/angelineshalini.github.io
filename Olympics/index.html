@@ -540,16 +540,28 @@ function  drawline3(data){
   var end = parseDate('2016');
   
   x.domain([start, end]);
-  y.domain([91,100]);
-  
+    
   data1 = data.filter(function(d){return d.Sport == sportselected && d.Gender == genderselected&& d.Event == eventselected});
-   redrawline1(data1);
-   
+ 
   data2 = data.filter(function(d){return d.Sport == sportselected1 && d.Gender == genderselected1 && d.Event == eventselected1 });
-   redrawline2(data2);
    
-   data3 = data.filter(function(d){return d.Sport == sportselected2 && d.Gender == genderselected2&& d.Event == eventselected2});
-   redrawline3(data3);})
+  data3 = data.filter(function(d){return d.Sport == sportselected2 && d.Gender == genderselected2&& d.Event == eventselected2});
+  
+  
+  superdata = data1.concat(data2,data3);
+  
+  superdata.sort(function(a, b) {
+    return a.Time- b.Time;
+  });
+   y.domain([superdata[0].Time,superdata[superdata.length -1].Time]);
+   
+   
+   redrawline1(data1);
+   redrawline2(data2);
+   redrawline3(data3);
+   
+   
+   })
   }
   
   function redrawline1 (data){
@@ -562,12 +574,7 @@ function  drawline3(data){
   });
 
   
- var start  = parseDate('1968');
-  var end = parseDate('2016');
-  
-  x.domain([start, end]);
-  y.domain([91,100]);
-  
+ 
     // Select the section we want to apply our changes to
     var svg2 = d3.select("body").transition();
    
