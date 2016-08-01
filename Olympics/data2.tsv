@@ -1,0 +1,164 @@
+Sport	Gender	Event	Time	Timetxt	Athlete	Nationality	Location	Year	Timeinseconds
+Athletics	Women	100 metres	100.000	11.07	Renate Stecher	 East Germany	Munich, West Germany	1972	11.07
+Athletics	Women	100 metres	99.729	11.04	Inge Helten	 West Germany	Fürth, West Germany	1976	11.04
+Athletics	Women	100 metres	99.458	11.01	Annegret Richter	 West Germany	Montreal, Canada	1976	11.01
+Athletics	Women	100 metres	98.284	10.88	Marlies Oelsner	 East Germany	Dresden, East Germany	1977	10.88
+Athletics	Women	100 metres	98.284	10.88	Marlies Göhr	 East Germany	Karl-Marx-Stadt, East Germany	1982	10.88
+Athletics	Women	100 metres	97.651	10.81	Marlies Göhr	 East Germany	Berlin, East Germany	1983	10.81
+Athletics	Women	100 metres	97.471	10.79	Evelyn Ashford	 United States	US Air Force Academy, United States	1983	10.79
+Athletics	Women	100 metres	97.200	10.76	Evelyn Ashford	 United States	Zürich, Switzerland	1984	10.76
+Athletics	Women	100 metres	94.761	10.49	Florence Griffith-Joyner	 United States	Indianapolis, United States	1988	10.49
+Athletics	Men	100 metres	100.000	9.95	Jim Hines	 United States	Mexico City, Mexico	1968	9.95
+Athletics	Men	100 metres	99.799	9.93	Calvin Smith	 United States	Colorado Springs, USA	1983	9.93
+Athletics	Men	100 metres	99.698	9.92	Carl Lewis	 United States	Seoul, South Korea	1988	9.92
+Athletics	Men	100 metres	99.497	9.9	Leroy Burrell	 United States	New York, USA	1991	9.9
+Athletics	Men	100 metres	99.095	9.86	Carl Lewis	 United States	Tokyo, Japan	1991	9.86
+Athletics	Men	100 metres	98.995	9.85	Leroy Burrell	 United States	Lausanne, Switzerland	1994	9.85
+Athletics	Men	100 metres	98.894	9.84	Donovan Bailey	 Canada	Atlanta, USA	1996	9.84
+Athletics	Men	100 metres	98.392	9.79	Maurice Greene	 United States	Athens, Greece	1999	9.79
+Athletics	Men	100 metres	98.191	9.77	Asafa Powell	 Jamaica	Athens, Greece	2005	9.77
+Athletics	Men	100 metres	98.191	9.77	Asafa Powell	 Jamaica	Gateshead, England	2006	9.77
+Athletics	Men	100 metres	98.191	9.77	Asafa Powell	 Jamaica	Zürich, Switzerland	2006	9.77
+Athletics	Men	100 metres	97.889	9.74	Asafa Powell	 Jamaica	Rieti, Italy	2007	9.74
+Athletics	Men	100 metres	97.688	9.72	Usain Bolt	 Jamaica	New York, USA	2008	9.72
+Athletics	Men	100 metres	97.387	9.69	Usain Bolt	 Jamaica	Beijing, China	2008	9.69
+Athletics	Men	100 metres	96.281	9.58	Usain Bolt	 Jamaica	Berlin, Germany	2009	9.58
+Athletics	Men	200 metres	100.000	19.83A	Tommie Smith	 United States	Mexico City, Mexico	1968	19.83
+Athletics	Men	200 metres	99.445	19.72A	Pietro Mennea	 Italy	Mexico City, Mexico	1979	19.72
+Athletics	Men	200 metres	99.143	19.66	Michael Johnson	 United States	Atlanta, United States	1996	19.66
+Athletics	Men	200 metres	97.428	19.32	Michael Johnson	 United States	Atlanta, United States	1996	19.32
+Athletics	Men	200 metres	97.327	19.30	Usain Bolt	 Jamaica	Beijing, China	2008	19.3
+Athletics	Men	200 metres	96.773	19.19	Usain Bolt	 Jamaica	Berlin, Germany	2009	19.19
+Athletics	Women	200 metres	100.000	22.21	Irena Szewinska	 Poland	Potsdam, East Germany	1974	22.21
+Athletics	Women	200 metres	99.325	22.06	Marita Koch	 East Germany	Erfurt, East Germany	1978	22.06
+Athletics	Women	200 metres	99.145	22.02	Marita Koch	 East Germany	Leipzig, East Germany	1979	22.02
+Athletics	Women	200 metres	97.749	21.71	Marita Koch	 East Germany	Karl Marx Stadt, East Germany	1979	21.71
+Athletics	Women	200 metres	97.749	21.71	Marita Koch	 East Germany	Potsdam, East Germany	1984	21.71
+Athletics	Women	200 metres	97.749	21.71	Heike Drechsler	 East Germany	Jena, East Germany	1986	21.71
+Athletics	Women	200 metres	97.749	21.71	Heike Drechsler	 East Germany	Stuttgart, West Germany	1986	21.71
+Athletics	Women	200 metres	97.073	21.56	Florence Griffith-Joyner	 United States	Seoul, South Korea	1988	21.56
+Athletics	Women	200 metres	96.083	21.34	Florence Griffith-Joyner	 United States	Seoul, South Korea	1988	21.34
+Athletics	Men	400 metres	100.000	43.86A	Lee Evans	 United States	Mexico City, Mexico	1968	43.86
+Athletics	Men	400 metres	98.700	43.29	Butch Reynolds	 United States	Zürich, Switzerland	1988	43.29
+Athletics	Men	400 metres	98.450	43.18	Michael Johnson	 United States	Seville, Spain	1999	43.18
+Athletics	Women	400 metres	100.000	50.14	Riitta Salin	 Finland	Rome, Italy	1974	50.14
+Athletics	Women	400 metres	99.262	49.77	Christina Brehmer	 East Germany	Dresden, East Germany	1976	49.77
+Athletics	Women	400 metres	99.222	49.75	Irena Szewinska	 Poland	Bydgoszcz, Poland	1976	49.75
+Athletics	Women	400 metres	98.305	49.29	Irena Szewinska	 Poland	Montreal, Canada	1976	49.29
+Athletics	Women	400 metres	98.105	49.19	Marita Koch	 East Germany	Leipzig, East Germany	1978	49.19
+Athletics	Women	400 metres	97.786	49.03	Marita Koch	 East Germany	Potsdam, East Germany	1978	49.03
+Athletics	Women	400 metres	97.607	48.94	Marita Koch	 East Germany	Prague, Czechoslovakia	1978	48.94
+Athletics	Women	400 metres	97.507	48.89	Marita Koch	 East Germany	Potsdam, East Germany	1979	48.89
+Athletics	Women	400 metres	96.929	48.60	Marita Koch	 East Germany	Turin, Italy	1979	48.6
+Athletics	Women	400 metres	96.051	48.16	Marita Koch	 East Germany	Athens, Greece	1982	48.16
+Athletics	Women	400 metres	95.712	47.99	Jarmila Kratochvílová	 Czechoslovakia	Helsinki, Finland	1983	47.99
+Athletics	Women	400 metres	94.934	47.60	Marita Koch	 East Germany	Canberra, Australia	1985	47.6
+Athletics	Men	800 metres	100.000	1:43.7	 Marcello Fiasconaro	Italy	Milan, Italy	1973	103.7
+Athletics	Men	800 metres	99.807	1:43.5	 Alberto Juantorena	Cuba	Montreal, Canada	1976	103.5
+Athletics	Men	800 metres	99.711	1:43.4	 Alberto Juantorena	Cuba	Sofia, Bulgaria	1977	103.4
+Athletics	Men	800 metres	98.746	1:42.4	 Sebastian Coe	Great Britain	Oslo, Norway	1979	102.4
+Athletics	Men	800 metres	98.100	1:41.73	 Sebastian Coe	Great Britain	Florence, Italy	1981	101.73
+Athletics	Men	800 metres	98.100	1:41.73	 Wilson Kipketer	Denmark	Stockholm, Sweden	1997	101.73
+Athletics	Men	800 metres	97.628	1:41.24	 Wilson Kipketer	Denmark	Zürich, Switzerland	1997	101.24
+Athletics	Men	800 metres	97.502	1:41.11	 Wilson Kipketer	Denmark	Cologne, Germany	1997	101.11
+Athletics	Men	800 metres	97.483	1:41.09	 David Rudisha	Kenya	Berlin, Germany	2010	101.09
+Athletics	Men	800 metres	97.406	1:41.01	 David Rudisha	Kenya	Rieti, Italy	2010	101.01
+Athletics	Men	800 metres	97.310	1:40.91	 David Rudisha	Kenya	London, United Kingdom	2012	100.91
+Athletics	Women	800 metres	100.000	1:57.5	 Svetla Zlateva	Bulgaria	Athens, Greece	1973	117.5
+Athletics	Women	800 metres	98.723	1:56.0	 Valentina Gerasimova	Soviet Union	Kiev, Soviet Union	1976	116
+Athletics	Women	800 metres	97.787	1:54.9	 Tatyana Kazankina	Soviet Union	Montreal, Canada	1976	114.9
+Athletics	Women	800 metres	97.787	1:54.9	 Nadezhda Olizarenko	Soviet Union	Moscow, Soviet Union	1980	114.9
+Athletics	Women	800 metres	96.596	1:53.5	 Nadezhda Olizarenko	Soviet Union	Moscow, Soviet Union	1980	113.5
+Athletics	Women	800 metres	96.409	1:53.28	 Jarmila Kratochvílová	Czechoslovakia	Munich, West Germany	1983	113.28
+Athletics	Men	1500 metres	100.000	3:32.2	 Filbert Bayi	Tanzania	Christchurch, New Zealand	1974	212.2
+Athletics	Men	1500 metres	99.953	3:32.1	 Sebastian Coe	Great Britain	Zürich, Switzerland	1979	212.1
+Athletics	Men	1500 metres	99.953	3:32.1	 Steve Ovett	Great Britain	Oslo, Norway	1980	212.1
+Athletics	Men	1500 metres	99.623	3:31.4	 Steve Ovett	Great Britain	Koblenz, West Germany	1980	211.4
+Athletics	Men	1500 metres	99.548	3:31.24	 Sydney Maree	United States	Cologne, West Germany	1983	211.24
+Athletics	Men	1500 metres	99.326	3:30.77	 Steve Ovett	Great Britain	Rieti, Italy	1983	210.77
+Athletics	Men	1500 metres	98.808	3:29.67	 Steve Cram	Great Britain	Nice, France	1985	209.67
+Athletics	Men	1500 metres	98.709	3:29.46	 Saïd Aouita	Morocco	Berlin, Germany	1985	209.46
+Athletics	Men	1500 metres	98.426	3:28.86	 Noureddine Morceli	Algeria	Rieti, Italy	1992	208.86
+Athletics	Men	1500 metres	97.724	3:27.37	 Noureddine Morceli	Algeria	Nice, France	1995	207.37
+Athletics	Men	1500 metres	97.078	3:26.00	 Hicham El Guerrouj	Morocco	Rome, Italy	1998	206
+Athletics	Women	1500 metres	100.000	4:01.4	 Ludmila Bragina (URS)	Soviet Union	Munich, Germany	1972	241.4
+Athletics	Women	1500 metres	97.763	3:56.0	 Tatyana Kazankina (URS)	Soviet Union	Podolsk, Soviet Union	1976	236
+Athletics	Women	1500 metres	97.349	3:55.0	 Tatyana Kazankina (URS)	Soviet Union	Moscow, Soviet Union	1980	235
+Athletics	Women	1500 metres	96.301	3:52.47	 Tatyana Kazankina (URS)	Soviet Union	Zurich, Switzerland	1980	232.47
+Athletics	Women	1500 metres	95.468	3:50.46	 Qu Yunxia (CHN)	China	Beijing, China	1993	230.46
+Athletics	Women	1500 metres	95.307	3:50.07	 Genzebe Dibaba (ETH)	Ethiopia	Fontvieille, Monaco	2015	230.07
+Athletics	Men	5,000 metres	100.000	13:13.0	 Emiel Puttemans	Belgium	Brussels, Belgium	1972	793
+Athletics	Men	5,000 metres	99.987	13:12.9	 Dick Quax	New Zealand	Stockholm, Sweden	1977	792.9
+Athletics	Men	5,000 metres	99.420	13:08.4	 Henry Rono	Kenya	Berkeley, California, USA	1978	788.4
+Athletics	Men	5,000 metres	99.142	13:06.20	 Henry Rono	Kenya	Knarvik, Norway	1981	786.2
+Athletics	Men	5,000 metres	98.412	13:00.41	 David Moorcroft	Great Britain	Oslo, Norway	1982	780.41
+Athletics	Men	5,000 metres	98.411	13:00.40	 Saïd Aouita	Morocco	Oslo, Norway	1985	780.4
+Athletics	Men	5,000 metres	98.158	12:58.39	 Saïd Aouita	Morocco	Rome, Italy	1987	778.39
+Athletics	Men	5,000 metres	97.977	12:56.96	 Haile Gebrselassie	Ethiopia	Hengelo, Netherlands	1994	776.96
+Athletics	Men	5,000 metres	97.768	12:55.30	 Moses Kiptanui	Kenya	Rome, Italy	1995	775.3
+Athletics	Men	5,000 metres	96.392	12:44.39	 Haile Gebrselassie	Ethiopia	Zürich, Switzerland	1995	764.39
+Athletics	Men	5,000 metres	96.073	12:41.86	 Haile Gebrselassie 	Ethiopia	Zürich, Switzerland	1997	761.86
+Athletics	Men	5,000 metres	95.806	12:39.74	 Daniel Komen	Kenya	Brussels, Belgium	1997	759.74
+Athletics	Men	5,000 metres	95.758	12:39.36	 Haile Gebrselassie	Ethiopia	Helsinki, Finland	1998	759.36
+Athletics	Men	5,000 metres	95.504	12:37.35	 Kenenisa Bekele	Ethiopia	Hengelo, Netherlands	2004	757.35
+Athletics	Women	5,000 metres	100.000	15:53.6	 Paola Pigni	Italy	Milan, Italy	1969	953.6
+Athletics	Women	5,000 metres	98.721	15:41.4	 Natalia Marasescu	Romania	Oradea, Romania	1977	941.4
+Athletics	Women	5,000 metres	99.533	15:37.0	 Janice Merrill	United States	Mainz, Germany	1977	937
+Athletics	Women	5,000 metres	99.842	15:35.52	 Kathy Mills	United States	Knoxville, United States	1978	935.52
+Athletics	Women	5,000 metres	99.816	15:33.8	 Janice Merrill	United States	Durham, United States	1979	933.8
+Athletics	Women	5,000 metres	99.657	15:30.6	 Janice Merrill	United States	Stanford, United States	1980	930.6
+Athletics	Women	5,000 metres	99.767	15:28.43	 Ingrid Kristiansen	Norway	Oslo, Norway	1981	928.43
+Athletics	Women	5,000 metres	99.587	15:24.6	 Yelena Sipatova	Soviet Union	Podolsk, Soviet Union	1981	924.6
+Athletics	Women	5,000 metres	98.909	15:14.51	 Paula Fudge	Great Britain	Knarvik, Norway	1981	914.51
+Athletics	Women	5,000 metres	99.859	15:13.22	 Anne Audain	New Zealand	Auckland, New Zealand	1982	913.22
+Athletics	Women	5,000 metres	99.457	15:08.26	 Mary Decker-Slaney	United States	Eugene, Oregon, United States	1982	908.26
+Athletics	Women	5,000 metres	98.968	14:58.89	 Ingrid Kristiansen	Norway	Oslo, Norway	1984	898.89
+Athletics	Women	5,000 metres	98.796	14:48.07	 Zola Budd	Great Britain	London, United Kingdom	1985	888.07
+Athletics	Women	5,000 metres	98.791	14:37.33	 Ingrid Kristiansen	Norway	Stockholm, Sweden	1986	877.33
+Athletics	Women	5,000 metres	99.900	14:36.45	 Fernanda Ribeiro	Portugal	Hechtel, Belgium	1995	876.45
+Athletics	Women	5,000 metres	99.409	14:31.27	 Dong Yanmei	China	Shanghai, China	1997	871.27
+Athletics	Women	5,000 metres	99.635	14:28.09	 Jiang Bo	China	Shanghai, China	1997	868.09
+Athletics	Women	5,000 metres	99.607	14:24.68	 Elvan Abeylegesse	Turkey	Bergen, Norway	2004	864.68
+Athletics	Women	5,000 metres	99.983	14:24.53	 Meseret Defar	Ethiopia	New York, United States	2006	864.53
+Athletics	Women	5,000 metres	99.086	14:16.63	 Meseret Defar	Ethiopia	Oslo, Norway	2007	856.63
+Athletics	Women	5,000 metres	99.360	14:11.15	 Tirunesh Dibaba	Ethiopia	Oslo, Norway	2008	851.15
+Swimming	Men	Freestyle 100 metres	100.000	50.59	Jim Montgomery	 United States	Kansas City, United States	1975	50.59
+Swimming	Men	Freestyle 100 metres	99.605	50.39	Jim Montgomery	 United States	Montreal, Canada	1976	50.39
+Swimming	Men	Freestyle 100 metres	98.814	49.99	Jim Montgomery	 United States	Montreal, Canada	1976	49.99
+Swimming	Men	Freestyle 100 metres	97.727	49.44	Jonty Skinner	 South Africa	Philadelphia, United States	1976	49.44
+Swimming	Men	Freestyle 100 metres	97.569	49.36	Rowdy Gaines	 United States	Austin, United States	1981	49.36
+Swimming	Men	Freestyle 100 metres	97.331	49.24	Matt Biondi	 United States	Mission Viejo, United States	1985	49.24
+Swimming	Men	Freestyle 100 metres	96.758	48.95	Matt Biondi	 United States	Mission Viejo, United States	1985	48.95
+Swimming	Men	Freestyle 100 metres	96.343	48.74	Matt Biondi	 United States	Orlando, United States	1986	48.74
+Swimming	Men	Freestyle 100 metres	95.711	48.42	Matt Biondi	 United States	Austin, United States	1988	48.42
+Swimming	Men	Freestyle 100 metres	95.296	48.21	Alexander Popov	 Russia	Monte-Carlo, Monaco	1994	48.21
+Swimming	Men	Freestyle 100 metres	95.236	48.18	Michael Klim	 Australia	Sydney, Australia	2000	48.18
+Swimming	Men	Freestyle 100 metres	94.564	47.84	Pieter van den Hoogenband	 Netherlands	Sydney, Australia	2000	47.84
+Swimming	Men	Freestyle 100 metres	94.090	47.60	Alain Bernard	 France	Eindhoven, Netherlands	2008	47.6
+Swimming	Men	Freestyle 100 metres	93.892	47.50	Alain Bernard	 France	Eindhoven, Netherlands	2008	47.5
+Swimming	Men	Freestyle 100 metres	93.378	47.24	Eamon Sullivan	 Australia	Beijing, China	2008	47.24
+Swimming	Men	Freestyle 100 metres	93.299	47.20	Alain Bernard	 France	Beijing, China	2008	47.2
+Swimming	Men	Freestyle 100 metres	93.003	47.05	Eamon Sullivan	 Australia	Beijing, China	2008	47.05
+Swimming	Men	Freestyle 100 metres	92.785	46.94	Alain Bernard	 France	Montpellier, France	2009	46.94
+Swimming	Men	Freestyle 100 metres	92.726	46.91	César Cielo	 Brazil	Rome, Italy	2009	46.91
+Swimming	Women	Freestyle 100 metres	100.000	56.22	Kornelia Ender	 East Germany	Cali, Colombia	1975	56.22
+Swimming	Women	Freestyle 100 metres	99.128	55.73	Kornelia Ender	 East Germany	East Berlin, East Germany	1976	55.73
+Swimming	Women	Freestyle 100 metres	98.986	55.65	Kornelia Ender	 East Germany	Montréal, Canada	1976	55.65
+Swimming	Women	Freestyle 100 metres	98.559	55.41	Barbara Krause	 East Germany	East Berlin, East Germany	1978	55.41
+Swimming	Women	Freestyle 100 metres	97.794	54.98	Barbara Krause	 East Germany	Moscow, Soviet Union	1980	54.98
+Swimming	Women	Freestyle 100 metres	97.456	54.79	Barbara Krause	 East Germany	Moscow, Soviet Union	1980	54.79
+Swimming	Women	Freestyle 100 metres	97.350	54.73	Kristin Otto	 East Germany	Madrid, Spain	1986	54.73
+Swimming	Women	Freestyle 100 metres	96.905	54.48	Jenny Thompson	 United States	Indianapolis, United States	1992	54.48
+Swimming	Women	Freestyle 100 metres	96.069	54.01	Jingyi Le	 China	Rome, Italy	1994	54.01
+Swimming	Women	Freestyle 100 metres	95.695	53.80	Inge de Bruijn	 Netherlands	Sheffield, United Kingdom	2000	53.8
+Swimming	Women	Freestyle 100 metres	95.642	53.77	Inge de Bruijn	 Netherlands	Sydney, Australia	2000	53.77
+Swimming	Women	Freestyle 100 metres	95.446	53.66	Libby Lenton	 Australia	Sydney, Australia	2004	53.66
+Swimming	Women	Freestyle 100 metres	95.197	53.52	Jodie Henry	 Australia	Athens, Greece	2004	53.52
+Swimming	Women	Freestyle 100 metres	95.020	53.42	Libby Lenton	 Australia	Melbourne, Australia	2006	53.42
+Swimming	Women	Freestyle 100 metres	94.806	53.30	Britta Steffen	 Germany	Budapest, Hungary	2006	53.3
+Swimming	Women	Freestyle 100 metres	94.059	52.88	Libby Trickett	 Australia	Sydney, Australia	2008	52.88
+Swimming	Women	Freestyle 100 metres	94.006	52.85	Britta Steffen	 Germany	Berlin, Germany	2009	52.85
+Swimming	Women	Freestyle 100 metres	93.490	52.56	Britta Steffen	 Germany	Berlin, Germany	2009	52.56
+Swimming	Women	Freestyle 100 metres	92.885	52.22	Britta Steffen	 Germany	Rome, Italy	2009	52.22
+Swimming	Women	Freestyle 100 metres	92.618	52.07	Britta Steffen	 Germany	Rome, Italy	2009	52.07
+Swimming	Women	Freestyle 100 metres	92.600	52.06	Cate Campbell	 Australia	Brisbane, Australia	2016	52.06

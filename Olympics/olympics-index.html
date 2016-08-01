@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<meta charset='UTF-8'>
+<head>
+<script src="//d3js.org/d3.v3.min.js"></script>
+
+
+<link rel='stylesheet' href='style.css'>
+
+</head>
+<style>
+
+body {
+  font: 10px sans-serif;
+}
+
+td, th {
+    padding: 1px 4px;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+.line2 {
+  fill: none;
+  stroke: red;
+  stroke-width: 1.5px;
+}
+.line3 {
+  fill: none;
+  stroke: green;
+  stroke-width: 1.5px;
+}
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+
+
+.points circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+  fill: black;
+}
+
+div.tooltip {   
+  position: absolute;           
+  text-align: center;           
+  width: 100px;                  
+  height: 55px;                 
+  padding: 2px;             
+  font: 12px sans-serif;        
+  background: lightsteelblue;   
+  border: 0px;      
+  border-radius: 8px;           
+  pointer-events: none;         
+}
+</style>
+<body>
+<div id="container">
+      <h1 id="headline" class="viz-head">Tracing world records in athletics and swimming since 1970</h1>
+         </div>  
+    
+
+
+<form name="info">
+<tr>
+
+<td>Gender:</td><td><select name ="gender" id ="gender" onchange = "updategraph();">
+<option value="Men"selected >Men</option>
+<option value="Women"  >Women</option></select>
+
+<td>Sport: </td>
+<td><select name="sport
+" id="sport" onchange="configureDropDownLists(this,'evento');">
+<option value="Athletics" >Athletics</option>
+<option value="Swimming">Swimming</option>
+</select></td>
+<td>Event: </td>
+<td><select name="event" id="evento" onchange = "updategraph();">
+<option value = "100 metres" selected>100 metres</option>
+<option value ="200 metres">200 metres</option>
+<option value ="400 metres">400 metres</option>
+<option value ="800 metres">800 metres</option>
+<option value ="1500 metres">1500 metres</option>
+<option value ="5,000 metres">5,000 metres</option>
+<option value ="10,000 metres">10,000 metres</option>
+<option value ="110 metre hurdles">110 metre hurdles</option>
+<option value ="400 metre hurdles">400 metre hurdles</option>
+<option value ="3,000 metres steeplechase">3,000 metres steeplechase</option>
+<option value ="4x100 metres relay">4x100 metres relay</option>
+<option value ="4x400 metres relay">4x400 metres relay</option>
+<option value ="High jump">High jump</option>
+<option value ="Pole vault">Pole vault</option>
+<option value ="Long jump">Long jump</option>
+<option value ="Triple jump">Triple jump</option>
+<option value ="Discus throw">Discus throw</option>
+<option value ="Hammer throw">Hammer throw</option>
+<option value ="Javelin throw">Javelin throw</option>
+<option value ="Shot put">Shot put</option>
+<option value ="Marathon">Marathon</option>
+<option value ="20 km walk">20 km walk</option>
+<option value ="50 km walk">50 km walk</option>
+</select></td>
+
+<tr><br><br>
+<td>Gender:</td><td><select name ="gender" id ="gender1" onchange = "updategraph();">
+<option value="Men">Men</option>
+<option value="Women"  selected >Women</option></select>
+
+
+<td>Sport: </td>
+<td><select name="sport
+" id="sport1" onchange="configureDropDownLists1(this,'event1');">
+<option value="Athletics" >Athletics</option>
+<option value="Swimming">Swimming</option>
+</select></td>
+<td>Event: </td>
+<td><select name="event" id="event1" onchange = "updategraph();">
+<option value = "100 metres" selected>100 metres</option>
+<option value ="200 metres">200 metres</option>
+<option value ="400 metres">400 metres</option>
+<option value ="800 metres">800 metres</option>
+<option value ="1500 metres">1500 metres</option>
+<option value ="5,000 metres">5,000 metres</option>
+<option value ="10,000 metres">10,000 metres</option>
+<option value ="110 metre hurdles">110 metre hurdles</option>
+<option value ="400 metre hurdles">400 metre hurdles</option>
+<option value ="3,000 metres steeplechase">3,000 metres steeplechase</option>
+<option value ="4x100 metres relay">4x100 metres relay</option>
+<option value ="4x400 metres relay">4x400 metres relay</option>
+<option value ="High jump">High jump</option>
+<option value ="Pole vault">Pole vault</option>
+<option value ="Long jump">Long jump</option>
+<option value ="Triple jump">Triple jump</option>
+<option value ="Discus throw">Discus throw</option>
+<option value ="Hammer throw">Hammer throw</option>
+<option value ="Javelin throw">Javelin throw</option>
+<option value ="Shot put">Shot put</option>
+<option value ="Marathon">Marathon</option>
+<option value ="20 km walk">20 km walk</option>
+<option value ="50 km walk">50 km walk</option>
+</select></td>
+</tr><br><br>
+
+<tr>
+
+<td>Gender:</td><td><select name ="gender" id ="gender2" onchange = "updategraph();">
+<option value="Men">Men</option>
+<option value="Women">Women</option></select>
+<td>Sport: </td>
+<td><select name="sport
+" id="sport2" onchange="configureDropDownLists2(this,'event2');">
+<option value="Athletics" >Athletics</option>
+<option value="Swimming">Swimming</option>
+</select></td>
+<td>Event: </td>
+<td><select name="event" id="event2" onchange = "updategraph();">
+<option value = "100 metres" >100 metres</option>
+<option value ="200 metres"selected = "selected">200 metres</option>
+<option value ="400 metres">400 metres</option>
+<option value ="800 metres">800 metres</option>
+<option value ="1500 metres">1500 metres</option>
+<option value ="5,000 metres">5,000 metres</option>
+<option value ="10,000 metres">10,000 metres</option>
+<option value ="110 metre hurdles">110 metre hurdles</option>
+<option value ="400 metre hurdles">400 metre hurdles</option>
+<option value ="3,000 metres steeplechase">3,000 metres steeplechase</option>
+<option value ="4x100 metres relay">4x100 metres relay</option>
+<option value ="4x400 metres relay">4x400 metres relay</option>
+<option value ="High jump">High jump</option>
+<option value ="Pole vault">Pole vault</option>
+<option value ="Long jump">Long jump</option>
+<option value ="Triple jump">Triple jump</option>
+<option value ="Discus throw">Discus throw</option>
+<option value ="Hammer throw">Hammer throw</option>
+<option value ="Javelin throw">Javelin throw</option>
+<option value ="Shot put">Shot put</option>
+<option value ="Marathon">Marathon</option>
+<option value ="20 km walk">20 km walk</option>
+<option value ="50 km walk">50 km walk</option>
+
+</select></td>
+</tr>
+
+</form>
+
+
+
+<script>
+//Populating the select options for event drop down
+
+place = {
+	Athletics:['100 metres','200 metres','400 metres','800 metres','1500 metres','5,000 metres',
+'10,000 metres','110 metre hurdles','400 metre hurdles','3,000 metres steeplechase',
+'4x100 metres relay','4x400 metres relay','High jump','Pole vault','Long jump',
+'Triple jump','Discus throw','Hammer throw','Javelin throw','Shot put','Marathon',
+'20 km walk','50 km walk'],
+	Swimming:['Freestyle 50 metres','Freestyle 100 metres','Freestyle 200 metres','Freestyle 400 metres','Freestyle 800 metres',
+'Freestyle 1500 metres','Butterfly 100 metres','Butterfly 200 metres','Breaststroke 100 metres','Breaststroke 200 metres',
+'Backstroke 100 metres','Backstroke 200 metres','200 metres individual medley','400 metres individual medley',
+'4x100 metres freestyle relay','4x200 metres freestyle relay','4x100 medley relay']
+	}
+
+function clearOpts(target){
+	sel = document.info[target].options;
+	for (i = sel.length - 1; i >= 0; i--)
+		sel.remove(i);
+}
+
+function configureDropDownLists(o,event) {
+	if(document.info[event].options.length!=0) clearOpts(event);
+	selected = o.selectedIndex;
+	if(selected== -1) return;
+	event = o.options[selected].value;
+	for (i = 0; i < place[event].length; i++) {
+				createOption('evento', place[event][i], place[event][i]) 
+			}
+	updategraph();		
+}
+
+function configureDropDownLists1(o,event) {
+	if(document.info[event].options.length!=0) clearOpts(event);
+	selected = o.selectedIndex;
+	if(selected== -1) return;
+	event = o.options[selected].value;
+	for (i = 0; i < place[event].length; i++) {
+				createOption('event1', place[event][i], place[event][i]) 
+			}
+	updategraph();		
+}
+
+function configureDropDownLists2(o,event) {
+	if(document.info[event].options.length!=0) clearOpts(event);
+	selected = o.selectedIndex;
+	if(selected== -1) return;
+	event = o.options[selected].value;
+	for (i = 0; i < place[event].length; i++) {
+				createOption('event2', place[event][i], place[event][i]) 
+			}
+	updategraph();		
+}
+
+function createOption(target, label, value) {
+	opts = document.info[target];
+	opts.options.add(new Option(label,value) );
+}
+			
+
+
+var margin = {top: 20, right: 50, bottom: 30, left: 50},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+var parseDate = d3.time.format("%Y").parse,
+    bisectDate = d3.bisector(function(d) { return d.Year; }).left,
+    formatValue = d3.format(",.2f"),
+    formatCurrency = function(d) { return "$" + formatValue(d); };
+	
+var formatTime = d3.time.format("%Y");
+
+var x = d3.time.scale()
+    .range([0, width]);
+
+var y = d3.scale.linear()
+    .range([height, 0]);
+
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom");
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left");
+
+var line = d3.svg.line()
+    .x(function(d) { return x(d.Year); })
+    .y(function(d) { return y(d.Time); });
+	
+var line2 = d3.svg.line()
+    .x(function(d) { return x(d.Year); })
+    .y(function(d) { return y(d.Time); });
+
+var line3 = d3.svg.line()
+    .x(function(d) { return x(d.Year); })
+    .y(function(d) { return y(d.Time); });
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+	.style("background-color", "lavender")
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+	;
+
+// For Tooltip
+var div = d3.select("body").append("div")   
+    .attr("class", "tooltip")               
+    .style("opacity", 0);	
+
+	
+
+   
+   
+d3.tsv("data2.tsv", function(error, data) {
+  if (error) throw error;
+
+  data.forEach(function(d) {
+    d.Year = parseDate(d.Year);
+    d.Time= +d.Time;
+  }); 
+  var start  = parseDate('1968');
+  var end = parseDate('2016');
+  
+  x.domain([start, end]);
+  y.domain([91,100]);
+  
+  data1 = data.filter(function(d){return d.Sport == "Athletics" && d.Gender =="Men" && d.Event == "100 metres"});
+   drawline1(data1);
+  rowa1data = data1[0].Sport;
+  rowa2data = data1.length;
+  rowa3data = data1[data1.length-1].Timeinseconds - data1[0].Timeinseconds;
+  
+  data2 = data.filter(function(d){return d.Sport == "Athletics" && d.Gender =="Women" && d.Event == "100 metres"});
+   drawline2(data2);
+     rowb1data = data2[0].Sport;
+  rowb2ata = data2.length;
+  rowb3data = data2[data2.length-1].Timeinseconds - data2[0].Timeinseconds;
+   
+  data3 = data.filter(function(d){return d.Sport == "Athletics" && d.Gender =="Men" && d.Event == "200 metres"});
+  drawline3(data3);
+     rowc1data = data3[0].Sport;
+  rowc2ata = data3.length;
+  rowc3data = data3[data3.length-1].Timeinseconds - data3[0].Timeinseconds;
+  alldata = [rowa1data,rowa2data,rowa3data,rowb1data,rowb2data,rowb3data,rowc1data,rowc2data,rowc3data]
+  function tabulate() {
+   })
+   
+   
+  function  drawline1(data){
+  
+  
+
+  data.sort(function(a, b) {
+    return a.Year - b.Year;
+  });
+  var Startyear = '1972'
+  var Endyear = '2016'
+  
+  
+
+
+  svg.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis);
+
+  svg.append("g")
+      .attr("class", "y axis")
+      .call(yAxis)
+    .append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", ".71em")
+      .style("text-anchor", "end")
+      .text("Normalized time");
+
+  
+  svg.append("path")
+      .datum(data)
+      .attr("class", "line")
+      .attr("d", line);
+	  
+
+   
+// Add the scatterplot
+    svg.append("g").selectAll("circle")
+        .data(data)
+      .enter().append("circle")
+        .attr("r", 3.5)
+  .attr("fill","black")
+        .attr("cx", function(d) { return x(d.Year); })
+        .attr("cy", function(d) { return y(d.Time); })
+		 .on("mouseover", function(d) {      
+            div.transition()        
+                .duration(50)      
+                .style("opacity", .9);      
+            div .html(d.Athlete+"<br/>"+ d.Timetxt+ "<br/>" +formatTime(d.Year) )  
+                .style("left", (d3.event.pageX) + "px")     
+                .style("top", (d3.event.pageY - 28) + "px");    
+            })                  
+        .on("mouseout", function(d) {       
+            div.transition()        
+                .duration(100)      
+                .style("opacity", 0);   
+        });
+  
+
+  };
+function  drawline2(data){
+  
+
+  data.sort(function(a, b) {
+    return a.Year - b.Year;
+  });
+
+ 
+  
+  svg.append("path")
+      .datum(data)
+      .attr("class", "line2")
+      .attr("d", line2);
+	  
+
+   
+// Add the scatterplot
+    svg.append("g").selectAll("circle")
+        .data(data)
+      .enter().append("circle")
+        .attr("r", 3.5)
+  .attr("fill","black")
+        .attr("cx", function(d) { return x(d.Year); })
+        .attr("cy", function(d) { return y(d.Time); })
+		 .on("mouseover", function(d) {      
+            div.transition()        
+                .duration(50)      
+                .style("opacity", .9);      
+            div .html(d.Athlete+"<br/>"+ d.Timetxt+ "<br/>" +formatTime(d.Year) )  
+                .style("left", (d3.event.pageX) + "px")     
+                .style("top", (d3.event.pageY - 28) + "px");    
+            })                  
+        .on("mouseout", function(d) {       
+            div.transition()        
+                .duration(100)      
+                .style("opacity", 0);   
+        });
+   
+  };
+function  drawline3(data){
+  
+
+  data.sort(function(a, b) {
+    return a.Year - b.Year;
+  });
+
+
+
+  
+  svg.append("path")
+      .datum(data)
+      .attr("class", "line3")
+      .attr("d", line3);
+	  
+
+   
+// Add the scatterplot
+    svg.append("g").selectAll("circle")
+        .data(data)
+      .enter().append("circle")
+        .attr("r", 3.5)
+  .attr("fill","black")
+        .attr("cx", function(d) { return x(d.Year); })
+        .attr("cy", function(d) { return y(d.Time); })
+		 .on("mouseover", function(d) {      
+            div.transition()        
+                .duration(50)      
+                .style("opacity", .9);      
+            div .html(d.Athlete+"<br/>"+ d.Timetxt+ "<br/>" +formatTime(d.Year) )  
+                .style("left", (d3.event.pageX) + "px")     
+                .style("top", (d3.event.pageY - 28) + "px");    
+            })                  
+        .on("mouseout", function(d) {       
+            div.transition()        
+                .duration(100)      
+                .style("opacity", 0);   
+        });
+   
+  };
+  
+  
+  
+  function updategraph() {
+   
+   var  e = document.getElementById("gender");
+  var genderselected = e.options[e.selectedIndex].value;
+  var  e1 = document.getElementById("gender1");
+  var genderselected1 = e1.options[e1.selectedIndex].value;
+  var  e2 = document.getElementById("gender2");
+  var genderselected2 = e2.options[e2.selectedIndex].value;
+  
+  var f = document.getElementById("sport");
+  sportselected = f.options[f.selectedIndex].value;
+  var f1 = document.getElementById("sport1");
+  sportselected1 = f1.options[f1.selectedIndex].value;
+  var f2 = document.getElementById("sport2");
+  sportselected2 = f2.options[f2.selectedIndex].value;
+  
+  var g = document.getElementById("evento");
+  eventselected = g.options[g.selectedIndex].value;
+  var g1 = document.getElementById("event1");
+  eventselected1 = g1.options[g1.selectedIndex].value;
+  var g2 = document.getElementById("event2");
+  eventselected2 = g2.options[g2.selectedIndex].value;
+  
+  d3.tsv("data2.tsv", function(error, data) {
+  if (error) throw error;
+  
+  data.forEach(function(d) {
+    d.Year = parseDate(d.Year);
+    d.Time= +d.Time;
+  });
+  
+ var start  = parseDate('1968');
+  var end = parseDate('2016');
+  
+  x.domain([start, end]);
+  y.domain([91,100]);
+  
+  data1 = data.filter(function(d){return d.Sport == sportselected && d.Gender == genderselected&& d.Event == eventselected});
+   redrawline1(data1);
+   
+  data2 = data.filter(function(d){return d.Sport == sportselected1 && d.Gender == genderselected1 && d.Event == eventselected1 });
+   redrawline2(data2);
+   
+   data3 = data.filter(function(d){return d.Sport == sportselected2 && d.Gender == genderselected2&& d.Event == eventselected2});
+   redrawline3(data3);})
+  }
+  
+  function redrawline1 (data){
+  
+  
+  
+
+  data.sort(function(a, b) {
+    return a.Year - b.Year;
+  });
+
+  
+  x.domain([data[0].Year, data[data.length - 1].Year]);
+  y.domain([91,100]);
+  
+  
+    // Select the section we want to apply our changes to
+    var svg2 = d3.select("body").transition();
+   
+
+
+    // Make the changes
+        svg2.select(".line")   // change the line
+            .duration(750)
+            .attr("d", line(data));
+			
+        svg2.select(".x.axis") // change the x axis
+            .duration(750)
+            .call(xAxis);
+			
+        svg2.select(".y.axis") // change the y axis
+            .duration(750)
+            .call(yAxis); 
+		
+svg2.selectAll("circle").remove();
+			
+		// Add the scatterplot
+    svg.append("g").selectAll("circle")
+        .data(data)
+      .enter().append("circle")
+        .attr("r", 3.5)
+  .attr("fill","black")
+        .attr("cx", function(d) { return x(d.Year); })
+        .attr("cy", function(d) { return y(d.Time); })
+		.on("mouseover", function(d) {      
+            div.transition()        
+                .duration(50)      
+                .style("opacity", .9);      
+            div .html(d.Athlete+"<br/>"+ d.Timetxt+ "<br/>" +formatTime(d.Year) )  
+                .style("left", (d3.event.pageX) + "px")     
+                .style("top", (d3.event.pageY - 28) + "px");    
+            })                  
+        .on("mouseout", function(d) {       
+            div.transition()        
+                .duration(100)      
+                .style("opacity", 0);   
+        });
+
+
+	
+  
+};
+
+function redrawline2 (data){
+  
+  
+ 
+
+  data.sort(function(a, b) {
+    return a.Year - b.Year;
+  });
+
+  
+   
+  
+    // Select the section we want to apply our changes to
+    var svg2 = d3.select("body").transition();
+   
+
+
+    // Make the changes
+        svg2.select(".line2")   // change the line
+            .duration(750)
+            .attr("d", line2(data));
+			
+        
+		
+//
+
+			
+		// Add the scatterplot
+    svg.append("g").selectAll("circle")
+        .data(data)
+      .enter().append("circle")
+        .attr("r", 3.5)
+  .attr("fill","black")
+        .attr("cx", function(d) { return x(d.Year); })
+        .attr("cy", function(d) { return y(d.Time); })
+		.on("mouseover", function(d) {      
+            div.transition()        
+                .duration(50)      
+                .style("opacity", .9);      
+            div .html(d.Athlete+"<br/>"+ d.Timetxt+ "<br/>" +formatTime(d.Year) )  
+                .style("left", (d3.event.pageX) + "px")     
+                .style("top", (d3.event.pageY - 28) + "px");    
+            })                  
+        .on("mouseout", function(d) {       
+            div.transition()        
+                .duration(100)      
+                .style("opacity", 0);   
+        });
+	
+  
+};
+function redrawline3 (data){
+  
+  
+  
+  data.sort(function(a, b) {
+    return a.Year - b.Year;
+  });
+
+  
+   
+  
+    // Select the section we want to apply our changes to
+    var svg2 = d3.select("body").transition();
+   
+
+
+    // Make the changes
+        svg2.select(".line3")   // change the line
+            .duration(750)
+            .attr("d", line3(data));
+			
+        
+		
+//
+
+			
+		// Add the scatterplot
+    svg.append("g").selectAll("circle")
+        .data(data)
+      .enter().append("circle")
+        .attr("r", 3.5)
+  .attr("fill","black")
+        .attr("cx", function(d) { return x(d.Year); })
+        .attr("cy", function(d) { return y(d.Time); })
+		.on("mouseover", function(d) {      
+            div.transition()        
+                .duration(50)      
+                .style("opacity", .9);      
+            div .html(d.Athlete+"<br/>"+ d.Timetxt+ "<br/>" +formatTime(d.Year) )  
+                .style("left", (d3.event.pageX) + "px")     
+                .style("top", (d3.event.pageY - 28) + "px");    
+            })                  
+        .on("mouseout", function(d) {       
+            div.transition()        
+                .duration(100)      
+                .style("opacity", 0);   
+        });
+	
+  
+};
+
+// adding the Table
+
+</script>
