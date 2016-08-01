@@ -323,24 +323,40 @@ d3.tsv("data2.tsv", function(error, data) {
   var end = parseDate('2016');
   
   x.domain([start, end]);
-  y.domain([91,100]);
+ 
   
   data1 = data.filter(function(d){return d.Sport == "Athletics" && d.Gender =="Men" && d.Event == "100 metres"});
+  
+  data2 = data.filter(function(d){return d.Sport == "Athletics" && d.Gender =="Women" && d.Event == "100 metres"});
+   
+  data3 = data.filter(function(d){return d.Sport == "Athletics" && d.Gender =="Men" && d.Event == "200 metres"});
+  
+  superdata = data1.concat(data2,data3);
+  
+  superdata.sort(function(a, b) {
+    return a.Time- b.Time;
+  });
+   y.domain([superdata[0].Time,superdata[superdata.length -1].Time]);
+   
+   
    drawline1(data1);
-  rowa1data = data1[0].Sport;
+   drawline2(data2);
+   drawline3(data3);
+  
+  
+
+   rowa1data = data1[0].Sport;
   rowa2data = data1.length;
   rowa3data = data1[data1.length-1].Timeinseconds - data1[0].Timeinseconds;
   
-  data2 = data.filter(function(d){return d.Sport == "Athletics" && d.Gender =="Women" && d.Event == "100 metres"});
-   drawline2(data2);
+  
      rowb1data = data2[0].Sport;
-  rowb2ata = data2.length;
+  rowb2data = data2.length;
   rowb3data = data2[data2.length-1].Timeinseconds - data2[0].Timeinseconds;
    
-  data3 = data.filter(function(d){return d.Sport == "Athletics" && d.Gender =="Men" && d.Event == "200 metres"});
-  drawline3(data3);
+
      rowc1data = data3[0].Sport;
-  rowc2ata = data3.length;
+  rowc2data = data3.length;
   rowc3data = data3[data3.length-1].Timeinseconds - data3[0].Timeinseconds;
   alldata = [rowa1data,rowa2data,rowa3data,rowb1data,rowb2data,rowb3data,rowc1data,rowc2data,rowc3data];
   
@@ -354,8 +370,7 @@ d3.tsv("data2.tsv", function(error, data) {
   data.sort(function(a, b) {
     return a.Year - b.Year;
   });
-  var Startyear = '1972'
-  var Endyear = '2016'
+
   
   
 
