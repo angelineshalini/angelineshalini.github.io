@@ -4,8 +4,6 @@
 <script src="//d3js.org/d3.v3.min.js"></script>
 
 
-<link rel='stylesheet' href='style.css'>
-
 </head>
 <style>
 
@@ -78,7 +76,7 @@ div.tooltip {
 <form name="info">
 <tr>
 
-<td>Gender:</td><td><select name ="gender" id ="gender" onchange = "updategraph();">
+<td><FONT COLOR="#4682B4">Gender:</td><td><select name ="gender" id ="gender" onchange = "updategraph();">
 <option value="Men"selected >Men</option>
 <option value="Women"  >Women</option></select>
 
@@ -88,7 +86,7 @@ div.tooltip {
 <option value="Athletics" >Athletics</option>
 <option value="Swimming">Swimming</option>
 </select></td>
-<td>Event: </td>
+<td>Event: </FONT></td>
 <td><select name="event" id="evento" onchange = "updategraph();">
 <option value = "100 metres" selected>100 metres</option>
 <option value ="200 metres">200 metres</option>
@@ -116,7 +114,7 @@ div.tooltip {
 </select></td>
 
 <tr><br><br>
-<td>Gender:</td><td><select name ="gender" id ="gender1" onchange = "updategraph();">
+<td><FONT COLOR="#ff0000">Gender:</td><td><select name ="gender" id ="gender1" onchange = "updategraph();">
 <option value="Men">Men</option>
 <option value="Women"  selected >Women</option></select>
 
@@ -127,7 +125,7 @@ div.tooltip {
 <option value="Athletics" >Athletics</option>
 <option value="Swimming">Swimming</option>
 </select></td>
-<td>Event: </td>
+<td>Event: </FONT></td>
 <td><select name="event" id="event1" onchange = "updategraph();">
 <option value = "100 metres" selected>100 metres</option>
 <option value ="200 metres">200 metres</option>
@@ -157,7 +155,7 @@ div.tooltip {
 
 <tr>
 
-<td>Gender:</td><td><select name ="gender" id ="gender2" onchange = "updategraph();">
+<td><FONT COLOR="#008000">Gender:</td><td><select name ="gender" id ="gender2" onchange = "updategraph();">
 <option value="Men">Men</option>
 <option value="Women">Women</option></select>
 <td>Sport: </td>
@@ -166,7 +164,7 @@ div.tooltip {
 <option value="Athletics" >Athletics</option>
 <option value="Swimming">Swimming</option>
 </select></td>
-<td>Event: </td>
+<td>Event: </FONT></td>
 <td><select name="event" id="event2" onchange = "updategraph();">
 <option value = "100 metres" >100 metres</option>
 <option value ="200 metres"selected = "selected">200 metres</option>
@@ -548,9 +546,11 @@ function  drawline3(data){
   });
 
   
-  x.domain([data[0].Year, data[data.length - 1].Year]);
-  y.domain([91,100]);
+ var start  = parseDate('1968');
+  var end = parseDate('2016');
   
+  x.domain([start, end]);
+  y.domain([91,100]);
   
     // Select the section we want to apply our changes to
     var svg2 = d3.select("body").transition();
