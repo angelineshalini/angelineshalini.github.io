@@ -8,10 +8,16 @@
 <style>
 
 body {
-  font: 10px sans-serif;
+  font: sans-serif;
+  font-size: 120%
   background-color : lavender
 }
 
+svg {
+  font: sans-serif;
+  font-size :120%;
+  
+}
 td, th {
     padding: 1px 4px;
 }
@@ -154,7 +160,7 @@ div.tooltip {
 </select></td>
 </tr><br><br>
 
-<tr>
+<!-- <tr>
 
 <td><FONT COLOR="#008000">Gender:</td><td><select name ="gender" id ="gender2" onchange = "updategraph();">
 <option value="Men">Men</option>
@@ -191,10 +197,11 @@ div.tooltip {
 <option value ="20 km walk">20 km walk</option>
 <option value ="50 km walk">50 km walk</option>
 
-</select></td>
-</tr>
+</select></td>/tr>
 
 </form>
+< -->
+
 
 
 
@@ -260,8 +267,8 @@ function createOption(target, label, value) {
 
 
 var margin = {top: 20, right: 50, bottom: 30, left: 50},
-    width = 960 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+    width = 1350 - margin.left - margin.right,
+    height = 400 - margin.top - margin.bottom;
 
 var parseDate = d3.time.format("%Y").parse,
     bisectDate = d3.bisector(function(d) { return d.Year; }).left,
@@ -342,10 +349,11 @@ d3.tsv("data2.tsv", function(error, data) {
    
    drawline1(data1);
    drawline2(data2);
-   drawline3(data3);
+  // drawline3(data3);
   
   
-
+  
+  
    rowa1data = data1[0].Sport;
   rowa2data = data1.length;
   rowa3data = data1[data1.length-1].Timeinseconds - data1[0].Timeinseconds;
@@ -356,11 +364,12 @@ d3.tsv("data2.tsv", function(error, data) {
   rowb3data = data2[data2.length-1].Timeinseconds - data2[0].Timeinseconds;
    
 
-     rowc1data = data3[0].Sport;
-  rowc2data = data3.length;
-  rowc3data = data3[data3.length-1].Timeinseconds - data3[0].Timeinseconds;
-  alldata = [rowa1data,rowa2data,rowa3data,rowb1data,rowb2data,rowb3data,rowc1data,rowc2data,rowc3data];
+//     rowc1data = data3[0].Sport;
+ // rowc2data = data3.length;
+ // rowc3data = data3[data3.length-1].Timeinseconds - data3[0].Timeinseconds;
+  alldata = [[rowa1data,rowa2data,rowa3data],[rowb1data,rowb2data,rowb3data]];//,[rowc1data,rowc2data,rowc3data]];
   
+  var sumtable = createTable(alldata);
    })
    
    
@@ -558,8 +567,26 @@ function  drawline3(data){
    
    redrawline1(data1);
    redrawline2(data2);
-   redrawline3(data3);
+   //redrawline3(data3);
    
+   
+    rowa1data = data1[0].Sport;
+  rowa2data = data1.length;
+  rowa3data = data1[data1.length-1].Timeinseconds - data1[0].Timeinseconds;
+  
+  
+     rowb1data = data2[0].Sport;
+  rowb2data = data2.length;
+  rowb3data = data2[data2.length-1].Timeinseconds - data2[0].Timeinseconds;
+   
+
+ //    rowc1data = data3[0].Sport;
+ // rowc2data = data3.length;
+  //rowc3data = data3[data3.length-1].Timeinseconds - data3[0].Timeinseconds;
+  alldata = [[rowa1data,rowa2data,rowa3data],[rowb1data,rowb2data,rowb3data]];
+  
+  var sumtable = updateTable(alldata);
+  
    
    })
   }
@@ -665,7 +692,7 @@ function redrawline2 (data){
                 .style("left", (d3.event.pageX) + "px")     
                 .style("top", (d3.event.pageY - 28) + "px");    
             })                  
-        .on("mouseout", function(d) {       
+      .on("mouseout", function(d) {       
             div.transition()        
                 .duration(100)      
                 .style("opacity", 0);   
@@ -724,6 +751,44 @@ function redrawline3 (data){
   
 };
 
-// adding the Table
+function createTable(tableData) {
+  var table = document.createElement('table');
+  var tableBody = document.createElement('tbody');
+
+  tableData.forEach(function(rowData) {
+    var row = document.createElement('tr');
+
+    rowData.forEach(function(cellData) {
+      var cell = document.createElement('td');
+      cell.appendChild(document.createTextNode(cellData));
+      row.appendChild(cell);
+    });
+
+    tableBody.appendChild(row);
+  });
+
+  table.appendChild(tableBody);
+  document.body.appendChild(table);
+}
+function updateTable(tableData) {
+  var table = document.createElement('table');
+  var tableBody = document.createElement('tbody');
+
+  tableData.forEach(function(rowData) {
+    var row = document.createElement('tr');
+
+    rowData.forEach(function(cellData) {
+      var cell = document.createElement('td');
+      cell.appendChild(document.createTextNode(cellData));
+      row.appendChild(cell);
+    });
+
+    tableBody.appendChild(row);
+  });
+
+  table.appendChild(tableBody);
+  document.body.appendChild(table);
+}
+
 
 </script>
