@@ -2,24 +2,48 @@
 <meta charset='UTF-8'>
 <head>
 <script src="//d3js.org/d3.v3.min.js"></script>
-
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
 
 </head>
 <style>
+.ui-dialog {
+    position: relative; 
+    padding: .2em; 
+    background :lavender;
+    border: 2px solid white;
+}
+.ui-dialog .ui-dialog-content {
+    border: 0
+    padding: .5em 1em;
+    background: lavender;
+    overflow: auto;
+    zoom: 1;
+}
+#resizable { width: 900px; height: 700px; padding: 0.5em; }
+  #resizable h3 { text-align: center; margin: 0; }
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
 
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th{
+    background-color:#f5f5f5;
+}
 body {
   font: sans-serif;
   font-size: 120%
-  background-color : lavender
+  <!-- background-color : lavender -->
 }
-
-svg {
-  font: sans-serif;
-  font-size :120%;
-  
-}
-td, th {
-    padding: 1px 4px;
+.brush .extent {
+  stroke: #fff;
+  fill-opacity: .500;
+  shape-rendering: crispEdges;
 }
 .axis path,
 .axis line {
@@ -27,10 +51,23 @@ td, th {
   stroke: #000;
   shape-rendering: crispEdges;
 }
+svg {
+  font: sans-serif;
+  font-size :120%;
+  
+}  
 
-.x.axis path {
-  display: none;
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
 }
+
+.axis2 {font-size :75%}
+
+.axis2 path, .axis2 line{fill :none;}
+
 
 .line {
   fill: none;
@@ -57,7 +94,7 @@ td, th {
 .points circle {
   stroke: #fff;
   stroke-width: 1.5px;
-  fill: black;
+  
 }
 
 div.tooltip {   
@@ -72,8 +109,14 @@ div.tooltip {
   border-radius: 8px;           
   pointer-events: none;         
 }
+.brush .extent {
+  stroke: #fff;
+  fill-opacity: .125;
+  shape-rendering: crispEdges;
+}
 </style>
 <body>
+
 <div id="container">
       <h1 id="headline" class="viz-head">Tracing world records in athletics and swimming since 1970</h1>
          </div>  
@@ -265,11 +308,13 @@ function createOption(target, label, value) {
 }
 			
 
+var margin = {top: 10, right: 10, bottom: 100, left: 60},
+    margin2 = {top: 330, right: 10, bottom: 20, left: 60},
+    width = 1300 - margin.left - margin.right,
+    height = 400 - margin.top - margin.bottom,
+    height2 = 400 - margin2.top - margin2.bottom;
 
-var margin = {top: 20, right: 50, bottom: 30, left: 50},
-    width = 1350 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
-
+	
 var parseDate = d3.time.format("%Y").parse,
     bisectDate = d3.bisector(function(d) { return d.Year; }).left,
     formatValue = d3.format(",.2f"),
@@ -284,7 +329,7 @@ var x2 = d3.time.scale().range([0,width]);
 
 var y = d3.scale.linear()
     .range([height, 0]);
-
+//var y2 = d3.scale.linear().range([height2,0]);
 var xAxis = d3.svg.axis()
     .scale(x)
     .orient("bottom");
@@ -293,8 +338,11 @@ var yAxis = d3.svg.axis()
     .scale(y)
     .orient("left");
 	
-var xAxis2 = d3.svg.axis().scale(x2).orient("bottom")
+var xAxis2 = d3.svg.axis().scale(x2).orient("bottom");
 
+var brush = d3.svg.brush().x(x2).on("brush", brushed);
+
+var data, data1,data2;
 var line = d3.svg.line()
     .x(function(d) { return x(d.Year); })
     .y(function(d) { return y(d.Time); });
@@ -307,16 +355,66 @@ var line3 = d3.svg.line()
     .x(function(d) { return x(d.Year); })
     .y(function(d) { return y(d.Time); });
 
+
+
 var svg = d3.select("body").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
-	.style("background-color", "lavender")
-  .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
-	;
+//	.style("background-color", "lavender")
+  	;
+	
+var clipPath = svg.append("defs").append("svg:clipPath")
+    .attr("id", "clip")
+  .append("rect")
+    .attr("width", width)
+    .attr("height", height+30)
+	.attr("x",0)
+	.attr("y",-10);
+	
+var focus = svg.append("g")
+    .attr("class", "focus")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+	
+var context = svg.append("g")
+    .attr("class", "context")
+    .attr("transform", "translate(" + margin2.left + "," + margin2.top + ")");
+
+	d3.select("body").append("br");
+	
+var note = 	d3.select("body").append("text")
+         .style("font-weight","bold")
+       // .style("text-decoration", "underline")  
+        .style("font-size", "90%") 		
+	    .text("Note: ")
+
+note.append("text")
+.style("font-weight","normal")
+        .style("text-decoration", "none") 
+           .text("Timings/Distance have been rebased to 100 to enable comparison. So, the world record time/distance in a discipline on the starting date of the visualisation (January 1, 1976) was taken as 100.And then, the progressive drop in time/distance was calculated relative to 100.")
+
+note.append("br");
+note.append("text")
+        
+        .attr("text-anchor", "left")  
+        .style("font-size", "100%") 
+		
+		.style("font-weight","bold")
+        .style("text-decoration", "underline") 
+         .text("Data Source: Wikipedia")
+	
+note.append("br");
+//For table
+var Sumtable =d3.select("body").append("table").attr("id","table1");
+var thead = Sumtable.append("thead").append("tr");
+var tbody = Sumtable.append("tbody");
+    
+
+
 
 // For Tooltip
 var div = d3.select("body").append("div")   
+
     .attr("class", "tooltip")               
     .style("opacity", 0);	
 
@@ -335,12 +433,57 @@ d3.tsv("data2.tsv", function(error, data) {
   var end = parseDate('2016');
   
   x.domain([start, end]);
- 
+ x2.domain(x.domain());
   
   data1 = data.filter(function(d){return d.Sport == "Athletics" && d.Gender =="Men" && d.Event == "100 metres"});
+
+  var d1array =[];
+  d1array[0] =[];
+  d1array[0][0] = data1[0].Sport;
+      d1array[0][1] = data1[0].Gender;
+      d1array[0][2] = data1[0].Event;
+      d1array[0][3] = data1[0].Time;
+      d1array[0][4] = data1[0].Athlete;
+      d1array[0][5] = data1[0].Nationality;
+      //d1array[0][6] = data1[0].Location;
+      d1array[0][6] = formatTime(data1[0].Year);
+	  
+  for (i=1;i<data1.length;i++)
+   { d1array[i] = []; 
+   d1array[i][0] = data1[i].Sport;
+      d1array[i][1] = data1[i].Gender;
+      d1array[i][2] = data1[i].Event;
+      d1array[i][3] = data1[i].Time;
+      d1array[i][4] = data1[i].Athlete;
+      d1array[i][5] = data1[i].Nationality;
+   //   d1array[i][6] = data1[i].Location;
+      d1array[i][6] = formatTime(data1[i].Year);}
+  
   
   data2 = data.filter(function(d){return d.Sport == "Athletics" && d.Gender =="Women" && d.Event == "100 metres"});
    
+   var d2array =[];
+  d2array[0] =[];
+  // d2array[0][0] = data2[0].Sport;
+    //  d2array[0][1] = data2[0].Gender;
+     // d2array[0][2] = data2[0].Event;
+   //   d2array[0][3] = data2[0].Time;
+    //  d2array[0][4] = data2[0].Athlete;
+    //  d2array[0][5] = data2[0].Nationality;
+    //  d2array[0][6] = data2[0].Location;
+     // d2array[0][7] = formatTime(data2[0].Year); 
+	  
+  for (i=0;i<data2.length;i++)
+   { d2array[i] = []; 
+   d2array[i][0] = data2[i].Sport;
+      d2array[i][1] = data2[i].Gender;
+      d2array[i][2] = data2[i].Event;
+      d2array[i][3] = data2[i].Time;
+      d2array[i][4] = data2[i].Athlete;
+      d2array[i][5] = data2[i].Nationality;
+    //  d2array[i][6] = data2[i].Location;
+      d2array[i][6] = formatTime(data2[i].Year);}
+ 
  // data3 = data.filter(function(d){return d.Sport == "Athletics" && d.Gender =="Men" && d.Event == "200 metres"});
   
   superdata = data1.concat(data2);
@@ -358,43 +501,172 @@ d3.tsv("data2.tsv", function(error, data) {
   
   
   
-   rowa1data = data1[0].Sport;
+   rowa1data = (data1[0].Gender).concat("'s ",data1[0].Sport," ",data1[0].Event);
   rowa2data = data1.length;
   rowa3data = data1[data1.length-1].Timeinseconds - data1[0].Timeinseconds;
   
+  rowa3data = rowa3data.toFixed(3);
   
-     rowb1data = data2[0].Sport;
+  
+     rowb1data = (data2[0].Gender).concat("'s ",data2[0].Sport," ",data2[0].Event);
   rowb2data = data2.length;
   rowb3data = data2[data2.length-1].Timeinseconds - data2[0].Timeinseconds;
+  
+  rowb3data = rowb3data.toFixed(3);
    
 
 //     rowc1data = data3[0].Sport;
  // rowc2data = data3.length;
  // rowc3data = data3[data3.length-1].Timeinseconds - data3[0].Timeinseconds;
+ 
   alldata = [[rowa1data,rowa2data,rowa3data],[rowb1data,rowb2data,rowb3data]];//,[rowc1data,rowc2data,rowc3data]];
   
-  var sumtable = createTable(alldata);
+ //add table
+ 
+	
+var columns = ['Discipline','No of Records Set', 'Decline in Time (in seconds)'];
+
+
+thead.selectAll("th")
+    .data(columns)
+    .enter()
+    .append("th")
+    .text(function(d) {
+        return d;
+    });
+	
+var trows = tbody
+    .selectAll("tr")
+    .data(alldata)
+    .enter()
+    .append("tr");
+
+var tcells = trows
+    .selectAll("td")
+    .data(function(d, i) { return d; })
+    .enter()
+    .append("td")
+    .text(function(d, i) { return d; });
+
+thead.append("th").text('Action');
+trows.selectAll("td.button")
+//use a class so you don't re-select the existing <td> elements
+          .data(function(d) {return [d];})
+          .enter()
+            .append("td")
+            .attr("class", "button")
+            .append("button")			
+	        .attr("id",function(d,i,j) {return "button"+j;})
+            .text(function(d){return "Details"});
+
+//# creating table -on click button display
+
+//PopTable1
+var columns2 = ['Sport','Gender','Event','Time','Athlete','Nationality','Year'];
+
+var thead2 = d3.select("#test1").selectAll("th")
+    .data(columns2)
+    .enter()
+    .append("th")
+    .text(function(d) {
+        return d;
+    });
+	
+var rows2 =d3.select("#test1").append('tbody').selectAll("tr").data(d1array).enter() .append("tr");
+var cells2 = rows2.selectAll("td").data(function(d, i) { return d; })
+             .enter()
+             .append("td")
+              .text(function(d, i) { return d; });
+ 
+//PopTable2
+var thead3 = d3.select("#test2").selectAll("th")
+    .data(columns2)
+    .enter()
+    .append("th")
+    .text(function(d) {
+        return d;
+    });
+	
+var rows3 =d3.select("#test2").append('tbody').selectAll("tr").data(d2array).enter() .append("tr");
+var cells2 = rows3.selectAll("td").data(function(d, i) { return d; })
+             .enter()
+             .append("td")
+              .text(function(d, i) { return d; });
+	
+////////////////////////////////
+$(document).ready(function() {			
+$("#button0").click(function (){
+   
+   $( "#dialog-modal" ).dialog({
+          open : function (event, ui){$("#test1").appendTo("#dialog-modal");       
+	                                   $( "#dialog-modal" ).show();
+	                                   $("#test1").show();
+									   },
+		  //close : function (event, ui){$( "#dialog-modal" ).html(" " );},
+		  height: 500,
+		  width: 900,
+		   modal: true
+        });
+$( "#resizable" ).resizable();
+   
+    });
+	
+	});
+ 
+
+  /// for button1
+  
+  $(document).ready(function() {			
+$("#button1").click(function (){
+
+   $( "#dialog-modal1" ).dialog({
+          open : function (event, ui){$("#test2").appendTo("#dialog-modal1");       
+	                                  $( "#dialog-modal1" ).show();
+	                                  $("#test2").show();
+									 },
+		 // close : function (event, ui){$( "#dialog-modal" ).html(" " );},
+          height: 500,
+		  width: 900,
+		   modal: true
+        });
+$( "#resizable" ).resizable();
+   //.delay(1000).fadeOut();
+    });
+	
+	});
+ 
+			
+   ///////////////////WINDOW RESIZE///////////////////////////////////
+   
+   $(window).resize(function () {
+   $('.ui-dialog').css({
+        'width': $(window).width(),
+        'height': $(window).height(),
+        'left': '0px',
+        'top':'0px'
+   });
+}).resize(); 
    })
-   
-   
+
+
   function  drawline1(data){
   
   
 
-  data.sort(function(a, b) {
-    return a.Year - b.Year;
-  });
+  //data.sort(function(a, b) {
+   // return a.Year - b.Year;
+  //});
 
   
   
 
 
-  svg.append("g")
+  focus.append("g")
       .attr("class", "x axis")
       .attr("transform", "translate(0," + height + ")")
       .call(xAxis);
 
-  svg.append("g")
+  focus.append("g")
       .attr("class", "y axis")
       .call(yAxis)
     .append("text")
@@ -405,31 +677,28 @@ d3.tsv("data2.tsv", function(error, data) {
       .text("Normalized time");
 
   
-  svg.append("path")
+  focus.append("path")
       .datum(data)
       .attr("class", "line")
       .attr("d", line);
 	  
- svg.append("g")
-    .attr("class","x axis")
-	 .attr("transform", "translate(0," + height + ")")
-      .call(xAxis2);
+ 
 	  
 
    
 // Add the scatterplot
-    svg.append("g").selectAll("circle")
+    focus.append("g").selectAll("circle")
         .data(data)
       .enter().append("circle")
-        .attr("r", 3.5)
-  .attr("fill","black")
+        .attr("r", 3)
+  .attr("fill","steelblue")
         .attr("cx", function(d) { return x(d.Year); })
         .attr("cy", function(d) { return y(d.Time); })
 		 .on("mouseover", function(d) {      
             div.transition()        
                 .duration(50)      
                 .style("opacity", .9);
-             div.html("Athlete:" +d.Athlete+"<br/>"+"Time:" +d.Timetxt+ "(s)"+ "<br/>" +"Year:"+formatTime(d.Year) )  
+             div.html(d.Athlete+"<br/>"+"Time:" +d.Timetxt+ "(s)"+ "<br/>" +"Year:"+formatTime(d.Year) )  
                 .style("left", (d3.event.pageX) + "px")     
                 .style("top", (d3.event.pageY - 28) + "px");    
             })                  
@@ -439,18 +708,52 @@ d3.tsv("data2.tsv", function(error, data) {
                 .style("opacity", 0);   
         });
   
+  //Add the time slider
+  
+  x2.domain(x.domain());
+ // focus.append("g")
+   //   .attr("class", "x axis")
+     // .attr("transform", "translate(0," + 330 + ")")
+      //.call(xAxis2);
+var start  = parseDate('1968');
+  var end = parseDate('2016');
+  
+  brush.extent([start,end]);
+  
+  context.append('rect')
+	       .attr("y",2)
+		   .attr("width",width)
+		   .attr("height",height2/3)
+		   .style("opacity",.125);
+  	   
+   context.append("g").attr("class", "x brush")  .call(brush)
+          .selectAll("rect")
+      .attr("y", 2)
+      .attr("height", height2/3)
+	  .attr("fill","#00008B");
+	  
+ context.append("g")
+      .attr("class", "x axis2")
+      .attr("transform", "translate(0," + (height2 -20 )+ ")")
+      .call(xAxis2);
+	
+    
+    
+	
 
-  };
+
+
+ };
 function  drawline2(data){
   
 
-  data.sort(function(a, b) {
-    return a.Year - b.Year;
-  });
+  //data.sort(function(a, b) {
+  //  return a.Year - b.Year;
+  //});
 
  
   
-  svg.append("path")
+  focus.append("path")
       .datum(data)
       .attr("class", "line2")
       .attr("d", line2);
@@ -458,18 +761,18 @@ function  drawline2(data){
 
    
 // Add the scatterplot
-    svg.append("g").selectAll("circle")
+    focus.append("g").selectAll("circle")
         .data(data)
       .enter().append("circle")
-        .attr("r", 3.5)
-  .attr("fill","black")
+        .attr("r", 3)
+  .attr("fill","red")
         .attr("cx", function(d) { return x(d.Year); })
         .attr("cy", function(d) { return y(d.Time); })
 		 .on("mouseover", function(d) {      
             div.transition()        
                 .duration(50)      
                 .style("opacity", .9);      
-             div .html("Athlete:" +d.Athlete+"<br/>"+"Time:"+ d.Timetxt+ "(s)"+ "<br/>" +"Year:"+formatTime(d.Year) )  
+             div .html(d.Athlete+"<br/>"+"Time:"+ d.Timetxt+ "(s)"+ "<br/>" +"Year:"+formatTime(d.Year) )  
                 .style("left", (d3.event.pageX) + "px")     
                 .style("top", (d3.event.pageY - 28) + "px");    
             })                  
@@ -501,15 +804,15 @@ function  drawline3(data){
     svg.append("g").selectAll("circle")
         .data(data)
       .enter().append("circle")
-        .attr("r", 3.5)
-  .attr("fill","black")
+        .attr("r", 3)
+  .attr("fill","steelblue")
         .attr("cx", function(d) { return x(d.Year); })
         .attr("cy", function(d) { return y(d.Time); })
 		 .on("mouseover", function(d) {      
             div.transition()        
                 .duration(50)      
                 .style("opacity", .9);      
-             div .html("Athlete:" +d.Athlete+"<br/>"+"Time:"+ d.Timetxt+ "(s)"+ "<br/>" +"Year:"+formatTime(d.Year) )  
+             div .html(d.Athlete+"<br/>"+"Time:"+ d.Timetxt+ "(s)"+ "<br/>" +"Year:"+formatTime(d.Year) )  
                 .style("left", (d3.event.pageX) + "px")     
                 .style("top", (d3.event.pageY - 28) + "px");    
             })                  
@@ -524,6 +827,8 @@ function  drawline3(data){
   
   
   function updategraph() {
+  
+  
    
    var  e = document.getElementById("gender");
   var genderselected = e.options[e.selectedIndex].value;
@@ -557,12 +862,59 @@ function  drawline3(data){
  var start  = parseDate('1968');
   var end = parseDate('2016');
   
-  x.domain([start, end]);
+ 
+  x.domain(brush.empty() ? x2.domain() : brush.extent());
+
     
   data1 = data.filter(function(d){return d.Sport == sportselected && d.Gender == genderselected&& d.Event == eventselected});
  
+   var d1array =[];
+  d1array[0] =[];
+  d1array[0][0] = data1[0].Sport;
+      d1array[0][1] = data1[0].Gender;
+      d1array[0][2] = data1[0].Event;
+      d1array[0][3] = data1[0].Time;
+      d1array[0][4] = data1[0].Athlete;
+      d1array[0][5] = data1[0].Nationality;
+      //d1array[0][6] = data1[0].Location;
+      d1array[0][6] = formatTime(data1[0].Year);
+	  
+  for (i=1;i<data1.length;i++)
+   { d1array[i] = []; 
+   d1array[i][0] = data1[i].Sport;
+      d1array[i][1] = data1[i].Gender;
+      d1array[i][2] = data1[i].Event;
+      d1array[i][3] = data1[i].Time;
+      d1array[i][4] = data1[i].Athlete;
+      d1array[i][5] = data1[i].Nationality;
+    //  d1array[i][6] = data1[i].Location;
+      d1array[i][6] = formatTime(data1[i].Year);}
+  
+  
+ 
   data2 = data.filter(function(d){return d.Sport == sportselected1 && d.Gender == genderselected1 && d.Event == eventselected1 });
-   
+   var d2array =[];
+  d2array[0] =[];
+  // d2array[0][0] = data2[0].Sport;
+    //  d2array[0][1] = data2[0].Gender;
+     // d2array[0][2] = data2[0].Event;
+   //   d2array[0][3] = data2[0].Time;
+    //  d2array[0][4] = data2[0].Athlete;
+    //  d2array[0][5] = data2[0].Nationality;
+    //  d2array[0][6] = data2[0].Location;
+     // d2array[0][7] = formatTime(data2[0].Year); 
+	  
+  for (i=0;i<data2.length;i++)
+   { d2array[i] = []; 
+   d2array[i][0] = data2[i].Sport;
+      d2array[i][1] = data2[i].Gender;
+      d2array[i][2] = data2[i].Event;
+      d2array[i][3] = data2[i].Time;
+      d2array[i][4] = data2[i].Athlete;
+      d2array[i][5] = data2[i].Nationality;
+     // d2array[i][6] = data2[i].Location;
+      d2array[i][6] = formatTime(data2[i].Year);}
+ 
   //data3 = data.filter(function(d){return d.Sport == sportselected2 && d.Gender == genderselected2&& d.Event == eventselected2});
   
   
@@ -579,71 +931,206 @@ function  drawline3(data){
    //redrawline3(data3);
    
    
-    rowa1data = data1[0].Sport;
+    rowa1data = (data1[0].Gender).concat("'s ",data1[0].Sport," ",data1[0].Event);
   rowa2data = data1.length;
-  rowa3data = data1[data1.length-1].Timeinseconds - data1[0].Timeinseconds;
+ rowa3data = data1[data1.length-1].Timeinseconds - data1[0].Timeinseconds;
+ rowa3data = rowa3data.toFixed(3);
   
   
-     rowb1data = data2[0].Sport;
+     rowb1data = (data2[0].Gender).concat("'s ",data2[0].Sport," ",data2[0].Event);
   rowb2data = data2.length;
   rowb3data = data2[data2.length-1].Timeinseconds - data2[0].Timeinseconds;
-   
+   rowb3data = rowb3data.toFixed(3);
 
  //    rowc1data = data3[0].Sport;
  // rowc2data = data3.length;
   //rowc3data = data3[data3.length-1].Timeinseconds - data3[0].Timeinseconds;
-  alldata = [[rowa1data,rowa2data,rowa3data],[rowb1data,rowb2data,rowb3data]];
+  alldata = [[rowa1data,rowa2data,rowa3data],[rowb1data,rowb2data,rowb3data]];//,[rowc1data,rowc2data,rowc3data]];
   
-  var sumtable = updateTable(alldata);
+  //add table
+ 
+
+Sumtable.selectAll("tr").remove();
+
+
+var columns = ['Discipline','No of Records Set', 'Decline in Time (in seconds)', 'Action'];
+
+Sumtable.selectAll("th")
+    .data(columns)
+    .enter()
+    .append("th")
+    .text(function(d) {
+        return d;
+    });
+	
+var trows = Sumtable.selectAll("tr")
+    .data(alldata)
+    .enter()
+    .append("tr");
+
+var tcells = trows
+    .selectAll("td")
+    .data(function(d, i) { return d; })
+    .enter()
+    .append("td")
+    .text(function(d, i) { return d; });
+
+//thead.append("th").text('Action');
+trows.selectAll("td.button")  
+//use a class so you don't re-select the existing <td> elements
+          .data(function(d) {return [d];})
+          .enter()
+            .append("td")
+            .attr("class", "button")
+            .append("button")			
+	        .attr("id",function(d,i,j) {return "button"+j;})
+            .text(function(d){return "Details"});
+			
+ //# creating table -on click button display
+d3.select("#test3").selectAll("tr").remove();
+//PopTable1
+var columns2 = ['Sport','Gender','Event','Time','Athlete','Nationality','Year'];
+
+var thead4 = d3.select("#test3").selectAll("th")
+    .data(columns2)
+    .enter()
+    .append("th")
+    .text(function(d) {
+        return d;
+    });
+	
+var rows4 =d3.select("#test3").append('tbody').selectAll("tr").data(d1array).enter() .append("tr");
+var cells4 = rows4.selectAll("td").data(function(d, i) { return d; })
+             .enter()
+             .append("td")
+              .text(function(d, i) { return d; });
+ 
+//PopTable2
+d3.select("#test4").selectAll("tr").remove();
+var thead5 = d3.select("#test4").selectAll("th")
+    .data(columns2)
+    .enter()
+    .append("th")
+    .text(function(d) {
+        return d;
+    });
+	
+var rows5 =d3.select("#test4").append('tbody').selectAll("tr").data(d2array).enter() .append("tr");
+var cells5= rows5.selectAll("td").data(function(d, i) { return d; })
+             .enter()
+             .append("td")
+              .text(function(d, i) { return d; });
+	
+////////////////////////////////
+$(document).ready(function() {			
+$("#button0").click(function (){
+   
+   $( "#dialog-modal3" ).dialog({
+          open : function (event, ui){$("#test3").appendTo("#dialog-modal3");       
+	                                   $( "#dialog-modal3" ).show();
+	                                   $("#test3").show();
+									   },
+		  //close : function (event, ui){$( "#dialog-modal" ).html(" " );},
+		  height: 500,
+		  width: 900,
+		   modal: true
+        });
+$( "#resizable" ).resizable();
+   
+    });
+	
+	});
+ 
+
+  /// for button1
+  
+  $(document).ready(function() {			
+$("#button1").click(function (){
+
+   $( "#dialog-modal4" ).dialog({
+          open : function (event, ui){$("#test4").appendTo("#dialog-modal4");       
+	                                  $( "#dialog-modal4" ).show();
+	                                  $("#test4").show();
+									 },
+		 // close : function (event, ui){$( "#dialog-modal" ).html(" " );},
+          height: 500,
+		  width: 900,
+		   modal: true
+        });
+$( "#resizable" ).resizable();
+   //.delay(1000).fadeOut();
+    });
+	
+	});
+ 
+			
+   ///////////////////WINDOW RESIZE///////////////////////////////////
+   
+   $(window).resize(function () {
+   $('.ui-dialog').css({
+        'width': $(window).width(),
+        'height': $(window).height(),
+        'left': '0px',
+        'top':'0px'
+   });
+}).resize(); 
+
   
    
    })
   }
   
-  function redrawline1 (data){
+  function redrawline1 (data1){
   
   
   
 
-  data.sort(function(a, b) {
-    return a.Year - b.Year;
-  });
+  //data1.sort(function(a, b) {
+   // return a.Year - b.Year;
+  //});
 
   
  
-    // Select the section we want to apply our changes to
-    var svg2 = d3.select("body").transition();
+    
    
 
 
     // Make the changes
-        svg2.select(".line")   // change the line
-            .duration(750)
-            .attr("d", line(data));
+	focus.selectAll(".line").remove();
+	
+	focus.append("path")
+      .datum(data1)
+      .attr("class", "line") .attr("clip-path", "url(#clip)")
+      .attr("d", line)
+      .transition().duration(750);
+	  
+     //   focus.select(".line").data(data1)		// change the line
+       //     .attr("d", line)
+		//	.transition().duration(750);
 			
-        svg2.select(".x.axis") // change the x axis
-            .duration(750)
+        focus.select(".x.axis") // change the x axis
+            //.duration(750)
             .call(xAxis);
 			
-        svg2.select(".y.axis") // change the y axis
-            .duration(750)
+        focus.select(".y.axis") // change the y axis
+           // .duration(750)
             .call(yAxis); 
 		
-svg2.selectAll("circle").remove();
+focus.selectAll("circle").remove();
 			
 		// Add the scatterplot
-    svg.append("g").selectAll("circle")
-        .data(data)
+    focus.append("g").selectAll("circle")
+        .data(data1)
       .enter().append("circle")
-        .attr("r", 3.5)
-  .attr("fill","black")
+        .attr("r", 3)
+  .attr("fill","steelblue").attr("clip-path", "url(#clip)")
         .attr("cx", function(d) { return x(d.Year); })
         .attr("cy", function(d) { return y(d.Time); })
 		.on("mouseover", function(d) {      
             div.transition()        
                 .duration(50)      
                 .style("opacity", .9);      
-             div .html("Athlete:" +d.Athlete+"<br/>"+"Time:" +d.Timetxt+ "(s)"+ "<br/>" +"Year:"+formatTime(d.Year) )  
+             div .html(d.Athlete+"<br/>"+"Time:" +d.Timetxt+ "(s)"+ "<br/>" +"Year:"+formatTime(d.Year) )  
                 .style("left", (d3.event.pageX) + "px")     
                 .style("top", (d3.event.pageY - 28) + "px");    
             })                  
@@ -655,30 +1142,33 @@ svg2.selectAll("circle").remove();
 
 
 	
-  
 };
 
-function redrawline2 (data){
+function redrawline2 (data2){
   
   
  
 
-  data.sort(function(a, b) {
-    return a.Year - b.Year;
-  });
+  //data2.sort(function(a, b) {
+   // return a.Year - b.Year;
+  //});
 
   
    
   
     // Select the section we want to apply our changes to
-    var svg2 = d3.select("body").transition();
    
+   	focus.select(".line2").remove();
 
-
+focus.append("path")
+      .datum(data2)
+      .attr("class", "line2").attr("clip-path", "url(#clip)")
+      .attr("d", line)
+	  .transition().duration(750);
     // Make the changes
-        svg2.select(".line2")   // change the line
-            .duration(750)
-            .attr("d", line2(data));
+       // focus.select(".line2").data(data2)   // change the line
+         //   .transition().duration(750)
+           // .attr("d", line2);
 			
         
 		
@@ -686,18 +1176,18 @@ function redrawline2 (data){
 
 			
 		// Add the scatterplot
-    svg.append("g").selectAll("circle")
-        .data(data)
+    focus.append("g").selectAll("circle")
+        .data(data2)
       .enter().append("circle")
-        .attr("r", 3.5)
-  .attr("fill","black")
+        .attr("r", 3)
+  .attr("fill","red").attr("clip-path", "url(#clip)")
         .attr("cx", function(d) { return x(d.Year); })
         .attr("cy", function(d) { return y(d.Time); })
 		.on("mouseover", function(d) {      
             div.transition()        
                 .duration(50)      
                 .style("opacity", .9);      
-             div .html("Athlete:" +d.Athlete+"<br/>"+"Time:"+ d.Timetxt+ "(s)"+ "<br/>" +"Year:"+formatTime(d.Year) )  
+             div .html(d.Athlete+"<br/>"+"Time:"+ d.Timetxt+ "(s)"+ "<br/>" +"Year:"+formatTime(d.Year) )  
                 .style("left", (d3.event.pageX) + "px")     
                 .style("top", (d3.event.pageY - 28) + "px");    
             })                  
@@ -747,7 +1237,7 @@ function redrawline3 (data){
             div.transition()        
                 .duration(50)      
                 .style("opacity", .9);      
-             div .html("Athlete:" +d.Athlete+"<br/>"+"Time:" +d.Timetxt+ "(s)"+ "<br/>" +"Year:"+formatTime(d.Year) )  
+             div .html(d.Athlete+"<br/>"+"Time:" +d.Timetxt+ "(s)"+ "<br/>" +"Year:"+formatTime(d.Year) )  
                 .style("left", (d3.event.pageX) + "px")     
                 .style("top", (d3.event.pageY - 28) + "px");    
             })                  
@@ -760,44 +1250,94 @@ function redrawline3 (data){
   
 };
 
-function createTable(tableData) {
-  var table = document.createElement('table');
-  var tableBody = document.createElement('tbody');
-
-  tableData.forEach(function(rowData) {
-    var row = document.createElement('tr');
-
-    rowData.forEach(function(cellData) {
-      var cell = document.createElement('td');
-      cell.appendChild(document.createTextNode(cellData));
-      row.appendChild(cell);
-    });
-
-    tableBody.appendChild(row);
-  });
-
-  table.appendChild(tableBody);
-  document.body.appendChild(table);
+function brushed() {
+  x.domain(brush.empty() ? x2.domain() : brush.extent());
+  var array = x.domain();
+  
+  
+  
+  focus.select(".line").attr("d", line).attr("clip-path", "url(#clip)");
+  focus.select(".line2").attr("d", line2).	attr("clip-path", "url(#clip)");
+  
+ 
+  focus.selectAll("circle").remove();
+			
+		// Add the scatterplot
+    focus.append("g").selectAll("circle")
+        .data(data1)
+      .enter().append("circle")
+        .attr("r", 3)
+  .attr("fill","steelblue").attr("clip-path", "url(#clip)")
+        .attr("cx", function(d) { return x(d.Year); })
+        .attr("cy", function(d) { return y(d.Time)	; })
+		.on("mouseover", function(d) {      
+            div.transition()        
+                .duration(50)      
+                .style("opacity", .9);      
+             div .html(d.Athlete+"<br/>"+"Time:" +d.Timetxt+ "(s)"+ "<br/>" +"Year:"+formatTime(d.Year) )  
+                .style("left", (d3.event.pageX) + "px")     
+                .style("top", (d3.event.pageY - 28) + "px");    
+            })                  
+        .on("mouseout", function(d) {       
+            div.transition()        
+                .duration(100)      
+                .style("opacity", 0);   
+        });
+		
+				// Add the scatterplot
+    focus.append("g").selectAll("circle")
+        .data(data2)
+      .enter().append("circle")
+        .attr("r", 3)
+  .attr("fill","red").attr("clip-path", "url(#clip)")
+        .attr("cx", function(d) { return x(d.Year); })
+        .attr("cy", function(d) { return y(d.Time); })
+		.on("mouseover", function(d) {      
+            div.transition()        
+                .duration(50)      
+                .style("opacity", .9);      
+             div .html(d.Athlete+"<br/>"+"Time:" +d.Timetxt+ "(s)"+ "<br/>" +"Year:"+formatTime(d.Year) )  
+                .style("left", (d3.event.pageX) + "px")     
+                .style("top", (d3.event.pageY - 28) + "px");    
+            })                  
+        .on("mouseout", function(d) {       
+            div.transition()        
+                .duration(100)      
+                .style("opacity", 0);   
+        });
+  focus.select(".x.axis").transition().call(xAxis);
+  
 }
-function updateTable(tableData) {
-  var table = document.createElement('table');
-  var tableBody = document.createElement('tbody');
-
-  tableData.forEach(function(rowData) {
-    var row = document.createElement('tr');
-
-    rowData.forEach(function(cellData) {
-      var cell = document.createElement('td');
-      cell.appendChild(document.createTextNode(cellData));
-      row.appendChild(cell);
-    });
-
-    tableBody.appendChild(row);
-  });
-
-  table.appendChild(tableBody);
-  document.body.appendChild(table);
-}
 
 
+svg.append("text")
+        .attr("x",width-100)             
+        .attr("y", height+175)
+        .attr("text-anchor", "right")  
+        .style("font-size", "75%") 
+		.style("font-weight","bold")
+        .style("text-decoration", "underline") 
+        //.style("cursor","pointer")		
+        .text("Data Source: Wikipedia")		
 </script>
+
+<div id="dialog-modal" style="display:none"></div>
+<div id="dialog-modal1" style="display:none"></div>
+<div id="dialog-modal3" style="display:none"></div>
+<div id="dialog-modal4" style="display:none"></div>
+
+<table id = "test1" style = "display:none"></table>
+<table id = "test2" style = "display:none"></table>
+<table id = "test3" style = "display:none"></table>
+<table id = "test4" style = "display:none"></table>
+<div id="Sumtable"	>
+<table style="width:50%">
+  <!--  <tr>
+    <th>Discipline</th>
+    <th>No of records sets</th> 
+    <th>Decline in Time(seconds)</th>
+  </tr>
+  <tr> -->
+   
+</table>
+</div>
