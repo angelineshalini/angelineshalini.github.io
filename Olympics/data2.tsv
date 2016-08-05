@@ -1,164 +1,1210 @@
-Sport	Gender	Event	Time	Timetxt	Athlete	Nationality	Location	Year	Timeinseconds
-Athletics	Women	100 metres	100.000	11.07	Renate Stecher	 East Germany	Munich, West Germany	1972	11.07
-Athletics	Women	100 metres	99.729	11.04	Inge Helten	 West Germany	Fürth, West Germany	1976	11.04
-Athletics	Women	100 metres	99.458	11.01	Annegret Richter	 West Germany	Montreal, Canada	1976	11.01
-Athletics	Women	100 metres	98.284	10.88	Marlies Oelsner	 East Germany	Dresden, East Germany	1977	10.88
-Athletics	Women	100 metres	98.284	10.88	Marlies Göhr	 East Germany	Karl-Marx-Stadt, East Germany	1982	10.88
-Athletics	Women	100 metres	97.651	10.81	Marlies Göhr	 East Germany	Berlin, East Germany	1983	10.81
-Athletics	Women	100 metres	97.471	10.79	Evelyn Ashford	 United States	US Air Force Academy, United States	1983	10.79
-Athletics	Women	100 metres	97.200	10.76	Evelyn Ashford	 United States	Zürich, Switzerland	1984	10.76
-Athletics	Women	100 metres	94.761	10.49	Florence Griffith-Joyner	 United States	Indianapolis, United States	1988	10.49
-Athletics	Men	100 metres	100.000	9.95	Jim Hines	 United States	Mexico City, Mexico	1968	9.95
-Athletics	Men	100 metres	99.799	9.93	Calvin Smith	 United States	Colorado Springs, USA	1983	9.93
-Athletics	Men	100 metres	99.698	9.92	Carl Lewis	 United States	Seoul, South Korea	1988	9.92
-Athletics	Men	100 metres	99.497	9.9	Leroy Burrell	 United States	New York, USA	1991	9.9
-Athletics	Men	100 metres	99.095	9.86	Carl Lewis	 United States	Tokyo, Japan	1991	9.86
-Athletics	Men	100 metres	98.995	9.85	Leroy Burrell	 United States	Lausanne, Switzerland	1994	9.85
-Athletics	Men	100 metres	98.894	9.84	Donovan Bailey	 Canada	Atlanta, USA	1996	9.84
-Athletics	Men	100 metres	98.392	9.79	Maurice Greene	 United States	Athens, Greece	1999	9.79
-Athletics	Men	100 metres	98.191	9.77	Asafa Powell	 Jamaica	Athens, Greece	2005	9.77
-Athletics	Men	100 metres	98.191	9.77	Asafa Powell	 Jamaica	Gateshead, England	2006	9.77
-Athletics	Men	100 metres	98.191	9.77	Asafa Powell	 Jamaica	Zürich, Switzerland	2006	9.77
-Athletics	Men	100 metres	97.889	9.74	Asafa Powell	 Jamaica	Rieti, Italy	2007	9.74
-Athletics	Men	100 metres	97.688	9.72	Usain Bolt	 Jamaica	New York, USA	2008	9.72
-Athletics	Men	100 metres	97.387	9.69	Usain Bolt	 Jamaica	Beijing, China	2008	9.69
-Athletics	Men	100 metres	96.281	9.58	Usain Bolt	 Jamaica	Berlin, Germany	2009	9.58
-Athletics	Men	200 metres	100.000	19.83A	Tommie Smith	 United States	Mexico City, Mexico	1968	19.83
-Athletics	Men	200 metres	99.445	19.72A	Pietro Mennea	 Italy	Mexico City, Mexico	1979	19.72
-Athletics	Men	200 metres	99.143	19.66	Michael Johnson	 United States	Atlanta, United States	1996	19.66
-Athletics	Men	200 metres	97.428	19.32	Michael Johnson	 United States	Atlanta, United States	1996	19.32
-Athletics	Men	200 metres	97.327	19.30	Usain Bolt	 Jamaica	Beijing, China	2008	19.3
-Athletics	Men	200 metres	96.773	19.19	Usain Bolt	 Jamaica	Berlin, Germany	2009	19.19
-Athletics	Women	200 metres	100.000	22.21	Irena Szewinska	 Poland	Potsdam, East Germany	1974	22.21
-Athletics	Women	200 metres	99.325	22.06	Marita Koch	 East Germany	Erfurt, East Germany	1978	22.06
-Athletics	Women	200 metres	99.145	22.02	Marita Koch	 East Germany	Leipzig, East Germany	1979	22.02
-Athletics	Women	200 metres	97.749	21.71	Marita Koch	 East Germany	Karl Marx Stadt, East Germany	1979	21.71
-Athletics	Women	200 metres	97.749	21.71	Marita Koch	 East Germany	Potsdam, East Germany	1984	21.71
-Athletics	Women	200 metres	97.749	21.71	Heike Drechsler	 East Germany	Jena, East Germany	1986	21.71
-Athletics	Women	200 metres	97.749	21.71	Heike Drechsler	 East Germany	Stuttgart, West Germany	1986	21.71
-Athletics	Women	200 metres	97.073	21.56	Florence Griffith-Joyner	 United States	Seoul, South Korea	1988	21.56
-Athletics	Women	200 metres	96.083	21.34	Florence Griffith-Joyner	 United States	Seoul, South Korea	1988	21.34
-Athletics	Men	400 metres	100.000	43.86A	Lee Evans	 United States	Mexico City, Mexico	1968	43.86
-Athletics	Men	400 metres	98.700	43.29	Butch Reynolds	 United States	Zürich, Switzerland	1988	43.29
-Athletics	Men	400 metres	98.450	43.18	Michael Johnson	 United States	Seville, Spain	1999	43.18
-Athletics	Women	400 metres	100.000	50.14	Riitta Salin	 Finland	Rome, Italy	1974	50.14
-Athletics	Women	400 metres	99.262	49.77	Christina Brehmer	 East Germany	Dresden, East Germany	1976	49.77
-Athletics	Women	400 metres	99.222	49.75	Irena Szewinska	 Poland	Bydgoszcz, Poland	1976	49.75
-Athletics	Women	400 metres	98.305	49.29	Irena Szewinska	 Poland	Montreal, Canada	1976	49.29
-Athletics	Women	400 metres	98.105	49.19	Marita Koch	 East Germany	Leipzig, East Germany	1978	49.19
-Athletics	Women	400 metres	97.786	49.03	Marita Koch	 East Germany	Potsdam, East Germany	1978	49.03
-Athletics	Women	400 metres	97.607	48.94	Marita Koch	 East Germany	Prague, Czechoslovakia	1978	48.94
-Athletics	Women	400 metres	97.507	48.89	Marita Koch	 East Germany	Potsdam, East Germany	1979	48.89
-Athletics	Women	400 metres	96.929	48.60	Marita Koch	 East Germany	Turin, Italy	1979	48.6
-Athletics	Women	400 metres	96.051	48.16	Marita Koch	 East Germany	Athens, Greece	1982	48.16
-Athletics	Women	400 metres	95.712	47.99	Jarmila Kratochvílová	 Czechoslovakia	Helsinki, Finland	1983	47.99
-Athletics	Women	400 metres	94.934	47.60	Marita Koch	 East Germany	Canberra, Australia	1985	47.6
-Athletics	Men	800 metres	100.000	1:43.7	 Marcello Fiasconaro	Italy	Milan, Italy	1973	103.7
-Athletics	Men	800 metres	99.807	1:43.5	 Alberto Juantorena	Cuba	Montreal, Canada	1976	103.5
-Athletics	Men	800 metres	99.711	1:43.4	 Alberto Juantorena	Cuba	Sofia, Bulgaria	1977	103.4
-Athletics	Men	800 metres	98.746	1:42.4	 Sebastian Coe	Great Britain	Oslo, Norway	1979	102.4
-Athletics	Men	800 metres	98.100	1:41.73	 Sebastian Coe	Great Britain	Florence, Italy	1981	101.73
-Athletics	Men	800 metres	98.100	1:41.73	 Wilson Kipketer	Denmark	Stockholm, Sweden	1997	101.73
-Athletics	Men	800 metres	97.628	1:41.24	 Wilson Kipketer	Denmark	Zürich, Switzerland	1997	101.24
-Athletics	Men	800 metres	97.502	1:41.11	 Wilson Kipketer	Denmark	Cologne, Germany	1997	101.11
-Athletics	Men	800 metres	97.483	1:41.09	 David Rudisha	Kenya	Berlin, Germany	2010	101.09
-Athletics	Men	800 metres	97.406	1:41.01	 David Rudisha	Kenya	Rieti, Italy	2010	101.01
-Athletics	Men	800 metres	97.310	1:40.91	 David Rudisha	Kenya	London, United Kingdom	2012	100.91
-Athletics	Women	800 metres	100.000	1:57.5	 Svetla Zlateva	Bulgaria	Athens, Greece	1973	117.5
-Athletics	Women	800 metres	98.723	1:56.0	 Valentina Gerasimova	Soviet Union	Kiev, Soviet Union	1976	116
-Athletics	Women	800 metres	97.787	1:54.9	 Tatyana Kazankina	Soviet Union	Montreal, Canada	1976	114.9
-Athletics	Women	800 metres	97.787	1:54.9	 Nadezhda Olizarenko	Soviet Union	Moscow, Soviet Union	1980	114.9
-Athletics	Women	800 metres	96.596	1:53.5	 Nadezhda Olizarenko	Soviet Union	Moscow, Soviet Union	1980	113.5
-Athletics	Women	800 metres	96.409	1:53.28	 Jarmila Kratochvílová	Czechoslovakia	Munich, West Germany	1983	113.28
-Athletics	Men	1500 metres	100.000	3:32.2	 Filbert Bayi	Tanzania	Christchurch, New Zealand	1974	212.2
-Athletics	Men	1500 metres	99.953	3:32.1	 Sebastian Coe	Great Britain	Zürich, Switzerland	1979	212.1
-Athletics	Men	1500 metres	99.953	3:32.1	 Steve Ovett	Great Britain	Oslo, Norway	1980	212.1
-Athletics	Men	1500 metres	99.623	3:31.4	 Steve Ovett	Great Britain	Koblenz, West Germany	1980	211.4
-Athletics	Men	1500 metres	99.548	3:31.24	 Sydney Maree	United States	Cologne, West Germany	1983	211.24
-Athletics	Men	1500 metres	99.326	3:30.77	 Steve Ovett	Great Britain	Rieti, Italy	1983	210.77
-Athletics	Men	1500 metres	98.808	3:29.67	 Steve Cram	Great Britain	Nice, France	1985	209.67
-Athletics	Men	1500 metres	98.709	3:29.46	 Saïd Aouita	Morocco	Berlin, Germany	1985	209.46
-Athletics	Men	1500 metres	98.426	3:28.86	 Noureddine Morceli	Algeria	Rieti, Italy	1992	208.86
-Athletics	Men	1500 metres	97.724	3:27.37	 Noureddine Morceli	Algeria	Nice, France	1995	207.37
-Athletics	Men	1500 metres	97.078	3:26.00	 Hicham El Guerrouj	Morocco	Rome, Italy	1998	206
-Athletics	Women	1500 metres	100.000	4:01.4	 Ludmila Bragina (URS)	Soviet Union	Munich, Germany	1972	241.4
-Athletics	Women	1500 metres	97.763	3:56.0	 Tatyana Kazankina (URS)	Soviet Union	Podolsk, Soviet Union	1976	236
-Athletics	Women	1500 metres	97.349	3:55.0	 Tatyana Kazankina (URS)	Soviet Union	Moscow, Soviet Union	1980	235
-Athletics	Women	1500 metres	96.301	3:52.47	 Tatyana Kazankina (URS)	Soviet Union	Zurich, Switzerland	1980	232.47
-Athletics	Women	1500 metres	95.468	3:50.46	 Qu Yunxia (CHN)	China	Beijing, China	1993	230.46
-Athletics	Women	1500 metres	95.307	3:50.07	 Genzebe Dibaba (ETH)	Ethiopia	Fontvieille, Monaco	2015	230.07
-Athletics	Men	5,000 metres	100.000	13:13.0	 Emiel Puttemans	Belgium	Brussels, Belgium	1972	793
-Athletics	Men	5,000 metres	99.987	13:12.9	 Dick Quax	New Zealand	Stockholm, Sweden	1977	792.9
-Athletics	Men	5,000 metres	99.420	13:08.4	 Henry Rono	Kenya	Berkeley, California, USA	1978	788.4
-Athletics	Men	5,000 metres	99.142	13:06.20	 Henry Rono	Kenya	Knarvik, Norway	1981	786.2
-Athletics	Men	5,000 metres	98.412	13:00.41	 David Moorcroft	Great Britain	Oslo, Norway	1982	780.41
-Athletics	Men	5,000 metres	98.411	13:00.40	 Saïd Aouita	Morocco	Oslo, Norway	1985	780.4
-Athletics	Men	5,000 metres	98.158	12:58.39	 Saïd Aouita	Morocco	Rome, Italy	1987	778.39
-Athletics	Men	5,000 metres	97.977	12:56.96	 Haile Gebrselassie	Ethiopia	Hengelo, Netherlands	1994	776.96
-Athletics	Men	5,000 metres	97.768	12:55.30	 Moses Kiptanui	Kenya	Rome, Italy	1995	775.3
-Athletics	Men	5,000 metres	96.392	12:44.39	 Haile Gebrselassie	Ethiopia	Zürich, Switzerland	1995	764.39
-Athletics	Men	5,000 metres	96.073	12:41.86	 Haile Gebrselassie 	Ethiopia	Zürich, Switzerland	1997	761.86
-Athletics	Men	5,000 metres	95.806	12:39.74	 Daniel Komen	Kenya	Brussels, Belgium	1997	759.74
-Athletics	Men	5,000 metres	95.758	12:39.36	 Haile Gebrselassie	Ethiopia	Helsinki, Finland	1998	759.36
-Athletics	Men	5,000 metres	95.504	12:37.35	 Kenenisa Bekele	Ethiopia	Hengelo, Netherlands	2004	757.35
-Athletics	Women	5,000 metres	100.000	15:53.6	 Paola Pigni	Italy	Milan, Italy	1969	953.6
-Athletics	Women	5,000 metres	98.721	15:41.4	 Natalia Marasescu	Romania	Oradea, Romania	1977	941.4
-Athletics	Women	5,000 metres	99.533	15:37.0	 Janice Merrill	United States	Mainz, Germany	1977	937
-Athletics	Women	5,000 metres	99.842	15:35.52	 Kathy Mills	United States	Knoxville, United States	1978	935.52
-Athletics	Women	5,000 metres	99.816	15:33.8	 Janice Merrill	United States	Durham, United States	1979	933.8
-Athletics	Women	5,000 metres	99.657	15:30.6	 Janice Merrill	United States	Stanford, United States	1980	930.6
-Athletics	Women	5,000 metres	99.767	15:28.43	 Ingrid Kristiansen	Norway	Oslo, Norway	1981	928.43
-Athletics	Women	5,000 metres	99.587	15:24.6	 Yelena Sipatova	Soviet Union	Podolsk, Soviet Union	1981	924.6
-Athletics	Women	5,000 metres	98.909	15:14.51	 Paula Fudge	Great Britain	Knarvik, Norway	1981	914.51
-Athletics	Women	5,000 metres	99.859	15:13.22	 Anne Audain	New Zealand	Auckland, New Zealand	1982	913.22
-Athletics	Women	5,000 metres	99.457	15:08.26	 Mary Decker-Slaney	United States	Eugene, Oregon, United States	1982	908.26
-Athletics	Women	5,000 metres	98.968	14:58.89	 Ingrid Kristiansen	Norway	Oslo, Norway	1984	898.89
-Athletics	Women	5,000 metres	98.796	14:48.07	 Zola Budd	Great Britain	London, United Kingdom	1985	888.07
-Athletics	Women	5,000 metres	98.791	14:37.33	 Ingrid Kristiansen	Norway	Stockholm, Sweden	1986	877.33
-Athletics	Women	5,000 metres	99.900	14:36.45	 Fernanda Ribeiro	Portugal	Hechtel, Belgium	1995	876.45
-Athletics	Women	5,000 metres	99.409	14:31.27	 Dong Yanmei	China	Shanghai, China	1997	871.27
-Athletics	Women	5,000 metres	99.635	14:28.09	 Jiang Bo	China	Shanghai, China	1997	868.09
-Athletics	Women	5,000 metres	99.607	14:24.68	 Elvan Abeylegesse	Turkey	Bergen, Norway	2004	864.68
-Athletics	Women	5,000 metres	99.983	14:24.53	 Meseret Defar	Ethiopia	New York, United States	2006	864.53
-Athletics	Women	5,000 metres	99.086	14:16.63	 Meseret Defar	Ethiopia	Oslo, Norway	2007	856.63
-Athletics	Women	5,000 metres	99.360	14:11.15	 Tirunesh Dibaba	Ethiopia	Oslo, Norway	2008	851.15
-Swimming	Men	Freestyle 100 metres	100.000	50.59	Jim Montgomery	 United States	Kansas City, United States	1975	50.59
-Swimming	Men	Freestyle 100 metres	99.605	50.39	Jim Montgomery	 United States	Montreal, Canada	1976	50.39
-Swimming	Men	Freestyle 100 metres	98.814	49.99	Jim Montgomery	 United States	Montreal, Canada	1976	49.99
-Swimming	Men	Freestyle 100 metres	97.727	49.44	Jonty Skinner	 South Africa	Philadelphia, United States	1976	49.44
-Swimming	Men	Freestyle 100 metres	97.569	49.36	Rowdy Gaines	 United States	Austin, United States	1981	49.36
-Swimming	Men	Freestyle 100 metres	97.331	49.24	Matt Biondi	 United States	Mission Viejo, United States	1985	49.24
-Swimming	Men	Freestyle 100 metres	96.758	48.95	Matt Biondi	 United States	Mission Viejo, United States	1985	48.95
-Swimming	Men	Freestyle 100 metres	96.343	48.74	Matt Biondi	 United States	Orlando, United States	1986	48.74
-Swimming	Men	Freestyle 100 metres	95.711	48.42	Matt Biondi	 United States	Austin, United States	1988	48.42
-Swimming	Men	Freestyle 100 metres	95.296	48.21	Alexander Popov	 Russia	Monte-Carlo, Monaco	1994	48.21
-Swimming	Men	Freestyle 100 metres	95.236	48.18	Michael Klim	 Australia	Sydney, Australia	2000	48.18
-Swimming	Men	Freestyle 100 metres	94.564	47.84	Pieter van den Hoogenband	 Netherlands	Sydney, Australia	2000	47.84
-Swimming	Men	Freestyle 100 metres	94.090	47.60	Alain Bernard	 France	Eindhoven, Netherlands	2008	47.6
-Swimming	Men	Freestyle 100 metres	93.892	47.50	Alain Bernard	 France	Eindhoven, Netherlands	2008	47.5
-Swimming	Men	Freestyle 100 metres	93.378	47.24	Eamon Sullivan	 Australia	Beijing, China	2008	47.24
-Swimming	Men	Freestyle 100 metres	93.299	47.20	Alain Bernard	 France	Beijing, China	2008	47.2
-Swimming	Men	Freestyle 100 metres	93.003	47.05	Eamon Sullivan	 Australia	Beijing, China	2008	47.05
-Swimming	Men	Freestyle 100 metres	92.785	46.94	Alain Bernard	 France	Montpellier, France	2009	46.94
-Swimming	Men	Freestyle 100 metres	92.726	46.91	César Cielo	 Brazil	Rome, Italy	2009	46.91
-Swimming	Women	Freestyle 100 metres	100.000	56.22	Kornelia Ender	 East Germany	Cali, Colombia	1975	56.22
-Swimming	Women	Freestyle 100 metres	99.128	55.73	Kornelia Ender	 East Germany	East Berlin, East Germany	1976	55.73
-Swimming	Women	Freestyle 100 metres	98.986	55.65	Kornelia Ender	 East Germany	Montréal, Canada	1976	55.65
-Swimming	Women	Freestyle 100 metres	98.559	55.41	Barbara Krause	 East Germany	East Berlin, East Germany	1978	55.41
-Swimming	Women	Freestyle 100 metres	97.794	54.98	Barbara Krause	 East Germany	Moscow, Soviet Union	1980	54.98
-Swimming	Women	Freestyle 100 metres	97.456	54.79	Barbara Krause	 East Germany	Moscow, Soviet Union	1980	54.79
-Swimming	Women	Freestyle 100 metres	97.350	54.73	Kristin Otto	 East Germany	Madrid, Spain	1986	54.73
-Swimming	Women	Freestyle 100 metres	96.905	54.48	Jenny Thompson	 United States	Indianapolis, United States	1992	54.48
-Swimming	Women	Freestyle 100 metres	96.069	54.01	Jingyi Le	 China	Rome, Italy	1994	54.01
-Swimming	Women	Freestyle 100 metres	95.695	53.80	Inge de Bruijn	 Netherlands	Sheffield, United Kingdom	2000	53.8
-Swimming	Women	Freestyle 100 metres	95.642	53.77	Inge de Bruijn	 Netherlands	Sydney, Australia	2000	53.77
-Swimming	Women	Freestyle 100 metres	95.446	53.66	Libby Lenton	 Australia	Sydney, Australia	2004	53.66
-Swimming	Women	Freestyle 100 metres	95.197	53.52	Jodie Henry	 Australia	Athens, Greece	2004	53.52
-Swimming	Women	Freestyle 100 metres	95.020	53.42	Libby Lenton	 Australia	Melbourne, Australia	2006	53.42
-Swimming	Women	Freestyle 100 metres	94.806	53.30	Britta Steffen	 Germany	Budapest, Hungary	2006	53.3
-Swimming	Women	Freestyle 100 metres	94.059	52.88	Libby Trickett	 Australia	Sydney, Australia	2008	52.88
-Swimming	Women	Freestyle 100 metres	94.006	52.85	Britta Steffen	 Germany	Berlin, Germany	2009	52.85
-Swimming	Women	Freestyle 100 metres	93.490	52.56	Britta Steffen	 Germany	Berlin, Germany	2009	52.56
-Swimming	Women	Freestyle 100 metres	92.885	52.22	Britta Steffen	 Germany	Rome, Italy	2009	52.22
-Swimming	Women	Freestyle 100 metres	92.618	52.07	Britta Steffen	 Germany	Rome, Italy	2009	52.07
-Swimming	Women	Freestyle 100 metres	92.600	52.06	Cate Campbell	 Australia	Brisbane, Australia	2016	52.06
+Sport	Gender	Event	Time	Timetxt	Athlete	Nationality	Year	Timeinseconds
+Athletics	Women	100 metres	100	11.07	Renate Stecher	 East Germany	1972	11.07
+Athletics	Women	100 metres	99.72899729	11.04	Inge Helten	 West Germany	1976	11.04
+Athletics	Women	100 metres	99.45799458	11.01	Annegret Richter	 West Germany	1976	11.01
+Athletics	Women	100 metres	98.2836495	10.88	Marlies Oelsner	 East Germany	1977	10.88
+Athletics	Women	100 metres	98.2836495	10.88	Marlies Göhr	 East Germany	1982	10.88
+Athletics	Women	100 metres	97.65130985	10.81	Marlies Göhr	 East Germany	1983	10.81
+Athletics	Women	100 metres	97.47064137	10.79	Evelyn Ashford	 USA	1983	10.79
+Athletics	Women	100 metres	97.19963866	10.76	Evelyn Ashford	 USA	1984	10.76
+Athletics	Women	100 metres	94.76061427	10.49	Florence Griffith-Joyner	 USA	1988	10.49
+Athletics	Men	100 metres	100	9.95	Jim Hines	 USA	1968	9.95
+Athletics	Men	100 metres	99.79899497	9.93	Calvin Smith	 USA	1983	9.93
+Athletics	Men	100 metres	99.69849246	9.92	Carl Lewis	 USA	1988	9.92
+Athletics	Men	100 metres	99.49748744	9.9	Leroy Burrell	 USA	1991	9.9
+Athletics	Men	100 metres	99.09547739	9.86	Carl Lewis	 USA	1991	9.86
+Athletics	Men	100 metres	98.99497487	9.85	Leroy Burrell	 USA	1994	9.85
+Athletics	Men	100 metres	98.89447236	9.84	Donovan Bailey	 Canada	1996	9.84
+Athletics	Men	100 metres	98.3919598	9.79	Maurice Greene	 USA	1999	9.79
+Athletics	Men	100 metres	98.19095477	9.77	Asafa Powell	 Jamaica	2005	9.77
+Athletics	Men	100 metres	98.19095477	9.77	Asafa Powell	 Jamaica	2006	9.77
+Athletics	Men	100 metres	98.19095477	9.77	Asafa Powell	 Jamaica	2006	9.77
+Athletics	Men	100 metres	97.88944724	9.74	Asafa Powell	 Jamaica	2007	9.74
+Athletics	Men	100 metres	97.68844221	9.72	Usain Bolt	 Jamaica	2008	9.72
+Athletics	Men	100 metres	97.38693467	9.69	Usain Bolt	 Jamaica	2008	9.69
+Athletics	Men	100 metres	96.28140704	9.58	Usain Bolt	 Jamaica	2009	9.58
+Athletics	Men	200 metres	100	19.83	Tommie Smith	 USA	1968	19.83
+Athletics	Men	200 metres	99.44528492	19.72	Pietro Mennea	 Italy	1979	19.72
+Athletics	Men	200 metres	99.14271306	19.66	Michael Johnson	 USA	1996	19.66
+Athletics	Men	200 metres	97.42813918	19.32	Michael Johnson	 USA	1996	19.32
+Athletics	Men	200 metres	97.3272819	19.30	Usain Bolt	 Jamaica	2008	19.3
+Athletics	Men	200 metres	96.77256682	19.19	Usain Bolt	 Jamaica	2009	19.19
+Athletics	Women	200 metres	100	22.21	Irena Szewinska	 Poland	1974	22.21
+Athletics	Women	200 metres	99.32462855	22.06	Marita Koch	 East Germany	1978	22.06
+Athletics	Women	200 metres	99.14452949	22.02	Marita Koch	 East Germany	1979	22.02
+Athletics	Women	200 metres	97.74876182	21.71	Marita Koch	 East Germany	1979	21.71
+Athletics	Women	200 metres	97.74876182	21.71	Marita Koch	 East Germany	1984	21.71
+Athletics	Women	200 metres	97.74876182	21.71	Heike Drechsler	 East Germany	1986	21.71
+Athletics	Women	200 metres	97.74876182	21.71	Heike Drechsler	 East Germany	1986	21.71
+Athletics	Women	200 metres	97.07339036	21.56	Florence Griffith-Joyner	 USA	1988	21.56
+Athletics	Women	200 metres	96.08284557	21.34	Florence Griffith-Joyner	 USA	1988	21.34
+Athletics	Men	400 metres	100	43.86	Lee Evans	 USA	1968	43.86
+Athletics	Men	400 metres	98.7004	43.29	Butch Reynolds	 USA	1988	43.29
+Athletics	Men	400 metres	98.4496	43.18	Michael Johnson	 USA	1999	43.18
+Athletics	Women	400 metres	100	50.14	Riitta Salin	 Finland	1974	50.14
+Athletics	Women	400 metres	99.26206621	49.77	Christina Brehmer	 East Germany	1976	49.77
+Athletics	Women	400 metres	99.2221779	49.75	Irena Szewinska	 Poland	1976	49.75
+Athletics	Women	400 metres	98.30474671	49.29	Irena Szewinska	 Poland	1976	49.29
+Athletics	Women	400 metres	98.10530515	49.19	Marita Koch	 East Germany	1978	49.19
+Athletics	Women	400 metres	97.78619864	49.03	Marita Koch	 East Germany	1978	49.03
+Athletics	Women	400 metres	97.60670124	48.94	Marita Koch	 East Germany	1978	48.94
+Athletics	Women	400 metres	97.50698045	48.89	Marita Koch	 East Germany	1979	48.89
+Athletics	Women	400 metres	96.92859992	48.60	Marita Koch	 East Germany	1979	48.6
+Athletics	Women	400 metres	96.05105704	48.16	Marita Koch	 East Germany	1982	48.16
+Athletics	Women	400 metres	95.71200638	47.99	Jarmila Kratochvílová	 Czechoslovakia	1983	47.99
+Athletics	Women	400 metres	94.93418428	47.60	Marita Koch	 East Germany	1985	47.6
+Athletics	Men	800 metres	100	1:43.7	 Marcello Fiasconaro	Italy	1973	103.7
+Athletics	Men	800 metres	99.80713597	1:43.5	 Alberto Juantorena	Cuba	1976	103.5
+Athletics	Men	800 metres	99.71070395	1:43.4	 Alberto Juantorena	Cuba	1977	103.4
+Athletics	Men	800 metres	98.7463838	1:42.4	 Sebastian Coe	Great Britain	1979	102.4
+Athletics	Men	800 metres	98.1002893	1:41.73	 Sebastian Coe	Great Britain	1981	101.73
+Athletics	Men	800 metres	98.1002893	1:41.73	 Wilson Kipketer	Denmark	1997	101.73
+Athletics	Men	800 metres	97.62777242	1:41.24	 Wilson Kipketer	Denmark	1997	101.24
+Athletics	Men	800 metres	97.5024108	1:41.11	 Wilson Kipketer	Denmark	1997	101.11
+Athletics	Men	800 metres	97.4831244	1:41.09	 David Rudisha	Kenya	2010	101.09
+Athletics	Men	800 metres	97.40597878	1:41.01	 David Rudisha	Kenya	2010	101.01
+Athletics	Men	800 metres	97.30954677	1:40.91	 David Rudisha	Kenya	2012	100.91
+Athletics	Women	800 metres	100	1:57.5	 Svetla Zlateva	Bulgaria	1973	117.5
+Athletics	Women	800 metres	98.72340426	1:56.0	 Valentina Gerasimova	Soviet Union	1976	116
+Athletics	Women	800 metres	97.78723404	1:54.9	 Tatyana Kazankina	Soviet Union	1976	114.9
+Athletics	Women	800 metres	97.78723404	1:54.9	 Nadezhda Olizarenko	Soviet Union	1980	114.9
+Athletics	Women	800 metres	96.59574468	1:53.5	 Nadezhda Olizarenko	Soviet Union	1980	113.5
+Athletics	Women	800 metres	96.40851064	1:53.28	 Jarmila Kratochvílová	Czechoslovakia	1983	113.28
+Athletics	Men	1500 metres	100	3:32.2	 Filbert Bayi	Tanzania	1974	212.2
+Athletics	Men	1500 metres	99.95287465	3:32.1	 Sebastian Coe	Great Britain	1979	212.1
+Athletics	Men	1500 metres	99.95287465	3:32.1	 Steve Ovett	Great Britain	1980	212.1
+Athletics	Men	1500 metres	99.62299717	3:31.4	 Steve Ovett	Great Britain	1980	211.4
+Athletics	Men	1500 metres	99.54759661	3:31.24	 Sydney Maree	USA	1983	211.24
+Athletics	Men	1500 metres	99.32610745	3:30.77	 Steve Ovett	Great Britain	1983	210.77
+Athletics	Men	1500 metres	98.80772856	3:29.67	 Steve Cram	Great Britain	1985	209.67
+Athletics	Men	1500 metres	98.70876532	3:29.46	 Saïd Aouita	Morocco	1985	209.46
+Athletics	Men	1500 metres	98.4260132	3:28.86	 Noureddine Morceli	Algeria	1992	208.86
+Athletics	Men	1500 metres	97.72384543	3:27.37	 Noureddine Morceli	Algeria	1995	207.37
+Athletics	Men	1500 metres	97.07822809	3:26.00	 Hicham El Guerrouj	Morocco	1998	206
+Athletics	Women	1500 metres	100	4:01.4	 Ludmila Bragina (URS)	Soviet Union	1972	241.4
+Athletics	Women	1500 metres	97.76304888	3:56.0	 Tatyana Kazankina (URS)	Soviet Union	1976	236
+Athletics	Women	1500 metres	97.34879867	3:55.0	 Tatyana Kazankina (URS)	Soviet Union	1980	235
+Athletics	Women	1500 metres	96.30074565	3:52.47	 Tatyana Kazankina (URS)	Soviet Union	1980	232.47
+Athletics	Women	1500 metres	95.46810273	3:50.46	 Qu Yunxia (CHN)	China	1993	230.46
+Athletics	Women	1500 metres	95.30654515	3:50.07	 Genzebe Dibaba (ETH)	Ethiopia	2015	230.07
+Athletics	Men	5,000 metres	100	13:13.0	 Emiel Puttemans	Belgium	1972	793
+Athletics	Men	5,000 metres	99.98738966	13:12.9	 Dick Quax	New Zealand	1977	792.9
+Athletics	Men	5,000 metres	99.41992434	13:08.4	 Henry Rono	Kenya	1978	788.4
+Athletics	Men	5,000 metres	99.14249685	13:06.20	 Henry Rono	Kenya	1981	786.2
+Athletics	Men	5,000 metres	98.41235813	13:00.41	 David Moorcroft	Great Britain	1982	780.41
+Athletics	Men	5,000 metres	98.4110971	13:00.40	 Saïd Aouita	Morocco	1985	780.4
+Athletics	Men	5,000 metres	98.15762926	12:58.39	 Saïd Aouita	Morocco	1987	778.39
+Athletics	Men	5,000 metres	97.97730139	12:56.96	 Haile Gebrselassie	Ethiopia	1994	776.96
+Athletics	Men	5,000 metres	97.76796974	12:55.30	 Moses Kiptanui	Kenya	1995	775.3
+Athletics	Men	5,000 metres	96.39218159	12:44.39	 Haile Gebrselassie	Ethiopia	1995	764.39
+Athletics	Men	5,000 metres	96.07313997	12:41.86	 Haile Gebrselassie 	Ethiopia	1997	761.86
+Athletics	Men	5,000 metres	95.80580076	12:39.74	 Daniel Komen	Kenya	1997	759.74
+Athletics	Men	5,000 metres	95.75788146	12:39.36	 Haile Gebrselassie	Ethiopia	1998	759.36
+Athletics	Men	5,000 metres	95.50441362	12:37.35	 Kenenisa Bekele	Ethiopia	2004	757.35
+Athletics	Women	5,000 metres	100	15:53.6	 Paola Pigni	Italy	1969	953.6
+Athletics	Women	5,000 metres	98.72063758	15:41.4	 Natalia Marasescu	Romania	1977	941.4
+Athletics	Women	5,000 metres	98.25922819	15:37.0	 Janice Merrill	USA	1977	937
+Athletics	Women	5,000 metres	98.10402685	15:35.52	 Kathy Mills	USA	1978	935.52
+Athletics	Women	5,000 metres	97.92365772	15:33.8	 Janice Merrill	USA	1979	933.8
+Athletics	Women	5,000 metres	97.58808725	15:30.6	 Janice Merrill	USA	1980	930.6
+Athletics	Women	5,000 metres	97.36052852	15:28.43	 Ingrid Kristiansen	Norway	1981	928.43
+Athletics	Women	5,000 metres	96.95889262	15:24.6	 Yelena Sipatova	Soviet Union	1981	924.6
+Athletics	Women	5,000 metres	95.90079698	15:14.51	 Paula Fudge	Great Britain	1981	914.51
+Athletics	Women	5,000 metres	95.76552013	15:13.22	 Anne Audain	New Zealand	1982	913.22
+Athletics	Women	5,000 metres	95.24538591	15:08.26	 Mary Decker-Slaney	USA	1982	908.26
+Athletics	Women	5,000 metres	94.26279362	14:58.89	 Ingrid Kristiansen	Norway	1984	898.89
+Athletics	Women	5,000 metres	93.12814597	14:48.07	 Zola Budd	Great Britain	1985	888.07
+Athletics	Women	5,000 metres	92.00188758	14:37.33	 Ingrid Kristiansen	Norway	1986	877.33
+Athletics	Women	5,000 metres	91.9096057	14:36.45	 Fernanda Ribeiro	Portugal	1995	876.45
+Athletics	Women	5,000 metres	91.36640101	14:31.27	 Dong Yanmei	China	1997	871.27
+Athletics	Women	5,000 metres	91.03292785	14:28.09	 Jiang Bo	China	1997	868.09
+Athletics	Women	5,000 metres	90.67533557	14:24.68	 Elvan Abeylegesse	Turkey	2004	864.68
+Athletics	Women	5,000 metres	90.6596057	14:24.53	 Meseret Defar	Ethiopia	2006	864.53
+Athletics	Women	5,000 metres	89.83116611	14:16.63	 Meseret Defar	Ethiopia	2007	856.63
+Athletics	Women	5,000 metres	89.25650168	14:11.15	 Tirunesh Dibaba	Ethiopia	2008	851.15
+Athletics	Men	10,000 metres	100	27:30.8	David Bedford 	United Kingdom	1973	1650.8
+Athletics	Men	10,000 metres	99.98182699	27:30.5	Samson Kimobwa 	Kenya	1977	1650.5
+Athletics	Men	10,000 metres	99.4911558	27:22.4	Henry Rono 	Kenya	1978	1642.4
+Athletics	Men	10,000 metres	98.97019627	27:13.8	Fernando Mamede 	Portugal	1984	1633.8
+Athletics	Men	10,000 metres	98.6309668	27:08.2	Arturo Barrios 	Mexico	1989	1628.2
+Athletics	Men	10,000 metres	98.6127938	27:07.9	Richard Chelimo 	Kenya	1993	1627.9
+Athletics	Men	10,000 metres	98.03731524	26:58.4	Yobes Ondieki 	Kenya	1993	1618.4
+Athletics	Men	10,000 metres	97.66173976	26:52.2	William Sigei 	Kenya	1994	1612.2
+Athletics	Men	10,000 metres	97.13472256	26:43.5	Haile Gebrselassie 	Ethiopia	1995	1603.5
+Athletics	Men	10,000 metres	96.80760843	26:38.1	Salah Hissou 	Morocco	1996	1598.1
+Athletics	Men	10,000 metres	96.39568694	26:31.3	Haile Gebrselassie 	Ethiopia	1997	1591.3
+Athletics	Men	10,000 metres	96.18972619	26:27.9	Paul Tergat 	Kenya	1997	1587.9
+Athletics	Men	10,000 metres	95.8747274	26:22.7	Haile Gebrselassie 	Ethiopia	1998	1582.7
+Athletics	Men	10,000 metres	95.72934335	26:20.3	Kenenisa Bekele 	Ethiopia	2004	1580.3
+Athletics	Men	10,000 metres	95.55972862	26:17.5	 	Kenenisa Bekele 	Ethiopia	2005	1577.5
+Athletics	Women	10,000 metres	100	32:17.2	Yelena Sipatova 	Soviet Union	1981	1937.2
+Athletics	Women	10,000 metres	97.83708445	31:35.3	Mary Decker-Slaney 	USA	1982	1895.3
+Athletics	Women	10,000 metres	97.82159818	31:35.0	Lyudmila Bragina 	Soviet Union	1983	1895
+Athletics	Women	10,000 metres	97.43444146	31:27.5	Raisa Sadreydinova 	Soviet Union	1983	1887.5
+Athletics	Women	10,000 metres	96.7220731	31:13.7	Olga Bondarenko 	Soviet Union	1984	1873.7
+Athletics	Women	10,000 metres	95.98389428	30:59.4	Ingrid Kristiansen 	Norway	1985	1859.4
+Athletics	Women	10,000 metres	93.62481933	30:13.7	Ingrid Kristiansen 	Norway	1986	1813.7
+Athletics	Women	10,000 metres	91.45674169	29:31.7	Wang Junxia 	China	1993	1771.7
+Athletics	Men	110 metre hurdles	100	13.24	Rod Milburn	USA	1972	13.24
+Athletics	Men	110 metre hurdles	99.77	13.21	Alejandro Casañas	Cuba	1977	13.21
+Athletics	Men	110 metre hurdles	99.40	13.16	Renaldo Nehemiah	USA	1979	13.16
+Athletics	Men	110 metre hurdles	98.19	13	Renaldo Nehemiah	USA	1979	13
+Athletics	Men	110 metre hurdles	97.66	12.93	Renaldo Nehemiah	USA	1981	12.93
+Athletics	Men	110 metre hurdles	97.58	12.92	Roger Kingdom	USA	1989	12.92
+Athletics	Men	110 metre hurdles	97.51	12.91	Colin Jackson	United Kingdom	1993	12.91
+Athletics	Men	110 metre hurdles	97.51	12.91	 Liu Xiang	China	2004	12.91
+Athletics	Men	110 metre hurdles	97.28	12.88	 Liu Xiang	China	2006	12.88
+Athletics	Men	110 metre hurdles	97.21	12.87	Dayron Robles	Cuba	2008	12.87
+Athletics	Men	110 metre hurdles	96.68	12.8	Aries Merritt	 	USA	 	2012	12.8
+Athletics	Men	400 metre hurdles	100	47.82	John Akii-Bua	Uganda	1972	47.82
+Athletics	Men	400 metre hurdles	99.62358846	47.64	Edwin Moses	USA	1976	47.64
+Athletics	Men	400 metre hurdles	99.22626516	47.45	Edwin Moses	USA	1977	47.45
+Athletics	Men	400 metre hurdles	98.55708908	47.13	Edwin Moses	USA	1980	47.13
+Athletics	Men	400 metre hurdles	98.32705981	47.02	Edwin Moses	USA	1983	47.02
+Athletics	Men	400 metre hurdles	97.82517775	46.78	Kevin Young	 	USA	1992	46.78
+Athletics	Women	400 metre hurdles	100	56.51	Krystyna Kacperczyk	Poland	1974	56.51
+Athletics	Women	400 metre hurdles	98.63740931	55.74	Tatyana Storozheva	Soviet Union	1977	55.74
+Athletics	Women	400 metre hurdles	98.44275349	55.63	Karin Rossley	East Germany	1977	55.63
+Athletics	Women	400 metre hurdles	98.10652982	55.44	Krystyna Kacperczyk	Poland	1978	55.44
+Athletics	Women	400 metre hurdles	97.87648204	55.31	Tatyana Zelentsova	Soviet Union	1978	55.31
+Athletics	Women	400 metre hurdles	97.13325075	54.89	Tatyana Zelentsova	Soviet Union	1978	54.89
+Athletics	Women	400 metre hurdles	96.93859494	54.78	Marina Makeyeva	Soviet Union	1979	54.78
+Athletics	Women	400 metre hurdles	96.05379579	54.28	Karin Rossley	East Germany	1980	54.28
+Athletics	Women	400 metre hurdles	95.59370023	54.02	Anna Ambrazienė	Soviet Union	1983	54.02
+Athletics	Women	400 metre hurdles	94.81507698	53.58	Margarita Ponomaryova	Soviet Union	1984	53.58
+Athletics	Women	400 metre hurdles	94.76198903	53.55	Sabine Busch	East Germany	1985	53.55
+Athletics	Women	400 metre hurdles	94.35498142	53.32	Marina Stepanova	Soviet Union	1986	53.32
+Athletics	Women	400 metre hurdles	93.68253406	52.94	Marina Stepanova	Soviet Union	1986	52.94
+Athletics	Women	400 metre hurdles	93.3286144	52.74	Sally Gunnell	United Kingdom	1993	52.74
+Athletics	Women	400 metre hurdles	93.09856663	52.61	Kim Batten	USA	1995	52.61
+Athletics	Women	400 metre hurdles	92.62077508	52.34	Yuliya Pechonkina	Russia	2003	52.34
+Athletics	Men	3,000 metres steeplechase	100	8:09.8	Anders Gärderud	Sweden	1975	489.8
+Athletics	Men	3,000 metres steeplechase	99.67	8:08.2	Anders Gärderud	Sweden	1976	489.8
+Athletics	Men	3,000 metres steeplechase	99.10	8:05.4	Henry Rono	Kenya	1978	489.8
+Athletics	Men	3,000 metres steeplechase	99.09	8:05.35	Peter Koech	Kenya	1989	489.8
+Athletics	Men	3,000 metres steeplechase	98.42	8:02.08	Moses Kiptanui	Kenya	1992	489.8
+Athletics	Men	3,000 metres steeplechase	97.83	7:59.18	Moses Kiptanui	Kenya	1995	489.8
+Athletics	Men	3,000 metres steeplechase	97.81	7:59.08	Wilson Boit Kipketer	Kenya	1997	489.8
+Athletics	Men	3,000 metres steeplechase	97.13	7:55.72	Bernard Barmasai	Kenya	1997	489.8
+Athletics	Men	3,000 metres steeplechase	97.04	7:55.28	Brahim Boulami	Moracco	2001	489.8
+Athletics	Men	3,000 metres steeplechase	96.70	7:53.63	Saif Saaeed Shaheen	Qatar	2004	489.8
+Athletics	Women	3,000 metres steeplechase	100	9:25.31	Justyna Bąk	Poland	2001	489.8
+Athletics	Women	3,000 metres steeplechase	99.46577984	9:22.29	Justyna Bąk	Poland	2002	489.8
+Athletics	Women	3,000 metres steeplechase	99.3649502	9:21.72	Alesya Turova	Belarus	2002	489.8
+Athletics	Women	3,000 metres steeplechase	98.44333198	9:16.51	Alesya Turova	Belarus	2002	489.8
+Athletics	Women	3,000 metres steeplechase	96.99633829	9:08.33	Gulnara Samitova	Russia	2003	489.8
+Athletics	Women	3,000 metres steeplechase	95.8040721	9:01.59	Gulnara Samitova	Russia	2004	489.8
+Athletics	Women	3,000 metres steeplechase	95.31230652	8:58.81	Gulnara Samitova-Galkina	Russia	2008	489.8
+Athletics	Men	4x100 metres relay	100	38.19	USA	USA	1972	38.19
+Athletics	Men	4x100 metres relay	99.58104216	38.03	USA	USA	1977	38.03
+Athletics	Men	4x100 metres relay	99.13589945	37.86	USA	USA	1983	37.86
+Athletics	Men	4x100 metres relay	99.05734485	37.83	USA	USA	1984	37.83
+Athletics	Men	4x100 metres relay	98.95260539	37.79	France	France	1990	37.79
+Athletics	Men	4x100 metres relay	98.95260539	37.79	USA	USA	1991	37.79
+Athletics	Men	4x100 metres relay	98.63838701	37.67	USA	USA	1991	37.67
+Athletics	Men	4x100 metres relay	98.1932443	37.5	USA	USA	1991	37.5
+Athletics	Men	4x100 metres relay	97.93139565	37.4	USA	USA	1992	37.4
+Athletics	Men	4x100 metres relay	97.93139565	37.4	USA	USA	1993	37.4
+Athletics	Men	4x100 metres relay	97.1458497	37.1	Jamaica	Jamaica	2008	37.1
+Athletics	Men	4x100 metres relay	96.98874051	37.04	Jamaica	Jamaica	2011	37.04
+Athletics	Men	4x100 metres relay	96.46504321	36.84	Jamaica	 	Jamaica	2012	36.84
+Athletics	Women	4x100 metres relay	100	42.50	East Germany	East Germany	1974	42.5
+Athletics	Women	4x100 metres relay	100	42.5	East Germany	East Germany	1976	42.5
+Athletics	Women	4x100 metres relay	99.45882353	42.27	East Germany	East Germany	1978	42.27
+Athletics	Women	4x100 metres relay	99.05882353	42.1	East Germany	East Germany	1979	42.1
+Athletics	Women	4x100 metres relay	99.03529412	42.09	East Germany	East Germany	1979	42.09
+Athletics	Women	4x100 metres relay	99.03529412	42.09	East Germany	East Germany	1980	42.09
+Athletics	Women	4x100 metres relay	98.47058824	41.85	East Germany	East Germany	1980	41.85
+Athletics	Women	4x100 metres relay	97.88235294	41.6	East Germany	East Germany	1980	41.6
+Athletics	Women	4x100 metres relay	97.71764706	41.53	East Germany	East Germany	1983	41.53
+Athletics	Women	4x100 metres relay	97.34117647	41.37	East Germany	East Germany	1985	41.37
+Athletics	Women	4x100 metres relay	96.04705882	40.82	USA	USA	2012	40.82
+Athletics	Men	4x400 metres relay	100	2:56.2	USA	USA	1968	176.2
+Athletics	Men	4x400 metres relay	99.97729852	2:56.16	USA	USA	1988	176.16
+Athletics	Men	4x400 metres relay	99.73893303	2:55.74	USA	USA	1992	175.74
+Athletics	Men	4x400 metres relay	98.91600454	2:54.29	 	USA	USA	1993	174.29
+Athletics	Women	4x400 metres relay	100	3:23.0	East Germany	East Germany	1972	203
+Athletics	Women	4x400 metres relay	98.12807882	3:19.2	East Germany	East Germany	1976	199.2
+Athletics	Women	4x400 metres relay	98.04926108	3:19.04	East Germany	East Germany	1982	199.04
+Athletics	Women	4x400 metres relay	96.51231527	3:15.92	East Germany	East Germany	1984	195.92
+Athletics	Women	4x400 metres relay	96.14285714	3:15.17	Soviet Union	Soviet Union	1988	195.17
+Athletics	Men	High jump	100	2.30 m	Dwight Stones	USA	1973	2.30
+Athletics	Men	High jump	100.4347826	2.31 m	Dwight Stones	USA	1976	2.31
+Athletics	Men	High jump	100.8695652	2.32 m	Dwight Stones	USA	1976	2.32
+Athletics	Men	High jump	101.3043478	2.33 m	Vladimir Yashchenko	Soviet Union	1977	2.33
+Athletics	Men	High jump	101.7391304	2.34 m	Vladimir Yashchenko	Soviet Union	1978	2.34
+Athletics	Men	High jump	102.173913	2.35 m	Jacek Wszoła	Poland	1980	2.35
+Athletics	Men	High jump	102.173913	2.35 m	Dietmar Mögenburg	West Germany	1980	2.35
+Athletics	Men	High jump	102.6086957	2.36 m	Gerd Wessig	East Germany	1980	2.36
+Athletics	Men	High jump	103.0434783	2.37 m	Zhu Jianhua	China	1983	2.37
+Athletics	Men	High jump	103.4782609	2.38 m	Zhu Jianhua	China	1983	2.38
+Athletics	Men	High jump	103.9130435	2.39 m	Zhu Jianhua	China	1984	2.39
+Athletics	Men	High jump	104.3478261	2.40 m	Rudolf Povarnitsyn	Soviet Union	1985	2.40
+Athletics	Men	High jump	104.7826087	2.41 m	Igor Paklin	Soviet Union	1985	2.41
+Athletics	Men	High jump	105.2173913	2.42 m	Patrik Sjöberg	Sweden	1987	2.42
+Athletics	Men	High jump	105.6521739	2.43 m	Javier Sotomayor	Cuba	1988	2.43
+Athletics	Men	High jump	106.0869565	2.44 m	Javier Sotomayor	Cuba	1989	2.44
+Athletics	Men	High jump	106.5217391	2.45 m	Javier Sotomayor	Cuba	1993	2.45
+Athletics	Women	High jump	100	1.96 m	Rosemarie Ackermann	East Germany	1974	1.96
+Athletics	Women	High jump	100	1.96 m	Rosemarie Ackermann	East Germany	1976	1.96
+Athletics	Women	High jump	100.5102041	1.97 m	Rosemarie Ackermann	East Germany	1977	1.97
+Athletics	Women	High jump	100.5102041	1.97 m	Rosemarie Ackermann	East Germany	1977	1.97
+Athletics	Women	High jump	102.0408163	2.00 m	Rosemarie Ackermann	East Germany	1977	2
+Athletics	Women	High jump	102.5510204	2.01 m	Rosemarie Ackermann	East Germany	1977	2.01
+Athletics	Women	High jump	102.5510204	2.01 m	Sara Simeoni	Italy	1978	2.01
+Athletics	Women	High jump	103.0612245	2.02 m	Sara Simeoni	Italy	1978	2.02
+Athletics	Women	High jump	103.5714286	2.03 m	Ulrike Meyfarth	West Germany	1982	2.03
+Athletics	Women	High jump	103.5714286	2.03 m	Ulrike Meyfarth	West Germany	1983	2.03
+Athletics	Women	High jump	104.0816327	2.04 m	Tamara Bykova	Soviet Union	1983	2.04
+Athletics	Women	High jump	104.5918367	2.05 m	Tamara Bykova	Soviet Union	1983	2.05
+Athletics	Women	High jump	105.6122449	2.07 m	Tamara Bykova	Soviet Union	1984	2.07
+Athletics	Women	High jump	105.6122449	2.07 m	Lyudmila Andonova	Bulgaria	1984	2.07
+Athletics	Women	High jump	106.122449	2.08 m	Stefka Kostadinova	Bulgaria	1986	2.08
+Athletics	Women	High jump	106.6326531	2.09 m	 	Stefka Kostadinova	Bulgaria	1986	2.09
+Athletics	Men	Pole vault	100	5.65 m	David Roberts	USA	1975	5.65
+Athletics	Men	Pole vault	100.3539823	5.67 m	Earl Bell	USA	1975	5.67
+Athletics	Men	Pole vault	100.8849558	5.70 m	David Roberts	USA	1976	5.7
+Athletics	Men	Pole vault	101.2389381	5.72 m	Władysław Kozakiewicz	USA	1976	5.72
+Athletics	Men	Pole vault	101.7699115	5.75 m	Thierry Vigneron	Poland	1980	5.75
+Athletics	Men	Pole vault	101.7699115	5.75 m	Thierry Vigneron	France	1980	5.75
+Athletics	Men	Pole vault	102.1238938	5.77 m	Philippe Houvion	France	1980	5.77
+Athletics	Men	Pole vault	102.300885	5.78 m	Władysław Kozakiewicz	France	1980	5.78
+Athletics	Men	Pole vault	102.6548673	5.80 m	Thierry Vigneron	Poland	1980	5.8
+Athletics	Men	Pole vault	102.8318584	5.81 m	Vladimir Polyakov	France	1981	5.81
+Athletics	Men	Pole vault	103.0088496	5.82 m	Pierre Quinon	Soviet Union	1981	5.82
+Athletics	Men	Pole vault	103.1858407	5.83 m	Thierry Vigneron	France	1983	5.83
+Athletics	Men	Pole vault	103.539823	5.85 m	Sergey Bubka	France	1983	5.85
+Athletics	Men	Pole vault	104.0707965	5.88 m	Sergey Bubka	Soviet Union	1984	5.88
+Athletics	Men	Pole vault	104.4247788	5.90 m	Sergey Bubka	Soviet Union	1984	5.9
+Athletics	Men	Pole vault	104.6017699	5.91 m	Thierry Vigneron	Soviet Union	1984	5.91
+Athletics	Men	Pole vault	105.1327434	5.94 m	Sergey Bubka	France	1984	5.94
+Athletics	Men	Pole vault	106.1946903	6.00 m	Sergey Bubka	Soviet Union	1984	6
+Athletics	Men	Pole vault	106.3716814	6.01 m	Sergey Bubka	Soviet Union	1985	6.01
+Athletics	Men	Pole vault	106.7256637	6.03 m	Sergey Bubka	Soviet Union	1986	6.03
+Athletics	Men	Pole vault	107.079646	6.05 m	Sergey Bubka	Soviet Union	1987	6.05
+Athletics	Men	Pole vault	107.2566372	6.06 m	Sergey Bubka	Soviet Union	1988	6.06
+Athletics	Men	Pole vault	107.4336283	6.07 m	Sergey Bubka	Soviet Union	1988	6.07
+Athletics	Men	Pole vault	107.6106195	6.08 m	Sergey Bubka	Soviet Union	1991	6.08
+Athletics	Men	Pole vault	107.7876106	6.09 m	Sergey Bubka	Soviet Union	1991	6.09
+Athletics	Men	Pole vault	107.9646018	6.10 m	Sergey Bubka	Soviet Union	1991	6.1
+Athletics	Men	Pole vault	108.1415929	6.11 m	Sergey Bubka	Soviet Union	1991	6.11
+Athletics	Men	Pole vault	108.3185841	6.12 m	Sergey Bubka	Ukraine	1992	6.12
+Athletics	Men	Pole vault	108.4955752	6.13 m	Sergey Bubka	Ukraine	1992	6.13
+Athletics	Men	Pole vault	108.6725664	6.14 m 	Sergey Bubka	Ukraine	1992	6.14
+Athletics	Men	Pole vault	109.0265487	6.16 m 	Renaud Lavillenie	Ukraine	1994	6.16
+Athletics	Women	Pole vault	100	4.05 m	Sun Caiyun	China	1992	4.05
+Athletics	Women	Pole vault	100.7407407	4.08 m	Sun Caiyun	China	1995	4.08
+Athletics	Women	Pole vault	100.7407407	4.08 m	Zhong Guiqing	China	1995	4.08
+Athletics	Women	Pole vault	101.2345679	4.10 m	Daniela Bártová	Czech Republic	1995	4.10
+Athletics	Women	Pole vault	101.7283951	4.12 m	Daniela Bártová	Czech Republic	1995	4.12
+Athletics	Women	Pole vault	101.9753086	4.13 m	Daniela Bártová	Czech Republic	1995	4.13
+Athletics	Women	Pole vault	102.2222222	4.14 m	Daniela Bártová	Czech Republic	1995	4.14
+Athletics	Women	Pole vault	102.4691358	4.15 m	Daniela Bártová	Czech Republic	1995	4.15
+Athletics	Women	Pole vault	102.7160494	4.16 m	Daniela Bártová	Czech Republic	1995	4.16
+Athletics	Women	Pole vault	102.962963	4.17 m	Daniela Bártová	Czech Republic	1995	4.17
+Athletics	Women	Pole vault	103.2098765	4.18 m	Andrea Müller	Germany	1995	4.18
+Athletics	Women	Pole vault	103.7037037	4.20 m	Daniela Bártová	Czech Republic	1995	4.20
+Athletics	Women	Pole vault	103.9506173	4.21 m	Daniela Bártová	Czech Republic	1995	4.21
+Athletics	Women	Pole vault	104.1975309	4.22 m	Daniela Bártová	Czech Republic	1995	4.22
+Athletics	Women	Pole vault	104.9382716	4.25 m	Emma George	Australia	1995	4.25
+Athletics	Women	Pole vault	105.6790123	4.28 m	Emma George	Australia	1995	4.28
+Athletics	Women	Pole vault	108.8888889	4.41 m	Emma George	Australia	1996	4.41
+Athletics	Women	Pole vault	109.1358025	4.42 m	Emma George	Australia	1996	4.42
+Athletics	Women	Pole vault	109.8765432	4.45 m	Emma George	Australia	1996	4.45
+Athletics	Women	Pole vault	111.1111111	4.50 m	Emma George	Australia	1997	4.50
+Athletics	Women	Pole vault	112.345679	4.55 m	Emma George	Australia	1997	4.55
+Athletics	Women	Pole vault	112.8395062	4.57 m	Emma George	Australia	1998	4.57
+Athletics	Women	Pole vault	113.0864198	4.58 m	Emma George	Australia	1998	4.58
+Athletics	Women	Pole vault	113.3333333	4.59 m	Emma George	Australia	1998	4.59
+Athletics	Women	Pole vault	113.5802469	4.60 m	Emma George	Australia	1999	4.60
+Athletics	Women	Pole vault	113.5802469	4.60 m	Stacy Dragila	USA	1999	4.60
+Athletics	Women	Pole vault	113.5802469	4.60 m	Stacy Dragila	USA	2000	4.60
+Athletics	Women	Pole vault	114.0740741	4.62 m	Stacy Dragila	USA	2000	4.62
+Athletics	Women	Pole vault	114.3209877	4.63 m	Stacy Dragila	USA	2000	4.63
+Athletics	Women	Pole vault	114.3209877	4.63 m	Stacy Dragila	USA	2001	4.63
+Athletics	Women	Pole vault	114.5679012	4.64 m	Svetlana Feofanova	Russia	2001	4.64
+Athletics	Women	Pole vault	115.0617284	4.66 m	Stacy Dragila	USA	2001	4.66
+Athletics	Women	Pole vault	116.0493827	4.70 m	Stacy Dragila	USA	2001	4.70
+Athletics	Women	Pole vault	116.0493827	4.70 m	Stacy Dragila	USA	2001	4.70
+Athletics	Women	Pole vault	116.2962963	4.71 m	Stacy Dragila	USA	2001	4.71
+Athletics	Women	Pole vault	118.7654321	4.81 m	Stacy Dragila	USA	2001	4.81
+Athletics	Women	Pole vault	119.0123457	4.82 m	Yelena Isinbayeva	Russia	2003	4.82
+Athletics	Women	Pole vault	119.2592593	4.83 m	Yelena Isinbayeva	Russia	2004	4.83
+Athletics	Women	Pole vault	119.7530864	4.85 m	Svetlana Feofanova	Russia	2004	4.85
+Athletics	Women	Pole vault	120	4.86 m	Yelena Isinbayeva	Russia	2004	4.86
+Athletics	Women	Pole vault	120.2469136	4.87 m	Yelena Isinbayeva	Russia	2004	4.87
+Athletics	Women	Pole vault	120.4938272	4.88 m	Svetlana Feofanova	Russia	2004	4.88
+Athletics	Women	Pole vault	120.7407407	4.89 m	Yelena Isinbayeva	Russia	2004	4.89
+Athletics	Women	Pole vault	120.9876543	4.90 m	Yelena Isinbayeva	Russia	2004	4.90
+Athletics	Women	Pole vault	121.2345679	4.91 m	Yelena Isinbayeva	Russia	2004	4.91
+Athletics	Women	Pole vault	121.4814815	4.92 m	Yelena Isinbayeva	Russia	2004	4.92
+Athletics	Women	Pole vault	121.7283951	4.93 m	Yelena Isinbayeva	Russia	2005	4.93
+Athletics	Women	Pole vault	122.2222222	4.95 m	Yelena Isinbayeva	Russia	2005	4.95
+Athletics	Women	Pole vault	122.4691358	4.96 m	Yelena Isinbayeva	Russia	2005	4.96
+Athletics	Women	Pole vault	123.4567901	5.00 m	Yelena Isinbayeva	Russia	2005	5.00
+Athletics	Women	Pole vault	123.7037037	5.01 m	Yelena Isinbayeva	Russia	2005	5.01
+Athletics	Women	Pole vault	124.1975309	5.03 m	Yelena Isinbayeva	Russia	2008	5.03
+Athletics	Women	Pole vault	124.4444444	5.04 m	Yelena Isinbayeva	Russia	2008	5.04
+Athletics	Women	Pole vault	124.691358	5.05 m	Yelena Isinbayeva	Russia	2008	5.05
+Athletics	Women	Pole vault	124.9382716	5.06 m	Yelena Isinbayeva	Russia	2009	5.06
+Athletics	Men	Long jump	100	8.90 m	Bob Beamon	USA	1968	8.9
+Athletics	Men	Long jump	100.5617978	8.95 m	Mike Powell	USA	1991	
+Athletics	Women	Long jump	100	6.84 m	Heide Rosendahl	West Germany	1970	6.84
+Athletics	Women	Long jump	101.1695906	6.92 m	Angela Voigt	East Germany	1976	6.92
+Athletics	Women	Long jump	102.1929825	6.99 m	Siegrun Siegl	East Germany	1976	6.99
+Athletics	Women	Long jump	103.3625731	7.07 m	Vilma Bardauskiené	Soviet Union	1978	7.07
+Athletics	Women	Long jump	103.6549708	7.09 m	Vilma Bardauskiené	Soviet Union	1978	7.09
+Athletics	Women	Long jump	104.5321637	7.15 m	Anişoara Cuşmir	Romania	1982	7.15
+Athletics	Women	Long jump	105.2631579	7.20 m	Valy Ionescu	Romania	1982	7.2
+Athletics	Women	Long jump	105.4093567	7.21 m	Anişoara Cuşmir	Romania	1983	7.21
+Athletics	Women	Long jump	106.2865497	7.27 m	Anişoara Cuşmir	Romania	1983	7.27
+Athletics	Women	Long jump	108.625731	7.43 m	Anişoara Cuşmir	Romania	1983	7.43
+Athletics	Women	Long jump	108.7719298	7.44 m	Heike Drechsler	East Germany	1985	7.44
+Athletics	Women	Long jump	108.9181287	7.45 m	Heike Drechsler	East Germany	1986	7.45
+Athletics	Women	Long jump	108.9181287	7.45 m	Heike Drechsler	East Germany	1986	7.45
+Athletics	Women	Long jump	108.9181287	7.45 m	Jackie Joyner-Kersee	USA	1987	7.45
+Athletics	Women	Long jump	108.9181287	7.45 m	Galina Chistyakova	Soviet Union	1988	7.45
+Athletics	Women	Long jump	109.9415205	7.52 m	Galina Chistyakova	Soviet Union	1988	7.52
+Athletics	Men	Triple jump	100	17.89 m	João Carlos de Oliveira	Brazil	1975	17.89
+Athletics	Men	Triple jump	100.4471772	17.97 m	Willie Banks	USA	1985	17.97
+Athletics	Men	Triple jump	100.5030743	17.98 m	Jonathan Edwards	United Kingdom	1995	17.98
+Athletics	Men	Triple jump	101.509223	18.16 m	Jonathan Edwards	United Kingdom	1995	18.16
+Athletics	Men	Triple jump	102.235886	18.29 m	Jonathan Edwards	United Kingdom	1995	18.29
+Athletics	Women	Triple jump	100	14.54 m	Li Huirong	China	1990	14.54
+Athletics	Women	Triple jump	102.8198074	14.95 m	Inessa Kravets	Soviet Union	1991	14.95
+Athletics	Women	Triple jump	102.957359	14.97 m	Iolanda Chen	Russia	1993	14.97
+Athletics	Women	Triple jump	103.7826685	15.09 m	Anna Biryukova	Russia	1993	15.09
+Athletics	Women	Triple jump	106.6024759	15.50 m	Inessa Kravets	Ukraine	1995	15.50
+Athletics	Men	Discus throw	100	69.08 m	John Powell	USA	1975	69.08
+Athletics	Men	Discus throw	100.1447597	69.18 m	Mac Wilkins	USA	1976	69.18
+Athletics	Men	Discus throw	100.8962128	69.80 m	Mac Wilkins	USA	1976	69.80
+Athletics	Men	Discus throw	100.6303725	70.24 m	Mac Wilkins	USA	1976	70.24
+Athletics	Men	Discus throw	100.8826879	70.86 m	Mac Wilkins	USA	1976	70.86
+Athletics	Men	Discus throw	100.42337	71.16 m	Wolfgang Schmidt	East Germany	1978	71.16
+Athletics	Men	Discus throw	100.9836987	71.86 m	Yuriy Dumchev	Soviet Union	1983	71.86
+Athletics	Men	Discus throw	103.0893404	74.08 m	Jürgen Schult	East Germany	1986	74.08
+Athletics	Women	Discus throw	100	70.20 m	Faina Melnik	Soviet Union	1975	70.20
+Athletics	Women	Discus throw	100.4273504	70.50 m	Faina Melnik	Soviet Union	1976	70.50
+Athletics	Women	Discus throw	100.7407407	70.72 m	Evelin Jahl	East Germany	1978	70.72
+Athletics	Women	Discus throw	101.8518519	71.50 m	Evelin Jahl	East Germany	1980	71.50
+Athletics	Women	Discus throw	102.2792023	71.80 m	Mariya Petkova	Bulgaria	1980	71.80
+Athletics	Women	Discus throw	104.3589744	73.26 m	Galina Savinkova	Soviet Union	1983	73.26
+Athletics	Women	Discus throw	104.5014245	73.36 m	Irina Meszynski	East Germany	1984	73.36
+Athletics	Women	Discus throw	106.2108262	74.56 m	Zdeňka Šilhavá	Czechoslovakia	1984	74.56
+Athletics	Women	Discus throw	109.4017094	76.80 m	Gabriele Reinsch	East Germany	1988	76.80
+Athletics	Men	Hammer throw	100	79.30 m	Walter Schmidt	West Germany	1975	79.3
+Athletics	Men	Hammer throw	101.0592686	80.14 m	Boris Zaichuk	Soviet Union	1978	80.14
+Athletics	Men	Hammer throw	101.2862547	80.32 m	Karl-Hans Riehm	West Germany	1978	80.32
+Athletics	Men	Hammer throw	101.3619168	80.38 m	Yuriy Sedykh	Soviet Union	1980	80.38
+Athletics	Men	Hammer throw	101.4627995	80.46 m	Jüri Tamm	Soviet Union	1980	80.46
+Athletics	Men	Hammer throw	101.6897856	80.64 m	Yuriy Sedykh	Soviet Union	1980	80.64
+Athletics	Men	Hammer throw	102.9760404	81.66 m	Sergey Litvinov	Soviet Union	1980	81.66
+Athletics	Men	Hammer throw	103.1525851	81.80 m	Yuriy Sedykh	Soviet Union	1980	81.8
+Athletics	Men	Hammer throw	105.9016393	83.98 m	Sergey Litvinov	Soviet Union	1982	83.98
+Athletics	Men	Hammer throw	106.1034048	84.14 m	Sergey Litvinov	Soviet Union	1983	84.14
+Athletics	Men	Hammer throw	108.8776797	86.34 m	Yuriy Sedykh	Soviet Union	1984	86.34
+Athletics	Men	Hammer throw	109.2812106	86.66 m	Yuriy Sedykh	Soviet Union	1986	86.66
+Athletics	Men	Hammer throw	109.3820933	86.74 m	Yuriy Sedykh	Soviet Union	1986	86.74
+Athletics	Women	Hammer throw	100	66.84 m	Olga Kuzenkova	Russia	1994	66.84
+Athletics	Women	Hammer throw	100.0299222	66.86 m	Mihaela Melinte	Romania	1995	66.86
+Athletics	Women	Hammer throw	100.2393776	67.00 m	Olga Kuzenkova	Russia	1995	67
+Athletics	Women	Hammer throw	101.9449431	68.14 m	Olga Kuzenkova	Russia	1995	68.14
+Athletics	Women	Hammer throw	101.9748654	68.16 m	Olga Kuzenkova	Russia	1995	68.16
+Athletics	Women	Hammer throw	103.8599641	69.42 m	Mihaela Melinte	Romania	1996	69.42
+Athletics	Women	Hammer throw	104.0993417	69.58 m	Mihaela Melinte	Romania	1997	69.58
+Athletics	Women	Hammer throw	106.5529623	71.22 m	Olga Kuzenkova	Russia	1997	71.22
+Athletics	Women	Hammer throw	109.3656493	73.10 m	Olga Kuzenkova	Russia	1997	73.1
+Athletics	Women	Hammer throw	109.4254937	73.14 m	Mihaela Melinte	Romania	1998	73.14
+Athletics	Women	Hammer throw	112.6421305	75.29 m	Mihaela Melinte	Romania	1999	75.29
+Athletics	Women	Hammer throw	113.6594853	75.97 m	Mihaela Melinte	Romania	1999	75.97
+Athletics	Women	Hammer throw	113.7791741	76.05 m	Mihaela Melinte	Romania	1999	76.05
+Athletics	Women	Hammer throw	113.8090963	76.07 m	Mihaela Melinte	Romania	1999	76.07
+Athletics	Women	Hammer throw	115.2902454	77.06 m	Tatyana Lysenko	Russia	2005	77.06
+Athletics	Women	Hammer throw	115.5894674	77.26 m	Gulfiya Khanafeyeva	Russia	2006	77.26
+Athletics	Women	Hammer throw	115.8138839	77.41 m	Tatyana Lysenko	Russia	2006	77.41
+Athletics	Women	Hammer throw	116.3973668	77.8 m	Tatyana Lysenko	Russia	2006	77.8
+Athletics	Women	Hammer throw	116.6367445	77.96 m	Anita Włodarczyk	Poland	2009	77.96
+Athletics	Women	Hammer throw	117.1454219	78.3 m	Anita Włodarczyk	Poland	2010	78.3
+Athletics	Women	Hammer throw	118.8210652	79.42 m	Betty Heidler	Germany	2011	79.42
+Athletics	Women	Hammer throw	119.0604428	79.58 m	Anita Włodarczyk	Poland	2014	79.58
+Athletics	Women	Hammer throw	119.4344704	79.83 m	Anita Włodarczyk	Poland	2015	79.83
+Athletics	Women	Hammer throw	121.304608	81.08 m	Anita Włodarczyk	Poland	2015	81.08
+Athletics	Men	Shot put	100	21.82 m	Al Feuerbach	USA	1973	21.82
+Athletics	Men	Shot put	100.1374885	21.85 m	Terry Albritton	USA	1976	21.85
+Athletics	Men	Shot put	100.8249313	22.00 m	Aleksandr Baryshnikov	Soviet Union	1976	22
+Athletics	Men	Shot put	101.512374	22.15 m	Udo Beyer	East Germany	1978	22.15
+Athletics	Men	Shot put	101.8331806	22.22 m	Udo Beyer	East Germany	1983	22.22
+Athletics	Men	Shot put	103.6663611	22.62 m	Ulf Timmermann	East Germany	1985	22.62
+Athletics	Men	Shot put	103.7580202	22.64 m	Udo Beyer	East Germany	1986	22.64
+Athletics	Men	Shot put	104.1246563	22.72 m	Alessandro Andrei	Italy	1987	22.72
+Athletics	Men	Shot put	104.6746104	22.84 m	Alessandro Andrei	Italy	1987	22.84
+Athletics	Men	Shot put	104.995417	22.91 m	Alessandro Andrei	Italy	1987	22.91
+Athletics	Men	Shot put	105.6828598	23.06 m	Ulf Timmermann	East Germany	1988	23.06
+Athletics	Men	Shot put	105.9578368	23.12 m	Randy Barnes	USA	1990	23.12
+Athletics	Women	Shot put	100	21.60 m	Marianne Adam	East Germany	1975	21.6
+Athletics	Women	Shot put	100.3240741	21.67 m	Marianne Adam	East Germany	1976	21.67
+Athletics	Women	Shot put	101.25	21.87 m	Ivanka Khristova	Bulgaria	1976	21.87
+Athletics	Women	Shot put	101.3425926	21.89 m	Ivanka Khristova	Bulgaria	1976	21.89
+Athletics	Women	Shot put	101.8055556	21.99 m	Helena Fibingerová	Czechoslovakia	1976	21.99
+Athletics	Women	Shot put	103.3333333	22.32 m	Helena Fibingerová	Czechoslovakia	1977	22.32
+Athletics	Women	Shot put	103.5185185	22.36 m	Ilona Slupianek	East Germany	1980	22.36
+Athletics	Women	Shot put	103.9351852	22.45 m	Ilona Slupianek	East Germany	1980	22.45
+Athletics	Women	Shot put	104.3055556	22.53 m	Natalya Lisovskaya	Soviet Union	1984	22.53
+Athletics	Women	Shot put	104.6296296	22.60 m	Natalya Lisovskaya	Soviet Union	1987	22.6
+Athletics	Women	Shot put	104.7685185	22.63 m	Natalya Lisovskaya	Soviet Union	1987	22.63
+Athletics	Men	Marathon	100	   2:09:01	Ian Thompson	United Kingdom	1974	7741
+Athletics	Men	Marathon	99.98708177	   2:09:00	Shigeru So	Japan	1978	7740
+Athletics	Men	Marathon	99.98708177	   2:09:00 	Gerard Nijboer	Netherlands	1980	7740
+Athletics	Men	Marathon	99.22490634	   2:08:01	Robert De Castella	Australia	1981	7681
+Athletics	Men	Marathon	99.21198812	   2:08:00	Steve Jones	United Kingdom	1984	7680
+Athletics	Men	Marathon	98.44981269	   2:07:01	Carlos Lopes	Portugal	1985	7621
+Athletics	Men	Marathon	97.72639194	   2:06:05	Belayneh Dinsamo	Ethiopia	1988	7565
+Athletics	Men	Marathon	97.6618008	   2:06:00	Ronaldo da Costa	Brazil	1998	7560
+Athletics	Men	Marathon	96.93838005	   2:05:04	Khalid Khannouchi	Morocco	1999	7504
+Athletics	Men	Marathon	96.92546183	   2:05:03	Khalid Khannouchi	USA	2002	7503
+Athletics	Men	Marathon	96.17620462	   2:04:05	Paul Tergat	Kenya	2003	7445
+Athletics	Men	Marathon	96.13744994	   2:04:02	Haile Gebrselassie	Ethiopia	2007	7442
+Athletics	Men	Marathon	95.40111097	   2:03:05	Haile Gebrselassie	Ethiopia	2008	7385
+Athletics	Men	Marathon	95.37527451	   2:03:03	Patrick Makau	Kenya	2011	7383
+Athletics	Men	Marathon	95.36235628	   2:03:02	Wilson Kipsang	Kenya	2013	7382
+Athletics	Men	Marathon	94.62601731	   2:02:05	Dennis Kimetto	Kenya	2014	7325
+Athletics	Women	Marathon	100	2:38:19	Jacqueline Hansen	USA	1975	9499
+Athletics	Women	Marathon	98.062954	2:35:15	Chantal Langlacé	France	1977	9315
+Athletics	Women	Marathon	97.76818612	2:34:47	Christa Vahlensieck	West Germany	1977	9287
+Athletics	Women	Marathon	96.31540162	2:32:29	Grete Waitz	Norway	1978	9149
+Athletics	Women	Marathon	93.18875671	2:27:32	Grete Waitz	Norway	1979	8852
+Athletics	Women	Marathon	95.62059164	2:31:23	Joan Benoit	USA	1980	9083
+Athletics	Women	Marathon	95.34687862	2:30:57	Patti Catalano	USA	1980	9057
+Athletics	Women	Marathon	92.02021265	2:25:41	Grete Waitz	Norway	1980	8741
+Athletics	Women	Marathon	95.0310559	2:30:27	Joyce Smith	United Kingdom	1980	9027
+Athletics	Women	Marathon	94.71523318	2:29:57	Joyce Smith	United Kingdom	1981	8997
+Athletics	Women	Marathon	94.12569744	2:29:01	Charlotte Teske	West Germany	1982	8941
+Athletics	Women	Marathon	92.3465628	2:26:12	Joan Benoit	USA	1982	8772
+Athletics	Women	Marathon	91.88335614	2:25:28	Grete Waitz	Norway	1983	8728
+Athletics	Women	Marathon	90.14633119	2:22:43	Joan Benoit	USA	1983	8563
+Athletics	Women	Marathon	91.23065586	2:24:26	Ingrid Kristiansen	Norway	1984	8666
+Athletics	Women	Marathon	89.12517107	2:21:06	Ingrid Kristiansen	Norway	1985	8466
+Athletics	Women	Marathon	88.92515002	2:20:47	Tegla Loroupe	Kenya	1998	8447
+Athletics	Women	Marathon	88.88304032	2:20:43	Tegla Loroupe	Kenya	1999	8443
+Athletics	Women	Marathon	88.28297716	2:19:46	Naoko Takahashi	Japan	2001	8386
+Athletics	Women	Marathon	87.66185914	2:18:47	Catherine Ndereba	Kenya	2001	8327
+Athletics	Women	Marathon	86.72491841	2:17:18	Paula Radcliffe	United Kingdom	2002	8238
+Athletics	Women	Marathon	85.53531951	2:15:25	Paula Radcliffe	United Kingdom	2003	8125
+Athletics	Men	20 km walk	100	1:24:50	Paul Nihill	United Kingdom	1972	5090
+Athletics	Men	20 km walk	98.62475442	1:23:40	Daniel Bautista	Mexico	1976	5020
+Athletics	Men	20 km walk	98.42829077	1:23:30	Anatoliy Solomin	Soviet Union	1978	5010
+Athletics	Men	20 km walk	98.07465619	1:23:12	Roland Wieser	East Germany	1978	4992
+Athletics	Men	20 km walk	97.03339882	1:22:19	Vadim Tsvetkov	Soviet Union	1979	4939
+Athletics	Men	20 km walk	96.97445972	1:22:16	Daniel Bautista	Mexico	1979	4936
+Athletics	Men	20 km walk	95.55992141	1:21:04	Daniel Bautista	Mexico	1979	4864
+Athletics	Men	20 km walk	95.50098232	1:21:01	Reima Salonen	Finland	1979	4861
+Athletics	Men	20 km walk	95.48133595	1:21:00	Daniel Bautista	Mexico	1980	4860
+Athletics	Men	20 km walk	93.81139489	1:19:35	Domingo Colin	Mexico	1980	4775
+Athletics	Men	20 km walk	93.71316306	1:19:30	Jozef Pribilinec	Czechoslovakia	1983	4770
+Athletics	Men	20 km walk	93.59528487	1:19:24	Carlos Mercenario	Mexico	1987	4764
+Athletics	Men	20 km walk	93.35952849	1:19:12	Axel Noack	East Germany	1987	4752
+Athletics	Men	20 km walk	93.28094303	1:19:08	Mikhail Shchennikov	Soviet Union	1988	4748
+Athletics	Men	20 km walk	92.33791749	1:18:20	Andrey Perlov	Soviet Union	1990	4700
+Athletics	Men	20 km walk	92.20039293	1:18:13	Pavol Blažek	Czechoslovakia	1990	4693
+Athletics	Men	20 km walk	92.02357564	1:18:04	Bu Lingtang	China	1994	4684
+Athletics	Men	20 km walk	91.25736739	1:17:25	Bernardo Segura	Mexico	1994	4645
+Athletics	Men	20 km walk	91.19842829	1:17:22	Paquillo Fernández	Spain	2002	4642
+Athletics	Men	20 km walk	91.17878193	1:17:21	Jefferson Pérez	Ecuador	2003	4641
+Athletics	Men	20 km walk	91.0805501	1:17:16	Vladimir Kanaykin	Russia	2007	4636
+Athletics	Men	20 km walk	90.80550098	1:17:02	Yohann Diniz	France	2015	4622
+Athletics	Men	20 km walk	90.29469548	1:16:36	Yusuke Suzuki	Japan	2015	4596
+Athletics	Women	20 km walk	100	1:47:10	Margareta Simu	Sweden	1973	6430
+Athletics	Women	20 km walk	96.7029549	1:43:38	Lilian Harpur	Australia	1977	6218
+Athletics	Women	20 km walk	96.42301711	1:43:20	Thorill Gylder	Norway	1978	6200
+Athletics	Women	20 km walk	94.89891135	1:41:42	Susan Cook	Australia	1980	6102
+Athletics	Women	20 km walk	92.86158631	1:39:31	Susan Cook	Australia	1981	5971
+Athletics	Women	20 km walk	90.1399689	1:36:36	Susan Cook	Australia	1982	5796
+Athletics	Women	20 km walk	89.9377916	1:36:23	Susan Cook	Australia	1984	5783
+Athletics	Women	20 km walk	89.8755832	1:36:19	Sally Pierson	Australia	1984	5779
+Athletics	Women	20 km walk	83.67029549	1:29:40	Kerry Junna-Saxby	Australia	1988	5380
+Athletics	Women	20 km walk	81.64852255	1:27:30	Liu Hongyu	China	1995	5250
+Athletics	Women	20 km walk	81.64852255	1:27:30	Nadezhda Ryashkina	Russia	1999	5250
+Athletics	Women	20 km walk	80.59097978	1:26:22	Wang Yan	China	2001	5182
+Athletics	Women	20 km walk	79.9533437	1:25:41	Olimpiada Ivanova	Russia	2005	5141
+Athletics	Women	20 km walk	79.44012442	1:25:08	Vera Sokolova	Russia	2011	5108
+Athletics	Women	20 km walk	79.34681182	1:25:02	Elena Lashmanova	Russia	2012	5102
+Athletics	Women	20 km walk	79.11353033	1:24:47	Elmira Alembekova	Russia	2015	5087
+Athletics	Men	50 km walk	100	3:52:45	Bernd Kannenberg	West Germany	1972	13965
+Athletics	Men	50 km walk	115.5555556	3:45:52	Raúl González	Mexico	1978	13552
+Athletics	Men	50 km walk	44.44444444	3:41:20	Raúl González	Mexico	1978	13280
+Athletics	Men	50 km walk	102.2222222	3:40:46	Josep Marín	Spain	1983	13246
+Athletics	Men	50 km walk	68.88888889	3:38:31	Ronald Weigel	East Germany	1984	13111
+Athletics	Men	50 km walk	37.77777778	3:38:17	Ronald Weigel	East Germany	1986	13097
+Athletics	Men	50 km walk	91.11111111	3:37:41	Andrey Perlov	Soviet Union	1989	13061
+Athletics	Men	50 km walk	57.77777778	3:37:26	Valeriy Spitsyn	Russia	2000	13046
+Athletics	Men	50 km walk	86.66666667	3:36:39	Robert Korzeniowski	Poland	2002	12999
+Athletics	Men	50 km walk	6.666666667	3:36:03	Robert Korzeniowski	Poland	2003	12963
+Athletics	Men	50 km walk	104.4444444	3:35:47	Nathan Deakes	Australia	2006	12947
+Athletics	Men	50 km walk	31.11111111	3:34:14	Denis Nizhegorodov	Russia	2008	12854
+Athletics	Men	50 km walk	73.33333333	3:32:33	Yohann Diniz	France	2014	12753
+Swimming	Men	Freestyle 100 metres	100	50.59	Jim Montgomery	 USA	1975	50.59
+Swimming	Men	Freestyle 100 metres	99.60466495	50.39	Jim Montgomery	 USA	1976	50.39
+Swimming	Men	Freestyle 100 metres	98.81399486	49.99	Jim Montgomery	 USA	1976	49.99
+Swimming	Men	Freestyle 100 metres	97.72682348	49.44	Jonty Skinner	 South Africa	1976	49.44
+Swimming	Men	Freestyle 100 metres	97.56868946	49.36	Rowdy Gaines	 USA	1981	49.36
+Swimming	Men	Freestyle 100 metres	97.33148844	49.24	Matt Biondi	 USA	1985	49.24
+Swimming	Men	Freestyle 100 metres	96.75825262	48.95	Matt Biondi	 USA	1985	48.95
+Swimming	Men	Freestyle 100 metres	96.34315082	48.74	Matt Biondi	 USA	1986	48.74
+Swimming	Men	Freestyle 100 metres	95.71061475	48.42	Matt Biondi	 USA	1988	48.42
+Swimming	Men	Freestyle 100 metres	95.29551295	48.21	Alexander Popov	 Russia	1994	48.21
+Swimming	Men	Freestyle 100 metres	95.23621269	48.18	Michael Klim	 Australia	2000	48.18
+Swimming	Men	Freestyle 100 metres	94.56414311	47.84	Pieter van den Hoogenband	 Netherlands	2000	47.84
+Swimming	Men	Freestyle 100 metres	94.08974106	47.60	Alain Bernard	 France	2008	47.60
+Swimming	Men	Freestyle 100 metres	93.89207353	47.50	Alain Bernard	 France	2008	47.50
+Swimming	Men	Freestyle 100 metres	93.37813797	47.24	Eamon Sullivan	 Australia	2008	47.24
+Swimming	Men	Freestyle 100 metres	93.29907096	47.20	Alain Bernard	 France	2008	47.20
+Swimming	Men	Freestyle 100 metres	93.00256968	47.05	Eamon Sullivan	 Australia	2008	47.05
+Swimming	Men	Freestyle 100 metres	92.7851354	46.94	Alain Bernard	 France	2009	46.94
+Swimming	Men	Freestyle 100 metres	92.72583515	46.91	César Cielo	 Brazil	2009	46.91
+Swimming	Women	Freestyle 100 metres	100	56.22	Kornelia Ender	 East Germany	1975	56.22
+Swimming	Women	Freestyle 100 metres	99.12842405	55.73	Kornelia Ender	 East Germany	1976	55.73
+Swimming	Women	Freestyle 100 metres	98.98612593	55.65	Kornelia Ender	 East Germany	1976	55.65
+Swimming	Women	Freestyle 100 metres	98.55923159	55.41	Barbara Krause	 East Germany	1978	55.41
+Swimming	Women	Freestyle 100 metres	97.79437922	54.98	Barbara Krause	 East Germany	1980	54.98
+Swimming	Women	Freestyle 100 metres	97.4564212	54.79	Barbara Krause	 East Germany	1980	54.79
+Swimming	Women	Freestyle 100 metres	97.34969762	54.73	Kristin Otto	 East Germany	1986	54.73
+Swimming	Women	Freestyle 100 metres	96.90501601	54.48	Jenny Thompson	 USA	1992	54.48
+Swimming	Women	Freestyle 100 metres	96.06901459	54.01	Jingyi Le	 China	1994	54.01
+Swimming	Women	Freestyle 100 metres	95.69548203	53.80	Inge de Bruijn	 Netherlands	2000	53.80
+Swimming	Women	Freestyle 100 metres	95.64212024	53.77	Inge de Bruijn	 Netherlands	2000	53.77
+Swimming	Women	Freestyle 100 metres	95.44646033	53.66	Libby Lenton	 Australia	2004	53.66
+Swimming	Women	Freestyle 100 metres	95.19743863	53.52	Jodie Henry	 Australia	2004	53.52
+Swimming	Women	Freestyle 100 metres	95.01956599	53.42	Libby Lenton	 Australia	2006	53.42
+Swimming	Women	Freestyle 100 metres	94.80611882	53.30	Britta Steffen	 Germany	2006	53.30
+Swimming	Women	Freestyle 100 metres	94.05905372	52.88	Libby Trickett	 Australia	2008	52.88
+Swimming	Women	Freestyle 100 metres	94.00569192	52.85	Britta Steffen	 Germany	2009	52.85
+Swimming	Women	Freestyle 100 metres	93.48986126	52.56	Britta Steffen	 Germany	2009	52.56
+Swimming	Women	Freestyle 100 metres	92.88509427	52.22	Britta Steffen	 Germany	2009	52.22
+Swimming	Women	Freestyle 100 metres	92.61828531	52.07	Britta Steffen	 Germany	2009	52.07
+Swimming	Women	Freestyle 100 metres	92.60049804	52.06	Cate Campbell	 Australia	2016	52.06
+Swimming	Men	Freestyle 50 metres	100	23.86	Jonty Skinner	South Africa	1976	23.86
+Swimming	Men	Freestyle 50 metres	99.49706622	23.74	Joe Bottom	USA	1977	23.74
+Swimming	Men	Freestyle 50 metres	99.41324392	23.72	Ron Manganiello	USA	1978	23.72
+Swimming	Men	Freestyle 50 metres	99.32942163	23.70	Klaus Steinbach	West Germany	1979	23.7
+Swimming	Men	Freestyle 50 metres	99.16177703	23.66	Chris Cavanaugh	USA	1980	23.66
+Swimming	Men	Freestyle 50 metres	96.89857502	23.12	Chris Cavanaugh	USA	1980	23.12
+Swimming	Men	Freestyle 50 metres	96.22799665	22.96	Rowdy Gaines	USA	1980	22.96
+Swimming	Men	Freestyle 50 metres	95.68315172	22.83	Bruce Stahl	USA	1980	22.83
+Swimming	Men	Freestyle 50 metres	95.68315172	22.83	Joe Bottom	USA	1980	22.83
+Swimming	Men	Freestyle 50 metres	95.18021794	22.71	Joe Bottom	USA	1980	22.71
+Swimming	Men	Freestyle 50 metres	94.46772842	22.54	Robin Leamy	USA	1981	22.54
+Swimming	Men	Freestyle 50 metres	94.38390612	22.52	Dano Halsall	 Switzerland	1985	22.52
+Swimming	Men	Freestyle 50 metres	93.88097234	22.40	Tom Jager	USA	1985	22.4
+Swimming	Men	Freestyle 50 metres	93.5875943	22.33	Matt Biondi	USA	1986	22.33
+Swimming	Men	Freestyle 50 metres	93.5875943	22.33	Matt Biondi	USA	1987	22.33
+Swimming	Men	Freestyle 50 metres	93.54568315	22.32	Tom Jager	USA	1987	22.32
+Swimming	Men	Freestyle 50 metres	93.16848282	22.23	Tom Jager	USA	1988	22.23
+Swimming	Men	Freestyle 50 metres	92.95892707	22.18	Peter Williams	South Africa	1988	22.18
+Swimming	Men	Freestyle 50 metres	92.79128248	22.14	Matt Biondi	USA	1988	22.14
+Swimming	Men	Freestyle 50 metres	92.70746018	22.12	Tom Jager	USA	1989	22.12
+Swimming	Men	Freestyle 50 metres	92.12070411	21.98	Tom Jager	USA	1990	21.98
+Swimming	Men	Freestyle 50 metres	91.40821459	21.81	Tom Jager	USA	1990	21.81
+Swimming	Men	Freestyle 50 metres	90.69572506	21.64	Alexander Popov	Russia	2000	21.64
+Swimming	Men	Freestyle 50 metres	90.36043588	21.56	Eamon Sullivan	Australia	2008	21.56
+Swimming	Men	Freestyle 50 metres	90.10896899	21.50	Alain Bernard	France	2008	21.5
+Swimming	Men	Freestyle 50 metres	89.73176865	21.41	Eamon Sullivan	Australia	2008	21.41
+Swimming	Men	Freestyle 50 metres	89.18692372	21.28	Eamon Sullivan	Australia	2008	21.28
+Swimming	Men	Freestyle 50 metres	87.76194468	20.94	Frédérick Bousquet	France	2009	20.94
+Swimming	Men	Freestyle 50 metres	87.63621123	20.91	César Cielo	Brazil	2009	20.91
+Swimming	Women	Freestyle 50 metres	100	26.99	Kornelia Ender	East Germany	1975	26.99
+Swimming	Women	Freestyle 50 metres	99.85179696	26.95	Johanna Malloy	Canada	1977	26.95
+Swimming	Women	Freestyle 50 metres	99.07373101	26.74	Anne Jardin	Canada	1978	26.74
+Swimming	Women	Freestyle 50 metres	98.59207114	26.61	Cynthia Woodhead	USA	1980	26.61
+Swimming	Women	Freestyle 50 metres	98.29566506	26.53	Kelly Asplund	USA	1980	26.53
+Swimming	Women	Freestyle 50 metres	97.51759911	26.32	Jill Sterkel	USA	1980	26.32
+Swimming	Women	Freestyle 50 metres	96.18377177	25.96	Jill Sterkel	USA	1980	25.96
+Swimming	Women	Freestyle 50 metres	95.55390886	25.79	Jill Sterkel	USA	1981	25.79
+Swimming	Women	Freestyle 50 metres	95.18340126	25.69	Dara Torres	USA	1983	25.69
+Swimming	Women	Freestyle 50 metres	94.99814746	25.64	Annemarie Verstappen	Netherlands	1983	25.64
+Swimming	Women	Freestyle 50 metres	94.92404594	25.62	Dara Torres	USA	1983	25.62
+Swimming	Women	Freestyle 50 metres	94.88699518	25.61	Dara Torres	USA	1984	25.61
+Swimming	Women	Freestyle 50 metres	94.47943683	25.50	Tamara Costache	Romania	1986	25.50
+Swimming	Women	Freestyle 50 metres	93.88662468	25.34	Tamara Costache	Romania	1986	25.34
+Swimming	Women	Freestyle 50 metres	93.7754724	25.31	Tamara Costache	Romania	1986	25.31
+Swimming	Women	Freestyle 50 metres	93.66432012	25.28	Tamara Costache	Romania	1986	25.28
+Swimming	Women	Freestyle 50 metres	92.55279733	24.98	Yang Wenyi	China	1988	24.98
+Swimming	Women	Freestyle 50 metres	91.8488329	24.79	Yang Wenyi	China	1992	24.79
+Swimming	Women	Freestyle 50 metres	90.81141163	24.51	Le Jingyi	China	1994	24.51
+Swimming	Women	Freestyle 50 metres	90.81141163	24.51	Inge de Bruijn	Netherlands	2000	24.51
+Swimming	Women	Freestyle 50 metres	90.70025936	24.48	Inge de Bruijn	Netherlands	2000	24.48
+Swimming	Women	Freestyle 50 metres	90.36680252	24.39	Inge de Bruijn	Netherlands	2000	24.39
+Swimming	Women	Freestyle 50 metres	89.40348277	24.13	Inge de Bruijn	Netherlands	2000	24.13
+Swimming	Women	Freestyle 50 metres	89.25527973	24.09	Marleen Veldhuis	Netherlands	2008	24.09
+Swimming	Women	Freestyle 50 metres	88.81067062	23.97	Libby Trickett	Australia	2008	23.97
+Swimming	Women	Freestyle 50 metres	88.77361986	23.96	Marleen Veldhuis	Netherlands	2009	23.96
+Swimming	Women	Freestyle 50 metres	87.92145239	23.73	Britta Steffen	Germany	2009	23.73
+Swimming	Men	Freestyle 200 metres	100	1:50.32	Bruce Furniss	USA	1975	110.32
+Swimming	Men	Freestyle 200 metres	99.97280638	1:50.29	Bruce Furniss	USA	1976	110.29
+Swimming	Men	Freestyle 200 metres	99.55583756	1:49.83	Sergey Kopliakov	Soviet Union	1979	109.83
+Swimming	Men	Freestyle 200 metres	98.94851342	1:49.16	Rowdy Gaines	USA	1980	109.16
+Swimming	Men	Freestyle 200 metres	98.74002901	1:48.93	Rowdy Gaines	USA	1982	108.93
+Swimming	Men	Freestyle 200 metres	98.15083394	1:48.28	Michael Gross	West Germany	1983	108.28
+Swimming	Men	Freestyle 200 metres	97.77918782	1:47.87	Michael Gross	West Germany	1983	107.87
+Swimming	Men	Freestyle 200 metres	97.48912255	1:47.55	Michael Gross	West Germany	1984	107.55
+Swimming	Men	Freestyle 200 metres	97.38941262	1:47.44	Michael Gross	West Germany	1984	107.44
+Swimming	Men	Freestyle 200 metres	97.21718637	1:47.25	Duncan Armstrong	Australia	1988	107.25
+Swimming	Men	Freestyle 200 metres	96.70957215	1:46.69	Giorgio Lamberti	Italy	1989	106.69
+Swimming	Men	Freestyle 200 metres	96.69144307	1:46.67	Grant Hackett	Australia	1999	106.67
+Swimming	Men	Freestyle 200 metres	96.39231327	1:46.34	Ian Thorpe	Australia	1999	106.34
+Swimming	Men	Freestyle 200 metres	96.08411893	1:46.00	Ian Thorpe	Australia	1999	106
+Swimming	Men	Freestyle 200 metres	95.8031182	1:45.69	Ian Thorpe	Australia	2000	105.69
+Swimming	Men	Freestyle 200 metres	95.63995649	1:45.51	Ian Thorpe	Australia	2000	105.51
+Swimming	Men	Freestyle 200 metres	95.49492386	1:45.35	Pieter van den Hoogenband	Netherlands	2000	105.35
+Swimming	Men	Freestyle 200 metres	95.49492386	1:45.35	Pieter van den Hoogenband	Netherlands	2000	105.35
+Swimming	Men	Freestyle 200 metres	94.89666425	1:44.69	Ian Thorpe	Australia	2001	104.69
+Swimming	Men	Freestyle 200 metres	94.32559826	1:44.06	Ian Thorpe	Australia	2001	104.06
+Swimming	Men	Freestyle 200 metres	94.14430747	1:43.86	Michael Phelps	USA	2007	103.86
+Swimming	Men	Freestyle 200 metres	93.32849891	1:42.96	Michael Phelps	USA	2008	102.96
+Swimming	Men	Freestyle 200 metres	92.45830312	1:42.00	Paul Biedermann	Germany	2009	102
+Swimming	Women	Freestyle 200 metres	100	2:02.27	Kornelia Ender	East Germany	1975	122.27
+Swimming	Women	Freestyle 200 metres	97.96352335	1:59.78	Kornelia Ender	East Germany	1976	119.78
+Swimming	Women	Freestyle 200 metres	97.53823505	1:59.26	Kornelia Ender	East Germany	1976	119.26
+Swimming	Women	Freestyle 200 metres	97.35830539	1:59.04	Barbara Krause	East Germany	1978	119.04
+Swimming	Women	Freestyle 200 metres	96.94119571	1:58.53	Cynthia Woodhead	USA	1978	118.53
+Swimming	Women	Freestyle 200 metres	96.8594095	1:58.43	Cynthia Woodhead	USA	1979	118.43
+Swimming	Women	Freestyle 200 metres	96.69583708	1:58.23	Cynthia Woodhead	USA	1979	118.23
+Swimming	Women	Freestyle 200 metres	96.30326327	1:57.75	Kristin Otto	East Germany	1984	117.75
+Swimming	Women	Freestyle 200 metres	96.13969085	1:57.55	Heike Friedrich	East Germany	1986	117.55
+Swimming	Women	Freestyle 200 metres	95.50993702	1:56.78	Franziska van Almsick	Germany	1994	116.78
+Swimming	Women	Freestyle 200 metres	95.39543633	1:56.64	Franziska van Almsick	Germany	2002	116.64
+Swimming	Women	Freestyle 200 metres	95.25639977	1:56.47	Federica Pellegrini	Italy	2007	116.47
+Swimming	Women	Freestyle 200 metres	94.47943077	1:55.52	Laure Manaudou	France	2007	115.52
+Swimming	Women	Freestyle 200 metres	94.42218042	1:55.45	Federica Pellegrini	Italy	2008	115.45
+Swimming	Women	Freestyle 200 metres	93.90692729	1:54.82	Federica Pellegrini	Italy	2008	114.82
+Swimming	Women	Freestyle 200 metres	93.62067555	1:54.47	Federica Pellegrini	Italy	2009	114.47
+Swimming	Women	Freestyle 200 metres	92.96638587	1:53.67	Federica Pellegrini	Italy	2009	113.67
+Swimming	Women	Freestyle 200 metres	92.40206101	1:52.98	Federica Pellegrini	Italy	2009	112.98
+Swimming	Men	Freestyle 400 metres	100	3:53.31	Tim Shaw	USA	1975	233.31
+Swimming	Men	Freestyle 400 metres	99.90141871	3:53.08	Brian Goodell	USA	1976	233.08
+Swimming	Men	Freestyle 400 metres	99.40851228	3:51.93	Brian Goodell	USA	1976	231.93
+Swimming	Men	Freestyle 400 metres	99.24992499	3:51.56	Brian Goodell	USA	1978	231.56
+Swimming	Men	Freestyle 400 metres	99.18563285	3:51.41	Vladimir Salnikov	Soviet Union	1979	231.41
+Swimming	Men	Freestyle 400 metres	99.18134671	3:51.40	Vladimir Salnikov	Soviet Union	1979	231.4
+Swimming	Men	Freestyle 400 metres	99.09562385	3:51.20	Vladimir Salnikov	Soviet Union	1980	231.2
+Swimming	Men	Freestyle 400 metres	98.7913077	3:50.49	Peter Szmidt	Canada	1980	230.49
+Swimming	Men	Freestyle 400 metres	98.39698256	3:49.57	Vladimir Salnikov	Soviet Union	1982	229.57
+Swimming	Men	Freestyle 400 metres	98.39698256	3:49.57	Vladimir Salnikov	Soviet Union	1982	229.57
+Swimming	Men	Freestyle 400 metres	97.86121469	3:48.32	Vladimir Salnikov	Soviet Union	1983	228.32
+Swimming	Men	Freestyle 400 metres	97.63833526	3:47.80	Michael Gross	West Germany	1985	227.8
+Swimming	Men	Freestyle 400 metres	97.45831726	3:47.38	Artur Wojdat	Poland	1988	227.38
+Swimming	Men	Freestyle 400 metres	97.27401312	3:46.95	Uwe Dassler	East Germany	1988	226.95
+Swimming	Men	Freestyle 400 metres	97.06827826	3:46.47	Kieren Perkins	Australia	1992	226.47
+Swimming	Men	Freestyle 400 metres	96.43821525	3:45.00	Yevgeny Sadovyi	Russia	1992	225
+Swimming	Men	Freestyle 400 metres	95.9238781	3:43.80	Kieren Perkins	Australia	1994	223.8
+Swimming	Men	Freestyle 400 metres	95.07950795	3:41.83	Ian Thorpe	Australia	1999	221.83
+Swimming	Men	Freestyle 400 metres	94.86520081	3:41.33	Ian Thorpe	Australia	2000	221.33
+Swimming	Men	Freestyle 400 metres	94.54802623	3:40.59	Ian Thorpe	Australia	2000	220.59
+Swimming	Men	Freestyle 400 metres	94.36800823	3:40.17	Ian Thorpe	Australia	2001	220.17
+Swimming	Men	Freestyle 400 metres	94.32943294	3:40.08	Ian Thorpe	Australia	2002	220.08
+Swimming	Men	Freestyle 400 metres	94.3251468	3:40.07	Paul Biedermann	Germany	2009	220.07
+Swimming	Women	Freestyle 400 metres	100	4:14.76	Shirley Babashoff	USA	1975	254.76
+Swimming	Women	Freestyle 400 metres	98.79494426	4:11.69	Barbara Krause	East Germany	1976	251.69
+Swimming	Women	Freestyle 400 metres	98.08839692	4:09.89	Petra Thümer	East Germany	1976	249.89
+Swimming	Women	Freestyle 400 metres	97.70372115	4:08.91	Petra Thümer	East Germany	1977	248.91
+Swimming	Women	Freestyle 400 metres	97.21306328	4:07.66	Kim Linehan	USA	1978	247.66
+Swimming	Women	Freestyle 400 metres	96.67137698	4:06.28	Tracey Wickham	Australia	1978	246.28
+Swimming	Women	Freestyle 400 metres	96.34558015	4:05.45	Janet Evans	USA	1987	245.45
+Swimming	Women	Freestyle 400 metres	95.71753808	4:03.85	Janet Evans	USA	1988	243.85
+Swimming	Women	Freestyle 400 metres	95.39566651	4:03.03	Laure Manaudou	France	2006	243.03
+Swimming	Women	Freestyle 400 metres	95.04239284	4:02.13	Laure Manaudou	France	2006	242.13
+Swimming	Women	Freestyle 400 metres	94.80687706	4:01.53	Federica Pellegrini	Italy	2008	241.53
+Swimming	Women	Freestyle 400 metres	94.46537918	4:00.66	Joanne Jackson	United Kingdom	2009	240.66
+Swimming	Women	Freestyle 400 metres	94.36724761	4:00.41	Federica Pellegrini	Italy	2009	240.41
+Swimming	Women	Freestyle 400 metres	93.87266447	3:59.15	Federica Pellegrini	Italy	2009	239.15
+Swimming	Women	Freestyle 400 metres	93.75883184	3:58.86	Katie Ledecky	USA	2014	238.86
+Swimming	Women	Freestyle 400 metres	93.56649396	3:58.37	Katie Ledecky	USA	2014	238.37
+Swimming	Men	Freestyle 800 metres	100	8:09.60	Tim Shaw	USA	1975	489.6
+Swimming	Men	Freestyle 800 metres	99.31985294	8:06.27	Stephen Holland	Australia	1976	486.27
+Swimming	Men	Freestyle 800 metres	98.63357843	8:02.91	Stephen Holland	Australia	1976	482.91
+Swimming	Men	Freestyle 800 metres	98.35375817	8:01.54	Bobby Hackett	USA	1976	481.54
+Swimming	Men	Freestyle 800 metres	97.32230392	7:56.49	Vladimir Salnikov	Soviet Union	1979	476.49
+Swimming	Men	Freestyle 800 metres	96.5747549	7:52.83	Vladimir Salnikov	Soviet Union	1982	472.83
+Swimming	Men	Freestyle 800 metres	96.45220588	7:52.23	Vladimir Salnikov	Soviet Union	1983	472.23
+Swimming	Men	Freestyle 800 metres	96.12745098	7:50.64	Vladimir Salnikov	Soviet Union	1986	470.64
+Swimming	Men	Freestyle 800 metres	95.55759804	7:47.85	Kieren Perkins	Australia	1991	467.85
+Swimming	Men	Freestyle 800 metres	95.30228758	7:46.60	Kieren Perkins	Australia	1992	466.6
+Swimming	Men	Freestyle 800 metres	95.17973856	7:46.00	Kieren Perkins	Australia	1994	466
+Swimming	Men	Freestyle 800 metres	94.27900327	7:41.59	Ian Thorpe	Australia	2001	461.59
+Swimming	Men	Freestyle 800 metres	93.78267974	7:39.16	Ian Thorpe	Australia	2001	459.16
+Swimming	Men	Freestyle 800 metres	93.67851307	7:38.65	Grant Hackett	Australia	2005	458.65
+Swimming	Men	Freestyle 800 metres	92.34477124	7:32.12	Zhang Lin	China	2009	452.12
+Swimming	Women	Freestyle 800 metres	100	8:43.48	Jennifer Turrall	Australia	1975	523.48
+Swimming	Women	Freestyle 800 metres	99.46511806	8:40.68	Petra Thümer	East Germany	1976	520.68
+Swimming	Women	Freestyle 800 metres	99.26453733	8:39.63	Shirley Babashoff	USA	1976	519.63
+Swimming	Women	Freestyle 800 metres	98.78887446	8:37.14	Petra Thümer	East Germany	1976	517.14
+Swimming	Women	Freestyle 800 metres	98.387713	8:35.04	Petra Thümer	East Germany	1977	515.04
+Swimming	Women	Freestyle 800 metres	98.35332773	8:34.86	Michelle Ford	Australia	1978	514.86
+Swimming	Women	Freestyle 800 metres	97.67326354	8:31.30	Michelle Ford	Australia	1978	511.3
+Swimming	Women	Freestyle 800 metres	97.52617101	8:30.53	Tracey Wickham	Australia	1978	510.53
+Swimming	Women	Freestyle 800 metres	96.39718805	8:24.62	Tracey Wickham	Australia	1978	504.62
+Swimming	Women	Freestyle 800 metres	95.98074425	8:22.44	Janet Evans	USA	1987	502.44
+Swimming	Women	Freestyle 800 metres	95.42484909	8:19.53	Anke Möhring	East Germany	1987	499.53
+Swimming	Women	Freestyle 800 metres	94.96446856	8:17.12	Janet Evans	USA	1988	497.12
+Swimming	Women	Freestyle 800 metres	94.79254222	8:16.22	Janet Evans	USA	1989	496.22
+Swimming	Women	Freestyle 800 metres	94.38756017	8:14.10	Rebecca Adlington	Great Britain	2008	494.1
+Swimming	Women	Freestyle 800 metres	94.34171315	8:13.86	Katie Ledecky	USA	2013	493.86
+Swimming	Women	Freestyle 800 metres	93.79536945	8:11.00	Katie Ledecky	USA	2014	491
+Swimming	Women	Freestyle 800 metres	93.1057538	8:07.39	Katie Ledecky	USA	2015	487.39
+Swimming	Women	Freestyle 800 metres	92.97012302	8:06.68	Katie Ledecky	USA	2016	486.68
+Swimming	Men	Freestyle 1500 metres	100	15:20.91	Tim Shaw	USA	1975	920.91
+Swimming	Men	Freestyle 1500 metres	98.91194579	15:10.89	Stephen Holland	Australia	1976	910.89
+Swimming	Men	Freestyle 1500 metres	98.45261752	15:06.66	Brian Goodell	USA	1976	906.66
+Swimming	Men	Freestyle 1500 metres	97.9900316	15:02.40	Brian Goodell	USA	1976	902.4
+Swimming	Men	Freestyle 1500 metres	97.54156215	14:58.27	Vladimir Salnikov	Soviet Union	1980	898.27
+Swimming	Men	Freestyle 1500 metres	97.33307272	14:56.35	Vladimir Salnikov	Soviet Union	1982	896.35
+Swimming	Men	Freestyle 1500 metres	97.16041741	14:54.76	Vladimir Salnikov	Soviet Union	1983	894.76
+Swimming	Men	Freestyle 1500 metres	96.68262914	14:50.36	Jörg Hoffmann	Germany	1991	890.36
+Swimming	Men	Freestyle 1500 metres	96.46979618	14:48.40	Kieren Perkins	Australia	1992	888.4
+Swimming	Men	Freestyle 1500 metres	95.93554202	14:43.48	Kieren Perkins	Australia	1992	883.48
+Swimming	Men	Freestyle 1500 metres	95.73791141	14:41.66	Kieren Perkins	Australia	1994	881.66
+Swimming	Men	Freestyle 1500 metres	94.96693488	14:34.56	Grant Hackett	Australia	2001	874.56
+Swimming	Men	Freestyle 1500 metres	94.92132782	14:34.14	Sun Yang	China	2011	874.14
+Swimming	Men	Freestyle 1500 metres	94.5825325	14:31.02	Sun Yang	China	2012	871.02
+Swimming	Women	Freestyle 1500 metres	100	16:33.94	Jennifer Turrall	Australia	1974	993.94
+Swimming	Women	Freestyle 1500 metres	99.06030545	16:24.60	Alice Browne	USA	1977	984.6
+Swimming	Women	Freestyle 1500 metres	98.0874097	16:14.93	Tracey Wickham	Australia	1978	974.93
+Swimming	Women	Freestyle 1500 metres	97.25234924	16:06.63	Tracey Wickham	Australia	1979	966.63
+Swimming	Women	Freestyle 1500 metres	97.03704449	16:04.49	Kim Linehan	USA	1979	964.49
+Swimming	Women	Freestyle 1500 metres	96.65875204	16:00.73	Janet Evans	USA	1987	960.73
+Swimming	Women	Freestyle 1500 metres	95.79049037	15:52.10	Janet Evans	USA	1988	952.1
+Swimming	Women	Freestyle 1500 metres	94.82866169	15:42.54	Kate Ziegler	USA	2007	942.54
+Swimming	Women	Freestyle 1500 metres	94.22399742	15:36.53	Katie Ledecky	USA	2013	936.53
+Swimming	Women	Freestyle 1500 metres	93.99259513	15:34.23	Katie Ledecky	USA	2014	934.23
+Swimming	Women	Freestyle 1500 metres	93.40201622	15:28.36	Katie Ledecky	USA	2014	928.36
+Swimming	Women	Freestyle 1500 metres	93.33661992	15:27.71	Katie Ledecky	USA	2015	927.71
+Swimming	Women	Freestyle 1500 metres	93.1122603	15:25.48	Katie Ledecky	USA	2015	925.48
+Swimming	Men	Butterfly 100 metres	100	54.27	Mark Spitz	USA	1972	54.27
+Swimming	Men	Butterfly 100 metres	99.83416252	54.18	Joe Bottom	USA	1977	54.18
+Swimming	Men	Butterfly 100 metres	99.77888336	54.15	Pär Arvidsson	Sweden	1980	54.15
+Swimming	Men	Butterfly 100 metres	99.15238622	53.81	William Paulus	USA	1981	53.81
+Swimming	Men	Butterfly 100 metres	98.47060991	53.44	Matt Gribble	USA	1983	53.44
+Swimming	Men	Butterfly 100 metres	98.36005159	53.38	Pablo Morales	USA	1984	53.38
+Swimming	Men	Butterfly 100 metres	97.80726	53.08	Michael Gross	Germany	1984	53.08
+Swimming	Men	Butterfly 100 metres	97.36502672	52.84	Pablo Morales	USA	1986	52.84
+Swimming	Men	Butterfly 100 metres	96.40685462	52.32	Denis Pankratov	Russia	1995	52.32
+Swimming	Men	Butterfly 100 metres	96.31472268	52.27	Denis Pankratov	Russia	1996	52.27
+Swimming	Men	Butterfly 100 metres	96.09360604	52.15	Michael Klim	Australia	1997	52.15
+Swimming	Men	Butterfly 100 metres	95.8724894	52.03	Michael Klim	Australia	1999	52.03
+Swimming	Men	Butterfly 100 metres	95.4671089	51.81	Michael Klim	Australia	1999	51.81
+Swimming	Men	Butterfly 100 metres	95.37497697	51.76	Andriy Serdinov	Ukraine	2003	51.76
+Swimming	Men	Butterfly 100 metres	94.84061176	51.47	Michael Phelps	USA	2003	51.47
+Swimming	Men	Butterfly 100 metres	93.93771881	50.98	Ian Crocker	USA	2003	50.98
+Swimming	Men	Butterfly 100 metres	93.53233831	50.76	Ian Crocker	USA	2004	50.76
+Swimming	Men	Butterfly 100 metres	92.86898839	50.40	Ian Crocker	USA	2005	50.40
+Swimming	Men	Butterfly 100 metres	92.53731343	50.22	Michael Phelps	USA	2009	50.22
+Swimming	Men	Butterfly 100 metres	92.15035931	50.01	Milorad Čavić	Serbia	2009	50.01
+Swimming	Men	Butterfly 100 metres	91.80025797	49.82	Michael Phelps	USA	2009	49.82
+Swimming	Women	Butterfly 100 metres	100	1:01.24	Kornelia Ender	East Germany	1975	61.24
+Swimming	Women	Butterfly 100 metres	98.18745918	1:00.13	Kornelia Ender	East Germany	1976	60.13
+Swimming	Women	Butterfly 100 metres	97.6159373	59.78	Christiane Knacke	East Germany	1977	59.78
+Swimming	Women	Butterfly 100 metres	97.093403	59.46	Andrea Pollack	East Germany	1978	59.46
+Swimming	Women	Butterfly 100 metres	96.76681907	59.26	Mary T. Meagher	USA	1980	59.26
+Swimming	Women	Butterfly 100 metres	94.59503592	57.93	Mary T. Meagher	USA	1981	57.93
+Swimming	Women	Butterfly 100 metres	94.51338994	57.88	Jenny Thompson	USA	1999	57.88
+Swimming	Women	Butterfly 100 metres	92.57021555	56.69	Inge de Bruijn	Netherlands	2000	56.69
+Swimming	Women	Butterfly 100 metres	92.48856956	56.64	Inge de Bruijn	Netherlands	2000	56.64
+Swimming	Women	Butterfly 100 metres	92.43958197	56.61	Inge de Bruijn	Netherlands	2000	56.61
+Swimming	Women	Butterfly 100 metres	92.16198563	56.44	Sarah Sjöström	Sweden	2009	56.44
+Swimming	Women	Butterfly 100 metres	91.54147616	56.06	Sarah Sjöström	Sweden	2009	56.06
+Swimming	Women	Butterfly 100 metres	91.41084259	55.98	Dana Vollmer	USA	2012	55.98
+Swimming	Women	Butterfly 100 metres	91.01894187	55.74	Sarah Sjöström	Sweden	2015	55.74
+Swimming	Women	Butterfly 100 metres	90.8556499	55.64	Sarah Sjöström	Sweden	2015	55.64
+Swimming	Men	Butterfly 200 metres	100	2:00.70	Mark Spitz	USA	1972	120.7
+Swimming	Men	Butterfly 200 metres	99.5940348	2:00.21	Roger Pyttel	East Germany	1976	120.21
+Swimming	Men	Butterfly 200 metres	99.11350456	1:59.63	Roger Pyttel	East Germany	1976	119.63
+Swimming	Men	Butterfly 200 metres	98.78210439	1:59.23	Mike Bruner	USA	1976	119.23
+Swimming	Men	Butterfly 200 metres	97.93703397	1:58.21	Craig Beardsley	USA	1980	118.21
+Swimming	Men	Butterfly 200 metres	97.77133389	1:58.01	Craig Beardsley	USA	1981	118.01
+Swimming	Men	Butterfly 200 metres	96.97597349	1:57.05	Michael Gross	Germany	1983	117.05
+Swimming	Men	Butterfly 200 metres	96.96768848	1:57.04	Jon Sieben	Australia	1984	117.04
+Swimming	Men	Butterfly 200 metres	96.94283347	1:57.01	Michael Gross	Germany	1985	117.01
+Swimming	Men	Butterfly 200 metres	96.64457332	1:56.65	Michael Gross	Germany	1985	116.65
+Swimming	Men	Butterfly 200 metres	96.30488815	1:56.24	Michael Gross	Germany	1986	116.24
+Swimming	Men	Butterfly 200 metres	95.84921292	1:55.69	Melvin Stewart	USA	1991	115.69
+Swimming	Men	Butterfly 200 metres	95.45981773	1:55.22	Denis Pankratov	Russia	1995	115.22
+Swimming	Men	Butterfly 200 metres	95.42667771	1:55.18	Tom Malchow	USA	2000	115.18
+Swimming	Men	Butterfly 200 metres	95.21126761	1:54.92	Michael Phelps	USA	2001	114.92
+Swimming	Men	Butterfly 200 metres	94.92957746	1:54.58	Michael Phelps	USA	2001	114.58
+Swimming	Men	Butterfly 200 metres	94.3910522	1:53.93	Michael Phelps	USA	2003	113.93
+Swimming	Men	Butterfly 200 metres	94.28334714	1:53.80	Michael Phelps	USA	2006	113.8
+Swimming	Men	Butterfly 200 metres	94.2087821	1:53.71	Michael Phelps	USA	2007	113.71
+Swimming	Men	Butterfly 200 metres	92.86661143	1:52.09	Michael Phelps	USA	2007	112.09
+Swimming	Men	Butterfly 200 metres	92.81690141	1:52.03	Michael Phelps	USA	2008	112.03
+Swimming	Men	Butterfly 200 metres	92.38608119	1:51.51	Michael Phelps	USA	2009	111.51
+Swimming	Women	Butterfly 200 metres	100	2:13.76	Rosemarie Kother	East Germany	1973	133.76
+Swimming	Women	Butterfly 200 metres	99.88038278	2:13.60	Rosemarie Gabriel	East Germany	1976	133.6
+Swimming	Women	Butterfly 200 metres	99.31220096	2:12.84	Rosemarie Gabriel	East Germany	1976	132.84
+Swimming	Women	Butterfly 200 metres	98.10107656	2:11.22	Rosemarie Gabriel	East Germany	1976	131.22
+Swimming	Women	Butterfly 200 metres	98.0861244	2:11.20	Andrea Pollack	East Germany	1978	131.2
+Swimming	Women	Butterfly 200 metres	97.09180622	2:09.87	Andrea Pollack	East Germany	1978	129.87
+Swimming	Women	Butterfly 200 metres	97.01704545	2:09.77	Mary T. Meagher	USA	1979	129.77
+Swimming	Women	Butterfly 200 metres	96.00029904	2:08.41	Mary T. Meagher	USA	1979	128.41
+Swimming	Women	Butterfly 200 metres	94.95364833	2:07.01	Mary T. Meagher	USA	1979	127.01
+Swimming	Women	Butterfly 200 metres	94.47517943	2:06.37	Mary T. Meagher	USA	1980	126.37
+Swimming	Women	Butterfly 200 metres	94.16866029	2:05.96	Mary T. Meagher	USA	1981	125.96
+Swimming	Women	Butterfly 200 metres	94.05651914	2:05.81	Susie O'Neill	Australia	2000	125.81
+Swimming	Women	Butterfly 200 metres	94.03409091	2:05.78	Otylia Jędrzejczak	Poland	2002	125.78
+Swimming	Women	Butterfly 200 metres	93.90699761	2:05.61	Otylia Jędrzejczak	Poland	2005	125.61
+Swimming	Women	Butterfly 200 metres	93.75	2:05.40	Jessicah Schipper	Australia	2006	125.4
+Swimming	Women	Butterfly 200 metres	92.83791866	2:04.18	Liu Zige	China	2008	124.18
+Swimming	Women	Butterfly 200 metres	92.80801435	2:04.14	Mary Descenza	USA	2009	124.14
+Swimming	Women	Butterfly 200 metres	92.26226077	2:03.41	Jessicah Schipper	Australia	2009	123.41
+Swimming	Women	Butterfly 200 metres	91.06608852	2:01.81	Liu Zige	China	2009	121.81
+Swimming	Men	Breaststroke 100 metres	100	1:03.88	John Hencken	USA	1974	63.88
+Swimming	Men	Breaststroke 100 metres	100	1:03.88	John Hencken	USA	1976	63.88
+Swimming	Men	Breaststroke 100 metres	99.59298685	1:03.62	John Hencken	USA	1976	63.62
+Swimming	Men	Breaststroke 100 metres	98.7946149	1:03.11	John Hencken	USA	1976	63.11
+Swimming	Men	Breaststroke 100 metres	98.40325611	1:02.86	Gerald Mörken	West Germany	1977	62.86
+Swimming	Men	Breaststroke 100 metres	98.02755166	1:02.62	Steve Lundquist	USA	1982	62.62
+Swimming	Men	Breaststroke 100 metres	97.88666249	1:02.53	Steve Lundquist	USA	1982	62.53
+Swimming	Men	Breaststroke 100 metres	97.58922981	1:02.34	Steve Lundquist	USA	1983	62.34
+Swimming	Men	Breaststroke 100 metres	97.49530369	1:02.28	Steve Lundquist	USA	1983	62.28
+Swimming	Men	Breaststroke 100 metres	97.26048842	1:02.13	John Moffet	USA	1984	62.13
+Swimming	Men	Breaststroke 100 metres	96.50907952	1:01.65	Steve Lundquist	USA	1984	61.65
+Swimming	Men	Breaststroke 100 metres	96.25860989	1:01.49	Adrian Moorhouse	United Kingdom	1989	61.49
+Swimming	Men	Breaststroke 100 metres	96.25860989	1:01.49	Adrian Moorhouse	United Kingdom	1990	61.49
+Swimming	Men	Breaststroke 100 metres	96.25860989	1:01.49	Adrian Moorhouse	United Kingdom	1990	61.49
+Swimming	Men	Breaststroke 100 metres	96.25860989	1:01.49	Norbert Rózsa	Hungary	1991	61.49
+Swimming	Men	Breaststroke 100 metres	96.19599249	1:01.45	Norbert Rózsa	Hungary	1991	61.45
+Swimming	Men	Breaststroke 100 metres	96.19599249	1:01.45	Vasili Ivanov	Soviet Union	1991	61.45
+Swimming	Men	Breaststroke 100 metres	95.94552286	1:01.29	Norbert Rózsa	Hungary	1991	61.29
+Swimming	Men	Breaststroke 100 metres	95.41327489	1:00.95	Károly Güttler	Hungary	1993	60.95
+Swimming	Men	Breaststroke 100 metres	94.86537257	1:00.60	Frédérik Deburghgraeve	Belgium	1996	60.6
+Swimming	Men	Breaststroke 100 metres	94.48966813	1:00.36	Roman Sludnov	Russia	2000	60.36
+Swimming	Men	Breaststroke 100 metres	94.38008766	1:00.29	Ed Moses	USA	2001	60.29
+Swimming	Men	Breaststroke 100 metres	94.33312461	1:00.26	Roman Sludnov	Russia	2001	60.26
+Swimming	Men	Breaststroke 100 metres	93.8791484	59.97	Roman Sludnov	Russia	2001	59.97
+Swimming	Men	Breaststroke 100 metres	93.83218535	59.94	Roman Sludnov	Russia	2001	59.94
+Swimming	Men	Breaststroke 100 metres	93.58171572	59.78	Kosuke Kitajima	Japan	2003	59.78
+Swimming	Men	Breaststroke 100 metres	92.83030683	59.30	Brendan Hansen	USA	2004	59.3
+Swimming	Men	Breaststroke 100 metres	92.56418284	59.13	Brendan Hansen	USA	2006	59.13
+Swimming	Men	Breaststroke 100 metres	92.2197871	58.91	Kosuke Kitajima	Japan	2008	58.91
+Swimming	Men	Breaststroke 100 metres	91.70319349	58.58	Brenton Rickard	Australia	2009	58.58
+Swimming	Men	Breaststroke 100 metres	91.51534126	58.46	Cameron van der Burgh	South Africa	2012	58.46
+Swimming	Men	Breaststroke 100 metres	90.67000626	57.92	Adam Peaty	United Kingdom	2015	57.92
+Swimming	Women	Breaststroke 100 metres	100	1:12.28	Renate Vogel	East Germany	1974	72.28
+Swimming	Women	Breaststroke 100 metres	99.515772	1:11.93	Carola Nitschke	East Germany	1976	71.93
+Swimming	Women	Breaststroke 100 metres	98.38129496	1:11.11	Hannelore Anke	East Germany	1976	71.11
+Swimming	Women	Breaststroke 100 metres	98.03541782	1:10.86	Hannelore Anke	East Germany	1976	70.86
+Swimming	Women	Breaststroke 100 metres	97.2744881	1:10.31	Yuliya Bogdanova	Soviet Union	1978	70.31
+Swimming	Women	Breaststroke 100 metres	97.12230216	1:10.20	Ute Geweniger	East Germany	1980	70.2
+Swimming	Women	Breaststroke 100 metres	96.99778639	1:10.11	Ute Geweniger	East Germany	1980	70.11
+Swimming	Women	Breaststroke 100 metres	96.18151633	1:09.52	Ute Geweniger	East Germany	1981	69.52
+Swimming	Women	Breaststroke 100 metres	96.00166021	1:09.39	Ute Geweniger	East Germany	1981	69.39
+Swimming	Women	Breaststroke 100 metres	94.90868843	1:08.60	Ute Geweniger	East Germany	1981	68.6
+Swimming	Women	Breaststroke 100 metres	94.78417266	1:08.51	Ute Geweniger	East Germany	1983	68.51
+Swimming	Women	Breaststroke 100 metres	94.47980077	1:08.29	Sylvia Gerasch	East Germany	1984	68.29
+Swimming	Women	Breaststroke 100 metres	94.23076923	1:08.11	Sylvia Gerasch	East Germany	1986	68.11
+Swimming	Women	Breaststroke 100 metres	93.95406752	1:07.91	Silke Hörner	East Germany	1987	67.91
+Swimming	Women	Breaststroke 100 metres	93.64969563	1:07.69	Samantha Riley	Australia	1994	67.69
+Swimming	Women	Breaststroke 100 metres	93.33148866	1:07.46	Penelope Heyns	South Africa	1996	67.46
+Swimming	Women	Breaststroke 100 metres	92.72274488	1:07.02	Penelope Heyns	South Africa	1996	67.02
+Swimming	Women	Breaststroke 100 metres	92.68123962	1:06.99	Penelope Heyns	South Africa	1999	66.99
+Swimming	Women	Breaststroke 100 metres	92.62589928	1:06.95	Penelope Heyns	South Africa	1999	66.95
+Swimming	Women	Breaststroke 100 metres	92.03099059	1:06.52	Penelope Heyns	South Africa	1999	66.52
+Swimming	Women	Breaststroke 100 metres	91.82346431	1:06.37	Leisel Jones	Australia	2003	66.37
+Swimming	Women	Breaststroke 100 metres	91.58826785	1:06.20	Jessica Hardy	USA	2005	66.2
+Swimming	Women	Breaststroke 100 metres	90.91034864	1:05.71	Leisel Jones	Australia	2006	65.71
+Swimming	Women	Breaststroke 100 metres	90.05257333	1:05.09	Leisel Jones	Australia	2006	65.09
+Swimming	Women	Breaststroke 100 metres	89.70669618	1:04.84	Rebecca Soni	USA	2009	64.84
+Swimming	Women	Breaststroke 100 metres	89.16712784	1:04.45	Jessica Hardy	USA	2009	64.45
+Swimming	Women	Breaststroke 100 metres	89.02877698	1:04.35	Rūta Meilutytė	Lithuania	2013	64.35
+Swimming	Men	Breaststroke 200 metres	100	2:18.21	John Hencken	USA	1974	138.21
+Swimming	Men	Breaststroke 200 metres	97.75703639	2:15.11	David Wilkie	United Kingdom	1976	135.11
+Swimming	Men	Breaststroke 200 metres	97.51103393	2:14.77	Victor Davis	Canada	1982	134.77
+Swimming	Men	Breaststroke 200 metres	97.37356197	2:14.58	Victor Davis	Canada	1984	134.58
+Swimming	Men	Breaststroke 200 metres	96.47637653	2:13.34	Victor Davis	Canada	1984	133.34
+Swimming	Men	Breaststroke 200 metres	96.1580204	2:12.90	Mike Barrowman	USA	1989	132.9
+Swimming	Men	Breaststroke 200 metres	96.1580204	2:12.90e	Nick Gillingham	United Kingdom	1989	132.9
+Swimming	Men	Breaststroke 200 metres	96.15078504	2:12.89	Mike Barrowman	USA	1989	132.89
+Swimming	Men	Breaststroke 200 metres	95.1667752	2:11.53	Mike Barrowman	USA	1990	131.53
+Swimming	Men	Breaststroke 200 metres	94.9497142	2:11.23	Mike Barrowman	USA	1991	131.23
+Swimming	Men	Breaststroke 200 metres	94.49388612	2:10.60	Mike Barrowman	USA	1991	130.6
+Swimming	Men	Breaststroke 200 metres	94.17552999	2:10.16	Mike Barrowman	USA	1992	130.16
+Swimming	Men	Breaststroke 200 metres	94.03805803	2:09.97	Kosuke Kitajima	Japan	2002	129.97
+Swimming	Men	Breaststroke 200 metres	93.71246654	2:09.52	Dimitri Komornikov	Russia	2003	129.52
+Swimming	Men	Breaststroke 200 metres	93.64011287	2:09.42	Kosuke Kitajima	Japan	2003	129.42
+Swimming	Men	Breaststroke 200 metres	93.36516895	2:09.04	Brendan Hansen	USA	2004	129.04
+Swimming	Men	Breaststroke 200 metres	93.14810795	2:08.74	Brendan Hansen	USA	2006	128.74
+Swimming	Men	Breaststroke 200 metres	92.97445916	2:08.50	Brendan Hansen	USA	2006	128.5
+Swimming	Men	Breaststroke 200 metres	92.25815788	2:07.51	Kosuke Kitajima	Japan	2008	127.51
+Swimming	Men	Breaststroke 200 metres	92.11345055	2:07.31	Christian Sprenger	Australia	2009	127.31
+Swimming	Men	Breaststroke 200 metres	92.09174445	2:07.28	Dániel Gyurta	Hungary	2012	127.28
+Swimming	Men	Breaststroke 200 metres	91.89638955	2:07.01	Akihiro Yamaguchi	Japan	2012	127.01
+Swimming	Women	Breaststroke 200 metres	100	2:34.99	Karla Linke	East Germany	1974	154.99
+Swimming	Women	Breaststroke 200 metres	98.94186722	2:33.35	Marina Koshevaia	Soviet Union	1976	153.35
+Swimming	Women	Breaststroke 200 metres	98.92251113	2:33.32	Yuliya Bogdanova	Soviet Union	1978	153.32
+Swimming	Women	Breaststroke 200 metres	98.78701852	2:33.11	Lina Kachushite	Soviet Union	1978	153.11
+Swimming	Women	Breaststroke 200 metres	97.69662559	2:31.42	Lina Kachushite	Soviet Union	1978	151.42
+Swimming	Women	Breaststroke 200 metres	97.48370863	2:31.09	Svetlana Varganova	Soviet Union	1979	151.09
+Swimming	Women	Breaststroke 200 metres	95.72230466	2:28.36	Lina Kachushite	Soviet Union	1979	148.36
+Swimming	Women	Breaststroke 200 metres	95.70294858	2:28.33	Silke Hörner	East Germany	1985	148.33
+Swimming	Women	Breaststroke 200 metres	95.6190722	2:28.20	Sylvia Gerasch	East Germany	1986	148.2
+Swimming	Women	Breaststroke 200 metres	95.10290987	2:27.40	Silke Hörner	East Germany	1986	147.4
+Swimming	Women	Breaststroke 200 metres	95.01903349	2:27.27	Allison Higson	Canada	1988	147.27
+Swimming	Women	Breaststroke 200 metres	94.65771985	2:26.71	Silke Hörner	East Germany	1988	146.71
+Swimming	Women	Breaststroke 200 metres	94.14800955	2:25.92	Anita Nall	USA	1992	145.92
+Swimming	Women	Breaststroke 200 metres	93.78024389	2:25.35	Anita Nall	USA	1992	145.35
+Swimming	Women	Breaststroke 200 metres	93.39957417	2:24.76	Rebecca Brown	Australia	1994	144.76
+Swimming	Women	Breaststroke 200 metres	93.35440996	2:24.69	Penelope Heyns	South Africa	1999	144.69
+Swimming	Women	Breaststroke 200 metres	93.23827344	2:24.51	Penelope Heyns	South Africa	1999	144.51
+Swimming	Women	Breaststroke 200 metres	93.18020517	2:24.42	Penelope Heyns	South Africa	1999	144.42
+Swimming	Women	Breaststroke 200 metres	92.6769469	2:23.64	Penelope Heyns	South Africa	1999	143.64
+Swimming	Women	Breaststroke 200 metres	92.257565	2:22.99	Qi Hui	China	2001	142.99
+Swimming	Women	Breaststroke 200 metres	92.257565	2:22.99e	Amanda Beard	USA	2003	142.99
+Swimming	Women	Breaststroke 200 metres	92.23820892	2:22.96	Leisel Jones	Australia	2004	142.96
+Swimming	Women	Breaststroke 200 metres	91.9027034	2:22.44	Amanda Beard	USA	2004	142.44
+Swimming	Women	Breaststroke 200 metres	91.4381573	2:21.72	Leisel Jones	Australia	2005	141.72
+Swimming	Women	Breaststroke 200 metres	90.67681786	2:20.54	Leisel Jones	Australia	2006	140.54
+Swimming	Women	Breaststroke 200 metres	90.47035293	2:20.22	Rebecca Soni	USA	2008	140.22
+Swimming	Women	Breaststroke 200 metres	90.40583263	2:20.12	Annamay Pierse	Canada	2009	140.12
+Swimming	Women	Breaststroke 200 metres	90.32840828	2:20.00	Rebecca Soni	USA	2012	140
+Swimming	Women	Breaststroke 200 metres	90.06387509	2:19.59	Rebecca Soni	USA	2012	139.59
+Swimming	Women	Breaststroke 200 metres	89.75417769	2:19.11	Rikke Møller Pedersen	Denmark	2013	139.11
+Swimming	Men	Backstroke 100 metres	100	56.30	Roland Matthes	East Germany	1972	56.3
+Swimming	Men	Backstroke 100 metres	99.80461812	56.19	John Naber	USA	1976	56.19
+Swimming	Men	Backstroke 100 metres	98.56127886	55.49	John Naber	USA	1976	55.49
+Swimming	Men	Backstroke 100 metres	98.47246892	55.44	Rick Carey	USA	1983	55.44
+Swimming	Men	Backstroke 100 metres	98.36589698	55.38	Rick Carey	USA	1983	55.38
+Swimming	Men	Backstroke 100 metres	98.02841918	55.19	Rick Carey	USA	1983	55.19
+Swimming	Men	Backstroke 100 metres	97.9928952	55.17	Igor Polyansky	Soviet Union	1988	55.17
+Swimming	Men	Backstroke 100 metres	97.97513321	55.16	Igor Polyansky	Soviet Union	1988	55.16
+Swimming	Men	Backstroke 100 metres	97.69094139	55.00	Igor Polyansky	Soviet Union	1988	55
+Swimming	Men	Backstroke 100 metres	97.60213144	54.95	David Berkoff	USA	1988	54.95
+Swimming	Men	Backstroke 100 metres	97.53108348	54.91	David Berkoff	USA	1988	54.91
+Swimming	Men	Backstroke 100 metres	96.82060391	54.51	David Berkoff	USA	1988	54.51
+Swimming	Men	Backstroke 100 metres	95.79040853	53.93	Jeff Rouse	USA	1991	53.93
+Swimming	Men	Backstroke 100 metres	95.6660746	53.86	Jeff Rouse	USA	1992	53.86
+Swimming	Men	Backstroke 100 metres	95.20426288	53.60	Lenny Krayzelburg	USA	1999	53.6
+Swimming	Men	Backstroke 100 metres	94.93783304	53.45	Aaron Peirsol	USA	2004	53.45
+Swimming	Men	Backstroke 100 metres	94.44049734	53.17	Aaron Peirsol	USA	2005	53.17
+Swimming	Men	Backstroke 100 metres	94.10301954	52.98	Aaron Peirsol	USA	2007	52.98
+Swimming	Men	Backstroke 100 metres	93.94316163	52.89	Aaron Peirsol	USA	2008	52.89
+Swimming	Men	Backstroke 100 metres	93.32149201	52.54	Aaron Peirsol	USA	2008	52.54
+Swimming	Men	Backstroke 100 metres	93.03730018	52.38	Aschwin Wildeboer	Spain	2009	52.38
+Swimming	Men	Backstroke 100 metres	92.25577265	51.94	Aaron Peirsol	USA	2009	51.94
+Swimming	Women	Backstroke 100 metres	100	1:02.98	Ulrike Richter	East Germany	1974	62.98
+Swimming	Women	Backstroke 100 metres	99.39663385	1:02.60	Ulrike Richter	East Germany	1976	62.6
+Swimming	Women	Backstroke 100 metres	97.84058431	1:01.62	Kornelia Ender	East Germany	1976	61.62
+Swimming	Women	Backstroke 100 metres	97.66592569	1:01.51	Ulrike Richter	East Germany	1976	61.51
+Swimming	Women	Backstroke 100 metres	97.66592569	1:01.51e	Rica Reinisch	East Germany	1980	61.51
+Swimming	Women	Backstroke 100 metres	97.65004763	1:01.50	Rica Reinisch	East Germany	1980	61.5
+Swimming	Women	Backstroke 100 metres	96.63385202	1:00.86	Rica Reinisch	East Germany	1980	60.86
+Swimming	Women	Backstroke 100 metres	96.20514449	1:00.59r	Ina Kleber	East Germany	1984	60.59
+Swimming	Women	Backstroke 100 metres	95.76055891	1:00.31	Krisztina Egerszegi	Hungary	1991	60.31
+Swimming	Women	Backstroke 100 metres	95.52238806	1:00.16r	He Cihong	China	1994	60.16
+Swimming	Women	Backstroke 100 metres	94.60146078	59.58	Natalie Coughlin	USA	2002	59.58
+Swimming	Women	Backstroke 100 metres	94.37916799	59.44	Natalie Coughlin	USA	2007	59.44
+Swimming	Women	Backstroke 100 metres	94.01397269	59.21	Natalie Coughlin	USA	2008	59.21
+Swimming	Women	Backstroke 100 metres	93.91870435	59.15	Hayley McGregory	USA	2008	59.15
+Swimming	Women	Backstroke 100 metres	93.72816767	59.03	Natalie Coughlin	USA	2008	59.03
+Swimming	Women	Backstroke 100 metres	93.63289933	58.97	Natalie Coughlin	USA	2008	58.97
+Swimming	Women	Backstroke 100 metres	93.3153382	58.77	Kirsty Coventry	Zimbabwe	2008	58.77
+Swimming	Women	Backstroke 100 metres	92.85487456	58.48	Anastasia Zuyeva	Russia	2009	58.48
+Swimming	Women	Backstroke 100 metres	92.28326453	58.12	Gemma Spofforth	United Kingdom	2009	58.12
+Swimming	Men	Backstroke 200 metres	100	2:01.87	Roland Matthes	East Germany	1973	121.87
+Swimming	Men	Backstroke 200 metres	98.99072782	2:00.64	John Naber	USA	1976	120.64
+Swimming	Men	Backstroke 200 metres	97.80093542	1:59.19	John Naber	USA	1976	119.19
+Swimming	Men	Backstroke 200 metres	97.58759334	1:58.93	Rick Carey	USA	1983	118.93
+Swimming	Men	Backstroke 200 metres	97.53015508	1:58.86	Rick Carey	USA	1984	118.86
+Swimming	Men	Backstroke 200 metres	97.16090917	1:58.41	Sergei Zabolotnov	Soviet Union	1984	118.41
+Swimming	Men	Backstroke 200 metres	96.93936161	1:58.14	Igor Polyansky	Soviet Union	1985	118.14
+Swimming	Men	Backstroke 200 metres	96.25010257	1:57.30	Martin Zubero	Spain	1991	117.3
+Swimming	Men	Backstroke 200 metres	95.65110364	1:56.57	Martin Zubero	Spain	1991	116.57
+Swimming	Men	Backstroke 200 metres	95.0767211	1:55.87	Lenny Krayzelburg	USA	1999	115.87
+Swimming	Men	Backstroke 200 metres	94.48592763	1:55.15	Aaron Peirsol	USA	2002	115.15
+Swimming	Men	Backstroke 200 metres	94.14950357	1:54.74	Aaron Peirsol	USA	2004	114.74
+Swimming	Men	Backstroke 200 metres	94.08385985	1:54.66	Aaron Peirsol	USA	2005	114.66
+Swimming	Men	Backstroke 200 metres	93.90333962	1:54.44	Aaron Peirsol	USA	2006	114.44
+Swimming	Men	Backstroke 200 metres	93.80487405	1:54.32	Ryan Lochte	USA	2007	114.32
+Swimming	Men	Backstroke 200 metres	93.80487405	1:54.32	Aaron Peirsol	USA	2008	114.32
+Swimming	Men	Backstroke 200 metres	93.49306638	1:53.94	Ryan Lochte	USA	2008	113.94
+Swimming	Men	Backstroke 200 metres	92.78739641	1:53.08	Aaron Peirsol	USA	2009	113.08
+Swimming	Men	Backstroke 200 metres	91.83556248	1:51.92	Aaron Peirsol	USA	2009	111.92
+Swimming	Women	Backstroke 200 metres	100	2:15.46	Birgit Treiber	East Germany	1975	135.46
+Swimming	Women	Backstroke 200 metres	99.22486343	2:14.41	Antje Stille	East Germany	1976	134.41
+Swimming	Women	Backstroke 200 metres	98.5530784	2:13.50	Antje Stille	East Germany	1976	133.5
+Swimming	Women	Backstroke 200 metres	97.79270633	2:12.47	Birgit Treiber	East Germany	1976	132.47
+Swimming	Women	Backstroke 200 metres	97.39406467	2:11.93	Linda Jezek	USA	1978	131.93
+Swimming	Women	Backstroke 200 metres	97.27594862	2:11.77	Rica Reinisch	East Germany	1980	131.77
+Swimming	Women	Backstroke 200 metres	95.90284955	2:09.91	Cornelia Sirch	East Germany	1982	129.91
+Swimming	Women	Backstroke 200 metres	94.9357744	2:08.60	Betsy Mitchell	USA	1986	128.6
+Swimming	Women	Backstroke 200 metres	93.47408829	2:06.62	Krisztina Egerszegi	Hungary	1991	126.62
+Swimming	Women	Backstroke 200 metres	93.30429647	2:06.39	Kirsty Coventry	Zimbabwe	2008	126.39
+Swimming	Women	Backstroke 200 metres	93.08282888	2:06.09	Margaret Hoelzer	USA	2008	126.09
+Swimming	Women	Backstroke 200 metres	92.45533737	2:05.24	Kirsty Coventry	Zimbabwe	2008	125.24
+Swimming	Women	Backstroke 200 metres	92.13790049	2:04.81	Kirsty Coventry	Zimbabwe	2009	124.81
+Swimming	Women	Backstroke 200 metres	91.58423151	2:04.06	Missy Franklin	USA	2012	124.06
+Swimming	Men	200 metres individual medley	100	2:06.08	Bruce Furniss	USA	1975	126.08
+Swimming	Men	200 metres individual medley	99.38927665	2:05.31	Graham Smith	Canada	1977	125.31
+Swimming	Men	200 metres individual medley	99.33375635	2:05.24	Aleksandr Sidorenko	Soviet Union	1978	125.24
+Swimming	Men	200 metres individual medley	98.65958122	2:04.39	Steve Lundquist	USA	1978	124.39
+Swimming	Men	200 metres individual medley	98.00126904	2:03.56	Graham Smith	Canada	1978	123.56
+Swimming	Men	200 metres individual medley	97.78711929	2:03.29	Jesse Vassallo	USA	1979	123.29
+Swimming	Men	200 metres individual medley	97.74746193	2:03.24	Bill Barrett	USA	1980	123.24
+Swimming	Men	200 metres individual medley	97.56503807	2:03.01	Jeremy Reingold	RSA	1980	123.01
+Swimming	Men	200 metres individual medley	97.38261421	2:02.78	Alex Baumann	Canada	1981	122.78
+Swimming	Men	200 metres individual medley	96.96224619	2:02.25	Alex Baumann	Canada	1982	122.25
+Swimming	Men	200 metres individual medley	96.30393401	2:01.42	Alex Baumann	Canada	1984	121.42
+Swimming	Men	200 metres individual medley	95.62182741	2:00.56	Tamás Darnyi	Hungary	1987	120.56
+Swimming	Men	200 metres individual medley	95.3125	2:00.17	Tamás Darnyi	Hungary	1988	120.17
+Swimming	Men	200 metres individual medley	95.26491117	2:00.11	David Wharton	USA	1989	120.11
+Swimming	Men	200 metres individual medley	94.67005076	1:59.36	Tamás Darnyi	Hungary	1991	119.36
+Swimming	Men	200 metres individual medley	93.71827411	1:58.16	Jani Sievinen	Finland	1994	118.16
+Swimming	Men	200 metres individual medley	93.54378173	1:57.94	Michael Phelps	USA	2003	117.94
+Swimming	Men	200 metres individual medley	93.2106599	1:57.52	Michael Phelps	USA	2003	117.52
+Swimming	Men	200 metres individual medley	92.03680203	1:56.04	Michael Phelps	USA	2003	116.04
+Swimming	Men	200 metres individual medley	91.95748731	1:55.94	Michael Phelps	USA	2003	115.94
+Swimming	Men	200 metres individual medley	91.87817259	1:55.84	Michael Phelps	USA	2006	115.84
+Swimming	Men	200 metres individual medley	91.19606599	1:54.98	Michael Phelps	USA	2007	114.98
+Swimming	Men	200 metres individual medley	91.05329949	1:54.80	Michael Phelps	USA	2008	114.8
+Swimming	Men	200 metres individual medley	90.60120558	1:54.23	Michael Phelps	USA	2008	114.23
+Swimming	Men	200 metres individual medley	90.49809645	1:54.10	Ryan Lochte	USA	2009	114.1
+Swimming	Men	200 metres individual medley	90.41878173	1:54.00	Ryan Lochte	USA	2011	114
+Swimming	Women	200 metres individual medley	100	2:18.83	Ulrike Tauber	East Germany	1975	138.83
+Swimming	Women	200 metres individual medley	99.61823813	2:18.30	Ulrike Tauber	East Germany	1976	138.3
+Swimming	Women	200 metres individual medley	98.78268386	2:17.14	Kornelia Ender	East Germany	1976	137.14
+Swimming	Women	200 metres individual medley	98.65302888	2:16.96	Ulrike Tauber	East Germany	1977	136.96
+Swimming	Women	200 metres individual medley	97.92552042	2:15.95	Ulrike Tauber	East Germany	1977	135.95
+Swimming	Women	200 metres individual medley	97.85348988	2:15.85	Ulrike Tauber	East Germany	1977	135.85
+Swimming	Women	200 metres individual medley	97.30605777	2:15.09	Tracy Caulkins	USA	1978	135.09
+Swimming	Women	200 metres individual medley	96.57134625	2:14.07	Tracy Caulkins	USA	1978	134.07
+Swimming	Women	200 metres individual medley	96.2976302	2:13.69	Tracy Caulkins	USA	1980	133.69
+Swimming	Women	200 metres individual medley	95.80061946	2:13.00	Petra Schneider	East Germany	1980	133
+Swimming	Women	200 metres individual medley	94.88583159	2:11.73	Ute Geweniger	East Germany	1981	131.73
+Swimming	Women	200 metres individual medley	94.82820716	2:11.65	Lin Li	China	1992	131.65
+Swimming	Women	200 metres individual medley	93.43801772	2:09.72	Wu Yanyan	China	1997	129.72
+Swimming	Women	200 metres individual medley	92.86177339	2:08.92	Stephanie Rice	Australia	2008	128.92
+Swimming	Women	200 metres individual medley	92.52322985	2:08.45	Stephanie Rice	Australia	2008	128.45
+Swimming	Women	200 metres individual medley	91.50039617	2:07.03	Ariana Kukors	USA	2009	127.03
+Swimming	Women	200 metres individual medley	90.86652741	2:06.15	Ariana Kukors	USA	2009	126.15
+Swimming	Women	200 metres individual medley	90.84491825	2:06.12	Katinka Hosszú	Hungary	2015	126.12
+Swimming	Men	400 metres individual medley	100	4:28.89	András Hargitay	Hungary	1974	268.89
+Swimming	Men	400 metres individual medley	98.92521105	4:26.00	Zoltán Verrasztó	Hungary	1976	266
+Swimming	Men	400 metres individual medley	98.0624047	4:23.68	Rod Strachan	USA	1976	263.68
+Swimming	Men	400 metres individual medley	97.95455391	4:23.39	Jesse Vassallo	USA	1978	263.39
+Swimming	Men	400 metres individual medley	96.71241028	4:20.05	Jesse Vassallo	USA	1978	260.05
+Swimming	Men	400 metres individual medley	96.61199747	4:19.78	Ricardo Prado	Brazil	1982	259.78
+Swimming	Men	400 metres individual medley	96.54877459	4:19.61	Jens-Peter Berndt	East Germany	1984	259.61
+Swimming	Men	400 metres individual medley	95.77522407	4:17.53	Alex Baumann	Canada	1984	257.53
+Swimming	Men	400 metres individual medley	95.73059615	4:17.41	Alex Baumann	Canada	1984	257.41
+Swimming	Men	400 metres individual medley	95.25084607	4:16.12	David Wharton	USA	1987	256.12
+Swimming	Men	400 metres individual medley	94.99051657	4:15.42	Tamás Darnyi	Hungary	1987	255.42
+Swimming	Men	400 metres individual medley	94.74134404	4:14.75	Tamás Darnyi	Hungary	1988	254.75
+Swimming	Men	400 metres individual medley	93.85250474	4:12.36	Tamás Darnyi	Hungary	1991	252.36
+Swimming	Men	400 metres individual medley	93.83019078	4:12.30	Tom Dolan	USA	1994	252.3
+Swimming	Men	400 metres individual medley	93.62936517	4:11.76	Tom Dolan	USA	2000	251.76
+Swimming	Men	400 metres individual medley	93.38019264	4:11.09	Michael Phelps	USA	2002	251.09
+Swimming	Men	400 metres individual medley	93.2463089	4:10.73	Michael Phelps	USA	2003	250.73
+Swimming	Men	400 metres individual medley	92.63639406	4:09.09	Michael Phelps	USA	2003	249.09
+Swimming	Men	400 metres individual medley	92.38350255	4:08.41	Michael Phelps	USA	2004	248.41
+Swimming	Men	400 metres individual medley	92.32771765	4:08.26	Michael Phelps	USA	2004	248.26
+Swimming	Men	400 metres individual medley	91.5690431	4:06.22	Michael Phelps	USA	2007	246.22
+Swimming	Men	400 metres individual medley	91.20830079	4:05.25	Michael Phelps	USA	2008	245.25
+Swimming	Men	400 metres individual medley	90.68392279	4:03.84	Michael Phelps	USA	2008	243.84
+Swimming	Women	400 metres individual medley	100	4:52.20	Ulrike Tauber	East Germany	1975	292.2
+Swimming	Women	400 metres individual medley	98.8329911	4:48.79	Birgit Treiber	East Germany	1976	288.79
+Swimming	Women	400 metres individual medley	96.77275838	4:42.77	Ulrike Tauber	East Germany	1976	282.77
+Swimming	Women	400 metres individual medley	96.10882957	4:40.83	Tracy Caulkins	USA	1978	280.83
+Swimming	Women	400 metres individual medley	95.8110883	4:39.96	Petra Schneider	East Germany	1980	279.96
+Swimming	Women	400 metres individual medley	95.29089665	4:38.44	Petra Schneider	East Germany	1980	278.44
+Swimming	Women	400 metres individual medley	94.55509925	4:36.29	Petra Schneider	East Germany	1980	276.29
+Swimming	Women	400 metres individual medley	94.49007529	4:36.10	Petra Schneider	East Germany	1982	276.1
+Swimming	Women	400 metres individual medley	94.04175222	4:34.79	Chen Yan	China	1997	274.79
+Swimming	Women	400 metres individual medley	93.63107461	4:33.59	Yana Klochkova	Ukraine	2000	273.59
+Swimming	Women	400 metres individual medley	93.39151266	4:32.89	Katie Hoff	USA	2007	272.89
+Swimming	Women	400 metres individual medley	92.90212183	4:31.46	Stephanie Rice	Australia	2008	271.46
+Swimming	Women	400 metres individual medley	92.78576318	4:31.12	Katie Hoff	USA	2008	271.12
+Swimming	Women	400 metres individual medley	92.21423682	4:29.45	Stephanie Rice	Australia	2008	269.45
+Swimming	Women	400 metres individual medley	91.86516085	4:28.43	Ye Shiwen	China	2012	268.43
+Swimming	Men	4x100 metres freestyle relay	100	3:24.85	USA	USA	1975	204.85
+Swimming	Men	4x100 metres freestyle relay	98.17427386	3:21.11	USA	USA	1977	201.11
+Swimming	Men	4x100 metres freestyle relay	97.50549182	3:19.74	USA	USA	1978	199.74
+Swimming	Men	4x100 metres freestyle relay	97.27117403	3:19.26	USA	USA	1982	199.26
+Swimming	Men	4x100 metres freestyle relay	97.15889675	3:19.03	USA	USA	1984	199.03
+Swimming	Men	4x100 metres freestyle relay	96.20698072	3:17.08	USA	USA	1985	197.08
+Swimming	Men	4x100 metres freestyle relay	95.93849158	3:16.53	USA	USA	1988	196.53
+Swimming	Men	4x100 metres freestyle relay	95.24530144	3:15.11	USA	USA	1995	195.11
+Swimming	Men	4x100 metres freestyle relay	94.54234806	3:13.67	Australia	Australia	2000	193.67
+Swimming	Men	4x100 metres freestyle relay	94.29826702	3:13.17	South Africa	South Africa	2004	193.17
+Swimming	Men	4x100 metres freestyle relay	93.95167196	3:12.46	USA	USA	2006	192.46
+Swimming	Men	4x100 metres freestyle relay	93.83939468	3:12.23	USA	USA	2008	192.23
+Swimming	Men	4x100 metres freestyle relay	91.89162802	3:08.24	USA	USA	2008	188.24
+Swimming	Women	4x100 metres freestyle relay	100	3:49.37	East Germany	East Germany	1975	229.37
+Swimming	Women	4x100 metres freestyle relay	99.75149322	3:48.80	SC Dynamo Berlin	East Germany	1976	228.8
+Swimming	Women	4x100 metres freestyle relay	98.01630553	3:44.82	USA	USA	1976	224.82
+Swimming	Women	4x100 metres freestyle relay	97.41029777	3:43.43	USA	USA	1978	223.43
+Swimming	Women	4x100 metres freestyle relay	97.09639447	3:42.71	East Germany	East Germany	1980	222.71
+Swimming	Women	4x100 metres freestyle relay	96.96560143	3:42.41	East Germany	East Germany	1984	222.41
+Swimming	Women	4x100 metres freestyle relay	96.16340411	3:40.57	East Germany	East Germany	1986	220.57
+Swimming	Women	4x100 metres freestyle relay	95.67946985	3:39.46	USA	USA	1992	219.46
+Swimming	Women	4x100 metres freestyle relay	95.0037058	3:37.91	China	China	1994	217.91
+Swimming	Women	4x100 metres freestyle relay	94.43693596	3:36.61	USA	USA	2000	216.61
+Swimming	Women	4x100 metres freestyle relay	94.1709901	3:36.00	Germany	Germany	2002	216
+Swimming	Women	4x100 metres freestyle relay	94.14483149	3:35.94	Australia	Australia	2004	215.94
+Swimming	Women	4x100 metres freestyle relay	93.83092819	3:35.22	Germany	Germany	2006	215.22
+Swimming	Women	4x100 metres freestyle relay	93.1333653	3:33.62	Netherlands	Netherlands	2008	213.62
+Swimming	Women	4x100 metres freestyle relay	92.30500937	3:31.72	Netherlands	Netherlands	2009	211.72
+Swimming	Women	4x100 metres freestyle relay	91.98238654	3:30.98	Australia	Australia	2014	210.98
+Swimming	Men	4x200 metres freestyle relay	100	7:30.54	USA	USA	1975	450.54
+Swimming	Men	4x200 metres freestyle relay	99.95338927	7:30.33	USA	USA	1976	450.33
+Swimming	Men	4x200 metres freestyle relay	98.37528299	7:23.22	USA	USA	1976	443.22
+Swimming	Men	4x200 metres freestyle relay	97.84258889	7:20.82	USA	USA	1978	440.82
+Swimming	Men	4x200 metres freestyle relay	97.74936743	7:20.40	West Germany	West Germany	1983	440.4
+Swimming	Men	4x200 metres freestyle relay	97.40977494	7:18.87	USA	USA	1984	438.87
+Swimming	Men	4x200 metres freestyle relay	96.70395525	7:15.69	USA	USA	1984	435.69
+Swimming	Men	4x200 metres freestyle relay	96.12908954	7:13.10	West Germany	West Germany	1987	433.1
+Swimming	Men	4x200 metres freestyle relay	95.99813557	7:12.51	USA	USA	1988	432.51
+Swimming	Men	4x200 metres freestyle relay	93.65428153	 7:11.95	Unified Team	Unified Team	1992	421.95
+Swimming	Men	4x200 metres freestyle relay	95.85386425	7:11.86	Australia	Australia	1998	431.86
+Swimming	Men	4x200 metres freestyle relay	95.17245972	7:08.79	Australia	Australia	1999	428.79
+Swimming	Men	4x200 metres freestyle relay	94.78625649	7:07.05	Australia	Australia	2000	427.05
+Swimming	Men	4x200 metres freestyle relay	94.25578195	7:04.66	Australia	Australia	2001	424.66
+Swimming	Men	4x200 metres freestyle relay	93.94060461	7:03.24	USA	USA	2007	423.24
+Swimming	Men	4x200 metres freestyle relay	92.90185111	6:58.56	USA	USA	2008	418.56
+Swimming	Men	4x200 metres freestyle relay	92.89963155	6:58.55	USA	USA	2009	418.55
+Swimming	Women	4x200 metres freestyle relay	100	8:02.27	East Germany	East Germany	1983	482.27
+Swimming	Women	4x200 metres freestyle relay	99.39038298	7:59.33	East Germany	East Germany	1986	479.33
+Swimming	Women	4x200 metres freestyle relay	98.59000145	7:55.47	East Germany	East Germany	1987	475.47
+Swimming	Women	4x200 metres freestyle relay	98.16492836	7:53.42	USA	USA	2004	473.42
+Swimming	Women	4x200 metres freestyle relay	97.62581127	7:50.82	Germany	Germany	2006	470.82
+Swimming	Women	4x200 metres freestyle relay	97.47444378	7:50.09	USA	USA	2007	470.09
+Swimming	Women	4x200 metres freestyle relay	96.27594501	7:44.31	Australia	Australia	2008	464.31
+Swimming	Women	4x200 metres freestyle relay	95.81354843	7:42.08	China	China	2009	462.08
+Swimming	Men	4x100 medley relay	100	3:48.16	USA	USA	1972	228.16
+Swimming	Men	4x100 medley relay	99.61430575	3:47.28	USA	USA	1976	227.28
+Swimming	Men	4x100 medley relay	97.39656381	3:42.22	USA	USA	1976	222.22
+Swimming	Men	4x100 medley relay	96.79172511	3:40.84	USA	USA	1982	220.84
+Swimming	Men	4x100 medley relay	96.60764376	3:40.42	USA	USA	1983	220.42
+Swimming	Men	4x100 medley relay	96.11676017	3:39.30	USA	USA	1984	219.3
+Swimming	Men	4x100 medley relay	95.66970547	3:38.28	USA	USA	1985	218.28
+Swimming	Men	4x100 medley relay	95.07801543	3:36.93	USA	USA	1988	216.93
+Swimming	Men	4x100 medley relay	95.07801543	3:36.93	USA	USA	1992	216.93
+Swimming	Men	4x100 medley relay	94.16199158	3:34.84	USA	USA	1996	214.84
+Swimming	Men	4x100 medley relay	93.67549088	3:33.73	USA	USA	2000	213.73
+Swimming	Men	4x100 medley relay	93.56591865	3:33.48	USA	USA	2002	213.48
+Swimming	Men	4x100 medley relay	92.71563815	3:31.54	USA	USA	2003	211.54
+Swimming	Men	4x100 medley relay	92.33870968	3:30.68	USA	USA	2004	210.68
+Swimming	Men	4x100 medley relay	91.75140252	3:29.34	USA	USA	2008	209.34
+Swimming	Men	4x100 medley relay	90.84852735	3:27.28	USA	USA	2009	207.28
+Swimming	Women	4x100 medley relay	100	4:13.78	East Germany	East Germany	1974	253.78
+Swimming	Women	4x100 medley relay	99.85420443	4:13.41	East Germany	East Germany	1976	253.41
+Swimming	Women	4x100 medley relay	97.70273465	4:07.95	East Germany	East Germany	1976	247.95
+Swimming	Women	4x100 medley relay	97.19836078	4:06.67	East Germany	East Germany	1980	246.67
+Swimming	Women	4x100 medley relay	96.88706754	4:05.88	East Germany	East Germany	1982	245.88
+Swimming	Women	4x100 medley relay	96.85160375	4:05.79	East Germany	East Germany	1983	245.79
+Swimming	Women	4x100 medley relay	96.02411538	4:03.69	East Germany	East Germany	1984	243.69
+Swimming	Women	4x100 medley relay	95.57096698	4:02.54	USA	USA	1992	242.54
+Swimming	Women	4x100 medley relay	95.22815037	4:01.67	China	China	1994	241.67
+Swimming	Women	4x100 medley relay	93.90022854	3:58.30	USA	USA	2000	238.3
+Swimming	Women	4x100 medley relay	93.5140673	3:57.32	Australia	Australia	2004	237.32
+Swimming	Women	4x100 medley relay	93.11214438	3:56.30	Australia	Australia	2006	236.3
+Swimming	Women	4x100 medley relay	92.89148081	3:55.74	Australia	Australia	2007	235.74
+Swimming	Women	4x100 medley relay	91.68965245	3:52.69	Australia	Australia	2008	232.69
+Swimming	Women	4x100 medley relay	91.49263141	3:52.19	China	China	2009	232.19
+Swimming	Women	4x100 medley relay	91.43746552	3:52.05	USA	USA	2012	232.05
