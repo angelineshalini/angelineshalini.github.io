@@ -293,10 +293,10 @@ function createOption(target, label, value) {
 }
 			
 
-var margin = {top: 150, right: 200, bottom: 30, left: 100},
+var margin = {top: 170, right: 200, bottom: 30, left: 80},
    // margin2 = {top: 330, right: 10, bottom: 20, left: 60},
     width = 1200 - margin.left - margin.right,
-    height =0.7*width;
+    height =0.4*width;
    // height2 = 400 - margin2.top - margin2.bottom;
 
 	
@@ -347,6 +347,7 @@ var svg = d3.select("body").append("svg")
 	.attr("viewBox", "0 0 1300 500")
     .attr("preserveAspectRatio", "xMinYMin meet")
 	.attr("class","svgtext")
+	.style("background-color", "lavender")
     .append("g")
     .attr("transform", "translate(" + margin.left + "," +0.5* margin.top +")");
 
