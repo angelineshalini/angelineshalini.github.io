@@ -699,6 +699,7 @@ Swimming	Women	Freestyle 400 metres	95.51829632	04:00.4	Federica Pellegrini	Ital
 Swimming	Women	Freestyle 400 metres	95.01768048	03:59.2	Federica Pellegrini	Italy	2009	2009	239.15	m:s
 Swimming	Women	Freestyle 400 metres	94.90245937	03:58.9	Katie Ledecky	USA	2014	2014	238.86	m:s
 Swimming	Women	Freestyle 400 metres	94.70777544	03:58.4	Katie Ledecky	USA	2014	2014	238.37	m:s
+Swimming	Women	Freestyle 400 metres	93.9489054	03:56.4	Katie Ledecky	USA	2016	2016	236.46	m:s
 Swimming	Men	Freestyle 800 metres	100	08:06.3	Stephen Holland	Australia	1976	1976	486.27	m:s
 Swimming	Men	Freestyle 800 metres	99.30902585	08:02.9	Stephen Holland	Australia	1976	1976	482.91	m:s
 Swimming	Men	Freestyle 800 metres	99.02728937	08:01.5	Bobby Hackett	USA	1976	1976	481.54	m:s
@@ -791,6 +792,7 @@ Swimming	Women	Butterfly 100 metres	93.23133211	56.06	Sarah Sjöström	Sweden	20
 Swimming	Women	Butterfly 100 metres	93.09828704	55.98	Dana Vollmer	USA	2012	2012	55.98	sec
 Swimming	Women	Butterfly 100 metres	92.69915184	55.74	Sarah Sjöström	Sweden	2015	2015	55.74	sec
 Swimming	Women	Butterfly 100 metres	92.5328455	55.64	Sarah Sjöström	Sweden	2015	2015	55.64	sec
+Swimming	Women	Butterfly 100 metres	92.26675536	55.48	Sarah Sjöström	Sweden	2016	2016	55.48	sec
 Swimming	Men	Butterfly 200 metres	100	02:00.2	Roger Pyttel	East Germany	1976	1976	120.21	m:s
 Swimming	Men	Butterfly 200 metres	99.51751102	01:59.6	Roger Pyttel	East Germany	1976	1976	119.63	m:s
 Swimming	Men	Butterfly 200 metres	99.18476	01:59.2	Mike Bruner	USA	1976	1976	119.23	m:s
@@ -861,6 +863,8 @@ Swimming	Men	Breaststroke 100 metres	92.2197871	58.91	Kosuke Kitajima	Japan	2008
 Swimming	Men	Breaststroke 100 metres	91.70319349	58.58	Brenton Rickard	Australia	2009	2009	58.58	sec
 Swimming	Men	Breaststroke 100 metres	91.51534126	58.46	Cameron van der Burgh	South Africa	2012	2012	58.46	sec
 Swimming	Men	Breaststroke 100 metres	90.67000626	57.92	Adam Peaty	United Kingdom	2015	2015	57.92	sec
+Swimming	Men	Breaststroke 100 metres	90.09079524	57.55	Adam Peaty	United Kingdom	2016	2016	57.55	sec
+Swimming	Men	Breaststroke 100 metres	89.43331246	57.13	Adam Peaty	United Kingdom	2016	2016	57.13	sec
 Swimming	Women	Breaststroke 100 metres	100	01:11.9	Carola Nitschke	East Germany	1976	1976	71.93	m:s
 Swimming	Women	Breaststroke 100 metres	98.86000278	01:11.1	Hannelore Anke	East Germany	1976	1976	71.11	m:s
 Swimming	Women	Breaststroke 100 metres	98.51244265	01:10.9	Hannelore Anke	East Germany	1976	1976	70.86	m:s
@@ -1086,6 +1090,7 @@ Swimming	Women	400 metres individual medley	93.99909969	04:31.5	Stephanie Rice	A
 Swimming	Women	400 metres individual medley	93.88136708	04:31.1	Katie Hoff	USA	2008	2008	271.12	m:s
 Swimming	Women	400 metres individual medley	93.30309221	04:29.5	Stephanie Rice	Australia	2008	2008	269.45	m:s
 Swimming	Women	400 metres individual medley	92.94989439	04:28.4	Ye Shiwen	China	2012	2012	268.43	m:s
+Swimming	Women	400 metres individual medley	92.94989439	04:26.36	Katinka Hosszu	Hungary	2016	2016	266.36	m:s
 Swimming	Men	4x100 metres freestyle relay	100	03:24.8	USA	USA	1976	1975	204.85	m:s
 Swimming	Men	4x100 metres freestyle relay	98.17427386	03:21.1	USA	USA	1977	1977	201.11	m:s
 Swimming	Men	4x100 metres freestyle relay	97.50549182	03:19.7	USA	USA	1978	1978	199.74	m:s
@@ -1114,6 +1119,7 @@ Swimming	Women	4x100 metres freestyle relay	94.06468531	03:35.2	Germany	Germany	
 Swimming	Women	4x100 metres freestyle relay	93.36538462	03:33.6	Netherlands	Netherlands	2008	2008	213.62	m:s
 Swimming	Women	4x100 metres freestyle relay	92.53496503	03:31.7	Netherlands	Netherlands	2009	2009	211.72	m:s
 Swimming	Women	4x100 metres freestyle relay	92.21153846	03:31.0	Australia	Australia	2014	2014	210.98	m:s
+Swimming	Women	4x100 metres freestyle relay	92.06730769	03:30.65	Australia	Australia	2016	2016	210.65	m:s
 Swimming	Men	4x200 metres freestyle relay	100	07:30.3	USA	USA	1976	1976	450.33	m:s
 Swimming	Men	4x200 metres freestyle relay	98.42115782	07:23.2	USA	USA	1976	1976	443.22	m:s
 Swimming	Men	4x200 metres freestyle relay	97.88821531	07:20.8	USA	USA	1978	1978	440.82	m:s
