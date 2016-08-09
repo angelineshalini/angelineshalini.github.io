@@ -419,7 +419,15 @@ note.append("text")
         .attr("text-anchor", "left")  
         .text("Data Source: Wikipedia")
 	
-   
+   // For Tooltip
+var div = d3.select("body").append("div")   
+    .attr("class", "tooltip")               
+    .style("opacity", 0);
+	
+	var div1 = d3.select("body").append("div")   
+    .attr("class", "tooltip")               
+    .style("opacity", 0);	
+	
    
 d3.tsv("data2.tsv", function(error, data) {
   if (error) throw error;
