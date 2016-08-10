@@ -152,6 +152,17 @@ statictxt{font-size:80%}
     top: 10px;
     left: 0;
 }
+
+
+ select {
+   width:195px;
+    border:2px solid #ccc;
+    
+    -ms-box-sizing:content-box;
+    -moz-box-sizing:content-box;
+    box-sizing:content-box;
+   
+}
 </style>
 <body>
 
@@ -164,18 +175,32 @@ statictxt{font-size:80%}
 <form name="info">
 <tr>
 
-<td><FONT COLOR="#4682B4">Gender:</td><td><select name ="gender" id ="gender" onchange ="configureDropDownLists(this,'evento');">
+<td><FONT COLOR="#4682B4"></td><td><select style="color:#4682B4" name ="gender" id ="gender" onchange ="configureDropDownLists(this,'evento');">
 <option value="Men"selected >Men</option>
 <option value="Women"  >Women</option></select>
 
-<td>Sport: </td>
-<td><select name="sport
-" id="sport" onchange="configureDropDownLists(this,'evento');">
+<td><FONT COLOR="#ff0000"></td><td><select style = 'color:#ff0000' name ="gender" id ="gender1" onchange = "configureDropDownLists1(this,'event1');">
+<option value="Men">Men</option>
+<option value="Women"  selected >Women</option></select>
+
+<tr><br><br>
+
+<td><FONT COLOR="#4682B4"></td>
+<td><select name="sport" style="color:#4682B4" id="sport" onchange="configureDropDownLists(this,'evento');">
 <option value="Athletics" >Athletics</option>
 <option value="Swimming">Swimming</option>
 </select></td>
-<td>Event: </FONT></td>
-<td><select name="event" id="evento" onchange = "updategraph();">
+
+<td><FONT COLOR="#ff0000"></td>
+<td><select name="sport" style='color:#ff0000' id="sport1" onchange="configureDropDownLists1(this,'event1');">
+<option value="Athletics" >Athletics</option>
+<option value="Swimming">Swimming</option>
+</select></td>
+
+<tr><br><br>
+
+<td><FONT COLOR="#4682B4"></FONT></td>
+<td><select name="event" style="color:#4682B4" id="evento" onchange = "updategraph();">
 <option value = "100 metres" selected>100 metres</option>
 <option value ="200 metres">200 metres</option>
 <option value ="400 metres">400 metres</option>
@@ -193,20 +218,9 @@ statictxt{font-size:80%}
 <option value ="50 km walk">50 km walk</option>
 </select></td>
 
-<tr><br><br>
-<td><FONT COLOR="#ff0000">Gender:</td><td><select name ="gender" id ="gender1" onchange = "configureDropDownLists1(this,'event1');">
-<option value="Men">Men</option>
-<option value="Women"  selected >Women</option></select>
 
-
-<td>Sport: </td>
-<td><select name="sport
-" id="sport1" onchange="configureDropDownLists1(this,'event1');">
-<option value="Athletics" >Athletics</option>
-<option value="Swimming">Swimming</option>
-</select></td>
-<td>Event: </FONT></td>
-<td><select name="event" id="event1" onchange = "updategraph();">
+<td><FONT COLOR="#ff0000"></FONT></td>
+<td><select name="event" style='color:#ff0000' id="event1" onchange = "updategraph();">
 <option value = "100 metres" selected>100 metres</option>
 <option value ="200 metres">200 metres</option>
 <option value ="400 metres">400 metres</option>
