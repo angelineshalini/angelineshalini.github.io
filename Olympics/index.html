@@ -78,6 +78,7 @@ body {
   fill: none;
   stroke: #000;
   shape-rendering: crispEdges;
+  stroke-width: 1.5px
 }
 svg {
   font: sans-serif;
@@ -92,27 +93,18 @@ statictxt{font-size:80%}
 	font-size: 120%;
 	fill:black;	}
 
-.axis path,
-.axis line {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
-}
 
-.axis2 {font-size :75%}
-
-.axis2 path, .axis2 line{fill :none;}
 
 
 .line {
   fill: none;
   stroke: steelblue;
-  stroke-width: 1.5px;
+  stroke-width: 2px;
 }
 .line2 {
   fill: none;
   stroke: red;
-  stroke-width: 1.5px;
+  stroke-width: 2px;
 }
 .line3 {
   fill: none;
@@ -651,7 +643,7 @@ $( "#resizable" ).resizable();
       .attr("class", "x axis")
 	  .attr("id","xaxis")
       .attr("transform", "translate(0," + (height-10) + ")")
-      .call(xAxis);
+	  .call(xAxis);
 
   svg.append("g")
       .attr("class", "y axis")
