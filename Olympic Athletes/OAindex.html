@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+circle {
+  fill: #000;
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+</style>
+<body>
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script>
+
+var margin = {top: 40, right: 40, bottom: 40, left: 40},
+    width = 1200 - margin.left - margin.right,
+    height = 1500 - margin.top - margin.bottom;
+
+	
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+	.style("background-color", "#33cc33")
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+d3.tsv("OAdata.tsv", function(error, data) {
+  if (error) throw error;
+  
+var node=	svg.selectAll("circle") 
+    .data(data)
+  .enter().append("circle")
+    .attr("r", 5)
+    .attr("cx", function (d){return d.x1})
+    .attr("cy", function (d){return d.y1})
+	
+	
+   node.append("image")
+      .attr("xlink:href", function(d)
+	  { if (d.Country == "germany") {return "germany.png"}})
+	  
+	  
+	  
+	  
+     node.transition()
+    .duration(2500)
+    .attr("cx", function (d){return d.x2})
+    .attr("cy", function (d){return d.y2})})
+	
+	
+</script>
