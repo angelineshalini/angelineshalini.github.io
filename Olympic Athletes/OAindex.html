@@ -306,7 +306,7 @@ d3.tsv("OAdata.tsv", function(error, data) {
  
  
   
- var svg =  d3.select("body").transition()
+ var svg =  d3.select("body").transition();
  
  svg.select(".ball").transition().duration(1500).attr('cx', 550).attr('cy', 300);
  svg.selectAll(".text1").transition().duration(500).delay(3500).text("All players are at equal distance from the ball.Click Play.")
@@ -370,7 +370,10 @@ var cells2 = rows2.selectAll("td").data(function(d, i) { return d; })
               .text(function(d, i) { return d; });
  
 
-                           
+	
+svg.select("#canvas1").transition()
+      .duration(500).attr("transform", "scale(5)");  
+
 svg.select(".ball").transition().duration(1000).delay(4150).attr('cx', 700).attr('cy', 300)
 
 svg.selectAll(".image2").transition().duration(1000).delay(750).style("opacity",0);			  

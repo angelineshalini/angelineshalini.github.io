@@ -1,0 +1,3060 @@
+Name	Gender	Country	Sport	Event	Age	Height	Weight
+Alec Potts	Men	Australia	Archery	Individual	20	1.85	77
+Ryan Tyack	Men	Australia	Archery	Individual	25	1.86	102
+Taylor Worth	Men	Australia	Archery	Individual	25	1.74	60
+Alice Ingley	Women	Australia	Archery	Individual	23	1.72	80
+Laurence Baldauff	Women	Austria	Archery	Individual	41	1.64	57
+Olga Senyuk	Women	Azerbaijan	Archery	Individual	25	1.75	53
+Anton Prilepov	Men	Belarus	Archery	Individual	32	1.86	96
+Robin Ramaekers	Men	Belgium	Archery	Individual	21	1.80	78
+Karma Karma	Women	Bhutan	Archery	Individual	26	1.63	51
+Bernardo Oliveira	Men	Brazil	Archery	Individual	23	1.73	70
+Daniel Rezende Xavier	Men	Brazil	Archery	Individual	33	1.91	81
+Marcus D'almeida	Men	Brazil	Archery	Individual	18	1.83	90
+Ane Marcelle dos Santos	Women	Brazil	Archery	Individual	22	1.53	53
+Marina Canetta	Women	Brazil	Archery	Individual	27	1.62	51
+Sarah Nikitin	Women	Brazil	Archery	Individual	27	1.70	75
+Crispin Duenas	Men	Canada	Archery	Individual	30	1.70	81
+Ricardo Soto	Men	Chile	Archery	Individual	16	1.83	88
+Dapeng Wang	Men	China	Archery	Individual	19	1.84	95
+Xuesong Gu	Men	China	Archery	Individual	23	1.78	76
+Yu Xing	Men	China	Archery	Individual	25	1.88	90
+Chun-Heng Wei	Men	Chinese Taipei	Archery	Individual	22	1.80	74
+Guan-Lin Yu	Men	Chinese Taipei	Archery	Individual	22	1.71	58
+Hao-Wen Kao	Men	Chinese Taipei	Archery	Individual	21	1.80	82
+Andres Pila	Men	Colombia	Archery	Individual	25	1.74	75
+Adrian Andres Puentes Perez	Men	Cuba	Archery	Individual	28	1.71	76
+Ahmed El-Nemr	Men	Egypt	Archery	Individual	37	1.83	84
+Robert Elder	Men	Fiji	Archery	Individual	35	1.94	115
+Samuli Piippo	Men	Finland	Archery	Individual	36	1.81	75
+Jean-Charles Valladont	Men	France	Archery	Individual	27	1.80	83
+Lucas Daniel	Men	France	Archery	Individual	21	1.80	80
+Pierre Plihon	Men	France	Archery	Individual	26	1.84	130
+Florian Floto	Men	Germany	Archery	Individual	28	1.88	105
+Patrick Huston	Men	Great Britain	Archery	Individual	20	1.83	84
+Atanu Das	Men	India	Archery	Individual	24	1.75	79
+Hendra Purnama	Men	Indonesia	Archery	Individual	19	1.69	64
+Muhammad Wijaya	Men	Indonesia	Archery	Individual	19	1.71	70
+Riau Ega Agatha	Men	Indonesia	Archery	Individual	24	1.75	70
+David Pasqualucci	Men	Italy	Archery	Individual	20	1.81	81
+Marco Galiazzo	Men	Italy	Archery	Individual	33	1.78	98
+Mauro Nespoli	Men	Italy	Archery	Individual	28	1.81	78
+Rene Philippe Kouassi	Men	Ivory Coast	Archery	Individual	36	1.90	83
+Takaharu Furukawa	Men	Japan	Archery	Individual	32	1.74	89
+Sultan Duzelbayev	Men	Kazakhstan	Archery	Individual	22	1.76	46
+Areneo David	Men	Malawi	Archery	Individual	21	1.64	58
+Haziq Kamaruddin	Men	Malaysia	Archery	Individual	23	1.78	75
+Khairul Anuar Mohamad	Men	Malaysia	Archery	Individual	24	1.71	75
+Muhammad Akmal Nor Hasrin	Men	Malaysia	Archery	Individual	21	1.80	74
+Ernesto Boardman	Men	Mexico	Archery	Individual	23	1.75	92
+Gantugs Jantsan	Men	Mongolia	Archery	Individual	44	1.75	73
+Jitbahadur Muktan	Men	Nepal	Archery	Individual	36	1.68	64
+Mitch Dielemans	Men	Netherlands	Archery	Individual	23	1.86	75
+Rick van der Ven	Men	Netherlands	Archery	Individual	25	1.81	76
+Sjef van den Berg	Men	Netherlands	Archery	Individual	21	1.83	75
+Baard Magnus Nesteng	Men	Norway	Archery	Individual	37	1.83	80
+Boris Balaz	Men	Slovakia	Archery	Individual	18	1.81	72
+Bonchan Ku	Men	South Korea	Archery	Individual	23	1.81	84
+Seungyun Lee	Men	South Korea	Archery	Individual	21	1.74	80
+Woojin Kim	Men	South Korea	Archery	Individual	24	1.80	95
+Antonio Fernandez	Men	Spain	Archery	Individual	25	1.84	76
+Juan Ignacio Rodriguez Liebana	Men	Spain	Archery	Individual	24	1.85	83
+Miguel Alvarino Garcia	Men	Spain	Archery	Individual	22	1.80	84
+Witthaya Thamwong	Men	Thailand	Archery	Individual	28	1.80	82
+Hans Arne Jensen	Men	Tonga	Archery	Individual	18	1.81	95
+Mete Gazoz	Men	Turkey	Archery	Individual	17	1.81	60
+Viktor Ruban	Men	Ukraine	Archery	Individual	35	1.78	70
+Brady Ellison	Men	United States	Archery	Individual	27	1.81	86
+Jake Kaminski	Men	United States	Archery	Individual	27	1.78	70
+Zach Garrett	Men	United States	Archery	Individual	21	1.78	63
+Elias Malave	Men	Venezuela	Archery	Individual	26	1.80	87
+Gavin Ben Sutherland	Men	Zimbabwe	Archery	Individual	37	1.86	78
+Georcy Thiffeault Picard	Women	Canada	Archery	Individual	25	1.76	78
+Hui Cao	Women	China	Archery	Individual	24	1.75	70
+Jiaxin Wu	Women	China	Archery	Individual	19	1.64	72
+Yuhong Qi	Women	China	Archery	Individual	26	1.66	78
+Chien-Ying Le	Women	Chinese Taipei	Archery	Individual	26	1.65	69
+Shih-Chia Lin	Women	Chinese Taipei	Archery	Individual	23	1.65	63
+Ya-Ting Tan	Women	Chinese Taipei	Archery	Individual	22	1.58	53
+Ana Maria Rendon	Women	Colombia	Archery	Individual	30	1.60	63
+Carolina Aguirre	Women	Colombia	Archery	Individual	20	1.60	59
+Natalia Sanchez	Women	Colombia	Archery	Individual	33	1.66	63
+Yessica Camilo Gonzalez	Women	Dominican Republic	Archery	Individual	23	1.68	73
+Reem Mansour	Women	Egypt	Archery	Individual	22	1.69	76
+Laura Nurmsalu	Women	Estonia	Archery	Individual	22	1.70	70
+Taru Kuoppa	Women	Finland	Archery	Individual	32	1.73	63
+Khatuna Narimanidze	Women	Georgia	Archery	Individual	42	1.75	79
+Kristine Esebua	Women	Georgia	Archery	Individual	31	1.62	69
+Yuliya Lobzhenidze	Women	Georgia	Archery	Individual	38	1.77	80
+Lisa Unruh	Women	Germany	Archery	Individual	28	1.80	68
+Naomi Folkard	Women	Great Britain	Archery	Individual	32	1.69	76
+Evangelia Psarra	Women	Greece	Archery	Individual	42	1.72	63
+Bombayla Devi Laishram	Women	India	Archery	Individual	31	1.64	60
+Deepika Kumari	Women	India	Archery	Individual	22	1.63	61
+Laxmirani Majhi	Women	India	Archery	Individual	27	1.61	56
+Ika Rochmawati	Women	Indonesia	Archery	Individual	27	1.65	52
+Zahra Nemati	Women	Iran	Archery	Individual	31	1.76	60
+Claudia Mandia	Women	Italy	Archery	Individual	23	1.70	74
+Guendalina Sartori	Women	Italy	Archery	Individual	28	1.69	90
+Lucilla Boari	Women	Italy	Archery	Individual	19	1.62	82
+Kaori Kawanaka	Women	Japan	Archery	Individual	25	1.59	51
+Saori Nagamine	Women	Japan	Archery	Individual	23	1.66	60
+Yuki Hayashi	Women	Japan	Archery	Individual	31	1.63	65
+Luiza Saidiyeva	Women	Kazakhstan	Archery	Individual	22	1.62	42
+Shehzana Anwar	Women	Kenya	Archery	Individual	26	1.60	55
+Aida Roman	Women	Mexico	Archery	Individual	28	1.69	64
+Alejandra Valencia	Women	Mexico	Archery	Individual	21	1.75	74
+Gabriela Bayardo	Women	Mexico	Archery	Individual	22	1.68	73
+Alexandra Mirca	Women	Moldova	Archery	Individual	22	1.68	70
+San Yu Htwe	Women	Myanmar	Archery	Individual	29	1.67	57
+Un Ju Kang	Women	North Korea	Archery	Individual	21	1.68	60
+Karina Lipiarska-Palka	Women	Poland	Archery	Individual	29	1.74	76
+Inna Stepanova	Women	Russia	Archery	Individual	26	1.76	63
+Ksenia Perova	Women	Russia	Archery	Individual	27	1.69	77
+Tuiana Dashidorzhieva	Women	Russia	Archery	Individual	20	1.69	57
+Alexandra Longova	Women	Slovakia	Archery	Individual	22	1.73	51
+Bobae Ki	Women	South Korea	Archery	Individual	28	1.67	57
+Hyejin Chang	Women	South Korea	Archery	Individual	29	1.58	50
+Misun Choi	Women	South Korea	Archery	Individual	20	1.68	53
+Adriana Martin	Women	Spain	Archery	Individual	20	1.62	65
+Christine Bjerendal	Women	Sweden	Archery	Individual	29	1.61	59
+Karoline Lusitania Tatafu	Women	Tonga	Archery	Individual	18	1.76	70
+Yasemin Anagoz	Women	Turkey	Archery	Individual	17	1.65	66
+Anastasia Pavlova	Women	Ukraine	Archery	Individual	21	1.72	53
+Lidiia Sichenikova	Women	Ukraine	Archery	Individual	23	1.83	69
+Veronika Marchenko	Women	Ukraine	Archery	Individual	23	1.57	48
+Mackenzie Brown	Women	United States	Archery	Individual	21	1.77	74
+Leidys Brito	Women	Venezuela	Archery	Individual	32	1.69	52
+Ane Marcelle dos Santos	Women	Brazil	Archery	Team	22	1.53	53
+Marina Canetta	Women	Brazil	Archery	Team	27	1.62	51
+Sarah Nikitin	Women	Brazil	Archery	Team	27	1.70	75
+Hui Cao	Women	China	Archery	Team	24	1.75	70
+Jiaxin Wu	Women	China	Archery	Team	19	1.64	72
+Yuhong Qi	Women	China	Archery	Team	26	1.66	78
+Chien-Ying Le	Women	Chinese Taipei	Archery	Team	26	1.65	69
+Shih-Chia Lin	Women	Chinese Taipei	Archery	Team	23	1.65	63
+Ya-Ting Tan	Women	Chinese Taipei	Archery	Team	22	1.58	53
+Ana Maria Rendon	Women	Colombia	Archery	Team	30	1.60	63
+Carolina Aguirre	Women	Colombia	Archery	Team	20	1.60	59
+Natalia Sanchez	Women	Colombia	Archery	Team	33	1.66	63
+Khatuna Narimanidze	Women	Georgia	Archery	Team	42	1.75	79
+Kristine Esebua	Women	Georgia	Archery	Team	31	1.62	69
+Yuliya Lobzhenidze	Women	Georgia	Archery	Team	38	1.77	80
+Bombayla Devi Laishram	Women	India	Archery	Team	31	1.64	60
+Deepika Kumari	Women	India	Archery	Team	22	1.63	61
+Laxmirani Majhi	Women	India	Archery	Team	27	1.61	56
+Claudia Mandia	Women	Italy	Archery	Team	23	1.70	74
+Guendalina Sartori	Women	Italy	Archery	Team	28	1.69	90
+Lucilla Boari	Women	Italy	Archery	Team	19	1.62	82
+Kaori Kawanaka	Women	Japan	Archery	Team	25	1.59	51
+Saori Nagamine	Women	Japan	Archery	Team	23	1.66	60
+Yuki Hayashi	Women	Japan	Archery	Team	31	1.63	65
+Aida Roman	Women	Mexico	Archery	Team	28	1.69	64
+Alejandra Valencia	Women	Mexico	Archery	Team	21	1.75	74
+Gabriela Bayardo	Women	Mexico	Archery	Team	22	1.68	73
+Inna Stepanova	Women	Russia	Archery	Team	26	1.76	63
+Ksenia Perova	Women	Russia	Archery	Team	27	1.69	77
+Tuiana Dashidorzhieva	Women	Russia	Archery	Team	20	1.69	57
+Bobae Ki	Women	South Korea	Archery	Team	28	1.67	57
+Hyejin Chang	Women	South Korea	Archery	Team	29	1.58	50
+Misun Choi	Women	South Korea	Archery	Team	20	1.68	53
+Anastasia Pavlova	Women	Ukraine	Archery	Team	21	1.72	53
+Lidiia Sichenikova	Women	Ukraine	Archery	Team	23	1.83	69
+Veronika Marchenko	Women	Ukraine	Archery	Team	23	1.57	48
+Kamia Yousufi	Women	Afghanistan	Athletics	100 metres	20	1.65	55
+Jordan Mageo	Women	American Samoa	Athletics	100 metres	19	1.72	68
+Liliana Neto	Women	Angola	Athletics	100 metres	19	1.66	57
+Melissa Breen	Women	Australia	Athletics	100 metres	25	1.74	65
+Shaunae Miller	Women	Bahamas	Athletics	100 metres	22	1.85	69
+Hajar Alkhaldi	Women	Bahrain	Athletics	100 metres	21	1.60	45
+Ana Claudia Silva	Women	Brazil	Athletics	100 metres	27	1.58	56
+Franciela Krasucki	Women	Brazil	Athletics	100 metres	28	1.68	63
+Rosangela Santos	Women	Brazil	Athletics	100 metres	25	1.66	64
+Ivet Lalova-Collio	Women	Bulgaria	Athletics	100 metres	32	1.68	56
+Crystal Emmanuel	Women	Canada	Athletics	100 metres	24	1.70	59
+Khamica Bingham	Women	Canada	Athletics	100 metres	22	1.60	60
+Lidiane Lopes	Women	Cape Verde	Athletics	100 metres	21	1.78	70
+Qiqi Yuan	Women	China	Athletics	100 metres	20	1.55	50
+Yongli Wei	Women	China	Athletics	100 metres	24	1.68	58
+Eliecith Palacios	Women	Colombia	Athletics	100 metres	28	1.70	64
+Evelyn Rivera	Women	Colombia	Athletics	100 metres	18	1.57	54
+Denika Kassim	Women	Comoros	Athletics	100 metres	19	1.57	44
+Cecilia Bouele	Women	Congo	Athletics	100 metres	23	1.66	60
+Patricia Taea	Women	Cook Islands	Athletics	100 metres	23	1.70	67
+Andrea Ivancevic	Women	Croatia	Athletics	100 metres	31	1.68	62
+Ramona Papaioannou	Women	Cyprus	Athletics	100 metres	27	1.70	63
+Angela Tenorio	Women	Ecuador	Athletics	100 metres	20	1.63	56
+Narcisa Landazuri	Women	Ecuador	Athletics	100 metres	25	1.66	55
+Ruddy Zang Milama	Women	Gabon	Athletics	100 metres	29	1.56	53
+Gina Luckenkemper	Women	Germany	Athletics	100 metres	19	1.70	56
+Lisa Mayer	Women	Germany	Athletics	100 metres	20	1.71	57
+Rebekka Haase	Women	Germany	Athletics	100 metres	23	1.70	58
+Tatjana Pinto	Women	Germany	Athletics	100 metres	24	1.70	56
+Asha Philip	Women	Great Britain	Athletics	100 metres	25	1.64	67
+Daryll Neita	Women	Great Britain	Athletics	100 metres	19	1.72	61
+Desiree Henry	Women	Great Britain	Athletics	100 metres	20	1.71	64
+Regine Tugade	Women	Guam	Athletics	100 metres	18	1.65	50
+Makoura Keita	Women	Guinea	Athletics	100 metres	21	1.75	71
+Brenessa Thompson	Women	Guyana	Athletics	100 metres	20	1.63	62
+Dutee Chand	Women	India	Athletics	100 metres	20	1.60	50
+Marie-Josee Ta Lou	Women	Ivory Coast	Athletics	100 metres	27	1.59	50
+Murielle Ahoure	Women	Ivory Coast	Athletics	100 metres	28	1.65	58
+Christania Williams	Women	Jamaica	Athletics	100 metres	21	1.65	63
+Elaine Thompson	Women	Jamaica	Athletics	100 metres	24	1.67	57
+Shelly-Ann Fraser-Pryce	Women	Jamaica	Athletics	100 metres	29	1.52	57
+Veronica Campbell-Brown	Women	Jamaica	Athletics	100 metres	34	1.68	58
+Chisato Fukushima	Women	Japan	Athletics	100 metres	28	1.65	52
+Olga Safronova	Women	Kazakhstan	Athletics	100 metres	24	1.71	62
+Rima Kashafutdinova	Women	Kazakhstan	Athletics	100 metres	21	1.60	48
+Viktoriya Zyabkina	Women	Kazakhstan	Athletics	100 metres	23	1.74	62
+Karitaake Tewaaki	Women	Kiribati	Athletics	100 metres	18	1.55	52
+Laenly Phoutthavong	Women	Laos	Athletics	100 metres	20	1.69	55
+Zaidatul Husniah Zulkifli	Women	Malaysia	Athletics	100 metres	22	1.56	40
+Charlotte Wingfield	Women	Malta	Athletics	100 metres	21	1.73	69
+Mariana Cress	Women	Marshall Islands	Athletics	100 metres	17	1.58	52
+Lerissa Henry	Women	Micronesia	Athletics	100 metres	18	1.53	57
+Dafne Schippers	Women	Netherlands	Athletics	100 metres	24	1.79	70
+Blessing Okagbare	Women	Nigeria	Athletics	100 metres	27	1.81	71
+Gloria Asumnu	Women	Nigeria	Athletics	100 metres	31	1.68	64
+Jennifer Madu	Women	Nigeria	Athletics	100 metres	21	1.68	65
+Peace Uko	Women	Nigeria	Athletics	100 metres	20	1.61	58
+Toea Wisil	Women	Papua New Guinea	Athletics	100 metres	28	1.62	63
+Ewa Swoboda	Women	Poland	Athletics	100 metres	19	1.67	60
+Marika Popowicz-Drapala	Women	Poland	Athletics	100 metres	28	1.64	55
+Lorene Dorcas Bazolo	Women	Portugal	Athletics	100 metres	33	1.70	60
+Kariman Abuljadayel	Women	Saudi Arabia	Athletics	100 metres	22	1.80	70
+Alyssa Conley	Women	South Africa	Athletics	100 metres	25	1.76	63
+Carina Horn	Women	South Africa	Athletics	100 metres	27	1.68	62
+Phumlile Ndzinisa	Women	Swaziland	Athletics	100 metres	23	1.70	57
+Mujinga Kambundji	Women	Switzerland	Athletics	100 metres	24	1.68	65
+Taina Halasima	Women	Tonga	Athletics	100 metres	18	1.63	65
+Kelly-Ann Baptiste	Women	Trinidad and Tobago	Athletics	100 metres	29	1.67	54
+Khalifa St Fort	Women	Trinidad and Tobago	Athletics	100 metres	18	1.65	50
+Michelle-Lee Ahye	Women	Trinidad and Tobago	Athletics	100 metres	24	1.60	64
+Semoy Hackett	Women	Trinidad and Tobago	Athletics	100 metres	27	1.73	61
+Khrystyna Stuy	Women	Ukraine	Athletics	100 metres	28	1.68	60
+Natalia Pohrebniak	Women	Ukraine	Athletics	100 metres	28	1.71	63
+Olesya Povkh	Women	Ukraine	Athletics	100 metres	28	1.67	63
+English Gardner	Women	United States	Athletics	100 metres	24	1.68	54
+Morolake Akinosun	Women	United States	Athletics	100 metres	22	1.63	60
+Tianna Bartoletta	Women	United States	Athletics	100 metres	30	1.68	58
+Tori Bowie	Women	United States	Athletics	100 metres	25	1.76	58
+Tahesia Harrigan-Scott	Women	Virgin Islands GB	Athletics	100 metres	34	1.58	56
+Juan Manuel Cano	Men	Argentina	Athletics	20 km walk	28	1.68	60
+Chris Erickson	Men	Australia	Athletics	20 km walk	34	1.75	60
+Dane Bird-Smith	Men	Australia	Athletics	20 km walk	24	1.87	72
+Jared Tallent	Men	Australia	Athletics	20 km walk	31	1.78	58
+Rhydian Cowley	Men	Australia	Athletics	20 km walk	25	1.81	65
+Aliaksandr Liakhovich	Men	Belarus	Athletics	20 km walk	27	1.72	65
+Dzianis Simanovich	Men	Belarus	Athletics	20 km walk	29	1.78	64
+Marco Antonio Rodriguez	Men	Bolivia	Athletics	20 km walk	22	1.80	66
+Caio Bonfim	Men	Brazil	Athletics	20 km walk	25	1.74	60
+Jose Alessandro Bagio	Men	Brazil	Athletics	20 km walk	35	1.72	63
+Moacir Zimmermann	Men	Brazil	Athletics	20 km walk	32	1.84	70
+Benjamin Thorne	Men	Canada	Athletics	20 km walk	23	1.80	56
+Evan Dunfee	Men	Canada	Athletics	20 km walk	25	1.86	65
+Inyaki Gomez	Men	Canada	Athletics	20 km walk	28	1.72	59
+Yerko Araya	Men	Chile	Athletics	20 km walk	30	1.78	64
+Ding Chen	Men	China	Athletics	20 km walk	24	1.75	62
+Zelin Cai	Men	China	Athletics	20 km walk	25	1.75	55
+Zhen Wang	Men	China	Athletics	20 km walk	24	1.75	55
+Eider Arevalo	Men	Colombia	Athletics	20 km walk	23	1.65	60
+Luis Fernando Lopez	Men	Colombia	Athletics	20 km walk	37	1.66	60
+Manuel Esteban Soto	Men	Colombia	Athletics	20 km walk	22	1.70	62
+Andres Chocho	Men	Ecuador	Athletics	20 km walk	32	1.70	66
+Brian Pintado	Men	Ecuador	Athletics	20 km walk	21	1.68	57
+Mauricio Arteaga	Men	Ecuador	Athletics	20 km walk	28	1.77	68
+Kevin Campion	Men	France	Athletics	20 km walk	28	1.83	63
+Christopher Linke	Men	Germany	Athletics	20 km walk	27	1.91	66
+Hagen Pohle	Men	Germany	Athletics	20 km walk	24	1.78	64
+Nils Brembach	Men	Germany	Athletics	20 km walk	23	1.84	70
+Tom Bosworth	Men	Great Britain	Athletics	20 km walk	26	1.78	54
+Alexandros Papamichail	Men	Greece	Athletics	20 km walk	27	1.78	63
+Erick Barrondo	Men	Guatemala	Athletics	20 km walk	25	1.78	60
+Jose Maria Raymundo	Men	Guatemala	Athletics	20 km walk	22	1.56	49
+Mate Helebrandt	Men	Hungary	Athletics	20 km walk	27	1.74	59
+Gurmeet Singh	Men	India	Athletics	20 km walk	31	1.72	60
+Manish Singh	Men	India	Athletics	20 km walk	25	1.74	65
+Hamidreza Zooravand	Men	Iran	Athletics	20 km walk	26	1.76	66
+Alex Wright	Men	Ireland	Athletics	20 km walk	25	1.75	62
+Brendan Boyce	Men	Ireland	Athletics	20 km walk	29	1.83	76
+Robert Heffernan	Men	Ireland	Athletics	20 km walk	38	1.71	58
+Matteo Giupponi	Men	Italy	Athletics	20 km walk	27	1.89	70
+Daisuke Matsunaga	Men	Japan	Athletics	20 km walk	21	1.74	60
+Eiki Takahashi	Men	Japan	Athletics	20 km walk	23	1.76	58
+Isamu Fujisawa	Men	Japan	Athletics	20 km walk	28	1.65	54
+Georgiy Sheiko	Men	Kazakhstan	Athletics	20 km walk	26	1.84	68
+Samuel Ireri Gathimba	Men	Kenya	Athletics	20 km walk	28	1.65	57
+Simon Wachira	Men	Kenya	Athletics	20 km walk	32	1.70	65
+Marius Savelskis	Men	Lithuania	Athletics	20 km walk	22	1.79	70
+Marius Ziukas	Men	Lithuania	Athletics	20 km walk	31	1.85	72
+Ever Palma	Men	Mexico	Athletics	20 km walk	24	1.66	62
+Julio Cesar Salazar	Men	Mexico	Athletics	20 km walk	23	1.76	60
+Pedro Daniel Gomez	Men	Mexico	Athletics	20 km walk	25	1.78	70
+Quentin Rew	Men	New Zealand	Athletics	20 km walk	32	1.74	60
+Paolo Yurivilca	Men	Peru	Athletics	20 km walk	20	1.69	62
+Artur Brzozowski	Men	Poland	Athletics	20 km walk	31	1.74	67
+Jakub Jelonek	Men	Poland	Athletics	20 km walk	31	1.85	67
+Lukasz Nowak	Men	Poland	Athletics	20 km walk	27	1.94	76
+Joao Vieira	Men	Portugal	Athletics	20 km walk	40	1.75	59
+Sergio Vieira	Men	Portugal	Athletics	20 km walk	40	1.74	60
+Anton Kucmin	Men	Slovakia	Athletics	20 km walk	32	1.80	64
+Lebogang Shange	Men	South Africa	Athletics	20 km walk	26	1.60	56
+Wayne Snyman	Men	South Africa	Athletics	20 km walk	31	1.77	65
+Byeongkwang Choe	Men	South Korea	Athletics	20 km walk	25	1.85	73
+Hyunsub Kim	Men	South Korea	Athletics	20 km walk	31	1.77	61
+Youngjun Byun	Men	South Korea	Athletics	20 km walk	32	1.75	59
+Alvaro Martin	Men	Spain	Athletics	20 km walk	22	1.79	63
+Francisco Arcilla	Men	Spain	Athletics	20 km walk	32	1.71	58
+Miguel Angel Lopez	Men	Spain	Athletics	20 km walk	28	1.81	70
+Perseus Karlstrom	Men	Sweden	Athletics	20 km walk	26	1.84	73
+Hassanine Sebei	Men	Tunisia	Athletics	20 km walk	32	1.77	60
+Ersin Tacir	Men	Turkey	Athletics	20 km walk	31	1.70	61
+Mert Atli	Men	Turkey	Athletics	20 km walk	23	1.91	70
+Igor Glavan	Men	Ukraine	Athletics	20 km walk	25	1.68	61
+Nazar Kovalenko	Men	Ukraine	Athletics	20 km walk	29	1.77	68
+Ruslan Dmytrenko	Men	Ukraine	Athletics	20 km walk	30	1.80	67
+Richard Vargas	Men	Venezuela	Athletics	20 km walk	21	1.75	58
+Thanh Ngung Nguyen	Men	Vietnam	Athletics	20 km walk	24	1.65	55
+Diana Khubeseryan	Women	Armenia	Athletics	200 metres	22	1.70	60
+Gayane Chiloyan	Women	Armenia	Athletics	200 metres	15	1.64	54
+Ella Nelson	Women	Australia	Athletics	200 metres	22	1.69	58
+Anthonique Strachan	Women	Bahamas	Athletics	200 metres	22	1.68	57
+Shaunae Miller	Women	Bahamas	Athletics	200 metres	22	1.85	69
+Sheniqua Ferguson	Women	Bahamas	Athletics	200 metres	26	1.71	57
+Edidiong Ofonime Odiong	Women	Bahrain	Athletics	200 metres	19	1.67	58
+Salwa Eid Naser	Women	Bahrain	Athletics	200 metres	18	1.68	54
+Sada Williams	Women	Barbados	Athletics	200 metres	18	1.78	53
+Cynthia Bolingo	Women	Belgium	Athletics	200 metres	23	1.65	53
+Olivia Borlee	Women	Belgium	Athletics	200 metres	30	1.72	57
+Ana Claudia Silva	Women	Brazil	Athletics	200 metres	27	1.58	56
+Kauiza Venancio	Women	Brazil	Athletics	200 metres	29	1.64	58
+Rosangela Santos	Women	Brazil	Athletics	200 metres	25	1.66	64
+Vitoria Cristina Rosa	Women	Brazil	Athletics	200 metres	20	1.70	60
+Maizurah Abdul Rahim	Women	Brunei Darussalam	Athletics	200 metres	17	1.47	50
+Ivet Lalova-Collio	Women	Bulgaria	Athletics	200 metres	32	1.68	56
+Crystal Emmanuel	Women	Canada	Athletics	200 metres	24	1.70	59
+Kimberly Hyacinthe	Women	Canada	Athletics	200 metres	27	1.79	65
+Isidora Jimenez	Women	Chile	Athletics	200 metres	22	1.70	56
+Arialis J. Gandulla	Women	Cuba	Athletics	200 metres	21	1.70	75
+Eleni Artymata	Women	Cyprus	Athletics	200 metres	30	1.77	62
+Ramona Papaioannou	Women	Cyprus	Athletics	200 metres	27	1.70	63
+Mariely Sanchez	Women	Dominican Republic	Athletics	200 metres	27	1.61	52
+Angela Tenorio	Women	Ecuador	Athletics	200 metres	20	1.63	56
+Gina Luckenkemper	Women	Germany	Athletics	200 metres	19	1.70	56
+Lisa Mayer	Women	Germany	Athletics	200 metres	20	1.71	57
+Nadine Gonska	Women	Germany	Athletics	200 metres	26	1.68	58
+Dina Asher-Smith	Women	Great Britain	Athletics	200 metres	20	1.64	55
+Jodie Williams	Women	Great Britain	Athletics	200 metres	22	1.73	65
+Maria Belimpasaki	Women	Greece	Athletics	200 metres	25	1.75	64
+Brenessa Thompson	Women	Guyana	Athletics	200 metres	20	1.63	62
+Srabani Nanda	Women	India	Athletics	200 metres	25	1.64	54
+Gloria Hooper	Women	Italy	Athletics	200 metres	24	1.74	63
+Marie-Josee Ta Lou	Women	Ivory Coast	Athletics	200 metres	27	1.59	50
+Murielle Ahoure	Women	Ivory Coast	Athletics	200 metres	28	1.65	58
+Elaine Thompson	Women	Jamaica	Athletics	200 metres	24	1.67	57
+Kali Davis-White	Women	Jamaica	Athletics	200 metres	21	1.70	64
+Simone Facey	Women	Jamaica	Athletics	200 metres	31	1.62	53
+Veronica Campbell-Brown	Women	Jamaica	Athletics	200 metres	34	1.68	58
+Chisato Fukushima	Women	Japan	Athletics	200 metres	28	1.65	52
+Olga Safronova	Women	Kazakhstan	Athletics	200 metres	24	1.71	62
+Viktoriya Zyabkina	Women	Kazakhstan	Athletics	200 metres	23	1.74	62
+Aurelie Alcindor	Women	Mauritius	Athletics	200 metres	22	1.69	47
+Dafne Schippers	Women	Netherlands	Athletics	200 metres	24	1.79	70
+Jamile Samuel	Women	Netherlands	Athletics	200 metres	24	1.68	59
+Tessa van Schagen	Women	Netherlands	Athletics	200 metres	22	1.68	62
+Blessing Okagbare	Women	Nigeria	Athletics	200 metres	27	1.81	71
+Anna Kielbasinska	Women	Poland	Athletics	200 metres	26	1.70	59
+Lorene Dorcas Bazolo	Women	Portugal	Athletics	200 metres	33	1.70	60
+Celiangeli Morales	Women	Puerto Rico	Athletics	200 metres	30	1.65	63
+Maja Mihalinec	Women	Slovenia	Athletics	200 metres	26	1.68	65
+Sabina Veit	Women	Slovenia	Athletics	200 metres	30	1.67	59
+Alyssa Conley	Women	South Africa	Athletics	200 metres	25	1.76	63
+Justine Palframan	Women	South Africa	Athletics	200 metres	22	1.71	64
+Margret Hassan	Women	South Sudan	Athletics	200 metres	18	1.60	55
+Estela Garcia	Women	Spain	Athletics	200 metres	27	1.70	56
+Mujinga Kambundji	Women	Switzerland	Athletics	200 metres	24	1.68	65
+Kristina Pronzhenko	Women	Tajikistan	Athletics	200 metres	27	1.72	60
+Kai Selvon	Women	Trinidad and Tobago	Athletics	200 metres	24	1.65	59
+Michelle-Lee Ahye	Women	Trinidad and Tobago	Athletics	200 metres	24	1.60	64
+Reyare Thomas	Women	Trinidad and Tobago	Athletics	200 metres	28	1.69	59
+Semoy Hackett	Women	Trinidad and Tobago	Athletics	200 metres	27	1.73	61
+Yelena Ryabova	Women	Turkmenistan	Athletics	200 metres	25	1.70	56
+Natalia Pohrebniak	Women	Ukraine	Athletics	200 metres	28	1.71	63
+Nataliya Strohova	Women	Ukraine	Athletics	200 metres	23	1.69	65
+Yelyzaveta Bryzgina	Women	Ukraine	Athletics	200 metres	26	1.73	63
+Allyson Felix	Women	United States	Athletics	200 metres	30	1.68	56
+Jenna Prandini	Women	United States	Athletics	200 metres	23	1.73	59
+Tori Bowie	Women	United States	Athletics	200 metres	25	1.76	58
+Nercely Soto	Women	Venezuela	Athletics	200 metres	25	1.69	55
+Ashley Kelly	Women	Virgin Islands GB	Athletics	200 metres	25	1.73	75
+Laverne Jones-Ferrette	Women	Virgin Islands US	Athletics	200 metres	34	1.73	68
+Hanin Thabit	Women	Yemen	Athletics	200 metres	18	1.67	52
+Kabange Mupopo	Women	Zambia	Athletics	200 metres	23	1.70	62
+Luiza Gega	Women	Albania	Athletics	3000 metres steeplechase	27	1.59	45
+Amina Bettiche	Women	Algeria	Athletics	3000 metres steeplechase	28	1.65	55
+Belen Casetta	Women	Argentina	Athletics	3000 metres steeplechase	21	1.63	52
+Genevieve Lacaze	Women	Australia	Athletics	3000 metres steeplechase	27	1.64	53
+Madeline Heiner Hills	Women	Australia	Athletics	3000 metres steeplechase	29	1.74	53
+Victoria Mitchell	Women	Australia	Athletics	3000 metres steeplechase	34	1.64	47
+Ruth Jebet	Women	Bahrain	Athletics	3000 metres steeplechase	19	1.62	51
+Anastasiya Puzakova	Women	Belarus	Athletics	3000 metres steeplechase	22	1.61	45
+Sviatlana Kudzelich	Women	Belarus	Athletics	3000 metres steeplechase	29	1.70	51
+Juliana Paula dos Santos	Women	Brazil	Athletics	3000 metres steeplechase	33	1.65	50
+Silvia Danekova	Women	Bulgaria	Athletics	3000 metres steeplechase	33	1.67	49
+Erin Teschuk	Women	Canada	Athletics	3000 metres steeplechase	21	1.63	52
+Genevieve Lalonde	Women	Canada	Athletics	3000 metres steeplechase	24	1.70	58
+Maria Bernard	Women	Canada	Athletics	3000 metres steeplechase	23	1.65	53
+Xinyan Zhang	Women	China	Athletics	3000 metres steeplechase	22	1.70	55
+Muriel Coneo	Women	Colombia	Athletics	3000 metres steeplechase	29	1.60	50
+Anna Emilie Moller	Women	Denmark	Athletics	3000 metres steeplechase	19	1.66	52
+Etenesh Diro	Women	Ethiopia	Athletics	3000 metres steeplechase	25	1.68	49
+Hiwot Ayalew	Women	Ethiopia	Athletics	3000 metres steeplechase	26	1.73	53
+Sofia Assefa	Women	Ethiopia	Athletics	3000 metres steeplechase	28	1.67	52
+Sandra Eriksson	Women	Finland	Athletics	3000 metres steeplechase	27	1.63	47
+Gesa Felicitas Krause	Women	Germany	Athletics	3000 metres steeplechase	24	1.67	51
+Maya Rehberg	Women	Germany	Athletics	3000 metres steeplechase	22	1.70	58
+Sanaa Koubaa	Women	Germany	Athletics	3000 metres steeplechase	31	1.70	56
+Lennie Waite	Women	Great Britain	Athletics	3000 metres steeplechase	30	1.71	59
+Lalita Shivaji Babar	Women	India	Athletics	3000 metres steeplechase	27	1.66	50
+Sudha Singh	Women	India	Athletics	3000 metres steeplechase	30	1.58	45
+Kerry O'Flaherty	Women	Ireland	Athletics	3000 metres steeplechase	35	1.67	53
+Michelle Finn	Women	Ireland	Athletics	3000 metres steeplechase	26	1.52	51
+Sara Louise Treacy	Women	Ireland	Athletics	3000 metres steeplechase	27	1.68	58
+Aisha Praught	Women	Jamaica	Athletics	3000 metres steeplechase	26	1.62	50
+Anju Takamizawa	Women	Japan	Athletics	3000 metres steeplechase	20	1.65	50
+Beatrice Chepkoech	Women	Kenya	Athletics	3000 metres steeplechase	25	1.70	54
+Hyvin Kiyeng Jepkemoi	Women	Kenya	Athletics	3000 metres steeplechase	24	1.62	42
+Lydia Chebet Rotich	Women	Kenya	Athletics	3000 metres steeplechase	28	1.57	45
+Eliane Saholinirina	Women	Madagascar	Athletics	3000 metres steeplechase	34	1.54	46
+Fadwa Sidi Madane	Women	Morocco	Athletics	3000 metres steeplechase	21	1.75	56
+Salima Elouali Alami	Women	Morocco	Athletics	3000 metres steeplechase	32	1.79	58
+Matylda Kowal	Women	Poland	Athletics	3000 metres steeplechase	27	1.70	51
+Ancuta Bobocel	Women	Romania	Athletics	3000 metres steeplechase	28	1.67	49
+Marusa Mismas	Women	Slovenia	Athletics	3000 metres steeplechase	21	1.61	50
+Diana Martin	Women	Spain	Athletics	3000 metres steeplechase	35	1.63	50
+Charlotta Fougberg	Women	Sweden	Athletics	3000 metres steeplechase	31	1.65	51
+Fabienne Schlumpf	Women	Switzerland	Athletics	3000 metres steeplechase	25	1.83	63
+Habiba Ghribi	Women	Tunisia	Athletics	3000 metres steeplechase	32	1.74	51
+Meryem Akdag	Women	Turkey	Athletics	3000 metres steeplechase	24	1.71	51
+Ozlem Kaya	Women	Turkey	Athletics	3000 metres steeplechase	26	1.65	47
+Tugba Guvenc	Women	Turkey	Athletics	3000 metres steeplechase	22	1.73	52
+Mariya Shatalova	Women	Ukraine	Athletics	3000 metres steeplechase	27	1.69	56
+Colleen Quigley	Women	United States	Athletics	3000 metres steeplechase	23	1.76	61
+Courtney Frerichs	Women	United States	Athletics	3000 metres steeplechase	23	1.71	53
+Emma Coburn	Women	United States	Athletics	3000 metres steeplechase	25	1.73	54
+Anneliese Rubie	Women	Australia	Athletics	4 x 400 metres relay	24	1.71	58
+Caitlin Sargent-Jones	Women	Australia	Athletics	4 x 400 metres relay	24	1.71	60
+Jessica Thornton	Women	Australia	Athletics	4 x 400 metres relay	18	1.70	59
+Lauren Wells	Women	Australia	Athletics	4 x 400 metres relay	28	1.78	66
+Monica Brennan	Women	Australia	Athletics	4 x 400 metres relay	22	1.75	58
+Morgan Mitchell	Women	Australia	Athletics	4 x 400 metres relay	21	1.77	63
+Chris Brown	Men	Bahamas	Athletics	4 x 400 metres relay	37	1.78	75
+Demetrius Pinder	Men	Bahamas	Athletics	4 x 400 metres relay	27	1.78	70
+Michael Mathieu	Men	Bahamas	Athletics	4 x 400 metres relay	32	1.78	76
+Anthonique Strachan	Women	Bahamas	Athletics	4 x 400 metres relay	22	1.68	57
+Christine Amertil	Women	Bahamas	Athletics	4 x 400 metres relay	36	1.68	54
+Shaunae Miller	Women	Bahamas	Athletics	4 x 400 metres relay	22	1.85	69
+Antoine Gillet	Men	Belgium	Athletics	4 x 400 metres relay	28	1.85	78
+Dylan Borlee	Men	Belgium	Athletics	4 x 400 metres relay	23	1.90	78
+Jonathan Borlee	Men	Belgium	Athletics	4 x 400 metres relay	28	1.80	69
+Julien Watrin	Men	Belgium	Athletics	4 x 400 metres relay	24	1.89	83
+Kevin Borlee	Men	Belgium	Athletics	4 x 400 metres relay	28	1.80	67
+Robin Vanderbemden	Men	Belgium	Athletics	4 x 400 metres relay	22	1.83	74
+Isaac Makwala	Men	Botswana	Athletics	4 x 400 metres relay	30	1.85	78
+Nijel Amos	Men	Botswana	Athletics	4 x 400 metres relay	22	1.79	60
+Alexander Russo	Men	Brazil	Athletics	4 x 400 metres relay	22	1.73	61
+Hederson Estefani	Men	Brazil	Athletics	4 x 400 metres relay	24	1.83	65
+Hugo de Sousa	Men	Brazil	Athletics	4 x 400 metres relay	29	1.87	74
+Lucas Carvalho	Men	Brazil	Athletics	4 x 400 metres relay	23	1.75	51
+Pedro Luiz de Oliveira	Men	Brazil	Athletics	4 x 400 metres relay	24	1.80	83
+Peterson dos Santos	Men	Brazil	Athletics	4 x 400 metres relay	25	1.81	70
+Cristiane Silva	Women	Brazil	Athletics	4 x 400 metres relay	28	1.62	54
+Geisa Aparecida Coutinho	Women	Brazil	Athletics	4 x 400 metres relay	36	1.61	55
+Jailma de Lima	Women	Brazil	Athletics	4 x 400 metres relay	29	1.74	65
+Joelma Sousa	Women	Brazil	Athletics	4 x 400 metres relay	32	1.72	49
+Leticia de Souza	Women	Brazil	Athletics	4 x 400 metres relay	20	1.65	49
+Tabata de Carvalho	Women	Brazil	Athletics	4 x 400 metres relay	20	1.71	61
+Alicia Brown	Women	Canada	Athletics	4 x 400 metres relay	26	1.65	57
+Carline Muir	Women	Canada	Athletics	4 x 400 metres relay	28	1.70	65
+Chanice Chase	Women	Canada	Athletics	4 x 400 metres relay	23	1.73	61
+Kendra Clarke	Women	Canada	Athletics	4 x 400 metres relay	19	1.67	56
+Micha Powell	Women	Canada	Athletics	4 x 400 metres relay	21	1.77	55
+Sage Watson	Women	Canada	Athletics	4 x 400 metres relay	22	1.80	57
+Anthony Zambrano	Men	Colombia	Athletics	4 x 400 metres relay	18	1.84	72
+Bernardo Baloyes	Men	Colombia	Athletics	4 x 400 metres relay	22	1.68	66
+Carlos Lemos	Men	Colombia	Athletics	4 x 400 metres relay	28	1.83	76
+Diego Palomeque	Men	Colombia	Athletics	4 x 400 metres relay	22	1.78	67
+Jhon Perlaza	Men	Colombia	Athletics	4 x 400 metres relay	21	1.80	62
+Rafith Rodriguez	Men	Colombia	Athletics	4 x 400 metres relay	27	1.90	75
+Adrian Chacon	Men	Cuba	Athletics	4 x 400 metres relay	27	1.87	90
+Jose Luis Gaspar	Men	Cuba	Athletics	4 x 400 metres relay	20	1.88	72
+Leandro Zamora	Men	Cuba	Athletics	4 x 400 metres relay	20	1.86	72
+Osmaidel Pellicier	Men	Cuba	Athletics	4 x 400 metres relay	24	1.88	88
+William Collazo	Men	Cuba	Athletics	4 x 400 metres relay	29	1.72	71
+Yoandys Lescay	Men	Cuba	Athletics	4 x 400 metres relay	22	1.81	77
+Daisurami Bonne	Women	Cuba	Athletics	4 x 400 metres relay	28	1.71	60
+Gilda Casanova	Women	Cuba	Athletics	4 x 400 metres relay	20	1.65	54
+Lisneidy Veitia	Women	Cuba	Athletics	4 x 400 metres relay	22	1.68	58
+Roxana Gomez	Women	Cuba	Athletics	4 x 400 metres relay	17	1.69	49
+Sahily Diago	Women	Cuba	Athletics	4 x 400 metres relay	20	1.69	49
+Gustavo Cuesta	Men	Dominican Republic	Athletics	4 x 400 metres relay	27	1.73	66
+Juander Santos	Men	Dominican Republic	Athletics	4 x 400 metres relay	21	1.71	58
+Luguelin Santos	Men	Dominican Republic	Athletics	4 x 400 metres relay	22	1.63	55
+Luis Charles	Men	Dominican Republic	Athletics	4 x 400 metres relay	17	1.83	65
+Maximo Mercedes	Men	Dominican Republic	Athletics	4 x 400 metres relay	27	1.86	70
+Yon Soriano	Men	Dominican Republic	Athletics	4 x 400 metres relay	29	1.66	62
+Ludvy Vaillant	Men	France	Athletics	4 x 400 metres relay	21	1.80	67
+Mamadou Kasse Hann	Men	France	Athletics	4 x 400 metres relay	29	1.89	79
+Mame-Ibra Anne	Men	France	Athletics	4 x 400 metres relay	26	1.84	70
+Mamoudou Eliman Hanne	Men	France	Athletics	4 x 400 metres relay	28	1.86	72
+Teddy Atine - Venel	Men	France	Athletics	4 x 400 metres relay	31	1.84	77
+Thomas Jordier	Men	France	Athletics	4 x 400 metres relay	21	1.70	65
+Agnes Raharolahy	Women	France	Athletics	4 x 400 metres relay	23	1.67	58
+Brigitte Ntiamoah	Women	France	Athletics	4 x 400 metres relay	22	1.72	66
+Elea Mariama Diarra	Women	France	Athletics	4 x 400 metres relay	26	1.76	56
+Floria Guei	Women	France	Athletics	4 x 400 metres relay	26	1.66	53
+Marie Gayot	Women	France	Athletics	4 x 400 metres relay	26	1.71	58
+Phara Anacharsis	Women	France	Athletics	4 x 400 metres relay	32	1.77	58
+Daniela Ferenz	Women	Germany	Athletics	4 x 400 metres relay	26	1.71	61
+Friederike Mohlenkamp	Women	Germany	Athletics	4 x 400 metres relay	23	1.76	63
+Lara Hoffmann	Women	Germany	Athletics	4 x 400 metres relay	25	1.73	68
+Laura Muller	Women	Germany	Athletics	4 x 400 metres relay	20	1.72	58
+Nadine Gonska	Women	Germany	Athletics	4 x 400 metres relay	26	1.68	58
+Ruth Sophia Spelmeyer	Women	Germany	Athletics	4 x 400 metres relay	25	1.73	59
+Delanno Williams	Men	Great Britain	Athletics	4 x 400 metres relay	22	1.80	73
+Jarryd Dunn	Men	Great Britain	Athletics	4 x 400 metres relay	24	1.84	74
+Martyn Rooney	Men	Great Britain	Athletics	4 x 400 metres relay	29	1.98	81
+Matthew Hudson-Smith	Men	Great Britain	Athletics	4 x 400 metres relay	21	1.94	78
+Nigel Levine	Men	Great Britain	Athletics	4 x 400 metres relay	27	1.76	72
+Rabah Yousif	Men	Great Britain	Athletics	4 x 400 metres relay	29	1.86	74
+Anyika Onuora	Women	Great Britain	Athletics	4 x 400 metres relay	31	1.78	76
+Christine Ohuruogu	Women	Great Britain	Athletics	4 x 400 metres relay	32	1.72	70
+Emily Diamond	Women	Great Britain	Athletics	4 x 400 metres relay	25	1.73	58
+Kelly Massey	Women	Great Britain	Athletics	4 x 400 metres relay	31	1.67	58
+Margaret Adeoye	Women	Great Britain	Athletics	4 x 400 metres relay	31	1.74	68
+Seren Bundy-Davies	Women	Great Britain	Athletics	4 x 400 metres relay	21	1.75	63
+Arokia Rajiv	Men	India	Athletics	4 x 400 metres relay	25	1.77	64
+Ayyasamy Dharun	Men	India	Athletics	4 x 400 metres relay	19	1.77	64
+Kunhu Muhammed Puthanpurakkal	Men	India	Athletics	4 x 400 metres relay	29	1.72	70
+Muhammed Anas Yahiya	Men	India	Athletics	4 x 400 metres relay	21	1.77	69
+Ashwini Chidananda Akkunji	Women	India	Athletics	4 x 400 metres relay	28	1.75	58
+Debashree Mazumdar	Women	India	Athletics	4 x 400 metres relay	25	1.64	53
+Jisna Mathew	Women	India	Athletics	4 x 400 metres relay	17	1.56	45
+Poovamma Raju Machettira	Women	India	Athletics	4 x 400 metres relay	26	1.74	58
+Chiara Bazzoni	Women	Italy	Athletics	4 x 400 metres relay	32	1.72	58
+Elena Maria Bonfanti	Women	Italy	Athletics	4 x 400 metres relay	28	1.72	52
+Libania Grenot	Women	Italy	Athletics	4 x 400 metres relay	33	1.75	60
+Maria Enrica Spacca	Women	Italy	Athletics	4 x 400 metres relay	30	1.64	55
+Mariabenedicta Chigbolu	Women	Italy	Athletics	4 x 400 metres relay	27	1.72	52
+Marta Milani	Women	Italy	Athletics	4 x 400 metres relay	29	1.72	59
+Fitzroy Dunkley	Men	Jamaica	Athletics	4 x 400 metres relay	23	1.96	80
+Javere Bell	Men	Jamaica	Athletics	4 x 400 metres relay	23	1.83	77
+Javon Francis	Men	Jamaica	Athletics	4 x 400 metres relay	21	1.83	68
+Peter Matthews	Men	Jamaica	Athletics	4 x 400 metres relay	26	1.88	84
+Rusheen McDonald	Men	Jamaica	Athletics	4 x 400 metres relay	23	1.75	81
+Anneisha McLaughlin-Whilby	Women	Jamaica	Athletics	4 x 400 metres relay	30	1.70	66
+Chrisann Gordon	Women	Jamaica	Athletics	4 x 400 metres relay	21	1.68	65
+Christine Day	Women	Jamaica	Athletics	4 x 400 metres relay	29	1.68	51
+Novlene Williams-Mills	Women	Jamaica	Athletics	4 x 400 metres relay	34	1.68	57
+Shericka Jackson	Women	Jamaica	Athletics	4 x 400 metres relay	22	1.73	61
+Stephenie Ann McPherson	Women	Jamaica	Athletics	4 x 400 metres relay	27	1.73	57
+Julian Jrummi Walsh	Men	Japan	Athletics	4 x 400 metres relay	19	1.75	75
+Kentaro Sato	Men	Japan	Athletics	4 x 400 metres relay	21	1.74	64
+Nobuya Kato	Men	Japan	Athletics	4 x 400 metres relay	21	1.85	70
+Takamasa Kitagawa	Men	Japan	Athletics	4 x 400 metres relay	19	1.77	69
+Tomoya Tamura	Men	Japan	Athletics	4 x 400 metres relay	23	1.78	68
+Yuzo Kanemaru	Men	Japan	Athletics	4 x 400 metres relay	28	1.78	75
+Eva Hovenkamp	Women	Netherlands	Athletics	4 x 400 metres relay	20	1.73	65
+Laura de Witte	Women	Netherlands	Athletics	4 x 400 metres relay	21	1.73	61
+Lisanne de Witte	Women	Netherlands	Athletics	4 x 400 metres relay	23	1.75	65
+Madiea Ghafoor	Women	Netherlands	Athletics	4 x 400 metres relay	23	1.69	55
+Nicky van Leuveren	Women	Netherlands	Athletics	4 x 400 metres relay	26	1.75	58
+Margaret Bamgbose	Women	Nigeria	Athletics	4 x 400 metres relay	22	1.71	63
+Omolara Omotoso	Women	Nigeria	Athletics	4 x 400 metres relay	23	1.52	50
+Patience Okon George	Women	Nigeria	Athletics	4 x 400 metres relay	24	1.69	63
+Jakub Krzewina	Men	Poland	Athletics	4 x 400 metres relay	26	1.82	79
+Kacper Kozlowski	Men	Poland	Athletics	4 x 400 metres relay	29	1.77	72
+Karol Zalewski	Men	Poland	Athletics	4 x 400 metres relay	23	1.89	86
+Lukasz Krawczuk	Men	Poland	Athletics	4 x 400 metres relay	27	1.84	75
+Michal Pietrzak	Men	Poland	Athletics	4 x 400 metres relay	27	1.85	80
+Rafal Omelko	Men	Poland	Athletics	4 x 400 metres relay	27	1.94	82
+Ewelina Ptak	Women	Poland	Athletics	4 x 400 metres relay	29	1.65	57
+Iga Baumgart	Women	Poland	Athletics	4 x 400 metres relay	27	1.78	58
+Justyna Swiety	Women	Poland	Athletics	4 x 400 metres relay	23	1.65	57
+Malgorzata Holub	Women	Poland	Athletics	4 x 400 metres relay	23	1.68	57
+Martyna Dabrowska	Women	Poland	Athletics	4 x 400 metres relay	22	1.76	56
+Patrycja Wyciszkiewicz	Women	Poland	Athletics	4 x 400 metres relay	22	1.73	58
+Adelina Pastor	Women	Romania	Athletics	4 x 400 metres relay	23	1.68	56
+Anamaria Ionita	Women	Romania	Athletics	4 x 400 metres relay	28	1.75	60
+Andrea Miklos	Women	Romania	Athletics	4 x 400 metres relay	17	1.65	51
+Bianca Razor	Women	Romania	Athletics	4 x 400 metres relay	22	1.70	59
+Florina Pierdevara	Women	Romania	Athletics	4 x 400 metres relay	26	1.72	53
+Sanda Belgyan	Women	Romania	Athletics	4 x 400 metres relay	23	1.65	53
+Deon Lendore	Men	Trinidad and Tobago	Athletics	4 x 400 metres relay	23	1.79	75
+Jarrin Solomon	Men	Trinidad and Tobago	Athletics	4 x 400 metres relay	30	1.65	73
+Lalonde Gordon	Men	Trinidad and Tobago	Athletics	4 x 400 metres relay	27	1.79	83
+Machel Cedenio	Men	Trinidad and Tobago	Athletics	4 x 400 metres relay	20	1.83	70
+Renny Quow	Men	Trinidad and Tobago	Athletics	4 x 400 metres relay	28	1.60	77
+Alina Logvynenko	Women	Ukraine	Athletics	4 x 400 metres relay	26	1.80	67
+Iuliia Olishevska	Women	Ukraine	Athletics	4 x 400 metres relay	27	1.67	60
+Olha Bibik	Women	Ukraine	Athletics	4 x 400 metres relay	26	1.73	63
+Olha Lyakhova	Women	Ukraine	Athletics	4 x 400 metres relay	24	1.74	60
+Olha Zemlyak	Women	Ukraine	Athletics	4 x 400 metres relay	26	1.65	57
+Tetiana Melnyk	Women	Ukraine	Athletics	4 x 400 metres relay	21	1.85	63
+Arman Hall	Men	United States	Athletics	4 x 400 metres relay	22	1.83	74
+David Verburg	Men	United States	Athletics	4 x 400 metres relay	25	1.73	70
+Gil Roberts	Men	United States	Athletics	4 x 400 metres relay	27	1.88	81
+Kyle Clemons	Men	United States	Athletics	4 x 400 metres relay	25	1.81	72
+Lashawn Merritt	Men	United States	Athletics	4 x 400 metres relay	30	1.91	86
+Tony McQuay	Men	United States	Athletics	4 x 400 metres relay	26	1.81	72
+Allyson Felix	Women	United States	Athletics	4 x 400 metres relay	30	1.68	56
+Courtney Okolo	Women	United States	Athletics	4 x 400 metres relay	22	1.73	58
+Francena McCorory	Women	United States	Athletics	4 x 400 metres relay	27	1.71	68
+Natasha Hastings	Women	United States	Athletics	4 x 400 metres relay	30	1.73	68
+Phyllis Francis	Women	United States	Athletics	4 x 400 metres relay	24	1.81	71
+Alberth Bravo	Men	Venezuela	Athletics	4 x 400 metres relay	28	1.99	88
+Arturo Ramirez	Men	Venezuela	Athletics	4 x 400 metres relay	24	1.70	65
+Freddy Mezones	Men	Venezuela	Athletics	4 x 400 metres relay	28	1.70	68
+Jose Melendez	Men	Venezuela	Athletics	4 x 400 metres relay	23	1.70	70
+Omar Longart	Men	Venezuela	Athletics	4 x 400 metres relay	25	1.72	69
+Chris Brown	Men	Bahamas	Athletics	400 metres	37	1.78	75
+Abbas Abubakar Abbas	Men	Bahrain	Athletics	400 metres	20	1.75	66
+Ali Khamis Khamis	Men	Bahrain	Athletics	400 metres	21	1.82	70
+Jonathan Borlee	Men	Belgium	Athletics	400 metres	28	1.80	69
+Kevin Borlee	Men	Belgium	Athletics	400 metres	28	1.80	67
+Isaac Makwala	Men	Botswana	Athletics	400 metres	30	1.85	78
+Hederson Estefani	Men	Brazil	Athletics	400 metres	24	1.83	65
+Bachir Mahamat	Men	Chad	Athletics	400 metres	19	1.86	59
+Diego Palomeque	Men	Colombia	Athletics	400 metres	22	1.78	67
+Nery Brenes	Men	Costa Rica	Athletics	400 metres	30	1.75	70
+Yoandys Lescay	Men	Cuba	Athletics	400 metres	22	1.81	77
+Pavel Maslak	Men	Czech Republic	Athletics	400 metres	25	1.76	66
+Gustavo Cuesta	Men	Dominican Republic	Athletics	400 metres	27	1.73	66
+Luguelin Santos	Men	Dominican Republic	Athletics	400 metres	22	1.63	55
+Martyn Rooney	Men	Great Britain	Athletics	400 metres	29	1.98	81
+Matthew Hudson-Smith	Men	Great Britain	Athletics	400 metres	21	1.94	78
+Rabah Yousif	Men	Great Britain	Athletics	400 metres	29	1.86	74
+Winston George	Men	Guyana	Athletics	400 metres	29	1.67	66
+Muhammed Anas Yahiya	Men	India	Athletics	400 metres	21	1.77	69
+Donald Blair-Sanford	Men	Israel	Athletics	400 metres	29	1.96	81
+Matteo Galvan	Men	Italy	Athletics	400 metres	27	1.82	78
+Fitzroy Dunkley	Men	Jamaica	Athletics	400 metres	23	1.96	80
+Javon Francis	Men	Jamaica	Athletics	400 metres	21	1.83	68
+Rusheen McDonald	Men	Jamaica	Athletics	400 metres	23	1.75	81
+Julian Jrummi Walsh	Men	Japan	Athletics	400 metres	19	1.75	75
+Yuzo Kanemaru	Men	Japan	Athletics	400 metres	28	1.78	75
+Alphas Leken Kishoyian	Men	Kenya	Athletics	400 metres	22	1.67	59
+Raymond Kibet	Men	Kenya	Athletics	400 metres	20	1.85	64
+Liemarvin Bonevacia	Men	Netherlands	Athletics	400 metres	27	1.85	74
+Ousseini Djibo Idrissa	Men	Niger	Athletics	400 metres	17	1.78	72
+Orukpe Eraiyokan	Men	Nigeria	Athletics	400 metres	22	1.50	73
+Rafal Omelko	Men	Poland	Athletics	400 metres	27	1.94	82
+Abdalelah Haroun	Men	Qatar	Athletics	400 metres	19	1.85	80
+James Nyang Chiengjiek	Men	Refugee Olympic Team	Athletics	400 metres	24	1.79	59
+Luka Janezic	Men	Slovenia	Athletics	400 metres	20	1.92	83
+Wayde van Niekerk	Men	South Africa	Athletics	400 metres	24	1.83	70
+Brandon Valentine-Parris	Men	St-Vinc-Grenadines	Athletics	400 metres	21	1.73	55
+Deon Lendore	Men	Trinidad and Tobago	Athletics	400 metres	23	1.79	75
+Lalonde Gordon	Men	Trinidad and Tobago	Athletics	400 metres	27	1.79	83
+Machel Cedenio	Men	Trinidad and Tobago	Athletics	400 metres	20	1.83	70
+Vitalii Butrym	Men	Ukraine	Athletics	400 metres	25	1.80	75
+Arman Hall	Men	United States	Athletics	400 metres	22	1.83	74
+David Verburg	Men	United States	Athletics	400 metres	25	1.73	70
+Gil Roberts	Men	United States	Athletics	400 metres	27	1.88	81
+Lashawn Merritt	Men	United States	Athletics	400 metres	30	1.91	86
+Alberth Bravo	Men	Venezuela	Athletics	400 metres	28	1.99	88
+Selma Kajan	Women	Australia	Athletics	800 metres	25	1.69	52
+Marina Arzamasova	Women	Belarus	Athletics	800 metres	28	1.73	58
+Yuliya Karol	Women	Belarus	Athletics	800 metres	25	1.62	57
+Renee Eykens	Women	Belgium	Athletics	800 metres	20	1.70	54
+Noelie Yarigo	Women	Benin	Athletics	800 metres	30	1.68	56
+Flavia de Lima	Women	Brazil	Athletics	800 metres	23	1.76	65
+Francine Niyonsaba	Women	Burundi	Athletics	800 metres	23	1.66	60
+Melissa Bishop	Women	Canada	Athletics	800 metres	28	1.73	56
+Elisabeth Mandaba	Women	Central African Rep	Athletics	800 metres	27	1.33	53
+Chunyu Wang	Women	China	Athletics	800 metres	21	1.75	55
+Lisneidy Veitia	Women	Cuba	Athletics	800 metres	22	1.68	58
+Rose Mary Almanza	Women	Cuba	Athletics	800 metres	24	1.65	53
+Sahily Diago	Women	Cuba	Athletics	800 metres	20	1.69	49
+Gudaf Tsegay	Women	Ethiopia	Athletics	800 metres	18	1.63	50
+Habitam Alemu	Women	Ethiopia	Athletics	800 metres	19	1.71	52
+Tigst Assefa	Women	Ethiopia	Athletics	800 metres	19	1.68	53
+Justine Fedronic	Women	France	Athletics	800 metres	25	1.68	54
+Renelle Lamote	Women	France	Athletics	800 metres	22	1.65	59
+Christina Hering	Women	Germany	Athletics	800 metres	21	1.85	63
+Fabienne Kohlmann	Women	Germany	Athletics	800 metres	26	1.70	57
+Lynsey Sharp	Women	Great Britain	Athletics	800 metres	26	1.74	58
+Shelayna Oskan-Clarke	Women	Great Britain	Athletics	800 metres	26	1.72	64
+Anita Hinriksdottir	Women	Iceland	Athletics	800 metres	20	1.72	49
+Tintu Lukka	Women	India	Athletics	800 metres	27	1.63	50
+Ciara Everard	Women	Ireland	Athletics	800 metres	26	1.69	54
+Yusneysi Santiusti	Women	Italy	Athletics	800 metres	31	1.63	48
+Kenia Sinclair	Women	Jamaica	Athletics	800 metres	36	1.70	58
+Natoya Goule	Women	Jamaica	Athletics	800 metres	25	1.52	57
+Simoya Campbell	Women	Jamaica	Athletics	800 metres	22	1.68	58
+Margarita Mukasheva	Women	Kazakhstan	Athletics	800 metres	30	1.65	50
+Eunice Jepkoech Sum	Women	Kenya	Athletics	800 metres	28	1.70	54
+Winny Chebet	Women	Kenya	Athletics	800 metres	25	1.52	48
+Egle Balciunaite	Women	Lithuania	Athletics	800 metres	27	1.76	63
+Charline Mathias	Women	Luxembourg	Athletics	800 metres	24	1.73	60
+Houleye Ba	Women	Mauritania	Athletics	800 metres	24	1.70	55
+Malika Akkaoui	Women	Morocco	Athletics	800 metres	28	1.60	49
+Rababe Arafi	Women	Morocco	Athletics	800 metres	25	1.67	52
+Swe Li Myint Myint	Women	Myanmar	Athletics	800 metres	23	1.68	55
+Sifan Hassan	Women	Netherlands	Athletics	800 metres	23	1.70	49
+Angela Petty	Women	New Zealand	Athletics	800 metres	24	1.68	58
+Angelika Cichocka	Women	Poland	Athletics	800 metres	28	1.70	56
+Joanna Jozwik	Women	Poland	Athletics	800 metres	25	1.69	53
+Rose Nathike Lokonyen	Women	Refugee Olympic Team	Athletics	800 metres	21	1.57	50
+Claudia Bobocea	Women	Romania	Athletics	800 metres	24	1.76	53
+Florina Pierdevara	Women	Romania	Athletics	800 metres	26	1.72	53
+Amela Terzic	Women	Serbia	Athletics	800 metres	23	1.69	54
+Lucia Hrivnak Klocova	Women	Slovakia	Athletics	800 metres	32	1.72	58
+Caster Semenya	Women	South Africa	Athletics	800 metres	25	1.78	70
+Esther Guerrero	Women	Spain	Athletics	800 metres	26	1.68	60
+Amna Bakhit	Women	Sudan	Athletics	800 metres	25	1.75	59
+Lovisa Lindh	Women	Sweden	Athletics	800 metres	25	1.69	57
+Selina Buchel	Women	Switzerland	Athletics	800 metres	25	1.67	57
+Nataliia Lupu	Women	Ukraine	Athletics	800 metres	28	1.75	60
+Nataliia Pryshchepa	Women	Ukraine	Athletics	800 metres	21	1.63	48
+Olha Lyakhova	Women	Ukraine	Athletics	800 metres	24	1.74	60
+Ajee Wilson	Women	United States	Athletics	800 metres	22	1.73	61
+Chrishuna Williams	Women	United States	Athletics	800 metres	23	1.61	54
+Kate Grace	Women	United States	Athletics	800 metres	27	1.73	55
+Deborah Rodriguez	Women	Uruguay	Athletics	800 metres	23	1.75	61
+Rocio Comba	Women	Argentina	Athletics	Discus throw	29	1.80	100
+Benn Harradine	Men	Australia	Athletics	Discus throw	33	1.98	115
+Matthew Denny	Men	Australia	Athletics	Discus throw	20	1.95	118
+Dani Samuels	Women	Australia	Athletics	Discus throw	28	1.82	82
+Lukas Weisshaidinger	Men	Austria	Athletics	Discus throw	24	1.96	136
+Philip Milanov	Men	Belgium	Athletics	Discus throw	25	1.98	110
+Andressa de Morais	Women	Brazil	Athletics	Discus throw	25	1.78	97
+Fernanda Martins	Women	Brazil	Athletics	Discus throw	28	1.75	85
+Karen Gallardo	Women	Chile	Athletics	Discus throw	32	1.75	96
+Bin Feng	Women	China	Athletics	Discus throw	22	1.84	95
+Xinyue Su	Women	China	Athletics	Discus throw	24	1.78	94
+Yang Chen	Women	China	Athletics	Discus throw	25	1.80	97
+Mauricio Ortega	Men	Colombia	Athletics	Discus throw	22	1.80	90
+Sandra Perkovic	Women	Croatia	Athletics	Discus throw	26	1.83	85
+Jorge Y. Fernandez	Men	Cuba	Athletics	Discus throw	28	1.90	100
+Denia Caballero	Women	Cuba	Athletics	Discus throw	26	1.75	70
+Yaime Perez	Women	Cuba	Athletics	Discus throw	25	1.75	74
+Apostolos Parellis	Men	Cyprus	Athletics	Discus throw	31	1.86	110
+Gerd Kanter	Men	Estonia	Athletics	Discus throw	37	1.96	125
+Martin Kupper	Men	Estonia	Athletics	Discus throw	27	1.98	119
+Melina Robert-Michon	Women	France	Athletics	Discus throw	37	1.80	85
+Pauline Pousse	Women	France	Athletics	Discus throw	28	1.84	84
+Christoph Harting	Men	Germany	Athletics	Discus throw	26	2.07	123
+Daniel Jasinski	Men	Germany	Athletics	Discus throw	27	2.07	120
+Robert Harting	Men	Germany	Athletics	Discus throw	31	2.01	126
+Julia Fischer	Women	Germany	Athletics	Discus throw	26	1.92	98
+Nadine Muller	Women	Germany	Athletics	Discus throw	30	1.93	94
+Shanice Craft	Women	Germany	Athletics	Discus throw	23	1.85	93
+Jade Lally	Women	Great Britain	Athletics	Discus throw	29	1.82	88
+Hrisoula Anagnostopoulou	Women	Greece	Athletics	Discus throw	24	1.75	85
+Zoltan Kovago	Men	Hungary	Athletics	Discus throw	37	2.04	132
+Gudni Valur Gudnason	Men	Iceland	Athletics	Discus throw	20	1.99	120
+Vikas Gowda	Men	India	Athletics	Discus throw	33	2.05	135
+Seema Antil	Women	India	Athletics	Discus throw	33	1.82	92
+Ehsan Hadadi	Men	Iran	Athletics	Discus throw	31	1.92	120
+Mahmoud Samimi	Men	Iran	Athletics	Discus throw	27	1.86	90
+Fedrick Dacres	Men	Jamaica	Athletics	Discus throw	22	1.91	104
+Kellion Knibb	Women	Jamaica	Athletics	Discus throw	22	1.83	86
+Shadae Lawrence	Women	Jamaica	Athletics	Discus throw	20	1.73	84
+Tarasue Barnett	Women	Jamaica	Athletics	Discus throw	22	1.78	81
+Yevgeniy Labutov	Men	Kazakhstan	Athletics	Discus throw	31	1.94	120
+Mariya Telushkina	Women	Kazakhstan	Athletics	Discus throw	22	1.78	90
+Andrius Gudzius	Men	Lithuania	Athletics	Discus throw	25	2.00	130
+Zinaida Sendriute	Women	Lithuania	Athletics	Discus throw	31	1.88	95
+Natalia Stratulat	Women	Moldova	Athletics	Discus throw	29	1.78	83
+Danijel Furtula	Men	Montenegro	Athletics	Discus throw	24	1.93	118
+Chinwe Okoro	Women	Nigeria	Athletics	Discus throw	27	1.78	102
+Piotr Malachowski	Men	Poland	Athletics	Discus throw	33	1.93	130
+Robert Urbanek	Men	Poland	Athletics	Discus throw	29	2.00	122
+Zaneta Glanc	Women	Poland	Athletics	Discus throw	33	1.86	95
+Irina Rodrigues	Women	Portugal	Athletics	Discus throw	25	1.81	95
+Sultan Mubarak Al-Dawoodi	Men	Saudi Arabia	Athletics	Discus throw	39	1.92	86
+Dragana Tomasevic	Women	Serbia	Athletics	Discus throw	34	1.75	80
+Jennifer Frank Casanas	Men	Spain	Athletics	Discus throw	37	1.87	117
+Lois Maikel Martinez	Men	Spain	Athletics	Discus throw	35	1.87	120
+Sabina Asenjo	Women	Spain	Athletics	Discus throw	30	1.78	90
+Axel Harstedt	Men	Sweden	Athletics	Discus throw	29	1.97	135
+Daniel Stahl	Men	Sweden	Athletics	Discus throw	23	2.00	155
+Subenrat Insaeng	Women	Thailand	Athletics	Discus throw	22	1.82	115
+Mykyta Nesterenko	Men	Ukraine	Athletics	Discus throw	25	2.08	120
+Oleksiy Semenov	Men	Ukraine	Athletics	Discus throw	34	1.98	120
+Natalia Semenova	Women	Ukraine	Athletics	Discus throw	34	1.78	75
+Andrew Evans	Men	United States	Athletics	Discus throw	25	1.99	113
+Mason Finley	Men	United States	Athletics	Discus throw	25	2.04	157
+Tavis Bailey	Men	United States	Athletics	Discus throw	24	1.91	124
+Kelsey Card	Women	United States	Athletics	Discus throw	23	1.78	115
+Shelbi Vaughan	Women	United States	Athletics	Discus throw	21	1.83	127
+Whitney Ashley	Women	United States	Athletics	Discus throw	27	1.76	90
+Izmir Smajlaj	Men	Albania	Athletics	Long jump	23	1.95	86
+Fabrice Lapierre	Men	Australia	Athletics	Long jump	32	1.79	69
+Henry Frayne	Men	Australia	Athletics	Long jump	26	1.88	83
+Kanstantsin Barycheuski	Men	Belarus	Athletics	Long jump	26	1.91	87
+Tyrone Smith	Men	Bermuda	Athletics	Long jump	32	1.83	74
+Higor Alves	Men	Brazil	Athletics	Long jump	22	1.83	64
+Changzhou Huang	Men	China	Athletics	Long jump	21	1.86	73
+Jianan Wang	Men	China	Athletics	Long jump	19	1.85	72
+Xinglong Gao	Men	China	Athletics	Long jump	22	1.82	63
+Maykel Masso	Men	Cuba	Athletics	Long jump	17	1.74	61
+Radek Juska	Men	Czech Republic	Athletics	Long jump	23	1.94	84
+Kafetien Gomis	Men	France	Athletics	Long jump	36	1.85	70
+Bachana Khorava	Men	Georgia	Athletics	Long jump	23	1.71	67
+Alyn Camara	Men	Germany	Athletics	Long jump	27	1.96	84
+Fabian Heinle	Men	Germany	Athletics	Long jump	22	1.87	72
+Greg Rutherford	Men	Great Britain	Athletics	Long jump	29	1.88	92
+Miltiadis Tentoglou	Men	Greece	Athletics	Long jump	18	1.85	75
+Ming Tai Chan	Men	Hong Kong	Athletics	Long jump	21	1.75	60
+Ankit Sharma	Men	India	Athletics	Long jump	24	1.77	75
+Mohammad Arzandeh	Men	Iran	Athletics	Long jump	28	1.89	77
+Aubrey Smith	Men	Jamaica	Athletics	Long jump	28	1.80	75
+Damar Forbes	Men	Jamaica	Athletics	Long jump	25	1.88	82
+Rushwal Samaai	Men	South Africa	Athletics	Long jump	24	1.85	75
+Stefan Brits	Men	South Africa	Athletics	Long jump	24	1.83	72
+Deokhyeon Kim	Men	South Korea	Athletics	Long jump	30	1.80	71
+Jean Marie Okutu	Men	Spain	Athletics	Long jump	27	1.78	70
+Michel Torneus	Men	Sweden	Athletics	Long jump	30	1.84	73
+Jarrion Lawson	Men	United States	Athletics	Long jump	22	1.88	78
+Jeff Henderson	Men	United States	Athletics	Long jump	27	1.83	85
+Mike Hartfield	Men	United States	Athletics	Long jump	26	1.91	77
+Emiliano Lasa	Men	Uruguay	Athletics	Long jump	26	1.80	75
+El Hadi Laameche	Men	Algeria	Athletics	Marathon	26	1.65	60
+Hakim Sadi	Men	Algeria	Athletics	Marathon	23	1.76	56
+Kenza Dahmani Tifahi	Women	Algeria	Athletics	Marathon	35	1.64	54
+Souad Ait Salem	Women	Algeria	Athletics	Marathon	37	1.58	50
+Federico Bruno	Men	Argentina	Athletics	Marathon	23	1.85	66
+Luis Ariel Molina	Men	Argentina	Athletics	Marathon	28	1.72	57
+Mariano Mastromarino	Men	Argentina	Athletics	Marathon	33	1.69	56
+Maria Peralta	Women	Argentina	Athletics	Marathon	38	1.67	49
+Rosa Godoy	Women	Argentina	Athletics	Marathon	34	1.60	47
+Viviana Chavez	Women	Argentina	Athletics	Marathon	29	1.64	52
+Liam Adams	Men	Australia	Athletics	Marathon	29	1.78	64
+Michael Shelley	Men	Australia	Athletics	Marathon	32	1.83	60
+Scott Westcott	Men	Australia	Athletics	Marathon	40	1.79	64
+Jessica Trengove	Women	Australia	Athletics	Marathon	28	1.66	52
+Lisa Jane Weightman	Women	Australia	Athletics	Marathon	37	1.57	44
+Andrea Mayr	Women	Austria	Athletics	Marathon	36	1.74	53
+Evans Kiplagat Barkowet	Men	Azerbaijan	Athletics	Marathon	28	1.70	60
+Alemu Bekele	Men	Bahrain	Athletics	Marathon	26	1.62	59
+Isaac Korir	Men	Bahrain	Athletics	Marathon	25	1.88	59
+Shumi Dechasa	Men	Bahrain	Athletics	Marathon	27	1.71	65
+Eunice Jepkirui Kirwa	Women	Bahrain	Athletics	Marathon	32	1.55	49
+Shitaye Eshete	Women	Bahrain	Athletics	Marathon	26	1.64	51
+Stsiapan Rahautsou	Men	Belarus	Athletics	Marathon	30	1.74	58
+Uladzislau Pramau	Men	Belarus	Athletics	Marathon	32	1.77	66
+Maryna Damantsevich	Women	Belarus	Athletics	Marathon	32	1.62	51
+Nastassia Ivanova	Women	Belarus	Athletics	Marathon	33	1.62	50
+Volha Mazuronak	Women	Belarus	Athletics	Marathon	27	1.65	49
+Florent Caelen	Men	Belgium	Athletics	Marathon	27	1.75	54
+Koen Naert	Men	Belgium	Athletics	Marathon	26	1.82	66
+Willem van Schuerbeeck	Men	Belgium	Athletics	Marathon	31	1.79	60
+Els Rens	Women	Belgium	Athletics	Marathon	33	1.60	51
+Manuela Soccol	Women	Belgium	Athletics	Marathon	28	1.57	42
+Veerle Dejaeghere	Women	Belgium	Athletics	Marathon	43	1.59	46
+Rosemary Quispe	Women	Bolivia	Athletics	Marathon	32	1.59	50
+Lucia Mwihaki Kimani	Women	Bosnia Herzegovina	Athletics	Marathon	35	1.66	48
+Marilson dos Santos	Men	Brazil	Athletics	Marathon	39	1.74	58
+Paulo Roberto Paula	Men	Brazil	Athletics	Marathon	37	1.70	55
+Solonei da Silva	Men	Brazil	Athletics	Marathon	34	1.72	65
+Adriana Aparecida da Silva	Women	Brazil	Athletics	Marathon	35	1.66	52
+Graciete Santana	Women	Brazil	Athletics	Marathon	25	1.55	43
+Marily dos Santos	Women	Brazil	Athletics	Marathon	38	1.58	46
+Militsa Mircheva	Women	Bulgaria	Athletics	Marathon	22	1.65	50
+Abraham Niyonkuru	Men	Burundi	Athletics	Marathon	26	1.62	52
+Celestin Nihorimbere	Men	Burundi	Athletics	Marathon	23	1.67	55
+Diane Nukuri-Johnson	Women	Burundi	Athletics	Marathon	31	1.83	59
+Kuniaki Takizaki	Men	Cambodia	Athletics	Marathon	39	1.51	55
+Nary Ly	Women	Cambodia	Athletics	Marathon	44	1.60	55
+Eric Gillis	Men	Canada	Athletics	Marathon	36	1.72	58
+Reid Coolsaet	Men	Canada	Athletics	Marathon	37	1.73	62
+Krista Duchene	Women	Canada	Athletics	Marathon	39	1.67	54
+Lanni Marchant	Women	Canada	Athletics	Marathon	32	1.55	48
+Daniel Estrada	Men	Chile	Athletics	Marathon	26	1.73	61
+Enzo Yanez	Men	Chile	Athletics	Marathon	30	1.74	63
+Victor Aravena	Men	Chile	Athletics	Marathon	26	1.66	55
+Erika Olivera	Women	Chile	Athletics	Marathon	40	1.63	55
+Natalia Romero	Women	Chile	Athletics	Marathon	36	1.63	57
+Duobujie	Men	China	Athletics	Marathon	22	1.75	55
+Guojian Dong	Men	China	Athletics	Marathon	29	1.70	55
+Renxue Zhu	Men	China	Athletics	Marathon	25	1.70	50
+Chao Yue	Women	China	Athletics	Marathon	25	1.65	50
+Shaoqing Hua	Women	China	Athletics	Marathon	22	1.65	50
+Chin-Ping Ho	Men	Chinese Taipei	Athletics	Marathon	32	1.73	60
+Chien-Ho Hsieh	Women	Chinese Taipei	Athletics	Marathon	28	1.64	48
+Yu-Hsuan Chen	Women	Chinese Taipei	Athletics	Marathon	23	1.57	50
+Andres Ruiz	Men	Colombia	Athletics	Marathon	28	1.64	64
+Diego Colorado	Men	Colombia	Athletics	Marathon	42	1.69	62
+Gerald Giraldo	Men	Colombia	Athletics	Marathon	27	1.75	60
+Angie Orjuela	Women	Colombia	Athletics	Marathon	27	1.58	46
+Erika Abril	Women	Colombia	Athletics	Marathon	38	1.64	52
+Marija Vrajic	Women	Croatia	Athletics	Marathon	39	1.69	51
+Matea Matosevic	Women	Croatia	Athletics	Marathon	27	1.73	52
+Richer Perez	Men	Cuba	Athletics	Marathon	30	1.63	58
+Dailin Belmonte	Women	Cuba	Athletics	Marathon	30	1.58	52
+Eva Vrabcova Nyvltova	Women	Czech Republic	Athletics	Marathon	30	1.62	48
+Abdi Hakin Ulad	Men	Denmark	Athletics	Marathon	25	1.75	57
+Anne Holm Baumeister	Women	Denmark	Athletics	Marathon	28	1.68	54
+Jessica Draskau-Petersson	Women	Denmark	Athletics	Marathon	38	1.70	62
+Mumin Gala	Men	Djibouti	Athletics	Marathon	29	1.85	70
+Bayron Piedra	Men	Ecuador	Athletics	Marathon	33	1.75	68
+Miguel Angel Almachi	Men	Ecuador	Athletics	Marathon	31	1.65	55
+Segundo Jami	Men	Ecuador	Athletics	Marathon	30	1.65	54
+Maria Elena Calle	Women	Ecuador	Athletics	Marathon	41	1.62	54
+Rosa Chacha	Women	Ecuador	Athletics	Marathon	33	1.55	48
+Silvia Paredes	Women	Ecuador	Athletics	Marathon	33	1.64	57
+Amanuel Mesel	Men	Eritrea	Athletics	Marathon	25	1.77	59
+Roman Fosti	Men	Estonia	Athletics	Marathon	33	1.81	69
+Tiidrek Nurme	Men	Estonia	Athletics	Marathon	30	1.84	70
+Leila Luik	Women	Estonia	Athletics	Marathon	30	1.65	48
+Liina Luik	Women	Estonia	Athletics	Marathon	30	1.64	48
+Lily Luik	Women	Estonia	Athletics	Marathon	30	1.63	48
+Feyisa Lilesa	Men	Ethiopia	Athletics	Marathon	26	1.75	67
+Lemi Berhanu	Men	Ethiopia	Athletics	Marathon	21	1.68	53
+Tesfaye Abera	Men	Ethiopia	Athletics	Marathon	24	1.92	68
+Mare Dibaba	Women	Ethiopia	Athletics	Marathon	26	1.56	45
+Tirfi Tsegaye	Women	Ethiopia	Athletics	Marathon	31	1.62	52
+Anne-Mari Hyrylainen	Women	Finland	Athletics	Marathon	37	1.68	50
+Christelle Daunay	Women	France	Athletics	Marathon	41	1.62	43
+Daviti Kharazishvili	Men	Georgia	Athletics	Marathon	24	1.71	68
+Julian Flugel	Men	Germany	Athletics	Marathon	30	1.83	66
+Philipp Pflieger	Men	Germany	Athletics	Marathon	29	1.88	70
+Anja Scherl	Women	Germany	Athletics	Marathon	30	1.60	48
+Anna Hahner	Women	Germany	Athletics	Marathon	26	1.65	48
+Lisa Hahner	Women	Germany	Athletics	Marathon	26	1.67	50
+Callum Hawkins	Men	Great Britain	Athletics	Marathon	24	1.79	62
+Derek Hawkins	Men	Great Britain	Athletics	Marathon	27	1.80	68
+Tsegai Tewelde	Men	Great Britain	Athletics	Marathon	26	1.72	56
+Alyson Dixon	Women	Great Britain	Athletics	Marathon	37	1.55	43
+Sonia Samuels	Women	Great Britain	Athletics	Marathon	37	1.62	47
+Hristoforos Merousis	Men	Greece	Athletics	Marathon	34	1.78	72
+Michael Kalomiris	Men	Greece	Athletics	Marathon	29	1.81	65
+Ourania Rebouli	Women	Greece	Athletics	Marathon	27	1.64	49
+Panayiota Vlahaki	Women	Greece	Athletics	Marathon	25	1.67	50
+Sofia Riga	Women	Greece	Athletics	Marathon	28	1.54	46
+Jose Amado Garcia	Men	Guatemala	Athletics	Marathon	38	1.77	59
+Juan Carlos Trujillo	Men	Guatemala	Athletics	Marathon	31	1.45	58
+Kit-Ching Yiu	Women	Hong Kong	Athletics	Marathon	28	1.55	45
+Gabor Jozsa	Men	Hungary	Athletics	Marathon	32	1.70	59
+Gaspar Csere	Men	Hungary	Athletics	Marathon	24	1.71	55
+Krisztina Papp	Women	Hungary	Athletics	Marathon	33	1.73	53
+Tunde Szabo	Women	Hungary	Athletics	Marathon	27	1.54	46
+Zsofia Erdelyi	Women	Hungary	Athletics	Marathon	28	1.64	53
+Kheta Ram	Men	India	Athletics	Marathon	29	1.69	53
+Nitendra Singh	Men	India	Athletics	Marathon	29	1.72	58
+Thanackal Gopi	Men	India	Athletics	Marathon	28	1.66	56
+Jaisha Orchatteri	Women	India	Athletics	Marathon	33	1.54	43
+Kavita Raut	Women	India	Athletics	Marathon	31	1.57	45
+Mohammadjafar Moradi	Men	Iran	Athletics	Marathon	26	1.69	62
+Kevin Seaward	Men	Ireland	Athletics	Marathon	32	1.75	59
+Mick Clohissey	Men	Ireland	Athletics	Marathon	30	1.80	64
+Paul Pollock	Men	Ireland	Athletics	Marathon	30	1.77	57
+Breege Connolly	Women	Ireland	Athletics	Marathon	38	1.63	54
+Fionnuala McCormack	Women	Ireland	Athletics	Marathon	31	1.59	46
+Lizzie Lee	Women	Ireland	Athletics	Marathon	36	1.65	51
+Ageze Guadie	Men	Israel	Athletics	Marathon	26	1.75	56
+Maru Teferi	Men	Israel	Athletics	Marathon	23	1.64	52
+Tasama Moogas	Men	Israel	Athletics	Marathon	28	1.64	53
+Lornah Chemtai Korlima	Women	Israel	Athletics	Marathon	27	1.65	52
+Maor Tiyouri	Women	Israel	Athletics	Marathon	25	1.48	44
+Daniele Meucci	Men	Italy	Athletics	Marathon	30	1.78	64
+Ruggero Pertile	Men	Italy	Athletics	Marathon	42	1.65	55
+Stefano la Rosa	Men	Italy	Athletics	Marathon	30	1.70	54
+Anna Incerti	Women	Italy	Athletics	Marathon	36	1.68	44
+Catherine Bertone	Women	Italy	Athletics	Marathon	44	1.60	45
+Valeria Straneo	Women	Italy	Athletics	Marathon	40	1.65	45
+Hisanori Kitajima	Men	Japan	Athletics	Marathon	31	1.71	55
+Satoru Sasaki	Men	Japan	Athletics	Marathon	30	1.71	56
+Suehiro Ishikawa	Men	Japan	Athletics	Marathon	36	1.69	56
+Kayoko Fukushi	Women	Japan	Athletics	Marathon	34	1.60	47
+Mai Ito	Women	Japan	Athletics	Marathon	32	1.56	41
+Tomomi Tanaka	Women	Japan	Athletics	Marathon	28	1.54	40
+Methkal Abu Drais	Men	Jordan	Athletics	Marathon	32	1.68	67
+Mihail Krassilov	Men	Kazakhstan	Athletics	Marathon	26	1.83	70
+Gulzhanat Zhanatbek	Women	Kazakhstan	Athletics	Marathon	24	1.70	55
+Irina Smolnikova	Women	Kazakhstan	Athletics	Marathon	36	1.63	55
+Eliud Kipchoge	Men	Kenya	Athletics	Marathon	31	1.67	57
+Stanley Kipleting Biwott	Men	Kenya	Athletics	Marathon	30	1.52	61
+Wesley Korir	Men	Kenya	Athletics	Marathon	33	1.77	54
+Helah Jelagat Kiprop	Women	Kenya	Athletics	Marathon	31	1.60	50
+Jemima Jelagat Sumgong	Women	Kenya	Athletics	Marathon	31	1.60	45
+Visiline Jepkesho	Women	Kenya	Athletics	Marathon	26	1.60	43
+Ilya Tiapkin	Men	Kyrgyzstan	Athletics	Marathon	25	1.60	65
+Iuliia Andreeva	Women	Kyrgyzstan	Athletics	Marathon	32	1.68	51
+Mariya Korobitskaya	Women	Kyrgyzstan	Athletics	Marathon	26	1.55	50
+Viktoriia Poliudina	Women	Kyrgyzstan	Athletics	Marathon	27	1.65	55
+Valerijs Zolnerovics	Men	Latvia	Athletics	Marathon	31	1.80	67
+Ariana Kira Hilborna	Women	Latvia	Athletics	Marathon	35	1.67	52
+Ilona Marhele	Women	Latvia	Athletics	Marathon	30	1.64	50
+Jelena Prokopcuka	Women	Latvia	Athletics	Marathon	39	1.68	52
+Remigijus Kancys	Men	Lithuania	Athletics	Marathon	29	1.73	62
+Valdas Dopolskas	Men	Lithuania	Athletics	Marathon	24	1.83	69
+Diana Lobacevske	Women	Lithuania	Athletics	Marathon	36	1.74	57
+Rasa Drazdauskaite	Women	Lithuania	Athletics	Marathon	35	1.73	58
+Vaida Zusinaite	Women	Lithuania	Athletics	Marathon	28	1.67	50
+Tereza Master	Women	Malawi	Athletics	Marathon	27	1.49	45
+David Carver	Men	Mauritius	Athletics	Marathon	28	1.83	68
+Daniel Vargas	Men	Mexico	Athletics	Marathon	32	1.62	53
+Ricardo Ramos	Men	Mexico	Athletics	Marathon	30	1.72	56
+Madai Perez	Women	Mexico	Athletics	Marathon	36	1.58	46
+Margarita Hernandez	Women	Mexico	Athletics	Marathon	30	1.50	44
+Vianey de la Rosa	Women	Mexico	Athletics	Marathon	30	1.50	43
+Roman Prodius	Men	Moldova	Athletics	Marathon	35	1.82	70
+Lilia Fisikowici	Women	Moldova	Athletics	Marathon	27	1.70	52
+Byambajav Tseveenravdan	Men	Mongolia	Athletics	Marathon	26	1.69	58
+Gantulga Dambadarjaa	Men	Mongolia	Athletics	Marathon	27	1.70	58
+Ser-Od Bat-Ochir	Men	Mongolia	Athletics	Marathon	34	1.69	61
+Munkhzaya Bayartsogt	Women	Mongolia	Athletics	Marathon	22	1.60	43
+Otgonbayar Luvsanlundeg	Women	Mongolia	Athletics	Marathon	34	1.53	47
+Sladana Perunovic	Women	Montenegro	Athletics	Marathon	32	1.70	58
+Abdelmajid El Hissouf	Men	Morocco	Athletics	Marathon	23	1.70	56
+Rachid Kisri	Men	Morocco	Athletics	Marathon	41	1.79	60
+Koutar Boulaid	Women	Morocco	Athletics	Marathon	26	1.59	45
+Mynhardt Mbeumuna Kawanivi	Men	Namibia	Athletics	Marathon	32	1.78	59
+Alina Armas	Women	Namibia	Athletics	Marathon	32	1.66	53
+Beata Naigambo	Women	Namibia	Athletics	Marathon	36	1.67	48
+Helalia Johannes	Women	Namibia	Athletics	Marathon	35	1.65	46
+Abdi Nageeye	Men	Netherlands	Athletics	Marathon	27	1.65	54
+Andrea Deelstra	Women	Netherlands	Athletics	Marathon	31	1.64	46
+Chol Pak	Men	North Korea	Athletics	Marathon	25	1.65	53
+Hye-Gyong Kim	Women	North Korea	Athletics	Marathon	23	1.53	42
+Hye-Song Kim	Women	North Korea	Athletics	Marathon	23	1.53	42
+Kum-Ok Kim	Women	North Korea	Athletics	Marathon	27	1.61	48
+Jorge Castelblanco	Men	Panama	Athletics	Marathon	28	1.69	58
+Derlys Ayala	Men	Paraguay	Athletics	Marathon	26	1.78	75
+Carmen Patricia Martinez	Women	Paraguay	Athletics	Marathon	33	1.60	55
+Cristhian Pacheco	Men	Peru	Athletics	Marathon	23	1.62	50
+Raul Machacuay	Men	Peru	Athletics	Marathon	33	1.65	57
+Raul Pacheco	Men	Peru	Athletics	Marathon	37	1.67	55
+Gladys Tejeda	Women	Peru	Athletics	Marathon	30	1.56	47
+Ines Melchor	Women	Peru	Athletics	Marathon	29	1.52	45
+Jovana de la Cruz	Women	Peru	Athletics	Marathon	24	1.61	53
+Mary Joy Tabal	Women	Philippines	Athletics	Marathon	27	1.49	45
+Artur Kozlowski	Men	Poland	Athletics	Marathon	31	1.69	54
+Henryk Szost	Men	Poland	Athletics	Marathon	34	1.86	70
+Yared Shegumo	Men	Poland	Athletics	Marathon	33	1.78	62
+Iwona Lewandowska	Women	Poland	Athletics	Marathon	31	1.61	43
+Katarzyna Kowalska	Women	Poland	Athletics	Marathon	31	1.78	55
+Monika Stefanowicz	Women	Poland	Athletics	Marathon	36	1.60	46
+Hermano Ferreira	Men	Portugal	Athletics	Marathon	33	1.72	62
+Ricardo Ribas	Men	Portugal	Athletics	Marathon	38	1.74	63
+Rui Pedro Silva	Men	Portugal	Athletics	Marathon	35	1.73	60
+Ana Dulce Felix	Women	Portugal	Athletics	Marathon	33	1.66	53
+Jessica Augusto	Women	Portugal	Athletics	Marathon	34	1.62	44
+Sara Moreira	Women	Portugal	Athletics	Marathon	30	1.66	50
+Beverly Ramos	Women	Puerto Rico	Athletics	Marathon	28	1.68	52
+Yonas Kinde	Men	Refugee Olympic Team	Athletics	Marathon	36	1.72	57
+Marius Ionescu	Men	Romania	Athletics	Marathon	31	1.70	55
+Nicolae-Alexandru Soare	Men	Romania	Athletics	Marathon	24	1.68	59
+Daniela Carlan	Women	Romania	Athletics	Marathon	35	1.64	47
+Paula-Claudia Todoran	Women	Romania	Athletics	Marathon	31	1.64	48
+Claudette Mukasakindi	Women	Rwanda	Athletics	Marathon	33	1.60	68
+Sarah Attar	Women	Saudi Arabia	Athletics	Marathon	23	1.65	52
+Andjelko Risticevic	Men	Serbia	Athletics	Marathon	30	1.91	78
+Ana Subotic	Women	Serbia	Athletics	Marathon	32	1.71	54
+Olivera Jevtic	Women	Serbia	Athletics	Marathon	39	1.74	51
+Jie Shi Neo	Women	Singapore	Athletics	Marathon	31	1.68	50
+Katarina Beresova	Women	Slovakia	Athletics	Marathon	28	1.62	49
+Anton Kosmac	Men	Slovenia	Athletics	Marathon	39	1.83	66
+Daneja Grandovec	Women	Slovenia	Athletics	Marathon	32	1.75	58
+Lungile Gongqa	Men	South Africa	Athletics	Marathon	37	1.62	53
+Lusapho April	Men	South Africa	Athletics	Marathon	34	1.72	50
+Sibusiso Nzima	Men	South Africa	Athletics	Marathon	29	1.64	57
+Christine Kalmer	Women	South Africa	Athletics	Marathon	30	1.72	55
+Dina Lebo Phalula	Women	South Africa	Athletics	Marathon	32	1.65	46
+Irvette van Zyl	Women	South Africa	Athletics	Marathon	29	1.69	53
+Jungsub Shim	Men	South Korea	Athletics	Marathon	25	1.68	58
+Myeongjun Son	Men	South Korea	Athletics	Marathon	22	1.81	62
+Kyunghee Lim	Women	South Korea	Athletics	Marathon	33	1.63	43
+Seul-Ki Ahn	Women	South Korea	Athletics	Marathon	24	1.61	46
+Guor Marial	Men	South Sudan	Athletics	Marathon	32	1.80	60
+Carles Castillejo	Men	Spain	Athletics	Marathon	37	1.65	61
+Javier Guerra	Men	Spain	Athletics	Marathon	32	1.73	56
+Jesus Espanya	Men	Spain	Athletics	Marathon	37	1.68	59
+Alessandra Aguilar	Women	Spain	Athletics	Marathon	38	1.65	50
+Azucena Diaz	Women	Spain	Athletics	Marathon	33	1.63	55
+Estela Navascues	Women	Spain	Athletics	Marathon	35	1.63	50
+Anuradha Indrajith Cooray	Men	Sri Lanka	Athletics	Marathon	38	1.74	58
+Niluka Rajasekara	Women	Sri Lanka	Athletics	Marathon	34	1.55	42
+Christian Kreienbuhl	Men	Switzerland	Athletics	Marathon	35	1.86	68
+Tadesse Abraham	Men	Switzerland	Athletics	Marathon	33	1.78	61
+Maja Neuenschwander	Women	Switzerland	Athletics	Marathon	36	1.68	53
+Boonthung Srisung	Men	Thailand	Athletics	Marathon	35	1.71	59
+Jane Vongvorachoti	Women	Thailand	Athletics	Marathon	32	1.66	53
+Natthaya Thanaronnawat	Women	Thailand	Athletics	Marathon	37	1.58	47
+Atef Saad	Men	Tunisia	Athletics	Marathon	28	1.76	57
+Wissem Hosni	Men	Tunisia	Athletics	Marathon	31	1.75	57
+Bekir Karayel	Men	Turkey	Athletics	Marathon	34	1.70	62
+Ercan Muslu	Men	Turkey	Athletics	Marathon	27	1.60	52
+Kaan Kigen Ozbilen	Men	Turkey	Athletics	Marathon	30	1.78	57
+Esma Aydemir	Women	Turkey	Athletics	Marathon	24	1.60	48
+Meryem Erdogan	Women	Turkey	Athletics	Marathon	26	1.72	55
+Sultan Haydar	Women	Turkey	Athletics	Marathon	29	1.70	55
+Ihor Olefirenko	Men	Ukraine	Athletics	Marathon	26	1.86	70
+Ihor Russ	Men	Ukraine	Athletics	Marathon	27	1.74	62
+Oleksandr Sitkovskyy	Men	Ukraine	Athletics	Marathon	38	1.84	68
+Nataliya Lehonkova	Women	Ukraine	Athletics	Marathon	33	1.61	48
+Olha Kotovska	Women	Ukraine	Athletics	Marathon	32	1.67	50
+Galen Rupp	Men	United States	Athletics	Marathon	30	1.81	61
+Jared Ward	Men	United States	Athletics	Marathon	27	1.78	65
+Mebrahtom Keflezighi	Men	United States	Athletics	Marathon	41	1.66	56
+Amy Cragg	Women	United States	Athletics	Marathon	32	1.63	45
+Desiree Linden	Women	United States	Athletics	Marathon	33	1.55	43
+Shalane Flanagan	Women	United States	Athletics	Marathon	35	1.66	47
+Ernesto Andres Zamora	Men	Uruguay	Athletics	Marathon	33	1.80	63
+Martin Esteban Cuestas	Men	Uruguay	Athletics	Marathon	29	1.82	62
+Nicolas Cuestas	Men	Uruguay	Athletics	Marathon	29	1.80	63
+Andrey Petrov	Men	Uzbekistan	Athletics	Marathon	29	1.69	62
+Marina Hmelevskaya	Women	Uzbekistan	Athletics	Marathon	26	1.65	50
+Sitora Hamidova	Women	Uzbekistan	Athletics	Marathon	27	1.64	50
+Luis Alberto Orta	Men	Venezuela	Athletics	Marathon	27	1.60	50
+Yolymar Pineda	Women	Venezuela	Athletics	Marathon	30	1.65	53
+Jordan Chipangama	Men	Zambia	Athletics	Marathon	27	1.73	53
+Cuthbert Nyasango	Men	Zimbabwe	Athletics	Marathon	33	1.63	56
+Pardon Ndhlovu	Men	Zimbabwe	Athletics	Marathon	28	1.58	54
+Wirimai Juwawo	Men	Zimbabwe	Athletics	Marathon	35	1.72	63
+Rutendo Joan Nyahora	Women	Zimbabwe	Athletics	Marathon	27	1.55	45
+Alena Abramchuk	Women	Belarus	Athletics	Shot put	28	1.82	95
+Aliona Dubitskaya	Women	Belarus	Athletics	Shot put	26	1.80	76
+Yuliya Leantsiuk	Women	Belarus	Athletics	Shot put	32	1.80	80
+Geisa Arcanjo	Women	Brazil	Athletics	Shot put	24	1.60	60
+Radoslava Mavrodieva	Women	Bulgaria	Athletics	Shot put	29	1.76	94
+Auriole Dongmo	Women	Cameroon	Athletics	Shot put	26	1.73	95
+Brittany Crew	Women	Canada	Athletics	Shot put	22	1.78	112
+Taryn Suttie	Women	Canada	Athletics	Shot put	25	1.83	103
+Natalia Duco	Women	Chile	Athletics	Shot put	27	1.77	100
+Ka Bian	Women	China	Athletics	Shot put	23	1.82	115
+Lijiao Gong	Women	China	Athletics	Shot put	27	1.75	105
+Yang Gao	Women	China	Athletics	Shot put	23	1.78	105
+Sandra Lemos	Women	Colombia	Athletics	Shot put	27	1.70	100
+Saily Viart	Women	Cuba	Athletics	Shot put	20	1.70	94
+Yaniuvis Lopez	Women	Cuba	Athletics	Shot put	30	1.80	71
+Christina Schwanitz	Women	Germany	Athletics	Shot put	30	1.80	115
+Lena Urbaniak	Women	Germany	Athletics	Shot put	23	1.74	92
+Sara Gambetta	Women	Germany	Athletics	Shot put	23	1.84	89
+Jessica Inchude	Women	Guinea-Bissau	Athletics	Shot put	20	1.75	81
+Anita Marton	Women	Hungary	Athletics	Shot put	27	1.72	95
+Manpreet Kaur	Women	India	Athletics	Shot put	26	1.70	89
+Leyla Rajabi	Women	Iran	Athletics	Shot put	33	1.87	100
+Danniel Thomas	Women	Jamaica	Athletics	Shot put	23	1.68	91
+Dimitriana Surdu	Women	Moldova	Athletics	Shot put	22	1.74	93
+Melissa Boekelman	Women	Netherlands	Athletics	Shot put	27	1.76	87
+Valerie Adams	Women	New Zealand	Athletics	Shot put	31	1.93	120
+Nwanneka Okwelogu	Women	Nigeria	Athletics	Shot put	21	1.73	100
+Paulina Guba	Women	Poland	Athletics	Shot put	25	1.83	104
+Cleopatra Borel	Women	Trinidad and Tobago	Athletics	Shot put	37	1.72	89
+Emel Dereli	Women	Turkey	Athletics	Shot put	20	1.81	110
+Galyna Obleshchuk	Women	Ukraine	Athletics	Shot put	27	1.77	94
+Olga Golodna	Women	Ukraine	Athletics	Shot put	24	1.83	96
+Felisha Johnson	Women	United States	Athletics	Shot put	27	1.86	127
+Michelle Carter	Women	United States	Athletics	Shot put	30	1.76	136
+Raven Saunders	Women	United States	Athletics	Shot put	20	1.66	108
+Ahymara Espinoza	Women	Venezuela	Athletics	Shot put	31	1.80	99
+Levon Aghasyan	Men	Armenia	Athletics	Triple jump	21	1.93	75
+Nazim Babayev	Men	Azerbaijan	Athletics	Triple jump	18	1.87	74
+Latario Collie-Minns	Men	Bahamas	Athletics	Triple jump	22	1.73	64
+Leevan Sands	Men	Bahamas	Athletics	Triple jump	34	1.91	82
+Artsem Bandarenka	Men	Belarus	Athletics	Triple jump	25	1.87	78
+Dzmitry Platnitski	Men	Belarus	Athletics	Triple jump	27	1.91	83
+Maksim Niastsiarenka	Men	Belarus	Athletics	Triple jump	23	1.93	82
+Georgi Tsonov	Men	Bulgaria	Athletics	Triple jump	23	1.76	70
+Rumen Dimitrov	Men	Bulgaria	Athletics	Triple jump	29	1.92	80
+Fabrice Zango Hugues	Men	Burkina Faso	Athletics	Triple jump	23	1.80	78
+Bin Dong	Men	China	Athletics	Triple jump	27	1.80	74
+Shuo Cao	Men	China	Athletics	Triple jump	24	1.80	77
+Xiaolong Xu	Men	China	Athletics	Triple jump	23	1.85	70
+John Murillo	Men	Colombia	Athletics	Triple jump	32	1.86	85
+Ernesto Reve	Men	Cuba	Athletics	Triple jump	24	1.82	79
+Lazaro Martinez	Men	Cuba	Athletics	Triple jump	18	1.91	83
+Pedro P. Pichardo	Men	Cuba	Athletics	Triple jump	23	1.83	68
+Yordanys Duranona	Men	Dominica	Athletics	Triple jump	28	1.85	83
+Benjamin Compaore	Men	France	Athletics	Triple jump	29	1.89	83
+Harold Correa	Men	France	Athletics	Triple jump	28	1.90	81
+Lasha Torgvaidze	Men	Georgia	Athletics	Triple jump	23	1.84	73
+Max Hess	Men	Germany	Athletics	Triple jump	20	1.85	80
+Troy Doris	Men	Guyana	Athletics	Triple jump	27	1.72	72
+Renjith Maheswary	Men	India	Athletics	Triple jump	30	1.84	79
+Fabrizio Donato	Men	Italy	Athletics	Triple jump	39	1.89	83
+Clive Pullen	Men	Jamaica	Athletics	Triple jump	21	1.83	83
+Daigo Hasegawa	Men	Japan	Athletics	Triple jump	26	1.73	58
+Kohei Yamashita	Men	Japan	Athletics	Triple jump	21	1.79	69
+Roman Valiyev	Men	Kazakhstan	Athletics	Triple jump	32	1.90	76
+Mamadou Cherif Dia	Men	Mali	Athletics	Triple jump	31	1.80	70
+Jonathan Drack	Men	Mauritius	Athletics	Triple jump	27	1.84	73
+Alberto Alvarez	Men	Mexico	Athletics	Triple jump	25	1.91	78
+Vladimir Letnicov	Men	Moldova	Athletics	Triple jump	34	1.78	70
+Fabian Florant	Men	Netherlands	Athletics	Triple jump	33	1.80	74
+Olu Olamigoke	Men	Nigeria	Athletics	Triple jump	25	1.75	72
+Tosin Oke	Men	Nigeria	Athletics	Triple jump	25	1.79	78
+Karol Hoffmann	Men	Poland	Athletics	Triple jump	27	1.96	84
+Nelson Evora	Men	Portugal	Athletics	Triple jump	32	1.83	76
+Marian Oprea	Men	Romania	Athletics	Triple jump	34	1.91	85
+Godfrey Khotso Mokoena	Men	South Africa	Athletics	Triple jump	31	1.90	76
+Deokhyeon Kim	Men	South Korea	Athletics	Triple jump	30	1.80	71
+Pablo Torrijos	Men	Spain	Athletics	Triple jump	24	1.85	76
+Seref Osmanoglu	Men	Turkey	Athletics	Triple jump	27	1.83	75
+Chris Benard	Men	United States	Athletics	Triple jump	26	1.91	83
+Christian Taylor	Men	United States	Athletics	Triple jump	26	1.88	81
+Will Claye	Men	United States	Athletics	Triple jump	25	1.81	72
+Ruslan Kurbanov	Men	Uzbekistan	Athletics	Triple jump	23	1.83	65
+Muhammad Halim	Men	Virgin Islands US	Athletics	Triple jump	29	1.91	82
+Matthew Chau	Men	Australia	Badminton	Doubles	21	1.85	77
+Sawan Serasinghe	Men	Australia	Badminton	Doubles	22	1.78	79
+Biao Chai	Men	China	Badminton	Doubles	25	1.86	80
+Haifeng Fu	Men	China	Badminton	Doubles	32	1.81	78
+Wei Hong	Men	China	Badminton	Doubles	26	1.92	86
+Chia Hsin Tsai	Men	Chinese Taipei	Badminton	Doubles	34	1.82	82
+Sheng Mu Lee	Men	Chinese Taipei	Badminton	Doubles	29	1.79	71
+Carsten Mogensen	Men	Denmark	Badminton	Doubles	33	1.88	75
+Mathias Boe	Men	Denmark	Badminton	Doubles	36	1.85	75
+Johannes Schoettler	Men	Germany	Badminton	Doubles	31	1.92	84
+Marcus Ellis	Men	Great Britain	Badminton	Doubles	26	1.75	80
+Manu Attri	Men	India	Badminton	Doubles	23	1.72	73
+Sumeeth Reddy B.	Men	India	Badminton	Doubles	24	1.82	64
+Hendra Setiawan	Men	Indonesia	Badminton	Doubles	31	1.83	82
+Mohammad Ahsan	Men	Indonesia	Badminton	Doubles	28	1.73	72
+Hiroyuki Endo	Men	Japan	Badminton	Doubles	29	1.71	72
+Kenichi Hayakawa	Men	Japan	Badminton	Doubles	30	1.77	80
+V Shem Goh	Men	Malaysia	Badminton	Doubles	27	1.80	70
+Wee Kiong Tan	Men	Malaysia	Badminton	Doubles	27	1.77	77
+Adam Cwalina	Men	Poland	Badminton	Doubles	31	1.87	81
+Przemyslaw Wacha	Men	Poland	Badminton	Doubles	35	1.82	81
+Ivan Sozonov	Men	Russia	Badminton	Doubles	27	1.80	78
+Vladimir Ivanov	Men	Russia	Badminton	Doubles	29	1.98	93
+Gi Jung Kim	Men	South Korea	Badminton	Doubles	25	1.79	83
+Sa Rang Kim	Men	South Korea	Badminton	Doubles	26	1.78	82
+Yeon Seong Yoo	Men	South Korea	Badminton	Doubles	29	1.81	75
+Yong Dae Lee	Men	South Korea	Badminton	Doubles	27	1.80	74
+Sattawat Pongnairat	Men	United States	Badminton	Doubles	26	1.81	70
+David Obernosterer	Men	Austria	Badminton	Singles	27	1.83	80
+Yuhan Tan	Men	Belgium	Badminton	Singles	29	1.82	74
+Ygor Oliveira	Men	Brazil	Badminton	Singles	19	1.83	78
+Jaspar Woon Chai Yu	Men	Brunei Darussalam	Badminton	Singles	27	1.67	60
+Martin Giuffre	Men	Canada	Badminton	Singles	25	1.85	82
+Dan Lin	Men	China	Badminton	Singles	32	1.77	70
+Long Chen	Men	China	Badminton	Singles	27	1.88	81
+Tien Chen Chou	Men	Chinese Taipei	Badminton	Singles	26	1.80	78
+Osleini Guerrero	Men	Cuba	Badminton	Singles	26	1.89	88
+Petr Koukal	Men	Czech Republic	Badminton	Singles	30	1.92	92
+Jan O Jorgensen	Men	Denmark	Badminton	Singles	28	1.84	76
+Viktor Axelsen	Men	Denmark	Badminton	Singles	22	1.93	88
+Raul Must	Men	Estonia	Badminton	Singles	28	1.76	70
+Brice Leverdez	Men	France	Badminton	Singles	30	1.80	75
+Marc Zwiebler	Men	Germany	Badminton	Singles	32	1.81	75
+Kevin Cordon	Men	Guatemala	Badminton	Singles	29	1.80	80
+Ka Long Angus Ng	Men	Hong Kong	Badminton	Singles	22	1.81	70
+Yun Hu	Men	Hong Kong	Badminton	Singles	34	1.78	73
+Srikanth Kidambi	Men	India	Badminton	Singles	23	1.78	66
+Tommy Sugiarto	Men	Indonesia	Badminton	Singles	28	1.75	71
+Scott Evans	Men	Ireland	Badminton	Singles	28	1.80	78
+Misha Zilberman	Men	Israel	Badminton	Singles	27	1.71	61
+Sho Sasaki	Men	Japan	Badminton	Singles	34	1.72	74
+Chong Wei Lee	Men	Malaysia	Badminton	Singles	33	1.70	68
+Lino Munoz	Men	Mexico	Badminton	Singles	25	1.74	65
+Adrian Dziolko	Men	Poland	Badminton	Singles	26	1.89	85
+Pedro Martins	Men	Portugal	Badminton	Singles	26	1.77	70
+Vladimir Malkov	Men	Russia	Badminton	Singles	30	1.88	79
+Zi Liang Derek Wong	Men	Singapore	Badminton	Singles	27	1.76	69
+Jacob Maliekal	Men	South Africa	Badminton	Singles	25	1.72	72
+Dong Keun Lee	Men	South Korea	Badminton	Singles	25	1.83	78
+Wan Ho Son	Men	South Korea	Badminton	Singles	28	1.76	70
+Pablo Abian	Men	Spain	Badminton	Singles	31	1.77	68
+Niluka Karunaratne	Men	Sri Lanka	Badminton	Singles	31	1.76	73
+Henri Hurskainen	Men	Sweden	Badminton	Singles	29	1.84	80
+Boonsak Ponsana	Men	Thailand	Badminton	Singles	34	1.79	75
+Artem Pochtarev	Men	Ukraine	Badminton	Singles	23	1.83	77
+Howard Shu	Men	United States	Badminton	Singles	25	1.86	74
+Tien Minh Nguyen	Men	Vietnam	Badminton	Singles	33	1.68	60
+Gabriela Stoeva	Women	Bulgaria	Badminton	Doubles	22	1.69	63
+Stefani Stoeva	Women	Bulgaria	Badminton	Doubles	20	1.74	64
+Yang Yu	Women	China	Badminton	Doubles	30	1.66	62
+Ying Luo	Women	China	Badminton	Doubles	25	1.64	62
+Yu Luo	Women	China	Badminton	Doubles	25	1.64	66
+Yuanting Tang	Women	China	Badminton	Doubles	22	1.75	70
+Kamilla Rytter Juhl	Women	Denmark	Badminton	Doubles	32	1.83	71
+Carla Nelte	Women	Germany	Badminton	Doubles	25	1.71	60
+Johanna Goliszewski	Women	Germany	Badminton	Doubles	30	1.72	64
+Lok Yan Poon	Women	Hong Kong	Badminton	Doubles	24	1.69	56
+Ying Suet Tse	Women	Hong Kong	Badminton	Doubles	24	1.66	66
+Ashwini Ponnappa	Women	India	Badminton	Doubles	26	1.65	59
+Jwala Gutta	Women	India	Badminton	Doubles	32	1.78	85
+Greysia Polii	Women	Indonesia	Badminton	Doubles	28	1.63	56
+Nitya Krishinda Maheswari	Women	Indonesia	Badminton	Doubles	27	1.68	65
+Ayaka Takahashi	Women	Japan	Badminton	Doubles	26	1.65	60
+Misaki Matsutomo	Women	Japan	Badminton	Doubles	24	1.60	50
+Khe Wei Woon	Women	Malaysia	Badminton	Doubles	27	1.74	63
+Vivian Kah Mun Hoo	Women	Malaysia	Badminton	Doubles	26	1.66	56
+Eefje Muskens	Women	Netherlands	Badminton	Doubles	27	1.64	60
+Kyung Eun Jung	Women	South Korea	Badminton	Doubles	26	1.72	59
+Seung Chan Shin	Women	South Korea	Badminton	Doubles	21	1.73	70
+So Hee Lee	Women	South Korea	Badminton	Doubles	22	1.71	67
+Yena Chang	Women	South Korea	Badminton	Doubles	26	1.72	61
+Puttita Supajirakul	Women	Thailand	Badminton	Doubles	20	1.84	72
+Sapsiree Taerattanachai	Women	Thailand	Badminton	Doubles	24	1.70	59
+Eva Lee	Women	United States	Badminton	Doubles	30	1.68	58
+Paula Lynn Obanana	Women	United States	Badminton	Doubles	31	1.61	58
+Hsuan-Yu Wendy Chen	Women	Australia	Badminton	Singles	23	1.67	56
+Elisabeth Baldauf	Women	Austria	Badminton	Singles	26	1.75	62
+Lianne Tan	Women	Belgium	Badminton	Singles	25	1.60	54
+Lohaynny Vicente	Women	Brazil	Badminton	Singles	20	1.68	70
+Linda Zetchiri	Women	Bulgaria	Badminton	Singles	29	1.69	58
+Michelle Li	Women	Canada	Badminton	Singles	24	1.72	66
+Xuerui Li	Women	China	Badminton	Singles	25	1.75	65
+Yihan Wang	Women	China	Badminton	Singles	28	1.78	65
+Tzu Ying Tai	Women	Chinese Taipei	Badminton	Singles	22	1.62	57
+Kristina Gavnholt	Women	Czech Republic	Badminton	Singles	27	1.77	73
+Line Kjaersfeldt	Women	Denmark	Badminton	Singles	22	1.75	65
+Kati Tolmoff	Women	Estonia	Badminton	Singles	32	1.64	62
+Nanna Vainio	Women	Finland	Badminton	Singles	25	1.70	60
+Delphine Lansac	Women	France	Badminton	Singles	21	1.69	60
+Karin Schnaase	Women	Germany	Badminton	Singles	31	1.64	56
+Pui Yin Yip	Women	Hong Kong	Badminton	Singles	29	1.64	61
+Laura Sarosi	Women	Hungary	Badminton	Singles	23	1.67	57
+Saina Nehwal	Women	India	Badminton	Singles	26	1.65	65
+V. Sindhu Pusarla	Women	India	Badminton	Singles	21	1.79	65
+Lindaweni Fanetri	Women	Indonesia	Badminton	Singles	26	1.67	60
+Chloe Magee	Women	Ireland	Badminton	Singles	27	1.65	61
+Jeannine Cicognini	Women	Italy	Badminton	Singles	29	1.70	73
+Akane Yamaguchi	Women	Japan	Badminton	Singles	19	1.56	55
+Nozomi Okuhara	Women	Japan	Badminton	Singles	21	1.56	51
+Jing Yi Tee	Women	Malaysia	Badminton	Singles	25	1.67	58
+Telma Santos	Women	Portugal	Badminton	Singles	33	1.63	55
+Natalia Perminova	Women	Russia	Badminton	Singles	24	1.64	55
+Xiaoyu Liang	Women	Singapore	Badminton	Singles	20	1.63	55
+Ji Hyun Sung	Women	South Korea	Badminton	Singles	25	1.75	64
+Yeonju Bae	Women	South Korea	Badminton	Singles	25	1.67	57
+Carolina Marin	Men	Spain	Badminton	Singles	23	1.72	65
+Sabrina Jaquet	Women	Switzerland	Badminton	Singles	29	1.69	60
+Porntip Buranaprasertsuk	Women	Thailand	Badminton	Singles	24	1.65	61
+Ratchanok Intanon	Women	Thailand	Badminton	Singles	21	1.69	59
+Ozge Bayrak	Women	Turkey	Badminton	Singles	24	1.66	60
+Maria Ulitina	Women	Ukraine	Badminton	Singles	24	1.78	65
+Iris Wang	Women	United States	Badminton	Singles	21	1.61	52
+Thi Trang (b) Vu Thi	Women	Vietnam	Badminton	Singles	24	1.63	58
+Minjee Lee	Women	Australia	Golf	Individual stroke play	20	1.65	60
+Christine Wolf	Women	Austria	Golf	Individual stroke play	27	1.72	63
+Chloe Leurquin	Women	Belgium	Golf	Individual stroke play	26	1.69	57
+Miriam Nagl	Women	Brazil	Golf	Individual stroke play	35	1.72	63
+Victoria Lovelady	Women	Brazil	Golf	Individual stroke play	29	1.62	48
+Alena Sharp	Women	Canada	Golf	Individual stroke play	35	1.68	69
+Brooke Henderson	Women	Canada	Golf	Individual stroke play	18	1.63	50
+Shanshan Feng	Women	China	Golf	Individual stroke play	27	1.72	85
+Xiyu Lin	Women	China	Golf	Individual stroke play	20	1.71	65
+Candie Kung	Women	Chinese Taipei	Golf	Individual stroke play	35	1.70	70
+Teresa Lu	Women	Chinese Taipei	Golf	Individual stroke play	28	1.64	57
+Mariajo Uribe	Women	Colombia	Golf	Individual stroke play	26	1.68	65
+Klara Spilkova	Women	Czech Republic	Golf	Individual stroke play	21	1.68	53
+Nanna Koerstz Madsen	Women	Denmark	Golf	Individual stroke play	21	1.71	67
+Nicole Broch Larsen	Women	Denmark	Golf	Individual stroke play	23	1.79	75
+Noora Tamminen	Women	Finland	Golf	Individual stroke play	25	1.68	59
+Ursula Wikstrom	Women	Finland	Golf	Individual stroke play	36	1.66	55
+Gwladys Nocera	Women	France	Golf	Individual stroke play	41	1.68	62
+Karine Icher	Women	France	Golf	Individual stroke play	37	1.72	66
+Caroline Masson	Women	Germany	Golf	Individual stroke play	27	1.73	72
+Sandra Gal	Women	Germany	Golf	Individual stroke play	31	1.83	70
+Catriona Matthew	Women	Great Britain	Golf	Individual stroke play	46	1.63	60
+Charley Hull	Women	Great Britain	Golf	Individual stroke play	20	1.70	70
+Tiffany Chan	Women	Hong Kong	Golf	Individual stroke play	22	1.61	52
+Aditi Ashok	Women	India	Golf	Individual stroke play	18	1.73	57
+Leona Maguire	Women	Ireland	Golf	Individual stroke play	21	1.68	56
+Stephanie Meadow	Women	Ireland	Golf	Individual stroke play	24	1.63	64
+Laetitia Beck	Women	Israel	Golf	Individual stroke play	24	1.75	61
+Giulia Molinaro	Women	Italy	Golf	Individual stroke play	26	1.78	72
+Giulia Sergas	Women	Italy	Golf	Individual stroke play	36	1.77	64
+Harukyo Nomura	Women	Japan	Golf	Individual stroke play	23	1.65	60
+Shiho Oyama	Women	Japan	Golf	Individual stroke play	39	1.68	62
+Kelly Tan	Women	Malaysia	Golf	Individual stroke play	22	1.65	61
+Michelle Koh	Women	Malaysia	Golf	Individual stroke play	25	1.70	70
+Alejandra Llaneza	Women	Mexico	Golf	Individual stroke play	28	1.58	48
+Gaby Lopez	Women	Mexico	Golf	Individual stroke play	22	1.66	58
+Maha Haddioui	Women	Morocco	Golf	Individual stroke play	28	1.68	67
+Lydia Ko	Men	New Zealand	Golf	Individual stroke play	19	1.67	65
+Julieta Granada	Women	Paraguay	Golf	Individual stroke play	29	1.60	58
+Maria Verchenova	Women	Russia	Golf	Individual stroke play	30	1.74	64
+Paula Reto	Women	South Africa	Golf	Individual stroke play	26	1.70	62
+Amy Yang	Women	South Korea	Golf	Individual stroke play	27	1.73	77
+Inbee Park	Women	South Korea	Golf	Individual stroke play	28	1.68	60
+Ingee Chun	Women	South Korea	Golf	Individual stroke play	21	1.76	70
+Seiyoung Kim	Women	South Korea	Golf	Individual stroke play	23	1.63	68
+Azahara Munoz	Women	Spain	Golf	Individual stroke play	28	1.67	56
+Carlota Ciganda	Women	Spain	Golf	Individual stroke play	26	1.74	68
+Anna Nordqvist	Women	Sweden	Golf	Individual stroke play	29	1.83	75
+Pernilla Lindberg	Women	Sweden	Golf	Individual stroke play	30	1.65	60
+Albane Valenzuela	Women	Switzerland	Golf	Individual stroke play	18	1.74	58
+Fabienne In-Albon	Women	Switzerland	Golf	Individual stroke play	29	1.64	63
+Ariya Jutanugarn	Women	Thailand	Golf	Individual stroke play	20	1.74	73
+Pornanong Phatlum	Women	Thailand	Golf	Individual stroke play	26	1.60	55
+Gerina Piller	Women	United States	Golf	Individual stroke play	31	1.71	64
+Lexi Thompson	Women	United States	Golf	Individual stroke play	21	1.81	72
+Stacy Lewis	Women	United States	Golf	Individual stroke play	31	1.66	60
+Farah Boufadene	Women	Algeria	Gymnastics	Balance beam	17	1.55	55
+Ailen Valente	Women	Argentina	Gymnastics	Balance beam	20	1.67	58
+Houry Gebeshian	Women	Armenia	Gymnastics	Balance beam	27	1.52	48
+Larrissa Miller	Women	Australia	Gymnastics	Balance beam	24	1.59	50
+Lisa Ecker	Women	Austria	Gymnastics	Balance beam	23	1.57	55
+Kylie Rei Dickson	Women	Belarus	Gymnastics	Balance beam	17	1.60	50
+Gaelle Mys	Women	Belgium	Gymnastics	Balance beam	24	1.44	57
+Laura Waem	Women	Belgium	Gymnastics	Balance beam	19	1.60	54
+Nina Derwael	Women	Belgium	Gymnastics	Balance beam	16	1.65	46
+Rune Hermans	Women	Belgium	Gymnastics	Balance beam	17	1.59	48
+Senna Deriks	Women	Belgium	Gymnastics	Balance beam	15	1.54	46
+Daniele Hypolito	Women	Brazil	Gymnastics	Balance beam	31	1.47	40
+Flavia Saraiva	Women	Brazil	Gymnastics	Balance beam	16	1.33	31
+Jade Barbosa	Women	Brazil	Gymnastics	Balance beam	25	1.51	45
+Lorrane Oliveira	Women	Brazil	Gymnastics	Balance beam	18	1.53	50
+Rebeca Andrade	Women	Brazil	Gymnastics	Balance beam	17	1.45	45
+Brittany Rogers	Women	Canada	Gymnastics	Balance beam	23	1.65	60
+Elsabeth Black	Women	Canada	Gymnastics	Balance beam	20	1.55	56
+Isabela Onyshko	Women	Canada	Gymnastics	Balance beam	18	1.57	50
+Rose Woo	Women	Canada	Gymnastics	Balance beam	16	1.45	46
+Shallon Olsen	Women	Canada	Gymnastics	Balance beam	16	1.58	52
+Simona Castro	Women	Chile	Gymnastics	Balance beam	27	1.60	54
+Chunsong Shang	Women	China	Gymnastics	Balance beam	20	1.43	34
+Jiaxin Tan	Women	China	Gymnastics	Balance beam	19	1.48	36
+Yan Wang	Women	China	Gymnastics	Balance beam	16	1.40	33
+Yi Mao	Women	China	Gymnastics	Balance beam	16	1.51	35
+Yilin Fan	Women	China	Gymnastics	Balance beam	16	1.48	37
+Catalina Elena Escobar Gomez	Women	Colombia	Gymnastics	Balance beam	25	1.56	50
+Ana Derek	Women	Croatia	Gymnastics	Balance beam	17	1.64	58
+Marcia Vidiaux	Women	Cuba	Gymnastics	Balance beam	17	1.43	41
+Sherine Elzeiny	Women	Egypt	Gymnastics	Balance beam	25	1.60	50
+Loan His	Women	France	Gymnastics	Balance beam	17	1.60	51
+Louise Vanhille	Women	France	Gymnastics	Balance beam	17	1.67	55
+Marine Boyer	Women	France	Gymnastics	Balance beam	16	1.60	50
+Marine Brevet	Women	France	Gymnastics	Balance beam	21	1.60	52
+Oreane Lechenault	Women	France	Gymnastics	Balance beam	15	1.34	37
+Elisabeth Seitz	Women	Germany	Gymnastics	Balance beam	22	1.61	57
+Kim Bui	Women	Germany	Gymnastics	Balance beam	27	1.56	49
+Pauline Schaefer	Women	Germany	Gymnastics	Balance beam	19	1.62	55
+Sophie Scheder	Women	Germany	Gymnastics	Balance beam	19	1.67	56
+Tabea Alt	Women	Germany	Gymnastics	Balance beam	16	1.58	50
+Amy Tinkler	Women	Great Britain	Gymnastics	Balance beam	16	1.52	47
+Claudia Fragapane	Women	Great Britain	Gymnastics	Balance beam	18	1.37	43
+Elissa Downie	Women	Great Britain	Gymnastics	Balance beam	17	1.58	58
+Rebecca Downie	Women	Great Britain	Gymnastics	Balance beam	24	1.56	54
+Ruby Harrold	Women	Great Britain	Gymnastics	Balance beam	20	1.62	56
+Vasiliki Millousi	Women	Greece	Gymnastics	Balance beam	32	1.57	45
+Ana Sofia Gomez	Women	Guatemala	Gymnastics	Balance beam	20	1.56	46
+Zsofia Kovacs	Women	Hungary	Gymnastics	Balance beam	16	1.58	49
+Irina Sazonova	Women	Iceland	Gymnastics	Balance beam	24	1.60	55
+Dipa Karmakar	Women	India	Gymnastics	Balance beam	23	1.51	47
+Ellis Oreilly	Women	Ireland	Gymnastics	Balance beam	18	1.64	63
+Carlotta Ferlito	Women	Italy	Gymnastics	Balance beam	21	1.60	50
+Elisa Meneghini	Women	Italy	Gymnastics	Balance beam	19	1.50	42
+Erika Fasana	Women	Italy	Gymnastics	Balance beam	20	1.49	44
+Martina Rizzelli	Women	Italy	Gymnastics	Balance beam	18	1.53	47
+Vanessa Ferrari	Women	Italy	Gymnastics	Balance beam	25	1.45	45
+Toni-Ann Williams	Women	Jamaica	Gymnastics	Balance beam	20	1.55	52
+Aiko Sugihara	Women	Japan	Gymnastics	Balance beam	16	1.46	35
+Asuka Teramoto	Women	Japan	Gymnastics	Balance beam	20	1.45	37
+Mai Murakami	Women	Japan	Gymnastics	Balance beam	20	1.46	48
+Sae Miyakawa	Women	Japan	Gymnastics	Balance beam	16	1.45	34
+Yuki Uchiyama	Women	Japan	Gymnastics	Balance beam	18	1.59	49
+Alexa Moreno	Women	Mexico	Gymnastics	Balance beam	22	1.47	45
+CÃ©line van Gerner	Women	Netherlands	Gymnastics	Balance beam	21	1.58	51
+Eythora Thorsdottir	Women	Netherlands	Gymnastics	Balance beam	17	1.60	47
+Lieke Wevers	Women	Netherlands	Gymnastics	Balance beam	24	1.67	54
+Sanne Wevers	Women	Netherlands	Gymnastics	Balance beam	24	1.56	46
+Vera van Pol	Women	Netherlands	Gymnastics	Balance beam	22	1.57	54
+Courtney McGregor	Women	New Zealand	Gymnastics	Balance beam	17	1.59	47
+Un Jong Hong	Women	North Korea	Gymnastics	Balance beam	27	1.56	47
+Isabella Amado	Women	Panama	Gymnastics	Balance beam	20	1.55	59
+Ariana Orrego	Women	Peru	Gymnastics	Balance beam	17	1.57	49
+Katarzyna Jurkowska-Kowalska	Women	Poland	Gymnastics	Balance beam	24	1.61	50
+Filipa Martins	Women	Portugal	Gymnastics	Balance beam	20	1.63	55
+Catalina Ponor	Women	Romania	Gymnastics	Balance beam	28	1.56	47
+Aliya Mustafina	Women	Russia	Gymnastics	Balance beam	21	1.61	48
+Angelina Melnikova	Women	Russia	Gymnastics	Balance beam	16	1.51	44
+Daria Spiridonova	Women	Russia	Gymnastics	Balance beam	18	1.56	45
+Maria Paseka	Women	Russia	Gymnastics	Balance beam	21	1.61	48
+Seda Tutkhalian	Women	Russia	Gymnastics	Balance beam	17	1.42	35
+Barbora Mokosova	Women	Slovakia	Gymnastics	Balance beam	19	1.68	62
+Teja Belak	Women	Slovenia	Gymnastics	Balance beam	22	1.57	48
+Ana Perez	Women	Spain	Gymnastics	Balance beam	18	1.51	45
+Emma Larsson	Women	Sweden	Gymnastics	Balance beam	17	1.47	40
+Giulia Steingruber	Women	Switzerland	Gymnastics	Balance beam	22	1.60	56
+Marisa Dick	Women	Trinidad and Tobago	Gymnastics	Balance beam	19	1.53	47
+Tutya Yilmaz	Women	Turkey	Gymnastics	Balance beam	17	1.50	48
+Angelina Kysla	Women	Ukraine	Gymnastics	Balance beam	25	1.58	49
+Alexandra Raisman	Women	United States	Gymnastics	Balance beam	22	1.58	52
+Gabrielle Douglas	Women	United States	Gymnastics	Balance beam	20	1.50	49
+Lauren Hernandez	Women	United States	Gymnastics	Balance beam	16	1.53	48
+Madison Kocian	Women	United States	Gymnastics	Balance beam	19	1.58	46
+Simone Biles	Women	United States	Gymnastics	Balance beam	19	1.45	47
+Oksana Chusovitina	Women	Uzbekistan	Gymnastics	Balance beam	41	1.53	43
+Jessica Brizeida Lopez Arocha	Women	Venezuela	Gymnastics	Balance beam	30	1.53	47
+Thi Ha Thanh Phan	Women	Vietnam	Gymnastics	Balance beam	24	1.63	48
+Farah Boufadene	Women	Algeria	Gymnastics	Floor exercise	17	1.55	55
+Ailen Valente	Women	Argentina	Gymnastics	Floor exercise	20	1.67	58
+Houry Gebeshian	Women	Armenia	Gymnastics	Floor exercise	27	1.52	48
+Larrissa Miller	Women	Australia	Gymnastics	Floor exercise	24	1.59	50
+Lisa Ecker	Women	Austria	Gymnastics	Floor exercise	23	1.57	55
+Kylie Rei Dickson	Women	Belarus	Gymnastics	Floor exercise	17	1.60	50
+Gaelle Mys	Women	Belgium	Gymnastics	Floor exercise	24	1.44	57
+Laura Waem	Women	Belgium	Gymnastics	Floor exercise	19	1.60	54
+Nina Derwael	Women	Belgium	Gymnastics	Floor exercise	16	1.65	46
+Rune Hermans	Women	Belgium	Gymnastics	Floor exercise	17	1.59	48
+Senna Deriks	Women	Belgium	Gymnastics	Floor exercise	15	1.54	46
+Daniele Hypolito	Women	Brazil	Gymnastics	Floor exercise	31	1.47	40
+Flavia Saraiva	Women	Brazil	Gymnastics	Floor exercise	16	1.33	31
+Jade Barbosa	Women	Brazil	Gymnastics	Floor exercise	25	1.51	45
+Lorrane Oliveira	Women	Brazil	Gymnastics	Floor exercise	18	1.53	50
+Rebeca Andrade	Women	Brazil	Gymnastics	Floor exercise	17	1.45	45
+Brittany Rogers	Women	Canada	Gymnastics	Floor exercise	23	1.65	60
+Elsabeth Black	Women	Canada	Gymnastics	Floor exercise	20	1.55	56
+Isabela Onyshko	Women	Canada	Gymnastics	Floor exercise	18	1.57	50
+Rose Woo	Women	Canada	Gymnastics	Floor exercise	16	1.45	46
+Shallon Olsen	Women	Canada	Gymnastics	Floor exercise	16	1.58	52
+Simona Castro	Women	Chile	Gymnastics	Floor exercise	27	1.60	54
+Chunsong Shang	Women	China	Gymnastics	Floor exercise	20	1.43	34
+Jiaxin Tan	Women	China	Gymnastics	Floor exercise	19	1.48	36
+Yan Wang	Women	China	Gymnastics	Floor exercise	16	1.40	33
+Yi Mao	Women	China	Gymnastics	Floor exercise	16	1.51	35
+Yilin Fan	Women	China	Gymnastics	Floor exercise	16	1.48	37
+Catalina Elena Escobar Gomez	Women	Colombia	Gymnastics	Floor exercise	25	1.56	50
+Ana Derek	Women	Croatia	Gymnastics	Floor exercise	17	1.64	58
+Marcia Vidiaux	Women	Cuba	Gymnastics	Floor exercise	17	1.43	41
+Sherine Elzeiny	Women	Egypt	Gymnastics	Floor exercise	25	1.60	50
+Loan His	Women	France	Gymnastics	Floor exercise	17	1.60	51
+Louise Vanhille	Women	France	Gymnastics	Floor exercise	17	1.67	55
+Marine Boyer	Women	France	Gymnastics	Floor exercise	16	1.60	50
+Marine Brevet	Women	France	Gymnastics	Floor exercise	21	1.60	52
+Oreane Lechenault	Women	France	Gymnastics	Floor exercise	15	1.34	37
+Elisabeth Seitz	Women	Germany	Gymnastics	Floor exercise	22	1.61	57
+Kim Bui	Women	Germany	Gymnastics	Floor exercise	27	1.56	49
+Pauline Schaefer	Women	Germany	Gymnastics	Floor exercise	19	1.62	55
+Sophie Scheder	Women	Germany	Gymnastics	Floor exercise	19	1.67	56
+Tabea Alt	Women	Germany	Gymnastics	Floor exercise	16	1.58	50
+Amy Tinkler	Women	Great Britain	Gymnastics	Floor exercise	16	1.52	47
+Claudia Fragapane	Women	Great Britain	Gymnastics	Floor exercise	18	1.37	43
+Elissa Downie	Women	Great Britain	Gymnastics	Floor exercise	17	1.58	58
+Rebecca Downie	Women	Great Britain	Gymnastics	Floor exercise	24	1.56	54
+Ruby Harrold	Women	Great Britain	Gymnastics	Floor exercise	20	1.62	56
+Vasiliki Millousi	Women	Greece	Gymnastics	Floor exercise	32	1.57	45
+Ana Sofia Gomez	Women	Guatemala	Gymnastics	Floor exercise	20	1.56	46
+Zsofia Kovacs	Women	Hungary	Gymnastics	Floor exercise	16	1.58	49
+Irina Sazonova	Women	Iceland	Gymnastics	Floor exercise	24	1.60	55
+Dipa Karmakar	Women	India	Gymnastics	Floor exercise	23	1.51	47
+Ellis Oreilly	Women	Ireland	Gymnastics	Floor exercise	18	1.64	63
+Carlotta Ferlito	Women	Italy	Gymnastics	Floor exercise	21	1.60	50
+Elisa Meneghini	Women	Italy	Gymnastics	Floor exercise	19	1.50	42
+Erika Fasana	Women	Italy	Gymnastics	Floor exercise	20	1.49	44
+Martina Rizzelli	Women	Italy	Gymnastics	Floor exercise	18	1.53	47
+Vanessa Ferrari	Women	Italy	Gymnastics	Floor exercise	25	1.45	45
+Toni-Ann Williams	Women	Jamaica	Gymnastics	Floor exercise	20	1.55	52
+Aiko Sugihara	Women	Japan	Gymnastics	Floor exercise	16	1.46	35
+Asuka Teramoto	Women	Japan	Gymnastics	Floor exercise	20	1.45	37
+Mai Murakami	Women	Japan	Gymnastics	Floor exercise	20	1.46	48
+Sae Miyakawa	Women	Japan	Gymnastics	Floor exercise	16	1.45	34
+Yuki Uchiyama	Women	Japan	Gymnastics	Floor exercise	18	1.59	49
+Alexa Moreno	Women	Mexico	Gymnastics	Floor exercise	22	1.47	45
+CÃ©line van Gerner	Women	Netherlands	Gymnastics	Floor exercise	21	1.58	51
+Eythora Thorsdottir	Women	Netherlands	Gymnastics	Floor exercise	17	1.60	47
+Lieke Wevers	Women	Netherlands	Gymnastics	Floor exercise	24	1.67	54
+Sanne Wevers	Women	Netherlands	Gymnastics	Floor exercise	24	1.56	46
+Vera van Pol	Women	Netherlands	Gymnastics	Floor exercise	22	1.57	54
+Courtney McGregor	Women	New Zealand	Gymnastics	Floor exercise	17	1.59	47
+Un Jong Hong	Women	North Korea	Gymnastics	Floor exercise	27	1.56	47
+Isabella Amado	Women	Panama	Gymnastics	Floor exercise	20	1.55	59
+Ariana Orrego	Women	Peru	Gymnastics	Floor exercise	17	1.57	49
+Katarzyna Jurkowska-Kowalska	Women	Poland	Gymnastics	Floor exercise	24	1.61	50
+Filipa Martins	Women	Portugal	Gymnastics	Floor exercise	20	1.63	55
+Catalina Ponor	Women	Romania	Gymnastics	Floor exercise	28	1.56	47
+Aliya Mustafina	Women	Russia	Gymnastics	Floor exercise	21	1.61	48
+Angelina Melnikova	Women	Russia	Gymnastics	Floor exercise	16	1.51	44
+Daria Spiridonova	Women	Russia	Gymnastics	Floor exercise	18	1.56	45
+Maria Paseka	Women	Russia	Gymnastics	Floor exercise	21	1.61	48
+Seda Tutkhalian	Women	Russia	Gymnastics	Floor exercise	17	1.42	35
+Barbora Mokosova	Women	Slovakia	Gymnastics	Floor exercise	19	1.68	62
+Teja Belak	Women	Slovenia	Gymnastics	Floor exercise	22	1.57	48
+Ana Perez	Women	Spain	Gymnastics	Floor exercise	18	1.51	45
+Emma Larsson	Women	Sweden	Gymnastics	Floor exercise	17	1.47	40
+Giulia Steingruber	Women	Switzerland	Gymnastics	Floor exercise	22	1.60	56
+Marisa Dick	Women	Trinidad and Tobago	Gymnastics	Floor exercise	19	1.53	47
+Tutya Yilmaz	Women	Turkey	Gymnastics	Floor exercise	17	1.50	48
+Angelina Kysla	Women	Ukraine	Gymnastics	Floor exercise	25	1.58	49
+Alexandra Raisman	Women	United States	Gymnastics	Floor exercise	22	1.58	52
+Gabrielle Douglas	Women	United States	Gymnastics	Floor exercise	20	1.50	49
+Lauren Hernandez	Women	United States	Gymnastics	Floor exercise	16	1.53	48
+Madison Kocian	Women	United States	Gymnastics	Floor exercise	19	1.58	46
+Simone Biles	Women	United States	Gymnastics	Floor exercise	19	1.45	47
+Oksana Chusovitina	Women	Uzbekistan	Gymnastics	Floor exercise	41	1.53	43
+Jessica Brizeida Lopez Arocha	Women	Venezuela	Gymnastics	Floor exercise	30	1.53	47
+Thi Ha Thanh Phan	Women	Vietnam	Gymnastics	Floor exercise	24	1.63	48
+Farah Boufadene	Women	Algeria	Gymnastics	Individual all-around	17	1.55	55
+Ailen Valente	Women	Argentina	Gymnastics	Individual all-around	20	1.67	58
+Houry Gebeshian	Women	Armenia	Gymnastics	Individual all-around	27	1.52	48
+Larrissa Miller	Women	Australia	Gymnastics	Individual all-around	24	1.59	50
+Lisa Ecker	Women	Austria	Gymnastics	Individual all-around	23	1.57	55
+Kylie Rei Dickson	Women	Belarus	Gymnastics	Individual all-around	17	1.60	50
+Gaelle Mys	Women	Belgium	Gymnastics	Individual all-around	24	1.44	57
+Laura Waem	Women	Belgium	Gymnastics	Individual all-around	19	1.60	54
+Nina Derwael	Women	Belgium	Gymnastics	Individual all-around	16	1.65	46
+Rune Hermans	Women	Belgium	Gymnastics	Individual all-around	17	1.59	48
+Senna Deriks	Women	Belgium	Gymnastics	Individual all-around	15	1.54	46
+Daniele Hypolito	Women	Brazil	Gymnastics	Individual all-around	31	1.47	40
+Flavia Saraiva	Women	Brazil	Gymnastics	Individual all-around	16	1.33	31
+Jade Barbosa	Women	Brazil	Gymnastics	Individual all-around	25	1.51	45
+Lorrane Oliveira	Women	Brazil	Gymnastics	Individual all-around	18	1.53	50
+Rebeca Andrade	Women	Brazil	Gymnastics	Individual all-around	17	1.45	45
+Brittany Rogers	Women	Canada	Gymnastics	Individual all-around	23	1.65	60
+Elsabeth Black	Women	Canada	Gymnastics	Individual all-around	20	1.55	56
+Isabela Onyshko	Women	Canada	Gymnastics	Individual all-around	18	1.57	50
+Rose Woo	Women	Canada	Gymnastics	Individual all-around	16	1.45	46
+Shallon Olsen	Women	Canada	Gymnastics	Individual all-around	16	1.58	52
+Simona Castro	Women	Chile	Gymnastics	Individual all-around	27	1.60	54
+Chunsong Shang	Women	China	Gymnastics	Individual all-around	20	1.43	34
+Jiaxin Tan	Women	China	Gymnastics	Individual all-around	19	1.48	36
+Yan Wang	Women	China	Gymnastics	Individual all-around	16	1.40	33
+Yi Mao	Women	China	Gymnastics	Individual all-around	16	1.51	35
+Yilin Fan	Women	China	Gymnastics	Individual all-around	16	1.48	37
+Catalina Elena Escobar Gomez	Women	Colombia	Gymnastics	Individual all-around	25	1.56	50
+Ana Derek	Women	Croatia	Gymnastics	Individual all-around	17	1.64	58
+Marcia Vidiaux	Women	Cuba	Gymnastics	Individual all-around	17	1.43	41
+Sherine Elzeiny	Women	Egypt	Gymnastics	Individual all-around	25	1.60	50
+Loan His	Women	France	Gymnastics	Individual all-around	17	1.60	51
+Louise Vanhille	Women	France	Gymnastics	Individual all-around	17	1.67	55
+Marine Boyer	Women	France	Gymnastics	Individual all-around	16	1.60	50
+Marine Brevet	Women	France	Gymnastics	Individual all-around	21	1.60	52
+Oreane Lechenault	Women	France	Gymnastics	Individual all-around	15	1.34	37
+Elisabeth Seitz	Women	Germany	Gymnastics	Individual all-around	22	1.61	57
+Kim Bui	Women	Germany	Gymnastics	Individual all-around	27	1.56	49
+Pauline Schaefer	Women	Germany	Gymnastics	Individual all-around	19	1.62	55
+Sophie Scheder	Women	Germany	Gymnastics	Individual all-around	19	1.67	56
+Tabea Alt	Women	Germany	Gymnastics	Individual all-around	16	1.58	50
+Amy Tinkler	Women	Great Britain	Gymnastics	Individual all-around	16	1.52	47
+Claudia Fragapane	Women	Great Britain	Gymnastics	Individual all-around	18	1.37	43
+Elissa Downie	Women	Great Britain	Gymnastics	Individual all-around	17	1.58	58
+Rebecca Downie	Women	Great Britain	Gymnastics	Individual all-around	24	1.56	54
+Ruby Harrold	Women	Great Britain	Gymnastics	Individual all-around	20	1.62	56
+Vasiliki Millousi	Women	Greece	Gymnastics	Individual all-around	32	1.57	45
+Ana Sofia Gomez	Women	Guatemala	Gymnastics	Individual all-around	20	1.56	46
+Zsofia Kovacs	Women	Hungary	Gymnastics	Individual all-around	16	1.58	49
+Irina Sazonova	Women	Iceland	Gymnastics	Individual all-around	24	1.60	55
+Dipa Karmakar	Women	India	Gymnastics	Individual all-around	23	1.51	47
+Ellis Oreilly	Women	Ireland	Gymnastics	Individual all-around	18	1.64	63
+Carlotta Ferlito	Women	Italy	Gymnastics	Individual all-around	21	1.60	50
+Elisa Meneghini	Women	Italy	Gymnastics	Individual all-around	19	1.50	42
+Erika Fasana	Women	Italy	Gymnastics	Individual all-around	20	1.49	44
+Martina Rizzelli	Women	Italy	Gymnastics	Individual all-around	18	1.53	47
+Vanessa Ferrari	Women	Italy	Gymnastics	Individual all-around	25	1.45	45
+Toni-Ann Williams	Women	Jamaica	Gymnastics	Individual all-around	20	1.55	52
+Aiko Sugihara	Women	Japan	Gymnastics	Individual all-around	16	1.46	35
+Asuka Teramoto	Women	Japan	Gymnastics	Individual all-around	20	1.45	37
+Mai Murakami	Women	Japan	Gymnastics	Individual all-around	20	1.46	48
+Sae Miyakawa	Women	Japan	Gymnastics	Individual all-around	16	1.45	34
+Yuki Uchiyama	Women	Japan	Gymnastics	Individual all-around	18	1.59	49
+Alexa Moreno	Women	Mexico	Gymnastics	Individual all-around	22	1.47	45
+CÃ©line van Gerner	Women	Netherlands	Gymnastics	Individual all-around	21	1.58	51
+Eythora Thorsdottir	Women	Netherlands	Gymnastics	Individual all-around	17	1.60	47
+Lieke Wevers	Women	Netherlands	Gymnastics	Individual all-around	24	1.67	54
+Sanne Wevers	Women	Netherlands	Gymnastics	Individual all-around	24	1.56	46
+Vera van Pol	Women	Netherlands	Gymnastics	Individual all-around	22	1.57	54
+Courtney McGregor	Women	New Zealand	Gymnastics	Individual all-around	17	1.59	47
+Un Jong Hong	Women	North Korea	Gymnastics	Individual all-around	27	1.56	47
+Isabella Amado	Women	Panama	Gymnastics	Individual all-around	20	1.55	59
+Ariana Orrego	Women	Peru	Gymnastics	Individual all-around	17	1.57	49
+Katarzyna Jurkowska-Kowalska	Women	Poland	Gymnastics	Individual all-around	24	1.61	50
+Filipa Martins	Women	Portugal	Gymnastics	Individual all-around	20	1.63	55
+Catalina Ponor	Women	Romania	Gymnastics	Individual all-around	28	1.56	47
+Aliya Mustafina	Women	Russia	Gymnastics	Individual all-around	21	1.61	48
+Angelina Melnikova	Women	Russia	Gymnastics	Individual all-around	16	1.51	44
+Daria Spiridonova	Women	Russia	Gymnastics	Individual all-around	18	1.56	45
+Maria Paseka	Women	Russia	Gymnastics	Individual all-around	21	1.61	48
+Seda Tutkhalian	Women	Russia	Gymnastics	Individual all-around	17	1.42	35
+Barbora Mokosova	Women	Slovakia	Gymnastics	Individual all-around	19	1.68	62
+Teja Belak	Women	Slovenia	Gymnastics	Individual all-around	22	1.57	48
+Ana Perez	Women	Spain	Gymnastics	Individual all-around	18	1.51	45
+Emma Larsson	Women	Sweden	Gymnastics	Individual all-around	17	1.47	40
+Giulia Steingruber	Women	Switzerland	Gymnastics	Individual all-around	22	1.60	56
+Marisa Dick	Women	Trinidad and Tobago	Gymnastics	Individual all-around	19	1.53	47
+Tutya Yilmaz	Women	Turkey	Gymnastics	Individual all-around	17	1.50	48
+Angelina Kysla	Women	Ukraine	Gymnastics	Individual all-around	25	1.58	49
+Alexandra Raisman	Women	United States	Gymnastics	Individual all-around	22	1.58	52
+Gabrielle Douglas	Women	United States	Gymnastics	Individual all-around	20	1.50	49
+Lauren Hernandez	Women	United States	Gymnastics	Individual all-around	16	1.53	48
+Madison Kocian	Women	United States	Gymnastics	Individual all-around	19	1.58	46
+Simone Biles	Women	United States	Gymnastics	Individual all-around	19	1.45	47
+Oksana Chusovitina	Women	Uzbekistan	Gymnastics	Individual all-around	41	1.53	43
+Jessica Brizeida Lopez Arocha	Women	Venezuela	Gymnastics	Individual all-around	30	1.53	47
+Thi Ha Thanh Phan	Women	Vietnam	Gymnastics	Individual all-around	24	1.63	48
+Farah Boufadene	Women	Algeria	Gymnastics	Uneven bars	17	1.55	55
+Ailen Valente	Women	Argentina	Gymnastics	Uneven bars	20	1.67	58
+Houry Gebeshian	Women	Armenia	Gymnastics	Uneven bars	27	1.52	48
+Larrissa Miller	Women	Australia	Gymnastics	Uneven bars	24	1.59	50
+Lisa Ecker	Women	Austria	Gymnastics	Uneven bars	23	1.57	55
+Kylie Rei Dickson	Women	Belarus	Gymnastics	Uneven bars	17	1.60	50
+Gaelle Mys	Women	Belgium	Gymnastics	Uneven bars	24	1.44	57
+Laura Waem	Women	Belgium	Gymnastics	Uneven bars	19	1.60	54
+Nina Derwael	Women	Belgium	Gymnastics	Uneven bars	16	1.65	46
+Rune Hermans	Women	Belgium	Gymnastics	Uneven bars	17	1.59	48
+Senna Deriks	Women	Belgium	Gymnastics	Uneven bars	15	1.54	46
+Daniele Hypolito	Women	Brazil	Gymnastics	Uneven bars	31	1.47	40
+Flavia Saraiva	Women	Brazil	Gymnastics	Uneven bars	16	1.33	31
+Jade Barbosa	Women	Brazil	Gymnastics	Uneven bars	25	1.51	45
+Lorrane Oliveira	Women	Brazil	Gymnastics	Uneven bars	18	1.53	50
+Rebeca Andrade	Women	Brazil	Gymnastics	Uneven bars	17	1.45	45
+Brittany Rogers	Women	Canada	Gymnastics	Uneven bars	23	1.65	60
+Elsabeth Black	Women	Canada	Gymnastics	Uneven bars	20	1.55	56
+Isabela Onyshko	Women	Canada	Gymnastics	Uneven bars	18	1.57	50
+Rose Woo	Women	Canada	Gymnastics	Uneven bars	16	1.45	46
+Shallon Olsen	Women	Canada	Gymnastics	Uneven bars	16	1.58	52
+Simona Castro	Women	Chile	Gymnastics	Uneven bars	27	1.60	54
+Chunsong Shang	Women	China	Gymnastics	Uneven bars	20	1.43	34
+Jiaxin Tan	Women	China	Gymnastics	Uneven bars	19	1.48	36
+Yan Wang	Women	China	Gymnastics	Uneven bars	16	1.40	33
+Yi Mao	Women	China	Gymnastics	Uneven bars	16	1.51	35
+Yilin Fan	Women	China	Gymnastics	Uneven bars	16	1.48	37
+Catalina Elena Escobar Gomez	Women	Colombia	Gymnastics	Uneven bars	25	1.56	50
+Ana Derek	Women	Croatia	Gymnastics	Uneven bars	17	1.64	58
+Marcia Vidiaux	Women	Cuba	Gymnastics	Uneven bars	17	1.43	41
+Sherine Elzeiny	Women	Egypt	Gymnastics	Uneven bars	25	1.60	50
+Loan His	Women	France	Gymnastics	Uneven bars	17	1.60	51
+Louise Vanhille	Women	France	Gymnastics	Uneven bars	17	1.67	55
+Marine Boyer	Women	France	Gymnastics	Uneven bars	16	1.60	50
+Marine Brevet	Women	France	Gymnastics	Uneven bars	21	1.60	52
+Oreane Lechenault	Women	France	Gymnastics	Uneven bars	15	1.34	37
+Elisabeth Seitz	Women	Germany	Gymnastics	Uneven bars	22	1.61	57
+Kim Bui	Women	Germany	Gymnastics	Uneven bars	27	1.56	49
+Pauline Schaefer	Women	Germany	Gymnastics	Uneven bars	19	1.62	55
+Sophie Scheder	Women	Germany	Gymnastics	Uneven bars	19	1.67	56
+Tabea Alt	Women	Germany	Gymnastics	Uneven bars	16	1.58	50
+Amy Tinkler	Women	Great Britain	Gymnastics	Uneven bars	16	1.52	47
+Claudia Fragapane	Women	Great Britain	Gymnastics	Uneven bars	18	1.37	43
+Elissa Downie	Women	Great Britain	Gymnastics	Uneven bars	17	1.58	58
+Rebecca Downie	Women	Great Britain	Gymnastics	Uneven bars	24	1.56	54
+Ruby Harrold	Women	Great Britain	Gymnastics	Uneven bars	20	1.62	56
+Vasiliki Millousi	Women	Greece	Gymnastics	Uneven bars	32	1.57	45
+Ana Sofia Gomez	Women	Guatemala	Gymnastics	Uneven bars	20	1.56	46
+Zsofia Kovacs	Women	Hungary	Gymnastics	Uneven bars	16	1.58	49
+Irina Sazonova	Women	Iceland	Gymnastics	Uneven bars	24	1.60	55
+Dipa Karmakar	Women	India	Gymnastics	Uneven bars	23	1.51	47
+Ellis Oreilly	Women	Ireland	Gymnastics	Uneven bars	18	1.64	63
+Carlotta Ferlito	Women	Italy	Gymnastics	Uneven bars	21	1.60	50
+Elisa Meneghini	Women	Italy	Gymnastics	Uneven bars	19	1.50	42
+Erika Fasana	Women	Italy	Gymnastics	Uneven bars	20	1.49	44
+Martina Rizzelli	Women	Italy	Gymnastics	Uneven bars	18	1.53	47
+Vanessa Ferrari	Women	Italy	Gymnastics	Uneven bars	25	1.45	45
+Toni-Ann Williams	Women	Jamaica	Gymnastics	Uneven bars	20	1.55	52
+Aiko Sugihara	Women	Japan	Gymnastics	Uneven bars	16	1.46	35
+Asuka Teramoto	Women	Japan	Gymnastics	Uneven bars	20	1.45	37
+Mai Murakami	Women	Japan	Gymnastics	Uneven bars	20	1.46	48
+Sae Miyakawa	Women	Japan	Gymnastics	Uneven bars	16	1.45	34
+Yuki Uchiyama	Women	Japan	Gymnastics	Uneven bars	18	1.59	49
+Alexa Moreno	Women	Mexico	Gymnastics	Uneven bars	22	1.47	45
+CÃ©line van Gerner	Women	Netherlands	Gymnastics	Uneven bars	21	1.58	51
+Eythora Thorsdottir	Women	Netherlands	Gymnastics	Uneven bars	17	1.60	47
+Lieke Wevers	Women	Netherlands	Gymnastics	Uneven bars	24	1.67	54
+Sanne Wevers	Women	Netherlands	Gymnastics	Uneven bars	24	1.56	46
+Vera van Pol	Women	Netherlands	Gymnastics	Uneven bars	22	1.57	54
+Courtney McGregor	Women	New Zealand	Gymnastics	Uneven bars	17	1.59	47
+Un Jong Hong	Women	North Korea	Gymnastics	Uneven bars	27	1.56	47
+Isabella Amado	Women	Panama	Gymnastics	Uneven bars	20	1.55	59
+Ariana Orrego	Women	Peru	Gymnastics	Uneven bars	17	1.57	49
+Katarzyna Jurkowska-Kowalska	Women	Poland	Gymnastics	Uneven bars	24	1.61	50
+Filipa Martins	Women	Portugal	Gymnastics	Uneven bars	20	1.63	55
+Catalina Ponor	Women	Romania	Gymnastics	Uneven bars	28	1.56	47
+Aliya Mustafina	Women	Russia	Gymnastics	Uneven bars	21	1.61	48
+Angelina Melnikova	Women	Russia	Gymnastics	Uneven bars	16	1.51	44
+Daria Spiridonova	Women	Russia	Gymnastics	Uneven bars	18	1.56	45
+Maria Paseka	Women	Russia	Gymnastics	Uneven bars	21	1.61	48
+Seda Tutkhalian	Women	Russia	Gymnastics	Uneven bars	17	1.42	35
+Barbora Mokosova	Women	Slovakia	Gymnastics	Uneven bars	19	1.68	62
+Teja Belak	Women	Slovenia	Gymnastics	Uneven bars	22	1.57	48
+Ana Perez	Women	Spain	Gymnastics	Uneven bars	18	1.51	45
+Emma Larsson	Women	Sweden	Gymnastics	Uneven bars	17	1.47	40
+Giulia Steingruber	Women	Switzerland	Gymnastics	Uneven bars	22	1.60	56
+Marisa Dick	Women	Trinidad and Tobago	Gymnastics	Uneven bars	19	1.53	47
+Tutya Yilmaz	Women	Turkey	Gymnastics	Uneven bars	17	1.50	48
+Angelina Kysla	Women	Ukraine	Gymnastics	Uneven bars	25	1.58	49
+Alexandra Raisman	Women	United States	Gymnastics	Uneven bars	22	1.58	52
+Gabrielle Douglas	Women	United States	Gymnastics	Uneven bars	20	1.50	49
+Lauren Hernandez	Women	United States	Gymnastics	Uneven bars	16	1.53	48
+Madison Kocian	Women	United States	Gymnastics	Uneven bars	19	1.58	46
+Simone Biles	Women	United States	Gymnastics	Uneven bars	19	1.45	47
+Oksana Chusovitina	Women	Uzbekistan	Gymnastics	Uneven bars	41	1.53	43
+Jessica Brizeida Lopez Arocha	Women	Venezuela	Gymnastics	Uneven bars	30	1.53	47
+Thi Ha Thanh Phan	Women	Vietnam	Gymnastics	Uneven bars	24	1.63	48
+Farah Boufadene	Women	Algeria	Gymnastics	Vault	17	1.55	55
+Ailen Valente	Women	Argentina	Gymnastics	Vault	20	1.67	58
+Houry Gebeshian	Women	Armenia	Gymnastics	Vault	27	1.52	48
+Larrissa Miller	Women	Australia	Gymnastics	Vault	24	1.59	50
+Lisa Ecker	Women	Austria	Gymnastics	Vault	23	1.57	55
+Kylie Rei Dickson	Women	Belarus	Gymnastics	Vault	17	1.60	50
+Gaelle Mys	Women	Belgium	Gymnastics	Vault	24	1.44	57
+Laura Waem	Women	Belgium	Gymnastics	Vault	19	1.60	54
+Nina Derwael	Women	Belgium	Gymnastics	Vault	16	1.65	46
+Rune Hermans	Women	Belgium	Gymnastics	Vault	17	1.59	48
+Senna Deriks	Women	Belgium	Gymnastics	Vault	15	1.54	46
+Daniele Hypolito	Women	Brazil	Gymnastics	Vault	31	1.47	40
+Flavia Saraiva	Women	Brazil	Gymnastics	Vault	16	1.33	31
+Jade Barbosa	Women	Brazil	Gymnastics	Vault	25	1.51	45
+Lorrane Oliveira	Women	Brazil	Gymnastics	Vault	18	1.53	50
+Rebeca Andrade	Women	Brazil	Gymnastics	Vault	17	1.45	45
+Brittany Rogers	Women	Canada	Gymnastics	Vault	23	1.65	60
+Elsabeth Black	Women	Canada	Gymnastics	Vault	20	1.55	56
+Isabela Onyshko	Women	Canada	Gymnastics	Vault	18	1.57	50
+Rose Woo	Women	Canada	Gymnastics	Vault	16	1.45	46
+Shallon Olsen	Women	Canada	Gymnastics	Vault	16	1.58	52
+Simona Castro	Women	Chile	Gymnastics	Vault	27	1.60	54
+Chunsong Shang	Women	China	Gymnastics	Vault	20	1.43	34
+Jiaxin Tan	Women	China	Gymnastics	Vault	19	1.48	36
+Yan Wang	Women	China	Gymnastics	Vault	16	1.40	33
+Yi Mao	Women	China	Gymnastics	Vault	16	1.51	35
+Yilin Fan	Women	China	Gymnastics	Vault	16	1.48	37
+Catalina Elena Escobar Gomez	Women	Colombia	Gymnastics	Vault	25	1.56	50
+Ana Derek	Women	Croatia	Gymnastics	Vault	17	1.64	58
+Marcia Vidiaux	Women	Cuba	Gymnastics	Vault	17	1.43	41
+Sherine Elzeiny	Women	Egypt	Gymnastics	Vault	25	1.60	50
+Loan His	Women	France	Gymnastics	Vault	17	1.60	51
+Louise Vanhille	Women	France	Gymnastics	Vault	17	1.67	55
+Marine Boyer	Women	France	Gymnastics	Vault	16	1.60	50
+Marine Brevet	Women	France	Gymnastics	Vault	21	1.60	52
+Oreane Lechenault	Women	France	Gymnastics	Vault	15	1.34	37
+Elisabeth Seitz	Women	Germany	Gymnastics	Vault	22	1.61	57
+Kim Bui	Women	Germany	Gymnastics	Vault	27	1.56	49
+Pauline Schaefer	Women	Germany	Gymnastics	Vault	19	1.62	55
+Sophie Scheder	Women	Germany	Gymnastics	Vault	19	1.67	56
+Tabea Alt	Women	Germany	Gymnastics	Vault	16	1.58	50
+Amy Tinkler	Women	Great Britain	Gymnastics	Vault	16	1.52	47
+Claudia Fragapane	Women	Great Britain	Gymnastics	Vault	18	1.37	43
+Elissa Downie	Women	Great Britain	Gymnastics	Vault	17	1.58	58
+Rebecca Downie	Women	Great Britain	Gymnastics	Vault	24	1.56	54
+Ruby Harrold	Women	Great Britain	Gymnastics	Vault	20	1.62	56
+Vasiliki Millousi	Women	Greece	Gymnastics	Vault	32	1.57	45
+Ana Sofia Gomez	Women	Guatemala	Gymnastics	Vault	20	1.56	46
+Zsofia Kovacs	Women	Hungary	Gymnastics	Vault	16	1.58	49
+Irina Sazonova	Women	Iceland	Gymnastics	Vault	24	1.60	55
+Dipa Karmakar	Women	India	Gymnastics	Vault	23	1.51	47
+Ellis Oreilly	Women	Ireland	Gymnastics	Vault	18	1.64	63
+Carlotta Ferlito	Women	Italy	Gymnastics	Vault	21	1.60	50
+Elisa Meneghini	Women	Italy	Gymnastics	Vault	19	1.50	42
+Erika Fasana	Women	Italy	Gymnastics	Vault	20	1.49	44
+Martina Rizzelli	Women	Italy	Gymnastics	Vault	18	1.53	47
+Vanessa Ferrari	Women	Italy	Gymnastics	Vault	25	1.45	45
+Toni-Ann Williams	Women	Jamaica	Gymnastics	Vault	20	1.55	52
+Aiko Sugihara	Women	Japan	Gymnastics	Vault	16	1.46	35
+Asuka Teramoto	Women	Japan	Gymnastics	Vault	20	1.45	37
+Mai Murakami	Women	Japan	Gymnastics	Vault	20	1.46	48
+Sae Miyakawa	Women	Japan	Gymnastics	Vault	16	1.45	34
+Yuki Uchiyama	Women	Japan	Gymnastics	Vault	18	1.59	49
+Alexa Moreno	Women	Mexico	Gymnastics	Vault	22	1.47	45
+CÃ©line van Gerner	Women	Netherlands	Gymnastics	Vault	21	1.58	51
+Eythora Thorsdottir	Women	Netherlands	Gymnastics	Vault	17	1.60	47
+Lieke Wevers	Women	Netherlands	Gymnastics	Vault	24	1.67	54
+Sanne Wevers	Women	Netherlands	Gymnastics	Vault	24	1.56	46
+Vera van Pol	Women	Netherlands	Gymnastics	Vault	22	1.57	54
+Courtney McGregor	Women	New Zealand	Gymnastics	Vault	17	1.59	47
+Un Jong Hong	Women	North Korea	Gymnastics	Vault	27	1.56	47
+Isabella Amado	Women	Panama	Gymnastics	Vault	20	1.55	59
+Ariana Orrego	Women	Peru	Gymnastics	Vault	17	1.57	49
+Katarzyna Jurkowska-Kowalska	Women	Poland	Gymnastics	Vault	24	1.61	50
+Filipa Martins	Women	Portugal	Gymnastics	Vault	20	1.63	55
+Catalina Ponor	Women	Romania	Gymnastics	Vault	28	1.56	47
+Aliya Mustafina	Women	Russia	Gymnastics	Vault	21	1.61	48
+Angelina Melnikova	Women	Russia	Gymnastics	Vault	16	1.51	44
+Daria Spiridonova	Women	Russia	Gymnastics	Vault	18	1.56	45
+Maria Paseka	Women	Russia	Gymnastics	Vault	21	1.61	48
+Seda Tutkhalian	Women	Russia	Gymnastics	Vault	17	1.42	35
+Barbora Mokosova	Women	Slovakia	Gymnastics	Vault	19	1.68	62
+Teja Belak	Women	Slovenia	Gymnastics	Vault	22	1.57	48
+Ana Perez	Women	Spain	Gymnastics	Vault	18	1.51	45
+Emma Larsson	Women	Sweden	Gymnastics	Vault	17	1.47	40
+Giulia Steingruber	Women	Switzerland	Gymnastics	Vault	22	1.60	56
+Marisa Dick	Women	Trinidad and Tobago	Gymnastics	Vault	19	1.53	47
+Tutya Yilmaz	Women	Turkey	Gymnastics	Vault	17	1.50	48
+Angelina Kysla	Women	Ukraine	Gymnastics	Vault	25	1.58	49
+Alexandra Raisman	Women	United States	Gymnastics	Vault	22	1.58	52
+Gabrielle Douglas	Women	United States	Gymnastics	Vault	20	1.50	49
+Lauren Hernandez	Women	United States	Gymnastics	Vault	16	1.53	48
+Madison Kocian	Women	United States	Gymnastics	Vault	19	1.58	46
+Simone Biles	Women	United States	Gymnastics	Vault	19	1.45	47
+Oksana Chusovitina	Women	Uzbekistan	Gymnastics	Vault	41	1.53	43
+Jessica Brizeida Lopez Arocha	Women	Venezuela	Gymnastics	Vault	30	1.53	47
+Thi Ha Thanh Phan	Women	Vietnam	Gymnastics	Vault	24	1.63	48
+AGUIRRE Gabriela	Women	Argentina	Hockey	Hockey	30	1.64	58
+ALBERTARRIO Agustina	Women	Argentina	Hockey	Hockey	23	1.65	55
+BARRIONUEVO Maria	Women	Argentina	Hockey	Hockey	32	1.71	58
+BRUNET Manuel	Men	Argentina	Hockey	Hockey	30	1.79	79
+CALLIONI Facundo	Men	Argentina	Hockey	Hockey	30	1.83	77
+CAMPOY Maria	Women	Argentina	Hockey	Hockey	25	1.58	48
+CAVALLERO Martina	Women	Argentina	Hockey	Hockey	26	1.63	58
+GILARDI Juan	Men	Argentina	Hockey	Hockey	34	1.86	91
+GOMES Julia	Women	Argentina	Hockey	Hockey	24	1.65	60
+GRANATTO Maria	Women	Argentina	Hockey	Hockey	21	1.58	58
+HABIF Agustina	Women	Argentina	Hockey	Hockey	24	1.65	55
+HABIF Florencia	Women	Argentina	Hockey	Hockey	22	1.65	55
+IBARRA Isidoro	Men	Argentina	Hockey	Hockey	23	1.75	75
+IBARRA Pedro	Men	Argentina	Hockey	Hockey	30	1.74	75
+LOPEZ Juan	Men	Argentina	Hockey	Hockey	31	1.78	74
+MASSO Luca	Men	Argentina	Hockey	Hockey	22	1.86	82
+MAZZILLI Agustin	Men	Argentina	Hockey	Hockey	27	1.73	77
+MENINI Joaquin	Men	Argentina	Hockey	Hockey	24	1.82	76
+MERINO Delfina	Women	Argentina	Hockey	Hockey	26	1.69	59
+MUTIO Maria	Women	Argentina	Hockey	Hockey	31	1.71	68
+ORTIZ Ignacio	Men	Argentina	Hockey	Hockey	29	1.80	76
+ORTIZ Maria	Women	Argentina	Hockey	Hockey	19	1.62	50
+PAREDES Matias	Men	Argentina	Hockey	Hockey	34	1.76	74
+PEILLAT Gonzalo	Men	Argentina	Hockey	Hockey	23	1.77	82
+REBECCHI Carla	Women	Argentina	Hockey	Hockey	31	1.63	55
+REY Lucas	Men	Argentina	Hockey	Hockey	33	1.77	74
+REY Matias	Men	Argentina	Hockey	Hockey	31	1.78	72
+ROMANG Pilar	Women	Argentina	Hockey	Hockey	24	1.60	50
+ROSSI Lucas	Men	Argentina	Hockey	Hockey	31	1.88	88
+SALADINO Juan	Men	Argentina	Hockey	Hockey	28	1.74	73
+SANCHEZ Rocio	Women	Argentina	Hockey	Hockey	28	1.57	54
+SUCCI Belen	Women	Argentina	Hockey	Hockey	30	1.77	72
+VILA Lucas	Men	Argentina	Hockey	Hockey	29	1.72	75
+VIVALDI Juan	Men	Argentina	Hockey	Hockey	37	1.80	80
+VON DER HEYDE Lucina	Women	Argentina	Hockey	Hockey	19	1.60	57
+ZULOAGA Victoria	Women	Argentina	Hockey	Hockey	28	1.75	70
+Agustina Albertarrio	Women	Argentina	Hockey	Hockey	23	1.65	55
+Agustina Habif	Women	Argentina	Hockey	Hockey	24	1.65	55
+Belen Succi	Women	Argentina	Hockey	Hockey	30	1.77	72
+Carla Rebecchi	Women	Argentina	Hockey	Hockey	31	1.63	55
+Delfina Merino	Women	Argentina	Hockey	Hockey	26	1.69	59
+Florencia Habif	Women	Argentina	Hockey	Hockey	22	1.65	55
+Gabriela Aguirre	Women	Argentina	Hockey	Hockey	30	1.64	58
+Julia Gomes	Women	Argentina	Hockey	Hockey	24	1.65	60
+Lucina von der Heyde	Women	Argentina	Hockey	Hockey	19	1.60	57
+Maria Barrionuevo	Women	Argentina	Hockey	Hockey	32	1.71	58
+Maria Campoy	Women	Argentina	Hockey	Hockey	25	1.58	48
+Maria Granatto	Women	Argentina	Hockey	Hockey	21	1.58	58
+Maria Mutio	Women	Argentina	Hockey	Hockey	31	1.71	68
+Maria Ortiz	Women	Argentina	Hockey	Hockey	19	1.62	50
+Martina Cavallero	Women	Argentina	Hockey	Hockey	26	1.63	58
+Pilar Romang	Women	Argentina	Hockey	Hockey	24	1.60	50
+Rocio Sanchez	Women	Argentina	Hockey	Hockey	28	1.57	54
+Victoria Zuloaga	Women	Argentina	Hockey	Hockey	28	1.75	70
+BEALE Daniel	Men	Australia	Hockey	Hockey	23	1.84	74
+BLYTH Madonna	Women	Australia	Hockey	Hockey	30	1.65	60
+BONE Edwina	Women	Australia	Hockey	Hockey	28	1.70	70
+CHARTER Andrew	Men	Australia	Hockey	Hockey	29	1.82	87
+CIRIELLO Chris	Men	Australia	Hockey	Hockey	30	1.82	83
+CLAXTON Jane	Women	Australia	Hockey	Hockey	23	1.69	60
+CRAIG Tom	Men	Australia	Hockey	Hockey	20	1.86	85
+DAWSON Matthew	Men	Australia	Hockey	Hockey	22	1.76	66
+DEAVIN Tim	Men	Australia	Hockey	Hockey	32	1.85	77
+DWYER Jamie	Men	Australia	Hockey	Hockey	37	1.72	68
+DWYER Kirstin	Women	Australia	Hockey	Hockey	27	1.73	66
+FLANAGAN Anna	Women	Australia	Hockey	Hockey	24	1.80	66
+GOHDES Matt	Men	Australia	Hockey	Hockey	26	1.80	80
+GOVERS Blake	Men	Australia	Hockey	Hockey	20	1.87	85
+HAYWARD Jeremy	Men	Australia	Hockey	Hockey	23	1.81	82
+KAVANAGH Fergus	Men	Australia	Hockey	Hockey	31	1.82	75
+KENNY Jodie	Women	Australia	Hockey	Hockey	28	1.83	74
+KNOWLES Mark	Men	Australia	Hockey	Hockey	32	1.83	74
+LYNCH Rachael	Women	Australia	Hockey	Hockey	30	1.79	68
+MCMAHON Karri	Women	Australia	Hockey	Hockey	24	1.77	70
+MORGAN Georgina	Women	Australia	Hockey	Hockey	23	1.79	70
+NANCE Gabrielle	Women	Australia	Hockey	Hockey	22	1.69	55
+NANSCAWEN Georgia	Women	Australia	Hockey	Hockey	24	1.60	59
+OCKENDEN Edward	Men	Australia	Hockey	Hockey	29	1.80	73
+ORCHARD Simon	Men	Australia	Hockey	Hockey	30	1.86	82
+PARKER Georgina	Women	Australia	Hockey	Hockey	27	1.59	68
+PERIS Brooke	Women	Australia	Hockey	Hockey	23	1.72	57
+SABLOWSKI Casey	Women	Australia	Hockey	Hockey	27	1.70	62
+SLATTERY Kathryn	Women	Australia	Hockey	Hockey	23	1.73	68
+SMITH Emily	Women	Australia	Hockey	Hockey	24	1.59	55
+STEWART Grace	Women	Australia	Hockey	Hockey	19	1.75	68
+SWANN Matthew	Men	Australia	Hockey	Hockey	27	1.70	64
+TURNER Glenn	Men	Australia	Hockey	Hockey	32	1.79	82
+WHETTON Jacob	Men	Australia	Hockey	Hockey	25	1.72	64
+WILLIAMS Mariah	Women	Australia	Hockey	Hockey	21	1.68	66
+ZALEWSKI Aran	Men	Australia	Hockey	Hockey	25	1.86	80
+Anna Flanagan	Women	Australia	Hockey	Hockey	24	1.80	66
+Brooke Peris	Women	Australia	Hockey	Hockey	23	1.72	57
+Casey Sablowski	Women	Australia	Hockey	Hockey	27	1.70	62
+Edwina Bone	Women	Australia	Hockey	Hockey	28	1.70	70
+Emily Smith	Women	Australia	Hockey	Hockey	24	1.59	55
+Gabrielle Nance	Women	Australia	Hockey	Hockey	22	1.69	55
+Georgia Nanscawen	Women	Australia	Hockey	Hockey	24	1.60	59
+Georgina Morgan	Women	Australia	Hockey	Hockey	23	1.79	70
+Georgina Parker	Women	Australia	Hockey	Hockey	27	1.59	68
+Grace Stewart	Women	Australia	Hockey	Hockey	19	1.75	68
+Jane Claxton	Women	Australia	Hockey	Hockey	23	1.69	60
+Jodie Kenny	Women	Australia	Hockey	Hockey	28	1.83	74
+Karri McMahon	Women	Australia	Hockey	Hockey	24	1.77	70
+Kathryn Slattery	Women	Australia	Hockey	Hockey	23	1.73	68
+Kirstin Dwyer	Women	Australia	Hockey	Hockey	27	1.73	66
+Madonna Blyth	Women	Australia	Hockey	Hockey	30	1.65	60
+Mariah Williams	Women	Australia	Hockey	Hockey	21	1.68	66
+Rachael Lynch	Women	Australia	Hockey	Hockey	30	1.79	68
+BOCCARD Gauthier	Men	Belgium	Hockey	Hockey	24	1.86	79
+BOON Tom	Men	Belgium	Hockey	Hockey	26	1.84	81
+BRIELS Thomas	Men	Belgium	Hockey	Hockey	28	1.72	71
+CHARLIER Cedric	Men	Belgium	Hockey	Hockey	28	1.81	81
+COSYNS Tanguy	Men	Belgium	Hockey	Hockey	25	1.74	70
+DE PAEUW Alexandre	Men	Belgium	Hockey	Hockey	27	1.78	75
+DENAYER Felix	Men	Belgium	Hockey	Hockey	26	1.90	85
+DOCKIER Sebastien	Men	Belgium	Hockey	Hockey	26	1.75	74
+DOHMEN John-John	Men	Belgium	Hockey	Hockey	28	1.74	69
+GOUGNARD Simon	Men	Belgium	Hockey	Hockey	25	1.87	84
+HENDRICKX Alexander	Men	Belgium	Hockey	Hockey	23	1.85	82
+LUYPAERT Loick	Men	Belgium	Hockey	Hockey	24	1.81	78
+STOCKBROEKX Emmanuel	Men	Belgium	Hockey	Hockey	22	1.89	88
+TRUYENS Jerome	Men	Belgium	Hockey	Hockey	29	1.78	70
+VAN AUBEL Florent	Men	Belgium	Hockey	Hockey	24	1.78	73
+VAN DOREN Arthur	Men	Belgium	Hockey	Hockey	21	1.78	74
+VAN STRYDONCK Elliot	Men	Belgium	Hockey	Hockey	28	1.85	75
+VANASCH Vincent	Men	Belgium	Hockey	Hockey	28	1.80	78
+BATISTA Paulo	Men	Brazil	Hockey	Hockey	23	1.85	90
+BOMFIM Thiago	Men	Brazil	Hockey	Hockey	25	1.93	84
+BORGES Matheus	Men	Brazil	Hockey	Hockey	23	1.76	78
+DE PAULA Augusto	Men	Brazil	Hockey	Hockey	28	1.82	79
+FAUSTINO Rodrigo	Men	Brazil	Hockey	Hockey	29	1.67	69
+IMER Adam	Men	Brazil	Hockey	Hockey	26	1.82	88
+LOPEZ Joaquin	Men	Brazil	Hockey	Hockey	26	1.70	76
+MCPHERSON Christophen	Men	Brazil	Hockey	Hockey	32	1.85	77
+MENDONCA Bruno	Men	Brazil	Hockey	Hockey	32	1.83	93
+PAES Bruno	Men	Brazil	Hockey	Hockey	23	1.77	76
+PAIXAO Lucas	Men	Brazil	Hockey	Hockey	21	1.72	62
+PASIN Marcos	Men	Brazil	Hockey	Hockey	23	1.73	69
+PATROCINIO Andre	Men	Brazil	Hockey	Hockey	26	1.73	74
+ROST-ONNES Ernst	Men	Brazil	Hockey	Hockey	30	1.84	76
+SMITH Stephane	Men	Brazil	Hockey	Hockey	27	1.73	70
+STEIMBACH Rodrigo	Men	Brazil	Hockey	Hockey	20	1.61	58
+VAN DER HEIJDEN Patrick	Men	Brazil	Hockey	Hockey	23	1.80	70
+VAN DER HEIJDEN Yuri	Men	Brazil	Hockey	Hockey	26	1.78	76
+BISSETT Brenden	Men	Canada	Hockey	Hockey	23	1.78	73
+CARTER David	Men	Canada	Hockey	Hockey	34	1.75	79
+CURRAN Taylor	Men	Canada	Hockey	Hockey	24	1.83	80
+FROESE Adam	Men	Canada	Hockey	Hockey	24	1.82	81
+GILL Jagdish	Men	Canada	Hockey	Hockey	31	1.75	77
+GUEST Matthew	Men	Canada	Hockey	Hockey	31	1.90	90
+HILDRETH Richard	Men	Canada	Hockey	Hockey	32	1.83	80
+HO-GARCIA Gabriel	Men	Canada	Hockey	Hockey	23	1.70	70
+JOHNSTON Gordon	Men	Canada	Hockey	Hockey	23	1.87	88
+KINDLER Antoni	Men	Canada	Hockey	Hockey	28	1.88	85
+MARTIN Benjamin	Men	Canada	Hockey	Hockey	29	1.82	75
+PANESAR Sukhi	Men	Canada	Hockey	Hockey	22	1.80	75
+PEARSON Mark	Men	Canada	Hockey	Hockey	29	1.81	76
+PEREIRA Keegan	Men	Canada	Hockey	Hockey	24	1.66	59
+SARMENTO Matthew	Men	Canada	Hockey	Hockey	25	1.74	76
+SMYTHE Iain	Men	Canada	Hockey	Hockey	31	1.80	77
+TEIXEIRA Devohn	Men	Canada	Hockey	Hockey	27	1.65	61
+TUPPER Scott	Men	Canada	Hockey	Hockey	29	1.79	79
+CUI Qiuxia	Women	China	Hockey	Hockey	25	1.66	63
+DE Jiaojiao	Women	China	Hockey	Hockey	26	1.67	57
+GUO Jiajia	Women	China	Hockey	Hockey	22	1.71	65
+LI Dongxiao	Women	China	Hockey	Hockey	28	1.75	60
+LI Hongxia	Women	China	Hockey	Hockey	29	1.68	63
+LI Jiaqi	Women	China	Hockey	Hockey	21	1.68	63
+LIANG Meiyu	Women	China	Hockey	Hockey	22	1.66	63
+OU Zixia	Women	China	Hockey	Hockey	20	1.68	61
+PENG Yang	Women	China	Hockey	Hockey	24	1.63	59
+SONG Qingling	Women	China	Hockey	Hockey	30	1.74	69
+SUN Xiao	Women	China	Hockey	Hockey	24	1.67	57
+WANG Mengyu	Women	China	Hockey	Hockey	24	1.70	71
+WANG Na	Women	China	Hockey	Hockey	22	1.66	59
+WU Qiong	Women	China	Hockey	Hockey	27	1.67	59
+YU Qian	Women	China	Hockey	Hockey	24	1.66	55
+ZHANG Jinrong	Women	China	Hockey	Hockey	19	1.63	58
+ZHANG Xiaoxue	Women	China	Hockey	Hockey	23	1.62	51
+ZHAO Yudiao	Women	China	Hockey	Hockey	27	1.74	68
+Dongxiao Li	Women	China	Hockey	Hockey	28	1.75	60
+Hongxia Li	Women	China	Hockey	Hockey	29	1.68	63
+Jiajia Guo	Women	China	Hockey	Hockey	22	1.71	65
+Jiaojiao De	Women	China	Hockey	Hockey	26	1.67	57
+Jiaqi Li	Women	China	Hockey	Hockey	21	1.68	63
+Jinrong Zhang	Women	China	Hockey	Hockey	19	1.63	58
+Meiyu Liang	Women	China	Hockey	Hockey	22	1.66	63
+Mengyu Wang	Women	China	Hockey	Hockey	24	1.70	71
+Na Wang	Women	China	Hockey	Hockey	22	1.66	59
+Qian Yu	Women	China	Hockey	Hockey	24	1.66	55
+Qingling Song	Women	China	Hockey	Hockey	30	1.74	69
+Qiong Wu	Women	China	Hockey	Hockey	27	1.67	59
+Qiuxia Cui	Women	China	Hockey	Hockey	25	1.66	63
+Xiao Sun	Women	China	Hockey	Hockey	24	1.67	57
+Xiaoxue Zhang	Women	China	Hockey	Hockey	23	1.62	51
+Yang Peng	Women	China	Hockey	Hockey	24	1.63	59
+Yudiao Zhao	Women	China	Hockey	Hockey	27	1.74	68
+Zixia Ou	Women	China	Hockey	Hockey	20	1.68	61
+ALTENBURG Lisa	Women	Germany	Hockey	Hockey	26	1.55	58
+BUTT Linus	Men	Germany	Hockey	Hockey	29	1.86	83
+DEECKE Oskar	Men	Germany	Hockey	Hockey	30	1.83	78
+FRANK Yvonne	Women	Germany	Hockey	Hockey	36	1.82	78
+FUCHS Florian	Men	Germany	Hockey	Hockey	24	1.85	74
+FURSTE Moritz	Men	Germany	Hockey	Hockey	31	1.90	89
+GRAMBUSCH Mats	Men	Germany	Hockey	Hockey	23	1.77	74
+GRAMBUSCH Tom	Men	Germany	Hockey	Hockey	21	1.85	85
+HANER Martin	Men	Germany	Hockey	Hockey	27	1.84	83
+HAUKE Franzisca	Women	Germany	Hockey	Hockey	26	1.72	63
+HAUKE Tobias	Men	Germany	Hockey	Hockey	28	1.83	81
+HERZBRUCH Timm	Men	Germany	Hockey	Hockey	19	1.80	76
+JACOBI Nicolas	Men	Germany	Hockey	Hockey	29	1.93	95
+KORN Oliver	Men	Germany	Hockey	Hockey	32	1.81	76
+KRUGER Hannah	Women	Germany	Hockey	Hockey	27	1.73	67
+LORENZ Nike	Women	Germany	Hockey	Hockey	19	1.70	69
+MAVERS Marie	Women	Germany	Hockey	Hockey	25	1.70	67
+MULLER Julia	Women	Germany	Hockey	Hockey	30	1.70	71
+MULLER Mathias	Men	Germany	Hockey	Hockey	24	1.87	80
+MULLER-WIELAND Janne	Women	Germany	Hockey	Hockey	29	1.75	69
+OLDHAFER Pia-Sophie	Women	Germany	Hockey	Hockey	24	1.66	55
+ORUZ Selin	Women	Germany	Hockey	Hockey	19	1.72	60
+ORUZ Timur	Men	Germany	Hockey	Hockey	21	1.86	87
+OTTE Katharina	Women	Germany	Hockey	Hockey	29	1.70	61
+PIEPER Cecile	Women	Germany	Hockey	Hockey	21	1.66	56
+REYNOLDS Kristina	Women	Germany	Hockey	Hockey	32	1.81	71
+RUHR Christopher	Men	Germany	Hockey	Hockey	22	1.80	77
+SCHRODER Anne	Women	Germany	Hockey	Hockey	21	1.70	58
+SCHUTZE Lisa	Women	Germany	Hockey	Hockey	19	1.72	61
+SPRINK Annika	Women	Germany	Hockey	Hockey	20	1.73	61
+STAPENHORST Charlotte	Women	Germany	Hockey	Hockey	21	1.68	68
+TESCHKE Jana	Women	Germany	Hockey	Hockey	25	1.68	56
+TROMPERTZ Moritz	Men	Germany	Hockey	Hockey	20	1.80	76
+WELLEN Niklas	Men	Germany	Hockey	Hockey	21	1.85	77
+WESLEY Christopher	Men	Germany	Hockey	Hockey	29	1.92	88
+ZWICKER Martin	Men	Germany	Hockey	Hockey	29	1.75	64
+Anne Schroder	Women	Germany	Hockey	Hockey	21	1.70	58
+Annika Sprink	Women	Germany	Hockey	Hockey	20	1.73	61
+Cecile Pieper	Women	Germany	Hockey	Hockey	21	1.66	56
+Charlotte Stapenhorst	Women	Germany	Hockey	Hockey	21	1.68	68
+Franzisca Hauke	Women	Germany	Hockey	Hockey	26	1.72	63
+Hannah Kruger	Women	Germany	Hockey	Hockey	27	1.73	67
+Jana Teschke	Women	Germany	Hockey	Hockey	25	1.68	56
+Janne Muller-Wieland	Women	Germany	Hockey	Hockey	29	1.75	69
+Julia Muller	Women	Germany	Hockey	Hockey	30	1.70	71
+Katharina Otte	Women	Germany	Hockey	Hockey	29	1.70	61
+Kristina Reynolds	Women	Germany	Hockey	Hockey	32	1.81	71
+Lisa Altenburg	Women	Germany	Hockey	Hockey	26	1.55	58
+Lisa Schutze	Women	Germany	Hockey	Hockey	19	1.72	61
+Marie Mavers	Women	Germany	Hockey	Hockey	25	1.70	67
+Nike Lorenz	Women	Germany	Hockey	Hockey	19	1.70	69
+Pia-Sophie Oldhafer	Women	Germany	Hockey	Hockey	24	1.66	55
+Selin Oruz	Women	Germany	Hockey	Hockey	19	1.72	60
+Yvonne Frank	Women	Germany	Hockey	Hockey	36	1.82	78
+AMES David	Men	Great Britain	Hockey	Hockey	27	1.88	82
+ANSLEY Giselle	Women	Great Britain	Hockey	Hockey	24	1.76	73
+BRAY Sophie	Women	Great Britain	Hockey	Hockey	26	1.64	58
+BROGDON Alastair	Men	Great Britain	Hockey	Hockey	28	1.83	76
+CATLIN Nickolas	Men	Great Britain	Hockey	Hockey	27	1.75	76
+CONDON David	Men	Great Britain	Hockey	Hockey	25	1.80	79
+CULLEN Crista	Women	Great Britain	Hockey	Hockey	30	1.82	74
+DANSON Alexandra	Women	Great Britain	Hockey	Hockey	31	1.67	56
+DIXON Adam	Men	Great Britain	Hockey	Hockey	29	1.69	70
+FOX Daniel	Men	Great Britain	Hockey	Hockey	33	1.83	78
+GLEGHORNE Mark	Men	Great Britain	Hockey	Hockey	31	1.80	82
+HINCH Maddie	Women	Great Britain	Hockey	Hockey	27	1.68	62
+HOARE Michael	Men	Great Britain	Hockey	Hockey	30	1.76	77
+JACKSON Ashley	Men	Great Britain	Hockey	Hockey	28	1.70	73
+LEIGH Joanna	Women	Great Britain	Hockey	Hockey	23	1.65	61
+LEWERS Iain	Men	Great Britain	Hockey	Hockey	32	1.83	79
+MACLEOD Hannah	Women	Great Britain	Hockey	Hockey	32	1.72	67
+MANTELL Simon	Men	Great Britain	Hockey	Hockey	32	1.84	81
+MARTIN Harry	Men	Great Britain	Hockey	Hockey	23	1.84	81
+MCCALLIN Shona	Women	Great Britain	Hockey	Hockey	24	1.65	69
+MIDDLETON Barry	Men	Great Britain	Hockey	Hockey	32	1.76	70
+OWSLEY Lily	Women	Great Britain	Hockey	Hockey	21	1.70	70
+PINNER George	Men	Great Britain	Hockey	Hockey	29	1.92	92
+QUEK Samantha	Women	Great Britain	Hockey	Hockey	27	1.69	62
+RICHARDSON-WALSH Helen	Women	Great Britain	Hockey	Hockey	34	1.65	55
+RICHARDSON-WALSH Kate	Women	Great Britain	Hockey	Hockey	36	1.61	66
+SHINGLES Daniel	Men	Great Britain	Hockey	Hockey	30	1.84	84
+SLOAN Ian	Men	Great Britain	Hockey	Hockey	22	1.75	76
+TOWNSEND Susannah	Women	Great Britain	Hockey	Hockey	27	1.68	61
+TWIGG Georgina	Women	Great Britain	Hockey	Hockey	25	1.60	62
+UNSWORTH Laura	Women	Great Britain	Hockey	Hockey	28	1.52	55
+WARD Sam	Men	Great Britain	Hockey	Hockey	25	1.78	75
+WATTON Eleanor	Women	Great Britain	Hockey	Hockey	27	1.67	64
+WEBB Hollie	Women	Great Britain	Hockey	Hockey	25	1.65	65
+WEIR Henry	Men	Great Britain	Hockey	Hockey	26	1.76	75
+WHITE Nicola	Women	Great Britain	Hockey	Hockey	28	1.72	65
+Alexandra Danson	Women	Great Britain	Hockey	Hockey	31	1.67	56
+Crista Cullen	Women	Great Britain	Hockey	Hockey	30	1.82	74
+Eleanor Watton	Women	Great Britain	Hockey	Hockey	27	1.67	64
+Georgina Twigg	Women	Great Britain	Hockey	Hockey	25	1.60	62
+Giselle Ansley	Women	Great Britain	Hockey	Hockey	24	1.76	73
+Hannah Macleod	Women	Great Britain	Hockey	Hockey	32	1.72	67
+Helen Richardson-Walsh	Women	Great Britain	Hockey	Hockey	34	1.65	55
+Hollie Webb	Women	Great Britain	Hockey	Hockey	25	1.65	65
+Joanna Leigh	Women	Great Britain	Hockey	Hockey	23	1.65	61
+Kate Richardson-Walsh	Women	Great Britain	Hockey	Hockey	36	1.61	66
+Laura Unsworth	Women	Great Britain	Hockey	Hockey	28	1.52	55
+Lily Owsley	Women	Great Britain	Hockey	Hockey	21	1.70	70
+Maddie Hinch	Women	Great Britain	Hockey	Hockey	27	1.68	62
+Nicola White	Women	Great Britain	Hockey	Hockey	28	1.72	65
+Samantha Quek	Women	Great Britain	Hockey	Hockey	27	1.69	62
+Shona McCALLIN	Women	Great Britain	Hockey	Hockey	24	1.65	69
+Sophie Bray	Women	Great Britain	Hockey	Hockey	26	1.64	58
+Susannah Townsend	Women	Great Britain	Hockey	Hockey	27	1.68	61
+DAHIYA Vikas	Men	India	Hockey	Hockey	21	1.80	69
+DEEPIKA Deepika	Women	India	Hockey	Hockey	29	1.59	61
+DUBEY Preeti	Women	India	Hockey	Hockey	18	1.66	53
+EKKA Deep	Women	India	Hockey	Hockey	22	1.58	63
+ETIMARPU Rajani	Women	India	Hockey	Hockey	26	1.72	63
+KANGUJAM Chinglensana	Men	India	Hockey	Hockey	24	1.69	72
+KATARIYA Vandana	Women	India	Hockey	Hockey	24	1.59	48
+KAUR Navjot	Women	India	Hockey	Hockey	21	1.67	53
+KHADANGBAM Kothajit	Men	India	Hockey	Hockey	23	1.70	63
+KUMAR Surender	Men	India	Hockey	Hockey	22	1.79	77
+LAKRA Sunita	Women	India	Hockey	Hockey	25	1.58	57
+MINZ Lilima	Women	India	Hockey	Hockey	22	1.58	52
+MONIKA	Women	India	Hockey	Hockey	22	1.62	51
+MOR Pardeep	Men	India	Hockey	Hockey	24	1.76	67
+MUJTABA Danish	Men	India	Hockey	Hockey	27	1.68	66
+PARATTU Sreejesh	Men	India	Hockey	Hockey	28	1.83	79
+PRADHAN Nikki	Women	India	Hockey	Hockey	22	1.53	45
+PUKHRAMBAM Sushila	Women	India	Hockey	Hockey	24	1.52	52
+RANI	Women	India	Hockey	Hockey	21	1.60	60
+RANI Poonam	Women	India	Hockey	Hockey	23	1.52	53
+RUAT FELI Hnialum	Women	India	Hockey	Hockey	20	1.62	54
+SANNUVANDA Uthappa	Men	India	Hockey	Hockey	22	1.83	84
+SAVITA Savita	Women	India	Hockey	Hockey	26	1.71	59
+SINGH Akashdeep	Men	India	Hockey	Hockey	21	1.78	70
+SINGH Harmanpreet	Men	India	Hockey	Hockey	20	1.77	70
+SINGH Manpreet	Men	India	Hockey	Hockey	24	1.72	69
+SINGH Ramandeep	Men	India	Hockey	Hockey	23	1.79	70
+SINGH Rupinder Pal	Men	India	Hockey	Hockey	25	1.93	93
+SINGH Sardar	Men	India	Hockey	Hockey	30	1.76	80
+SOWMARPET Sunil	Men	India	Hockey	Hockey	27	1.76	68
+THIMMAIAH Chandanda	Men	India	Hockey	Hockey	25	1.71	61
+THOKCHOM Anuradha	Women	India	Hockey	Hockey	27	1.62	54
+TOPPO Namita	Women	India	Hockey	Hockey	21	1.63	53
+VOKKALIGA Raghunath	Men	India	Hockey	Hockey	27	1.79	89
+WALMIKI Devindar	Men	India	Hockey	Hockey	24	1.78	69
+YADAV Renuka	Women	India	Hockey	Hockey	22	1.59	53
+Monika	Women	India	Hockey	Hockey	22	1.62	51
+Rani	Women	India	Hockey	Hockey	21	1.60	60
+Anuradha Thokchom	Women	India	Hockey	Hockey	27	1.62	54
+Deep Ekka	Women	India	Hockey	Hockey	22	1.58	63
+Deepika Deepika	Women	India	Hockey	Hockey	29	1.59	61
+Hnialum Ruat Feli	Women	India	Hockey	Hockey	20	1.62	54
+Lilima Minz	Women	India	Hockey	Hockey	22	1.58	52
+Namita Toppo	Women	India	Hockey	Hockey	21	1.63	53
+Navjot Kaur	Women	India	Hockey	Hockey	21	1.67	53
+Nikki Pradhan	Women	India	Hockey	Hockey	22	1.53	45
+Poonam Rani	Women	India	Hockey	Hockey	23	1.52	53
+Preeti Dubey	Women	India	Hockey	Hockey	18	1.66	53
+Rajani Etimarpu	Women	India	Hockey	Hockey	26	1.72	63
+Renuka Yadav	Women	India	Hockey	Hockey	22	1.59	53
+Savita Savita	Women	India	Hockey	Hockey	26	1.71	59
+Sunita Lakra	Women	India	Hockey	Hockey	25	1.58	57
+Sushila Pukhrambam	Women	India	Hockey	Hockey	24	1.52	52
+Vandana Katariya	Women	India	Hockey	Hockey	24	1.59	48
+BELL Jonathan	Men	Ireland	Hockey	Hockey	29	1.78	77
+CARGO Christopher	Men	Ireland	Hockey	Hockey	30	1.82	79
+CARUTH Peter	Men	Ireland	Hockey	Hockey	28	1.73	73
+COCKRAM Timothy	Men	Ireland	Hockey	Hockey	32	1.77	78
+DARLING Michael	Men	Ireland	Hockey	Hockey	28	1.70	65
+GLEGHORNE Paul	Men	Ireland	Hockey	Hockey	29	1.87	82
+GOOD Kyle	Men	Ireland	Hockey	Hockey	24	1.83	88
+GORMLEY Ronan	Men	Ireland	Hockey	Hockey	33	1.74	74
+HARTE Conor	Men	Ireland	Hockey	Hockey	28	1.96	93
+HARTE David	Men	Ireland	Hockey	Hockey	28	1.95	94
+JACKSON John	Men	Ireland	Hockey	Hockey	30	1.70	73
+JERMYN John	Men	Ireland	Hockey	Hockey	34	1.86	80
+MAGEE Eugene	Men	Ireland	Hockey	Hockey	30	1.77	83
+O'DONOGHUE Shane	Men	Ireland	Hockey	Hockey	23	1.83	80
+ROBSON Michael	Men	Ireland	Hockey	Hockey	21	1.75	70
+SHIMMINS Kirk	Men	Ireland	Hockey	Hockey	22	1.75	68
+SOTHERN Alan	Men	Ireland	Hockey	Hockey	29	1.78	76
+WATT Michael	Men	Ireland	Hockey	Hockey	29	1.78	79
+ASAI Yu	Women	Japan	Hockey	Hockey	20	1.72	63
+ASANO Sakiyo	Women	Japan	Hockey	Hockey	29	1.64	60
+HAYASHI Nagisa	Women	Japan	Hockey	Hockey	29	1.65	58
+KAWAMURA Motomi	Women	Japan	Hockey	Hockey	20	1.57	54
+MANO Yukari	Women	Japan	Hockey	Hockey	22	1.52	53
+MITSUHASHI Aki	Women	Japan	Hockey	Hockey	26	1.66	59
+NAGAI Hazuki	Women	Japan	Hockey	Hockey	21	1.52	53
+NAGAI Yuri	Women	Japan	Hockey	Hockey	24	1.55	53
+NAKAGAWA Miyuki	Women	Japan	Hockey	Hockey	29	1.61	53
+NAKASHIMA Mie	Women	Japan	Hockey	Hockey	30	1.60	52
+NISHIKORI Emi	Women	Japan	Hockey	Hockey	23	1.60	53
+NISHIMURA Ayaka	Women	Japan	Hockey	Hockey	27	1.65	58
+NOMURA Kana	Women	Japan	Hockey	Hockey	26	1.67	57
+ONO Mayumi	Women	Japan	Hockey	Hockey	31	1.70	62
+SAKAGUCHI Maki	Women	Japan	Hockey	Hockey	27	1.58	56
+SHIBATA Akane	Women	Japan	Hockey	Hockey	28	1.53	50
+SHIMIZU Minami	Women	Japan	Hockey	Hockey	23	1.58	53
+YUDA Hazuki	Women	Japan	Hockey	Hockey	27	1.67	54
+Akane Shibata	Women	Japan	Hockey	Hockey	28	1.53	50
+Aki Mitsuhashi	Women	Japan	Hockey	Hockey	26	1.66	59
+Ayaka Nishimura	Women	Japan	Hockey	Hockey	27	1.65	58
+Emi Nishikori	Women	Japan	Hockey	Hockey	23	1.60	53
+Hazuki Nagai	Women	Japan	Hockey	Hockey	21	1.52	53
+Hazuki Yuda	Women	Japan	Hockey	Hockey	27	1.67	54
+Kana Nomura	Women	Japan	Hockey	Hockey	26	1.67	57
+Maki Sakaguchi	Women	Japan	Hockey	Hockey	27	1.58	56
+Mayumi Ono	Women	Japan	Hockey	Hockey	31	1.70	62
+Mie Nakashima	Women	Japan	Hockey	Hockey	30	1.60	52
+Minami Shimizu	Women	Japan	Hockey	Hockey	23	1.58	53
+Miyuki Nakagawa	Women	Japan	Hockey	Hockey	29	1.61	53
+Motomi Kawamura	Women	Japan	Hockey	Hockey	20	1.57	54
+Nagisa Hayashi	Women	Japan	Hockey	Hockey	29	1.65	58
+Sakiyo Asano	Women	Japan	Hockey	Hockey	29	1.64	60
+Yu Asai	Women	Japan	Hockey	Hockey	20	1.72	63
+Yukari Mano	Women	Japan	Hockey	Hockey	22	1.52	53
+Yuri Nagai	Women	Japan	Hockey	Hockey	24	1.55	53
+BAART Sander	Men	Netherlands	Hockey	Hockey	28	1.78	76
+BAKKER Billy	Men	Netherlands	Hockey	Hockey	27	1.88	82
+BLAAK Pirmin	Men	Netherlands	Hockey	Hockey	28	1.88	88
+BOS Willemijn	Women	Netherlands	Hockey	Hockey	28	1.81	69
+CROON Jorrit	Men	Netherlands	Hockey	Hockey	17	1.83	75
+DE GOEDE Eva	Women	Netherlands	Hockey	Hockey	27	1.70	61
+DE VOOGD Bob	Men	Netherlands	Hockey	Hockey	27	1.83	80
+DE WAARD Xan	Women	Netherlands	Hockey	Hockey	20	1.63	55
+DE WIJN Sander	Men	Netherlands	Hockey	Hockey	26	1.83	78
+DIRKSE VAN DEN HEUVEL Carlien	Women	Netherlands	Hockey	Hockey	29	1.70	56
+HERTZBERGER Jeroen	Men	Netherlands	Hockey	Hockey	30	1.74	76
+HOFMAN Rogier	Men	Netherlands	Hockey	Hockey	29	1.84	79
+HOOG Ellen	Women	Netherlands	Hockey	Hockey	30	1.64	54
+JONKER Constantijn	Men	Netherlands	Hockey	Hockey	28	1.82	78
+JONKER Kelly	Women	Netherlands	Hockey	Hockey	26	1.59	59
+KEETELS Marloes	Women	Netherlands	Hockey	Hockey	23	1.72	66
+KEMPERMAN Robbert	Men	Netherlands	Hockey	Hockey	26	1.86	76
+LEURINK Laurien	Women	Netherlands	Hockey	Hockey	21	1.73	67
+NUNNINK Laura	Women	Netherlands	Hockey	Hockey	21	1.72	64
+PAUMEN Maartje	Women	Netherlands	Hockey	Hockey	30	1.76	66
+PRUIJSER Mirco	Men	Netherlands	Hockey	Hockey	26	1.94	87
+SCHUURMAN Glenn	Men	Netherlands	Hockey	Hockey	25	1.83	79
+SOMBROEK Joyce	Women	Netherlands	Hockey	Hockey	25	1.79	64
+STOCKMANN Jacob	Men	Netherlands	Hockey	Hockey	32	1.93	80
+TURKSTRA Hidde	Men	Netherlands	Hockey	Hockey	28	1.94	81
+VAN AS Naomi	Women	Netherlands	Hockey	Hockey	33	1.79	63
+VAN ASS Severiano	Men	Netherlands	Hockey	Hockey	24	1.78	70
+VAN DER HORST Robert	Men	Netherlands	Hockey	Hockey	31	1.79	74
+VAN DER POLS Michelle	Women	Netherlands	Hockey	Hockey	27	1.72	61
+VAN DER WEERDEN Mink	Men	Netherlands	Hockey	Hockey	27	1.78	83
+VAN GEFFEN Margot	Women	Netherlands	Hockey	Hockey	26	1.72	63
+VAN MAASAKKER Caia	Women	Netherlands	Hockey	Hockey	27	1.80	69
+VAN MALE Kitty	Women	Netherlands	Hockey	Hockey	28	1.96	63
+VERGA Valentin	Men	Netherlands	Hockey	Hockey	26	1.80	87
+VERSCHOOR Maria	Women	Netherlands	Hockey	Hockey	22	1.64	58
+WELTEN Lidewij	Women	Netherlands	Hockey	Hockey	26	1.70	64
+Caia van Maasakker	Women	Netherlands	Hockey	Hockey	27	1.80	69
+Carlien Dirkse van den Heuvel	Women	Netherlands	Hockey	Hockey	29	1.70	56
+Ellen Hoog	Women	Netherlands	Hockey	Hockey	30	1.64	54
+Eva de Goede	Women	Netherlands	Hockey	Hockey	27	1.70	61
+Joyce Sombroek	Women	Netherlands	Hockey	Hockey	25	1.79	64
+Kelly Jonker	Women	Netherlands	Hockey	Hockey	26	1.59	59
+Kitty van Male	Women	Netherlands	Hockey	Hockey	28	1.96	63
+Laura Nunnink	Women	Netherlands	Hockey	Hockey	21	1.72	64
+Laurien Leurink	Women	Netherlands	Hockey	Hockey	21	1.73	67
+Lidewij Welten	Women	Netherlands	Hockey	Hockey	26	1.70	64
+Maartje Paumen	Women	Netherlands	Hockey	Hockey	30	1.76	66
+Margot van Geffen	Women	Netherlands	Hockey	Hockey	26	1.72	63
+Maria Verschoor	Women	Netherlands	Hockey	Hockey	22	1.64	58
+Marloes Keetels	Women	Netherlands	Hockey	Hockey	23	1.72	66
+Michelle van der Pols	Women	Netherlands	Hockey	Hockey	27	1.72	61
+Naomi van As	Women	Netherlands	Hockey	Hockey	33	1.79	63
+Willemijn Bos	Women	Netherlands	Hockey	Hockey	28	1.81	69
+Xan de Waard	Women	Netherlands	Hockey	Hockey	20	1.63	55
+ARCHIBALD Ryan	Men	New Zealand	Hockey	Hockey	35	1.86	78
+CHARLTON Samantha	Women	New Zealand	Hockey	Hockey	24	1.74	66
+CHILD Marcus	Men	New Zealand	Hockey	Hockey	25	1.82	81
+CHILD Simon	Men	New Zealand	Hockey	Hockey	28	1.86	80
+COCKS Sophie	Women	New Zealand	Hockey	Hockey	22	1.72	62
+COUGHLAN James	Men	New Zealand	Hockey	Hockey	25	1.83	78
+FLYNN Gemma	Women	New Zealand	Hockey	Hockey	26	1.68	60
+GIBSON Amelia	Women	New Zealand	Hockey	Hockey	25	1.72	71
+GUNSON Elizabeth	Women	New Zealand	Hockey	Hockey	27	1.62	62
+HAIG Nick	Men	New Zealand	Hockey	Hockey	29	1.80	82
+HARRISON Charlotte	Women	New Zealand	Hockey	Hockey	27	1.67	55
+HAYWARD Pippa	Women	New Zealand	Hockey	Hockey	26	1.76	69
+HILTON Blair	Men	New Zealand	Hockey	Hockey	26	1.81	78
+INGLIS Hugo	Men	New Zealand	Hockey	Hockey	25	1.78	74
+JENNESS Stephen	Men	New Zealand	Hockey	Hockey	26	1.79	76
+KEDDELL Elizabeth	Women	New Zealand	Hockey	Hockey	22	1.69	67
+MANCHESTER Devon	Men	New Zealand	Hockey	Hockey	26	1.78	78
+MCALEESE Shea	Men	New Zealand	Hockey	Hockey	32	1.77	82
+MCLAREN Anita	Women	New Zealand	Hockey	Hockey	28	1.63	56
+MERRY Olivia	Women	New Zealand	Hockey	Hockey	24	1.82	74
+MICHELSEN Stacey	Women	New Zealand	Hockey	Hockey	25	1.73	66
+NEAL Brooke	Women	New Zealand	Hockey	Hockey	24	1.87	71
+NEAL Shay	Men	New Zealand	Hockey	Hockey	26	1.76	75
+PANCHIA Arun	Men	New Zealand	Hockey	Hockey	27	1.80	73
+PEARCE Kirsten	Women	New Zealand	Hockey	Hockey	25	1.62	58
+PHILLIPS Hayden	Men	New Zealand	Hockey	Hockey	18	1.80	72
+RUSSELL Kane	Men	New Zealand	Hockey	Hockey	24	1.76	82
+RUTHERFORD Sally	Women	New Zealand	Hockey	Hockey	35	1.65	65
+SHAW Bradley	Men	New Zealand	Hockey	Hockey	33	1.81	92
+SMITH Kelsey	Women	New Zealand	Hockey	Hockey	21	1.63	58
+TARRANT Blair	Men	New Zealand	Hockey	Hockey	26	1.85	83
+THOMPSON Elizabeth	Women	New Zealand	Hockey	Hockey	21	1.75	71
+WEBSTER Petrea	Women	New Zealand	Hockey	Hockey	28	1.65	56
+WHITELOCK Kayla	Women	New Zealand	Hockey	Hockey	30	1.74	72
+WILSON Nick	Men	New Zealand	Hockey	Hockey	26	1.80	81
+WOODS Nic	Men	New Zealand	Hockey	Hockey	20	1.80	90
+Amelia Gibson	Women	New Zealand	Hockey	Hockey	25	1.72	71
+Anita McLAREN	Women	New Zealand	Hockey	Hockey	28	1.63	56
+Brooke Neal	Women	New Zealand	Hockey	Hockey	24	1.87	71
+Charlotte Harrison	Women	New Zealand	Hockey	Hockey	27	1.67	55
+Elizabeth Gunson	Women	New Zealand	Hockey	Hockey	27	1.62	62
+Elizabeth Keddell	Women	New Zealand	Hockey	Hockey	22	1.69	67
+Elizabeth Thompson	Women	New Zealand	Hockey	Hockey	21	1.75	71
+Gemma Flynn	Women	New Zealand	Hockey	Hockey	26	1.68	60
+Kayla Whitelock	Women	New Zealand	Hockey	Hockey	30	1.74	72
+Kelsey Smith	Women	New Zealand	Hockey	Hockey	21	1.63	58
+Kirsten Pearce	Women	New Zealand	Hockey	Hockey	25	1.62	58
+Olivia Merry	Women	New Zealand	Hockey	Hockey	24	1.82	74
+Petrea Webster	Women	New Zealand	Hockey	Hockey	28	1.65	56
+Pippa Hayward	Women	New Zealand	Hockey	Hockey	26	1.76	69
+Sally Rutherford	Women	New Zealand	Hockey	Hockey	35	1.65	65
+Samantha Charlton	Women	New Zealand	Hockey	Hockey	24	1.74	66
+Sophie Cocks	Women	New Zealand	Hockey	Hockey	22	1.72	62
+Stacey Michelsen	Women	New Zealand	Hockey	Hockey	25	1.73	66
+AN Hyoju	Women	South Korea	Hockey	Hockey	28	1.68	54
+BAEK Eeseul	Women	South Korea	Hockey	Hockey	21	1.75	72
+CHEON Eunbi	Women	South Korea	Hockey	Hockey	24	1.65	59
+CHO Hyejin	Women	South Korea	Hockey	Hockey	21	1.59	56
+HAN Hye Lyoung	Women	South Korea	Hockey	Hockey	30	1.63	56
+HONG Yoojin	Women	South Korea	Hockey	Hockey	27	1.66	56
+JANG Heesun	Women	South Korea	Hockey	Hockey	30	1.64	60
+JANG Sooji	Women	South Korea	Hockey	Hockey	28	1.64	57
+JUNG Heabin	Women	South Korea	Hockey	Hockey	22	1.69	64
+KIM Bomi	Women	South Korea	Hockey	Hockey	30	1.57	54
+KIM Hyunji	Women	South Korea	Hockey	Hockey	22	1.70	52
+KIM Jongeun	Women	South Korea	Hockey	Hockey	30	1.67	58
+LEE Youngsil	Women	South Korea	Hockey	Hockey	29	1.67	59
+LEE Yurim	Women	South Korea	Hockey	Hockey	21	1.62	59
+PARK Kiju	Women	South Korea	Hockey	Hockey	26	1.67	69
+PARK Mihyun	Women	South Korea	Hockey	Hockey	30	1.60	63
+PARK Seunga	Women	South Korea	Hockey	Hockey	25	1.68	61
+SEO Jungeun	Women	South Korea	Hockey	Hockey	24	1.68	61
+Bomi Kim	Women	South Korea	Hockey	Hockey	30	1.57	54
+Eeseul Baek	Women	South Korea	Hockey	Hockey	21	1.75	72
+Eunbi Cheon	Women	South Korea	Hockey	Hockey	24	1.65	59
+Heabin Jung	Women	South Korea	Hockey	Hockey	22	1.69	64
+Heesun Jang	Women	South Korea	Hockey	Hockey	30	1.64	60
+Hye Lyoung Han	Women	South Korea	Hockey	Hockey	30	1.63	56
+Hyejin Cho	Women	South Korea	Hockey	Hockey	21	1.59	56
+Hyoju An	Women	South Korea	Hockey	Hockey	28	1.68	54
+Hyunji Kim	Women	South Korea	Hockey	Hockey	22	1.70	52
+Jongeun Kim	Women	South Korea	Hockey	Hockey	30	1.67	58
+Jungeun Seo	Women	South Korea	Hockey	Hockey	24	1.68	61
+Kiju Park	Women	South Korea	Hockey	Hockey	26	1.67	69
+Mihyun Park	Women	South Korea	Hockey	Hockey	30	1.60	63
+Seunga Park	Women	South Korea	Hockey	Hockey	25	1.68	61
+Sooji Jang	Women	South Korea	Hockey	Hockey	28	1.64	57
+Yoojin Hong	Women	South Korea	Hockey	Hockey	27	1.66	56
+Youngsil Lee	Women	South Korea	Hockey	Hockey	29	1.67	59
+Yurim Lee	Women	South Korea	Hockey	Hockey	21	1.62	59
+ALEGRE David	Men	Spain	Hockey	Hockey	31	1.84	75
+BONASTRE Berta	Women	Spain	Hockey	Hockey	24	1.57	50
+CARRERA Jorge	Men	Spain	Hockey	Hockey	34	1.80	83
+CASASAYAS Alex	Men	Spain	Hockey	Hockey	28	1.83	78
+COMERMA Gloria	Women	Spain	Hockey	Hockey	29	1.68	64
+CORTES Francisco	Men	Spain	Hockey	Hockey	33	1.81	80
+DELAS Miguel	Men	Spain	Hockey	Hockey	32	1.70	72
+ENRIQUE Sergi	Men	Spain	Hockey	Hockey	28	1.74	69
+FERNANDEZ Mario	Men	Spain	Hockey	Hockey	24	1.80	80
+GARCIA Begona	Women	Spain	Hockey	Hockey	21	1.64	54
+GINE Xantal	Women	Spain	Hockey	Hockey	23	1.68	62
+GUINEA Cristina	Women	Spain	Hockey	Hockey	24	1.66	61
+GUTIERREZ Rocio	Women	Spain	Hockey	Hockey	31	1.62	61
+IGLESIAS Alvaro	Men	Spain	Hockey	Hockey	23	1.78	79
+JIMENEZ Lucia	Women	Spain	Hockey	Hockey	19	1.63	51
+LLEONART Xavier	Men	Spain	Hockey	Hockey	26	1.80	70
+LOPEZ DE EQUILAZ Maria	Women	Spain	Hockey	Hockey	32	1.64	56
+LOPEZ Maria	Women	Spain	Hockey	Hockey	26	1.70	62
+MAGAZ Alicia	Women	Spain	Hockey	Hockey	22	1.61	60
+MIR Andres	Men	Spain	Hockey	Hockey	29	1.80	75
+OLIVA Georgina	Women	Spain	Hockey	Hockey	26	1.60	53
+OLIVA Roc	Men	Spain	Hockey	Hockey	27	1.80	78
+PEREZ Beatriz	Women	Spain	Hockey	Hockey	25	1.67	60
+PEREZ-PLA Bosco	Men	Spain	Hockey	Hockey	28	1.80	78
+PETCHAME Carlota	Women	Spain	Hockey	Hockey	26	1.60	53
+PIERA Salvador	Men	Spain	Hockey	Hockey	25	1.83	83
+PONS Julia	Women	Spain	Hockey	Hockey	22	1.65	61
+QUEMADA Pau	Men	Spain	Hockey	Hockey	32	1.73	69
+RIERA Lola	Women	Spain	Hockey	Hockey	25	1.72	74
+ROMEU Josep	Men	Spain	Hockey	Hockey	26	1.75	77
+RUIZ Maria	Women	Spain	Hockey	Hockey	26	1.69	73
+RUIZ Vicenc	Men	Spain	Hockey	Hockey	24	1.81	70
+SALLES Marc	Men	Spain	Hockey	Hockey	29	1.70	64
+SALVATELLA Carola	Women	Spain	Hockey	Hockey	22	1.71	58
+TERRAZA Manel	Men	Spain	Hockey	Hockey	26	1.84	78
+YBARRA Rocio	Women	Spain	Hockey	Hockey	31	1.59	54
+Alicia Magaz	Women	Spain	Hockey	Hockey	22	1.61	60
+Beatriz Perez	Women	Spain	Hockey	Hockey	25	1.67	60
+Begona Garcia	Women	Spain	Hockey	Hockey	21	1.64	54
+Berta Bonastre	Women	Spain	Hockey	Hockey	24	1.57	50
+Carlota Petchame	Women	Spain	Hockey	Hockey	26	1.60	53
+Carola Salvatella	Women	Spain	Hockey	Hockey	22	1.71	58
+Cristina Guinea	Women	Spain	Hockey	Hockey	24	1.66	61
+Georgina Oliva	Women	Spain	Hockey	Hockey	26	1.60	53
+Gloria Comerma	Women	Spain	Hockey	Hockey	29	1.68	64
+Julia Pons	Women	Spain	Hockey	Hockey	22	1.65	61
+Lola Riera	Women	Spain	Hockey	Hockey	25	1.72	74
+Lucia Jimenez	Women	Spain	Hockey	Hockey	19	1.63	51
+Maria Lopez	Women	Spain	Hockey	Hockey	26	1.70	62
+Maria Lopez de Equilaz	Women	Spain	Hockey	Hockey	32	1.64	56
+Maria Ruiz	Women	Spain	Hockey	Hockey	26	1.69	73
+Rocio Gutierrez	Women	Spain	Hockey	Hockey	31	1.62	61
+Rocio Ybarra	Women	Spain	Hockey	Hockey	31	1.59	54
+Xantal Gine	Women	Spain	Hockey	Hockey	23	1.68	62
+BAM Kathleen	Women	United States	Hockey	Hockey	27	1.55	54
+BRIGGS Jaclyn	Women	United States	Hockey	Hockey	28	1.68	61
+CRANDALL Lauren	Women	United States	Hockey	Hockey	31	1.61	57
+DAWSON Rachel	Women	United States	Hockey	Hockey	31	1.78	68
+FALGOWSKI Katelyn	Women	United States	Hockey	Hockey	27	1.68	62
+FEE Stefanie	Women	United States	Hockey	Hockey	26	1.68	63
+GONZALEZ Melissa	Women	United States	Hockey	Hockey	27	1.61	58
+KASOLD Michelle	Women	United States	Hockey	Hockey	29	1.61	53
+KOLOJEJCHICK Kelsey	Women	United States	Hockey	Hockey	24	1.61	61
+MANLEY Alyssa	Women	United States	Hockey	Hockey	22	1.58	53
+REINPRECHT Julia	Women	United States	Hockey	Hockey	25	1.61	55
+REINPRECHT Katherine	Women	United States	Hockey	Hockey	26	1.63	56
+SELENSKI Paige	Women	United States	Hockey	Hockey	26	1.71	61
+SHARKEY Kathleen	Women	United States	Hockey	Hockey	26	1.63	58
+VAN SICKLE Caitlin	Women	United States	Hockey	Hockey	26	1.66	58
+VITTESE Michelle	Women	United States	Hockey	Hockey	26	1.61	57
+WIDDALL Alesha	Women	United States	Hockey	Hockey	26	1.73	65
+WITMER Jill	Women	United States	Hockey	Hockey	24	1.58	52
+Alesha Widdall	Women	United States	Hockey	Hockey	26	1.73	65
+Alyssa Manley	Women	United States	Hockey	Hockey	22	1.58	53
+Caitlin van Sickle	Women	United States	Hockey	Hockey	26	1.66	58
+Jaclyn Briggs	Women	United States	Hockey	Hockey	28	1.68	61
+Jill Witmer	Women	United States	Hockey	Hockey	24	1.58	52
+Julia Reinprecht	Women	United States	Hockey	Hockey	25	1.61	55
+Katelyn Falgowski	Women	United States	Hockey	Hockey	27	1.68	62
+Katherine Reinprecht	Women	United States	Hockey	Hockey	26	1.63	56
+Kathleen Bam	Women	United States	Hockey	Hockey	27	1.55	54
+Kathleen Sharkey	Women	United States	Hockey	Hockey	26	1.63	58
+Kelsey Kolojejchick	Women	United States	Hockey	Hockey	24	1.61	61
+Lauren Crandall	Women	United States	Hockey	Hockey	31	1.61	57
+Melissa Gonzalez	Women	United States	Hockey	Hockey	27	1.61	58
+Michelle Kasold	Women	United States	Hockey	Hockey	29	1.61	53
+Michelle Vittese	Women	United States	Hockey	Hockey	26	1.61	57
+Paige Selenski	Women	United States	Hockey	Hockey	26	1.71	61
+Rachel Dawson	Women	United States	Hockey	Hockey	31	1.78	68
+Stefanie Fee	Women	United States	Hockey	Hockey	26	1.68	63
+Lalita Yauhleuskaya	Women	Australia	Shooting	10 metres air pistol	52	1.58	64
+Viktoria Chaika	Women	Belarus	Shooting	10 metres air pistol	35	1.64	50
+Antoaneta Boneva	Women	Bulgaria	Shooting	10 metres air pistol	30	1.68	70
+Lynda Kiejko	Women	Canada	Shooting	10 metres air pistol	35	1.57	51
+Mengxue Zhang	Women	China	Shooting	10 metres air pistol	25	1.62	70
+Wenjun Guo	Women	China	Shooting	10 metres air pistol	32	1.68	60
+Ai Wen Yu	Women	Chinese Taipei	Shooting	10 metres air pistol	20	1.57	52
+Chia Ying Wu	Women	Chinese Taipei	Shooting	10 metres air pistol	23	1.55	47
+Marija Marovic	Women	Croatia	Shooting	10 metres air pistol	32	1.75	72
+Afaf Elhodhod	Women	Egypt	Shooting	10 metres air pistol	19	1.63	75
+Lilian Castro	Women	El Salvador	Shooting	10 metres air pistol	29	1.64	63
+Celine Goberville	Women	France	Shooting	10 metres air pistol	29	1.56	53
+Stephanie Tirode	Women	France	Shooting	10 metres air pistol	41	1.65	78
+Nino Salukvadze	Women	Georgia	Shooting	10 metres air pistol	47	1.68	58
+Monika Karsch	Women	Germany	Shooting	10 metres air pistol	33	1.58	55
+Anna Korakaki	Women	Greece	Shooting	10 metres air pistol	20	1.75	65
+Renata Tobai Sike	Women	Hungary	Shooting	10 metres air pistol	38	1.80	67
+Viktoria Egri	Women	Hungary	Shooting	10 metres air pistol	18	1.68	59
+Heena Sidhu	Women	India	Shooting	10 metres air pistol	26	1.58	51
+Golnoush Sebghatollahi	Women	Iran	Shooting	10 metres air pistol	25	1.58	61
+Akiko Sato	Women	Japan	Shooting	10 metres air pistol	32	1.62	58
+Alejandra Zavala Vazquez	Women	Mexico	Shooting	10 metres air pistol	32	1.65	85
+Gundegmaa Otryad	Women	Mongolia	Shooting	10 metres air pistol	38	1.68	63
+Munkhzul Tsogbadrakh	Women	Mongolia	Shooting	10 metres air pistol	35	1.74	65
+Yong Suk Jo	Women	North Korea	Shooting	10 metres air pistol	27	1.63	65
+Wadha Al Balushi	Women	Oman	Shooting	10 metres air pistol	26	1.60	75
+Klaudia Bres	Women	Poland	Shooting	10 metres air pistol	22	1.58	52
+Ekaterina Korshunova	Women	Russia	Shooting	10 metres air pistol	28	1.61	69
+Vitalina Batsarashkina	Women	Russia	Shooting	10 metres air pistol	19	1.62	60
+Bobana Velickovic	Women	Serbia	Shooting	10 metres air pistol	26	1.70	59
+Zorana Arunovic	Women	Serbia	Shooting	10 metres air pistol	29	1.68	90
+Shun Xie Teo	Women	Singapore	Shooting	10 metres air pistol	27	1.68	63
+Junghye Kwak	Women	South Korea	Shooting	10 metres air pistol	29	1.64	64
+Minjung Kim	Women	South Korea	Shooting	10 metres air pistol	19	1.60	50
+Sonia Franquet	Women	Spain	Shooting	10 metres air pistol	36	1.73	60
+Heidi Diethelm Gerber	Women	Switzerland	Shooting	10 metres air pistol	47	1.68	93
+Pim-On Klaisuban	Women	Thailand	Shooting	10 metres air pistol	24	1.67	75
+Tanyaporn Prucksakorn	Women	Thailand	Shooting	10 metres air pistol	26	1.68	70
+Olfa Charni	Women	Tunisia	Shooting	10 metres air pistol	36	1.76	65
+Olena Kostevych	Women	Ukraine	Shooting	10 metres air pistol	31	1.60	52
+Enkelejda Shehaj Bekurti	Women	United States	Shooting	10 metres air pistol	47	1.63	57
+Lydia Paterson	Women	United States	Shooting	10 metres air pistol	19	1.63	69
+Esther Barrugues Alvina	Women	Andorra	Shooting	10 metres air rifle 	36	1.64	60
+Amelia Rosa Fournel	Women	Argentina	Shooting	10 metres air rifle 	39	1.60	50
+Fernanda Russo	Women	Argentina	Shooting	10 metres air rifle 	16	1.66	60
+Jennifer Hens	Women	Australia	Shooting	10 metres air rifle 	30	1.74	60
+Olivia Hofmann	Women	Austria	Shooting	10 metres air rifle 	24	1.63	58
+Lenchu Kunzang	Women	Bhutan	Shooting	10 metres air rifle 	24	1.65	59
+Carina Ana Garcia Kradolfer	Women	Bolivia	Shooting	10 metres air rifle 	32	1.60	58
+Tatjana Djekanovic	Women	Bosnia Herzegovina	Shooting	10 metres air rifle 	19	1.68	54
+Rosane Sibele Budag	Women	Brazil	Shooting	10 metres air rifle 	42	1.74	66
+Li Du	Women	China	Shooting	10 metres air rifle 	34	1.70	55
+Siling Yi	Women	China	Shooting	10 metres air rifle 	27	1.65	51
+Snjezana Pejcic	Women	Croatia	Shooting	10 metres air rifle 	34	1.70	75
+Valentina Gustin	Women	Croatia	Shooting	10 metres air rifle 	19	1.72	61
+Dianelys Perez	Women	Cuba	Shooting	10 metres air rifle 	28	1.49	59
+Eglys Yahima de la Cruz	Women	Cuba	Shooting	10 metres air rifle 	36	1.59	63
+Adela Bruns	Women	Czech Republic	Shooting	10 metres air rifle 	29	1.71	60
+Nikola Mazurova	Women	Czech Republic	Shooting	10 metres air rifle 	21	1.60	68
+Stine Nielsen	Women	Denmark	Shooting	10 metres air rifle 	25	1.63	79
+Hadir Mekhimar	Women	Egypt	Shooting	10 metres air rifle 	18	1.65	62
+Shimaa Hashad	Women	Egypt	Shooting	10 metres air rifle 	35	1.66	57
+Barbara Engleder	Women	Germany	Shooting	10 metres air rifle 	33	1.62	72
+Selina Gschwandtner	Women	Germany	Shooting	10 metres air rifle 	22	1.66	64
+Jennifer McIntosh	Women	Great Britain	Shooting	10 metres air rifle 	25	1.75	80
+Julianna Miskolczi	Women	Hungary	Shooting	10 metres air rifle 	32	1.56	49
+Apurvi Chandela	Women	India	Shooting	10 metres air rifle 	23	1.57	54
+Ayonika Paul	Women	India	Shooting	10 metres air rifle 	23	1.74	74
+Elaheh Ahmadi	Women	Iran	Shooting	10 metres air rifle 	34	1.60	62
+Najmeh Khedmati	Women	Iran	Shooting	10 metres air rifle 	20	1.59	64
+Petra Zublasing	Women	Italy	Shooting	10 metres air rifle 	27	1.64	55
+Yelizaveta Korol	Women	Kazakhstan	Shooting	10 metres air rifle 	21	1.67	69
+Urata Rama	Women	Kosovo	Shooting	10 metres air rifle 	29	1.73	64
+Nina Balaban	Women	Macedonia	Shooting	10 metres air rifle 	20	1.58	58
+Goretti Alejandra Zumaya Flores	Women	Mexico	Shooting	10 metres air rifle 	19	1.65	65
+Nandinzaya Gankhuyag	Women	Mongolia	Shooting	10 metres air rifle 	22	1.55	56
+Minhal Sohail	Women	Pakistan	Shooting	10 metres air rifle 	21	1.59	63
+Agnieszka Nagay	Women	Poland	Shooting	10 metres air rifle 	35	1.69	61
+Sylwia Bogacka	Women	Poland	Shooting	10 metres air rifle 	34	1.62	57
+Yarimar Mercado Martinez	Women	Puerto Rico	Shooting	10 metres air rifle 	21	1.79	48
+Daria Vdovina	Women	Russia	Shooting	10 metres air rifle 	26	1.56	49
+Andrea Arsovic	Women	Serbia	Shooting	10 metres air rifle 	29	1.65	61
+Ivana Andusic Maksimovic	Women	Serbia	Shooting	10 metres air rifle 	26	1.61	51
+Xiang Wei Jasmine Ser	Women	Singapore	Shooting	10 metres air rifle 	25	1.55	47
+Ziva Dvorsak	Women	Slovenia	Shooting	10 metres air rifle 	25	1.68	70
+Eunhye Kim	Women	South Korea	Shooting	10 metres air rifle 	29	1.61	50
+Hae Mi Park	Women	South Korea	Shooting	10 metres air rifle 	26	1.68	55
+Nina Christen	Women	Switzerland	Shooting	10 metres air rifle 	22	1.60	57
+Sarah Hornung	Women	Switzerland	Shooting	10 metres air rifle 	20	1.51	43
+Natallia Kalnysh	Women	Ukraine	Shooting	10 metres air rifle 	42	1.67	80
+Sarah Scherer	Women	United States	Shooting	10 metres air rifle 	25	1.71	62
+Virginia Thrasher	Women	United States	Shooting	10 metres air rifle 	19	1.55	54
+Lalita Yauhleuskaya	Women	Australia	Shooting	25 metres pistol	52	1.58	64
+Viktoria Chaika	Women	Belarus	Shooting	25 metres pistol	35	1.64	50
+Antoaneta Boneva	Women	Bulgaria	Shooting	25 metres pistol	30	1.68	70
+Lynda Kiejko	Women	Canada	Shooting	25 metres pistol	35	1.57	51
+Jingjing Zhang	Women	China	Shooting	25 metres pistol	27	1.64	65
+Ying Chen	Women	China	Shooting	25 metres pistol	38	1.64	67
+Ai Wen Yu	Women	Chinese Taipei	Shooting	25 metres pistol	20	1.57	52
+Chia Ying Wu	Women	Chinese Taipei	Shooting	25 metres pistol	23	1.55	47
+Andrea Perez Pena	Women	Ecuador	Shooting	25 metres pistol	26	1.61	62
+Afaf Elhodhod	Women	Egypt	Shooting	25 metres pistol	19	1.63	75
+Mathilde Lamolle	Women	France	Shooting	25 metres pistol	19	1.67	58
+Stephanie Tirode	Women	France	Shooting	25 metres pistol	41	1.65	78
+Nino Salukvadze	Women	Georgia	Shooting	25 metres pistol	47	1.68	58
+Monika Karsch	Women	Germany	Shooting	25 metres pistol	33	1.58	55
+Anna Korakaki	Women	Greece	Shooting	25 metres pistol	20	1.75	65
+Renata Tobai Sike	Women	Hungary	Shooting	25 metres pistol	38	1.80	67
+Zsofia Csonka	Women	Hungary	Shooting	25 metres pistol	32	1.64	89
+Heena Sidhu	Women	India	Shooting	25 metres pistol	26	1.58	51
+Golnoush Sebghatollahi	Women	Iran	Shooting	25 metres pistol	25	1.58	61
+Akiko Sato	Women	Japan	Shooting	25 metres pistol	32	1.62	58
+Gundegmaa Otryad	Women	Mongolia	Shooting	25 metres pistol	38	1.68	63
+Munkhzul Tsogbadrakh	Women	Mongolia	Shooting	25 metres pistol	35	1.74	65
+Yong Suk Jo	Women	North Korea	Shooting	25 metres pistol	27	1.63	65
+Klaudia Bres	Women	Poland	Shooting	25 metres pistol	22	1.58	52
+Ekaterina Korshunova	Women	Russia	Shooting	25 metres pistol	28	1.61	69
+Vitalina Batsarashkina	Women	Russia	Shooting	25 metres pistol	19	1.62	60
+Bobana Velickovic	Women	Serbia	Shooting	25 metres pistol	26	1.70	59
+Zorana Arunovic	Women	Serbia	Shooting	25 metres pistol	29	1.68	90
+Shun Xie Teo	Women	Singapore	Shooting	25 metres pistol	27	1.68	63
+Jangmi Kim	Women	South Korea	Shooting	25 metres pistol	23	1.60	53
+Seongeun Hwang	Women	South Korea	Shooting	25 metres pistol	23	1.65	55
+Sonia Franquet	Women	Spain	Shooting	25 metres pistol	36	1.73	60
+Heidi Diethelm Gerber	Women	Switzerland	Shooting	25 metres pistol	47	1.68	93
+Pim-On Klaisuban	Women	Thailand	Shooting	25 metres pistol	24	1.67	75
+Tanyaporn Prucksakorn	Women	Thailand	Shooting	25 metres pistol	26	1.68	70
+Olfa Charni	Women	Tunisia	Shooting	25 metres pistol	36	1.76	65
+Olena Kostevych	Women	Ukraine	Shooting	25 metres pistol	31	1.60	52
+Enkelejda Shehaj Bekurti	Women	United States	Shooting	25 metres pistol	47	1.63	57
+Bronte Barratt	Women	Australia	Swimming	200 metres freestyle	27	1.71	58
+Emma McKeon	Women	Australia	Swimming	200 metres freestyle	22	1.80	60
+Joanna Evans	Women	Bahamas	Swimming	200 metres freestyle	19	1.80	66
+Larissa Oliveira	Women	Brazil	Swimming	200 metres freestyle	23	1.69	57
+Manuella Lyrio	Women	Brazil	Swimming	200 metres freestyle	27	1.63	57
+Nina Rangelova	Women	Bulgaria	Swimming	200 metres freestyle	25	1.70	56
+Brittany Maclean	Women	Canada	Swimming	200 metres freestyle	22	1.68	59
+Katerine Savard	Women	Canada	Swimming	200 metres freestyle	23	1.67	54
+Duo Shen	Women	China	Swimming	200 metres freestyle	19	1.81	74
+Yanhan Ai	Women	China	Swimming	200 metres freestyle	14	1.67	54
+Elisbet Games	Women	Cuba	Swimming	200 metres freestyle	19	1.63	57
+Barbora Seemanova	Women	Czech Republic	Swimming	200 metres freestyle	16	1.75	56
+Charlotte Bonnet	Women	France	Swimming	200 metres freestyle	21	1.75	64
+Coralie Balmy	Women	France	Swimming	200 metres freestyle	29	1.80	67
+Annika Bruhn	Women	Germany	Swimming	200 metres freestyle	23	1.83	69
+Ellie Faulkner	Women	Great Britain	Swimming	200 metres freestyle	23	1.65	68
+Georgia Coates	Women	Great Britain	Swimming	200 metres freestyle	17	1.74	63
+Sara Pastrana	Women	Honduras	Swimming	200 metres freestyle	17	1.70	55
+Camille Cheng	Women	Hong Kong	Swimming	200 metres freestyle	23	1.78	65
+Siobhan Haughey	Women	Hong Kong	Swimming	200 metres freestyle	18	1.77	64
+Ajna Kesely	Women	Hungary	Swimming	200 metres freestyle	14	1.64	54
+Evelyn Verraszto	Women	Hungary	Swimming	200 metres freestyle	27	1.73	62
+Shivani Shivani	Women	India	Swimming	200 metres freestyle	18	1.63	60
+Andrea Murez	Women	Israel	Swimming	200 metres freestyle	24	1.84	77
+Alice Mizzau	Women	Italy	Swimming	200 metres freestyle	23	1.80	65
+Federica Pellegrini	Women	Italy	Swimming	200 metres freestyle	28	1.79	65
+Chihiro Igarashi	Women	Japan	Swimming	200 metres freestyle	21	1.70	63
+Rikako Ikee	Women	Japan	Swimming	200 metres freestyle	16	1.70	58
+Anastasia Bogdanovski	Women	Macedonia	Swimming	200 metres freestyle	23	1.74	57
+Femke Heemskerk	Women	Netherlands	Swimming	200 metres freestyle	28	1.80	68
+Robin Neumann	Women	Netherlands	Swimming	200 metres freestyle	18	1.73	63
+Andrea Cedron	Women	Peru	Swimming	200 metres freestyle	22	1.69	62
+Arina Openysheva	Women	Russia	Swimming	200 metres freestyle	17	1.68	59
+Veronika Popova	Women	Russia	Swimming	200 metres freestyle	25	1.82	68
+Katarina Simonovic	Women	Serbia	Swimming	200 metres freestyle	21	1.64	64
+Melania Costa Schmid	Women	Spain	Swimming	200 metres freestyle	27	1.79	68
+Patricia Castro Ortega	Women	Spain	Swimming	200 metres freestyle	24	1.78	66
+Michelle Coleman	Women	Sweden	Swimming	200 metres freestyle	22	1.86	74
+Sarah Sjostrom	Women	Sweden	Swimming	200 metres freestyle	22	1.82	76
+Kathleen Ledecky	Women	United States	Swimming	200 metres freestyle	19	1.83	72
+Melissa Franklin	Women	United States	Swimming	200 metres freestyle	21	1.87	77
+Vien Nguyen Thi Anh	Women	Vietnam	Swimming	200 metres freestyle	19	1.72	60
+Jian Fang Lay	Women	Australia	Table tennis	Singles	43	1.63	58
+Melissa Tapper	Women	Australia	Table tennis	Singles	26	1.66	65
+Jia Liu	Women	Austria	Table tennis	Singles	34	1.60	46
+Sofia Polcanova	Women	Austria	Table tennis	Singles	21	1.81	69
+Alexandra Privalova	Women	Belarus	Table tennis	Singles	28	1.78	66
+Viktoria Pavlovich	Women	Belarus	Table tennis	Singles	38	1.75	60
+Caroline Kumahara	Women	Brazil	Table tennis	Singles	21	1.66	58
+Lin Gui	Women	Brazil	Table tennis	Singles	22	1.68	52
+Mo Zhang	Women	Canada	Table tennis	Singles	27	1.73	57
+Ning Ding	Women	China	Table tennis	Singles	26	1.71	63
+Xiaoxia Li	Women	China	Table tennis	Singles	28	1.74	65
+I-Ching Cheng	Women	Chinese Taipei	Table tennis	Singles	24	1.62	52
+Szu-Yu Chen	Women	Chinese Taipei	Table tennis	Singles	23	1.62	58
+Lady Ruano	Women	Colombia	Table tennis	Singles	35	1.57	52
+Xing Han	Women	Congo	Table tennis	Singles	26	1.65	57
+Hana Matelova	Women	Czech Republic	Table tennis	Singles	26	1.60	53
+Iveta Vacenovska	Women	Czech Republic	Table tennis	Singles	30	1.68	58
+Dina Meshref	Women	Egypt	Table tennis	Singles	22	1.66	59
+Nadeen El-Dawlatly	Women	Egypt	Table tennis	Singles	23	1.62	54
+Xue Li	Women	France	Table tennis	Singles	31	1.65	57
+Petrissa Solja	Women	Germany	Table tennis	Singles	22	1.68	67
+Ying Han	Women	Germany	Table tennis	Singles	33	1.70	60
+Ho Ching Lee	Women	Hong Kong	Table tennis	Singles	23	1.60	53
+Hoi Kem Doo	Women	Hong Kong	Table tennis	Singles	19	1.66	60
+Georgina Pota	Women	Hungary	Table tennis	Singles	31	1.73	63
+Petra Lovas	Women	Hungary	Table tennis	Singles	36	1.58	48
+Manika Batra	Women	India	Table tennis	Singles	21	1.79	63
+Mouma Das	Women	India	Table tennis	Singles	32	1.49	47
+Neda Shahsavari	Women	Iran	Table tennis	Singles	29	1.67	62
+Ai Fukuhara	Women	Japan	Table tennis	Singles	27	1.56	48
+Kasumi Ishikawa	Women	Japan	Table tennis	Singles	23	1.58	51
+Mariana Sahakian	Women	Lebanon	Table tennis	Singles	38	1.55	52
+Xia Lian Ni	Women	Luxembourg	Table tennis	Singles	53	1.57	58
+Yadira Silva	Women	Mexico	Table tennis	Singles	30	1.59	55
+Jiao Li	Women	Netherlands	Table tennis	Singles	43	1.67	60
+Jie Li	Women	Netherlands	Table tennis	Singles	32	1.65	52
+Offiong Edem	Women	Nigeria	Table tennis	Singles	29	1.50	70
+Olofunke Oshonaike	Women	Nigeria	Table tennis	Singles	40	1.67	59
+Myong Sun Ri	Women	North Korea	Table tennis	Singles	24	1.63	53
+Song I Kim	Women	North Korea	Table tennis	Singles	21	1.61	55
+Ian Lariba	Women	Philippines	Table tennis	Singles	21	1.62	56
+Katarzyna Grzybowska-Franc	Women	Poland	Table tennis	Singles	27	1.70	58
+Qian Li	Women	Poland	Table tennis	Singles	30	1.60	54
+Fu Yu	Women	Portugal	Table tennis	Singles	37	1.73	60
+Jieni Shao	Women	Portugal	Table tennis	Singles	22	1.69	63
+Adriana Diaz	Women	Puerto Rico	Table tennis	Singles	15	1.59	50
+Daniela Monteiro Dodean	Women	Romania	Table tennis	Singles	28	1.70	55
+Elizabeta Samara	Women	Romania	Table tennis	Singles	27	1.71	56
+Maria Dolgikh	Women	Russia	Table tennis	Singles	29	1.76	62
+Polina Mikhailova	Women	Russia	Table tennis	Singles	29	1.68	60
+Mengyu Yu	Women	Singapore	Table tennis	Singles	26	1.66	50
+Tianwei Feng	Women	Singapore	Table tennis	Singles	29	1.63	55
+Barbora Balazova	Women	Slovakia	Table tennis	Singles	24	1.69	73
+Eva Odorova	Women	Slovakia	Table tennis	Singles	36	1.75	60
+Hyowon Suh	Women	South Korea	Table tennis	Singles	29	1.59	54
+Jihee Jeon	Women	South Korea	Table tennis	Singles	23	1.59	56
+Yanfei Shen	Women	Spain	Table tennis	Singles	36	1.65	65
+Fen Li	Women	Sweden	Table tennis	Singles	39	1.64	60
+Matilda Ekholm	Women	Sweden	Table tennis	Singles	34	1.72	67
+Nanthana Komwong	Women	Thailand	Table tennis	Singles	35	1.59	54
+Suthasini Sawettabut	Women	Thailand	Table tennis	Singles	21	1.68	63
+Melek Hu	Women	Turkey	Table tennis	Singles	27	1.65	53
+Tetyana Bilenko	Women	Ukraine	Table tennis	Singles	32	1.78	67
+Lily Zhang	Women	United States	Table tennis	Singles	20	1.66	58
+Yue Wu	Women	United States	Table tennis	Singles	26	1.61	50
+Gremlis Arvelo	Women	Venezuela	Table tennis	Singles	19	1.67	62
+Daria Gavrilova	Women	Australia	Tennis	Doubles	22	1.66	61
+Samantha Stosur	Women	Australia	Tennis	Doubles	32	1.72	68
+Kirsten Flipkens	Women	Belgium	Tennis	Doubles	30	1.65	59
+Yanina Wickmayer	Women	Belgium	Tennis	Doubles	26	1.82	72
+Paula Cristina Goncalves	Women	Brazil	Tennis	Doubles	25	1.76	68
+Teliana Pereira	Women	Brazil	Tennis	Doubles	28	1.67	62
+Eugenie Bouchard	Women	Canada	Tennis	Doubles	22	1.78	58
+Gabriela Dabrowski	Women	Canada	Tennis	Doubles	24	1.80	84
+Saisai Zheng	Women	China	Tennis	Doubles	22	1.70	62
+Shuai Peng	Women	China	Tennis	Doubles	30	1.73	65
+Shuai Zhang	Women	China	Tennis	Doubles	27	1.77	66
+Yifan Xu	Women	China	Tennis	Doubles	28	1.65	60
+Hao-Ching Chan	Women	Chinese Taipei	Tennis	Doubles	22	1.80	65
+Yung-Jan Chan	Women	Chinese Taipei	Tennis	Doubles	26	1.71	65
+Andrea Hlavackova	Women	Czech Republic	Tennis	Doubles	29	1.74	63
+Barbora Strycova	Women	Czech Republic	Tennis	Doubles	30	1.65	62
+Lucie Hradecka	Women	Czech Republic	Tennis	Doubles	31	1.78	70
+Lucie Safarova	Women	Czech Republic	Tennis	Doubles	29	1.77	67
+Caroline Garcia	Women	France	Tennis	Doubles	22	1.77	61
+Kristina Mladenovic	Women	France	Tennis	Doubles	23	1.84	66
+Andrea Petkovic	Women	Germany	Tennis	Doubles	28	1.80	70
+Angelique Kerber	Women	Germany	Tennis	Doubles	28	1.73	68
+Anna-Lena Groenefeld	Women	Germany	Tennis	Doubles	31	1.80	73
+Laura Siegemund	Women	Germany	Tennis	Doubles	28	1.68	62
+Heather Watson	Women	Great Britain	Tennis	Doubles	24	1.68	63
+Johanna Konta	Women	Great Britain	Tennis	Doubles	25	1.80	69
+Reka-Luca Jani	Women	Hungary	Tennis	Doubles	25	1.60	57
+Timea Babos	Women	Hungary	Tennis	Doubles	23	1.79	68
+Prarthana G. Thombare	Women	India	Tennis	Doubles	22	1.65	58
+Sania Mirza	Women	India	Tennis	Doubles	29	1.66	57
+Roberta Vinci	Women	Italy	Tennis	Doubles	33	1.64	54
+Sara Errani	Women	Italy	Tennis	Doubles	29	1.64	58
+Eri Hozumi	Women	Japan	Tennis	Doubles	22	1.67	60
+Misaki Doi	Women	Japan	Tennis	Doubles	25	1.59	52
+Galina Voskoboeva	Women	Kazakhstan	Tennis	Doubles	31	1.83	67
+Yaroslava Shvedova	Women	Kazakhstan	Tennis	Doubles	28	1.80	70
+Paula Kania	Women	Poland	Tennis	Doubles	23	1.73	63
+Andreea Mitu	Women	Romania	Tennis	Doubles	24	1.75	60
+Irina-Camelia Begu	Women	Romania	Tennis	Doubles	25	1.81	70
+Monica Niculescu	Women	Romania	Tennis	Doubles	28	1.68	64
+Raluca Olaru	Women	Romania	Tennis	Doubles	27	1.74	63
+Daria Kasatkina	Women	Russia	Tennis	Doubles	19	1.70	62
+Ekaterina Makarova	Women	Russia	Tennis	Doubles	28	1.80	67
+Elena Vesnina	Women	Russia	Tennis	Doubles	30	1.76	66
+Svetlana Kuznetsova	Women	Russia	Tennis	Doubles	31	1.74	73
+Aleksandra Krunic	Women	Serbia	Tennis	Doubles	23	1.63	55
+Jelena Jankovic	Women	Serbia	Tennis	Doubles	31	1.75	65
+Anna Karolina Schmiedlova	Women	Slovakia	Tennis	Doubles	21	1.76	63
+Anabel Medina Garrigues	Women	Spain	Tennis	Doubles	34	1.69	59
+Arantxa Parra-Santonja	Women	Spain	Tennis	Doubles	33	1.76	61
+Carla Suarez Navarro	Women	Spain	Tennis	Doubles	27	1.62	61
+Garbine Muguruza	Women	Spain	Tennis	Doubles	22	1.84	72
+Martina Hingis	Women	Switzerland	Tennis	Doubles	35	1.70	59
+Timea Bacsinszky	Women	Switzerland	Tennis	Doubles	27	1.71	62
+Elina Svitolina	Women	Ukraine	Tennis	Doubles	21	1.74	60
+Liudmyla Kichenok	Women	Ukraine	Tennis	Doubles	24	1.76	65
+Nadiia Kichenok	Women	Ukraine	Tennis	Doubles	24	1.75	65
+Olga Savchuk	Women	Ukraine	Tennis	Doubles	28	1.77	67
+Bethanie Mattek-Sands	Women	United States	Tennis	Doubles	31	1.68	65
+Coco Vandeweghe	Women	United States	Tennis	Doubles	24	1.86	70
+Serena Williams	Women	United States	Tennis	Doubles	34	1.78	72
+Venus Williams	Women	United States	Tennis	Doubles	36	1.86	74
+John Peers	Men	Australia	Tennis	Mixed doubles	28	1.91	83
+Samantha Stosur	Women	Australia	Tennis	Mixed doubles	32	1.72	68
+Marcelo Melo	Men	Brazil	Tennis	Mixed doubles	32	2.00	87
+Teliana Pereira	Women	Brazil	Tennis	Mixed doubles	28	1.67	62
+Yen-Hsun Lu	Men	Chinese Taipei	Tennis	Mixed doubles	32	1.80	83
+Yung-Jan Chan	Women	Chinese Taipei	Tennis	Mixed doubles	26	1.71	65
+Juan-Sebastian Cabal	Men	Colombia	Tennis	Mixed doubles	30	1.85	82
+Mariana Duque-Marino	Women	Colombia	Tennis	Mixed doubles	26	1.69	61
+Ana Konjuh	Women	Croatia	Tennis	Mixed doubles	18	1.74	73
+Marin Cilic	Men	Croatia	Tennis	Mixed doubles	27	1.98	89
+Andrea Hlavackova	Women	Czech Republic	Tennis	Mixed doubles	29	1.74	63
+Lucie Hradecka	Women	Czech Republic	Tennis	Mixed doubles	31	1.78	70
+Lukas Rosol	Men	Czech Republic	Tennis	Mixed doubles	31	1.95	82
+Radek Stepanek	Men	Czech Republic	Tennis	Mixed doubles	37	1.86	78
+Caroline Garcia	Women	France	Tennis	Mixed doubles	22	1.77	61
+Kristina Mladenovic	Women	France	Tennis	Mixed doubles	23	1.84	66
+Nicolas Mahut	Men	France	Tennis	Mixed doubles	34	1.90	82
+Pierre-Hugues Herbert	Men	France	Tennis	Mixed doubles	25	1.89	79
+Angelique Kerber	Women	Germany	Tennis	Mixed doubles	28	1.73	68
+Jan-Lennard Struff	Men	Germany	Tennis	Mixed doubles	26	1.96	91
+Rohan Bopanna	Men	India	Tennis	Mixed doubles	36	1.90	85
+Sania Mirza	Women	India	Tennis	Mixed doubles	29	1.66	57
+Andreas Seppi	Men	Italy	Tennis	Mixed doubles	32	1.90	75
+Fabio Fognini	Men	Italy	Tennis	Mixed doubles	29	1.80	74
+Roberta Vinci	Women	Italy	Tennis	Mixed doubles	33	1.64	54
+Sara Errani	Women	Italy	Tennis	Mixed doubles	29	1.64	58
+Jean-Julien Rojer	Men	Netherlands	Tennis	Mixed doubles	34	1.84	81
+Kiki Bertens	Women	Netherlands	Tennis	Mixed doubles	24	1.82	78
+Agnieszka Radwanska	Women	Poland	Tennis	Mixed doubles	27	1.73	59
+Lukasz Kubot	Men	Poland	Tennis	Mixed doubles	34	1.91	90
+Florin Mergea	Men	Romania	Tennis	Mixed doubles	31	1.82	79
+Horia Tecau	Men	Romania	Tennis	Mixed doubles	31	1.92	90
+Irina-Camelia Begu	Women	Romania	Tennis	Mixed doubles	25	1.81	70
+Monica Niculescu	Women	Romania	Tennis	Mixed doubles	28	1.68	64
+Anastasia Pavlyuchenkova	Women	Russia	Tennis	Mixed doubles	25	1.77	75
+Elena Vesnina	Women	Russia	Tennis	Mixed doubles	30	1.76	66
+Evgeny Donskoy	Men	Russia	Tennis	Mixed doubles	26	1.84	76
+Teymuraz Gabashvili	Men	Russia	Tennis	Mixed doubles	31	1.87	85
+Ana Ivanovic	Women	Serbia	Tennis	Mixed doubles	28	1.77	63
+Nenad Zimonjic	Men	Serbia	Tennis	Mixed doubles	40	1.92	90
+Carla Suarez Navarro	Women	Spain	Tennis	Mixed doubles	27	1.62	61
+David Ferrer	Men	Spain	Tennis	Mixed doubles	34	1.75	73
+Garbine Muguruza	Women	Spain	Tennis	Mixed doubles	22	1.84	72
+Rafael Nadal	Men	Spain	Tennis	Mixed doubles	30	1.85	79
+Denys Molchanov	Men	Ukraine	Tennis	Mixed doubles	29	1.90	82
+Elina Svitolina	Women	Ukraine	Tennis	Mixed doubles	21	1.74	60
+Wei-Ling Chen	Women	Chinese Taipei	Weightlifting	48 kg	34	1.49	47
+Beatriz Elizabeth Piron Candelario	Women	Dominican Republic	Weightlifting	48 kg	21	1.50	48
+Chanu Saikhom Mirabai	Women	India	Weightlifting	48 kg	22	1.45	48
+Sri Wahyuni Agustiani	Women	Indonesia	Weightlifting	48 kg	21	1.47	47
+Hiromi Miyake	Women	Japan	Weightlifting	48 kg	30	1.45	48
+Margarita Yelisseyeva	Women	Kazakhstan	Weightlifting	48 kg	24	1.50	48
+Zhanyl Okoeva	Women	Kyrgyzstan	Weightlifting	48 kg	22	1.65	48
+Roilya Ranaivosoa	Women	Mauritius	Weightlifting	48 kg	25	1.52	48
+Fiorella Francesca Cueva Uribe	Women	Peru	Weightlifting	48 kg	18	1.50	48
+Lely Berlitt Burgos Ortiz	Women	Puerto Rico	Weightlifting	48 kg	31	1.53	50
+Sopita Tanasan	Women	Thailand	Weightlifting	48 kg	21	1.54	48
+Iuliia Paratova	Women	Ukraine	Weightlifting	48 kg	29	1.55	48
+Morghan Whitney King	Women	United States	Weightlifting	48 kg	30	1.53	48
+Thi Huyen Vuong	Women	Vietnam	Weightlifting	48 kg	24	1.55	48
+Andranik Karapetyan	Men	Armenia	Weightlifting	77 kg	20	1.80	77
+Xiaojun Lyu	Men	China	Weightlifting	77 kg	32	1.72	77
+Andres Mauricio Caicedo Piedrahita	Men	Colombia	Weightlifting	77 kg	18	1.74	75
+Ibrahim Ramadan Ibrahim Abdelbaki	Men	Egypt	Weightlifting	77 kg	28	1.73	77
+Mohamed Mahmoud	Men	Egypt	Weightlifting	77 kg	26	1.65	77
+Nico Mueller	Men	Germany	Weightlifting	77 kg	22	1.68	80
+Sathish Kumar Sivalingam	Men	India	Weightlifting	77 kg	24	1.75	77
+Deni	Men	Indonesia	Weightlifting	77 kg	27	1.65	69
+Triyatno	Men	Indonesia	Weightlifting	77 kg	28	1.61	77
+Nijat Rahimov	Men	Kazakhstan	Weightlifting	77 kg	22	1.76	77
+Alexandr Spac	Men	Moldova	Weightlifting	77 kg	26	1.64	80
+Jon Wi Choe	Men	North Korea	Weightlifting	77 kg	23	1.70	69
+Dumitru Captari	Men	Romania	Weightlifting	77 kg	27	1.68	79
+Andres Eduardo Mata Perez	Men	Spain	Weightlifting	77 kg	23	1.74	77
+Chatuphum Chinnawong	Men	Thailand	Weightlifting	77 kg	23	1.67	77
+Patricia Alejandra Bermudez	Women	Argentina	Wrestling	Freestyle 48 kg	29	1.50	48
+Mariya Stadnik	Women	Azerbaijan	Wrestling	Freestyle 48 kg	28	1.57	48
+Elitsa Atanasova Yankova	Women	Bulgaria	Wrestling	Freestyle 48 kg	21	1.51	48
+Sotheara Chov	Women	Cambodia	Wrestling	Freestyle 48 kg	32	1.55	48
+Rebecca Ndolo Muambo	Women	Cameroon	Wrestling	Freestyle 48 kg	31	1.52	48
+Jasmine Mian	Women	Canada	Wrestling	Freestyle 48 kg	26	1.55	48
+Yanan Sun	Women	China	Wrestling	Freestyle 48 kg	23	1.61	51
+Carolina Castillo Hidalgo	Women	Colombia	Wrestling	Freestyle 48 kg	25	1.57	48
+Brenda Yamyleth Bailey Gomez	Women	Honduras	Wrestling	Freestyle 48 kg	21	1.59	55
+Vinesh Vinesh	Women	India	Wrestling	Freestyle 48 kg	21	1.65	56
+Eri Tosaka	Women	Japan	Wrestling	Freestyle 48 kg	22	1.52	53
+Zhuldyz Eshimova	Women	Kazakhstan	Wrestling	Freestyle 48 kg	28	1.52	48
+Jessica Blaszka	Women	Netherlands	Wrestling	Freestyle 48 kg	24	1.60	52
+Miesinnei Mercy Genesis	Women	Nigeria	Wrestling	Freestyle 48 kg	18	1.52	48
+Hyon Gyong Kim	Women	North Korea	Wrestling	Freestyle 48 kg	21	1.53	48
+Iwona Nina Matkowska	Women	Poland	Wrestling	Freestyle 48 kg	34	1.60	48
+Emilia Alina Vuc	Women	Romania	Wrestling	Freestyle 48 kg	22	1.54	50
+Milana Dadasheva	Women	Russia	Wrestling	Freestyle 48 kg	21	1.65	48
+Haley Ruth Augello	Women	United States	Wrestling	Freestyle 48 kg	21	1.61	54
+Thi Hang Vu	Women	Vietnam	Wrestling	Freestyle 48 kg	24	1.58	47
+Natalya Sinishin	Women	Azerbaijan	Wrestling	Freestyle 53 kg	31	1.60	58
+Joseph Emilienne Essombe Tiako	Women	Cameroon	Wrestling	Freestyle 53 kg	28	1.59	55
+Jillian Alice Gallays	Women	Canada	Wrestling	Freestyle 53 kg	29	1.65	53
+Xuechun Zhong	Women	China	Wrestling	Freestyle 53 kg	22	1.66	55
+Nina Hemmer	Women	Germany	Wrestling	Freestyle 53 kg	23	1.65	55
+Maria Prevolaraki	Women	Greece	Wrestling	Freestyle 53 kg	24	1.63	57
+Kumari Babita	Women	India	Wrestling	Freestyle 53 kg	26	1.65	52
+Saori Yoshida	Women	Japan	Wrestling	Freestyle 53 kg	33	1.57	55
+Sumiya Erdenechimeg	Women	Mongolia	Wrestling	Freestyle 53 kg	26	1.59	53
+Odunayo Folasade Adekuoroye	Women	Nigeria	Wrestling	Freestyle 53 kg	22	1.69	53
+Myong Suk Jong	Women	North Korea	Wrestling	Freestyle 53 kg	23	1.61	53
+Katarzyna Krawczyk	Women	Poland	Wrestling	Freestyle 53 kg	25	1.58	53
+Isabelle Sambou	Women	Senegal	Wrestling	Freestyle 53 kg	35	1.55	53
+Sofia Magdalena Mattsson	Women	Sweden	Wrestling	Freestyle 53 kg	26	1.64	56
+Bediha Gun	Women	Turkey	Wrestling	Freestyle 53 kg	21	1.67	53
+Yuliia Khavaldzhy Blahinya	Women	Ukraine	Wrestling	Freestyle 53 kg	26	1.62	53
+Helen Louise Maroulis	Women	United States	Wrestling	Freestyle 53 kg	24	1.63	56
+Betzabeth Angelica Arguello Villegas	Women	Venezuela	Wrestling	Freestyle 53 kg	25	1.64	53
+Thi Lua Nguyen	Women	Vietnam	Wrestling	Freestyle 53 kg	25	1.65	53
+Garnik Mnatsakanyan	Men	Armenia	Wrestling	Freestyle 57 kg	26	1.61	57
+Haji Aliyev	Men	Azerbaijan	Wrestling	Freestyle 57 kg	25	1.68	65
+Asadulla Lachinau	Men	Belarus	Wrestling	Freestyle 57 kg	30	1.58	60
+Vladimir Vladimirov Dubov	Men	Bulgaria	Wrestling	Freestyle 57 kg	28	1.56	64
+Yowlys Bonne Rodriguez	Men	Cuba	Wrestling	Freestyle 57 kg	32	1.52	57
+Vladimer Khinchegashvili	Men	Georgia	Wrestling	Freestyle 57 kg	25	1.70	57
+Sandeep Tomar	Men	India	Wrestling	Freestyle 57 kg	25	1.68	61
+Hassan Sabzali Rahimi	Men	Iran	Wrestling	Freestyle 57 kg	27	1.65	62
+Rei Higuchi	Men	Japan	Wrestling	Freestyle 57 kg	20	1.63	63
+Nurislam Sanayev	Men	Kazakhstan	Wrestling	Freestyle 57 kg	25	1.63	57
+Bekhbayar Erdenebat	Men	Mongolia	Wrestling	Freestyle 57 kg	23	1.61	62
+Chakir Ansari	Men	Morocco	Wrestling	Freestyle 57 kg	25	1.68	57
+Kyong Il Yang	Men	North Korea	Wrestling	Freestyle 57 kg	27	1.58	57
+Ivan Guidea	Men	Romania	Wrestling	Freestyle 57 kg	28	1.63	60
+Victor Lebedev	Men	Russia	Wrestling	Freestyle 57 kg	28	1.64	57
+Adama Diatta	Men	Senegal	Wrestling	Freestyle 57 kg	27	1.65	57
+Junsik Yun	Men	South Korea	Wrestling	Freestyle 57 kg	25	1.66	65
+Suleyman Atli	Men	Turkey	Wrestling	Freestyle 57 kg	22	1.68	57
+Daniel Paul Dennis-Kengott	Men	United States	Wrestling	Freestyle 57 kg	29	1.66	56
+Abbos Rakhmonov	Men	Uzbekistan	Wrestling	Freestyle 57 kg	18	1.61	57
+Yuliya Ratkevich	Women	Azerbaijan	Wrestling	Freestyle 58 kg	31	1.62	58
+Joice Souza da Silva	Women	Brazil	Wrestling	Freestyle 58 kg	33	1.67	59
+Mimi Nikolova Hristova	Women	Bulgaria	Wrestling	Freestyle 58 kg	23	1.63	58
+Michelle Cristina Fazzari	Women	Canada	Wrestling	Freestyle 58 kg	29	1.73	58
+Jackeline Renteria Castillo	Women	Colombia	Wrestling	Freestyle 58 kg	30	1.67	58
+Lissette Alexandra Antes Castillo	Women	Ecuador	Wrestling	Freestyle 58 kg	25	1.77	58
+Petra Maarit Olli	Women	Finland	Wrestling	Freestyle 58 kg	22	1.63	64
+Luisa Helga Gerda Niemesch	Women	Germany	Wrestling	Freestyle 58 kg	20	1.65	63
+Sakshi Malik	Women	India	Wrestling	Freestyle 58 kg	23	1.62	58
+Kaori Icho	Women	Japan	Wrestling	Freestyle 58 kg	32	1.66	61
+Aisuluu Tynybekova	Women	Kyrgyzstan	Wrestling	Freestyle 58 kg	23	1.70	58
+Mariana Cherdivara Esanu	Women	Moldova	Wrestling	Freestyle 58 kg	23	1.60	62
+Orkhon Purevdorj	Women	Mongolia	Wrestling	Freestyle 58 kg	22	1.63	63
+Aminat Oluwafunmilayo Adeniyi	Women	Nigeria	Wrestling	Freestyle 58 kg	23	1.65	58
+Yanet Ursula Sovero Nino	Women	Peru	Wrestling	Freestyle 58 kg	33	1.63	58
+Valeriia Koblova Zholobova	Women	Russia	Wrestling	Freestyle 58 kg	23	1.64	58
+Malin Johanna Mattsson	Women	Sweden	Wrestling	Freestyle 58 kg	28	1.69	63
+Marwa Amri	Women	Tunisia	Wrestling	Freestyle 58 kg	27	1.60	58
+Elif Jale Yesilirmak	Women	Turkey	Wrestling	Freestyle 58 kg	30	1.64	58
+Oksana Herhel	Women	Ukraine	Wrestling	Freestyle 58 kg	22	1.64	58
+Devid Safaryan	Men	Armenia	Wrestling	Freestyle 65 kg	27	1.70	65
+Sahit Prizreni	Men	Australia	Wrestling	Freestyle 65 kg	33	1.66	65
+Toghrul Asgarov	Men	Azerbaijan	Wrestling	Freestyle 65 kg	23	1.70	65
+Adam Batirov	Men	Bahrain	Wrestling	Freestyle 65 kg	31	1.65	71
+Borislav Stefanov Novachkov	Men	Bulgaria	Wrestling	Freestyle 65 kg	26	1.70	71
+Haislan Antonio Veranes Garcia	Men	Canada	Wrestling	Freestyle 65 kg	33	1.75	66
+Katai Yeerlanbieke	Men	China	Wrestling	Freestyle 65 kg	26	1.69	77
+Alejandro Enrique Valdes Tobier	Men	Cuba	Wrestling	Freestyle 65 kg	27	1.65	65
+Zurabi Iakobishvili	Men	Georgia	Wrestling	Freestyle 65 kg	24	1.71	68
+Yogeshwar Dutt	Men	India	Wrestling	Freestyle 65 kg	33	1.68	65
+Meisam Abolfazl Nasiri	Men	Iran	Wrestling	Freestyle 65 kg	27	1.69	71
+Frank Chamizo Marquez	Men	Italy	Wrestling	Freestyle 65 kg	24	1.72	65
+Mandakhnaran Ganzorig	Men	Mongolia	Wrestling	Freestyle 65 kg	30	1.65	65
+Amas Daniel	Men	Nigeria	Wrestling	Freestyle 65 kg	26	1.65	65
+Magomedmurad Gadzhiev	Men	Poland	Wrestling	Freestyle 65 kg	28	1.65	65
+Franklin Gomez Matos	Men	Puerto Rico	Wrestling	Freestyle 65 kg	30	1.77	65
+Soslan Ramonov	Men	Russia	Wrestling	Freestyle 65 kg	25	1.70	65
+Mustafa Kaya	Men	Turkey	Wrestling	Freestyle 65 kg	24	1.64	65
+Andriy Kvyatkovskyy	Men	Ukraine	Wrestling	Freestyle 65 kg	26	1.75	65
+Frank Aniello Molinaro	Men	United States	Wrestling	Freestyle 65 kg	27	1.68	68
+Ikhtiyor Navruzov	Men	Uzbekistan	Wrestling	Freestyle 65 kg	27	1.65	65
+Talgat Ilyasov	Men	Australia	Wrestling	Freestyle 74 kg	35	1.75	74
+Jabrayil Hasanov	Men	Azerbaijan	Wrestling	Freestyle 74 kg	26	1.70	74
+Georgi Ivanov Ivanov	Men	Bulgaria	Wrestling	Freestyle 74 kg	26	1.70	78
+Carlos Arturo Izquierdo Mendez	Men	Colombia	Wrestling	Freestyle 74 kg	18	1.82	74
+Livan Lopez Azcuy	Men	Cuba	Wrestling	Freestyle 74 kg	34	1.70	74
+Zelimkhan Khadjiev	Men	France	Wrestling	Freestyle 74 kg	22	1.75	80
+Jakob Makarashvili	Men	Georgia	Wrestling	Freestyle 74 kg	30	1.74	80
+Augusto Midana	Men	Guinea-Bissau	Wrestling	Freestyle 74 kg	32	1.67	74
+Asnage Castelly	Men	Haiti	Wrestling	Freestyle 74 kg	38	1.82	74
+Narsingh Pancham Yadav	Men	India	Wrestling	Freestyle 74 kg	27	1.67	74
+Hassan Aliazam Yazdanicharati	Men	Iran	Wrestling	Freestyle 74 kg	21	1.81	74
+Sohsuke Takatani	Men	Japan	Wrestling	Freestyle 74 kg	27	1.78	81
+Galymzhan Usserbayev	Men	Kazakhstan	Wrestling	Freestyle 74 kg	27	1.73	74
+Evgheni Nedealco	Men	Moldova	Wrestling	Freestyle 74 kg	26	1.79	79
+Unurbat Purevjav	Men	Mongolia	Wrestling	Freestyle 74 kg	28	1.70	80
+Aniuar Geduev	Men	Russia	Wrestling	Freestyle 74 kg	29	1.73	74
+Taimuraz Friev Naskidaeva	Men	Spain	Wrestling	Freestyle 74 kg	29	1.76	84
+Soner Demirtas	Men	Turkey	Wrestling	Freestyle 74 kg	25	1.70	74
+Jordan Ernest Burroughs	Men	United States	Wrestling	Freestyle 74 kg	28	1.71	79
+Bekzod Abdurakhmonov	Men	Uzbekistan	Wrestling	Freestyle 74 kg	26	1.72	74
+Adem Boudjemline	Men	Algeria	Wrestling	Greco-roman 85 kg	22	1.80	85
+Maksim Manukyan	Men	Armenia	Wrestling	Greco-roman 85 kg	28	1.77	86
+Amer Hrustanovic	Men	Austria	Wrestling	Greco-roman 85 kg	28	1.80	91
+Saman Ahmed Tahmasebi	Men	Azerbaijan	Wrestling	Greco-roman 85 kg	31	1.80	85
+Javid Hamzatau	Men	Belarus	Wrestling	Greco-roman 85 kg	26	1.76	91
+Nikolay Nikolaev Bayryakov	Men	Bulgaria	Wrestling	Greco-roman 85 kg	26	1.80	89
+Fei Peng	Men	China	Wrestling	Greco-roman 85 kg	24	1.84	89
+Ahmed Mohamed Ibrahim Saad	Men	Egypt	Wrestling	Greco-roman 85 kg	27	1.65	85
+Rami Antero Hietaniemi	Men	Finland	Wrestling	Greco-roman 85 kg	33	1.80	92
+Roberti Kobliashvili	Men	Georgia	Wrestling	Greco-roman 85 kg	22	1.80	85
+Denis Maksymilian Kudla	Men	Germany	Wrestling	Greco-roman 85 kg	21	1.84	90
+Viktor Lorincz	Men	Hungary	Wrestling	Greco-roman 85 kg	26	1.76	89
+Ravinder Khatri	Men	India	Wrestling	Greco-roman 85 kg	24	1.68	85
+Habibollah Jomeh Akhlaghi	Men	Iran	Wrestling	Greco-roman 85 kg	31	1.75	90
+Zhanarbek Kenzheev	Men	Kyrgyzstan	Wrestling	Greco-roman 85 kg	31	1.80	84
+Alfonso Antonio Leyva Yepez	Men	Mexico	Wrestling	Greco-roman 85 kg	23	1.81	85
+Davit Chakvetadze	Men	Russia	Wrestling	Greco-roman 85 kg	23	1.74	85
+Kristoffer Zakarias Berg	Men	Sweden	Wrestling	Greco-roman 85 kg	21	1.81	86
+Zhan Beleniuk	Men	Ukraine	Wrestling	Greco-roman 85 kg	25	1.78	85
+Benjamin Errol Provisor	Men	United States	Wrestling	Greco-roman 85 kg	26	1.73	88
+Rustam Assakalov	Men	Uzbekistan	Wrestling	Greco-roman 85 kg	32	1.83	85
+Hemza Haloui	Men	Algeria	Wrestling	Greco-roman 98 kg	22	1.80	96
+Artur Aleksanyan	Men	Armenia	Wrestling	Greco-roman 98 kg	24	1.90	98
+Tsimafei Dzeinichenka	Men	Belarus	Wrestling	Greco-roman 98 kg	29	1.86	98
+Elis Guri	Men	Bulgaria	Wrestling	Greco-roman 98 kg	33	1.89	100
+di Xiao	Men	China	Wrestling	Greco-roman 98 kg	25	1.85	100
+Yasmany Daniel Lugo Cabrera	Men	Cuba	Wrestling	Greco-roman 98 kg	26	1.90	98
+Hamdy Moustafa Elsaid Abdelwahab	Men	Egypt	Wrestling	Greco-roman 98 kg	23	1.71	96
+Ardo Arusaar	Men	Estonia	Wrestling	Greco-roman 98 kg	28	1.81	102
+Revazi Nadareishvili	Men	Georgia	Wrestling	Greco-roman 98 kg	25	1.76	98
+Balazs Kiss	Men	Hungary	Wrestling	Greco-roman 98 kg	33	1.78	105
+Hardeep Hardeep	Men	India	Wrestling	Greco-roman 98 kg	25	1.63	98
+Ghasem Gholamreza Rezaei	Men	Iran	Wrestling	Greco-roman 98 kg	30	1.85	100
+Daigoro Timoncini	Men	Italy	Wrestling	Greco-roman 98 kg	30	1.80	98
+Alin Alexuc Ciurariu	Men	Romania	Wrestling	Greco-roman 98 kg	26	1.91	105
+Islam Magomedov	Men	Russia	Wrestling	Greco-roman 98 kg	25	1.82	98
+Carl Fredrik Stefan Schoen	Men	Sweden	Wrestling	Greco-roman 98 kg	29	1.87	102
+Cenk Ildem	Men	Turkey	Wrestling	Greco-roman 98 kg	30	1.80	98
+Dimitriy Timchenko	Men	Ukraine	Wrestling	Greco-roman 98 kg	33	1.90	98
+Luillys Jose Perez Mora	Men	Venezuela	Wrestling	Greco-roman 98 kg	25	1.81	97
