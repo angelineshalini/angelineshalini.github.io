@@ -266,7 +266,7 @@ var div = d3.select("body").append("div")
 		 
 var margin = {top: 20, right: 20, bottom: 30, left: 40},
     width = 960 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+    height = 500- margin.top - margin.bottom;
 
 var x = d3.scale.linear()
     .range([0, width]);
@@ -318,7 +318,7 @@ note.append("br");
 note.append("text").text("Data Source:").style("font-weight","normal");
 note.append("text").text("www.rio2016.com").style("font-weight","bold")
         .style("text-decoration", "underline") 
-        .style("cursor","pointer")	.on("click", function() { window.open("www.rio2016.com"); });;
+        .style("cursor","pointer")	.on("click", function() { window.open("http://www.rio2016.com"); });;
 		
 
 
