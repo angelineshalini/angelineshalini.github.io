@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+<head>
+
+</head>
+body {
+  font: 12px sans-serif;
+}
+div.tooltip {   
+  position: absolute;           
+  text-align: center;           
+  width: 125px;                  
+  height: 75px;                 
+  padding: 2px;             
+  font: 12px sans-serif;   
+  background: lightsteelblue;   
+  border: 0px;      
+  border-radius: 8px;           
+  pointer-events: none;         
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+</style>
+<body>
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<div id="container">
+      <h1 id="headline" class="viz-head">Sizing up Indian Olympians against the world</h1>
+         </div>  
+    
+
+
+<form name="info">
+<tr>
+
+<td><FONT COLOR="#4682B4"></td><td><select style="color:#4682B4" name ="gender" id ="gender" onchange ="configureDropDownLists(this,'evento');">
+<option value="Men"selected >Men</option>
+<option value="Women"  >Women</option></select>
+<td><FONT COLOR="#ff0000"></td>
+<td><select name="sport" style = "color:#4682B4" id="sport" onchange="configureDropDownLists(this,'evento');">
+<option value="Archery" >Archery</option>
+<option value="Athletics" selected>Athletics</option>
+<option value="Badminton">Badminton</option>
+<option value="Golf">Golf</option>
+<option value="Hockey">Hockey</option>
+<option value="Tennis">Tennis</option>
+<option value="Weightlifting">Weightlifting</option>
+<option value="Wrestling">Wrestling</option>
+
+
+</select></td>
+<td><FONT COLOR="#4682B4"></FONT></td>
+<td><select name="event" style="color:#4682B4" id="evento" onchange = "updategraph();">
+<option value = "20 km walk" >20 km walk</option>
+<option value ="4 x 400 metres relay"selected>4 x 400 metres relay</option>
+<option value ="400 metres">400 metres</option>
+<option value ="Discus throw">Discus throw</option>
+<option value ="Long jump">Long jump</option>
+<option value ="Marathon">Marathon</option>
+<option value ="Triple jump">Triple jump</option>
+</select></td>
+
+<td >
+
+   <input id="search" type="text" placeholder="Search for a Country">
+    <button type="button" onclick="searchNode()">Compare</button>
+</td>
+<script>
+// For Tooltip
+var div = d3.select("body").append("div")   
+    .attr("class", "tooltip")               
+    .style("opacity", 0);  
+		 
+var margin = {top: 20, right: 20, bottom: 30, left: 40},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+var x = d3.scale.linear()
+    .range([0, width]);
+
+var y = d3.scale.linear()
+    .range([height, 0]);
+
+
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom");
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left");
+
+var svg = d3.select("body").append("div").attr("id","container")
+     .append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom) 
+       .attr("viewBox","0 0 960 500")
+							  .attr("preserveAspectRatio", "xMinYMin meet")
+							  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+	
+ var aspect = width / height,
+    container = $("#container");
+
+	
+$(window).on("resize", function() {
+    var targetWidth = container.width();
+    svg.attr("width", targetWidth);
+    svg.attr("height", Math.round(targetWidth / aspect));
+}).trigger("resize");
+
+	
+	
+d3.tsv("data.tsv", function(error, data) {
+  if (error) throw error;
+  data = data.filter(function(d){return d.Sport == "Athletics" && d.Gender =="Men" && d.Event == "4 x 400 metres relay"});
+   data.forEach(function(d) {
+    d.Height = +d.Height;
+    d.Weight = +d.Weight;
+  });
+  
+  x.domain(d3.extent(data, function(d) { return d.Weight; })).nice();
+  y.domain(d3.extent(data, function(d) { return d.Height; })).nice();
+  
+  
+  
+   svg.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis)
+    .append("text")
+      .attr("class", "label")
+      .attr("x", width)
+      .attr("y", -6)
+      .style("text-anchor", "end")
+      .text("Weight (kg)");
+	  
+	  
+	  svg.append("g")
+      .attr("class", "y axis")
+      .call(yAxis)
+    .append("text")
+      .attr("class", "label")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", ".71em")
+      .style("text-anchor", "end")
+      .text("Height (m)")
+	  
+	  svg.selectAll(".dot")
+      .data(data)
+    .enter().append("circle")
+      .attr("class", "dot")
+      .attr("r", function(d) {return d.Age/5})
+      .attr("cx", function(d) { return x(d.Weight); })
+      .attr("cy", function(d) { return y(d.Height); })
+      .style("fill", function(d) { if (d.Country == 'India'){return 'red';} else {return 'gray'}})
+	  .style("opacity", function (d){ if (d.Country == 'India'){return 1;} else {return 0.7}})
+	  .on("mouseover",  function (d) {div.transition()        
+                .duration(50)      
+                .style("opacity", .9);
+             div.html(d.Name+"<br/>"+"Country:" +d.Country+ "<br/>" +"Height:"+d.Height+ "(m)" + "<br/>" +"Weight:"+d.Weight+ "(kg)" + "<br/>" +"Age:"+d.Age )  
+                .style("left", (d3.event.pageX) + "px")     
+                .style("top", (d3.event.pageY - 28) + "px");    
+            })                  
+        .on("mouseout", function(d) {       
+            div.transition()        
+                .duration(100)      
+                .style("opacity", 0);})
+});
+//http://bl.ocks.org/rpgove/10603627
+</script>
+</body>
+</html>

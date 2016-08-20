@@ -1,0 +1,26 @@
+{
+  "Men": {
+       "Archery":["Individual" ],
+	   "Athletics":["20 km walk","4 x 400 metres relay","400 metres","Discus throw","Long jump","Marathon","Triple jump"],
+	   "Badminton":["Doubles","Singles"],
+	   "Hockey":["Hockey"],
+	   "Tennis":["Mixed doubles"],
+	   "Weightlifting":["77 kg"],
+	   "Wrestling":["Freestyle 57 kg","Freestyle 65 kg","Freestyle 74 kg","Greco-roman 85 kg","Greco-roman 98 kg"]	
+	   },
+  "Women": {
+       "Archery": ["Individual","Team"],
+	   "Athletics":["100 metres","200 metres","3000 metres steeplechase","4 x 400 metres relay","800 metres","Discus throw","Marathon","Shot put"],
+	   "Badminton":["Doubles","Singles"],
+	   "Golf":["Individual stroke play"],
+	   "Gymnastics":["Balance beam","Floor exercise","Individual all-around","Uneven bars","Vault"],
+	   "Hockey":["Hockey"],
+	   "Shooting":["10 metres air pistol","10 metres air rifle ","25 metres pistol"],
+	   "Swimming":["200 metres freestyle"],
+	   "Table tennis":["Singles"],
+	   "Tennis":["Doubles","Mixed doubles"],
+	   "Weightlifting":["48 kg"],
+	   "Wrestling":["Freestyle 48 kg","Freestyle 53 kg","Freestyle 58 kg"]
+                }
+ }
+ 

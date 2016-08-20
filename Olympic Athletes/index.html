@@ -2,11 +2,27 @@
 <meta charset="utf-8">
 <style>
 <head>
-
+<script src="http://code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css"> </script>
 </head>
 body {
   font: 12px sans-serif;
 }
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 50%; /* aspect ratio */
+    vertical-align: top;
+    overflow: hidden;
+}
+.svg-content-responsive {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+
 div.tooltip {   
   position: absolute;           
   text-align: center;           
@@ -29,7 +45,10 @@ div.tooltip {
 <body>
 <script src="//d3js.org/d3.v3.min.js"></script>
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-<div id="container">
+<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+
+
+<div id="container" >
       <h1 id="headline" class="viz-head">Sizing up Indian Olympians against the world</h1>
          </div>  
     
@@ -38,15 +57,14 @@ div.tooltip {
 <form name="info">
 <tr>
 
-<td><FONT COLOR="#4682B4"></td><td><select style="color:#4682B4" name ="gender" id ="gender" onchange ="configureDropDownLists(this,'evento');">
+<td><FONT COLOR="#4682B4"></td><td><select style="color:#4682B4" name ="gender" id ="gender">
 <option value="Men"selected >Men</option>
 <option value="Women"  >Women</option></select>
 <td><FONT COLOR="#ff0000"></td>
-<td><select name="sport" style = "color:#4682B4" id="sport" onchange="configureDropDownLists(this,'evento');">
+<td><select name="sport" style = "color:#4682B4" id="sport" >
 <option value="Archery" >Archery</option>
 <option value="Athletics" selected>Athletics</option>
 <option value="Badminton">Badminton</option>
-<option value="Golf">Golf</option>
 <option value="Hockey">Hockey</option>
 <option value="Tennis">Tennis</option>
 <option value="Weightlifting">Weightlifting</option>
@@ -55,7 +73,7 @@ div.tooltip {
 
 </select></td>
 <td><FONT COLOR="#4682B4"></FONT></td>
-<td><select name="event" style="color:#4682B4" id="evento" onchange = "updategraph();">
+<td><select name="event" style="color:#4682B4" id="event" onchange = "updategraph();ab();">
 <option value = "20 km walk" >20 km walk</option>
 <option value ="4 x 400 metres relay"selected>4 x 400 metres relay</option>
 <option value ="400 metres">400 metres</option>
@@ -63,14 +81,184 @@ div.tooltip {
 <option value ="Long jump">Long jump</option>
 <option value ="Marathon">Marathon</option>
 <option value ="Triple jump">Triple jump</option>
-</select></td>
+</select></td><br><br>
+</tr>
 
-<td >
-
-   <input id="search" type="text" placeholder="Search for a Country">
-    <button type="button" onclick="searchNode()">Compare</button>
-</td>
+<div class="ui-widget"  align = "right" style ="margin-right:200px">
+   <input id="search" type="text" placeholder="Search for a Country" >
+  
+	 <input name="button" 
+	       id = "button1"
+           type="button" 
+           value="Compare" 
+           onclick="check(value)" />
+</div>
 <script>
+
+// dynamic dropdown
+var optArray = [];
+
+$("#gender").change(function (){
+var $dropdown = $(this);
+
+				$.getJSON("data.json", function(dataj) {
+
+					var key = $dropdown.val();
+					var vals = [];
+
+					switch(key) {
+						case 'Men':
+							vals = Object.keys(dataj.Men);
+							break;
+						case 'Women':
+							vals = Object.keys(dataj.Women);
+							break;
+						
+					}
+					var $jsontwo = $("#sport");
+					$jsontwo.empty();
+					$.each(vals, function(index, value) {
+						$jsontwo.append("<option>" + value + "</option>");
+					})
+					sportchange();
+					
+					})
+
+});
+
+
+$("#sport").change(function (){
+sportchange();
+});
+
+function sportchange(){
+var sc =  document.getElementById("sport");
+	              var sportchoice= sc.options[sc.selectedIndex].value
+
+				$.getJSON("data.json", function(dataj) {
+
+					var key = sportchoice ;
+					var vals = [];
+                   var gc =  document.getElementById("gender");
+	              var genderchoice= gc.options[gc.selectedIndex].value
+				  if (genderchoice == 'Men')
+				  {
+					switch(key) {
+						case 'Archery':
+							vals = dataj.Men.Archery;
+							break;
+						case 'Athletics':
+							vals = dataj.Men.Athletics;
+							break;	
+						case 'Badminton':
+							vals = dataj.Men.Badminton;
+							break;
+						
+						case 'Hockey':
+							vals = dataj.Men.Hockey;
+							break;
+						case 'Tennis':
+							vals = dataj.Men.Tennis;
+							break;	
+						case 'Weightlifting':
+							vals = dataj.Men.Weightlifting;
+							break;
+						case 'Wrestling':
+							vals = dataj.Men.Wrestling;
+							break;
+						
+					}}
+					else{
+					
+					switch(key) {
+						case 'Archery':
+							vals = dataj.Women.Archery;
+							break;
+						case 'Athletics':
+							vals = dataj.Women.Athletics;
+							break;	
+						case 'Badminton':
+							vals = dataj.Women.Badminton;
+							break;
+						case 'Golf':
+							vals = dataj.Women.Golf;
+							break;
+						case 'Gymnastics':
+							vals = dataj.Women.Gymnastics;
+							break;
+						case 'Shooting':
+							vals = dataj.Women.Shooting;
+							break;
+						case 'Hockey':
+							vals = dataj.Women.Hockey;
+							break;
+						case 'Swimming':
+							vals = dataj.Women.Swimming;
+							break;
+						case 'Table tennis':
+							vals = dataj.Women["Table tennis"];
+							break;	
+						case 'Tennis':
+							vals = dataj.Women.Tennis;
+							break;	
+						case 'Weightlifting':
+							vals = dataj.Women.Weightlifting;
+							break;
+						case 'Wrestling':
+							vals = dataj.Women.Wrestling;
+							break;
+						
+					}
+					}
+					var $jsontwo = $("#event");
+					$jsontwo.empty();
+					$.each(vals, function(index, value) {
+						$jsontwo.append("<option>" + value + "</option>");
+					updategraph();
+					
+					})
+					
+})
+;}
+//Search
+//var uniqarray =[];
+//var data;
+//var optArray = [];
+//for (var i = 0; i < data.length - 1; i++) {
+  //  optArray.push(data[i].Country);
+//}
+
+//optArray = optArray.sort();	
+//optArray = ["Afghanistan","Albania","Algeria","American Samoa","Andorra","Angola","Argentina","Armenia","Australia","Austria","Azerbaijan"];
+
+
+$(function () {
+
+var  e = document.getElementById("gender");
+  var genderselected = e.options[e.selectedIndex].value;
+   var f = document.getElementById("sport");
+  sportselected = f.options[f.selectedIndex].value;
+   var g = document.getElementById("event");
+  eventselected = g.options[g.selectedIndex].value;
+  d3.tsv("data.tsv", function(error, data) {if (error) throw error;
+  data = data.filter(function(d){return d.Sport == sportselected && d.Gender == genderselected&& d.Event == eventselected});
+
+for (var i = 0; i < data.length - 1; i++) {
+    optArray.push(data[i].Country);}
+optArray = optArray.sort();
+optArray = jQuery.unique(optArray);
+
+    $("#search").autocomplete({
+        source: optArray
+    });
+		 
+		 })//close for data json function		 
+		 
+		 
+		 });//close for listener function
+		 
+		 
+	
 // For Tooltip
 var div = d3.select("body").append("div")   
     .attr("class", "tooltip")               
@@ -95,14 +283,14 @@ var yAxis = d3.svg.axis()
     .scale(y)
     .orient("left");
 
-var svg = d3.select("body").append("div").attr("id","container")
+var svg = d3.select("body").append("div").attr("id","container").classed("svg-container", true)
      .append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom) 
-       .attr("viewBox","0 0 960 500")
+           .attr("viewBox","-50 -18 960 510")
 							  .attr("preserveAspectRatio", "xMinYMin meet")
-							  .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+							.classed("svg-content-responsive", true)
+							; 
+							  
+
 	
  var aspect = width / height,
     container = $("#container");
@@ -113,16 +301,51 @@ $(window).on("resize", function() {
     svg.attr("width", targetWidth);
     svg.attr("height", Math.round(targetWidth / aspect));
 }).trigger("resize");
+ 
+ //Notes
+var note = 	d3.select("body").append("text")
+         .style("font-weight","bold")
+       // .style("text-decoration", "underline")  
+        .style("font-size", "90%") 		
+	    .text("Notes: ")
+note.append("br");
+note.append("text")
+.style("font-weight","normal")
+        .style("text-decoration", "none") 
+           .text("Complete data for some sportspersons was not available. Wherever this was the case, those sportspersons or events (if the sportsperson was Indian) were excluded from this interactive.")
 
+note.append("br");
+note.append("text").text("Data Source:").style("font-weight","normal");
+note.append("text").text("www.rio2016.com").style("font-weight","bold")
+        .style("text-decoration", "underline") 
+        .style("cursor","pointer")	.on("click", function() { window.open("www.rio2016.com"); });;
+		
+
+
+
+
+
+
+ drawgraph();
+ 
 	
-	
+function drawgraph(){	
 d3.tsv("data.tsv", function(error, data) {
   if (error) throw error;
   data = data.filter(function(d){return d.Sport == "Athletics" && d.Gender =="Men" && d.Event == "4 x 400 metres relay"});
-   data.forEach(function(d) {
+
+  data.forEach(function(d) {
     d.Height = +d.Height;
     d.Weight = +d.Weight;
   });
+  
+   var force = d3.layout.force()
+    .nodes(data)
+    .size([width, height])
+    .on("tick", tick)
+    .charge(-1)
+    .gravity(0)
+    .chargeDistance(20);
   
   x.domain(d3.extent(data, function(d) { return d.Weight; })).nice();
   y.domain(d3.extent(data, function(d) { return d.Height; })).nice();
@@ -152,11 +375,136 @@ d3.tsv("data.tsv", function(error, data) {
       .style("text-anchor", "end")
       .text("Height (m)")
 	  
-	  svg.selectAll(".dot")
+	  var node = svg.selectAll(".dot")
       .data(data)
     .enter().append("circle")
       .attr("class", "dot")
-      .attr("r", function(d) {return d.Age/5})
+      .attr("r", function(d) {return d.Age/3})
+      .attr("cx", function(d) { return x(d.Weight); })
+      .attr("cy", function(d) { return y(d.Height); })
+      .style("fill", function(d) { if (d.Country == 'India'){return 'red';} else {return 'gray'}})
+	  .style("opacity", function (d){ if (d.Country == 'India'){return 1;} else {return 0.7}})
+	  .on("mouseover",  function (d) {div.transition()        
+                .duration(50)      
+               .style("opacity",0.9 );
+             div.html(d.Name+"<br/>"+"Country:" +d.Country+ "<br/>" +"Height:"+d.Height+ "(m)" + "<br/>" +"Weight:"+d.Weight+ "(kg)" + "<br/>" +"Age:"+d.Age )  
+                .style("left", (d3.event.pageX) + "px")     
+                .style("top", (d3.event.pageY - 28) + "px");    
+            })                  
+        .on("mouseout", function(d) {       
+            div.transition()        
+                .duration(100)      
+                .style("opacity", 0);})
+///Force	
+	force.start();
+	
+	function tick(e) {
+    node.each(moveTowardDataPosition(e.alpha));
+
+    node.each(collide(e.alpha));
+
+    node.attr("cx", function(d) { return d.x; })
+        .attr("cy", function(d) { return d.y; });
+  }
+
+  
+  function moveTowardDataPosition(alpha) {
+    return function(d) {
+      d.x += (x(d.Weight) - d.x) * 0.1 * alpha;
+      d.y += (y(d.Height) - d.y) * 0.1 * alpha;
+    };
+  }
+ // Resolve collisions between nodes.
+ var radius =2,
+     padding =0.1;
+  function collide(alpha) {
+    var quadtree = d3.geom.quadtree(data);
+    return function(d) {
+      var r = (d.Age/3) + (d.Age/3)+ padding,
+          nx1 = d.x - r,
+          nx2 = d.x + r,
+          ny1 = d.y - r,
+          ny2 = d.y + r;
+      quadtree.visit(function(quad, x1, y1, x2, y2) {
+        if (quad.point && (quad.point !== d)) {
+          var x = d.x - quad.point.x,
+              y = d.y - quad.point.y,
+              l = Math.sqrt(x * x + y * y),
+              r = (d.Age/3) + (quad.point.Age/3) + padding;
+          if (l < r) {
+            l = (l - r) / l * alpha;
+            d.x -= x *= l;
+            d.y -= y *= l;
+            quad.point.x += x;
+            quad.point.y += y;
+          }
+        }
+        return x1 > nx2 || x2 < nx1 || y1 > ny2 || y2 < ny1;
+      });
+    };
+  }
+
+});
+}
+
+function updategraph()
+{
+
+document.getElementById("search").value = "";
+document.getElementById("button1").value = "Compare";
+var  e = document.getElementById("gender");
+  var genderselected = e.options[e.selectedIndex].value;
+    
+  var f = document.getElementById("sport");
+  sportselected = f.options[f.selectedIndex].value;
+  
+  var g = document.getElementById("event");
+  eventselected = g.options[g.selectedIndex].value;
+  
+
+d3.tsv("data.tsv", function(error, data) {
+  if (error) throw error;
+  data = data.filter(function(d){return d.Sport == sportselected && d.Gender == genderselected&& d.Event == eventselected});
+
+  data.forEach(function(d) {
+    d.Height = +d.Height;
+    d.Weight = +d.Weight;
+  });
+  
+  for (var i = 0; i < data.length - 1; i++) {
+    optArray.push(data[i].Country);}
+optArray = optArray.sort();
+optArray = jQuery.unique(optArray);
+  
+  
+  x.domain(d3.extent(data, function(d) { return d.Weight; })).nice();
+  y.domain(d3.extent(data, function(d) { return d.Height; })).nice();
+  
+  
+  //var svg2 = d3.select("body").transition();
+  
+   svg.select(".x.axis").transition().duration(250)
+      .call(xAxis);
+    
+	svg.select(".y.axis").transition().duration(250)
+      .call(yAxis);  
+	  
+	  svg.selectAll("circle").remove();
+
+ var force = d3.layout.force()
+    .nodes(data)
+    .size([width, height])
+    .on("tick", tick)
+    .charge(-1)
+    .gravity(0)
+    .chargeDistance(20);
+	
+var node=	  svg.selectAll(".dot")
+      .data(data)
+    .enter().append("circle")
+      .attr("class", "dot")
+      .attr("r", function(d) {return d.Age/3})
+      .attr("r", function(d) {return d.Age/3})
       .attr("cx", function(d) { return x(d.Weight); })
       .attr("cy", function(d) { return y(d.Height); })
       .style("fill", function(d) { if (d.Country == 'India'){return 'red';} else {return 'gray'}})
@@ -172,7 +520,122 @@ d3.tsv("data.tsv", function(error, data) {
             div.transition()        
                 .duration(100)      
                 .style("opacity", 0);})
+	  //.style("opacity", 0)
+ //.transition()
+ //.delay(function(d,i) {return i * 10})
+ 	  
+ // .duration(500)
+	//  .attr("cx", function(d) { return x(d.Weight); })
+   // .attr("cy", function(d) { return y(d.Height); })
+	
+	///Force	
+	force.start();
+	
+	function tick(e) {
+    node.each(moveTowardDataPosition(e.alpha));
+
+    node.each(collide(e.alpha));
+
+    node.attr("cx", function(d) { return d.x; })
+        .attr("cy", function(d) { return d.y; });
+  }
+
+  
+  function moveTowardDataPosition(alpha) {
+    return function(d) {
+      d.x += (x(d.Weight) - d.x) * 0.1 * alpha;
+      d.y += (y(d.Height) - d.y) * 0.1 * alpha;
+    };
+  }
+ // Resolve collisions between nodes.
+ var radius =2,
+     padding =0.1;
+  function collide(alpha) {
+    var quadtree = d3.geom.quadtree(data);
+    return function(d) {
+      var r = (d.Age/3) + (d.Age/3)+ padding,
+          nx1 = d.x - r,
+          nx2 = d.x + r,
+          ny1 = d.y - r,
+          ny2 = d.y + r;
+      quadtree.visit(function(quad, x1, y1, x2, y2) {
+        if (quad.point && (quad.point !== d)) {
+          var x = d.x - quad.point.x,
+              y = d.y - quad.point.y,
+              l = Math.sqrt(x * x + y * y),
+              r = (d.Age/3) + (quad.point.Age/3) + padding;
+          if (l < r) {
+            l = (l - r) / l * alpha;
+            d.x -= x *= l;
+            d.y -= y *= l;
+            quad.point.x += x;
+            quad.point.y += y;
+          }
+        }
+        return x1 > nx2 || x2 < nx1 || y1 > ny2 || y2 < ny1;
+      });
+    };
+  }
+
 });
+}
+
+function check(value)
+{ if (value == 'Compare')
+    {document.getElementById("button1").value = 'Reset';
+	searchNode();  }
+ else {document.getElementById("button1").value = 'Compare';
+       document.getElementById("search").value = '';
+ 
+ d3.selectAll("circle").transition().duration(500)
+ .style("opacity", function (d){ if (d.Country == 'India'){return 1;} else {return 0.7}})};}
+ 
+ 
+function searchNode() {
+    //find the node
+	 		  
+    var selectedVal = document.getElementById('search').value;
+    var node = svg.selectAll("circle");
+    if (selectedVal == "none") {
+        //node.style("stroke", "white").style("stroke-width", "1");
+    } else {
+        var selected = node.filter(function (d, i) {
+            return (d.Country != selectedVal && d.Country != "India");
+        });
+        selected.style("opacity", "0");
+		var selected2 = node.filter(function (d, i) {
+            return (d.Country == selectedVal && d.Country == "India");
+        });
+		selected2.style("opacity", "1");
+       // var link = svg.selectAll(".link")
+        //link.style("opacity", "0");
+       
+    }
+}
+
+
+// returns slope, intercept and r-square of the line
+	function leastSquares(xSeries, ySeries) {
+		var reduceSumFunc = function(prev, cur) { return prev + cur; };
+		
+		var xBar = xSeries.reduce(reduceSumFunc) * 1.0 / xSeries.length;
+		var yBar = ySeries.reduce(reduceSumFunc) * 1.0 / ySeries.length;
+
+		var ssXX = xSeries.map(function(d) { return Math.pow(d - xBar, 2); })
+			.reduce(reduceSumFunc);
+		
+		var ssYY = ySeries.map(function(d) { return Math.pow(d - yBar, 2); })
+			.reduce(reduceSumFunc);
+			
+		var ssXY = xSeries.map(function(d, i) { return (d - xBar) * (ySeries[i] - yBar); })
+			.reduce(reduceSumFunc);
+			
+		var slope = ssXY / ssXX;
+		var intercept = yBar - (xBar * slope);
+		var rSquare = Math.pow(ssXY, 2) / (ssXX * ssYY);
+		
+		return [slope, intercept, rSquare];
+	}
 //http://bl.ocks.org/rpgove/10603627
 </script>
 </body>
