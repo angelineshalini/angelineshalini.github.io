@@ -2,10 +2,10 @@
 <meta charset="utf-8">
 <style>
 <head>
-<script src="http://code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css"> </script>
+
 </head>
 body {
-  font: 12px sans-serif;
+  font: 100% sans-serif;
 }
 .svg-container {
     display: inline-block;
@@ -21,15 +21,18 @@ body {
     top: 10px;
     left: 0;
 }
-
+.ui-widget input, .ui-widget button{
+  font-family: sans-serif;
+  font-size: 10px;
+}
 
 div.tooltip {   
   position: absolute;           
   text-align: center;           
-  width: 125px;                  
-  height: 75px;                 
+  width: 13%;                  
+  height: 15%;                 
   padding: 2px;             
-  font: 12px sans-serif;   
+  font: 100%;   
   background: lightsteelblue;   
   border: 0px;      
   border-radius: 8px;           
@@ -45,7 +48,8 @@ div.tooltip {
 <body>
 <script src="//d3js.org/d3.v3.min.js"></script>
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+<link type="text/css" href="jquery-ui-1.12.0.custom/jquery-ui.min.css" rel="stylesheet" /> 
+<script type='text/javascript' src="https://code.jquery.com/ui/1.11.0/jquery-ui.min.js"> </script>
 
 
 <div id="container" >
@@ -58,14 +62,18 @@ div.tooltip {
 <tr>
 
 <td><FONT COLOR="#4682B4"></td><td><select style="color:#4682B4" name ="gender" id ="gender">
-<option value="Men"selected >Men</option>
-<option value="Women"  >Women</option></select>
+<option value="Men" >Men</option>
+<option value="Women" selected >Women</option></select>
 <td><FONT COLOR="#ff0000"></td>
 <td><select name="sport" style = "color:#4682B4" id="sport" >
 <option value="Archery" >Archery</option>
-<option value="Athletics" selected>Athletics</option>
-<option value="Badminton">Badminton</option>
+<option value="Athletics" >Athletics</option>
+<option value="Badminton"selected>Badminton</option>
+<option value="Golf">Golf</option>
 <option value="Hockey">Hockey</option>
+<option value="Shooting">Shooting</option>
+<option value="Swimming">Swimming</option>
+<option value="Table tennis">Table tennis</option>
 <option value="Tennis">Tennis</option>
 <option value="Weightlifting">Weightlifting</option>
 <option value="Wrestling">Wrestling</option>
@@ -73,30 +81,34 @@ div.tooltip {
 
 </select></td>
 <td><FONT COLOR="#4682B4"></FONT></td>
-<td><select name="event" style="color:#4682B4" id="event" onchange = "updategraph();ab();">
-<option value = "20 km walk" >20 km walk</option>
-<option value ="4 x 400 metres relay"selected>4 x 400 metres relay</option>
-<option value ="400 metres">400 metres</option>
-<option value ="Discus throw">Discus throw</option>
-<option value ="Long jump">Long jump</option>
-<option value ="Marathon">Marathon</option>
-<option value ="Triple jump">Triple jump</option>
+<td><select name="event" style="color:#4682B4" id="event" onchange = "updategraph();">
+<option value = "Doubles" >Doubles</option>
+<option value ="Singles"selected>Singles</option>
+
 </select></td><br><br>
 </tr>
 
-<div class="ui-widget"  align = "right" style ="margin-right:200px">
-   <input id="search" type="text" placeholder="Search for a Country" >
+<div class="ui-widget"  align = "left" >
+   <input id="search" type="text" placeholder="Enter Country name" >
   
-	 <input name="button" 
+	 <input name="button" style "font-family: sans-serif; font-size: 10px"
 	       id = "button1"
            type="button" 
-           value="Compare" 
+           value="Compare with another country" 
            onclick="check(value)" />
 </div>
 <script>
 
 // dynamic dropdown
 var optArray = [];
+
+$('.ui-widget input').css('fontSize', '12px');
+$('.ui-widget input').css('font-family', 'sans-serif');
+
+
+
+
+
 
 $("#gender").change(function (){
 var $dropdown = $(this);
@@ -312,12 +324,15 @@ note.append("br");
 note.append("text")
 .style("font-weight","normal")
         .style("text-decoration", "none") 
-           .text("Complete data for some sportspersons was not available. Wherever this was the case, those sportspersons or events (if the sportsperson was Indian) were excluded from this interactive.")
-
+		.text("1.Size of circle indicates age.")
+		note.append("br");
+           note.append("text").text("2.Complete data for some sportspersons was not available. Wherever this was the case, those sportspersons or events (if the sportsperson was Indian) were excluded from this interactive.")
+		   .style("font-weight","normal")
+note.append("br");
+note.append("text").text("3.Collison detection technique from d3 was used to position overlapping circles.").style("font-weight","normal");
 note.append("br");
 note.append("text").text("Data Source:").style("font-weight","normal");
-note.append("text").text("www.rio2016.com").style("font-weight","bold")
-        .style("text-decoration", "underline") 
+note.append("text").text("www.rio2016.com").style("font-weight","normal")
         .style("cursor","pointer")	.on("click", function() { window.open("http://www.rio2016.com"); });;
 		
 
@@ -332,7 +347,7 @@ note.append("text").text("www.rio2016.com").style("font-weight","bold")
 function drawgraph(){	
 d3.tsv("data.tsv", function(error, data) {
   if (error) throw error;
-  data = data.filter(function(d){return d.Sport == "Athletics" && d.Gender =="Men" && d.Event == "4 x 400 metres relay"});
+  data = data.filter(function(d){return d.Sport == "Badminton" && d.Gender =="Women" && d.Event == "Singles"});
 
   data.forEach(function(d) {
     d.Height = +d.Height;
@@ -388,7 +403,7 @@ d3.tsv("data.tsv", function(error, data) {
                 .duration(50)      
                .style("opacity",0.9 );
              div.html(d.Name+"<br/>"+"Country:" +d.Country+ "<br/>" +"Height:"+d.Height+ "(m)" + "<br/>" +"Weight:"+d.Weight+ "(kg)" + "<br/>" +"Age:"+d.Age )  
-                .style("left", (d3.event.pageX) + "px")     
+                .style("left", (d3.event.pageX+25) + "px")     
                 .style("top", (d3.event.pageY - 28) + "px");    
             })                  
         .on("mouseout", function(d) {       
@@ -451,7 +466,7 @@ function updategraph()
 {
 
 document.getElementById("search").value = "";
-document.getElementById("button1").value = "Compare";
+document.getElementById("button1").value = "Compare with another country";
 var  e = document.getElementById("gender");
   var genderselected = e.options[e.selectedIndex].value;
     
@@ -471,7 +486,7 @@ d3.tsv("data.tsv", function(error, data) {
     d.Weight = +d.Weight;
   });
   
-  for (var i = 0; i < data.length - 1; i++) {
+for (var i = 0; i < data.length - 1; i++) {
     optArray.push(data[i].Country);}
 optArray = optArray.sort();
 optArray = jQuery.unique(optArray);
@@ -480,6 +495,7 @@ optArray = jQuery.unique(optArray);
   x.domain(d3.extent(data, function(d) { return d.Weight; })).nice();
   y.domain(d3.extent(data, function(d) { return d.Height; })).nice();
   
+
   
   //var svg2 = d3.select("body").transition();
   
@@ -507,19 +523,21 @@ var node=	  svg.selectAll(".dot")
       .attr("r", function(d) {return d.Age/3})
       .attr("cx", function(d) { return x(d.Weight); })
       .attr("cy", function(d) { return y(d.Height); })
+	 	 
       .style("fill", function(d) { if (d.Country == 'India'){return 'red';} else {return 'gray'}})
 	  .style("opacity", function (d){ if (d.Country == 'India'){return 1;} else {return 0.7}})
 	  .on("mouseover",  function (d) {div.transition()        
                 .duration(50)      
                 .style("opacity", .9);
              div.html(d.Name+"<br/>"+"Country:" +d.Country+ "<br/>" +"Height:"+d.Height+ "(m)" + "<br/>" +"Weight:"+d.Weight+ "(kg)" + "<br/>" +"Age:"+d.Age )  
-                .style("left", (d3.event.pageX) + "px")     
+                .style("left", (d3.event.pageX+ 25) + "px")     
                 .style("top", (d3.event.pageY - 28) + "px");    
             })                  
         .on("mouseout", function(d) {       
             div.transition()        
                 .duration(100)      
                 .style("opacity", 0);})
+				
 	  //.style("opacity", 0)
  //.transition()
  //.delay(function(d,i) {return i * 10})
@@ -581,12 +599,11 @@ var node=	  svg.selectAll(".dot")
 }
 
 function check(value)
-{ if (value == 'Compare')
+{ if (value == 'Compare with another country')
     {document.getElementById("button1").value = 'Reset';
 	searchNode();  }
- else {document.getElementById("button1").value = 'Compare';
-       document.getElementById("search").value = '';
- 
+ else {document.getElementById("button1").value = 'Compare with another country';
+       document.getElementById("search").value = ''; 
  d3.selectAll("circle").transition().duration(500)
  .style("opacity", function (d){ if (d.Country == 'India'){return 1;} else {return 0.7}})};}
  

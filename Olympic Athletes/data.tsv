@@ -2869,6 +2869,7 @@ Rafael Nadal	Men	Spain	Tennis	Mixed doubles	30	1.85	79
 Denys Molchanov	Men	Ukraine	Tennis	Mixed doubles	29	1.90	82
 Elina Svitolina	Women	Ukraine	Tennis	Mixed doubles	21	1.74	60
 Wei-Ling Chen	Women	Chinese Taipei	Weightlifting	48 kg	34	1.49	47
+Dummy	Women	Chinese Taipei	Weightlifting	48 kg	0	1.49	46
 Beatriz Elizabeth Piron Candelario	Women	Dominican Republic	Weightlifting	48 kg	21	1.50	48
 Chanu Saikhom Mirabai	Women	India	Weightlifting	48 kg	22	1.45	48
 Sri Wahyuni Agustiani	Women	Indonesia	Weightlifting	48 kg	21	1.47	47
@@ -2894,10 +2895,12 @@ Triyatno	Men	Indonesia	Weightlifting	77 kg	28	1.61	77
 Nijat Rahimov	Men	Kazakhstan	Weightlifting	77 kg	22	1.76	77
 Alexandr Spac	Men	Moldova	Weightlifting	77 kg	26	1.64	80
 Jon Wi Choe	Men	North Korea	Weightlifting	77 kg	23	1.70	69
+Dummy	Men	North Korea	Weightlifting	77 kg	0	1.70	67
 Dumitru Captari	Men	Romania	Weightlifting	77 kg	27	1.68	79
 Andres Eduardo Mata Perez	Men	Spain	Weightlifting	77 kg	23	1.74	77
 Chatuphum Chinnawong	Men	Thailand	Weightlifting	77 kg	23	1.67	77
 Patricia Alejandra Bermudez	Women	Argentina	Wrestling	Freestyle 48 kg	29	1.50	48
+Dummy	Women	Argentina	Wrestling	Freestyle 48 kg	0	1.50	46
 Mariya Stadnik	Women	Azerbaijan	Wrestling	Freestyle 48 kg	28	1.57	48
 Elitsa Atanasova Yankova	Women	Bulgaria	Wrestling	Freestyle 48 kg	21	1.51	48
 Sotheara Chov	Women	Cambodia	Wrestling	Freestyle 48 kg	32	1.55	48
@@ -2920,6 +2923,7 @@ Thi Hang Vu	Women	Vietnam	Wrestling	Freestyle 48 kg	24	1.58	47
 Natalya Sinishin	Women	Azerbaijan	Wrestling	Freestyle 53 kg	31	1.60	58
 Joseph Emilienne Essombe Tiako	Women	Cameroon	Wrestling	Freestyle 53 kg	28	1.59	55
 Jillian Alice Gallays	Women	Canada	Wrestling	Freestyle 53 kg	29	1.65	53
+Dummy	Women	Canada	Wrestling	Freestyle 53 kg	0	1.65	51
 Xuechun Zhong	Women	China	Wrestling	Freestyle 53 kg	22	1.66	55
 Nina Hemmer	Women	Germany	Wrestling	Freestyle 53 kg	23	1.65	55
 Maria Prevolaraki	Women	Greece	Wrestling	Freestyle 53 kg	24	1.63	57
@@ -2937,6 +2941,7 @@ Helen Louise Maroulis	Women	United States	Wrestling	Freestyle 53 kg	24	1.63	56
 Betzabeth Angelica Arguello Villegas	Women	Venezuela	Wrestling	Freestyle 53 kg	25	1.64	53
 Thi Lua Nguyen	Women	Vietnam	Wrestling	Freestyle 53 kg	25	1.65	53
 Garnik Mnatsakanyan	Men	Armenia	Wrestling	Freestyle 57 kg	26	1.61	57
+Dummy	Men	Armenia	Wrestling	Freestyle 57 kg	0	1.61	55
 Haji Aliyev	Men	Azerbaijan	Wrestling	Freestyle 57 kg	25	1.68	65
 Asadulla Lachinau	Men	Belarus	Wrestling	Freestyle 57 kg	30	1.58	60
 Vladimir Vladimirov Dubov	Men	Bulgaria	Wrestling	Freestyle 57 kg	28	1.56	64
@@ -2962,6 +2967,7 @@ Mimi Nikolova Hristova	Women	Bulgaria	Wrestling	Freestyle 58 kg	23	1.63	58
 Michelle Cristina Fazzari	Women	Canada	Wrestling	Freestyle 58 kg	29	1.73	58
 Jackeline Renteria Castillo	Women	Colombia	Wrestling	Freestyle 58 kg	30	1.67	58
 Lissette Alexandra Antes Castillo	Women	Ecuador	Wrestling	Freestyle 58 kg	25	1.77	58
+Dummy	Women	Ecuador	Wrestling	Freestyle 58 kg	0	1.77	56
 Petra Maarit Olli	Women	Finland	Wrestling	Freestyle 58 kg	22	1.63	64
 Luisa Helga Gerda Niemesch	Women	Germany	Wrestling	Freestyle 58 kg	20	1.65	63
 Sakshi Malik	Women	India	Wrestling	Freestyle 58 kg	23	1.62	58
@@ -2986,6 +2992,7 @@ Katai Yeerlanbieke	Men	China	Wrestling	Freestyle 65 kg	26	1.69	77
 Alejandro Enrique Valdes Tobier	Men	Cuba	Wrestling	Freestyle 65 kg	27	1.65	65
 Zurabi Iakobishvili	Men	Georgia	Wrestling	Freestyle 65 kg	24	1.71	68
 Yogeshwar Dutt	Men	India	Wrestling	Freestyle 65 kg	33	1.68	65
+Dummy	Men	India	Wrestling	Freestyle 65 kg	0	1.68	64
 Meisam Abolfazl Nasiri	Men	Iran	Wrestling	Freestyle 65 kg	27	1.69	71
 Frank Chamizo Marquez	Men	Italy	Wrestling	Freestyle 65 kg	24	1.72	65
 Mandakhnaran Ganzorig	Men	Mongolia	Wrestling	Freestyle 65 kg	30	1.65	65
@@ -2998,6 +3005,7 @@ Andriy Kvyatkovskyy	Men	Ukraine	Wrestling	Freestyle 65 kg	26	1.75	65
 Frank Aniello Molinaro	Men	United States	Wrestling	Freestyle 65 kg	27	1.68	68
 Ikhtiyor Navruzov	Men	Uzbekistan	Wrestling	Freestyle 65 kg	27	1.65	65
 Talgat Ilyasov	Men	Australia	Wrestling	Freestyle 74 kg	35	1.75	74
+Dummy	Men	Australia	Wrestling	Freestyle 74 kg	0	1.75	72
 Jabrayil Hasanov	Men	Azerbaijan	Wrestling	Freestyle 74 kg	26	1.70	74
 Georgi Ivanov Ivanov	Men	Bulgaria	Wrestling	Freestyle 74 kg	26	1.70	78
 Carlos Arturo Izquierdo Mendez	Men	Colombia	Wrestling	Freestyle 74 kg	18	1.82	74
@@ -3032,6 +3040,7 @@ Viktor Lorincz	Men	Hungary	Wrestling	Greco-roman 85 kg	26	1.76	89
 Ravinder Khatri	Men	India	Wrestling	Greco-roman 85 kg	24	1.68	85
 Habibollah Jomeh Akhlaghi	Men	Iran	Wrestling	Greco-roman 85 kg	31	1.75	90
 Zhanarbek Kenzheev	Men	Kyrgyzstan	Wrestling	Greco-roman 85 kg	31	1.80	84
+Dummy	Men	Kyrgyzstan	Wrestling	Greco-roman 85 kg	0	1.80	82
 Alfonso Antonio Leyva Yepez	Men	Mexico	Wrestling	Greco-roman 85 kg	23	1.81	85
 Davit Chakvetadze	Men	Russia	Wrestling	Greco-roman 85 kg	23	1.74	85
 Kristoffer Zakarias Berg	Men	Sweden	Wrestling	Greco-roman 85 kg	21	1.81	86
@@ -3039,6 +3048,7 @@ Zhan Beleniuk	Men	Ukraine	Wrestling	Greco-roman 85 kg	25	1.78	85
 Benjamin Errol Provisor	Men	United States	Wrestling	Greco-roman 85 kg	26	1.73	88
 Rustam Assakalov	Men	Uzbekistan	Wrestling	Greco-roman 85 kg	32	1.83	85
 Hemza Haloui	Men	Algeria	Wrestling	Greco-roman 98 kg	22	1.80	96
+Dummy	Men	Algeria	Wrestling	Greco-roman 98 kg	0	1.80	94
 Artur Aleksanyan	Men	Armenia	Wrestling	Greco-roman 98 kg	24	1.90	98
 Tsimafei Dzeinichenka	Men	Belarus	Wrestling	Greco-roman 98 kg	29	1.86	98
 Elis Guri	Men	Bulgaria	Wrestling	Greco-roman 98 kg	33	1.89	100
