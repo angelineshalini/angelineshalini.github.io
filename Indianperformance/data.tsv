@@ -107,11 +107,11 @@ Manoj Kumar	M	2012	Boxing	Light welterweight	9
 Vikas Krishan Yadav	M	2012	Boxing	Welterweight	9	
 Vijender Singh	M	2012	Boxing	Middleweight	5	
 Sumit Sangwan	M	2012	Boxing	Light heavyweight	17	
-Mary Kom	F	2012	Boxing	Flyweight	3	
+Mary Kom	F	2012	Boxing	Flyweight	3	Bronze
 Jitender Kumar	M	2008	Boxing	Flyweight	5	
 Akhil Kumar	M	2008	Boxing	Bantamweight	5	
 Anthresh Lakra	M	2008	Boxing	Featherweight	17	
-Vijender Singh	M	2008	Boxing	Middleweight	3	
+Vijender Singh	M	2008	Boxing	Middleweight	3	Bronze
 Dinesh Kumar	M	2008	Boxing	Light heavyweight	17	
 Akhil Kumar	M	2004	Boxing	Flyweight	17	
 Diwakar Prasad	M	2004	Boxing	Bantamweight	9	
@@ -123,7 +123,7 @@ Lakha Singh	M	1996	Boxing	Heavyweight	17
 Parupalli Kashyap	M	2012	Badminton	Singles	5	
 V Diju	M	2012	Badminton	Mixed doubles	13	
 Jwala Gutta	F	2012	Badminton	Mixed doubles	13	
-Saina Nehwal	F	2012	Badminton	Singles	3	
+Saina Nehwal	F	2012	Badminton	Singles	3	Bronze
 Jwala Gutta	F	2012	Badminton	Doubles	8	
 Ashwini Ponnappa	F	2012	Badminton	Doubles	8	
 Anup Sridhar	M	2008	Badminton	Singles	17	
@@ -157,7 +157,7 @@ Manisha Malhotra	F	2000	Tennis	Doubles	17
 Nirupama Vaidyanathan	F	2000	Tennis	Doubles	17	
 Mahesh Bhupathi	M	1996	Tennis	Doubles	9	
 Leander Paes	M	1996	Tennis	Doubles	9	
-Leander Paes	M	1996	Tennis	Singles	3	
+Leander Paes	M	1996	Tennis	Singles	3	Bronze
 Soumyajit Ghosh	M	2012	Table tennis	Singles	33	
 Ankita Das	F	2012	Table tennis	Singles	49	
 Sharath Kamal Achanta	M	2008	Table tennis	Singles	33	
@@ -171,12 +171,12 @@ Poulomi Ghatak	F	2000	Table tennis	Singles	49
 Chetan Baboor	M	1996	Table tennis	Singles	49	
 Ambika Radhika	F	1996	Table tennis	Singles	49	
 Amit Kumar	M	2012	Wrestling	Featherweight freestyle	10	
-Yogeshwar Dutt	M	2012	Wrestling	Lightweight freestyle	3	
-Sushil Kumar	M	2012	Wrestling	Welterweight freestyle	2	
+Yogeshwar Dutt	M	2012	Wrestling	Lightweight freestyle	3	Bronze
+Sushil Kumar	M	2012	Wrestling	Welterweight freestyle	2	Silver
 Narsingh Pancham Yadav	M	2012	Wrestling	Middleweight freestyle	13	
 Geeta Phogat	F	2012	Wrestling	Lightweight freestyle	13	
 Yogeshwar Dutt	M	2008	Wrestling	Lightweight freestyle	9	
-Sushil Kumar	M	2008	Wrestling	Welterweight freestyle	3	
+Sushil Kumar	M	2008	Wrestling	Welterweight freestyle	3	Bronze
 Rajiv Tomer	M	2008	Wrestling	Super-heavyweight freestyle	17	
 Ramesh Kumar	M	2004	Wrestling	Welterweight freestyle	10	
 Mukesh Khatri	M	2004	Wrestling	Featherweight Greco-Roman	21	
@@ -192,7 +192,7 @@ Soniya Chanu Ngangbam	F	2012	Weightlifting	Flyweight	7
 Namecrakpam Kunjarani Devi	F	2004	Weightlifting	Flyweight	4	
 Thandava Murthy Muthu	M	2000	Weightlifting	Bantamweight	16	
 Thing Baijan Sanamacha Chanu	F	2000	Weightlifting	Featherweight	6	
-Karnam Malleswari	F	2000	Weightlifting	Light-heavyweight	3	
+Karnam Malleswari	F	2000	Weightlifting	Light-heavyweight	3	Bronze
 Badathala Adisekhar	M	1996	Weightlifting	Flyweight	18	
 Raghavan Chanderasekaran	M	1996	Weightlifting	Bantamweight	11	
 Sandeep Kumar	M	1996	Weightlifting	Featherweight	33	
@@ -230,3 +230,31 @@ Bajrang Takhar	M	2008	Rowing	Single sculls	21
 Devender Khandwal	M	2008	Rowing	Lightweight double sculls	18	
 Manjit Singh	M	2008	Rowing	Lightweight double sculls	18	
 Paulose Pandari Kunnel	M	2004	Rowing	Single sculls	29	
+Laxmirani Majhi	F	2016	Archery	Team	6	
+Bombayla Devi Laishram	F	2016	Archery	Team	6	
+Deepika Kumari	F	2016	Archery	Team	6	
+Deepika Kumari	F	2016	Archery	Individual	20	
+Bombayla Devi Laishram	F	2016	Archery	Individual	24	
+Laxmirani Majhi	F	2016	Archery	Individual	43	
+Atanu Das	M	2016	Archery	Individual	5	
+Srikanth Kidambi	M	2016	Badminton	Individual	5	
+Sindhu V Pusarla	F	2016	Badminton	Individual	2	Silver
+Saina Nehwal	F	2016	Badminton	Individual	17	
+Manu Attri	M	2016	Badminton	Doubles	9	
+Sumeeth B Reddy	M	2016	Badminton	Doubles	9	
+Jwala Gutta	F	2016	Badminton	Doubles	9	
+Ashwini Ponnappa	F	2016	Badminton	Doubles	9	
+SSP Chawrasia	M	2016	Golf	Individual stroke play	50	
+Anirban Lahiri	M	2016	Golf	Individual stroke play	57	
+Aditi Ashok	F	2016	Golf	Individual stroke play	41	
+India	F	2016	Hockey	Team	12	
+India	M	2016	Hockey	Team	8	
+Avtar Singh	M	2016	Judo	90 kg	17	
+Sathish Kumar Sivalingam	M	2016	Weightlifting	77 kg	11	
+Ravinder Khatri	M	2016	Wrestling	Greco-Roman 85 kg	20	
+Hardeep Hardeep	M	2016	Wrestling	Greco-Roman 98 kg	13	
+Sandeep Tomar	M	2016	Wrestling	Freestyle 57 kg	15	
+Yogeshwar Dutt	M	2016	Wrestling	Freestyle 65 kg	21	
+Vinesh Vinesh	F	2016	Wrestling	Freestyle 48 kg	10	
+Babita Kumari	F	2016	Wrestling	Freestyle 53 kg	13	
+Sakshi Malik	F	2016	Wrestling	Freestyle 58 kg	3	Bronze
