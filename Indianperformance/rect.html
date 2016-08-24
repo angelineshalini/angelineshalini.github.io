@@ -1,0 +1,55 @@
+.style("stroke",function(d){ if (d.Medal == "Gold") return "#FFD700"
+	                                else if (d.Medal == "Silver") return "silver"
+									else if (d.Medal == "Bronze") return "brown"})
+
+data1 = data.filter(function(d){ return d.Year == "2000" });
+       if (data1.length > 0){data1min=  d3.min(data1.map(function(d) { return d.Rank; })); 
+
+	   
+	   svg.append("rect")
+	   	  .attr("height",height- y(data1min))
+		  .attr("width", 50)
+		  .attr("x", x(data1[0].Year)-25)
+		  .attr("y",y(data1min)).attr("fill","#0E6251").attr("opacity",0.2)}
+		  
+		   
+	   
+	   data2 = data.filter(function(d){ return d.Year == "2004" });
+          if (data2.length>0) {data2min=  d3.min(data2.map(function(d) { return d.Rank; })); 
+	       	   
+	    svg.append("rect")
+	   	  .attr("height",height- y(data2min))
+		  .attr("width", 50)
+		  .attr("x", x(data2[0].Year)-25)
+		  .attr("y",y(data2min)).attr("fill","#0E6251").attr("opacity",0.2)}
+		  
+	   
+	   data3 = data.filter(function(d){ return d.Year == "2008" });
+       if (data3.length > 0) {data3min=  d3.min(data3.map(function(d) { return d.Rank; }));
+	      
+	    svg.append("rect")
+	   	  .attr("height",height- y(data3min))
+		  .attr("width", 50)
+		  .attr("x", x(data3[0].Year)-25)
+		  .attr("y",y(data3min)).attr("fill","#0E6251").attr("opacity",0.2)}
+		  
+		   data4 = data.filter(function(d){ return d.Year == "2012" });
+     if (data4.length > 0){  data4min=  d3.min(data4.map(function(d) { return d.Rank; }));
+	  
+	      
+	    svg.append("rect")
+	   	  .attr("height",height- y(data4min))
+		  .attr("width", 50)
+		  .attr("x", x(data4[0].Year)-25)
+		  .attr("y",y(data4min)).attr("fill","#0E6251").attr("opacity",0.2)}
+		  
+		  
+		   data5 = data.filter(function(d){ return d.Year == "2016" });
+          if (data5.length > 0){  data5min=  d3.min(data5.map(function(d) { return d.Rank; }));
+	         
+	   
+	    svg.append("rect")
+	   	  .attr("height",height- y(data5min))
+		  .attr("width", 50)
+		  .attr("x", x(data5[0].Year)-25)
+		  .attr("y",y(data5min)).attr("fill","#0E6251").attr("opacity",0.2)}

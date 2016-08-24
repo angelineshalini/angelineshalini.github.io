@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+<head>
+
+</head>
+body {
+  font-size:3vw;;
+}
+
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 50%; /* aspect ratio */
+    vertical-align: top;
+    overflow: hidden;
+}
+.svg-content-responsive {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+.ui-widget input, .ui-widget button{
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+div.tooltip {   
+  position: absolute;           
+  text-align: center;           
+  width: 13%;                  
+  height: 17%;                 
+  padding: 2px;             
+  font-size: 1.5vw; 
+  background: lightsteelblue;   
+  border: 0px;      
+  border-radius: 8px;           
+  pointer-events: none;  
+  z-index: 13;  
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  font: 10px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: white;
+}
+</style>
+<body>
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+
+
+<div id="container" >
+      <h1 id="headline" class="viz-head">India's standing in Olympics</h1>
+         </div>  
+    
+<br>
+
+<form name="info" align = "center">
+<tr><td><FONT COLOR="#4682B4"></td><td><select style="color:#4682B4" name ="gender" id ="gender">
+<option value="Men" >Men</option>
+<option value="Women"  selected>Women</option>
+<option value="Both" >Both</option></select></td></tr>
+
+<tr>
+
+<td><select name="sport" id="sport" onchange = "updategraph();">
+<option value="Archery" >Archery</option>
+<option value="Badminton"selected>Badminton</option>
+<option value="Boxing">Boxing</option>
+<option value="Judo">Judo</option>
+<option value="Shooting">Shooting</option>
+<option value="Swimming">Swimming</option>
+<option value="Table tennis">Table tennis</option>
+<option value="Tennis">Tennis</option>
+<option value="Weightlifting">Weightlifting</option>
+<option value="Wrestling">Wrestling</option>
+
+
+</select></td></tr><br>
+</form>
+
+<script>
+
+
+
+$("#gender").change(function (){
+var $dropdown = $(this);
+
+				$.getJSON("data.json", function(dataj) {
+
+					var key = $dropdown.val();
+					var vals = [];
+
+					switch(key) {
+						case 'Men':
+							vals = dataj.Men;
+							break;
+						case 'Women':
+							vals = dataj.Women;
+							break;
+							
+					case 'Both':
+							vals = dataj.Women;
+							break;
+						
+					}
+					var $jsontwo = $("#sport");
+					$jsontwo.empty();
+					$.each(vals, function(index, value) {
+						$jsontwo.append("<option>" + value + "</option>");
+					})
+					updategraph();
+					
+					})
+
+});
+
+
+
+// For Tooltip
+var div = d3.select("body").append("div")   
+    .attr("class", "tooltip")               
+    .style("opacity", 0);
+		 
+var margin = {top: 20, right: 20, bottom: 30, left: 40},
+    width = 1100 - margin.left - margin.right,
+    height = 450- margin.top - margin.bottom;
+
+var x = d3.scale.ordinal().domain(["","1996","2000","2004","2008","2012","2016"]) 
+    .rangePoints([0, width]);
+
+
+var y = d3.scale.linear()
+    .range([0,height]);
+
+
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom");
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left");
+	
+var color = d3.scale.category20();
+    
+
+var svg = d3.select("body").append("div").attr("id","container").classed("svg-container", true)
+     .append("svg")
+           .attr("viewBox","-5 -5 1100 750")
+							.attr("preserveAspectRatio", "xMinYMin meet")
+							.classed("svg-content-responsive", true).append("g")
+      .attr("transform", "translate("+2*margin.right+"," +2* margin.top  + ")");
+							; 
+							  
+ var aspect = width / height,
+    container = $("#container");
+
+	
+$(window).on("resize", function() {
+    var targetWidth = container.width();
+    svg.attr("width", targetWidth);
+    svg.attr("height", Math.round(targetWidth / aspect));
+}).trigger("resize");
+ 
+ //Notes
+var note = 	d3.select("body").append("text")
+         .style("font-weight","bold")
+       // .style("text-decoration", "underline")  
+        .style("font-size", "90%") 		
+	    .text("Notes: ")
+note.append("br");
+
+note.append("text").text("Collison detection technique from d3 was used to position overlapping circles.").style("font-weight","normal");
+note.append("br");
+note.append("text").text("Data Source:").style("font-weight","normal");
+note.append("text").text("www.rio2016.com").style("font-weight","normal")
+        .style("cursor","pointer")	.on("click", function() { window.open("http://www.rio2016.com"); });;
+		
+
+
+
+
+
+
+ drawgraph();
+ 
+	
+function drawgraph(){	
+d3.tsv("data.tsv", function(error, data) {
+  if (error) throw error;
+ data = data.filter(function(d){return d.Sport == "Badminton" && d.Gender =="F" });
+
+ color.domain(data.map(function(d) { return d.Year; }));
+ 
+  data.forEach(function(d) {
+  
+    d.Rank = +d.Rank;
+  });
+  
+   var force = d3.layout.force()
+    .nodes(data)
+    .size([width, height])
+    .on("tick", tick)
+    .charge(-1)
+    .gravity(0)
+    .chargeDistance(20);
+  
+  
+  y.domain(d3.extent(data, function(d) { return d.Rank; }));
+  
+  y.domain()[1] = y.domain()[1] +1;
+  
+   
+  
+   svg.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis)
+  //  .append("text")
+  //    .attr("class", "label")
+   //   .attr("x", width)
+   //   .attr("y", -6)
+   //   .style("text-anchor", "end")
+   //   .text("Weight (kg)");
+	  
+	  
+	  svg.append("g")
+      .attr("class", "y axis")
+      .call(yAxis)
+    .append("text")
+      .attr("class", "label")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", ".71em")
+      .style("text-anchor", "end")
+      .text("Rank")
+	  
+	 
+	  
+	  var node = svg.selectAll(".dot")
+      .data(data)
+    .enter().append("circle")
+      .attr("class", "dot")
+      .attr("r", 8)
+      .attr("cx", function(d) { return x(d.Year); })
+      .attr("cy", function(d) { return y(d.Rank); })
+	  .style("fill", function(d) {return color(d.Year); }) 
+.style("stroke",function(d){ if (d.Medal == "Gold") return "black"
+	                                else if (d.Medal == "Silver") return "black"
+									else if (d.Medal == "Bronze") return "black"})
+  .style("stroke-width",function(d){ if (d.Medal == "Gold") return 6
+	                                else if (d.Medal == "Silver") return 4
+									else if (d.Medal == "Bronze") return 3})      											
+		.on("mouseover",  function (d) {div.transition()        
+                .duration(50)      
+               .style("opacity",0.9 );
+             div.html(d.Name+"<br/>"+"Event:" +d.Event+ "<br/>" +"Rank:"+d.Rank)  
+                .style("left", (d3.event.pageX+25) + "px")     
+                .style("top", (d3.event.pageY - 28) + "px");    
+            })                  
+        .on("mouseout", function(d) {       
+            div.transition()        
+                .duration(100)      
+                .style("opacity", 0);})
+				
+	
+///Force	
+	force.start();
+	
+	function tick(e) {
+    node.each(moveTowardDataPosition(e.alpha));
+
+    node.each(collide(e.alpha));
+
+    node.attr("cx", function(d) { return d.x; })
+        .attr("cy", function(d) { return d.y; });
+  }
+
+  
+  function moveTowardDataPosition(alpha) {
+    return function(d) {
+      d.x += (x(d.Year) - d.x) * 0.1 * alpha;
+      d.y += (y(d.Rank) - d.y) * 0.1 * alpha;
+    };
+  }
+ // Resolve collisions between nodes.
+ var radius =8,
+     padding =0.1;
+  function collide(alpha) {
+    var quadtree = d3.geom.quadtree(data);
+    return function(d) {
+      var r = 8 + 8+ padding,
+          nx1 = d.x - r,
+          nx2 = d.x + r,
+          ny1 = d.y - r,
+          ny2 = d.y + r;
+      quadtree.visit(function(quad, x1, y1, x2, y2) {
+        if (quad.point && (quad.point !== d)) {
+          var x = d.x - quad.point.x,
+              y = d.y - quad.point.y,
+              l = Math.sqrt(x * x + y * y),
+              r = 8 + 8 + padding;
+          if (l < r) {
+            l = (l - r) / l * alpha;
+            d.x -= x *= l;
+            d.y -= y *= l;
+            quad.point.x += x;
+            quad.point.y += y;
+          }
+        }
+        return x1 > nx2 || x2 < nx1 || y1 > ny2 || y2 < ny1;
+      });
+    };
+  }
+  
+  
+	   
+
+
+});
+}
+
+function updategraph()
+{
+
+d3.tsv("data.tsv", function(error, data) {
+  if (error) throw error;
+ 
+
+var  e = document.getElementById("gender");
+  var genderselected = e.options[e.selectedIndex].value;
+
+    
+  var f = document.getElementById("sport");
+  sportselected = f.options[f.selectedIndex].value;
+
+
+  if (genderselected== "Both") {data = data.filter(function(d){return d.Sport == sportselected});}
+  else if(genderselected== "Men")  {data = data.filter(function(d){return d.Gender =="M" && d.Sport == sportselected});}
+  else if(genderselected== "Women")  {data = data.filter(function(d){return d.Gender =="F" && d.Sport == sportselected});}
+
+  data.forEach(function(d) {
+    d.Rank = +d.Rank;
+    
+  });
+
+  
+  
+  y.domain(d3.extent(data, function(d) { return d.Rank; }));
+  
+
+  
+
+  
+   svg.select(".x.axis").transition().duration(250)
+      .call(xAxis);
+    
+	svg.select(".y.axis").transition().duration(250)
+      .call(yAxis);  
+	  
+	  svg.selectAll("circle").remove();
+
+ var force = d3.layout.force()
+    .nodes(data)
+    .size([width, height])
+    .on("tick", tick)
+    .charge(-1)
+    .gravity(0)
+    .chargeDistance(20);
+	
+ var node = svg.selectAll(".dot")
+      .data(data)
+    .enter().append("circle")
+      .attr("class", "dot")
+      .attr("r", 8)
+      .attr("cx", function(d) { return x(d.Year); })
+      .attr("cy", function(d) { return y(d.Rank); })
+	  .style("fill", function(d) {return color(d.Year); }) 
+.style("stroke",function(d){ if (d.Medal == "Gold") return "black"
+	                                else if (d.Medal == "Silver") return "black"
+									else if (d.Medal == "Bronze") return "black"})
+  .style("stroke-width",function(d){ if (d.Medal == "Gold") return 6
+	                                else if (d.Medal == "Silver") return 4
+									else if (d.Medal == "Bronze") return 3})      											
+		.on("mouseover",  function (d) {div.transition()        
+                .duration(50)      
+               .style("opacity",0.9 );
+             div.html(d.Name+"<br/>"+"Event:" +d.Event+ "<br/>" +"Rank:"+d.Rank)  
+                .style("left", (d3.event.pageX+25) + "px")     
+                .style("top", (d3.event.pageY - 28) + "px");    
+            })                  
+        .on("mouseout", function(d) {       
+            div.transition()        
+                .duration(100)      
+                .style("opacity", 0);})
+				
+				
+	  
+	
+	///Force	
+	force.start();
+	
+	function tick(e) {
+    node.each(moveTowardDataPosition(e.alpha));
+
+    node.each(collide(e.alpha));
+
+    node.attr("cx", function(d) { return d.x; })
+        .attr("cy", function(d) { return d.y; });
+  }
+
+  
+  function moveTowardDataPosition(alpha) {
+    return function(d) {
+      d.x += (x(d.Year) - d.x) * 0.1 * alpha;
+      d.y += (y(d.Rank) - d.y) * 0.1 * alpha;
+    };
+  }
+ // Resolve collisions between nodes.
+ var radius =8,
+     padding =0.1;
+  function collide(alpha) {
+    var quadtree = d3.geom.quadtree(data);
+    return function(d) {
+      var r = 8 + 8+ padding,
+          nx1 = d.x - r,
+          nx2 = d.x + r,
+          ny1 = d.y - r,
+          ny2 = d.y + r;
+      quadtree.visit(function(quad, x1, y1, x2, y2) {
+        if (quad.point && (quad.point !== d)) {
+          var x = d.x - quad.point.x,
+              y = d.y - quad.point.y,
+              l = Math.sqrt(x * x + y * y),
+              r = 8 + 8 + padding;
+          if (l < r) {
+            l = (l - r) / l * alpha;
+            d.x -= x *= l;
+            d.y -= y *= l;
+            quad.point.x += x;
+            quad.point.y += y;
+          }
+        }
+        return x1 > nx2 || x2 < nx1 || y1 > ny2 || y2 < ny1;
+      });
+    };
+  }
+
+});
+}
+
+</script>
+</body>
+</html>
