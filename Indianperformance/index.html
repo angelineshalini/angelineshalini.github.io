@@ -201,7 +201,8 @@ note.append("text").text("www.rio2016.com").style("font-weight","normal")
 function drawgraph(){	
 d3.tsv("data.tsv", function(error, data) {
   if (error) throw error;
- data = data.filter(function(d){return d.Sport == "Badminton" && d.Gender =="F" });
+// data = data.filter(function(d){return d.Sport == "Badminton" && d.Gender =="F" });
+ 
 
  color.domain(data.map(function(d) { return d.Year; }));
  
@@ -209,7 +210,9 @@ d3.tsv("data.tsv", function(error, data) {
   
     d.Rank = +d.Rank;
   });
-  
+ 
+data = data.filter(function(d){return d.Rank < 30 });
+ 
    var force = d3.layout.force()
     .nodes(data)
     .size([width, height])
@@ -235,7 +238,15 @@ d3.tsv("data.tsv", function(error, data) {
    //   .attr("y", -6)
    //   .style("text-anchor", "end")
    //   .text("Weight (kg)");
-	  
+	
+	svg.append("text").attr("class", "label").attr("x", x("2016")-10).attr("y", height +36) .text("Rio");
+	svg.append("text").attr("class", "label").attr("x", x("2012")-22).attr("y", height +36) .text("London");
+	svg.append("text").attr("class", "label").attr("x", x("2008")-22).attr("y", height +36) .text("Beijing");
+	svg.append("text").attr("class", "label").attr("x", x("2004")-20).attr("y", height +36) .text("Athens");
+	svg.append("text").attr("class", "label").attr("x", x("2000")-22).attr("y", height +36) .text("Sydney");
+	svg.append("text").attr("class", "label").attr("x", x("1996")-22).attr("y", height +36) .text("Atlanta");
+
+	
 	  
 	  svg.append("g")
       .attr("class", "y axis")
