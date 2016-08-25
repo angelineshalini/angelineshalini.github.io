@@ -1,5 +1,5 @@
 {
-"Men": ["Archery","Athletics","Badminton","Boxing","Hockey","Judo","Rowing","Shooting","Swimming","Table tennis","Tennis","Weightlifting","Wrestling"],
-"Women": ["Archery","Badminton","Boxing","Judo","Shooting","Swimming","Table tennis","Tennis","Weightlifting","Wrestling"],
-"Both": ["Archery","Athletics","Badminton","Boxing","Hockey","Judo","Rowing","Shooting","Swimming","Table tennis","Tennis","Weightlifting","Wrestling"]
+"Men": ["All Sports","Archery","Athletics","Badminton","Boxing","Golf","Hockey","Judo","Rowing","Shooting","Swimming","Table tennis","Tennis","Weightlifting","Wrestling"],
+"Women": ["All Sports","Archery","Athletics","Badminton","Boxing","Golf","Judo","Shooting","Swimming","Table tennis","Tennis","Weightlifting","Wrestling"],
+"Both": ["All Sports","Archery","Athletics","Badminton","Boxing","Golf","Hockey","Judo","Rowing","Shooting","Swimming","Table tennis","Tennis","Weightlifting","Wrestling"]
 }

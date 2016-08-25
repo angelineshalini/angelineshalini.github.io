@@ -70,14 +70,18 @@ div.tooltip {
 <form name="info" align = "center">
 <tr><td><FONT COLOR="#4682B4"></td><td><select style="color:#4682B4" name ="gender" id ="gender">
 <option value="Men" >Men</option>
-<option value="Women"  selected>Women</option>
-<option value="Both" >Both</option></select></td></tr>
+<option value="Women"  >Women</option>
+<option value="Both" selected>Both</option></select></td></tr>
 
-<tr>
+
+
+<tr><br><br>
 
 <td><select name="sport" id="sport" onchange = "updategraph();">
+<option value="All Sports" selected>All Sports</option>
 <option value="Archery" >Archery</option>
-<option value="Badminton"selected>Badminton</option>
+<option value="Athletics" >Athletics</option>
+<option value="Badminton">Badminton</option>
 <option value="Boxing">Boxing</option>
 <option value="Judo">Judo</option>
 <option value="Shooting">Shooting</option>
@@ -136,7 +140,7 @@ var div = d3.select("body").append("div")
 		 
 var margin = {top: 20, right: 20, bottom: 30, left: 40},
     width = 1100 - margin.left - margin.right,
-    height = 450- margin.top - margin.bottom;
+    height = 400- margin.top - margin.bottom;
 
 var x = d3.scale.ordinal().domain(["","1996","2000","2004","2008","2012","2016"," "]) 
     .rangePoints([0, width]);
@@ -182,8 +186,9 @@ var note = 	d3.select("body").append("text")
         .style("font-size", "90%") 		
 	    .text("Notes: ")
 note.append("br");
-
-note.append("text").text("Collison detection technique from d3 was used to position overlapping circles.").style("font-weight","normal");
+note.append("text").text("1.Ring around a circle indicates medal.")
+note.append("br");
+note.append("text").text("2.Collison detection technique from d3 was used to position overlapping circles.").style("font-weight","normal");
 note.append("br");
 note.append("text").text("Data Source:").style("font-weight","normal");
 note.append("text").text("www.rio2016.com").style("font-weight","normal")
@@ -211,15 +216,8 @@ d3.tsv("data.tsv", function(error, data) {
     d.Rank = +d.Rank;
   });
  
-data = data.filter(function(d){return d.Rank < 30 });
- 
-   var force = d3.layout.force()
-    .nodes(data)
-    .size([width, height])
-    .on("tick", tick)
-    .charge(-1)
-    .gravity(0)
-    .chargeDistance(20);
+data = data.filter(function(d){return d.Rank < 35 });
+  
   
   
   y.domain(d3.extent(data, function(d) { return d.Rank; }));
@@ -259,7 +257,7 @@ data = data.filter(function(d){return d.Rank < 30 });
       .style("text-anchor", "end")
       .text("Rank")
 	  
-	 
+
 	  
 	  var node = svg.selectAll(".dot")
       .data(data)
@@ -269,18 +267,20 @@ data = data.filter(function(d){return d.Rank < 30 });
       .attr("cx", function(d) { return x(d.Year); })
       .attr("cy", function(d) { return y(d.Rank); })
 	  .style("fill", function(d) {return color(d.Year); }) 
-.style("stroke",function(d){ if (d.Medal == "Gold") return "black"
-	                                else if (d.Medal == "Silver") return "black"
-									else if (d.Medal == "Bronze") return "black"})
-  .style("stroke-width",function(d){ if (d.Medal == "Gold") return 6
-	                                else if (d.Medal == "Silver") return 4
-									else if (d.Medal == "Bronze") return 3})      											
-		.on("mouseover",  function (d) {div.transition()        
+.style("stroke",function(d){ if (d.Medal != "") return "black"})
+  .style("stroke-width",function(d){ if (d.Medal != "") return 2})      											
+		.on("mouseover",  function (d) { if (d.Medal == "") {div.transition()        
                 .duration(50)      
                .style("opacity",0.9 );
-             div.html(d.Name+"<br/>"+"Event:" +d.Event+ "<br/>" +"Rank:"+d.Rank)  
+            {div.html(d.Name+"<br/>"+"Sport:" +d.Sport+ "<br/>"+"Event:" +d.Event+ "<br/>" +"Rank:"+d.Rank)  
                 .style("left", (d3.event.pageX+25) + "px")     
-                .style("top", (d3.event.pageY - 28) + "px");    
+                .style("top", (d3.event.pageY - 28) + "px"); }}
+             else {div.transition()        
+                .duration(50)      
+               .style("opacity",0.9 );
+            {div.html(d.Name+"<br/>"+"Sport:" +d.Sport+ "<br/>"+"Event:" +d.Event+ "<br/>"+"Medal:" +d.Medal)  
+                .style("left", (d3.event.pageX+25) + "px")     
+                .style("top", (d3.event.pageY - 28) + "px"); }}				
             })                  
         .on("mouseout", function(d) {       
             div.transition()        
@@ -289,6 +289,14 @@ data = data.filter(function(d){return d.Rank < 30 });
 				
 	
 ///Force	
+	  var force = d3.layout.force()
+    .nodes(data)
+    .size([width, height])
+    .on("tick", tick)
+    .charge(-1)
+    .gravity(0)
+    .chargeDistance(20);
+	
 	force.start();
 	
 	function tick(e) {
@@ -359,9 +367,12 @@ var  e = document.getElementById("gender");
   sportselected = f.options[f.selectedIndex].value;
 
 
-  if (genderselected== "Both") {data = data.filter(function(d){return d.Sport == sportselected});}
-  else if(genderselected== "Men")  {data = data.filter(function(d){return d.Gender =="M" && d.Sport == sportselected});}
-  else if(genderselected== "Women")  {data = data.filter(function(d){return d.Gender =="F" && d.Sport == sportselected});}
+  if (genderselected== "Both") {}
+  else if(genderselected== "Men")  {data = data.filter(function(d){return d.Gender =="M"});}
+  else if(genderselected== "Women")  {data = data.filter(function(d){return d.Gender =="F" });}
+  //else if(genderselected== "Women")  {data = data.filter(function(d){return d.Gender =="F" && d.Sport == sportselected});}
+  
+  if (sportselected != "All Sports") {data = data.filter(function(d){return d.Sport == sportselected});}
 
   data.forEach(function(d) {
     d.Rank = +d.Rank;
@@ -384,13 +395,7 @@ var  e = document.getElementById("gender");
 	  
 	  svg.selectAll("circle").remove();
 
- var force = d3.layout.force()
-    .nodes(data)
-    .size([width, height])
-    .on("tick", tick)
-    .charge(-1)
-    .gravity(0)
-    .chargeDistance(20);
+
 	
  var node = svg.selectAll(".dot")
       .data(data)
@@ -400,18 +405,20 @@ var  e = document.getElementById("gender");
       .attr("cx", function(d) { return x(d.Year); })
       .attr("cy", function(d) { return y(d.Rank); })
 	  .style("fill", function(d) {return color(d.Year); }) 
-.style("stroke",function(d){ if (d.Medal == "Gold") return "black"
-	                                else if (d.Medal == "Silver") return "black"
-									else if (d.Medal == "Bronze") return "black"})
-  .style("stroke-width",function(d){ if (d.Medal == "Gold") return 6
-	                                else if (d.Medal == "Silver") return 4
-									else if (d.Medal == "Bronze") return 3})      											
-		.on("mouseover",  function (d) {div.transition()        
+.style("stroke",function(d){ if (d.Medal != "") return "black"})
+  .style("stroke-width",function(d){ if (d.Medal != "") return 2})      											
+		.on("mouseover",  function (d) { if (d.Medal == "") {div.transition()        
                 .duration(50)      
                .style("opacity",0.9 );
-             div.html(d.Name+"<br/>"+"Event:" +d.Event+ "<br/>" +"Rank:"+d.Rank)  
+            {div.html(d.Name+"<br/>"+"Sport:" +d.Sport+ "<br/>"+"Event:" +d.Event+ "<br/>" +"Rank:"+d.Rank)  
                 .style("left", (d3.event.pageX+25) + "px")     
-                .style("top", (d3.event.pageY - 28) + "px");    
+                .style("top", (d3.event.pageY - 28) + "px"); }}
+             else {div.transition()        
+                .duration(50)      
+               .style("opacity",0.9 );
+            {div.html(d.Name+"<br/>"+"Sport:" +d.Sport+ "<br/>"+"Event:" +d.Event+ "<br/>"+"Medal:" +d.Medal)  
+                .style("left", (d3.event.pageX+25) + "px")     
+                .style("top", (d3.event.pageY - 28) + "px"); }}				
             })                  
         .on("mouseout", function(d) {       
             div.transition()        
@@ -420,7 +427,13 @@ var  e = document.getElementById("gender");
 				
 				
 	  
-	
+ var force = d3.layout.force()
+    .nodes(data)
+    .size([width, height])
+    .on("tick", tick)
+    .charge(-1)
+    .gravity(0)
+    .chargeDistance(20);	
 	///Force	
 	force.start();
 	
