@@ -70,15 +70,13 @@ div.tooltip {
 <br>
 
 <form name="info" align = "center">
-<tr><td><FONT COLOR="#4682B4"></td><td><select style="color:#4682B4" name ="gender" id ="gender">
-<option value="Men" >Men</option>
-<option value="Women"  >Women</option>
-<option value="Both" selected>Both</option></select></td></tr>
 
 <tr><td>
-<button value="Men" onclick="handler(value)" ) >Men</button>
-<button value="Women" onclick="handler(value)"  ) >Women</button>
-<button value="Both" onclick="handler(value)"  ) >Both</button></td></tr>
+<input type ="button" value="Both" id = "button3" >
+<input type ="button" value="Men" id = "button1" >
+<input type ="button" value="Women" id = "button2"  ></td></tr>
+
+
 
 
 
@@ -105,13 +103,16 @@ div.tooltip {
 <script>
 
 
+var valuez =0;
 
-function handler (value){
 
+    d3.select("#button1").on("click",function(){
+       
 
 				$.getJSON("data.json", function(dataj) {
 
-					var key = value;
+					var key = "Men";
+					valuez = key;
 					var vals = [];
 
 					switch(key) {
@@ -128,16 +129,88 @@ function handler (value){
 						
 					}
 					var $jsontwo = $("#sport");
+					var oldvalue = $("#sport").val();
 					$jsontwo.empty();
 					$.each(vals, function(index, value) {
 						$jsontwo.append("<option>" + value + "</option>");
 					})
+					 var check = $.inArray (oldvalue,vals)
+					 if (check !=-1){$("#sport").val(oldvalue)}
 					updategraph();
 					
 					})
 
-};
+});
+  d3.select("#button2").on("click",function(){
 
+
+				$.getJSON("data.json", function(dataj) {
+
+					var key = "Women";
+					valuez = key;
+					var vals = [];
+
+					switch(key) {
+						case 'Men':
+							vals = dataj.Men;
+							break;
+						case 'Women':
+							vals = dataj.Women;
+							break;
+							
+					case 'Both':
+							vals = dataj.Women;
+							break;
+						
+					}
+					var $jsontwo = $("#sport");
+					var oldvalue = $("#sport").val();
+					$jsontwo.empty();
+					$.each(vals, function(index, value) {
+						$jsontwo.append("<option>" + value + "</option>");
+					})
+					 var check = $.inArray (oldvalue,vals)
+					 if (check !=-1){$("#sport").val(oldvalue)}
+					updategraph();
+					
+					})
+
+});
+  d3.select("#button3").on("click",function(){
+
+
+				$.getJSON("data.json", function(dataj) {
+
+					var key = "Both";
+					valuez = key;
+					var vals = [];
+
+					switch(key) {
+						case 'Men':
+							vals = dataj.Men;
+							break;
+						case 'Women':
+							vals = dataj.Women;
+							break;
+							
+					case 'Both':
+							vals = dataj.Women;
+							break;
+						
+					}
+					var $jsontwo = $("#sport");
+					var oldvalue = $("#sport").val();
+					$jsontwo.empty();
+					$.each(vals, function(index, value) {
+						$jsontwo.append("<option>" + value + "</option>");
+					})
+					 var check = $.inArray (oldvalue,vals)
+					 if (check !=-1){$("#sport").val(oldvalue)}
+					updategraph();
+					
+					})
+
+});
 
 
 // For Tooltip
@@ -368,8 +441,8 @@ d3.tsv("data.tsv", function(error, data) {
   if (error) throw error;
  
 
-var  e = document.getElementById("gender");
-  var genderselected = e.options[e.selectedIndex].value;
+
+  var genderselected = valuez;
 
     
   var f = document.getElementById("sport");

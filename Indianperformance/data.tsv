@@ -1,11 +1,4 @@
 Name	Gender	Year	Sport	Event	Rank	Medal
-Sushil Kumar	M	2008	Wrestling	Welterweight freestyle	3	Bronze
-Yogeshwar Dutt	M	2012	Wrestling	Lightweight freestyle	3	Bronze
-Sushil Kumar	M	2012	Wrestling	Welterweight freestyle	2	Silver
-Mary Kom	F	2012	Boxing	Flyweight	3	Bronze
-Saina Nehwal	F	2012	Badminton	Singles	3	Bronze
-Vijay Kumar	M	2012	Shooting	Rapid-fire pistol, 25 metre	2	Silver
-Gagan Narang	M	2012	Shooting	Air rifle, 10 metre	3	Bronze
 Chain Singh	M	2016	Shooting	Small-bore rifle, three positions, 50 metre	23	
 Gagan Narang	M	2016	Shooting	Small-bore rifle, three positions, 50 metre	33	
 Gagan Narang	M	2016	Shooting	Small-bore rifle, prone, 50 metre	13	
@@ -25,6 +18,8 @@ Ayonika Paul* (A 4)	F	2016	Shooting	Air rifle, 10 metre	47
 Heena Sindu	F	2016	Shooting	Pistol, 25 metre	20	
 Heena Sindu	F	2016	Shooting	Air pistol, 10 metre	14	
 Vijay Kumar	M	2012	Shooting	Air pistol, 10 metre	31	
+Vijay Kumar	M	2012	Shooting	Rapid-fire pistol, 25 metre	2	Silver
+Gagan Narang	M	2012	Shooting	Air rifle, 10 metre	3	Bronze
 Abhinav Bindra	M	2012	Shooting	Air rifle, 10 metre	16	
 Gagan Narang	M	2012	Shooting	Small-bore rifle, three positions, 50 metre	20	
 Sanjeev Rajput	M	2012	Shooting	Small-bore rifle, three positions, 50 metre	26	
@@ -112,6 +107,7 @@ Manoj Kumar	M	2012	Boxing	Light welterweight	9
 Vikas Krishan Yadav	M	2012	Boxing	Welterweight	9	
 Vijender Singh	M	2012	Boxing	Middleweight	5	
 Sumit Sangwan	M	2012	Boxing	Light heavyweight	17	
+Mary Kom	F	2012	Boxing	Flyweight	3	Bronze
 Jitender Kumar	M	2008	Boxing	Flyweight	5	
 Akhil Kumar	M	2008	Boxing	Bantamweight	5	
 Anthresh Lakra	M	2008	Boxing	Featherweight	17	
@@ -127,6 +123,7 @@ Lakha Singh	M	1996	Boxing	Heavyweight	17
 Parupalli Kashyap	M	2012	Badminton	Singles	5	
 V Diju	M	2012	Badminton	Mixed doubles	13	
 Jwala Gutta	F	2012	Badminton	Mixed doubles	13	
+Saina Nehwal	F	2012	Badminton	Singles	3	Bronze
 Jwala Gutta	F	2012	Badminton	Doubles	8	
 Ashwini Ponnappa	F	2012	Badminton	Doubles	8	
 Anup Sridhar	M	2008	Badminton	Singles	17	
@@ -136,6 +133,31 @@ Abhinn Shyam Gupta	M	2004	Badminton	Singles	17
 Aparna Popat	F	2004	Badminton	Singles	9	
 Deepankar Bhattacharya	M	1996	Badminton	Singles	17	
 Varalakshimi Pandimukkala Venkata	F	1996	Badminton	Singles	17	
+Mahesh Bhupathi	M	2012	Tennis	Doubles	9	
+Rohan Bopanna	M	2012	Tennis	Doubles	9	
+Leander Paes	M	2012	Tennis	Doubles	9	
+Jagadeesan Vishnuvardhan	M	2012	Tennis	Doubles	9	
+Jagadeesan Vishnuvardhan	M	2012	Tennis	Singles	33	
+Somdev Devvarman	M	2012	Tennis	Singles	33	
+Leander Paes	M	2012	Tennis	Mixed doubles	5	
+Sania Mirza	F	2012	Tennis	Mixed doubles	5	
+Rushmi Chakravarthi	F	2012	Tennis	Doubles	17	
+Sania Mirza	F	2012	Tennis	Doubles	17	
+Mahesh Bhupathi	M	2008	Tennis	Doubles	5	
+Leander Paes	M	2008	Tennis	Doubles	5	
+Sania Mirza	F	2008	Tennis	Singles	33	
+Sania Mirza	F	2008	Tennis	Doubles	9	
+Sunitha Rao	F	2008	Tennis	Doubles	9	
+Mahesh Bhupathi	M	2004	Tennis	Doubles	4	
+Leander Paes	M	2004	Tennis	Doubles	4	
+Mahesh Bhupathi	M	2000	Tennis	Doubles	9	
+Leander Paes	M	2000	Tennis	Doubles	9	
+Leander Paes	M	2000	Tennis	Singles	33	
+Manisha Malhotra	F	2000	Tennis	Doubles	17	
+Nirupama Vaidyanathan	F	2000	Tennis	Doubles	17	
+Mahesh Bhupathi	M	1996	Tennis	Doubles	9	
+Leander Paes	M	1996	Tennis	Doubles	9	
+Leander Paes	M	1996	Tennis	Singles	3	Bronze
 Soumyajit Ghosh	M	2012	Table tennis	Singles	33	
 Ankita Das	F	2012	Table tennis	Singles	49	
 Sharath Kamal Achanta	M	2008	Table tennis	Singles	33	
@@ -149,9 +171,12 @@ Poulomi Ghatak	F	2000	Table tennis	Singles	49
 Chetan Baboor	M	1996	Table tennis	Singles	49	
 Ambika Radhika	F	1996	Table tennis	Singles	49	
 Amit Kumar	M	2012	Wrestling	Featherweight freestyle	10	
+Yogeshwar Dutt	M	2012	Wrestling	Lightweight freestyle	3	Bronze
+Sushil Kumar	M	2012	Wrestling	Welterweight freestyle	2	Silver
 Narsingh Pancham Yadav	M	2012	Wrestling	Middleweight freestyle	13	
 Geeta Phogat	F	2012	Wrestling	Lightweight freestyle	13	
 Yogeshwar Dutt	M	2008	Wrestling	Lightweight freestyle	9	
+Sushil Kumar	M	2008	Wrestling	Welterweight freestyle	3	Bronze
 Rajiv Tomer	M	2008	Wrestling	Super-heavyweight freestyle	17	
 Ramesh Kumar	M	2004	Wrestling	Welterweight freestyle	10	
 Mukesh Khatri	M	2004	Wrestling	Featherweight Greco-Roman	21	
@@ -184,6 +209,20 @@ Lourembam Brojeshori Devi	F	2000	Judo	Half-lightweight	9
 Sunith Thakur	F	1996	Judo	Half-lightweight	14	
 Shah Kohli	F	1996	Judo	Heavyweight	13	
 Najib Aga	M	1996	Judo	Half-lightweight	13	
+Gagan Ullalmath	M	2012	Swimming	Freestyle 1500 metre	31	
+Virdhawal Khade	M	2008	Swimming	Freestyle 50 metre	40	
+Virdhawal Khade	M	2008	Swimming	Freestyle 100 metre	42	
+Virdhawal Khade	M	2008	Swimming	Freestyle 200 metre	48	
+Sandeep Sejwal	M	2008	Swimming	Breaststroke 100 metre	38	
+Sandeep Sejwal	M	2008	Swimming	Breaststroke 200 metre	36	
+Ankur Poseria	M	2008	Swimming	Butterfly 100 metre	57	
+Rehan Poncha	M	2008	Swimming	Butterfly 200 metre	40	
+Shikha Tandon	F	2004	Swimming	Freestyle 50 metre	40	
+Shikha Tandon	F	2004	Swimming	Freestyle 100 metre	46	
+Hakimuddin Shabbir Habibulla	M	2000	Swimming	Freestyle 200 metre	50	
+Nisha Millet	F	2000	Swimming	Freestyle 200 metre	37	
+Sebastian Xavier	M	1996	Swimming	Freestyle 50 metre	49	
+Sangeeta Puri	F	1996	Swimming	Freestyle 50 metre	48	
 Bahadur Prasad	M	1996	Athletics	1500 metre	40	
 Shakti Singh	M	1996	Athletics	Discus throw	30	
 KM Beenamol	F	1996	Athletics	4 X 400 metre relay	14	
@@ -216,35 +255,35 @@ Neelam Jaswant Singh Dogra	F	2000	Athletics	Discus throw	26
 Gurmeet Kaur	F	2000	Athletics	Javelin throw	32	
 Prameela Ganapathy	F	2000	Athletics	Heptathlon	24	
 Soma Biswas	F	2000	Athletics	Heptathlon	25	
-Mathews Binu	M	2004	Athletics	400 metre	25	
-Bahadur Singh	M	2004	Athletics	Shot put	25	
-Vikas Gowda	M	2004	Athletics	Discus throw	25	
-Anil Kumar Sangwan	M	2004	Athletics	Discus throw	25	
-Saraswati Dey-Saha	F	2004	Athletics	200 metre	25	
+Mathews Binu	M	2004	Athletics	400 metre	14	
+Bahadur Singh	M	2004	Athletics	Shot put	38	
+Vikas Gowda	M	2004	Athletics	Discus throw	14	
+Anil Kumar Sangwan	M	2004	Athletics	Discus throw	36	
+Saraswati Dey-Saha	F	2004	Athletics	200 metre	65	
 Sathi Geetha	F	2004	Athletics	4 X 400 metre relay	7	
 KM Beenamol	F	2004	Athletics	4 X 400 metre relay	7	
 Chitra Soman	F	2004	Athletics	4 X 400 metre relay	7	
 Rajwinder Kaur	F	2004	Athletics	4 X 400 metre relay	7	
-Manjit Kaur	F	2004	Athletics	4 X 400 metre relay	25	
-Bobby Aloysius	F	2004	Athletics	High jump	25	
+Manjit Kaur	F	2004	Athletics	4 X 400 metre relay	7	
+Bobby Aloysius	F	2004	Athletics	High jump	28	
 Anju Bobby George	F	2004	Athletics	Long jump	5	
-Harwant Kaur	F	2004	Athletics	Discus throw	25	
-Seema Antil	F	2004	Athletics	Discus throw	25	
-Neelam Jaswant Singh Dogra	F	2004	Athletics	Discus throw	25	
+Harwant Kaur	F	2004	Athletics	Discus throw	12	
+Seema Antil	F	2004	Athletics	Discus throw	13	
+Neelam Jaswant Singh Dogra	F	2004	Athletics	Discus throw	16	
 JJ Shobha	F	2004	Athletics	Heptathlon	11	
 Soma Biswas	F	2004	Athletics	Heptathlon	24	
 Surendra Singh	M	2008	Athletics	10000 metre	26	
-Renjith Maheshwary	M	2008	Athletics	Triple jump	25	
-Vikas Gowda	M	2008	Athletics	Discus throw	25	
-Mandeep Kaur	F	2008	Athletics	400 metre	25	
+Renjith Maheshwary	M	2008	Athletics	Triple jump	35	
+Vikas Gowda	M	2008	Athletics	Discus throw	22	
+Mandeep Kaur	F	2008	Athletics	400 metre	36	
 Preeja Sreedharan	F	2008	Athletics	10000 metre	25	
-Sathi Geetha	F	2008	Athletics	4 X 400 metre relay	25	
-Manjit Kaur	F	2008	Athletics	4 X 400 metre relay	25	
-Chitra Soman	F	2008	Athletics	4 X 400 metre relay	25	
-Mandeep Kaur	F	2008	Athletics	4 X 400 metre relay	25	
-Anju Bobby George	F	2008	Athletics	Long jump	25	
-Krishna Poonia	F	2008	Athletics	Discus throw	25	
-Harwant Kaur	F	2008	Athletics	Discus throw	25	
+Sathi Geetha	F	2008	Athletics	4 X 400 metre relay	13	
+Manjit Kaur	F	2008	Athletics	4 X 400 metre relay	13	
+Chitra Soman	F	2008	Athletics	4 X 400 metre relay	13	
+Mandeep Kaur	F	2008	Athletics	4 X 400 metre relay	13	
+Anju Bobby George	F	2008	Athletics	Long jump	40	
+Krishna Poonia	F	2008	Athletics	Discus throw	24	
+Harwant Kaur	F	2008	Athletics	Discus throw	30	
 Prameela Ganapathy	F	2008	Athletics	Heptathlon	27	
 JJ Shobha	F	2008	Athletics	Heptathlon	29	
 Sushmitha Singha Roy	F	2008	Athletics	Heptathlon	32	
@@ -252,12 +291,12 @@ Irfan Kolothum Thodi	M	2012	Athletics	20 km walk	10
 Gurmeet Singh	M	2012	Athletics	20 km walk	33	
 Baljinder Singh	M	2012	Athletics	20 km walk	43	
 Basant Bahadur Rana	M	2012	Athletics	50 km walk	35	
-Renjith Maheshwary	M	2012	Athletics	Triple jump	25	
-Om Prakash Singh Karhana	M	2012	Athletics	Shot put	25	
+Renjith Maheshwary	M	2012	Athletics	Triple jump	27	
+Om Prakash Singh Karhana	M	2012	Athletics	Shot put	18	
 Vikas Gowda	M	2012	Athletics	Discus throw	8	
-Tintu Luka	F	2012	Athletics	800 metre	25	
-Sudha Singh	F	2012	Athletics	3000 metre steeplechase	25	
-Sahana Kumari	F	2012	Athletics	High jump	25	
+Tintu Luka	F	2012	Athletics	800 metre	14	
+Sudha Singh	F	2012	Athletics	3000 metre steeplechase	37	
+Sahana Kumari	F	2012	Athletics	High jump	22	
 Mayookha Johny	F	2012	Athletics	Triple jump	22	
 Krishna Poonia	F	2012	Athletics	Discus throw	7	
 Seema Antil	F	2012	Athletics	Discus throw	13	
@@ -268,8 +307,8 @@ Bajrang Takhar	M	2008	Rowing	Single sculls	21
 Devender Khandwal	M	2008	Rowing	Lightweight double sculls	18	
 Manjit Singh	M	2008	Rowing	Lightweight double sculls	18	
 Paulose Pandari Kunnel	M	2004	Rowing	Single sculls	29	
-Kasam Khan	M	2000	Rowing	Coxless pairs	25	
-Inderpal Singh	M	2000	Rowing	Coxless pairs	25	
+Kasam Khan	M	2000	Rowing	Coxless pairs	15	
+Inderpal Singh	M	2000	Rowing	Coxless pairs	15	
 Laxmirani Majhi	F	2016	Archery	Team	6	
 Bombayla Devi Laishram	F	2016	Archery	Team	6	
 Deepika Kumari	F	2016	Archery	Team	6	
@@ -315,7 +354,23 @@ Lalita Babar	F	2016	Athletics	3000 metre steeplechases	10
 Sudha Singh	F	2016	Athletics	3000 metre steeplechases	30	
 Manpreet Kaur	F	2016	Athletics	Shot put	13	
 Seema Punia	F	2016	Athletics	Discus throw	9	
-Lalita Babar	F	2016	Athletics	3000 metre steeplechases	10	
-Sudha Singh	F	2016	Athletics	3000 metre steeplechases	30	
-Manpreet Kaur	F	2016	Athletics	Shot put	13	
-Seema Punia	F	2016	Athletics	Discus throw	9	
+Dipa Karmakar	F	2016	Gymnastics	Vault	4	
+Dipa Karmakar	F	2016	Gymnastics	Uneven bars	77	
+Dipa Karmakar	F	2016	Gymnastics	Balance beam	65	
+Dipa Karmakar	F	2016	Gymnastics	Floor exercise	75	
+Dattu Baban Bhokanal	M	2016	Rowing	Men's single sculls	13	
+Shiva Thapa	M	2016	Boxing	Men's bantam weight	17	
+Manoj Kumar	M	2016	Boxing	Men's light welter weight	9	
+Vikas Krishan Yadav	M	2016	Boxing	Men's middle weight	5	
+Sharath Kamal Achanta	M	2016	Table tennis	Men's Singles	65	
+Soumyajit Ghosh	M	2016	Table tennis	Men's Singles	65	
+Manika Batra	F	2016	Table tennis	Women's Singles	65	
+Mouma Das	F	2016	Table tennis	Women's Singles	65	
+Rohan Bopanna	M	2016	Tennis	Men's doubles	17	
+Leander Paes	M	2016	Tennis	Men's doubles	17	
+Sania Mirza	F	2016	Tennis	Women's doubles	17	
+Prarthana Thombare	F	2016	Tennis	Women's doubles	17	
+Sania Mirza	F	2016	Tennis	Mixed doubles	4	
+Rohan Bopanna	M	2016	Tennis	Mixed doubles	4	
+Sajan Prakash	M	2016	Swimming	Men's 200 m butterfly	28	
+Shivani Kataria	F	2016	Swimming	Women's 200 m freestyle	41	

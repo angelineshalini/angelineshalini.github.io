@@ -7,7 +7,9 @@
 body {
   font-size:3vw;;
 }
-
+.label{font-weight:bold}
+.svg text{font-weight:bold}
+.x.axis{font-weight:bold}
 .svg-container {
     display: inline-block;
     position: relative;
@@ -26,24 +28,25 @@ body {
   font-family: sans-serif;
   font-size: 10px;
 }
-
 div.tooltip {   
   position: absolute;           
   text-align: center;           
-  width: 13%;                  
-  height: 17%;                 
+  width: 120px;                  
+  height: 80px;                 
   padding: 2px;             
-  font-size: 1.5vw; 
+  font: 12px sans-serif;   
   background: lightsteelblue;   
   border: 0px;      
   border-radius: 8px;           
-  pointer-events: none;  
-  z-index: 13;  
+  pointer-events: none; 
+  z-index :13;  
 }
+
 .axis path,
 .axis line {
   fill: none;
   stroke: #000;
+  stroke-width: 1.5px;
   shape-rendering: crispEdges;
 }
 
@@ -68,10 +71,11 @@ div.tooltip {
 
 
 <form name="info" align = "center">
-<tr><td><FONT COLOR="#4682B4"></td><td><select style="color:#4682B4" name ="gender" id ="gender">
-<option value="Men" >Men</option>
-<option value="Women"  >Women</option>
-<option value="Both" selected>Both</option></select></td></tr>
+
+<tr><td>
+<input type ="button" value="Both" id = "button3" >
+<input type ="button" value="Men" id = "button1" >
+<input type ="button" value="Women" id = "button2"  ></td></tr>
 
 
 
@@ -83,9 +87,15 @@ div.tooltip {
 <option value="Athletics" >Athletics</option>
 <option value="Badminton">Badminton</option>
 <option value="Boxing">Boxing</option>
+<option value="Golf">Golf</option>
+<option value="Gymnastics">Gymnastics</option>
+<option value="Hockey">Hockey</option>
 <option value="Judo">Judo</option>
+<option value="Rowing">Rowing</option>
 <option value="Shooting">Shooting</option>
+<option value="Swimming">Shooting</option>
 <option value="Table tennis">Table tennis</option>
+<option value="Tennis">Tennis</option>
 <option value="Weightlifting">Weightlifting</option>
 <option value="Wrestling">Wrestling</option>
 
@@ -95,14 +105,18 @@ div.tooltip {
 
 <script>
 
+var valuez =0;
 
-
-$("#gender").change(function (){
-var $dropdown = $(this);
-
+document.info.button3.focus();
+    d3.select("#button1").on("click",function(){
+document.info.button3.focus(function(){this.blur();});
+document.info.button2.focus(function(){this.blur();});
+document.info.button1.focus();       
+                   
 				$.getJSON("data.json", function(dataj) {
 
-					var key = $dropdown.val();
+					var key = "Men";
+					valuez = key;
 					var vals = [];
 
 					switch(key) {
@@ -119,15 +133,91 @@ var $dropdown = $(this);
 						
 					}
 					var $jsontwo = $("#sport");
+					var oldvalue = $("#sport").val();
 					$jsontwo.empty();
 					$.each(vals, function(index, value) {
 						$jsontwo.append("<option>" + value + "</option>");
 					})
+					 var check = $.inArray (oldvalue,vals)
+					 if (check !=-1){$("#sport").val(oldvalue)}
+					updategraph();
+					document.info.button1.focus();
+					})
+
+});
+  d3.select("#button2").on("click",function(){
+document.info.button3.focus(function(){this.blur();});
+document.info.button1.focus(function(){this.blur();});
+document.info.button2.focus();
+				$.getJSON("data.json", function(dataj) {
+
+					var key = "Women";
+					valuez = key;
+					var vals = [];
+
+					switch(key) {
+						case 'Men':
+							vals = dataj.Men;
+							break;
+						case 'Women':
+							vals = dataj.Women;
+							break;
+							
+					case 'Both':
+							vals = dataj.Women;
+							break;
+						
+					}
+					var $jsontwo = $("#sport");
+					var oldvalue = $("#sport").val();
+					$jsontwo.empty();
+					$.each(vals, function(index, value) {
+						$jsontwo.append("<option>" + value + "</option>");
+					})
+					 var check = $.inArray (oldvalue,vals)
+					 if (check !=-1){$("#sport").val(oldvalue)}
 					updategraph();
 					
 					})
 
 });
+  d3.select("#button3").on("click",function(){
+document.info.button1.focus(function(){this.blur();});
+document.info.button2.focus(function(){this.blur();});
+document.info.button3.focus();
+				$.getJSON("data.json", function(dataj) {
+
+					var key = "Both";
+					valuez = key;
+					var vals = [];
+
+					switch(key) {
+						case 'Men':
+							vals = dataj.Men;
+							break;
+						case 'Women':
+							vals = dataj.Women;
+							break;
+							
+					case 'Both':
+							vals = dataj.Women;
+							break;
+						
+					}
+					var $jsontwo = $("#sport");
+					var oldvalue = $("#sport").val();
+					$jsontwo.empty();
+					$.each(vals, function(index, value) {
+						$jsontwo.append("<option>" + value + "</option>");
+					})
+					 var check = $.inArray (oldvalue,vals)
+					 if (check !=-1){$("#sport").val(oldvalue)}
+					updategraph();
+					
+					})
+
+});
+
 
 
 
@@ -182,7 +272,7 @@ $(window).on("resize", function() {
 var note = 	d3.select("body").append("text")
          .style("font-weight","bold")
        // .style("text-decoration", "underline")  
-        .style("font-size", "90%") 		
+         .style("font-size", "vw") 		//font-size:3vw
 	    .text("Notes: ")
 note.append("br");
 note.append("text").text("1.Ring around a circle indicates medal.").style("font-weight","normal");
@@ -193,7 +283,7 @@ note.append("text").text("3.Disqualified Athletes and those with unclear ranking
 note.append("br");
 note.append("text").text("4.To enable comparison in the visualisation across a large set, four marathon performances where Indian athletes registered high ranks have not been depicted. From 2012, Ram Singh Yadav (rank: 78). From 2016, Nitendra Singh (84), OP Jaisha (89) and Kavita Tungar (120).").style("font-weight","normal");
 note.append("br");
-note.append("text").text("5.Some sports for which 2016 data was unclear (like tennis and swimming) have been excluded. Sports in which India participated in previous Olympics but not in 2016 have also not been considered.").style("font-weight","normal");
+note.append("text").text("5.Rank is shown on an inverted scale to facilitate visual reading of performance").style("font-weight","normal");
 note.append("br");
 note.append("text").text("Data Source:").style("font-weight","normal");
 note.append("text").text("www.sports-reference.com").style("font-weight","normal")
@@ -235,11 +325,11 @@ d3.tsv("data.tsv", function(error, data) {
       .attr("class", "x axis")
       .attr("transform", "translate(0," + height + ")")
       .call(xAxis)
-  //  .append("text")
+  // .append("text")
   //    .attr("class", "label")
    //   .attr("x", width)
    //   .attr("y", -6)
-   //   .style("text-anchor", "end")
+    //.style("font-weight","bold")
    //   .text("Weight (kg)");
 	
 	svg.append("text").attr("class", "label").attr("x", x("2016")-10).attr("y", height +36) .text("Rio");
@@ -278,14 +368,14 @@ d3.tsv("data.tsv", function(error, data) {
                 .duration(50)      
                .style("opacity",0.9 );
             {div.html(d.Name+"<br/>"+"Sport:" +d.Sport+ "<br/>"+"Event:" +d.Event+ "<br/>" +"Rank:"+d.Rank)  
-                .style("left", (d3.event.pageX+25) + "px")     
-                .style("top", (d3.event.pageY - 28) + "px"); }}
+                .style("left", (d3.event.pageX-60) + "px")     
+                .style("top", (d3.event.pageY +25) + "px"); }}
              else {div.transition()        
                 .duration(50)      
                .style("opacity",0.9 );
             {div.html(d.Name+"<br/>"+"Sport:" +d.Sport+ "<br/>"+"Event:" +d.Event+ "<br/>"+"Medal:" +d.Medal)  
-                .style("left", (d3.event.pageX+25) + "px")     
-                .style("top", (d3.event.pageY - 28) + "px"); }}				
+                .style("left", (d3.event.pageX-60) + "px")     
+                .style("top", (d3.event.pageY +25) + "px"); }}				
             })                  
         .on("mouseout", function(d) {       
             div.transition()        
@@ -364,9 +454,7 @@ d3.tsv("data.tsv", function(error, data) {
   if (error) throw error;
  
 
-var  e = document.getElementById("gender");
-  var genderselected = e.options[e.selectedIndex].value;
-
+ var genderselected = valuez;
     
   var f = document.getElementById("sport");
   sportselected = f.options[f.selectedIndex].value;
@@ -416,14 +504,14 @@ var  e = document.getElementById("gender");
                 .duration(50)      
                .style("opacity",0.9 );
             {div.html(d.Name+"<br/>"+"Sport:" +d.Sport+ "<br/>"+"Event:" +d.Event+ "<br/>" +"Rank:"+d.Rank)  
-                .style("left", (d3.event.pageX+25) + "px")     
-                .style("top", (d3.event.pageY - 28) + "px"); }}
+                .style("left", (d3.event.pageX-60) + "px")     
+                .style("top", (d3.event.pageY +25) + "px"); }}
              else {div.transition()        
                 .duration(50)      
                .style("opacity",0.9 );
             {div.html(d.Name+"<br/>"+"Sport:" +d.Sport+ "<br/>"+"Event:" +d.Event+ "<br/>"+"Medal:" +d.Medal)  
-                .style("left", (d3.event.pageX+25) + "px")     
-                .style("top", (d3.event.pageY - 28) + "px"); }}				
+               .style("left", (d3.event.pageX-60) + "px")     
+                .style("top", (d3.event.pageY +25) + "px"); }}
             })                  
         .on("mouseout", function(d) {       
             div.transition()        
