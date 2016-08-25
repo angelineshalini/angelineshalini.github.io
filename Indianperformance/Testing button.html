@@ -1,9 +1,11 @@
+
 <!DOCTYPE html>
 <meta charset="utf-8">
 <style>
 <head>
 
 </head>
+
 body {
   font-size:3vw;;
 }
@@ -62,16 +64,21 @@ div.tooltip {
 
 
 <div id="container" >
-      <h1 id="headline" class="viz-head">Medals aside, did India fare better in Rio?</h1>
+      <h1 id="headline" class="viz-head">Did India Fare better in 2016 Olympics</h1>
          </div>  
     
-
+<br>
 
 <form name="info" align = "center">
 <tr><td><FONT COLOR="#4682B4"></td><td><select style="color:#4682B4" name ="gender" id ="gender">
 <option value="Men" >Men</option>
 <option value="Women"  >Women</option>
 <option value="Both" selected>Both</option></select></td></tr>
+
+<tr><td>
+<button value="Men" onclick="handler(value)" ) >Men</button>
+<button value="Women" onclick="handler(value)"  ) >Women</button>
+<button value="Both" onclick="handler(value)"  ) >Both</button></td></tr>
 
 
 
@@ -85,7 +92,9 @@ div.tooltip {
 <option value="Boxing">Boxing</option>
 <option value="Judo">Judo</option>
 <option value="Shooting">Shooting</option>
+<option value="Swimming">Swimming</option>
 <option value="Table tennis">Table tennis</option>
+<option value="Tennis">Tennis</option>
 <option value="Weightlifting">Weightlifting</option>
 <option value="Wrestling">Wrestling</option>
 
@@ -97,12 +106,12 @@ div.tooltip {
 
 
 
-$("#gender").change(function (){
-var $dropdown = $(this);
+function handler (value){
+
 
 				$.getJSON("data.json", function(dataj) {
 
-					var key = $dropdown.val();
+					var key = value;
 					var vals = [];
 
 					switch(key) {
@@ -127,7 +136,7 @@ var $dropdown = $(this);
 					
 					})
 
-});
+};
 
 
 
@@ -138,7 +147,7 @@ var div = d3.select("body").append("div")
 		 
 var margin = {top: 20, right: 20, bottom: 30, left: 40},
     width = 1100 - margin.left - margin.right,
-    height = 530- 0.2*margin.top -2*margin.bottom;
+    height = 400- margin.top - margin.bottom;
 
 var x = d3.scale.ordinal().domain(["","1996","2000","2004","2008","2012","2016"," "]) 
     .rangePoints([0, width]);
@@ -154,18 +163,17 @@ var xAxis = d3.svg.axis()
 
 var yAxis = d3.svg.axis()
     .scale(y)
-    .orient("left").tickFormat(d3.format("d"));
+    .orient("left");
 	
 var color = d3.scale.category20();
     
 
 var svg = d3.select("body").append("div").attr("id","container").classed("svg-container", true)
      .append("svg")
-           .attr("viewBox","-5 -5 1100 550")
+           .attr("viewBox","-5 -5 1100 750")
 							.attr("preserveAspectRatio", "xMinYMin meet")
 							.classed("svg-content-responsive", true).append("g")
-      .attr("transform", "translate("+2*margin.right+"," + 0.2*margin.top  + ")")
-	  ;
+      .attr("transform", "translate("+2*margin.right+"," +2* margin.top  + ")");
 							; 
 							  
  var aspect = width / height,
@@ -175,7 +183,7 @@ var svg = d3.select("body").append("div").attr("id","container").classed("svg-co
 $(window).on("resize", function() {
     var targetWidth = container.width();
     svg.attr("width", targetWidth);
-    svg.attr("height", height);
+    svg.attr("height", Math.round(targetWidth / aspect));
 }).trigger("resize");
  
  //Notes
@@ -190,8 +198,6 @@ note.append("br");
 note.append("text").text("2.Collison detection technique from d3 was used to position overlapping circles.").style("font-weight","normal");
 note.append("br");
 note.append("text").text("3.Disqualified Athletes and those with unclear rankings were eliminated from the visualisation.").style("font-weight","normal");
-note.append("br");
-note.append("text").text("4.To enable comparison in the visualisation across a large set, four marathon performances where Indian athletes registered high ranks have not been depicted. From 2012, Ram Singh Yadav (rank: 78). From 2016, Nitendra Singh (84), OP Jaisha (89) and Kavita Tungar (120).").style("font-weight","normal");
 note.append("br");
 note.append("text").text("Data Source:").style("font-weight","normal");
 note.append("text").text("www.sports-reference.com").style("font-weight","normal")
@@ -266,7 +272,7 @@ d3.tsv("data.tsv", function(error, data) {
       .data(data)
     .enter().append("circle")
       .attr("class", "dot")
-      .attr("r", 5)
+      .attr("r", 8)
       .attr("cx", function(d) { return x(d.Year); })
       .attr("cy", function(d) { return y(d.Rank); })
 	  .style("fill", function(d) {return color(d.Year); }) 
@@ -319,12 +325,12 @@ d3.tsv("data.tsv", function(error, data) {
     };
   }
  // Resolve collisions between nodes.
- var radius =5,
+ var radius =8,
      padding =0.1;
   function collide(alpha) {
     var quadtree = d3.geom.quadtree(data);
     return function(d) {
-      var r = 5 + 5+ padding,
+      var r = 8 + 8+ padding,
           nx1 = d.x - r,
           nx2 = d.x + r,
           ny1 = d.y - r,
@@ -334,7 +340,7 @@ d3.tsv("data.tsv", function(error, data) {
           var x = d.x - quad.point.x,
               y = d.y - quad.point.y,
               l = Math.sqrt(x * x + y * y),
-              r = 5 + 5 + padding;
+              r = 8 + 8 + padding;
           if (l < r) {
             l = (l - r) / l * alpha;
             d.x -= x *= l;
@@ -404,7 +410,7 @@ var  e = document.getElementById("gender");
       .data(data)
     .enter().append("circle")
       .attr("class", "dot")
-      .attr("r", 5)
+      .attr("r", 8)
       .attr("cx", function(d) { return x(d.Year); })
       .attr("cy", function(d) { return y(d.Rank); })
 	  .style("fill", function(d) {return color(d.Year); }) 
@@ -457,12 +463,12 @@ var  e = document.getElementById("gender");
     };
   }
  // Resolve collisions between nodes.
- var radius =5,
+ var radius =8,
      padding =0.1;
   function collide(alpha) {
     var quadtree = d3.geom.quadtree(data);
     return function(d) {
-      var r = 5 + 5+ padding,
+      var r = 8 + 8+ padding,
           nx1 = d.x - r,
           nx2 = d.x + r,
           ny1 = d.y - r,
@@ -472,7 +478,7 @@ var  e = document.getElementById("gender");
           var x = d.x - quad.point.x,
               y = d.y - quad.point.y,
               l = Math.sqrt(x * x + y * y),
-              r = 5 + 5 + padding;
+              r = 8 + 8 + padding;
           if (l < r) {
             l = (l - r) / l * alpha;
             d.x -= x *= l;
