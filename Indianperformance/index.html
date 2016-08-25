@@ -186,13 +186,15 @@ var note = 	d3.select("body").append("text")
         .style("font-size", "90%") 		
 	    .text("Notes: ")
 note.append("br");
-note.append("text").text("1.Ring around a circle indicates medal.")
+note.append("text").text("1.Ring around a circle indicates medal.").style("font-weight","normal");
 note.append("br");
 note.append("text").text("2.Collison detection technique from d3 was used to position overlapping circles.").style("font-weight","normal");
 note.append("br");
+note.append("text").text("3.Disqualified Athletes and those with unclear rankings were eliminated from the visualisation.").style("font-weight","normal");
+note.append("br");
 note.append("text").text("Data Source:").style("font-weight","normal");
-note.append("text").text("www.rio2016.com").style("font-weight","normal")
-        .style("cursor","pointer")	.on("click", function() { window.open("http://www.rio2016.com"); });;
+note.append("text").text("www.sports-reference.com").style("font-weight","normal")
+        .style("cursor","pointer")	.on("click", function() { window.open(" http://www.sports-reference.com"); });;
 		
 
 
