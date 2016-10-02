@@ -1,0 +1,21 @@
+1. Others - grouping
+2. NS and <1 were removed , outliers
+
+3. Women dying during pregnancy and childbirth
+
+
+4. UP, JAmmu kashmir, Haryana, Gujarat have not reported MCCD for 2013, hence are not on dropdown. 
+
+
+else if (d.key == "External Causes" ) {return x(d.values[3].age)}
+else if (d.key == "SSA" ) {return x(d.values[8].age)}
+else if (d.key == "Nervous" ) {return x(d.values[0].age)+150}
+else if (d.key == "Digestive" ) {return x(d.values[5].age)}
+else if (d.key == "Respiratory" ) {return x(d.values[1].age)}
+else if (d.key == "Neoplasms" ) {return x(d.values[6].age)}
+else if (d.key == "Blood diseases" ) {return x(d.values[1].age)}
+else if (d.key == "Unknown diseases" ) {return x(d.values[1].age)}
+else if (d.key == "Endocrine" ) {return x(d.values[7].age)}
+else if (d.key == "Others" ) {return x(d.values[3].age)}
+
+ 

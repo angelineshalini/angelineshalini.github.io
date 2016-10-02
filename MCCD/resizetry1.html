@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+body {
+  font-family: 'Sorts Mill Goudy';
+  font-style: italic;
+  font-size: 120%;     
+background: url("http://www.sanwebe.com/assets/public/images/background-patterns/bg71.gif" );
+}
+
+.btext { font-family: 'Lato';
+  font-size: 90%;
+width : 30%; padding: 0.7%;     
+ }
+
+.svgtext { font-family: 'Lato';
+  font-size: 110%; }
+  
+ .axis-text 
+  { font-family: 'Lato';
+  font-size: 100%; }
+  
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+  
+}
+
+.axis.x  {stroke-opacity:0}
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+	height:100%;
+    padding-bottom: 3%; /* aspect ratio */
+    vertical-align: top;
+    overflow: hidden;
+}
+.svg-content-responsive {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.button-add {
+    width: 90px;
+    height: 40px;       
+   
+}
+
+</style>
+<body>
+<div>
+<h1  align = "center">What is killing us?</h1>
+<p align = "center" style = "font-style: normal">It is a known fact that heart disease is the biggest killer in India. However did you know that the share of
+Cancer deaths in women is higher than men( 5.7% in women vs 4.7% in men)? Or that the cause for 13 out of every 100 deaths in India is "Unknown"? Select a region or click a layer to know more.</p>
+</div>
+<p  id="menu" align = "center">                                                       
+
+<select id="state" style ="font-size:100%; font-family: Lato;" align = "center"> <optgroup>
+<option>INDIA</option>
+   <option disabled >_________</option>
+<option style = "color: orange">NORTH INDIA</option>
+<option style = "color: blue">SOUTH INDIA</option>
+<option style = "color: purple">WEST INDIA</option>
+<option style = "color: red">EAST INDIA</option>
+<option style = "color: green">NORTH EAST INDIA</option>
+   <option disabled >_________</option>
+<option>ANDAMAN & NICOBAR ISLANDS</option>
+<option>ANDHRA PRADESH</option>
+<option>ARUNACHAL PRADESH</option>
+<option>ASSAM</option>
+<option>BIHAR</option>
+<option>CHANDIGARH</option>
+<option>CHHATISGARH</option>
+<option>D & N HAVELI</option>
+<option>DAMAN & DIU</option>
+<option>DELHI</option>
+<option>GOA</option>
+<option>HIMACHAL PRADESH</option>
+<option>JHARKHAND</option>
+<option>KARNATAKA</option>
+<option>KERALA</option>
+<option>LAKSHADWEEP</option>
+<option>MADHYA PRADESH</option>
+<option>MAHARASHTRA</option>
+<option>MANIPUR</option>
+<option>MEGHALAYA</option>
+<option>MIZORAM</option>
+<option>NAGALAND</option>
+<option>ORISSA</option>
+<option>PUDUCHERRY</option>
+<option>PUNJAB</option>
+<option>RAJASTHAN</option>
+<option>SIKKIM</option>
+<option>TAMIL NADU</option>
+<option>TRIPURA</option>
+<option>UTTARAKHAND</option>
+<option>WEST BENGAL</option></optgroup>
+
+</select>
+
+<form name="info" align = "center">
+
+<tr><td>
+<input class = "btext" type ="button" value="Both" id = "button3" >
+<input class = "btext" type ="button" value="Men" id = "button1"  >
+<input class = "btext" type ="button" value="Women" id = "button2"   ></td></tr>
+
+
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script>
+
+var valuez ="Both";
+var togglesx =1;
+
+document.info.button3.focus();
+
+ d3.select("#button1").on("click",function(){
+document.info.button3.focus(function(){this.blur();});
+document.info.button2.focus(function(){this.blur();});
+document.info.button1.focus();       
+                   
+				
+
+					var key = "Men";
+					valuez = key;
+					
+					update();
+					if (COD!="")
+					{togglesx =1;update2(COD);}
+					document.info.button1.focus();
+					
+					})
+					
+d3.select("#button2").on("click",function(){
+document.info.button3.focus(function(){this.blur();});
+document.info.button1.focus(function(){this.blur();});
+document.info.button2.focus();
+				
+
+					var key = "Women";
+					valuez = key;
+				
+					update();if (COD!="")
+					{togglesx =1;
+					update2(COD);}
+				
+
+});
+  d3.select("#button3").on("click",function(){
+document.info.button1.focus(function(){this.blur();});
+document.info.button2.focus(function(){this.blur();});
+document.info.button3.focus();
+				
+					var key = "Both";
+					valuez = key;
+					
+					update();
+					if (COD!="")
+					{togglesx =1;
+					update2(COD);}
+					
+					
+
+});
+
+
+
+var format = d3.time.format("%m/%d/%y");
+
+var margin = {top: 40, right: 10, bottom: 55, left: 30},
+    width = window.innerWidth - margin.left - margin.right,
+    height =0.7*window.innerHeight;
+
+var x = d3.scale.ordinal().rangeRoundBands([0, width]);
+
+var y = d3.scale.linear()
+    .range([height, 0]);
+
+var z = d3.scale.category20c();
+
+z1= d3.scale.category20c().range();
+
+z1 = z1.slice(4,20);
+
+console.log(z1);
+
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom");
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left")
+	.ticks(4);
+
+var stack = d3.layout.stack()
+    .offset("zero")
+    .values(function(d) { return d.values; })
+    .x(function(d) { return d.age; })
+    .y(function(d) { return d.perc; });
+
+var nest = d3.nest()
+    .key(function(d) { return d.cause; });
+
+var area = d3.svg.area()
+    //.interpolate("cardinal")
+    .x(function(d) { return x(d.age); })
+    .y0(function(d) { return y(d.y0); })
+    .y1(function(d) { return y(d.y0 + d.y); });
+
+
+var svg = d3.select("body").append("svg")
+   .attr("width", width + margin.left + margin.right)
+   .attr("height", height + margin.top + margin.bottom);
+	//.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+   
+//.append('div')
+//            .classed("svg-container", true).append("svg")
+  //  .attr("viewBox", "0 0 1300 850")
+  //  .attr("preserveAspectRatio", "xMinYMin meet")
+	// .classed("svg-content-responsive", true)	 
+//	.attr("class","svgtext")
+ // .attr("transform", "translate(" + 2.2*margin.left + "," + margin.top + ")"); 
+	
+var menu = d3.select("#menu select").on("change", function() {
+UpdatedArea = menu.property("value");
+ 
+
+  update();
+     });	
+
+draw();window.addEventListener("resize", redraw);
+	
+	
+function draw(){
+d3.tsv("data3.tsv", function(error, data) {
+  if (error) throw error;
+
+  data = data.filter(function(d){return d.sex == "T" && d.state == "INDIA"})
+   
+  data.forEach(function(d) {
+  //  d.date = format.parse(d.date);
+    d.perc = +d.perc;
+  });
+
+  
+  
+  var layers = stack(nest.entries(data));
+  
+  
+
+   x.domain(data.map(function(d) { return d.age; }));
+  y.domain([0, d3.max(data, function(d) { return d.y0 + d.y; })]);
+
+  svg.selectAll(".layer")
+      .data(layers)
+    .enter().append("path")
+      .attr("class", "layer")
+      .attr("d", function(d) { return area(d.values); })
+	   .attr("transform", "translate(" + 1.1*margin.left + ",0)")
+      .style("fill", function(d, i) { return z1[i]; })
+	  .on("click", function(d,i)
+	  {COD = d3.select(this)["0"]["0"].__data__.key; 
+	   update2(COD);}
+	  );
+	  
+	  
+
+svg.selectAll(".layertext")
+      .data(layers)
+	  .enter()
+	  .append("text")
+	  .attr("class", "ltext")
+.attr("text-anchor", "start")
+.attr("fill", "black")
+//.attr("x", function(d) { return x(d.Age)
+.attr("x", function(d,i) { arr = d.values.map (function(o){return o.y } ); 
+                          index = d.values[indexOfMax(arr)].age;
+						  if (index == '1-4') {return x(index)+50}
+						  else if (index == '70+') {return x(index)-190}
+						   else { return x(index)}})
+.attr("y", function(d,i,j) { arr = d.values.map (function(o){return o.y } ); 
+                          y1 = d.values[indexOfMax(arr)].y0;
+                          y2 = d.values[indexOfMax(arr)].y;
+						//  console.log(d.key,d.values[j].age,y((y1+y2)))//+","+d.values[i].age+","+d.values[i].y)
+						   return y((y1+0.5*y2))})
+.text(function(d){return d.key;});
+	
+	  
+
+  svg.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate("+(-45)+"," + height + ")")
+      .call(xAxis)
+	   .append("text") 
+	   .attr("class","axis-text")
+	   .attr("x", 1250)
+	  .attr("y",50)
+      .attr("dx", ".35em")
+      .style("text-anchor", "end").text("Age (years)");
+
+  svg.append("g")
+      .attr("class", "y axis")
+	  .attr("transform", "translate(" + 1.1*margin.left + ",0)")
+      .call(yAxis)
+	   .append("text")
+	   	   .attr("class","axis-text")
+      .attr("transform", "rotate(-90)")
+	  .attr("x",-150)
+      .attr("y", -55)
+	  .attr("dy", ".35em")
+      .style("text-anchor", "end")
+      .text("(%) Deaths");
+
+
+
+	  
+
+});
+}
+
+
+function update()
+{
+togglesx =1;
+d3.tsv("data3.tsv", function(error, data) {
+  if (error) throw error;
+ 
+  data.forEach(function(d) {
+  //  d.date = format.parse(d.date);
+    d.perc = +d.perc;
+  });
+  
+  var areachoice =  document.getElementById("state");
+UpdatedArea = areachoice.options[areachoice.selectedIndex].value;
+
+data = data.filter(function(d){return d.state == UpdatedArea});
+
+ var genderselected = valuez;
+    
+ 
+  
+
+  if (valuez == "Men" ){document.info.button1.focus();}
+ if (valuez == "Women" ){document.info.button2.focus();}
+ if (valuez == "Both" ){document.info.button3.focus();}
+
+  if (genderselected== "Both") {data = data.filter(function(d){return d.sex =="T"});}
+  else if(genderselected== "Men")  {data = data.filter(function(d){return d.sex =="M"});}
+  else if(genderselected== "Women")  {data = data.filter(function(d){return d.sex =="F" });}
+  
+  
+  var layers = stack(nest.entries(data));
+		
+	
+			
+	d3.selectAll(".ltext").remove();
+	d3.selectAll(".etext").remove();
+	
+svg.selectAll(".layertext")
+      .data(layers)
+	  .enter()
+	  .append("text")
+	  .attr("class", "ltext")
+.attr("text-anchor", "start")
+.attr("fill", "black")
+//.attr("x", function(d) { return x(d.Age)
+.attr("x", function(d,i) { arr = d.values.map (function(o){return o.y } ); 
+                          index = d.values[indexOfMax(arr)].age;
+						  if (index == '1-4') {return x(index)+50}
+						  else if (index == '70+') {return x(index)-190}
+						   else { return x(index)}})
+.attr("y", function(d,i,j) { arr = d.values.map (function(o){return o.y } ); 
+                          y1 = d.values[indexOfMax(arr)].y0;
+                          y2 = d.values[indexOfMax(arr)].y;
+						  console.log(d.key,d.values[j].age,y((y1+y2)))//+","+d.values[i].age+","+d.values[i].y)
+						   return y((y1+0.5*y2))})
+.text(function(d){return d.key;}).attr("display","none");
+	
+d3.selectAll(".layer").data(layers)
+	
+	.transition()
+			.duration(1000)
+			.attr("d", function(d) {return area(d.values); 
+			})
+d3.selectAll(".ltext").transition().duration(200).delay(400).attr("display","inline");
+			
+
+			
+				})}
+
+				
+function update2(COD)
+{
+d3.tsv("data3.tsv", function(error, data) {
+  if (error) throw error;
+ 
+  data.forEach(function(d) {
+  //  d.date = format.parse(d.date);
+    d.perc = +d.perc;
+  });
+  
+  var areachoice =  document.getElementById("state");
+UpdatedArea = areachoice.options[areachoice.selectedIndex].value;
+		
+  data = data.filter(function(d){return d.state == UpdatedArea});
+
+ var genderselected = valuez;
+    
+   if (valuez == "Men" ){document.info.button1.focus();}
+ if (valuez == "Women" ){document.info.button2.focus();}
+ if (valuez == "Both" ){document.info.button3.focus();}
+
+  if (genderselected== "Both") {data = data.filter(function(d){return d.sex =="T"});}
+  else if(genderselected== "Men")  {data = data.filter(function(d){return d.sex =="M"});}
+  else if(genderselected== "Women")  {data = data.filter(function(d){return d.sex =="F" });}
+  
+  
+  if (togglesx ==1) 
+  {
+      data.map(function (d)
+      	  {if (d.cause !=COD) 
+		    {	d.perc = 0	; 	
+			}
+				})
+				togglesx =2;
+				
+				d3.tsv("table3.tsv", function(error, tab3) {
+                   if (error) throw error;
+                 tab3 = tab3.filter(function(d){return d.state == UpdatedArea && d.cause == COD});
+				 if (genderselected== "Both") {tab3 = tab3.filter(function(d){return d.sex =="T"});}
+                 else if(genderselected== "Men")  {tab3 = tab3.filter(function(d){return d.sex =="M"});}
+                 else if(genderselected== "Women")  {tab3 = tab3.filter(function(d){return d.sex =="F" });}
+				 
+				 
+				 
+				 svg.append("text")
+				 .data(tab3)
+                 .attr("class","etext")
+                 .attr("x",width/5)
+                 .attr("y", height/4)
+                 .text(function (d) {
+				  if (d.sex =="T")  {return d.cause +" ranks " + d.rank+ " and accounts for "+d.perc+"% of all deaths in " +d.state} 				
+				  else if (d.sex =="M")  {return d.cause +" ranks " + d.rank+ " and  accounts for "+d.perc+"% of Male deaths in " +d.state} 			
+				  if (d.sex =="F")  {return d.cause +" ranks " + d.rank+ " and  accounts for "+d.perc+"% of Female deaths in " +d.state} }	)
+				  
+                 				  
+				
+				
+                })
+				}
+else {d3.selectAll(".etext").remove();	togglesx =1}				
+				
+  
+  var layers = stack(nest.entries(data));
+		
+	 
+		
+	d3.selectAll(".ltext").remove();
+	
+svg.selectAll(".layertext")
+      .data(layers)
+	  .enter()
+	  .append("text")
+	  .attr("class", "ltext")
+.attr("text-anchor", "start")
+.attr("fill", "black")
+//.attr("x", function(d) { return x(d.Age)
+.attr("x", function(d,i) { arr = d.values.map (function(o){return o.y } ); 
+                          index = d.values[indexOfMax(arr)].age;
+						  if (index == '1-4') {return x(index)+50}
+						  else if (index == '70+') {return x(index)-190}
+						   else { return x(index)}})
+.attr("y", function(d,i,j) { arr = d.values.map (function(o){return o.y } ); 
+                          y1 = d.values[indexOfMax(arr)].y0;
+                          y2 = d.values[indexOfMax(arr)].y;
+						  console.log(d.key,d.values[j].age,y((y1+y2)))//+","+d.values[i].age+","+d.values[i].y)
+						   return y((y1+0.5*y2))})
+.text(function(d){if (togglesx == 1) {return d.key;}
+                  else if (d.key == COD && togglesx == 2){return d.key;}});
+				  
+
+
+	
+d3.selectAll(".layer").data(layers)
+	
+	.transition()
+			.duration(1000)
+			.attr("d", function(d) {return area(d.values); 
+			});
+			
+
+			
+	 
+				})
+				
+				}
+
+				
+function indexOfMax(arr) {
+    if (arr.length === 0) {
+        return -1;
+    }
+
+    var max = arr[0];
+    var maxIndex = 0;
+
+    for (var i = 1; i < arr.length; i++) {
+        if (arr[i] > max) {
+            maxIndex = i;
+            max = arr[i];
+        }
+    }
+
+    return maxIndex;
+}
+
+
+  function redraw() {
+    width = window.innerWidth, height = window.innerHeight;
+    svg.attr("width", width).attr("height", height);}
+
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-49609780-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
