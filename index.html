@@ -1,0 +1,386 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+        <link rel="shortcut icon" href="img/favicon.png" type=""/>
+        <title>HIL || Corona Tracker</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />  
+        <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">  
+        <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />  
+        <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <link rel="stylesheet" type="text/css" href="css/custom.css" />
+        <link rel="stylesheet" type="text/css" href="css/map.css" />
+		<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css" />
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->  
+        <!-- Google Tag Manager -->
+            <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-W7JWNLN');</script>
+        <!-- End Google Tag Manager -->
+    </head>
+	
+    <body class="search-page">
+        <!-- Google Tag Manager (noscript) -->
+            <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7JWNLN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+		
+ 
+  <div class ="map-tooltip" style="opacity:0">
+	  <div id="map-tooltip-header" class="table-bordered"><b> India </b></div>
+		      <table id="map-tooltip-table" class="table-bordered"><tbody></tbody>
+			   			  <tbody >
+ 
+			  <tr><td>State:</td><td class="data_tooltip_col row2">xx</td></tr>
+			  <tr><td>Category:</td><td class="data_tooltip_col row3">xx</td></tr>
+			  <tr><td>Cases:</td><td class="data_tooltip_col row4">xx</td></tr>
+			  <tr><td>Deaths:</td><td class="data_tooltip_col row5">xx</td></tr>
+			  <tr><td>3-day growth:</td><td class="data_tooltip_col row6">xx</td></tr>
+			  <tr><td>7-day growth:</td><td class="data_tooltip_col row7">xx</td></tr>
+			  <tr><td>Days since last case:</td><td class="data_tooltip_col row8">xx</td></tr>
+			   
+			<!--   <tr><td>Health Infrastructure:</td><td class="data_tooltip_col row2">xx</td></tr>
+			  <tr><td>Sub centers:</td><td class="data_tooltip_col row3">xx</td></tr>
+			  <tr><td>PHC:</td><td class="data_tooltip_col row4">xx</td></tr>
+			  <tr><td>CHC:</td><td class="data_tooltip_col row5">xx</td></tr> -->
+			   
+			  
+			  </tbody>
+			  </table>
+		</div>
+		
+        <div class="header-main">
+            <header>        
+                <div class="container">
+                    <div class="row">
+                        <div class="header-inner">
+                            <div class="logo">
+                                <a href="index.php"><img src="img/HIL Logo.svg" class="img-responsive" /></a>
+                                <i class="menu_icon"></i>
+                            </div>
+                            <div class="navigation">
+                                <ul>
+                                    <li><a href="index.php">home</a></li>
+                                    <li><a href="metrics.php">view all data</a></li>
+                                    <li><a href="aboutus.php">about us</a></li>
+                                    <li><a href="contact.php">contact us</a></li>
+                                    <li class="sign_btn">
+                                        <button type="button" class="" data-toggle="modal" data-target="#signModal" id="btnSignModal">
+                                            Sign in
+                                        </button>
+                                    </li>
+                                    <li class="subscribe_btn"><a href="index.php#Subscription-section">subscribe now</a></li>
+        
+                                </ul>   
+                            </div>  
+                        </div>  
+                    </div>  
+                </div> 
+            </header>
+        </div>
+
+        <section class="search-filter">
+            <div class="container">
+                <div class="row" style="margin-bottom:0.5em">
+				 
+                <div class="search-filter-left" style="width:100%;height:auto">
+				
+				<h2 style="padding: 4px 15px;">The Covid-19 District Tracker for Businesses</h2>
+				 
+				 									 <div  class="btn-group" style="display:block;padding-top:5px;font-size:16px;padding:4px 15px;" >
+   
+<button  class="btn-link btn-xs header_sx header_sx1 active" value="1" style="padding-left:0" >Intro</button>
+<text class="tabclass" style="border:0;outline:0;font-weight:900;color:#ccc">|</text>
+<button  class="btn-link btn-xs header_sx header_sx2"value="2" >About color coding</button>
+ 
+</div>
+		
+				 <p color="#484848" id="p1" > 
+				 Be it organising supply chains or assessing demand or calibrating employee presence, use our Covid-19 district tracker to make evidence-based decisions. 
+					</p>
+ 
+  
+				 <p color="#484848" id="p2" style="display:none"> 
+				 On May 17, while announcing Lockdown 4, the Centre gave states the freedom to classify districts (red, orange and green) within broad guidelines. Further, even in red and orange districts, in all parts except containment zones, it allowed the same freedom in activities as green districts.
+The color coding here is compiled from Central and state sources. The primary source of information is state governments. Where a state has not clearly classified a district, we have retained the Centre’s May 1 classification. This classification will be updated every Monday evening.
+ 
+					</p>
+ 
+ 
+				
+				 		
+				 		
+				</div>			
+				
+				</div>
+				
+				
+                <div class="row">
+                    
+                    <div class="search-filter-inner">
+                        <div class="search-filter-left" style="height:720px">
+						 
+						
+                            <div class="filter1">
+                                <div class="filter-option">
+                                    <h2 class="filter-heading">Growth in cases</h2>
+                                    <div class="form-group">
+									 <div  class="btn-group" style="display:block;padding-top:5px;padding-bottom:5px;font-size:14px" >
+   
+<button  class="btn-link btn-xs active growth_days_btn growth_days_btn1" value="1" >3-day growth</button>
+<text class="tabclass" style="border:0;outline:0;font-weight:900">|</text>
+<button  class="btn-link btn-xs growth_days_btn growth_days_btn2"value="2" >7-day growth</button>
+ 
+</div>
+									
+									
+									<ul>
+									<li class="input_checkbox"><label><input type="checkbox" name="" value="1" class="growth_rate"><span class="checkmark"></span>Below 20% </label></li>
+									
+									<li class="input_checkbox"><label><input type="checkbox" name="" value="2" class="growth_rate"><span class="checkmark"></span>20-50%</label></li>
+									
+									<li class="input_checkbox"><label><input type="checkbox" name="" value="3" class="growth_rate"><span class="checkmark"></span>50-100%</label></li> 
+									
+									<li class="input_checkbox"><label><input type="checkbox" name="" value="4" class="growth_rate"><span class="checkmark"></span>Above 100%</label></li>
+									<li class="input_checkbox"><label ><input type="checkbox" name="" value="0" class="growth_rate"><span class="checkmark"></span><div class="tooltipt">Not Applicable<span class="tooltiptext"> Growth rate not applicable because the district had no cases.</span></div></label></li>
+									
+									</ul>
+							 
+									
+									
+									</div>
+                                </div>
+                            </div>
+							<span style="float:right;cursor: pointer;" id="clear_btn">Clear all <i class="fa fa-times"></i></span>
+							
+                            <div class="filter1" style="display:none">
+                                <div class="filter-option">
+                                    <h2 class="filter-heading">Doubling time</h2>
+                                    <div class="form-group">
+                                       	<ul>
+									<li class="input_checkbox"><label><input type="checkbox" name="" value="1" class="doubling_time"><span class="checkmark"></span>less than 7 days </label></li>
+									
+									<li class="input_checkbox"><label><input type="checkbox" name="" value="2" class="doubling_time"><span class="checkmark"></span>less than 4 days</label></li>
+									
+									<li class="input_checkbox"><label><input type="checkbox" name="" value="3" class="doubling_time"><span class="checkmark"></span>less than 2 days</label></li></ul>
+									
+									 
+									
+									</ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="filter1">
+                                <div class="filter-option">
+                                     <h2 class="filter-heading">Days since last case</h2>
+									 <div class="form-group">
+                                       	<ul>
+									<li class="input_checkbox"><label><input type="checkbox" name="" value="1" class="new_cases"><span class="checkmark"></span>0-2 days</label></li>
+									<li class="input_checkbox"><label><input type="checkbox" name="" value="2" class="new_cases"><span class="checkmark"></span>3-7 days</label></li>
+									<li class="input_checkbox"><label><input type="checkbox" name="" value="3" class="new_cases"><span class="checkmark"></span>8-14 days</label></li>
+									<li class="input_checkbox"><label><input type="checkbox" name="" value="4" class="new_cases"><span class="checkmark"></span>15-21 days</label></li>
+									<li class="input_checkbox"><label><input type="checkbox" name="" value="5" class="new_cases"><span class="checkmark"></span>Above 21 days</label></li>
+								  
+									
+									</ul>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="search-filter-right" >
+						
+						
+													
+							<div class="filter-result">
+                			    <div class="filter-result-main">
+                                    <div class="filter-result-data" style="height:720px">
+                                        <div class="row">
+										<div class="filter1">
+                                                <h3 style="font-family: 'Lato', sans-serif;font-size:16px;color: #AB3A4F;padding: 10px 0;font-weight: bold">District Map</h3>
+												<div class="col-md-4" style="padding-left:0;">
+												 <select class="form-control custom-select " id="state_select" style="padding:0;border:none;border-bottom:1px solid lightgray;margin:0;height:auto;border-radius:0;">
+<option value ="All" selected>India</option>
+<option value ="IN.AN">Andaman & Nicobar</option>
+<option value ="IN.AP">Andhra Pradesh</option>
+<option value ="IN.AR">Arunachal Pradesh</option>
+<option value ="IN.AS">Assam</option>
+<option value ="IN.BR">Bihar</option>
+<option value ="IN.CH">Chandigarh</option>
+<option value ="IN.CT">Chhattisgarh</option>
+<option value ="IN.DN">Dadra & Nagar Haveli</option>
+<option value ="IN.DD">Daman & Diu</option>
+<option value ="IN.DL">Delhi</option>
+<option value ="IN.GA">Goa</option>
+<option value ="IN.GJ">Gujarat</option>
+<option value ="IN.HR">Haryana</option>
+<option value ="IN.HP">Himachal Pradesh</option>
+<option value ="IN.JK">Jammu & Kashmir</option>
+<option value ="IN.JH">Jharkhand</option>
+<option value ="IN.KA">Karnataka</option>
+<option value ="IN.KL">Kerala</option>
+<option value ="IN.LK">Ladakh</option>
+<option value ="IN.LD">Lakshadweep</option>
+<option value ="IN.MP">Madhya Pradesh</option>
+<option value ="IN.MH">Maharashtra</option>
+<option value ="IN.MN">Manipur</option>
+<option value ="IN.ML">Meghalaya</option>
+<option value ="IN.MZ">Mizoram</option>
+<option value ="IN.NL">Nagaland</option>
+<option value ="IN.OR">Odisha</option>
+<option value ="IN.PY">Puducherry</option>
+<option value ="IN.PB">Punjab</option>
+<option value ="IN.RJ">Rajasthan</option>
+<option value ="IN.SK">Sikkim</option>
+<option value ="IN.TN">Tamil Nadu</option>
+<option value ="IN.TG">Telangana</option>
+<option value ="IN.TR">Tripura</option>
+<option value ="IN.UP">Uttar Pradesh</option>
+<option value ="IN.UT">Uttarakhand</option>
+<option value ="IN.WB">West Bengal</option>
+ 
+ 
+ </select></div>
+ <div class="col-md-8"  >
+ <table class="legend_table" style="float:right">
+ <tr> 
+ <td><div class='table-swatch' style='background-color: #91cf60'></div> </td>
+ <td><div class='table-swatch' style='background-color: #ffffbf'></div></td>
+<td><div class='table-swatch' style='background-color: #fc8d59'></div></td>
+
+  <td>As classified by state</td>
+ </tr>
+ <tr> 
+ <td><svg class='table-swatch'><rect width="100%" height="100%" class="rect1"> </rect></svg> </td>
+ <td><svg class='table-swatch'><rect width="100%" height="100%" class="rect2"> </rect></svg>  </td>
+<td><svg class='table-swatch'><rect width="100%" height="100%" class="rect3"> </rect></svg> </td>
+
+  <td>As per Centre on April 17 (No updates by states since then)</td>
+ </tr>
+ </table>
+ </div>
+												
+												</div>
+                                            <div class="col-md-12" style="margin-top:1em">
+											
+												<div class="col-md-10 col-md-offset-1">
+												<div id="perfmap"></div>
+												</div>
+												
+												
+                                            </div>
+												
+                                        </div>
+ 
+										
+                			        </div>
+                			        
+                			    </div>
+                			</div>
+							
+							
+						
+						
+                	<div style="color:#484848"> 
+					<b>Data Sources:</b> National Disaster Management Authority, Press Information Bureau, state health ministries, and national/regional publications.<br>
+<b>Note:</b> Data as of <text id="date_asof">.List of 733 districts released by the government have been remapped to 717 districts, the highest for which mapping is possible.		
+					</div>
+							
+
+							
+							
+							
+                        </div>
+                    </div>
+                </div>
+				
+				<div class="row" style="margin-top:0.5em">
+					 
+					<div class="filter-result">
+                			    <div class="filter-result-main">
+                                    <div class="filter-result-data">
+                                        <div class="row">
+										 <div class="filter1">
+                                                <h3 style="font-family: 'Lato', sans-serif;font-size:16px;color: #AB3A4F;padding: 10px 0;font-weight: bold">District Data</h3>
+												
+												</div>
+                                            <div class="col-md-12">
+                                              
+                                                 
+														  <table class="table compact hover order-column" id="district_table" style="margin: auto;left:auto;width:100%">
+  
+  <thead > 
+  
+  </thead>
+  <tbody>
+  </tbody>
+  </table>
+													 
+                                            </div>    
+                                        </div>    
+                			        </div>
+                			        
+                			    </div>
+                			</div>
+					
+				
+				
+				</div>
+				
+            </div>
+        </section>
+
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>	
+    
+        <script src="js/jquery.nicescroll.min.js"></script>
+		
+        
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+		
+		   <script src="//cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+        <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.6.1/js/dataTables.buttons.min.js"></script>
+        <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.6.1/js/buttons.html5.min.js"></script>
+		<script src="https://d3js.org/d3.v3.min.js"></script>
+		<script src="https://d3js.org/topojson.v1.min.js"></script>
+	<script src="https://d3js.org/queue.v1.min.js"></script>
+	
+		<script src="js/map_corona_tracker.js"></script>
+		
+        <script>
+
+
+
+
+        	$(document).ready(function() {
+                $("body").niceScroll({          
+                  cursorwidth:"2px"
+                });
+                var nice = $("html").niceScroll();
+                $('#table').DataTable({
+                   "dom": 'frtip'
+                });
+                $(".menu_icon").click(function(){
+                    $(".navigation").toggleClass("active");
+                });
+            });    
+
+       </script>
+       
+
+    </body>	
+</html>
+
+
+
