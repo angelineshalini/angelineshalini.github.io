@@ -1,0 +1,14 @@
+Composite scores -from Jul 20 had to be changed for China, India,Brazil, Phillipes,Russia.
+
+Real GDP growth , entires were missing for Jul,Aug,Sep 2020.Added those.
+
+Oct 2020 Import cover 
+-----------------------
+INdia was 19.5 changed to 19.2
+Mexico was 6.4 changed to 6.2
+
+
+MEXICO - REAL GDP GROWTH issue??????
+
+
+
