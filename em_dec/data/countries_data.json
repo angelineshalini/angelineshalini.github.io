@@ -1063,7 +1063,7 @@
 				},
 				{
 					"timestamp": "Nov-19",
-					"data": -0.3
+					"data": -1.2
 				},
 				{
 					"timestamp": "Dec-19",
@@ -1328,7 +1328,7 @@
 					"data": 19.2
 				},
 				{
-					"timestamp": "Oct-20",
+					"timestamp": "Nov-20",
 					"data": 19.4
 				}
 			],
@@ -3429,7 +3429,7 @@
 					"data": -3.9
 				},
 				{
-					"timestamp": "Nov-20",
+					"timestamp": "Oct-20",
 					"data": -6.7
 
 				}
@@ -3539,7 +3539,7 @@
 					"data": -0.5
 				},
 				{
-					"timestamp": "Oct-20",
+					"timestamp": "Nov-20",
 					"data": -0.4
 				}
 			],
@@ -3648,7 +3648,7 @@
 					"data": 16
 				},
 				{
-					"timestamp": "Oct-20",
+					"timestamp": "Nov-20",
 					"data": 16.9
 				}
 			],
@@ -3757,7 +3757,7 @@
 					"data": 0.4
 				},
 				{
-					"timestamp": "Oct-20",
+					"timestamp": "Nov-20",
 					"data": 2.6
 				}
 			],
@@ -4312,7 +4312,7 @@
 					"data": 2.5
 				},
 				{
-					"timestamp": "Oct-20",
+					"timestamp": "Nov-20",
 					"data": 3.3
 				}
 			],
@@ -6744,7 +6744,7 @@
 					"data": 6.7
 				},
 				{
-					"timestamp": "Oct-20",
+					"timestamp": "Nov-20",
 					"data": 6.6
 				}
 			],
