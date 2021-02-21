@@ -1,0 +1,23 @@
+13.Checxk Rainfall data/More, move axis ust for rainfall
+14. -100, -100 
+
+
+
+
+5. Send page to Pankaj.
+
+
+
+
+10. MNREGA  why is flat curve coming.
+11. Check zoom factor and position of each of the states.
+12. 
+--------------------------
+1. Placeholder search
+2. csv buton
+4. Remove Download data/More Indiactors.
+3. Companioes/Establishments name reduction
+8. Units. in Tooltip/Units on Leged 
+9. Truncate units in some cases.
+7.  Move and zoom
+6. Vertical line. 

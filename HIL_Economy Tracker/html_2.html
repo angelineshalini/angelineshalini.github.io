@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html>
+  <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+ 		
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+ 
+ 
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css" >
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://d3js.org/queue.v1.min.js"></script>
+<style> 
+body{
+background-color:#F9F9F9;;
+ 
+}
+div.state
+{display:inline-block;
+filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+}
+
+.area {
+    
+	fill:steelblue;
+}
+
+.x.axis path, .y.axis path,.tick line
+{
+stroke: #bbb;
+
+}
+.x.axis text, .y.axis text,.tick text{
+fill:grey
+}
+
+
+.btn.active
+{
+color:rgba(89,64,92,1);
+text-decoration:underline;
+
+}
+
+ .overlay {
+        fill: none;
+        pointer-events: all;
+    }
+
+    .focus circle {
+        fill: steelblue;
+    }
+
+    .focus text {
+        font-size: 10px;
+    }
+
+    .tooltip-line-chart {
+        fill: white;
+        stroke: #000;
+    }
+
+    .tooltip-date, .tooltip-likes {
+        font-weight: bold;
+    }
+
+
+
+</style> 
+ 
+ <div class="container-fluid text-center">
+ <h2>District level - sectoral insights</h2>
+ <div id="filter" class="mb-1">
+ 
+ <div class="col-md-3  d-inline-block" >
+	 Indicator:<br>
+	 <select id="filter_1_indicator" class="filter_select" style ="font-size:100%;"> 
+	 <option value = "Total PF amount paid" selected>Total PF amount paid</option>
+    <option value = "Total number of employees">Total number of employees</option>
+<option value = "Total PF paying firms">Total PF paying firms</option>
+<option value = "Firms missing PF dues">Firms missing PF dues</option>
+	 </select>
+	 </div>
+ 
+ <div class="col-md-3 d-inline-block" >
+	 Size:<br>
+	 <select id="filter_2_size" class="filter_select" style ="font-size:100%;"> 
+	 <option value = "Large" >Large</option>
+    <option value = "Medium">Medium</option>
+<option value = "Small" selected>Small</option>
+<option value = "All Firms">All Firms</option>
+	 </select>
+	 </div>
+ 
+ <div class="col-md-3  d-inline-block" >
+	 Type:<br>
+	 <select id="filter_3_type"  class="filter_select" style ="font-size:100%;"> 
+	 <option value = "Manufacturing" selected>Manufacturing</option>
+    <option value = "Services">Services</option>
+    <option value = "Agriculture">Agriculture</option>
+    <option value = "Others">Others</option>
+<option value = "Trading">Trading</option>
+<option value = "All Sectors">All Sectors</option>
+	 </select>
+	 </div>
+ 
+ 
+ </div>
+ <div id="loc_filter" >
+ 
+ <div class="btn-group col-md-3  d-inline-block" role="group" aria-label="Basic example">
+  <button type="button" class="btn  active p-1 bg-transparent  india_btn active">India</button>|
+  <button type="button" class="btn p-1 bg-transparent state_btn">State-level</button>|
+  <button type="button" class="btn p-1 bg-transparent dist_btn">District-level</button>
+</div>
+</div>
+ 
+ <div>
+  <div class="form-group col-md-3 covid_state_select" style="display:none" >
+  
+   
+   <select  id="covid_state_select" >
+     
+    <option value = "35">Andaman and Nicobar Islands</option>
+<option value = "28" selected>Andhra Pradesh</option>
+<option value = "12">Arunachal Pradesh</option>
+<option value = "18">Assam</option>
+<option value = "10">Bihar</option>
+<option value = "4">Chandigarh</option>
+<option value = "22">Chhattisgarh</option>
+<option value = "26">Dadra and Nagar Haveli</option>
+<option value = "25">Daman and Diu</option>
+<option value = "7">Delhi</option>
+
+<option value = "30">Goa</option>
+<option value = "24">Gujarat</option>
+<option value = "6">Haryana</option>
+<option value = "2">Himachal Pradesh</option>
+<option value = "1">Jammu and Kashmir</option>
+<option value = "20">Jharkhand</option>
+
+<option value = "29">Karnataka</option>
+<option value = "32">Kerala</option>
+<option value = "37">Ladakh</option>
+<option value = "31">Lakshadweep</option>
+<option value = "23">Madhya Pradesh</option>
+<option value = "27">Maharashtra</option>
+<option value = "14">Manipur</option>
+<option value = "17">Meghalaya</option>
+
+
+<option value = "15">Mizoram</option>
+<option value = "13">Nagaland</option>
+<option value = "21">Odisha</option>
+<option value = "34">Puducherry</option>
+ <option value = "3">Punjab</option>
+
+<option value = "8">Rajasthan</option>
+<option value = "11">Sikkim</option>
+<option value = "33">Tamil Nadu</option>
+<option value = "36">Telangana</option>
+<option value = "16">Tripura</option>
+<option value = "9">Uttar Pradesh</option>
+<option value = "5">Uttarakhand</option>
+
+<option value = "19">West Bengal</option>
+
+
+
+
+  </select></div>
+   <div class="form-group col-md-3 covid_dist_select " style="display:none" >
+  
+   <select   id="covid_dist_select" style ="font-size:100%;width:auto;display:inline;height:auto;color:#858796">
+     <option value="All" class="All">All districts</option>
+	 
+	 </select>
+</div> 
+	
+ 
+ 
+ 
+ </div>
+ <div id="small-multiples" ></div>
+ 
+ </div>
+ 
+<script id="mapScript" type="text/javascript" src="assets/js/d3-line-chunked/d3-line-chunked.js"></script>
+<script src="https://unpkg.com/d3-interpolate-path/build/d3-interpolate-path.min.js"></script>
+
+ <script>
+ 
+ var width= 100; height=100;p=30;
+var width2= 180; height2=120;p2=30;
+var	margin = {top: 20, right: 20, bottom: 15, left: 30}
+
+
+
+var nested;
+var holder_width1 =width + p * 2; 
+var holder_width2 =width2 + p2 * 2; 
+ 
+// Set the ranges
+var	x_line = d3.scaleTime().range([margin.left,holder_width1-margin.right]);
+var	y_line = d3.scaleLinear().range([height, margin.top]);
+		  
+		  
+
+
+var	xAxis = d3.axisBottom(x_line)
+	.tickValues([new Date(2018, 12, 31), new Date(2020,8,31)])
+	 .tickFormat(d3.timeFormat("%b-%y"))
+ 
+
+	 
+	 
+	 
+	 ;
+ 
+var	yAxis = d3.axisLeft(y_line)
+	 .ticks(2)
+	 .tickFormat(d3.format(".2s"))
+	 ;		
+
+
+ var sector_selected = "Formal employment",
+	 indicator_selected = "Total PF amount paid",
+	 subcat_selected = "Small",
+	 subcat2_selected = "Manufacturing",
+	 geographyid_var="",
+	 level_var="1" 
+var aspect_ids = '623212,623218,623219,623227,623233,623249,623251,623252,623263,623264,623215,623216,623221,623230,623234,623237,623246,623248,623253,623255,623258,623259,623260,623262,623266,623267,623211,623213,623222,623238,623247,623254,623257,623261,623217,623232,623243,623228,623242,623210' 
+
+var bisectDate = d3.bisector(function(d) 
+
+{ return d.period; }).left
+
+var geoid_list, data_dist_list;	
+var array_result;
+var data_ajax= { "geographyid": geographyid_var,
+					"aspectid": aspect_ids,
+					"level":level_var,
+					"date":""  }
+
+/*var data_ajax1= { "geographyid": "",
+					"aspectid": 10170,
+					"level":"2",
+					"date":""  }
+
+
+var data_ajax2= { "geographyid": "",
+					"aspectid": 10170,
+					"level":"3.1",
+					"date":""  }*/
+					
+var	parseDate = d3.timeParse("%d-%m-%Y"); 
+var	parseDate2 = d3.timeFormat("%d-%b-%Y"); 
+var	parseDate3 = d3.timeFormat("%b-%Y"); 
+
+var	parseDate_rev = d3.timeFormat("%d-%m-%Y"); 
+
+
+	
+  
+ 
+ queue()
+   
+    .defer(d3.csv, "assets/data/aspectid.csv")
+    .defer(d3.csv, "assets/data/geography_ids.csv")
+	.defer(d3.csv, "assets/data/data.csv")     
+	 
+    .await(drawall)
+
+  function drawall(error,data_aspect,data_geo, data_dist){
+ 
+ 
+ geoid_list=data_geo;
+ data_dist_list = data_dist;
+ 
+ function get_selected_fields()
+ {
+ data_selected = data_aspect.filter(function(d) 
+										{return d.sector == sector_selected &&
+										d.indicator==indicator_selected && d.subcategory == subcat_selected&&
+										d.subcategory2 == subcat2_selected})
+										
+	return data_selected;
+ 
+ }
+ 
+ function filter_data(temp1)
+ {
+ array_result=[];
+ data_ajax.aspectid="";
+  temp1.forEach(function(d,i)
+  {
+ 
+  data_ajax.aspectid += d.aspectid+",";
+ 
+  })
+ 
+ data_ajax.geographyid = geographyid_var
+ data_ajax.level = level_var;
+ //data_ajax.aspectid =  "902400,901114";
+ data_ajax_filter = data_ajax;
+ 
+$.ajax({
+        url: "https://howindialives.com/economy-tracker/api-new.php",
+        data: data_ajax_filter,
+        type: "POST",
+        dataType: "json",
+        success : function(json){
+          
+		  json=json;
+		  
+		     array_result=[];
+				for (const property in json)
+				{
+				console.log(json[property]["data"]);
+				object_arr={};
+				object_arr.key = property;
+				object_arr.data = json[property]["data"];
+				array_result.push(object_arr);
+				}
+			 
+		 
+		  
+	 
+ 
+				build_graph(array_result);
+ 
+  
+ 
+		  }
+		  
+		  }) 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ }
+ 
+ var area = d3.area()
+    .x(function(d) { return x_line(d.period); })
+    .y0(height)
+    .y1(function(d) { return y_line(d.data); }); 
+var lineChunked = d3.lineChunked()
+  .x(function(d) 
+	{ return x_line(d.period); })
+	.y(function(d) 
+	{ return y_line(d.data); }) 
+  .curve(d3.curveLinear)
+  .defined(function (d) { return d.data != null; })
+  .lineStyles({
+    stroke: '#0bb',
+  });
+  
+function build_graph(t2)
+ {
+ 
+t2.sort(function(a,b){
+ return (+a.key) - (+b.key);
+})
+ 
+
+ t2.forEach(function(d)
+ {
+ 
+(d.data).forEach(function(k)
+{
+k.period = parseDate(k.enddate);
+		k.data = +k["data"];
+})
+
+dat = d.data;
+
+    (dat).sort(function(a, b) {
+            return a.period - b.period;
+        });
+ 
+var keyu=("key_"+d.key)//.replace(/ /g,"_");
+	
+//var dates = (d.data).map(function(k) {return k.period})
+//var vals = (d.data).map(function(k) {return k.data})
+x_line.domain(d3.extent((d.data), function(k) { return k.period; }));
+y_line.domain([0, d3.max((d.data), function(k) { return k.data; })]);
+ 		
+		
+		//y_line.domain(d3.extent(vals));
+		
+	//console.log(d.data[0]["subcategory3"] +"|"+ d3.extent(vals))
+ 
+		
+		var container = d3.select('#small-multiples')
+		                   .append("div").style("width",holder_width1+"px")
+						   .style("border","1px solid white")
+						   .attr("class","state")
+						   
+						   .attr("id","div_"+keyu)
+						   .append("svg:svg")
+						   //.style("background-color","#F0F0F0") 
+				    .attr("width", width + p * 2)
+				    .attr("height", height+20).attr("id",keyu)
+				  .append("svg:g") 
+				    .attr("transform", "translate(" + (p+20) + "," + (p+18) + ")") 
+					
+	
+	d3.select('#small-multiples').select("#div_"+keyu)
+.append("text")				.text(function()
+					{
+					return d.data[0]["subcategory3"]})
+										.style("font-size","12px").style("align","left")	
+    // Add the area.
+	d3.select('#small-multiples').select("#"+keyu).append("path")	
+		.attr("class", "area")
+		.attr("d", area(dat));
+ 
+	var tooltip = d3.select('#small-multiples').select("#"+keyu).append("g").attr("class","tooltip");
+	
+
+// Add the valueline path.
+/* 	d3.select('#small-multiples').select("#"+keyu)
+  .append('g').attr("class", "lineChunked")
+    .datum(d.data)
+    .transition()
+    .duration(1000)
+    .call(lineChunked); */
+ 
+	// Add the X Axis
+	d3.select('#small-multiples').select("#"+keyu).append("g")		
+		.attr("class", "x axis")
+		.attr("transform", "translate(0," + height + ")")
+		.call(xAxis);
+ 
+	// Add the Y Axis
+	d3.select('#small-multiples').select("#"+keyu).append("g")		
+		.attr("class", "y axis")
+		.attr("transform", "translate("+margin.left+", +0)")
+		.call(yAxis);
+
+	d3.selectAll('.y.axis .tick text')
+	.attr("x","-1")
+	.attr("dy","-0.1em")
+	 
+	 
+	  var focus = 	d3.select('#small-multiples').select("#"+keyu).append("g")
+            .attr("class", "focus f_"+keyu)
+            .style("display", "none") ;
+
+     focus.append("circle")
+            .attr("r", 5) 
+
+        focus.append("rect")
+            .attr("class", "tooltip-line-chart")
+            .attr("width", 50)
+            .attr("height", 20)
+            .attr("x", 10)
+            .attr("y", -22)
+            .attr("rx", 4)
+            .attr("ry", 4)
+			;
+
+        focus.append("text")
+            .attr("class", "tooltip-date")
+            .attr("x", 18)
+            .attr("y", -2);
+
+        focus.append("text")
+            .attr("x", 18)
+            .attr("y", 18)
+            .text("");
+
+        focus.append("text")
+            .attr("class", "tooltip-likes")
+            .attr("x", 18)
+            .attr("y", 18);
+
+         d3.select('#small-multiples').select("#"+keyu).append("rect")
+            .attr("class", "overlay")
+            .attr("id", "overlay_"+keyu)
+            .attr("width", width)
+            .attr("height", height+margin.top+margin.bottom)
+            .on("mouseover", function() { focus.style("display", null); })
+            .on("mouseout", function() { focus.style("display", "none"); })
+            .on("mousemove", mousemove);
+
+  
+		function mousemove() {
+		     var id= (this.id).split("_")[2]
+			data_line = array_result.filter(function(d){return d.key==id})
+			data_line=data_line[0].data
+            var x0 = x_line.invert(d3.mouse(this)[0]),
+                i = bisectDate(data_line, x0, 1),
+                d0 = data_line[i - 1],
+                d1 = data_line[i],
+                d = x0 - d0.period > d1.period - x0 ? d1 : d0;
+			 d3.select(".focus.f_key_"+id)
+			 .attr("transform", "translate(" + x_line(d.period) + "," + y_line(d.data) + ")");
+			
+			if ((x_line(d.period)+ 50) <width)
+            {
+				 
+				 
+				 d3.select(".focus.f_key_"+id).select("rect.tooltip-line-chart")
+             .transition().duration(100)
+            .attr("x", 10)
+            .attr("y", -2)
+            
+			
+			 d3.select(".focus.f_key_"+id).select(".tooltip-date").transition().duration(100)
+            .attr("x", 18)
+            .attr("y", -2);
+                
+
+        d3.select(".focus.f_key_"+id).select(".tooltip-likes").transition().duration(100)
+            .attr("x", 18)
+            .attr("y", 18);
+				
+				
+			}
+		
+			else
+			{
+				var wx = x_line(d.period)+ 50 - width 
+				wx= x_line(d.period)-wx 
+				 d3.select(".focus.f_key_"+id).select("rect.tooltip-line-chart")
+             .transition().duration(100)
+            .attr("x",-10)
+            
+				
+			 d3.select(".focus.f_key_"+id).select(".tooltip-date").transition().duration(100)
+            .attr("x", -10)
+           
+
+        d3.select(".focus.f_key_"+id).select(".tooltip-likes").transition().duration(100)
+            .attr("x", -10)
+         
+			}
+            d3.select(".focus.f_key_"+id).select(".tooltip-date").text(parseDate2(d.period));
+            d3.select(".focus.f_key_"+id).select(".tooltip-likes").text(d3.format(",")(d.data));
+        }  
+	 
+
+					  
+ })
+ 
+ 
+ }
+ 
+ function update()
+ {
+  $("div.state").remove();
+ 
+ temp1 = get_selected_fields();
+ temp2 = filter_data(temp1);
+  
+  
+  
+ }
+ 
+ 
+ update();
+ 
+ 
+ $(".filter_select").change(function() {
+ 
+ indicator_selected = $('#filter_1_indicator').find(":selected").text();
+ 
+	 subcat_selected = $('#filter_2_size').find(":selected").text()
+	 subcat2_selected = $('#filter_3_type').find(":selected").text()
+ update();
+ })
+  
+ 
+ 
+ 
+ 
+ $(".india_btn").click(function()
+ {
+ $("#loc_filter .btn-group .btn").removeClass("active");
+ $(".india_btn").addClass("active");
+ $(".covid_state_select").css("display","none");
+ $(".covid_dist_select").css("display","none");
+ 
+ 
+ indicator_selected = $('#filter_1_indicator').find(":selected").text();
+ 
+	 subcat_selected = $('#filter_2_size').find(":selected").text()
+	 subcat2_selected = $('#filter_3_type').find(":selected").text()
+	 
+	 level_var="1";
+	geographyid_var = ""
+		  
+ update();
+ 
+ 
+ })
+ 
+ 
+ 
+ 
+ $(".state_btn").click(function()
+ {
+ $("#loc_filter .btn-group .btn").removeClass("active");
+ $(".state_btn").addClass("active");
+ $(".covid_state_select").css("display","inline-block");
+ $(".covid_dist_select").css("display","none");
+ 
+  indicator_selected = $('#filter_1_indicator').find(":selected").text();
+ 
+	 subcat_selected = $('#filter_2_size').find(":selected").text()
+	 subcat2_selected = $('#filter_3_type').find(":selected").text()
+	 
+	  state= document.getElementById('covid_state_select').value;
+	  dist = document.getElementById('covid_dist_select').value;
+	 
+	 if (dist=="All")
+	 {
+	  
+	 /////////District options/////////
+ 
+ data_dist_list.sort(function(x, y) {
+    return d3.ascending(x.district, y.district);
+  })
+   
+  var mySelect = $("#covid_dist_select");
+  data_dist_f = data_dist_list.filter(function(d) {
+    return +d.ST_CEN_CD == +state
+  })
+
+
+  
+
+  temp_f = [];
+ d3.select("#covid_dist_select").selectAll('option').remove();
+  data_dist_f.forEach(function(d) {
+
+    if (temp_f.indexOf(d.distname) == -1) {
+
+      mySelect.append(
+        $('<option></option>').val(d.district_cd).html(d.distname)
+      );
+      temp_f.push(d.distname);
+    }
+
+  })
+	 
+	 ///
+	 }
+	 
+	 level_var="2";
+	geographyid_var = (geoid_list.filter(function(k)
+					{return k.state==+state && k.district == 0})	)
+		 geographyid_var=geographyid_var[0].geographyid
+		  
+ update();
+ 
+ })
+ 
+ 
+ 
+ 
+ $(".dist_btn").click(function()
+ {
+ $("#loc_filter .btn-group .btn").removeClass("active");
+ $(".dist_btn").addClass("active");
+ $(".covid_state_select").css("display","inline-block");
+ $(".covid_dist_select").css("display","inline-block");
+ 
+ 
+ 
+  state= document.getElementById('covid_state_select').value;
+	  dist = document.getElementById('covid_dist_select').value;
+  
+   
+  
+   indicator_selected = $('#filter_1_indicator').find(":selected").text();
+ 
+	 subcat_selected = $('#filter_2_size').find(":selected").text()
+	 subcat2_selected = $('#filter_3_type').find(":selected").text()
+	 
+	 level_var=3.1;
+	geographyid_var = (geoid_list.filter(function(k)
+					{return k.state==+state && k.district == dist})	)
+		 geographyid_var=geographyid_var[0].geographyid
+ update();
+ 
+ })
+
+
+ 
+
+
+$("#covid_state_select").change(function() {
+ 
+
+  
+  $("#covid_dist_select").val('All'); 
+  state = $('option:selected', this).val();
+  
+   d3.select("#covid_dist_select").selectAll('option').remove();
+  
+   indicator_selected = $('#filter_1_indicator').find(":selected").text();
+ 
+	 subcat_selected = $('#filter_2_size').find(":selected").text()
+	 subcat2_selected = $('#filter_3_type').find(":selected").text()
+	 
+	 level_var=2;
+	geographyid_var = (geoid_list.filter(function(k)
+					{return k.state==+state && k.district == 0})	)
+		 geographyid_var=geographyid_var[0].geographyid
+ update();
+ 
+ 
+ /////////District options/////////
+ 
+ data_dist_list.sort(function(x, y) {
+    return d3.ascending(x.district, y.district);
+  })
+   
+  var mySelect = $("#covid_dist_select");
+  data_dist_f = data_dist_list.filter(function(d) {
+    return +d.ST_CEN_CD == +state
+  })
+
+
+  
+
+  temp_f = [];
+
+  data_dist_f.forEach(function(d) {
+
+    if (temp_f.indexOf(d.distname) == -1) {
+
+      mySelect.append(
+        $('<option></option>').val(d.district_cd).html(d.distname)
+      );
+      temp_f.push(d.distname);
+    }
+
+  })
+ 
+ 
+ 
+  
+  })//end of state change
+  
+  
+  $("#covid_dist_select").change(function() {
+  
+   
+  dist = $('option:selected', this).val();
+  
+   
+  
+   indicator_selected = $('#filter_1_indicator').find(":selected").text();
+ 
+	 subcat_selected = $('#filter_2_size').find(":selected").text()
+	 subcat2_selected = $('#filter_3_type').find(":selected").text()
+	 
+	 level_var=3.1;
+	geographyid_var = (geoid_list.filter(function(k)
+					{return k.state==+state && k.district == dist})	)
+		 geographyid_var=geographyid_var[0].geographyid
+ update();
+ })
+  
+  
+  
+  
+ }
+  
+  
+ 
+ </script>

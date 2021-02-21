@@ -1,0 +1,756 @@
+district,geographyid,geography,districtname,state
+1,999065,Kupwara,Kupwara,1
+2,999072,Badgam,Badgam,1
+3,999063,Leh(ladakh),Leh(ladakh),37
+4,999064,Kargil,Kargil,37
+5,999074,Punch,Punch,1
+6,999077,Rajouri,Rajouri,1
+7,999082,Kathua,Kathua,1
+8,999067,Baramula,Baramula,1
+9,999066,Bandipore,Bandipore,1
+10,999071,Srinagar,Srinagar,1
+11,999068,Ganderbal,Ganderbal,1
+12,999073,Pulwama,Pulwama,1
+13,999075,Shupiyan,Shupiyan,1
+14,999069,Anantnag,Anantnag,1
+15,999076,Kulgam,Kulgam,1
+16,999080,Doda,Doda,1
+17,999078,Ramban,Ramban,1
+18,999070,Kishtwar,Kishtwar,1
+19,999083,Udhampur,Udhampur,1
+20,999079,Reasi,Reasi,1
+21,999081,Jammu,Jammu,1
+22,999084,Samba,Samba,1
+23,999086,Chamba,Chamba,2
+24,999087,Kangra,Kangra,2
+25,999085,Lahul & Spiti,Lahul & Spiti,2
+26,999088,Kullu,Kullu,2
+27,999089,Mandi,Mandi,2
+28,999095,Hamirpur,Hamirpur,2
+29,999091,Una,Una,2
+30,999096,Bilaspur,Bilaspur,2
+31,999093,Solan,Solan,2
+32,999094,Sirmaur,Sirmaur,2
+33,999092,Shimla,Shimla,2
+34,999090,Kinnaur,Kinnaur,2
+35,999097,Gurdaspur,Gurdaspur,3
+36,999118,Kapurthala,Kapurthala,3
+37,999100,Jalandhar,Jalandhar,3
+38,999098,Hoshiarpur,Hoshiarpur,3
+39,999103,Shahid Bhagat Singh Nagar,Shahid Bhagat Singh Nagar,3
+40,999109,Fatehgarh Sahib,Fatehgarh Sahib,3
+41,999106,Ludhiana,Ludhiana,3
+42,999105,Moga,Moga,3
+43,999116,Firozpur,Firozpur,3
+44,999110,Muktsar,Muktsar,3
+45,999108,Faridkot,Faridkot,3
+46,999113,Bathinda,Bathinda,3
+47,999115,Mansa,Mansa,3
+48,999114,Patiala,Patiala,3
+49,999099,Amritsar,Amritsar,3
+50,999101,Tarn Taran,Tarn Taran,3
+51,999102,Rupnagar,Rupnagar,3
+52,999107,Sahibzada Ajit Singh Nag*,Sahibzada Ajit Singh Nag*,3
+53,999111,Sangrur,Sangrur,3
+54,999112,Barnala,Barnala,3
+55,999119,Chandigarh,Chandigarh,4
+56,999120,Uttarkashi,Uttarkashi,5
+57,999121,Chamoli,Chamoli,5
+58,999124,Rudraprayag,Rudraprayag,5
+59,999123,Tehri Garhwal,Tehri Garhwal,5
+60,999122,Dehradun,Dehradun,5
+61,999128,Garhwal,Garhwal,5
+62,999125,Pithoragarh,Pithoragarh,5
+63,999126,Bageshwar,Bageshwar,5
+64,999129,Almora,Almora,5
+65,999131,Champawat,Champawat,5
+66,999130,Nainital,Nainital,5
+67,999132,Udham Singh Nagar,Udham Singh Nagar,5
+68,999127,Hardwar,Hardwar,5
+69,999153,Panchkula,Panchkula,6
+70,999154,Ambala,Ambala,6
+71,999141,Yamunanagar,Yamunanagar,6
+72,999142,Kurukshetra,Kurukshetra,6
+73,999143,Kaithal,Kaithal,6
+74,999145,Karnal,Karnal,6
+75,999149,Panipat,Panipat,6
+76,999150,Sonipat,Sonipat,6
+77,999146,Jind,Jind,6
+78,999147,Fatehabad,Fatehabad,6
+79,999144,Sirsa,Sirsa,6
+80,999148,Hisar,Hisar,6
+81,999151,Bhiwani,Bhiwani,6
+82,999152,Rohtak,Rohtak,6
+83,999133,Jhajjar,Jhajjar,6
+84,999136,Mahendragarh,Mahendragarh,6
+85,999137,Rewari,Rewari,6
+86,999134,Gurugram,Gurugram,6
+87,999138,Mewat,Mewat,6
+88,999135,Faridabad,Faridabad,6
+89,999139,Palwal,Palwal,6
+90,999206,North West,North West,7
+91,999155,North,North,7
+92,999189,North East,North East,7
+93,999202,East,East,7
+94,999157,New Delhi,New Delhi,7
+95,999156,Central,Central,7
+96,999190,West,West,7
+97,999203,South West,South West,7
+98,999158,South,South,7
+99,999194,Ganganagar,Ganganagar,8
+100,999195,Hanumangarh,Hanumangarh,8
+101,999196,Bikaner,Bikaner,8
+102,999207,Churu,Churu,8
+103,999208,Jhunjhunun,Jhunjhunun,8
+104,999211,Alwar,Alwar,8
+105,999214,Bharatpur,Bharatpur,8
+106,999218,Dhaulpur,Dhaulpur,8
+107,999217,Karauli,Karauli,8
+108,999220,Sawai Madhopur,Sawai Madhopur,8
+109,999216,Dausa,Dausa,8
+110,999212,Jaipur,Jaipur,8
+111,999210,Sikar,Sikar,8
+112,999215,Nagaur,Nagaur,8
+113,999213,Jodhpur,Jodhpur,8
+114,999209,Jaisalmer,Jaisalmer,8
+115,999219,Barmer,Barmer,8
+116,999224,Jalor,Jalor,8
+117,999227,Sirohi,Sirohi,8
+118,999222,Pali,Pali,8
+119,999191,Ajmer,Ajmer,8
+120,999221,Tonk,Tonk,8
+121,999225,Bundi,Bundi,8
+122,999223,Bhilwara,Bhilwara,8
+123,999192,Rajsamand,Rajsamand,8
+124,999231,Dungarpur,Dungarpur,8
+125,999232,Banswara,Banswara,8
+126,999193,Chittaurgarh,Chittaurgarh,8
+127,999226,Kota,Kota,8
+128,999228,Baran,Baran,8
+129,999230,Jhalawar,Jhalawar,8
+130,999229,Udaipur,Udaipur,8
+131,999197,Pratapgarh,Pratapgarh,8
+132,999263,Saharanpur,Saharanpur,9
+133,999265,Muzaffarnagar,Muzaffarnagar,9
+134,999264,Bijnor,Bijnor,9
+135,999268,Moradabad,Moradabad,9
+136,999269,Rampur,Rampur,9
+137,999159,Amroha,Amroha,9
+138,999267,Meerut,Meerut,9
+139,999266,Baghpat,Baghpat,9
+140,999260,Ghaziabad,Ghaziabad,9
+141,999164,Gautam Buddha Nagar,Gautam Buddha Nagar,9
+142,999163,Bulandshahr,Bulandshahr,9
+143,999169,Aligarh,Aligarh,9
+144,999174,Mahamaya Nagar,Mahamaya Nagar,9
+145,999171,Mathura,Mathura,9
+146,999182,Agra,Agra,9
+147,999178,Firozabad,Firozabad,9
+148,999180,Mainpuri,Mainpuri,9
+149,999166,Budaun,Budaun,9
+150,999161,Bareilly,Bareilly,9
+151,999162,Pilibhit,Pilibhit,9
+152,999168,Shahjahanpur,Shahjahanpur,9
+153,999165,Kheri,Kheri,9
+154,999173,Sitapur,Sitapur,9
+155,999176,Hardoi,Hardoi,9
+156,999200,Unnao,Unnao,9
+157,999187,Lucknow,Lucknow,9
+158,999240,Rae Bareli,Rae Bareli,9
+159,999177,Farrukhabad,Farrukhabad,9
+160,999186,Kannauj,Kannauj,9
+161,999201,Etawah,Etawah,9
+162,999234,Auraiya,Auraiya,9
+163,999236,Kanpur Dehat,Kanpur Dehat,9
+164,999233,Kanpur Nagar,Kanpur Nagar,9
+165,999241,Jalaun,Jalaun,9
+166,999247,Jhansi,Jhansi,9
+167,999257,Lalitpur,Lalitpur,9
+168,999272,Hamirpur,Hamirpur,9
+169,999262,Mahoba,Mahoba,9
+170,999248,Banda,Banda,9
+171,999253,Chitrakoot,Chitrakoot,9
+172,999244,Fatehpur,Fatehpur,9
+173,999273,Pratapgarh,Pratapgarh,9
+174,999250,Kaushambi,Kaushambi,9
+175,999251,Allahabad,Allahabad,9
+176,999184,Bara Banki,Bara Banki,9
+177,999235,Faizabad,Faizabad,9
+178,999239,Ambedkar Nagar,Ambedkar Nagar,9
+179,999238,Sultanpur,Sultanpur,9
+180,999167,Bahraich,Bahraich,9
+181,999172,Shrawasti,Shrawasti,9
+182,999271,Balrampur,Balrampur,9
+183,999183,Gonda,Gonda,9
+184,999179,Siddharthnagar,Siddharthnagar,9
+185,999188,Basti,Basti,9
+186,999199,Sant Kabir Nagar,Sant Kabir Nagar,9
+187,999181,Mahrajganj,Mahrajganj,9
+188,999198,Gorakhpur,Gorakhpur,9
+189,999185,Kushinagar,Kushinagar,9
+190,999237,Deoria,Deoria,9
+191,999242,Azamgarh,Azamgarh,9
+192,999243,Mau,Mau,9
+193,999245,Ballia,Ballia,9
+194,999246,Jaunpur,Jaunpur,9
+195,999249,Ghazipur,Ghazipur,9
+196,999254,Chandauli,Chandauli,9
+197,999252,Varanasi,Varanasi,9
+198,999255,Bhadohi,Bhadohi,9
+199,999256,Mirzapur,Mirzapur,9
+200,999258,Sonbhadra,Sonbhadra,9
+201,999175,Etah,Etah,9
+202,999170,Kasganj,Kasganj,9
+203,999274,Pashchim Champaran,Pashchim Champaran,10
+204,999275,Purba Champaran,Purba Champaran,10
+205,999277,Sheohar,Sheohar,10
+206,999276,Sitamarhi,Sitamarhi,10
+207,999308,Madhubani,Madhubani,10
+208,999307,Supaul,Supaul,10
+209,999306,Araria,Araria,10
+210,999310,Kishanganj,Kishanganj,10
+211,999309,Purnia,Purnia,10
+212,999280,Katihar,Katihar,10
+213,999305,Madhepura,Madhepura,10
+214,999285,Saharsa,Saharsa,10
+215,999284,Darbhanga,Darbhanga,10
+216,999304,Muzaffarpur,Muzaffarpur,10
+217,999278,Gopalganj,Gopalganj,10
+218,999303,Siwan,Siwan,10
+219,999302,Saran,Saran,10
+220,999293,Vaishali,Vaishali,10
+221,999279,Samastipur,Samastipur,10
+222,999294,Begusarai,Begusarai,10
+223,999281,Khagaria,Khagaria,10
+224,999295,Bhagalpur,Bhagalpur,10
+225,999289,Banka,Banka,10
+226,999292,Munger,Munger,10
+227,999296,Lakhisarai,Lakhisarai,10
+228,999297,Sheikhpura,Sheikhpura,10
+229,999300,Nalanda,Nalanda,10
+230,999301,Patna,Patna,10
+231,999282,Bhojpur,Bhojpur,10
+232,999283,Buxar,Buxar,10
+233,999286,Kaimur (bhabua),Kaimur (bhabua),10
+234,999287,Rohtas,Rohtas,10
+235,999311,Aurangabad,Aurangabad,10
+236,999291,Gaya,Gaya,10
+237,999290,Nawada,Nawada,10
+238,999288,Jamui,Jamui,10
+239,999299,Jehanabad,Jehanabad,10
+240,999298,Arwal,Arwal,10
+241,999312,North  District,North  District,11
+242,999313,West District,West District,11
+243,999314,South District,South District,11
+244,999315,East District,East District,11
+245,999319,Tawang,Tawang,12
+246,999327,West Kameng,West Kameng,12
+247,999326,East Kameng,East Kameng,12
+248,999320,Papum Pare,Papum Pare,12
+249,999316,Upper Subansiri,Upper Subansiri,12
+250,999332,West Siang,West Siang,12
+251,999322,East Siang,East Siang,12
+252,999331,Upper Siang,Upper Siang,12
+253,999318,Changlang,Changlang,12
+254,999321,Tirap,Tirap,12
+255,999325,Lower Subansiri,Lower Subansiri,12
+256,999324,Kurung Kumey,Kurung Kumey,12
+257,999333,Upper Dibang Valley,Upper Dibang Valley,12
+258,999334,Lower Dibang Valley,Lower Dibang Valley,12
+259,999323,Lohit,Lohit,12
+260,999317,Anjaw,Anjaw,12
+261,999336,Mon,Mon,13
+262,999338,Mokokchung,Mokokchung,13
+263,999343,Zunheboto,Zunheboto,13
+264,999342,Wokha,Wokha,13
+265,999346,Dimapur,Dimapur,13
+266,999344,Phek,Phek,13
+267,999339,Tuensang,Tuensang,13
+268,999337,Longleng,Longleng,13
+269,999340,Kiphire,Kiphire,13
+270,999345,Kohima,Kohima,13
+271,999341,Peren,Peren,13
+272,999348,Senapati,Senapati,14
+273,999349,Tamenglong,Tamenglong,14
+274,999354,Churachandpur,Churachandpur,14
+275,999352,Bishnupur,Bishnupur,14
+276,999358,Thoubal,Thoubal,14
+277,999350,Imphal West,Imphal West,14
+278,999355,Imphal East,Imphal East,14
+279,999360,Ukhrul,Ukhrul,14
+280,999353,Chandel,Chandel,14
+281,999365,Mamit,Mamit,15
+282,999363,Kolasib,Kolasib,15
+283,999364,Aizawl,Aizawl,15
+284,999366,Champhai,Champhai,15
+285,999370,Serchhip,Serchhip,15
+286,999371,Lunglei,Lunglei,15
+287,999373,Lawngtlai,Lawngtlai,15
+288,999372,Saiha,Saiha,15
+289,999379,West Tripura,West Tripura,16
+290,999380,South Tripura,South Tripura,16
+291,999375,Dhalai,Dhalai,16
+292,999374,North Tripura,North Tripura,16
+293,999387,West Garo Hills,West Garo Hills,17
+294,999388,East Garo Hills,East Garo Hills,17
+295,999386,South Garo Hills,South Garo Hills,17
+296,999383,West Khasi Hills,West Khasi Hills,17
+297,999382,Ribhoi,Ribhoi,17
+298,999385,East Khasi Hills,East Khasi Hills,17
+299,999389,West Jaintia Hills,West Jaintia Hills,17
+300,999402,Kokrajhar,Kokrajhar,18
+301,999409,Dhubri,Dhubri,18
+302,999411,Goalpara,Goalpara,18
+303,999404,Barpeta,Barpeta,18
+304,999406,Morigaon,Morigaon,18
+305,999401,Nagaon,Nagaon,18
+306,999369,Sonitpur,Sonitpur,18
+307,999399,Lakhimpur,Lakhimpur,18
+308,999397,Dhemaji,Dhemaji,18
+309,999396,Tinsukia,Tinsukia,18
+310,999398,Dibrugarh,Dibrugarh,18
+311,999367,Sivasagar,Sivasagar,18
+312,999368,Jorhat,Jorhat,18
+313,999390,Golaghat,Golaghat,18
+314,999421,Karbi Anglong East,Karbi Anglong East,18
+315,999412,Dima Hasao,Dima Hasao,18
+316,999413,Cachar,Cachar,18
+317,999414,Karimganj,Karimganj,18
+318,999415,Hailakandi,Hailakandi,18
+319,999408,Bongaigaon,Bongaigaon,18
+320,999392,Chirang,Chirang,18
+321,999407,Kamrup,Kamrup,18
+322,999410,Kamrup Metropolitan,Kamrup Metropolitan,18
+323,999405,Nalbari,Nalbari,18
+324,999400,Baksa,Baksa,18
+325,999403,Darrang,Darrang,18
+326,999391,Udalguri,Udalguri,18
+327,999424,Darjiling,Darjiling,19
+328,999425,Jalpaiguri,Jalpaiguri,19
+329,999471,Cooch Behar,Cooch Behar,19
+330,999472,Uttar Dinajpur,Uttar Dinajpur,19
+331,999426,Dakshin Dinajpur,Dakshin Dinajpur,19
+332,999427,Maldah,Maldah,19
+333,999428,Murshidabad,Murshidabad,19
+334,999429,Birbhum,Birbhum,19
+335,999431,Purba Barddhaman,Purba Barddhaman,19
+336,999430,Nadia,Nadia,19
+337,999434,North Twenty Four Pargan*,North Twenty Four Pargan*,19
+338,999435,Hooghly,Hooghly,19
+339,999433,Bankura,Bankura,19
+340,999432,Puruliya,Puruliya,19
+341,999437,Howrah,Howrah,19
+342,999465,Kolkata,Kolkata,19
+343,999423,South Twenty Four Pargan*,South Twenty Four Pargan*,19
+344,999436,Paschim Medinipur,Paschim Medinipur,19
+345,999466,Purba Medinipur,Purba Medinipur,19
+346,999440,Garhwa,Garhwa,20
+347,999439,Chatra,Chatra,20
+348,999454,Kodarma,Kodarma,20
+349,999476,Giridih,Giridih,20
+350,999478,Deoghar,Deoghar,20
+351,999474,Godda,Godda,20
+352,999473,Sahibganj,Sahibganj,20
+353,999475,Pakur,Pakur,20
+354,999442,Dhanbad,Dhanbad,20
+355,999444,Bokaro,Bokaro,20
+356,999447,Lohardaga,Lohardaga,20
+357,999451,Purbi Singhbhum,Purbi Singhbhum,20
+358,999438,Palamu,Palamu,20
+359,999443,Latehar,Latehar,20
+360,999455,Hazaribagh,Hazaribagh,20
+361,999445,Ramgarh,Ramgarh,20
+362,999477,Dumka,Dumka,20
+363,999441,Jamtara,Jamtara,20
+364,999446,Ranchi,Ranchi,20
+365,999449,Khunti,Khunti,20
+366,999448,Gumla,Gumla,20
+367,999453,Simdega,Simdega,20
+368,999452,Pashchimi Singhbhum,Pashchimi Singhbhum,20
+369,999450,Saraikela-kharsawan,Saraikela-kharsawan,20
+370,999497,Bargarh,Bargarh,21
+371,999496,Jharsuguda,Jharsuguda,21
+372,999499,Sambalpur,Sambalpur,21
+373,999498,Debagarh,Debagarh,21
+374,999493,Sundargarh,Sundargarh,21
+375,999494,Kendujhar,Kendujhar,21
+376,999492,Mayurbhanj,Mayurbhanj,21
+377,999495,Baleshwar,Baleshwar,21
+378,999456,Bhadrak,Bhadrak,21
+379,999489,Kendrapara,Kendrapara,21
+380,999482,Jagatsinghapur,Jagatsinghapur,21
+381,999463,Cuttack,Cuttack,21
+382,999458,Jajapur,Jajapur,21
+383,999457,Dhenkanal,Dhenkanal,21
+384,999488,Anugul,Anugul,21
+385,999479,Nayagarh,Nayagarh,21
+386,999480,Khordha,Khordha,21
+387,999483,Puri,Puri,21
+388,999490,Ganjam,Ganjam,21
+389,999491,Gajapati,Gajapati,21
+390,999464,Kandhamal,Kandhamal,21
+391,999462,Baudh,Baudh,21
+392,999459,Subarnapur,Subarnapur,21
+393,999461,Balangir,Balangir,21
+394,999460,Nuapada,Nuapada,21
+395,999481,Kalahandi,Kalahandi,21
+396,999485,Rayagada,Rayagada,21
+397,999484,Nabarangapur,Nabarangapur,21
+398,999486,Koraput,Koraput,21
+399,999487,Malkangiri,Malkangiri,21
+400,999512,Koriya,Koriya,22
+401,999522,Surguja,Surguja,22
+402,999513,Jashpur,Jashpur,22
+403,999525,Raigarh,Raigarh,22
+404,999514,Korba,Korba,22
+405,999516,Janjgir - Champa,Janjgir - Champa,22
+406,999526,Bilaspur,Bilaspur,22
+407,999515,Kabeerdham,Kabeerdham,22
+408,999518,Rajnandgaon,Rajnandgaon,22
+409,999508,Durg,Durg,22
+410,999507,Raipur,Raipur,22
+411,999500,Mahasamund,Mahasamund,22
+412,999509,Dhamtari,Dhamtari,22
+413,999501,Uttar Bastar Kanker,Uttar Bastar Kanker,22
+414,999504,Bastar,Bastar,22
+415,999502,Narayanpur,Narayanpur,22
+416,999503,Dakshin Bastar Dantewada,Dakshin Bastar Dantewada,22
+417,999524,Bijapur,Bijapur,22
+418,999531,Sheopur,Sheopur,23
+419,999528,Morena,Morena,23
+420,999529,Bhind,Bhind,23
+421,999530,Gwalior,Gwalior,23
+422,999574,Datia,Datia,23
+423,999532,Shivpuri,Shivpuri,23
+424,999533,Tikamgarh,Tikamgarh,23
+425,999575,Chhatarpur,Chhatarpur,23
+426,999576,Panna,Panna,23
+427,999542,Sagar,Sagar,23
+428,999543,Damoh,Damoh,23
+429,999536,Satna,Satna,23
+430,999535,Rewa,Rewa,23
+431,999549,Umaria,Umaria,23
+432,999534,Neemuch,Neemuch,23
+433,999539,Mandsaur,Mandsaur,23
+434,999550,Ratlam,Ratlam,23
+435,999552,Ujjain,Ujjain,23
+436,999544,Shajapur,Shajapur,23
+437,999556,Dewas,Dewas,23
+438,999561,Dhar,Dhar,23
+439,999562,Indore,Indore,23
+440,999569,West Nimar,West Nimar,23
+441,999572,Barwani,Barwani,23
+442,999546,Rajgarh,Rajgarh,23
+443,999545,Vidisha,Vidisha,23
+444,999551,Bhopal,Bhopal,23
+445,999554,Sehore,Sehore,23
+446,999553,Raisen,Raisen,23
+447,999577,Betul,Betul,23
+448,999568,Harda,Harda,23
+449,999564,Hoshangabad,Hoshangabad,23
+450,999548,Katni,Katni,23
+451,999555,Jabalpur,Jabalpur,23
+452,999560,Narsimhapur,Narsimhapur,23
+453,999559,Dindori,Dindori,23
+454,999563,Mandla,Mandla,23
+455,999567,Chhindwara,Chhindwara,23
+456,999565,Seoni,Seoni,23
+457,999571,Balaghat,Balaghat,23
+458,999537,Guna,Guna,23
+459,999538,Ashoknagar,Ashoknagar,23
+460,999547,Shahdol,Shahdol,23
+461,999557,Anuppur,Anuppur,23
+462,999541,Sidhi,Sidhi,23
+463,999540,Singrauli,Singrauli,23
+464,999558,Jhabua,Jhabua,23
+465,999566,Alirajpur,Alirajpur,23
+466,999570,East Nimar,East Nimar,23
+467,999527,Burhanpur,Burhanpur,23
+468,999600,Kachchh,Kachchh,24
+469,999581,Banas Kantha,Banas Kantha,24
+470,999582,Patan,Patan,24
+471,999583,Mahesana,Mahesana,24
+472,999599,Sabar Kantha,Sabar Kantha,24
+473,999584,Gandhinagar,Gandhinagar,24
+474,999585,Ahmadabad,Ahmadabad,24
+475,999601,Surendranagar,Surendranagar,24
+476,999602,Rajkot,Rajkot,24
+477,999607,Jamnagar,Jamnagar,24
+478,999590,Porbandar,Porbandar,24
+479,999606,Junagadh,Junagadh,24
+480,999579,Amreli,Amreli,24
+481,999605,Bhavnagar,Bhavnagar,24
+482,999604,Anand,Anand,24
+483,999603,Kheda,Kheda,24
+484,999586,Panch Mahals,Panch Mahals,24
+485,999587,Dohad,Dohad,24
+486,999588,Vadodara,Vadodara,24
+487,999591,Narmada,Narmada,24
+488,999589,Bharuch,Bharuch,24
+489,999580,The Dangs,The Dangs,24
+490,999610,Navsari,Navsari,24
+491,999578,Valsad,Valsad,24
+492,999592,Surat,Surat,24
+493,999593,Tapi,Tapi,24
+494,999612,Diu,Diu,25
+495,999611,Daman,Daman,25
+496,999613,Dadra & Nagar Haveli,Dadra & Nagar Haveli,26
+497,999644,Nandurbar,Nandurbar,27
+498,999646,Dhule,Dhule,27
+499,999616,Jalgaon,Jalgaon,27
+500,999618,Buldana,Buldana,27
+501,999619,Akola,Akola,27
+502,999622,Washim,Washim,27
+503,999645,Amravati,Amravati,27
+504,999617,Wardha,Wardha,27
+505,999647,Nagpur,Nagpur,27
+506,999615,Bhandara,Bhandara,27
+507,999614,Gondiya,Gondiya,27
+508,999621,Gadchiroli,Gadchiroli,27
+509,999623,Chandrapur,Chandrapur,27
+510,999624,Yavatmal,Yavatmal,27
+511,999628,Nanded,Nanded,27
+512,999627,Hingoli,Hingoli,27
+513,999629,Parbhani,Parbhani,27
+514,999625,Jalna,Jalna,27
+515,999648,Aurangabad,Aurangabad,27
+516,999620,Nashik,Nashik,27
+517,999642,Thane,Thane,27
+518,999632,Mumbai Suburban,Mumbai Suburban,27
+519,999633,Mumbai,Mumbai,27
+520,999649,Raigarh,Raigarh,27
+521,999630,Pune,Pune,27
+522,999626,Ahmadnagar,Ahmadnagar,27
+523,999631,Bid,Bid,27
+524,999634,Latur,Latur,27
+525,999635,Osmanabad,Osmanabad,27
+526,999636,Solapur,Solapur,27
+527,999637,Satara,Satara,27
+528,999638,Ratnagiri,Ratnagiri,27
+529,999641,Sindhudurg,Sindhudurg,27
+530,999640,Kolhapur,Kolhapur,27
+531,999639,Sangli,Sangli,27
+532,999771,Adilabad,Adilabad,36
+533,999740,Nizamabad,Nizamabad,36
+534,999778,Karimnagar,Karimnagar,36
+535,999735,Medak,Medak,36
+536,999772,Hyderabad,Hyderabad,36
+537,999744,Rangareddy,Rangareddy,36
+538,999733,Mahabubnagar,Mahabubnagar,36
+539,999738,Nalgonda,Nalgonda,36
+540,999751,Warangal Urban,Warangal Urban,36
+541,999779,Khammam,Khammam,36
+542,999754,Srikakulam,Srikakulam,28
+543,999755,Vizianagaram,Vizianagaram,28
+544,999756,Visakhapatnam,Visakhapatnam,28
+545,999759,East Godavari,East Godavari,28
+546,999764,West Godavari,West Godavari,28
+547,999757,Krishna,Krishna,28
+548,999758,Guntur,Guntur,28
+549,999760,Prakasam,Prakasam,28
+550,999763,Sri Potti Sriramulu Nell*,Sri Potti Sriramulu Nell*,28
+551,999765,Y.S.R.,Y.S.R.,28
+552,999761,Kurnool,Kurnool,28
+553,999762,Anantapur,Anantapur,28
+554,999766,Chittoor,Chittoor,28
+555,999652,Belgaum,Belgaum,29
+556,999654,Bagalkot,Bagalkot,29
+557,999679,Bijapur,Bijapur,29
+558,999650,Bidar,Bidar,29
+559,999655,Raichur,Raichur,29
+560,999656,Koppal,Koppal,29
+561,999657,Gadag,Gadag,29
+562,999659,Dharwad,Dharwad,29
+563,999660,Uttara Kannada,Uttara Kannada,29
+564,999661,Haveri,Haveri,29
+565,999658,Bellary,Bellary,29
+566,999662,Chitradurga,Chitradurga,29
+567,999663,Davanagere,Davanagere,29
+568,999664,Shimoga,Shimoga,29
+569,999665,Udupi,Udupi,29
+570,999666,Chikmagalur,Chikmagalur,29
+571,999675,Tumkur,Tumkur,29
+572,999672,Bangalore,Bangalore,29
+573,999677,Mandya,Mandya,29
+574,999668,Hassan,Hassan,29
+575,999671,Dakshina Kannada,Dakshina Kannada,29
+576,999673,Kodagu,Kodagu,29
+577,999678,Mysore,Mysore,29
+578,999674,Chamarajanagar,Chamarajanagar,29
+579,999651,Gulbarga,Gulbarga,29
+580,999653,Yadgir,Yadgir,29
+581,999669,Kolar,Kolar,29
+582,999667,Chikkaballapura,Chikkaballapura,29
+583,999670,Bangalore Rural,Bangalore Rural,29
+584,999676,Ramanagara,Ramanagara,29
+585,999680,North Goa,North Goa,30
+586,999681,South Goa,South Goa,30
+587,999682,Lakshadweep,Lakshadweep,31
+588,999683,Kasaragod,Kasaragod,32
+589,999696,Kannur,Kannur,32
+590,999684,Wayanad,Wayanad,32
+591,999685,Kozhikode,Kozhikode,32
+592,999686,Malappuram,Malappuram,32
+593,999687,Palakkad,Palakkad,32
+594,999688,Thrissur,Thrissur,32
+595,999690,Ernakulam,Ernakulam,32
+596,999689,Idukki,Idukki,32
+597,999692,Kottayam,Kottayam,32
+598,999691,Alappuzha,Alappuzha,32
+599,999693,Pathanamthitta,Pathanamthitta,32
+600,999694,Kollam,Kollam,32
+601,999695,Thiruvananthapuram,Thiruvananthapuram,32
+602,999697,Thiruvallur,Thiruvallur,33
+603,999699,Chennai,Chennai,33
+604,999700,Kancheepuram,Kancheepuram,33
+605,999698,Vellore,Vellore,33
+606,999702,Tiruvannamalai,Tiruvannamalai,33
+607,999723,Viluppuram,Viluppuram,33
+608,999704,Salem,Salem,33
+609,999707,Namakkal,Namakkal,33
+610,999705,Erode,Erode,33
+611,999706,The Nilgiris,The Nilgiris,33
+612,999716,Dindigul,Dindigul,33
+613,999714,Karur,Karur,33
+614,999710,Tiruchirappalli,Tiruchirappalli,33
+615,999708,Perambalur,Perambalur,33
+616,999711,Ariyalur,Ariyalur,33
+617,999724,Cuddalore,Cuddalore,33
+618,999725,Nagapattinam,Nagapattinam,33
+619,999715,Thiruvarur,Thiruvarur,33
+620,999713,Thanjavur,Thanjavur,33
+621,999726,Pudukkottai,Pudukkottai,33
+622,999727,Sivaganga,Sivaganga,33
+623,999717,Madurai,Madurai,33
+624,999718,Theni,Theni,33
+625,999719,Virudhunagar,Virudhunagar,33
+626,999728,Ramanathapuram,Ramanathapuram,33
+627,999721,Thoothukkudi,Thoothukkudi,33
+628,999720,Tirunelveli,Tirunelveli,33
+629,999722,Kanniyakumari,Kanniyakumari,33
+630,999703,Dharmapuri,Dharmapuri,33
+631,999701,Krishnagiri,Krishnagiri,33
+632,999709,Coimbatore,Coimbatore,33
+633,999712,Tiruppur,Tiruppur,33
+634,999767,Yanam,Yanam,34
+635,999729,Puducherry,Puducherry,34
+636,999743,Mahe,Mahe,34
+637,999730,Karaikal,Karaikal,34
+638,999770,Nicobars,Nicobars,35
+639,999768,North  & Middle Andaman,North  & Middle Andaman,35
+640,999769,South Andaman,South Andaman,35
+701,999104,Fazilka,Fazilka,3
+702,999204,Shahdara,Shahdara,7
+703,999205,South East Delhi,South East Delhi,7
+704,999270,Shamli,Shamli,9
+705,999160,Hapur,Hapur,9
+706,999259,Amethi,Amethi,9
+707,999376,Sepahijala,Sepahijala,16
+708,999378,Khowai,Khowai,16
+709,999377,Gomati,Gomati,16
+710,999381,Unakoti,Unakoti,16
+711,999395,South West Garo Hills,South West Garo Hills,17
+712,999394,North Garo Hills,North Garo Hills,17
+713,999393,South West Khasi Hills,South West Khasi Hills,17
+714,999384,East Jaintia Hills,East Jaintia Hills,17
+715,999519,Surajpur,Surajpur,22
+716,999523,Balrampur,Balrampur,22
+717,999521,Mungeli,Mungeli,22
+718,999517,Bemetara,Bemetara,22
+719,999511,Balod,Balod,22
+720,999506,Gariaband,Gariaband,22
+721,999520,Balodabazar,Balodabazar,22
+722,999505,Kondagaon,Kondagaon,22
+723,999510,Sukma,Sukma,22
+724,999573,Agar Malwa,Agar Malwa,23
+725,999594,Arvalli,Arvalli,24
+726,999595,Botad,Botad,24
+727,999609,Morbi,Morbi,24
+728,999608,Devbhumi Dwarka,Devbhumi Dwarka,24
+729,999598,Gir Somnath,Gir Somnath,24
+730,999597,Mahisagar,Mahisagar,24
+731,999596,Chhota Udepur,Chhota Udepur,24
+732,999643,Palghar,Palghar,27
+733,999731,Kumuram Bheem,Kumuram Bheem,36
+734,999739,Nirmal,Nirmal,36
+735,999734,Mancherial,Mancherial,36
+736,999777,Kamareddy,Kamareddy,36
+737,999773,Jagtial,Jagtial,36
+738,999741,Peddapalli,Peddapalli,36
+739,999742,Rajanna Sircilla,Rajanna Sircilla,36
+740,999745,Sangareddy,Sangareddy,36
+741,999746,Siddipet,Siddipet,36
+742,999736,Medchal-Malkajgiri,Medchal-Malkajgiri,36
+743,999748,Vikarabad,Vikarabad,36
+744,999776,Jogulamba Gadwal,Jogulamba Gadwal,36
+745,999749,Wanaparthy,Wanaparthy,36
+746,999737,Nagarkurnool,Nagarkurnool,36
+747,999752,Yadadri Bhuvanagiri,Yadadri Bhuvanagiri,36
+748,999747,Suryapet,Suryapet,36
+749,999750,Warangal (Rural),Warangal (Rural),36
+750,999775,Jayashankar Bhupalpally,Jayashankar Bhupalpally,36
+751,999732,Mahabubabad,Mahabubabad,36
+752,999774,Jangaon,Jangaon,36
+753,999753,Bhadradri Kothagudem,Bhadradri Kothagudem,36
+754,999261,Sambhal,Sambhal,9
+755,999416,Charaideo,Charaideo,18
+756,999418,Biswanath,Biswanath,18
+757,999419,Hojai,Hojai,18
+758,999420,South Salmara-mankachar,South Salmara-mankachar,18
+759,999422,West Karbi Anglong,West Karbi Anglong,18
+760,999417,Majuli,Majuli,18
+761,999330,Longding,Longding,12
+762,999329,Namsai,Namsai,12
+763,999328,Kra Daadi,Kra Daadi,12
+764,999335,Siang,Siang,12
+765,999140,Charkhi Dadri,Charkhi Dadri,6
+766,999356,Jiribam,Jiribam,14
+767,999357,Kangpokpi,Kangpokpi,14
+768,999351,Kakching,Kakching,14
+769,999359,Tengnoupal,Tengnoupal,14
+770,999347,Kamjong,Kamjong,14
+771,999361,Noney,Noney,14
+772,999362,Pherzawl,Pherzawl,14
+773,999117,Pathankot,Pathankot,3
+774,999467,Alipurduar,Alipurduar,19
+775,999469,Kalimpong,Kalimpong,19
+776,999470,Jhargram,Jhargram,19
+777,999468,Paschim Bardhaman,Paschim Bardhaman,19
+0,999001,Jammu & Kashmir,,1
+0,999002,Himachal Pradesh,,2
+0,999003,Punjab,,3
+0,999004,Chandigarh,,4
+0,999005,Uttarakhand,,5
+0,999006,Haryana,,6
+0,999007,NCT of Delhi,,7
+0,999008,Rajasthan,,8
+0,999009,Uttar Pradesh,,9
+0,999010,Bihar,,10
+0,999011,Sikkim,,11
+0,999012,Arunachal Pradesh,,12
+0,999013,Nagaland,,13
+0,999014,Manipur,,14
+0,999015,Mizoram,,15
+0,999016,Tripura,,16
+0,999017,Meghalaya,,17
+0,999018,Assam,,18
+0,999019,West Bengal,,19
+0,999020,Jharkhand,,20
+0,999021,Odisha,,21
+0,999022,Chhattisgarh,,22
+0,999023,Madhya Pradesh,,23
+0,999024,Gujarat,,24
+0,999025,Daman & Diu,,25
+0,999026,Dadra & Nagar Haveli,,26
+0,999027,Maharashtra,,27
+0,999028,Andhra Pradesh,,28
+0,999029,Karnataka,,29
+0,999030,Goa,,30
+0,999031,Lakshadweep,,31
+0,999032,Kerala,,32
+0,999033,Tamil Nadu,,33
+0,999034,Puducherry,,34
+0,999035,Andaman & Nicobar Islands,,35
+0,999036,Telangana,,36
+0,999037,Ladakh,,37
+0,999000,India,,0

@@ -1,0 +1,1314 @@
+sector,indicator,subcategory,subcategory2,subcategory3,aspectid,unit,explanation
+Covid-19,Active Cases,,,,11001,,Active cases as on day. Source: NDMA
+Covid-19,Total cumulative cases,,,,11002,,Total cumulative confirmed cases.
+Covid-19,Total cumulative deaths,,,,11003,,Total cumulative confirmed deaths reported
+Covid-19,Days to double,,,,11004,days,Number of days taken for confirmed cases to double
+Covid-19,New cases (7-day moving average),,,,11005,,7-day moving average of new confirmed cases reported per day
+Covid-19,New cases,,,,11006,,New confirmed cases reported
+Covid-19,New deaths,,,,11007,,New confirmed deaths reported
+Covid-19,Rate of change in new cases over past month,,,,11008,%,Rate of change in new cases reported this week from a month ago
+Formal employment,Total PF amount paid,Large,Manufacturing,Chemical,621218,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Paper products,621252,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Tobacco products,621264,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Services,Consultation Services,621423,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Services,Engineering,621427,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Agriculture,Farm and farming products,622130,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Agro-processing,622212,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Chemical,622218,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Clay/Ceramic products,622219,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Confectionary,622221,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Mining,622248,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Textile,622263,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Tobacco products,622264,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Services,Construction,622422,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Services,Consultation Services,622423,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Services,Education,622425,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Services,Electric Power Industry,622426,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Services,Engineering,622427,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Services,Financial Services,622431,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Services,Housekeeping Services,622436,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Services,Recreational Activties,622457,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Services,Transport Services,622465,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Trading,Commercial Establishment,622520,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Agriculture,Farm and farming products,623130,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Agro-processing,623212,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Chemical,623218,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Clay/Ceramic products,623219,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Engineering,623227,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Gas,623233,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Non edible oil/fat,623249,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Painting,623251,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Paper products,623252,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Textile,623263,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Tobacco products,623264,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Others,Others,623350,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Services,Automobile,623414,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Services,Construction,623422,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Services,Consultation Services,623423,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Services,Education,623425,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Services,Electric Power Industry,623426,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Services,Engineering,623427,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Services,F&B,623429,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Services,Financial Services,623431,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Services,Hospitality,623435,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Services,Housekeeping Services,623436,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Services,Media,623444,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Services,Medical,623445,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Services,Petroleum/Natural Gas,623453,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Services,Recreational Activties,623457,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Services,Transport Services,623465,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Trading,Commercial Establishment,623520,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Agriculture,Farm and farming products,621130,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Agriculture,Plantation,621154,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Agro-processing,621212,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Engineering,621227,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Metal and ores,621246,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Plastics,621255,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Tanning,621262,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Textile,621263,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Services,Automobile,621414,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Services,Construction,621422,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Services,Electric Power Industry,621426,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Services,Hospitality,621435,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Services,Medical,621445,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Services,Printing,621456,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Bone crushing,622216,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Engineering,622227,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Gas,622233,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Metal and ores,622246,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Non edible oil/fat,622249,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Painting,622251,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Paper products,622252,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Plastics,622255,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Rubber products,622258,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Salt,622259,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Tanning,622262,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Others,Others,622350,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Services,Automobile,622414,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Services,F&B,622429,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Services,Hospitality,622435,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Services,IT,622440,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Services,Media,622444,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Services,Medical,622445,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Services,Petroleum/Natural Gas,622453,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Services,Printing,622456,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Bakery,623215,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Bone crushing,623216,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Confectionary,623221,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Farm and farming products,623230,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Glass,623234,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Icecream,623237,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Metal and ores,623246,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Mining,623248,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Petroleum/Natural Gas,623253,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Plastics,623255,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Rubber products,623258,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Salt,623259,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Starch,623260,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Tanning,623262,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Water,623266,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Wood,623267,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Services,Delivery Services,623424,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Services,Entertainment,623428,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Services,IT,623440,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Services,Plantation,623454,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Services,Printing,623456,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Services,Wood,623467,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Agarbatti,621211,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Clay/Ceramic products,621219,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Icecream,621237,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Mining,621248,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Painting,621251,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Rubber products,621258,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Starch,621260,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Water,621266,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Others,Others,621350,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Services,Chemical,621418,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Services,Delivery Services,621424,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Services,Education,621425,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Services,F&B,621429,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Services,Financial Services,621431,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Services,Housekeeping Services,621436,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Services,IT,621440,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Services,Media,621444,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Services,Petroleum/Natural Gas,621453,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Services,Recreational Activties,621457,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Services,Transport Services,621465,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Trading,Commercial Establishment,621520,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Agriculture,Plantation,622154,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Agarbatti,622211,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Alcohol,622213,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Bakery,622215,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Food Preservation,622232,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Glass,622234,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Icecream,622237,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Indigo,622238,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Mill,622247,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Petroleum/Natural Gas,622253,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Recreational Activties,622257,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Starch,622260,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Water,622266,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Wood,622267,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Services,Chemical,622418,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Services,Delivery Services,622424,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Services,Entertainment,622428,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Agriculture,Plantation,623154,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Agarbatti,623211,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Alcohol,623213,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Construction,623222,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Indigo,623238,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Mill,623247,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Plantation,623254,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Recreational Activties,623257,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Stone Quarries,623261,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Services,Chemical,623418,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Services,Insurance,623439,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Services,Law,623441,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Alcohol,621213,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Farm and farming products,622230,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Bakery,621215,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Stone Quarries,622261,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Farm and farming products,621230,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Food Preservation,621232,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Services,Plantation,622454,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Brush,623217,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Food Preservation,623232,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Matches,623243,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Construction,622222,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Services,Law,622441,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Services,Wood,622467,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Glass,621234,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Matches,622243,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Stone Quarries,621261,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Confectionary,621221,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Gas,621233,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Petroleum/Natural Gas,621253,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Services,Entertainment,621428,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Services,Insurance,621439,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Services,Plantation,621454,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Services,Wood,621467,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Brush,622217,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Entertainment,622228,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Plantation,622254,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Services,Insurance,622439,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Entertainment,623228,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Bone crushing,621216,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Non edible oil/fat,621249,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Wood,621267,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Salt,621259,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Construction,621222,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Brush,621217,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,Linoleum and Indoleum,623242,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Matches,621243,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Plantation,621254,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,Linoleum and Indoleum,622242,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Entertainment,621228,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Mill,621247,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,Recreational Activties,621257,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,All firms,All sectors,All sectors,620010,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,All sectors,All sectors,621010,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,All sectors,All sectors,622010,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,All sectors,All sectors,623010,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Manufacturing,All sectors,621210,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Services,All sectors,621410,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Agriculture,All sectors,622110,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Manufacturing,All sectors,622210,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Services,All sectors,622410,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Trading,All sectors,622510,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Agriculture,All sectors,623110,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Manufacturing,All sectors,623210,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Others,All sectors,623310,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Services,All sectors,623410,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Small,Trading,All sectors,623510,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Agriculture,All sectors,621110,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Medium,Others,All sectors,622310,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Others,All sectors,621310,Rs.,Total amount matched by companies as EPF
+Formal employment,Total PF amount paid,Large,Trading,All sectors,621510,Rs.,Total amount matched by companies as EPF
+Formal employment,Total number of employees,Large,Manufacturing,Chemical,601218,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Paper products,601252,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Tobacco products,601264,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Services,Consultation Services,601423,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Services,Engineering,601427,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Agriculture,Farm and farming products,602130,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Agro-processing,602212,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Chemical,602218,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Clay/Ceramic products,602219,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Confectionary,602221,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Mining,602248,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Textile,602263,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Tobacco products,602264,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Services,Construction,602422,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Services,Consultation Services,602423,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Services,Education,602425,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Services,Electric Power Industry,602426,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Services,Engineering,602427,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Services,Financial Services,602431,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Services,Housekeeping Services,602436,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Services,Recreational Activties,602457,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Services,Transport Services,602465,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Trading,Commercial Establishment,602520,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Agriculture,Farm and farming products,603130,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Agro-processing,603212,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Chemical,603218,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Clay/Ceramic products,603219,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Engineering,603227,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Gas,603233,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Non edible oil/fat,603249,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Painting,603251,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Paper products,603252,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Textile,603263,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Tobacco products,603264,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Others,Others,603350,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Services,Automobile,603414,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Services,Construction,603422,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Services,Consultation Services,603423,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Services,Education,603425,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Services,Electric Power Industry,603426,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Services,Engineering,603427,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Services,F&B,603429,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Services,Financial Services,603431,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Services,Hospitality,603435,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Services,Housekeeping Services,603436,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Services,Media,603444,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Services,Medical,603445,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Services,Petroleum/Natural Gas,603453,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Services,Recreational Activties,603457,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Services,Transport Services,603465,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Trading,Commercial Establishment,603520,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Agriculture,Farm and farming products,601130,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Agriculture,Plantation,601154,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Agro-processing,601212,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Engineering,601227,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Metal and ores,601246,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Plastics,601255,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Tanning,601262,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Textile,601263,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Services,Automobile,601414,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Services,Construction,601422,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Services,Electric Power Industry,601426,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Services,Hospitality,601435,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Services,Medical,601445,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Services,Printing,601456,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Bone crushing,602216,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Engineering,602227,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Gas,602233,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Metal and ores,602246,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Non edible oil/fat,602249,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Painting,602251,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Paper products,602252,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Plastics,602255,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Rubber products,602258,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Salt,602259,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Tanning,602262,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Others,Others,602350,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Services,Automobile,602414,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Services,F&B,602429,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Services,Hospitality,602435,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Services,IT,602440,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Services,Media,602444,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Services,Medical,602445,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Services,Petroleum/Natural Gas,602453,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Services,Printing,602456,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Bakery,603215,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Bone crushing,603216,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Confectionary,603221,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Farm and farming products,603230,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Glass,603234,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Icecream,603237,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Metal and ores,603246,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Mining,603248,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Petroleum/Natural Gas,603253,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Plastics,603255,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Rubber products,603258,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Salt,603259,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Starch,603260,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Tanning,603262,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Water,603266,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Wood,603267,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Services,Delivery Services,603424,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Services,Entertainment,603428,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Services,IT,603440,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Services,Plantation,603454,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Services,Printing,603456,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Services,Wood,603467,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Agarbatti,601211,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Clay/Ceramic products,601219,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Icecream,601237,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Mining,601248,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Painting,601251,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Rubber products,601258,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Starch,601260,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Water,601266,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Others,Others,601350,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Services,Chemical,601418,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Services,Delivery Services,601424,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Services,Education,601425,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Services,F&B,601429,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Services,Financial Services,601431,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Services,Housekeeping Services,601436,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Services,IT,601440,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Services,Media,601444,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Services,Petroleum/Natural Gas,601453,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Services,Recreational Activties,601457,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Services,Transport Services,601465,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Trading,Commercial Establishment,601520,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Agriculture,Plantation,602154,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Agarbatti,602211,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Alcohol,602213,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Bakery,602215,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Food Preservation,602232,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Glass,602234,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Icecream,602237,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Indigo,602238,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Mill,602247,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Petroleum/Natural Gas,602253,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Recreational Activties,602257,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Starch,602260,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Water,602266,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Wood,602267,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Services,Chemical,602418,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Services,Delivery Services,602424,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Services,Entertainment,602428,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Agriculture,Plantation,603154,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Agarbatti,603211,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Alcohol,603213,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Construction,603222,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Indigo,603238,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Mill,603247,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Plantation,603254,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Recreational Activties,603257,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Stone Quarries,603261,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Services,Chemical,603418,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Services,Insurance,603439,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Services,Law,603441,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Alcohol,601213,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Farm and farming products,602230,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Bakery,601215,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Stone Quarries,602261,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Farm and farming products,601230,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Food Preservation,601232,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Services,Plantation,602454,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Brush,603217,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Food Preservation,603232,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Matches,603243,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Construction,602222,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Services,Law,602441,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Services,Wood,602467,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Glass,601234,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Matches,602243,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Stone Quarries,601261,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Confectionary,601221,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Gas,601233,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Petroleum/Natural Gas,601253,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Services,Entertainment,601428,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Services,Insurance,601439,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Services,Plantation,601454,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Services,Wood,601467,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Brush,602217,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Entertainment,602228,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Plantation,602254,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Services,Insurance,602439,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Entertainment,603228,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Bone crushing,601216,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Non edible oil/fat,601249,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Wood,601267,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Salt,601259,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Construction,601222,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Brush,601217,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,Linoleum and Indoleum,603242,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Matches,601243,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Plantation,601254,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,Linoleum and Indoleum,602242,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Entertainment,601228,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Mill,601247,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,Recreational Activties,601257,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,All firms,All sectors,All sectors,600010,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,All sectors,All sectors,601010,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,All sectors,All sectors,602010,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,All sectors,All sectors,603010,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Manufacturing,All sectors,601210,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Services,All sectors,601410,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Agriculture,All sectors,602110,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Manufacturing,All sectors,602210,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Services,All sectors,602410,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Trading,All sectors,602510,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Agriculture,All sectors,603110,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Manufacturing,All sectors,603210,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Others,All sectors,603310,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Services,All sectors,603410,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Small,Trading,All sectors,603510,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Agriculture,All sectors,601110,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Medium,Others,All sectors,602310,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Others,All sectors,601310,,Total number of employees for whom the EPF was paid
+Formal employment,Total number of employees,Large,Trading,All sectors,601510,,Total number of employees for whom the EPF was paid
+Formal employment,Total PF paying firms,Large,Manufacturing,Chemical,611218,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Paper products,611252,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Tobacco products,611264,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Services,Consultation Services,611423,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Services,Engineering,611427,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Agriculture,Farm and farming products,612130,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Agro-processing,612212,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Chemical,612218,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Clay/Ceramic products,612219,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Confectionary,612221,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Mining,612248,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Textile,612263,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Tobacco products,612264,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Services,Construction,612422,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Services,Consultation Services,612423,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Services,Education,612425,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Services,Electric Power Industry,612426,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Services,Engineering,612427,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Services,Financial Services,612431,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Services,Housekeeping Services,612436,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Services,Recreational Activties,612457,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Services,Transport Services,612465,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Trading,Commercial Establishment,612520,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Agriculture,Farm and farming products,613130,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Agro-processing,613212,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Chemical,613218,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Clay/Ceramic products,613219,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Engineering,613227,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Gas,613233,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Non edible oil/fat,613249,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Painting,613251,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Paper products,613252,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Textile,613263,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Tobacco products,613264,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Others,Others,613350,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Services,Automobile,613414,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Services,Construction,613422,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Services,Consultation Services,613423,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Services,Education,613425,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Services,Electric Power Industry,613426,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Services,Engineering,613427,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Services,F&B,613429,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Services,Financial Services,613431,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Services,Hospitality,613435,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Services,Housekeeping Services,613436,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Services,Media,613444,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Services,Medical,613445,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Services,Petroleum/Natural Gas,613453,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Services,Recreational Activties,613457,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Services,Transport Services,613465,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Trading,Commercial Establishment,613520,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Agriculture,Farm and farming products,611130,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Agriculture,Plantation,611154,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Agro-processing,611212,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Engineering,611227,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Metal and ores,611246,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Plastics,611255,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Tanning,611262,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Textile,611263,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Services,Automobile,611414,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Services,Construction,611422,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Services,Electric Power Industry,611426,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Services,Hospitality,611435,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Services,Medical,611445,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Services,Printing,611456,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Bone crushing,612216,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Engineering,612227,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Gas,612233,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Metal and ores,612246,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Non edible oil/fat,612249,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Painting,612251,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Paper products,612252,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Plastics,612255,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Rubber products,612258,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Salt,612259,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Tanning,612262,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Others,Others,612350,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Services,Automobile,612414,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Services,F&B,612429,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Services,Hospitality,612435,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Services,IT,612440,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Services,Media,612444,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Services,Medical,612445,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Services,Petroleum/Natural Gas,612453,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Services,Printing,612456,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Bakery,613215,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Bone crushing,613216,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Confectionary,613221,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Farm and farming products,613230,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Glass,613234,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Icecream,613237,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Metal and ores,613246,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Mining,613248,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Petroleum/Natural Gas,613253,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Plastics,613255,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Rubber products,613258,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Salt,613259,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Starch,613260,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Tanning,613262,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Water,613266,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Wood,613267,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Services,Delivery Services,613424,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Services,Entertainment,613428,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Services,IT,613440,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Services,Plantation,613454,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Services,Printing,613456,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Services,Wood,613467,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Agarbatti,611211,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Clay/Ceramic products,611219,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Icecream,611237,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Mining,611248,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Painting,611251,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Rubber products,611258,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Starch,611260,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Water,611266,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Others,Others,611350,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Services,Chemical,611418,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Services,Delivery Services,611424,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Services,Education,611425,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Services,F&B,611429,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Services,Financial Services,611431,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Services,Housekeeping Services,611436,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Services,IT,611440,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Services,Media,611444,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Services,Petroleum/Natural Gas,611453,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Services,Recreational Activties,611457,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Services,Transport Services,611465,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Trading,Commercial Establishment,611520,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Agriculture,Plantation,612154,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Agarbatti,612211,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Alcohol,612213,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Bakery,612215,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Food Preservation,612232,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Glass,612234,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Icecream,612237,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Indigo,612238,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Mill,612247,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Petroleum/Natural Gas,612253,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Recreational Activties,612257,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Starch,612260,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Water,612266,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Wood,612267,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Services,Chemical,612418,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Services,Delivery Services,612424,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Services,Entertainment,612428,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Agriculture,Plantation,613154,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Agarbatti,613211,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Alcohol,613213,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Construction,613222,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Indigo,613238,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Mill,613247,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Plantation,613254,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Recreational Activties,613257,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Stone Quarries,613261,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Services,Chemical,613418,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Services,Insurance,613439,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Services,Law,613441,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Alcohol,611213,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Farm and farming products,612230,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Bakery,611215,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Stone Quarries,612261,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Farm and farming products,611230,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Food Preservation,611232,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Services,Plantation,612454,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Brush,613217,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Food Preservation,613232,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Matches,613243,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Construction,612222,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Services,Law,612441,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Services,Wood,612467,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Glass,611234,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Matches,612243,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Stone Quarries,611261,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Confectionary,611221,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Gas,611233,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Petroleum/Natural Gas,611253,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Services,Entertainment,611428,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Services,Insurance,611439,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Services,Plantation,611454,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Services,Wood,611467,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Brush,612217,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Entertainment,612228,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Plantation,612254,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Services,Insurance,612439,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Entertainment,613228,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Bone crushing,611216,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Non edible oil/fat,611249,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Wood,611267,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Salt,611259,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Construction,611222,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Brush,611217,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,Linoleum and Indoleum,613242,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Matches,611243,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Plantation,611254,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,Linoleum and Indoleum,612242,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Entertainment,611228,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Mill,611247,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,Recreational Activties,611257,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,All firms,All sectors,All sectors,610010,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,All sectors,All sectors,611010,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,All sectors,All sectors,612010,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,All sectors,All sectors,613010,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Manufacturing,All sectors,611210,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Services,All sectors,611410,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Agriculture,All sectors,612110,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Manufacturing,All sectors,612210,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Services,All sectors,612410,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Trading,All sectors,612510,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Agriculture,All sectors,613110,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Manufacturing,All sectors,613210,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Others,All sectors,613310,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Services,All sectors,613410,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Small,Trading,All sectors,613510,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Agriculture,All sectors,611110,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Medium,Others,All sectors,612310,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Others,All sectors,611310,,Total number of firms who paid the EPF dues for given month
+Formal employment,Total PF paying firms,Large,Trading,All sectors,611510,,Total number of firms who paid the EPF dues for given month
+Formal employment,Firms missing PF dues,Small,Others,Others,633350,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Services,Construction,633422,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Services,F&B,633429,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Others,Others,632350,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Textile,633263,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Services,Consultation Services,633423,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Services,Education,633425,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Services,Engineering,633427,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Services,Printing,633456,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Services,Engineering,632427,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Services,IT,632440,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Construction,633222,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Services,Consultation Services,631423,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Services,Construction,632422,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Agro-processing,633212,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Services,Construction,631422,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Services,Consultation Services,632423,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Services,Recreational Activties,632457,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Engineering,633227,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Metal and ores,633246,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Services,Automobile,633414,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Services,Electric Power Industry,633426,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Trading,Commercial Establishment,633520,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Services,Petroleum/Natural Gas,631453,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Trading,Commercial Establishment,632520,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Chemical,633218,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Services,Petroleum/Natural Gas,633453,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Services,Recreational Activties,633457,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Trading,Commercial Establishment,631520,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Non edible oil/fat,633249,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Services,Financial Services,633431,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Manufacturing,Textile,631263,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Agriculture,Farm and farming products,632130,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Textile,632263,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Wood,632267,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Services,Education,632425,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Services,F&B,632429,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Services,Transport Services,632465,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Clay/Ceramic products,633219,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Paper products,633252,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Engineering,632227,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Services,Housekeeping Services,632436,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Services,Medical,632445,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Gas,633233,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Petroleum/Natural Gas,633253,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Plastics,633255,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Services,Hospitality,633435,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Services,Housekeeping Services,633436,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Services,IT,633440,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Services,Medical,633445,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Services,Transport Services,633465,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Agriculture,Plantation,633154,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Chemical,632218,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Mining,633248,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Manufacturing,Engineering,631227,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Services,Electric Power Industry,631426,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Paper products,632252,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Services,Electric Power Industry,632426,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Agriculture,Farm and farming products,633130,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Painting,633251,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Stone Quarries,633261,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Agriculture,Farm and farming products,631130,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Manufacturing,Metal and ores,631246,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Services,Engineering,631427,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Confectionary,632221,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Services,Automobile,632414,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Brush,633217,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Confectionary,633221,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Rubber products,633258,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Wood,633267,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Services,Chemical,633418,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Manufacturing,Agro-processing,631212,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Manufacturing,Tanning,631262,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Services,Automobile,631414,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Services,Insurance,631439,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Services,IT,631440,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Services,Recreational Activties,631457,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Agro-processing,632212,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Bakery,632215,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Entertainment,632228,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Glass,632234,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Metal and ores,632246,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Mining,632248,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Plastics,632255,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Rubber products,632258,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Tanning,632262,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Services,Delivery Services,632424,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Services,Hospitality,632435,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Services,Media,632444,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Services,Plantation,632454,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Services,Printing,632456,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Agarbatti,633211,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Bakery,633215,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Bone crushing,633216,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Glass,633234,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Tanning,633262,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Services,Delivery Services,633424,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Services,Media,633444,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Services,Wood,633467,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Agriculture,Plantation,632154,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Manufacturing,Starch,631260,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Mill,633247,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Manufacturing,Paper products,631252,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Salt,633259,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Services,Entertainment,633428,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Services,Housekeeping Services,631436,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Painting,632251,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Services,Financial Services,632431,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Recreational Activties,633257,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Tobacco products,632264,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Alcohol,633213,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Starch,633260,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Tobacco products,633264,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Gas,632233,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Clay/Ceramic products,632219,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Food Preservation,633232,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Farm and farming products,632230,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Entertainment,633228,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Services,Insurance,633439,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Services,Law,633441,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Services,Plantation,633454,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Manufacturing,Chemical,631218,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Bone crushing,632216,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Food Preservation,632232,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Farm and farming products,633230,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Water,633266,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Alcohol,632213,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Icecream,633237,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Agriculture,Plantation,631154,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Construction,632222,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Manufacturing,Tobacco products,631264,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Services,Transport Services,631465,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Services,Chemical,632418,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Services,Entertainment,632428,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Manufacturing,Gas,631233,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Services,Chemical,631418,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Services,F&B,631429,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Services,Hospitality,631435,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Petroleum/Natural Gas,632253,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Non edible oil/fat,632249,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Plantation,633254,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Manufacturing,Mining,631248,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Manufacturing,Rubber products,631258,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Agarbatti,632211,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Services,Petroleum/Natural Gas,632453,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Services,Wood,632467,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Stone Quarries,632261,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Services,Medical,631445,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Matches,633243,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Linoleum and Indoleum,633242,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Matches,632243,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Services,Insurance,632439,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Icecream,632237,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Water,632266,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Services,Education,631425,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Starch,632260,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Manufacturing,Clay/Ceramic products,631219,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Manufacturing,Plastics,631255,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Services,Financial Services,631431,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Manufacturing,Brush,631217,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Brush,632217,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Manufacturing,Wood,631267,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Services,Printing,631456,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Manufacturing,Bakery,631215,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Manufacturing,Glass,631234,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Manufacturing,Stone Quarries,631261,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Services,Delivery Services,631424,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Indigo,632238,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Manufacturing,Water,631266,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Recreational Activties,632257,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,Indigo,633238,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Services,Media,631444,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Others,Others,631350,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Manufacturing,Petroleum/Natural Gas,631253,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Plantation,632254,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Manufacturing,Confectionary,631221,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,Salt,632259,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Services,Wood,631467,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Manufacturing,Agarbatti,631211,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Manufacturing,Salt,631259,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Services,Entertainment,631428,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,All firms,All sectors,All sectors,630010,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,All sectors,All sectors,633010,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,All sectors,All sectors,632010,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,All sectors,All sectors,631010,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Others,All sectors,633310,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Services,All sectors,633410,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Others,All sectors,632310,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Manufacturing,All sectors,633210,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Services,All sectors,632410,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Services,All sectors,631410,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Trading,All sectors,633510,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Trading,All sectors,632510,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Trading,All sectors,631510,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Manufacturing,All sectors,631210,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Agriculture,All sectors,632110,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Medium,Manufacturing,All sectors,632210,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Small,Agriculture,All sectors,633110,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Agriculture,All sectors,631110,,"Firms registered with the EPFO, but missed on payments for given month"
+Formal employment,Firms missing PF dues,Large,Others,All sectors,631310,,"Firms registered with the EPFO, but missed on payments for given month"
+Fertiliser sales,POS sales,Compost,,,10110,Metric tonne,Fertiliser sales at POS
+Fertiliser sales,POS sales,DAP,,,10120,Metric tonne,Fertiliser sales at POS
+Fertiliser sales,POS sales,MOP,,,10130,Metric tonne,Fertiliser sales at POS
+Fertiliser sales,POS sales,P&K,,,10140,Metric tonne,Fertiliser sales at POS
+Fertiliser sales,POS sales,SSP,,,10150,Metric tonne,Fertiliser sales at POS
+Fertiliser sales,POS sales,Urea,,,10160,Metric tonne,Fertiliser sales at POS
+Fertiliser sales,POS sales,Total,,,10170,Metric tonne,Fertiliser sales at POS
+Fertiliser sales,Retail sales,Compost,,,10210,Metric tonne,Retail sales of fertilisers
+Fertiliser sales,Retail sales,DAP,,,10220,Metric tonne,Retail sales of fertilisers
+Fertiliser sales,Retail sales,MOP,,,10230,Metric tonne,Retail sales of fertilisers
+Fertiliser sales,Retail sales,P&K,,,10240,Metric tonne,Retail sales of fertilisers
+Fertiliser sales,Retail sales,SSP,,,10250,Metric tonne,Retail sales of fertilisers
+Fertiliser sales,Retail sales,Urea,,,10260,Metric tonne,Retail sales of fertilisers
+Fertiliser sales,Retail sales,Total,,,10270,Metric tonne,Retail sales of fertilisers
+Companies and Establishments,Companies under MCA,Number of companies Registered,Agriculture and Allied Activities,,901114,,Total number of companies registered under the Ministry of Corporate Affairs in the given month
+Companies and Establishments,Companies under MCA,Number of companies Registered,Business Services,,901117,,Total number of companies registered under the Ministry of Corporate Affairs in the given month
+Companies and Establishments,Companies under MCA,Total paid-up capital,Agriculture and Allied Activities,,901514,Rs.,Total paid up capital of the companies registered under MCA
+Companies and Establishments,Companies under MCA,Total paid-up capital,Business Services,,901517,Rs.,Total paid up capital of the companies registered under MCA
+Companies and Establishments,Companies under MCA,Total share capital,Agriculture and Allied Activities,,901614,Rs.,Total share capital of the companies registered under the MCA
+Companies and Establishments,Companies under MCA,Total share capital,Business Services,,901617,Rs.,Total share capital of the companies registered under the MCA
+Companies and Establishments,Companies under MCA,Number of companies Registered,"Community, personal & Social Services",,901119,,Total number of companies registered under the Ministry of Corporate Affairs in the given month
+Companies and Establishments,Companies under MCA,Number of companies Registered,Construction,,901121,,Total number of companies registered under the Ministry of Corporate Affairs in the given month
+Companies and Establishments,Companies under MCA,Number of companies Registered,"Electricity, Gas & Water companies",,901123,,Total number of companies registered under the Ministry of Corporate Affairs in the given month
+Companies and Establishments,Companies under MCA,Number of companies Registered,"Manufacturing (Paper & Paper products, Publishing, printingand reproduction of recorded media)",,901162,,Total number of companies registered under the Ministry of Corporate Affairs in the given month
+Companies and Establishments,Companies under MCA,Number of companies Registered,Manufacturing (Textiles),,901163,,Total number of companies registered under the Ministry of Corporate Affairs in the given month
+Companies and Establishments,Companies under MCA,Number of companies Registered,Trading,,901185,,Total number of companies registered under the Ministry of Corporate Affairs in the given month
+Companies and Establishments,Companies under MCA,Number of companies Registered,"Transport, storage and Communications",,901186,,Total number of companies registered under the Ministry of Corporate Affairs in the given month
+Companies and Establishments,Companies under MCA,Total paid-up capital,"Community, personal & Social Services",,901519,Rs.,Total paid up capital of the companies registered under MCA
+Companies and Establishments,Companies under MCA,Total paid-up capital,Construction,,901521,Rs.,Total paid up capital of the companies registered under MCA
+Companies and Establishments,Companies under MCA,Total paid-up capital,"Electricity, Gas & Water companies",,901523,Rs.,Total paid up capital of the companies registered under MCA
+Companies and Establishments,Companies under MCA,Total paid-up capital,"Manufacturing (Paper & Paper products, Publishing, printingand reproduction of recorded media)",,901562,Rs.,Total paid up capital of the companies registered under MCA
+Companies and Establishments,Companies under MCA,Total paid-up capital,Manufacturing (Textiles),,901563,Rs.,Total paid up capital of the companies registered under MCA
+Companies and Establishments,Companies under MCA,Total paid-up capital,Trading,,901585,Rs.,Total paid up capital of the companies registered under MCA
+Companies and Establishments,Companies under MCA,Total paid-up capital,"Transport, storage and Communications",,901586,Rs.,Total paid up capital of the companies registered under MCA
+Companies and Establishments,Companies under MCA,Total share capital,"Community, personal & Social Services",,901619,Rs.,Total share capital of the companies registered under the MCA
+Companies and Establishments,Companies under MCA,Total share capital,Construction,,901621,Rs.,Total share capital of the companies registered under the MCA
+Companies and Establishments,Companies under MCA,Total share capital,"Electricity, Gas & Water companies",,901623,Rs.,Total share capital of the companies registered under the MCA
+Companies and Establishments,Companies under MCA,Total share capital,"Manufacturing (Paper & Paper products, Publishing, printingand reproduction of recorded media)",,901662,Rs.,Total share capital of the companies registered under the MCA
+Companies and Establishments,Companies under MCA,Total share capital,Manufacturing (Textiles),,901663,Rs.,Total share capital of the companies registered under the MCA
+Companies and Establishments,Companies under MCA,Total share capital,Trading,,901685,Rs.,Total share capital of the companies registered under the MCA
+Companies and Establishments,Companies under MCA,Total share capital,"Transport, storage and Communications",,901686,Rs.,Total share capital of the companies registered under the MCA
+Companies and Establishments,Companies under MCA,Number of companies Registered,Manufacturing (Machinery & Equipments),,901158,,Total number of companies registered under the Ministry of Corporate Affairs in the given month
+Companies and Establishments,Companies under MCA,Total paid-up capital,Manufacturing (Machinery & Equipments),,901558,Rs.,Total paid up capital of the companies registered under MCA
+Companies and Establishments,Companies under MCA,Total share capital,Manufacturing (Machinery & Equipments),,901658,Rs.,Total share capital of the companies registered under the MCA
+Companies and Establishments,Companies under MCA,Number of companies Registered,Finance,,901126,,Total number of companies registered under the Ministry of Corporate Affairs in the given month
+Companies and Establishments,Companies under MCA,Total paid-up capital,Finance,,901526,Rs.,Total paid up capital of the companies registered under MCA
+Companies and Establishments,Companies under MCA,Total share capital,Finance,,901626,Rs.,Total share capital of the companies registered under the MCA
+Companies and Establishments,Companies under MCA,Number of companies Registered,Manufacturing (Food stuffs),,901156,,Total number of companies registered under the Ministry of Corporate Affairs in the given month
+Companies and Establishments,Companies under MCA,Number of companies Registered,"Manufacturing (Metals & Chemicals, and products thereof)",,901159,,Total number of companies registered under the Ministry of Corporate Affairs in the given month
+Companies and Establishments,Companies under MCA,Number of companies Registered,Manufacturing (Others),,901160,,Total number of companies registered under the Ministry of Corporate Affairs in the given month
+Companies and Establishments,Companies under MCA,Number of companies Registered,Real Estate and Renting,,901175,,Total number of companies registered under the Ministry of Corporate Affairs in the given month
+Companies and Establishments,Companies under MCA,Total paid-up capital,Manufacturing (Food stuffs),,901556,Rs.,Total paid up capital of the companies registered under MCA
+Companies and Establishments,Companies under MCA,Total paid-up capital,"Manufacturing (Metals & Chemicals, and products thereof)",,901559,Rs.,Total paid up capital of the companies registered under MCA
+Companies and Establishments,Companies under MCA,Total paid-up capital,Manufacturing (Others),,901560,Rs.,Total paid up capital of the companies registered under MCA
+Companies and Establishments,Companies under MCA,Total paid-up capital,Real Estate and Renting,,901575,Rs.,Total paid up capital of the companies registered under MCA
+Companies and Establishments,Companies under MCA,Total share capital,Manufacturing (Food stuffs),,901656,Rs.,Total share capital of the companies registered under the MCA
+Companies and Establishments,Companies under MCA,Total share capital,"Manufacturing (Metals & Chemicals, and products thereof)",,901659,Rs.,Total share capital of the companies registered under the MCA
+Companies and Establishments,Companies under MCA,Total share capital,Manufacturing (Others),,901660,Rs.,Total share capital of the companies registered under the MCA
+Companies and Establishments,Companies under MCA,Total share capital,Real Estate and Renting,,901675,Rs.,Total share capital of the companies registered under the MCA
+Companies and Establishments,Companies under MCA,Number of companies Registered,Mining & Quarrying,,901165,,Total number of companies registered under the Ministry of Corporate Affairs in the given month
+Companies and Establishments,Companies under MCA,Total paid-up capital,Mining & Quarrying,,901565,Rs.,Total paid up capital of the companies registered under MCA
+Companies and Establishments,Companies under MCA,Total share capital,Mining & Quarrying,,901665,Rs.,Total share capital of the companies registered under the MCA
+Companies and Establishments,Companies under MCA,Number of companies Registered,Insurance,,901132,,Total number of companies registered under the Ministry of Corporate Affairs in the given month
+Companies and Establishments,Companies under MCA,Total paid-up capital,Insurance,,901532,Rs.,Total paid up capital of the companies registered under MCA
+Companies and Establishments,Companies under MCA,Total share capital,Insurance,,901632,Rs.,Total share capital of the companies registered under the MCA
+Companies and Establishments,Companies under MCA,Number of companies Registered,Manufacturing (Leather & products thereof),,901157,,Total number of companies registered under the Ministry of Corporate Affairs in the given month
+Companies and Establishments,Companies under MCA,Total paid-up capital,Manufacturing (Leather & products thereof),,901557,Rs.,Total paid up capital of the companies registered under MCA
+Companies and Establishments,Companies under MCA,Total share capital,Manufacturing (Leather & products thereof),,901657,Rs.,Total share capital of the companies registered under the MCA
+Companies and Establishments,Companies under MCA,Number of companies Registered,Manufacturing (Wood Products),,901164,,Total number of companies registered under the Ministry of Corporate Affairs in the given month
+Companies and Establishments,Companies under MCA,Total paid-up capital,Manufacturing (Wood Products),,901564,Rs.,Total paid up capital of the companies registered under MCA
+Companies and Establishments,Companies under MCA,Total share capital,Manufacturing (Wood Products),,901664,Rs.,Total share capital of the companies registered under the MCA
+Companies and Establishments,Companies under MCA,Number of companies Registered,Building of complete constructions or parts thereof; civil e,,901116,,Total number of companies registered under the Ministry of Corporate Affairs in the given month
+Companies and Establishments,Companies under MCA,Total paid-up capital,Building of complete constructions or parts thereof; civil e,,901516,Rs.,Total paid up capital of the companies registered under MCA
+Companies and Establishments,Companies under MCA,Total share capital,Building of complete constructions or parts thereof; civil e,,901616,Rs.,Total share capital of the companies registered under the MCA
+Companies and Establishments,Companies under MCA,Number of companies Registered,"Manufacturing (Paper & Paper products, Publishing, printing",,901161,,Total number of companies registered under the Ministry of Corporate Affairs in the given month
+Companies and Establishments,Companies under MCA,Total paid-up capital,"Manufacturing (Paper & Paper products, Publishing, printing",,901561,Rs.,Total paid up capital of the companies registered under MCA
+Companies and Establishments,Companies under MCA,Total share capital,"Manufacturing (Paper & Paper products, Publishing, printing",,901661,Rs.,Total share capital of the companies registered under the MCA
+Companies and Establishments,Foreign companies,Total foreign companies registered,Trading,,902485,,Total foreign companies registered in India under the MCA
+Companies and Establishments,Foreign companies,Total foreign companies registered,Business Services,,902417,,Total foreign companies registered in India under the MCA
+Companies and Establishments,Foreign companies,Total foreign companies registered,Mining & Quarrying,,902465,,Total foreign companies registered in India under the MCA
+Companies and Establishments,Foreign companies,Total foreign companies registered,Manufacturing (Machinery & Equipments),,902458,,Total foreign companies registered in India under the MCA
+Companies and Establishments,Foreign companies,Total foreign companies registered,"Community, personal & Social Services",,902419,,Total foreign companies registered in India under the MCA
+Companies and Establishments,Foreign companies,Total foreign companies registered,Construction,,902421,,Total foreign companies registered in India under the MCA
+Companies and Establishments,Foreign companies,Total foreign companies registered,"Transport, storage and Communications",,902486,,Total foreign companies registered in India under the MCA
+Companies and Establishments,Foreign companies,Total foreign companies registered,"Manufacturing (Paper & Paper products, Publishing, printing",,902461,,Total foreign companies registered in India under the MCA
+Companies and Establishments,Foreign companies,Total foreign companies registered,"Manufacturing (Metals & Chemicals, and products thereof)",,902459,,Total foreign companies registered in India under the MCA
+Companies and Establishments,Foreign companies,Total foreign companies registered,Finance,,902426,,Total foreign companies registered in India under the MCA
+Companies and Establishments,Foreign companies,Total foreign companies registered,Real Estate and Renting,,902475,,Total foreign companies registered in India under the MCA
+Companies and Establishments,Foreign companies,Total foreign companies registered,Insurance,,902432,,Total foreign companies registered in India under the MCA
+Companies and Establishments,Foreign companies,Total foreign companies registered,Manufacturing (Textiles),,902463,,Total foreign companies registered in India under the MCA
+Companies and Establishments,Foreign companies,Total foreign companies registered,Agriculture and Allied Activities,,902414,,Total foreign companies registered in India under the MCA
+Companies and Establishments,LLPs,Number of LLPs Registered,Business Services,,903217,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Business Services,,903317,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Computer and related activities,,903220,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Computer and related activities,,903320,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Other Business Activities,,903268,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Other Business Activities,,903368,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,"Transport, storage and Communications",,903286,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,"Transport, storage and Communications",,903386,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Agriculture and Allied Activities,,903214,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Agriculture and Allied Activities,,903314,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,"Community, personal & Social Services",,903219,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,"Community, personal & Social Services",,903319,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Manufacturing (Food stuffs),,903256,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Manufacturing (Food stuffs),,903356,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,"Manufacturing (Paper & Paper products, Publishing, printing",,903261,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,"Manufacturing (Paper & Paper products, Publishing, printing",,903361,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Other Service activities,,903270,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Other Service activities,,903370,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Trading,,903285,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Trading,,903385,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Wholesale trade and commission,,903289,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Wholesale trade and commission,,903389,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,"Retail trade,except of motor vehicle",,903280,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,"Retail trade,except of motor vehicle",,903380,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Real Estate and Renting,,903275,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Real Estate and Renting,,903375,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Hotels and Restaurants,,903231,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Hotels and Restaurants,,903331,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,"Manufacturing (Metals & Chemicals, and products thereof)",,903259,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,"Manufacturing (Metals & Chemicals, and products thereof)",,903359,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Construction,,903221,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Construction,,903321,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Education,,903222,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Education,,903322,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Manufacture of food products,,903241,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Manufacture of food products,,903341,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,"Electricity, Gas & Water companies",,903223,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,"Electricity, Gas & Water companies",,903323,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Manufacturing (Others),,903260,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Manufacturing (Others),,903360,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Real estate activities,,903274,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Real estate activities,,903374,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Supporting and auxiliary transport,,903283,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Supporting and auxiliary transport,,903383,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Health and Social Work,,903230,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Health and Social Work,,903330,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,"Sale,Maintenance&Repair of mot",,903281,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,"Sale,Maintenance&Repair of mot",,903381,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Insurance and pension funding,,903233,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Insurance and pension funding,,903333,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Manufacture of chemicals and chemical products,,903237,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Manufacture of chemicals and chemical products,,903337,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Manufacture of other non-metal,,903248,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Manufacture of other non-metal,,903348,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Manufacture of rubber and plastic,,903252,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Manufacture of rubber and plastic,,903352,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,"Recreational, cultural and sports",,903276,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,"Recreational, cultural and sports",,903376,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Manufacturing (Machinery & Equipments),,903258,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Manufacturing (Machinery & Equipments),,903358,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Activities auxiliary to finance,,903211,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Activities auxiliary to finance,,903311,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,"Electricity, Gas, Steam and Hot Water",,903224,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,"Electricity, Gas, Steam and Hot Water",,903324,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Insurance,,903232,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Insurance,,903332,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Manufacture of electrical machines,,903239,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Manufacture of electrical machines,,903339,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,"Manufacture of motor vehicles,",,903246,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,"Manufacture of motor vehicles,",,903346,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Tanning and dressing of leather,,903284,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Tanning and dressing of leather,,903384,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,"Activities Agriculture, Hunting",,903210,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,"Activities Agriculture, Hunting",,903310,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Manufacturing (Textiles),,903263,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Manufacturing (Textiles),,903363,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Recycling,,903277,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Recycling,,903377,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Manufacturing (Leather & products thereof),,903257,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Manufacturing (Leather & products thereof),,903357,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Renting of machinery and equipment,,903278,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Renting of machinery and equipment,,903378,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Manufacture of textiles,,903253,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Manufacture of textiles,,903353,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Land transport; Transport via pipelines,,903234,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Land transport; Transport via pipelines,,903334,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Manufacture of wearing apparel,,903255,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Manufacture of wearing apparel,,903355,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Mining & Quarrying,,903265,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Mining & Quarrying,,903365,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Manufacture of furniture,,903242,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Manufacture of furniture,,903342,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Finance,,903226,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Finance,,903326,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Other Mining and Quarrying,,903269,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Other Mining and Quarrying,,903369,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Activities of private households,,903213,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Activities of private households,,903313,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Manufacture of medical,,903244,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Manufacture of medical,,903344,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Manufacture of paper and paper,,903250,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Manufacture of paper and paper,,903350,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Manufacture of fabricated metal,,903240,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Manufacture of fabricated metal,,903340,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,"Publishing, printing and repro",,903273,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,"Publishing, printing and repro",,903373,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Manufacture of basic metals,,903236,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Manufacture of basic metals,,903336,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Activities of membership organ,,903212,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Activities of membership organ,,903312,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Manufacture of machinery and equipment,,903243,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Manufacture of machinery and equipment,,903343,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Manufacture of other transport,,903249,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Manufacture of other transport,,903349,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Manufacturing (Wood Products),,903264,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Manufacturing (Wood Products),,903364,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Sewage and refuse disposal,,903282,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Sewage and refuse disposal,,903382,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Post and telecommunications,,903271,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Post and telecommunications,,903371,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,"Manufacture of coke, refined petroleum products",,903238,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,"Manufacture of coke, refined petroleum products",,903338,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,"Manufacture of radio, television",,903251,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,"Manufacture of radio, television",,903351,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Manufacture of tobacco product,,903254,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Manufacture of tobacco product,,903354,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Manufacture articles of straw & plaiting materials,,903235,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Manufacture articles of straw & plaiting materials,,903335,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Extract crude petroleum & natural gas,,903225,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Extract crude petroleum & natural gas,,903325,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Research and Development,,903279,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Research and Development,,903379,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,"Collection, Purification and Distillation",,903218,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,"Collection, Purification and Distillation",,903318,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,"Manufacture of office, account",,903247,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,"Manufacture of office, account",,903347,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Water Transport,,903288,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Water Transport,,903388,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Undifferentiated goods-producing activities,,903287,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Undifferentiated goods-producing activities,,903387,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Manufacture of motor vehicles,,903245,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Manufacture of motor vehicles,,903345,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Public Administration and Defence,,903272,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Public Administration and Defence,,903372,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,"Fishing,Operation of fish hatch",,903228,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,"Fishing,Operation of fish hatch",,903328,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Mining of coal and lignite,,903266,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Mining of coal and lignite,,903366,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Air Transport,,903215,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Air Transport,,903315,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,Mining of metal ores,,903267,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,Mining of metal ores,,903367,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,"Financial intermediation, except insurance and pension",,903227,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,"Financial intermediation, except insurance and pension",,903327,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,LLPs,Number of LLPs Registered,"Forestry, Logging and Related Service",,903229,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,"Forestry, Logging and Related Service",,903329,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,Companies under MCA,Number of companies Registered,All categories,,901100,,Total number of companies registered under the Ministry of Corporate Affairs in the given month
+Companies and Establishments,LLPs,Number of LLPs Registered,All categories,,903200,,Number of Limited Liability Partnership firms registered in the given month
+Companies and Establishments,LLPs,Obligation of contribution,All categories,,903300,Rs.,Obligation of contribution of the LLPs registered in the month
+Companies and Establishments,Foreign companies,Total foreign companies registered,All categories,,902400,,Total foreign companies registered in India under the MCA
+Companies and Establishments,Companies under MCA,Total paid-up capital,All categories,,901500,Rs.,Total paid up capital of the companies registered under MCA
+Companies and Establishments,Companies under MCA,Total share capital,All categories,,901600,Rs.,Total share capital of the companies registered under the MCA
+MNREGA,Total persondays generated,,,,30012,,Total work generated under MNREGA. Persondays: number of people provided work X number of days
+MNREGA,Demand projections met (%),,,,30011,,The share of demand for work under MNREGA met
+Companies and Establishments,MSMEs,Manufacturing,Medium,Companies,40111,,New MSMEs registered
+Companies and Establishments,MSMEs,Manufacturing,Medium,Employees,40112,,New MSMEs registered
+Companies and Establishments,MSMEs,Manufacturing,Medium,Investment,40113,,New MSMEs registered
+Companies and Establishments,MSMEs,Manufacturing,Micro,Companies,40121,,New MSMEs registered
+Companies and Establishments,MSMEs,Manufacturing,Micro,Employees,40122,,New MSMEs registered
+Companies and Establishments,MSMEs,Manufacturing,Micro,Investment,40123,,New MSMEs registered
+Companies and Establishments,MSMEs,Manufacturing,Small,Companies,40131,,New MSMEs registered
+Companies and Establishments,MSMEs,Manufacturing,Small,Employees,40132,,New MSMEs registered
+Companies and Establishments,MSMEs,Manufacturing,Small,Investment,40133,,New MSMEs registered
+Companies and Establishments,MSMEs,Services,Medium,Companies,40211,,New MSMEs registered
+Companies and Establishments,MSMEs,Services,Medium,Employees,40212,,New MSMEs registered
+Companies and Establishments,MSMEs,Services,Medium,Investment,40213,,New MSMEs registered
+Companies and Establishments,MSMEs,Services,Micro,Companies,40221,,New MSMEs registered
+Companies and Establishments,MSMEs,Services,Micro,Employees,40222,,New MSMEs registered
+Companies and Establishments,MSMEs,Services,Micro,Investment,40223,,New MSMEs registered
+Companies and Establishments,MSMEs,Services,Small,Companies,40231,,New MSMEs registered
+Companies and Establishments,MSMEs,Services,Small,Employees,40232,,New MSMEs registered
+Companies and Establishments,MSMEs,Services,Small,Investment,40233,,New MSMEs registered
+Rainfall,Rainfall departures,,,,13000,%,Share of rainfall in the current month over 8-year long-term averages
+Vehicle Registrations,Vehicle category,Transport,,,50110,,Total number of transport vehicles registered at RTOs
+Vehicle Registrations,Vehicle category,Non Transport,,,50120,,Total number of non transport vehicles registered at RTOs
+Vehicle Registrations,Personal Transport,Two-wheelers,,,50210,,"Total number of two-wheelers registered: scooters, motorcycles, moped used for personal transport"
+Vehicle Registrations,Personal Transport,Four-wheelers,,,50220,,Total number of four-wheelers registered (cars) used for personal transport
+Vehicle Registrations,Commercial vehicles,Agricultural vehicles,,,50310,,"Total number of agricultural vehicles registered at RTOs: harvesters, tillers, trailers and tractors for agricultural transport"
+Vehicle Registrations,Commercial vehicles,Goods Carriers,,,50320,,Total number of goods carriers registered at RTOs
+Vehicle Registrations,Commercial vehicles,Passenger Transport,Bus,,50331,,Total number of passenger transport vehicles registered at RTOs: buses
+Vehicle Registrations,Commercial vehicles,Passenger Transport,Cabs,,50332,,Total number of passenger transport vehicles registered at RTOs: commercial cabs
+Vehicle Registrations,Commercial vehicles,Passenger Transport,Rickshaws,,50333,,Total number of passenger transport vehicles registered at RTOs: rickshaws and e: rickshaws
+Vehicle Registrations,Commercial vehicles,Construction vehicles,,,50340,,"Total number of construction vehicles registered at RTOs: crane, dumpers, excavators, road rollers etc."
+Agmarket commodities,Beverages,Cocoa,Arrivals (Tonnes),,811121,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Beverages,Coffee,Arrivals (Tonnes),,811111,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Cereals,Bajra(Pearl Millet/Cumbu),Arrivals (Tonnes),,812161,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Cereals,Jowar(Sorghum),Arrivals (Tonnes),,812111,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Cereals,Maize,Arrivals (Tonnes),,812121,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Cereals,Paddy(Dhan),Arrivals (Tonnes),,812131,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Cereals,Rice,Arrivals (Tonnes),,812141,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Cereals,Wheat,Arrivals (Tonnes),,812151,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Drug and Narcotics,Betal Leaves,Arrivals (Tonnes),,813111,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Drug and Narcotics,Tobacco,Arrivals (Tonnes),,813121,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Dry Fruits,Almond(Badam),Arrivals (Tonnes),,813151,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Dry Fruits,Cashewnuts,Arrivals (Tonnes),,813131,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Dry Fruits,Dry Grapes,Arrivals (Tonnes),,813141,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Dry Fruits,Walnut,Arrivals (Tonnes),,813161,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Fibre Crops,Cotton,Arrivals (Tonnes),,814121,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Fibre Crops,Jute,Arrivals (Tonnes),,814111,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Forest Products,Bamboo,Arrivals (Tonnes),,815131,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Forest Products,Broomstick(Flower Broom),Arrivals (Tonnes),,815121,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Forest Products,Wood,Arrivals (Tonnes),,815111,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Fruits,Apple,Arrivals (Tonnes),,816121,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Fruits,Banana,Arrivals (Tonnes),,816111,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Fruits,Grapes,Arrivals (Tonnes),,816151,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Fruits,Guava,Arrivals (Tonnes),,816161,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Fruits,Orange,Arrivals (Tonnes),,816131,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Fruits,Papaya,Arrivals (Tonnes),,816141,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Live Stock Poultry Fisheries,Egg,Arrivals (Tonnes),,817141,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Live Stock Poultry Fisheries,Fish,Arrivals (Tonnes),,817131,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Live Stock Poultry Fisheries,Goat,Arrivals (Tonnes),,817111,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Live Stock Poultry Fisheries,Hen,Arrivals (Tonnes),,817121,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Oil Seeds,Castor Seed,Arrivals (Tonnes),,818141,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Oil Seeds,Groundnut,Arrivals (Tonnes),,818131,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Oil Seeds,Mustard,Arrivals (Tonnes),,818111,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Oil Seeds,Soyabean,Arrivals (Tonnes),,818121,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Oils and Fats,Butter,Arrivals (Tonnes),,819151,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Oils and Fats,Coconut Oil,Arrivals (Tonnes),,819121,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Oils and Fats,Dalda,Arrivals (Tonnes),,819141,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Oils and Fats,Ghee,Arrivals (Tonnes),,819131,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Oils and Fats,Mustard Oil,Arrivals (Tonnes),,819111,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Other,Gramflour,Arrivals (Tonnes),,820161,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Other,Gur(Jaggery),Arrivals (Tonnes),,820111,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Other,Maida Atta,Arrivals (Tonnes),,820121,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Other,Sugar,Arrivals (Tonnes),,820141,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Other,Sugarcane,Arrivals (Tonnes),,820151,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Other,Wheat Atta,Arrivals (Tonnes),,820131,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Pulses,Arhar (Tur/Red Gram)(Whole),Arrivals (Tonnes),,821111,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Pulses,Arhar Dal(Tur Dal),Arrivals (Tonnes),,821181,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Pulses,Beans,Arrivals (Tonnes),,821211,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Pulses,Bengal Gram Dal (Chana Dal),Arrivals (Tonnes),,821141,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Pulses,Bengal Gram(Gram)(Whole),Arrivals (Tonnes),,821121,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Pulses,Green Gram (Moong)(Whole),Arrivals (Tonnes),,821171,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Pulses,Green Gram Dal (Moong Dal),Arrivals (Tonnes),,821151,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Pulses,Green Peas,Arrivals (Tonnes),,821191,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Pulses,Kabuli Chana(Chickpeas-White),Arrivals (Tonnes),,821201,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Pulses,Lentil (Masur)(Whole),Arrivals (Tonnes),,821131,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Pulses,Masur Dal,Arrivals (Tonnes),,821161,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Spices,Ajwan,Arrivals (Tonnes),,822151,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Spices,Black pepper,Arrivals (Tonnes),,822181,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Spices,Cardamoms,Arrivals (Tonnes),,822211,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Spices,Chili Red,Arrivals (Tonnes),,822191,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Spices,Cinamon(Dalchini),Arrivals (Tonnes),,822241,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Spices,Cloves,Arrivals (Tonnes),,822221,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Spices,Coconut,Arrivals (Tonnes),,822131,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Spices,Corriander seed,Arrivals (Tonnes),,822161,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Spices,Cummin Seed(Jeera),Arrivals (Tonnes),,822141,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Spices,Dry Chillies,Arrivals (Tonnes),,822111,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Spices,Garlic,Arrivals (Tonnes),,822121,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Spices,Methi Seeds,Arrivals (Tonnes),,822171,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Spices,Pepper garbled,Arrivals (Tonnes),,822231,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Spices,Turmeric,Arrivals (Tonnes),,822201,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Vegetables,Bhindi(Ladies Finger),Arrivals (Tonnes),,823111,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Vegetables,Brinjal,Arrivals (Tonnes),,823121,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Vegetables,Cabbage,Arrivals (Tonnes),,823131,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Vegetables,Capsicum,Arrivals (Tonnes),,823201,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Vegetables,Cauliflower,Arrivals (Tonnes),,823141,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Vegetables,Coriander(Leaves),Arrivals (Tonnes),,823211,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Vegetables,Cucumbar(Kheera),Arrivals (Tonnes),,823151,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Vegetables,Drumstick,Arrivals (Tonnes),,823221,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Vegetables,Green Chilli,Arrivals (Tonnes),,823161,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Vegetables,Onion,Arrivals (Tonnes),,823191,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Vegetables,Potato,Arrivals (Tonnes),,823171,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Vegetables,Tomato,Arrivals (Tonnes),,823181,Tonnes,Total tonnes of commodity arriving in wholesale Agmarkets in the month
+Agmarket commodities,Beverages,Cocoa,Modal price,,811122,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Beverages,Coffee,Modal price,,811112,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Cereals,Bajra(Pearl Millet/Cumbu),Modal price,,812162,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Cereals,Jowar(Sorghum),Modal price,,812112,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Cereals,Maize,Modal price,,812122,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Cereals,Paddy(Dhan),Modal price,,812132,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Cereals,Rice,Modal price,,812142,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Cereals,Wheat,Modal price,,812152,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Drug and Narcotics,Betal Leaves,Modal price,,813112,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Drug and Narcotics,Tobacco,Modal price,,813122,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Dry Fruits,Almond(Badam),Modal price,,813152,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Dry Fruits,Cashewnuts,Modal price,,813132,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Dry Fruits,Dry Grapes,Modal price,,813142,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Dry Fruits,Walnut,Modal price,,813162,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Fibre Crops,Cotton,Modal price,,814122,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Fibre Crops,Jute,Modal price,,814112,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Forest Products,Bamboo,Modal price,,815132,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Forest Products,Broomstick(Flower Broom),Modal price,,815122,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Forest Products,Wood,Modal price,,815112,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Fruits,Apple,Modal price,,816122,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Fruits,Banana,Modal price,,816112,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Fruits,Grapes,Modal price,,816152,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Fruits,Guava,Modal price,,816162,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Fruits,Orange,Modal price,,816132,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Fruits,Papaya,Modal price,,816142,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Live Stock Poultry Fisheries,Egg,Modal price,,817142,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Live Stock Poultry Fisheries,Fish,Modal price,,817132,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Live Stock Poultry Fisheries,Goat,Modal price,,817112,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Live Stock Poultry Fisheries,Hen,Modal price,,817122,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Oil Seeds,Castor Seed,Modal price,,818142,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Oil Seeds,Groundnut,Modal price,,818132,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Oil Seeds,Mustard,Modal price,,818112,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Oil Seeds,Soyabean,Modal price,,818122,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Oils and Fats,Butter,Modal price,,819152,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Oils and Fats,Coconut Oil,Modal price,,819122,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Oils and Fats,Dalda,Modal price,,819142,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Oils and Fats,Ghee,Modal price,,819132,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Oils and Fats,Mustard Oil,Modal price,,819112,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Other,Gramflour,Modal price,,820162,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Other,Gur(Jaggery),Modal price,,820112,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Other,Maida Atta,Modal price,,820122,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Other,Sugar,Modal price,,820142,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Other,Sugarcane,Modal price,,820152,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Other,Wheat Atta,Modal price,,820132,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Pulses,Arhar (Tur/Red Gram)(Whole),Modal price,,821112,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Pulses,Arhar Dal(Tur Dal),Modal price,,821182,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Pulses,Beans,Modal price,,821212,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Pulses,Bengal Gram Dal (Chana Dal),Modal price,,821142,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Pulses,Bengal Gram(Gram)(Whole),Modal price,,821122,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Pulses,Green Gram (Moong)(Whole),Modal price,,821172,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Pulses,Green Gram Dal (Moong Dal),Modal price,,821152,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Pulses,Green Peas,Modal price,,821192,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Pulses,Kabuli Chana(Chickpeas-White),Modal price,,821202,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Pulses,Lentil (Masur)(Whole),Modal price,,821132,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Pulses,Masur Dal,Modal price,,821162,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Spices,Ajwan,Modal price,,822152,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Spices,Black pepper,Modal price,,822182,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Spices,Cardamoms,Modal price,,822212,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Spices,Chili Red,Modal price,,822192,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Spices,Cinamon(Dalchini),Modal price,,822242,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Spices,Cloves,Modal price,,822222,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Spices,Coconut,Modal price,,822132,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Spices,Corriander seed,Modal price,,822162,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Spices,Cummin Seed(Jeera),Modal price,,822142,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Spices,Dry Chillies,Modal price,,822112,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Spices,Garlic,Modal price,,822122,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Spices,Methi Seeds,Modal price,,822172,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Spices,Pepper garbled,Modal price,,822232,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Spices,Turmeric,Modal price,,822202,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Vegetables,Bhindi(Ladies Finger),Modal price,,823112,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Vegetables,Brinjal,Modal price,,823122,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Vegetables,Cabbage,Modal price,,823132,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Vegetables,Capsicum,Modal price,,823202,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Vegetables,Cauliflower,Modal price,,823142,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Vegetables,Coriander(Leaves),Modal price,,823212,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Vegetables,Cucumbar(Kheera),Modal price,,823152,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Vegetables,Drumstick,Modal price,,823222,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Vegetables,Green Chilli,Modal price,,823162,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Vegetables,Onion,Modal price,,823192,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Vegetables,Potato,Modal price,,823172,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Agmarket commodities,Vegetables,Tomato,Modal price,,823182,Rs.,Modal price (price most paid) for the commodity in wholesale Agmarkets in the month
+Banking and Finance,Credit,Total credit,,,20011,Rs.,Total credit disbursed by Scheduled Commercial banks in respective quarter
+Banking and Finance,Deposit,Total deposits,,,20024,Rs.,Total deposits collected by Scehduled Commercial banks in respective quarter
+Banking and Finance,Number of Reporting Offices,Total,,,20031,,Total number of reporting offices of Scheduled Commercial banks
+Banking and Finance,Deposit,Current deposits,,,20021,Rs.,Total current deposits collected by Scheduled Commercial banks in quarter
+Banking and Finance,Deposit,Savings deposits,,,20022,Rs.,Total savings deposits collected by Scheduled Commercial banks in quarter
+Banking and Finance,Deposit,Term deposits,,,20023,Rs.,Total term deposits collected by Scheduled Commercial banks in quarter
+Satellite data,Nightlights,,,,80001,,"11-month averages of mean nightlights, a proxy to measure economic activity"
+Economic Activity Index,Diffusion index,,,,999999,,"The diffusion index for select important indicators of a geography. Higher the index, better the performance"

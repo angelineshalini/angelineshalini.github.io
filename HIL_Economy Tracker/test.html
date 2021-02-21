@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Economy Tracker</title>
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    
+
+     
+ <link rel="stylesheet" href="css/style.css">
+
+  
+    <link rel="icon" href="images/favicon.png">
+	
+	<link rel="stylesheet" type="text/css" id="applicationStylesheet" href="EconomicActivity___1.css"/>
+ <!-- <script id="applicationScript" type="text/javascript" src="EconomicActivity___1.js"></script> -->
+ 
+ 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+ 
+ <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css" >
+
+<link rel="stylesheet" href="
+https://cdn.datatables.net/buttons/1.6.4/css/buttons.dataTables.min.css" >
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</script>
+</head>
+<style>
+body{
+background-color:#F9F9F9;
+}
+
+.white-bg{
+background-color:#ffffff;
+filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+}
+
+.ea-header
+{
+height:110px;
+background-color:rgba(89,64,92,1);
+display:flex;
+}
+
+#Trace_economic_shifts_through_ {
+	 
+	position: relative;
+	overflow: visible;
+	 
+	white-space: nowrap;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+	left: 0px;
+    top: 0px;
+	padding-left:30px;
+	padding-top:10px;
+	
+}
+#Trace_economic_shifts_through_2{
+	 
+	position: relative;
+	 
+	 
+	left: 0px;
+    top: 0px;
+	
+	background-image:url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg"  ><path d="M 0 0 L 1200.0260620117188 0 L 1200.0260620117188 110 L 0 110 L 56.83083343505859 55 L 0 0 Z"  style="fill: rgba(50,47,61,1)"></path></svg>');
+  
+	background-size:cover;
+	
+	 	
+	
+}
+
+#Path_218 {
+	fill: rgba(50,47,61,1);
+ 
+}
+.Path_218 {
+	 
+	position: relative;
+	 
+	height: 134px;
+	left: 0px;
+	top: 0px;
+	 
+	 
+}
+</style>
+<body data-spy="scroll" data-target=".navbar" data-offset="90">
+ 
+ <div class ="map-tooltip" style="opacity:0">
+	  <div id="map-tooltip-header"  ><b> India </b></div>
+		      <table id="map-tooltip-table" >
+			  <tbody></tbody>
+			  </table>
+			   	</div>
+<!--header start-->
+<header id="home" class="header-appear"  >
+    <nav class="navbar navbar-top navbar-expand-lg side-logo-nav nav-line bg-gradient" style="position:relative">
+        <div class="container">
+            <a href="#home" title="Logo" class="logo scroll"><img src="images/et-White-logo.png" class="logo-dark" alt="logo">
+                <img src="images/et-White-logo.png" alt="logo" class="logo-light default">
+            </a>
+            <div class="collapse navbar-collapse" id="container">
+                <ul class="navbar-nav ml-auto mont-font">
+                    <!-- <li class="nav-item">
+                        <a class="nav-link scroll whitecolor active" href="#home">Home</a>
+                    </li> -->
+                    <!-- <li class="nav-item">
+                        <a class="nav-link scroll whitecolor " href="#about">Who We Are</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link scroll whitecolor" href="#howwehelp">How we can help</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll whitecolor" href="#howitworks">How it works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll whitecolor" href="#whyus">Why us</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link scroll whitecolor" href="#packages">Packages</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link scroll whitecolor" href="#contact">Request a call </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll whitecolor" href="#contact">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll whitecolor" href="#contact">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll whitecolor" href="#contact">Sign in</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="social_icons">
+                <ul>
+                    <li><a href="https://www.facebook.com/HowIndiaLives/" class="facebook_bg_hvr2"><i class="fa fa-facebook" aria-hidden="true"></i></a> </li>
+                    <li><a href="https://twitter.com/Howindialives" class="twitter_bg_hvr2"><i class="fa fa-twitter" aria-hidden="true"></i></a> </li>
+                    <li><a href="https://www.instagram.com/howindialives_/?hl=en" class="instagram_bg_hvr2"><i class="fa fa-instagram" aria-hidden="true"></i></a> </li>
+                </ul>
+            </div>
+            <div class="side-nav-btn" id="sidemenu_toggle">
+                <span class="bg-white"></span>
+                <span class="bg-white"></span>
+                <span class="bg-white"></span>
+            </div>
+        </div>
+    </nav>
+    <!-- side menu -->
+    <div class="side-menu right-btn">
+        <div class="inner-wrapper">
+            <span class="btn-close" id="btn_sideNavClose"><i></i><i></i></span>
+            <nav class="side-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#howwehelp">How We can Help</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#howitworks">How it works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#whyus">Why Us</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link scroll" href="#packages">Packages</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#contact">Request a Call</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#contact">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#contact">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll whitecolor" href="#contact">Sign in</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="side-footer text-white w-100">
+                <ul class="social-icons-simple">
+                    <li><a href="https://www.facebook.com/HowIndiaLives/" class="facebook_bg_hvr2"><i class="fa fa-facebook" aria-hidden="true"></i></a> </li>
+                    <li><a href="https://twitter.com/Howindialives" class="twitter_bg_hvr2"><i class="fa fa-twitter" aria-hidden="true"></i></a> </li>
+                    <li><a href="https://www.linkedin.com/company/howindialives" class="linkdin_bg_hvr2"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </li>
+                    <li><a href="https://www.instagram.com/howindialives_/?hl=en" class="instagram_bg_hvr2"><i class="fa fa-instagram" aria-hidden="true"></i></a> </li>
+                </ul>
+                <p class="whitecolor">&copy; 2020 Economy Tracker by HIL</p>
+            </div>
+        </div>
+    </div>
+    <!-- End side menu -->
+
+</header>
+<!--header end-->
+</div>
+ <div class="container-fluid">
+ 
+ 
+<div class="ea-header mb-2" >
+<div class="col-md-4">
+<div data-type="Text"   id="Trace_economic_shifts_through_">
+		<span>Trace economic shifts through <br>public data intelligence</span>
+	</div>
+	<div data-type="Text" data-name="Monthly data" id="Monthly_data">
+		<span>Monthly data</span>
+	</div>
+	<div data-type="Text" data-name="State, district levels" id="State_district_levels">
+		<span>State, district levels</span>
+	</div>
+	<div data-type="Text" data-name="Metrics that matter" id="Metrics_that_matter">
+		<span>Metrics that matter</span>
+	</div>
+	</div>
+<div data-type="Text" id="Trace_economic_shifts_through_2" class=" col-md-8 p-0"  >
+	<div class="row p-2 pl-4 m-0"> 
+	<div class="col-md-3 p-2 pl-5"> 
+	<div data-type="Text" data-name="Choose an
+Indicator" id="Choose_an_Indicator"  style="padding-left:10px;padding-top:25px">
+		<span>Choose an<br/>Indicator</span>
+	</div>
+	</div>
+	
+	
+	<div class="col-md-9 p-2 " > 
+	
+	<div class="row d-flex">
+		<div data-type="Text" data-name="Fertiliser sales" id="Economic_Activity" class="sector_button col-md-3 ">
+		<span>Fertiliser Sales</span>
+	</div>
+	<div data-type="Text" data-name="Vehicle Registrations" id="Rural" class="sector_button col-md-3">
+		<span>Vehicle Registration
+</span>
+	</div>
+	<div data-type="Text" data-name="Banking and Finance" id="Income" class="sector_button col-md-3">
+		<span>Banking & Finance</span>
+	</div>
+	<div data-type="Text" data-name="MNREGA" id="Employment" class="sector_button col-md-3">
+		<span>MNREGA</span>
+	</div>
+	</div>
+	
+	<div class="row d-flex">
+	<div data-type="Text" data-name="Companies and Establishments" id="Farm_produce" class="sector_button col-md-3">
+		<span>Companies</span>
+	</div>
+	<div data-type="Text" data-name="Formal employment" id="Healthcare" class="sector_button col-md-3">
+		<span>EPFO</span>
+	</div>
+	<div data-type="Text" data-name="Agmarket commodities" id="Vehicle_sales" class="sector_button col-md-3">
+		<span>Agmarket</span>
+	</div>
+	<div data-type="Text" data-name="Covid-19" id="Satellite" class="sector_button col-md-3">
+		<span>Covid-19</span>
+	</div>
+	</div>
+	
+	<div class="row d-flex">
+	<div data-type="Text" data-name="Rainfall" id="Entreprenuership" class="sector_button col-md-3">
+		<span>Rainfall</span>
+	</div>
+	<div data-type="Text" data-name="Satellite data" id="Sat" class="sector_button col-md-3">
+		<span>Satellite data</span>
+	</div>
+	<div data-type="Text" data-name="Economic Activity Index" id="index" class="sector_button col-md-3">
+		<span>Economic Activity<br>Index
+		<!-- <sup style="font-size:60%;color:white"> Coming Soon!</sup> -->
+	</span>
+	</div>
+	<div data-type="Text" data-name="Sectoral_Insights" id="sec_insights" class="sector_button2 col-md-3">
+		<span><a href="html_2.html" target="_blank" style="text-decoration:none;">Sectoral Insights</a></span>
+	</div>
+	</div>
+	 
+	 
+	</div>
+
+
+
+ </div>
+ </div>
+ </div>
+ 
+    <!-- MODAL Card body -->
+    <div id="collapse4" class="modal" tabindex="-1" role="dialog" >
+      <div class="modal-dialog" style="max-width:80%">
+      <div class="modal-content">
+	   <div class="modal-header">
+		   <input type="text" placeholder="Search product" class="modal-search">
+		   <span class="close">&times;</span>
+	   </div>
+	    
+	  </div>
+	  </div>
+	  </div>
+	     <!-- MODAL Card body ends--> 
+ <div class="d-inline-flex mb-2  " style="display:inline-flex;width:100%">
+  <div class="col-md-2 overflow-auto white-bg px-0 pl-2 " style="display:inline-block;flex: 1 100%;">
+    <div>
+      	 <!--Accordion wrapper-->
+<div class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true" >
+
+  <!-- Accordion card -->
+  <div class="card">
+
+    <!-- Card header -->
+    <div class="card-header" role="tab" id="headingOne1">
+      <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true"
+        aria-controls="collapseOne1">
+         
+          Choose Indicator <i class="fas fa-angle-down rotate-icon"></i>
+         
+      </a>
+    </div>
+
+    <!-- Card body -->
+    <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1"
+      data-parent="#accordionEx">
+      <div class="card-body">
+        
+<div class="form-check form_Fertiliser_Sales">
+  <label class="form-check-label active">
+    <input type="radio"  class="form-check-input" name="optradio"  data-name="POS sales" checked>POS Sales
+  </label>
+</div>
+<div class="form-check form_Fertiliser_Sales">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input" name="optradio" data-name="Retail sales" >Retail Sales
+  </label>
+</div>
+  
+ 
+		
+      </div>
+    </div>
+
+  </div>
+  <!-- Accordion card -->
+
+  <!-- Accordion card -->
+  <div class="card side_panel_subcategory">
+
+    <!-- Card header -->
+    <div class="card-header" role="tab" id="headingTwo2">
+      <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo2"
+        aria-expanded="false" aria-controls="collapseTwo2">
+         
+          Choose Sub-category <i class="fa fa-angle-down rotate-icon"></i>
+         
+      </a>
+    </div>
+
+    <!-- Card body -->
+    <div id="collapseTwo2" class="collapse show" role="tabpanel" aria-labelledby="headingTwo2"
+      data-parent="#accordionEx">
+      <div class="card-body">
+	  <div class="form-check form2_Fertiliser_sales">
+        <label class="form-check-label">
+    <input type="radio" class="form-check-input" name="optradio2" data-name="Compost" >Compost
+  </label>
+</div>
+<div class="form-check form2_Fertiliser_sales">
+  <label class="form-check-label ">
+    <input type="radio" class="form-check-input" name="optradio2" data-name="DAP">DAP
+  </label>
+</div>
+<div class="form-check form2_Fertiliser_sales">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input" name="optradio2" data-name="MOP" >MOP
+  </label>
+</div>
+<div class="form-check form2_Fertiliser_sales">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input" name="optradio2" data-name="P&K">P&K
+  </label>
+</div>
+<div class="form-check form2_Fertiliser_sales ">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input" name="optradio2"  data-name="SSP">SSP
+  </label>
+</div>
+<div class="form-check form2_Fertiliser_sales">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input" name="optradio2" data-name="Urea" >Urea
+  </label>
+</div>
+<div class="form-check form2_Fertiliser_sales">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input" name="optradio2" checked  data-name="Total">Total
+  </label>
+</div>
+		
+      </div>
+    </div>
+
+  </div>
+  <!-- Accordion card -->
+
+  <!-- Accordion card -->
+  <div class="card side_panel_subcategory2" style="display:none">
+
+    <!-- Card header -->
+    <div class="card-header" role="tab" id="headingTwo2">
+      <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo2"
+        aria-expanded="false" aria-controls="collapseTwo2">
+         
+          Choose Sub-category-2 <i class="fa fa-angle-down rotate-icon"></i>
+         
+      </a>
+    </div>
+
+    <!-- Card body -->
+    <div id="collapse3" class="collapse" role="tabpanel" aria-labelledby="headingTwo2"
+      data-parent="#accordionEx">
+      <div class="card-body">
+	  </div>
+	  </div>
+	  </div>
+		<!-- Accordion card -->
+		
+		
+		<!-- Accordion card -->
+  <div class="card side_panel_subcategory3"  style="display:none">
+
+    <!-- Card header -->
+    <div class="card-header" role="tab" id="headingThree3">
+      <a id="link_to_modal">Click to filter by subcategory-3           
+      </a>
+    </div>
+
+
+	  </div>
+		<!-- Accordion card -->
+</div>
+<!-- Accordion wrapper -->
+    </div>
+	
+		 
+	</div>	
+	
+    <div class="col col-md-6 px-0 pl-2" style="display:inline-block;flex: 1 100%;">
+	<div data-type="Text" data-name="Economic Activity Tracker"   style="display:inline-flex;width:100%" >
+		<div id="Economic_Activity_Tracker" style="display:inline-block;flex: 1 100%;"><span>Fertiliser Sales Tracker</span></div>
+		<div class="px-2" style="display:inline-block;flex: 1 100%;" > 
+		 <text id="explanation_text">Fertiliser sales at POS  </text>
+	 </div>
+		
+	</div>
+	<div class="white-bg">
+	
+	
+
+
+     <div class="row m-0 p-2">
+<!-- Data/Change% switch -->
+	 <div id="date_dropdown"  >
+	 As of:
+	 <select class="border-0 p-0" id="date_select" style ="font-size:100%;display:inline;width:auto;height:auto;color:#858796 "> 
+	 
+	 </select>
+	 </div>
+
+	<div data-type="Text" data-name="In India, as of July 31, 2020 the EMPLOYMENT in ALL industries has grown in Bihar." id="geo_dropdown"  >
+	 
+   <div class="form-group " style ="display:inline-block;width:50%;text-align:left;margin-right:5px;border-bottom:1px solid grey; " >
+  
+   
+   <select class="border-0 p-0" id="covid_state_select" style ="font-size:100%;display:inline;width:90%;height:auto;color:#858796 ">
+     <option value = "999" selected>All India</option>
+    <option value = "35">Andaman and Nicobar Islands</option>
+<option value = "28">Andhra Pradesh</option>
+<option value = "12">Arunachal Pradesh</option>
+<option value = "18">Assam</option>
+<option value = "10">Bihar</option>
+<option value = "4">Chandigarh</option>
+<option value = "22">Chhattisgarh</option>
+<option value = "26">Dadra and Nagar Haveli</option>
+<option value = "25">Daman and Diu</option>
+<option value = "7">Delhi</option>
+
+<option value = "30">Goa</option>
+<option value = "24">Gujarat</option>
+<option value = "6">Haryana</option>
+<option value = "2">Himachal Pradesh</option>
+<option value = "1">Jammu and Kashmir</option>
+<option value = "20">Jharkhand</option>
+
+<option value = "29">Karnataka</option>
+<option value = "32">Kerala</option>
+<option value = "37">Ladakh</option>
+<option value = "31">Lakshadweep</option>
+<option value = "23">Madhya Pradesh</option>
+<option value = "27">Maharashtra</option>
+<option value = "14">Manipur</option>
+<option value = "17">Meghalaya</option>
+
+
+<option value = "15">Mizoram</option>
+<option value = "13">Nagaland</option>
+<option value = "21">Odisha</option>
+<option value = "34">Puducherry</option>
+ <option value = "3">Punjab</option>
+
+<option value = "8">Rajasthan</option>
+<option value = "11">Sikkim</option>
+<option value = "33">Tamil Nadu</option>
+<option value = "36">Telangana</option>
+<option value = "16">Tripura</option>
+<option value = "9">Uttar Pradesh</option>
+<option value = "5">Uttarakhand</option>
+
+<option value = "19">West Bengal</option>
+
+
+
+
+  </select></div>
+   <div class="form-group" style="display:inline-block;margin-bottom:1em;width:40%;border-bottom:1px solid grey">
+  
+   <select class="border-0 p-0" id="covid_dist_select" style ="font-size:100%;width:auto;display:inline;height:auto;color:#858796">
+     <option value="All" class="All">All districts</option>
+	 
+	 </select>
+</div> 
+	
+	
+		 
+	</div>
+	</div>
+	
+      <div data-type="Rectangle" data-name="Rectangle 243" class="text-center" id="perfmap">
+		 
+	</div>
+	
+	<div class="btn-group btn-group-xs switch_div" role="group" aria-label="Basic example">
+  <button type="button" class="btn btn-link text1 active" value="on" >Actual</button>
+  |<button type="button" class="btn btn-link text2" value="off">% Change</button>
+  
+</div>
+
+    </div>
+    </div>
+    <div class="col-md-4 px-0 pl-2"  style="display:inline-block;flex: 1 100%;">
+      <div data-type="Text" data-name="Economic Activity Tracker" id="Economic_Activity_Tracker1">
+		<span>Fertiliser Sales timeline</span>
+		</div>
+		<div class="white-bg" height="200px" id="line_series_div">
+     
+    </div>
+	<div class="row mx-0">
+	<div data-type="Text" data-name="Economic Activity Tracker" id="Economic_Activity_Tracker2" class="mt-3" style="display:inline-flex;width:100%">
+		<div  style="display:inline-block;flex: 1 100%;">
+		<span>Fertiliser Sales Tabular data</span>
+		</div>
+		<div  class="pr-2 text-right" style="display:inline-block;flex: 1 100%;" > 
+			<span class="buttons-csv fa fa-download" tabindex="0"  id="exportLink"> </span>
+		  </div>
+		<div  style="display:inline-block;flex: 1 100%;" > 
+		  <input type="text" id="searchbox" class="w-100" placeholder="Search">
+		  
+	 </div>
+		</div>
+		<div class="data-trail"></div>
+		</div>
+		<div class="white-bg" >
+           <table id="data_table" >
+				<thead>
+					<tr>
+						<th>Date</th>
+						<th>Geography</th>
+						<th>Data</th>
+					</tr>
+				</thead>
+				<tbody>
+					
+				</tbody>
+			</table>
+    </div>
+    </div>
+    </div>
+	
+	
+  </div>
+</div> 
+
+
+
+
+<script src="https://kit.fontawesome.com/14a5b9a5ff.js" crossorigin="anonymous"></script>
+ 
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  
+<script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js" ></script>
+  
+<script src="https://cdn.datatables.net/buttons/1.6.4/js/dataTables.buttons.min.js"></script>
+<script src=
+"https://cdn.datatables.net/buttons/1.6.4/js/buttons.html5.min.js"></script>
+
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://d3js.org/topojson.v1.min.js"></script>
+<script src="https://d3js.org/queue.v1.min.js"></script>
+<script src="assets/js/d3-ring-note.js"></script>
+
+ 
+
+<script id="mapScript" type="text/javascript" src="assets/js/d3-line-chunked/d3-line-chunked.js"></script>
+<script src="https://unpkg.com/d3-interpolate-path/build/d3-interpolate-path.min.js"></script>
+
+<script   type="text/javascript" src="assets/js/tseries_table.js"></script>
+<script   type="text/javascript" src="assets/js/side_panel.js"></script>
+<script src="https://raw.githack.com/susielu/d3-annotation/3f126d6b/d3-annotation.min.js"></script>
+<script id="mapScript" type="text/javascript" src="assets/js/map.js"></script>
+
+</body>
+</html>

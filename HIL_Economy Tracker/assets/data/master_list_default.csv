@@ -1,0 +1,218 @@
+indicator,default,aspectid,date
+Fertiliser sales,POS sales,,1
+Fertiliser sales*POS sales,Total,10170,1
+Fertiliser sales*Retail sales,Total,10270,3
+Vehicle Registrations,Vehicle category,,1
+Vehicle Registrations*Vehicle category,Transport,50110,1
+Vehicle Registrations*Personal Transport,Two-wheelers,50210,1
+Vehicle Registrations*Commercial vehicles,Agricultural vehicles,50310,1
+Vehicle Registrations*Commercial vehicles*Passenger Transport,Bus,50331,1
+Banking and Finance,Credit,,1
+Banking and Finance*Credit,Total credit,20011,1
+Banking and Finance*Deposit,Total deposits,20024,1
+Banking and Finance*Number of Reporting Offices,Total,20031,1
+MNREGA,Demand projections met (%),30011,1
+Companies and Establishments,Companies under MCA,,1
+Companies and Establishments*Companies under MCA,Number of companies Registered,,1
+Companies and Establishments*Companies under MCA*Number of companies Registered,All categories,901100,1
+Companies and Establishments*Companies under MCA*Total paid-up capital,All categories,901500,1
+Companies and Establishments*Companies under MCA*Total share capital,All categories,901600,1
+Companies and Establishments*Foreign companies,Total foreign companies registered,,1
+Companies and Establishments*Foreign companies*Total foreign companies registered,All categories,902400,1
+Companies and Establishments*LLPs,Number of LLPs Registered,,
+Companies and Establishments*LLPs*Number of LLPs Registered,All categories,903200,1
+Companies and Establishments*LLPs*Obligation of contribution,All categories,903300,1
+Companies and Establishments*MSMEs,Manufacturing,,
+Companies and Establishments*MSMEs*Manufacturing,Micro,,
+Companies and Establishments*MSMEs*Services,Micro,,
+Companies and Establishments*MSMEs*Manufacturing*Medium,Companies,40111,1
+Companies and Establishments*MSMEs*Manufacturing*Micro,Companies,40121,1
+Companies and Establishments*MSMEs*Manufacturing*Small,Companies,40131,1
+Companies and Establishments*MSMEs*Services*Medium,Companies,40211,1
+Companies and Establishments*MSMEs*Services*Micro,Companies,40221,1
+Companies and Establishments*MSMEs*Services*Small,Companies,40231,1
+Formal employment,Total PF amount paid,,1
+Formal employment*Total PF amount paid,All firms,,1
+Formal employment*Firms missing PF dues,All firms,,1
+Formal employment*Total number of employees,All firms,,1
+Formal employment*Total PF paying firms,All firms,,1
+Formal employment*Total PF amount paid*All firms,All sectors,,1
+Formal employment*Firms missing PF dues*All firms,All sectors,,1
+Formal employment*Total number of employees*All firms,All sectors,,1
+Formal employment*Total PF paying firms*All firms,All sectors,,1
+Formal employment*Total PF amount paid*All firms*All sectors,All sectors,620010,1
+Formal employment*Firms missing PF dues*All firms*All sectors,All sectors,630010,1
+Formal employment*Total number of employees*All firms*All sectors,All sectors,600010,1
+Formal employment*Total PF paying firms*All firms*All sectors,All sectors,610010,1
+Formal employment*Total PF amount paid*Small,All sectors,,1
+Formal employment*Firms missing PF dues*Small,All sectors,,1
+Formal employment*Total number of employees*Small,All sectors,,1
+Formal employment*Total PF paying firms*Small,All sectors,,1
+Formal employment*Total PF amount paid*Medium,All sectors,,1
+Formal employment*Firms missing PF dues*Medium,All sectors,,1
+Formal employment*Total number of employees*Medium,All sectors,,1
+Formal employment*Total PF paying firms*Medium,All sectors,,1
+Formal employment*Total PF amount paid*Large,All sectors,,1
+Formal employment*Firms missing PF dues*Large,All sectors,,1
+Formal employment*Total number of employees*Large,All sectors,,1
+Formal employment*Total PF paying firms*Large,All sectors,,1
+Formal employment*Total PF amount paid*Large*Manufacturing,Construction,6031230,1
+Formal employment*Firms missing PF dues*Large*Manufacturing,Construction,6011230,1
+Formal employment*Total number of employees*Large*Manufacturing,Construction,6021230,1
+Formal employment*Total PF paying firms*Large*Manufacturing,Construction,6041230,1
+Formal employment*Total PF amount paid*Medium*Manufacturing,Construction,6032230,1
+Formal employment*Firms missing PF dues*Medium*Manufacturing,Construction,6012230,1
+Formal employment*Total number of employees*Medium*Manufacturing,Construction,6022230,1
+Formal employment*Total PF paying firms*Medium*Manufacturing,Construction,6042230,1
+Formal employment*Total PF amount paid*Small*Manufacturing,Construction,6033230,1
+Formal employment*Firms missing PF dues*Small*Manufacturing,Construction,6013230,1
+Formal employment*Total number of employees*Small*Manufacturing,Construction,6023230,1
+Formal employment*Total PF paying firms*Small*Manufacturing,Construction,6043230,1
+Formal employment*Total PF amount paid*Large*Agriculture,Farm and farming products,6031222,1
+Formal employment*Firms missing PF dues*Large*Agriculture,Farm and farming products,6011130,1
+Formal employment*Total number of employees*Large*Agriculture,Farm and farming products,6021130,1
+Formal employment*Total PF paying firms*Large*Agriculture,Farm and farming products,6041130,1
+Formal employment*Total PF amount paid*Medium*Agriculture,Farm and farming products,6032130,1
+Formal employment*Firms missing PF dues*Medium*Agriculture,Farm and farming products,6012130,1
+Formal employment*Total number of employees*Medium*Agriculture,Farm and farming products,6022130,1
+Formal employment*Total PF paying firms*Medium*Agriculture,Farm and farming products,6042130,1
+Formal employment*Total PF amount paid*Small*Agriculture,Farm and farming products,6033130,1
+Formal employment*Firms missing PF dues*Small*Agriculture,Farm and farming products,6013130,1
+Formal employment*Total number of employees*Small*Agriculture,Farm and farming products,6023130,1
+Formal employment*Total PF paying firms*Small*Agriculture,Farm and farming products,6043130,1
+Formal employment*Total PF amount paid*Large*Others,Others,6031350,1
+Formal employment*Firms missing PF dues*Large*Others,Others,6011350,1
+Formal employment*Total number of employees*Large*Others,Others,6021350,1
+Formal employment*Total PF paying firms*Large*Others,Others,6041350,1
+Formal employment*Total PF amount paid*Medium*Others,Others,6032350,1
+Formal employment*Firms missing PF dues*Medium*Others,Others,6012350,1
+Formal employment*Total number of employees*Medium*Others,Others,6022350,1
+Formal employment*Total PF paying firms*Medium*Others,Others,6042350,1
+Formal employment*Total PF amount paid*Small*Others,Others,6033350,1
+Formal employment*Firms missing PF dues*Small*Others,Others,6013350,1
+Formal employment*Total number of employees*Small*Others,Others,6023350,1
+Formal employment*Total PF paying firms*Small*Others,Others,6043350,1
+Formal employment*Total PF amount paid*Large*Services,Automobile,6031414,1
+Formal employment*Firms missing PF dues*Large*Services,Automobile,6011414,1
+Formal employment*Total number of employees*Large*Services,Automobile,6021414,1
+Formal employment*Total PF paying firms*Large*Services,Automobile,6041414,1
+Formal employment*Total PF amount paid*Medium*Services,Automobile,6032414,1
+Formal employment*Firms missing PF dues*Medium*Services,Automobile,6012414,1
+Formal employment*Total number of employees*Medium*Services,Automobile,6022414,1
+Formal employment*Total PF paying firms*Medium*Services,Automobile,6042414,1
+Formal employment*Total PF amount paid*Small*Services,Automobile,6033414,1
+Formal employment*Firms missing PF dues*Small*Services,Automobile,6013414,1
+Formal employment*Total number of employees*Small*Services,Automobile,6023414,1
+Formal employment*Total PF paying firms*Small*Services,Automobile,6043414,1
+Formal employment*Total PF amount paid*Large*Trading,Commercial Establishment,6031520,1
+Formal employment*Firms missing PF dues*Large*Trading,Commercial Establishment,6011520,1
+Formal employment*Total number of employees*Large*Trading,Commercial Establishment,6021520,1
+Formal employment*Total PF paying firms*Large*Trading,Commercial Establishment,6041520,1
+Formal employment*Total PF amount paid*Medium*Trading,Commercial Establishment,6032520,1
+Formal employment*Firms missing PF dues*Medium*Trading,Commercial Establishment,6012520,1
+Formal employment*Total number of employees*Medium*Trading,Commercial Establishment,6022520,1
+Formal employment*Total PF paying firms*Medium*Trading,Commercial Establishment,6042520,1
+Formal employment*Total PF amount paid*Small*Trading,Commercial Establishment,6033520,1
+Formal employment*Firms missing PF dues*Small*Trading,Commercial Establishment,6013520,1
+Formal employment*Total number of employees*Small*Trading,Commercial Establishment,6023520,1
+Formal employment*Total PF paying firms*Small*Trading,Commercial Establishment,6043520,1
+Agmarket commodities,Cereals,,1
+Agmarket commodities*Beverages,Cocoa,,1
+Agmarket commodities*Beverages*Cocoa,Arrivals (Tonnes),811121,1
+Agmarket commodities*Beverages*Coffee,Arrivals (Tonnes),811111,1
+Agmarket commodities*Cereals,Wheat,,1
+Agmarket commodities*Cereals*Wheat,Arrivals (Tonnes),812151,1
+Agmarket commodities*Drug and Narcotics,Tobacco,,1
+Agmarket commodities*Drug and Narcotics*Betal Leaves,Arrivals (Tonnes),813111,1
+Agmarket commodities*Drug and Narcotics*Tobacco,Arrivals (Tonnes),813121,1
+Agmarket commodities*Dry Fruits,Cashewnuts,,1
+Agmarket commodities*Dry Fruits*Almond(Badam),Arrivals (Tonnes),813151,4
+Agmarket commodities*Dry Fruits*Cashewnuts,Arrivals (Tonnes),813131,1
+Agmarket commodities*Dry Fruits*Dry Grapes,Arrivals (Tonnes),813141,1
+Agmarket commodities*Dry Fruits*Walnut,Arrivals (Tonnes),813161,1
+Agmarket commodities*Fibre Crops,Cotton,,1
+Agmarket commodities*Fibre Crops*Cotton,Arrivals (Tonnes),814121,1
+Agmarket commodities*Fibre Crops*Jute,Arrivals (Tonnes),814111,1
+Agmarket commodities*Forest Products,Wood,,1
+Agmarket commodities*Forest Products*Bamboo,Arrivals (Tonnes),815131,1
+Agmarket commodities*Forest Products*Broomstick(Flower Broom),Arrivals (Tonnes),815121,1
+Agmarket commodities*Forest Products*Wood,Arrivals (Tonnes),815111,1
+Agmarket commodities*Fruits,Banana,,1
+Agmarket commodities*Fruits*Apple,Arrivals (Tonnes),816121,1
+Agmarket commodities*Fruits*Banana,Arrivals (Tonnes),816111,1
+Agmarket commodities*Fruits*Grapes,Arrivals (Tonnes),816151,1
+Agmarket commodities*Fruits*Guava,Arrivals (Tonnes),816161,1
+Agmarket commodities*Fruits*Orange,Arrivals (Tonnes),816131,1
+Agmarket commodities*Fruits*Papaya,Arrivals (Tonnes),816141,1
+Agmarket commodities*Live Stock Poultry Fisheries,Egg,,1
+Agmarket commodities*Live Stock Poultry Fisheries*Egg,Arrivals (Tonnes),817141,1
+Agmarket commodities*Live Stock Poultry Fisheries*Fish,Arrivals (Tonnes),817131,1
+Agmarket commodities*Live Stock Poultry Fisheries*Goat,Arrivals (Tonnes),817111,1
+Agmarket commodities*Live Stock Poultry Fisheries*Hen,Arrivals (Tonnes),817121,1
+Agmarket commodities*Oil Seeds,Groundnut,,1
+Agmarket commodities*Oil Seeds*Castor Seed,Arrivals (Tonnes),818141,1
+Agmarket commodities*Oil Seeds*Groundnut,Arrivals (Tonnes),818131,1
+Agmarket commodities*Oil Seeds*Mustard,Arrivals (Tonnes),818111,1
+Agmarket commodities*Oil Seeds*Soyabean,Arrivals (Tonnes),818121,1
+Agmarket commodities*Oils and Fats,Mustard Oil,,1
+Agmarket commodities*Oils and Fats*Butter,Arrivals (Tonnes),819151,1
+Agmarket commodities*Oils and Fats*Coconut Oil,Arrivals (Tonnes),819121,1
+Agmarket commodities*Oils and Fats*Dalda,Arrivals (Tonnes),819141,1
+Agmarket commodities*Oils and Fats*Ghee,Arrivals (Tonnes),819131,1
+Agmarket commodities*Oils and Fats*Mustard Oil,Arrivals (Tonnes),819111,1
+Agmarket commodities*Other,Sugarcane,,1
+Agmarket commodities*Other*Gramflour,Arrivals (Tonnes),820161,1
+Agmarket commodities*Other*Gur(Jaggery),Arrivals (Tonnes),820111,1
+Agmarket commodities*Other*Maida Atta,Arrivals (Tonnes),820121,1
+Agmarket commodities*Other*Sugar,Arrivals (Tonnes),820141,1
+Agmarket commodities*Other*Sugarcane,Arrivals (Tonnes),820151,1
+Agmarket commodities*Other*Wheat Atta,Arrivals (Tonnes),820131,1
+Agmarket commodities*Pulses,Arhar Dal(Tur Dal),,1
+Agmarket commodities*Spices,Cummin Seed(Jeera),,1
+Agmarket commodities*Vegetables,Onion,,1
+Covid-19,Total cumulative cases,11002,1
+Rainfall,Rainfall departures,13000,1
+Agmarket commodities*Cereals*Bajra(Pearl Millet/Cumbu),Arrivals (Tonnes),812161,1
+Agmarket commodities*Cereals*Jowar(Sorghum),Arrivals (Tonnes),812111,1
+Agmarket commodities*Cereals*Maize,Arrivals (Tonnes),812121,1
+Agmarket commodities*Cereals*Paddy(Dhan),Arrivals (Tonnes),812131,1
+Agmarket commodities*Cereals*Rice,Arrivals (Tonnes),812141,1
+Agmarket commodities*Pulses*Arhar (Tur/Red Gram)(Whole),Arrivals (Tonnes),821111,1
+Agmarket commodities*Pulses*Arhar Dal(Tur Dal),Arrivals (Tonnes),821181,1
+Agmarket commodities*Pulses*Beans,Arrivals (Tonnes),821211,1
+Agmarket commodities*Pulses*Bengal Gram Dal (Chana Dal),Arrivals (Tonnes),821141,1
+Agmarket commodities*Pulses*Bengal Gram(Gram)(Whole),Arrivals (Tonnes),821121,1
+Agmarket commodities*Pulses*Green Gram (Moong)(Whole),Arrivals (Tonnes),821171,1
+Agmarket commodities*Pulses*Green Gram Dal (Moong Dal),Arrivals (Tonnes),821151,1
+Agmarket commodities*Pulses*Green Peas,Arrivals (Tonnes),821191,1
+Agmarket commodities*Pulses*Kabuli Chana(Chickpeas-White),Arrivals (Tonnes),821201,1
+Agmarket commodities*Pulses*Lentil (Masur)(Whole),Arrivals (Tonnes),821131,1
+Agmarket commodities*Pulses*Masur Dal,Arrivals (Tonnes),821161,1
+Agmarket commodities*Spices*Ajwan,Arrivals (Tonnes),822151,1
+Agmarket commodities*Spices*Black pepper,Arrivals (Tonnes),822181,1
+Agmarket commodities*Spices*Cardamoms,Arrivals (Tonnes),822211,1
+Agmarket commodities*Spices*Chili Red,Arrivals (Tonnes),822191,1
+Agmarket commodities*Spices*Cinamon(Dalchini),Arrivals (Tonnes),822241,1
+Agmarket commodities*Spices*Cloves,Arrivals (Tonnes),822221,1
+Agmarket commodities*Spices*Coconut,Arrivals (Tonnes),822131,1
+Agmarket commodities*Spices*Corriander seed,Arrivals (Tonnes),822161,1
+Agmarket commodities*Spices*Cummin Seed(Jeera),Arrivals (Tonnes),822141,1
+Agmarket commodities*Spices*Dry Chillies,Arrivals (Tonnes),822111,1
+Agmarket commodities*Spices*Garlic,Arrivals (Tonnes),822121,1
+Agmarket commodities*Spices*Methi Seeds,Arrivals (Tonnes),822171,1
+Agmarket commodities*Spices*Pepper garbled,Arrivals (Tonnes),822231,1
+Agmarket commodities*Spices*Turmeric,Arrivals (Tonnes),822201,1
+Agmarket commodities*Vegetables*Bhindi(Ladies Finger),Arrivals (Tonnes),823111,1
+Agmarket commodities*Vegetables*Brinjal,Arrivals (Tonnes),823121,1
+Agmarket commodities*Vegetables*Cabbage,Arrivals (Tonnes),823131,1
+Agmarket commodities*Vegetables*Capsicum,Arrivals (Tonnes),823201,1
+Agmarket commodities*Vegetables*Cauliflower,Arrivals (Tonnes),823141,1
+Agmarket commodities*Vegetables*Coriander(Leaves),Arrivals (Tonnes),823211,1
+Agmarket commodities*Vegetables*Cucumbar(Kheera),Arrivals (Tonnes),823151,1
+Agmarket commodities*Vegetables*Drumstick,Arrivals (Tonnes),823221,1
+Agmarket commodities*Vegetables*Green Chilli,Arrivals (Tonnes),823161,1
+Agmarket commodities*Vegetables*Onion,Arrivals (Tonnes),823191,1
+Agmarket commodities*Vegetables*Potato,Arrivals (Tonnes),823171,1
+Agmarket commodities*Vegetables*Tomato,Arrivals (Tonnes),823181,1
+Satellite data,Nightlights,80001,1
+Economic Activity Index,Diffusion index,999999,1
